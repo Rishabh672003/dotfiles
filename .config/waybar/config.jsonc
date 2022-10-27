@@ -1,0 +1,170 @@
+{
+  "layer": "top",
+  "position": "top",
+  "height": 38,
+
+  "modules-left": ["custom/launcher", "wlr/workspaces", "custom/spotify"],
+  "modules-center": ["clock"],
+  "modules-right": [
+    "tray",
+    "custom/caffeine",
+    "inhibitor",
+    "custom/updates",
+    "network",
+    "memory",
+    "cpu",
+    "backlight",
+    "pulseaudio",
+    "battery"
+  ],
+
+  "custom/launcher": {
+    "format": "<span color='#F38BA8'> </span>",
+    "on-click": "wofi --show drun --insensitive --allow-images"
+    // "on-click": "rofi -show drun"
+  },
+
+  "wlr/workspaces": {
+    "disable-scroll": false,
+    "all-outputs": true,
+    "on-click": "activate",
+    "format": "{icon}",
+    "persistent_workspaces": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [],
+      "5": [],
+      "6": [],
+      "7": [],
+      "8": [],
+      "9": [],
+      "10": []
+    }
+    // "format-icons": {
+    //   "1": "",
+    //   "2": "",
+    //   "3": "ﭮ",
+    //   "4": "",
+    //   "5": "",
+    //   "6": "",
+    //   "7": "7.",
+    //   "8": "8.",
+    //   "9": "9.",
+    //   "10": "10.",
+    //   // "default": "",
+    //   // "active": ""
+    // }
+  },
+  "inhibitor": {
+    "what": "idle",
+    "format": "{icon}",
+    "format-icons": {
+      "activated": "",
+      "deactivated": ""
+    }
+  },
+  "custom/waybar-media": {
+    "return-type": "json",
+    "exec": "waybar-media.py status",
+    "on-click": "waybar-media.py playpause",
+    "on-scroll-up": "waybar-media.py previous",
+    "on-scroll-down": "waybar-media.py next",
+    "escape": true
+  },
+  "custom/caffeine": {
+    "exec": "~/.config/waybar/scripts/caffeine.sh",
+    "return-type": "json",
+    "interval": 3,
+    "format-icons": ["﯈", ""],
+    "format": "{icon}"
+  },
+  "custom/updates": {
+    "exec": "(checkupdates ; paru -Qua) | wc -l",
+    "interval": 12000,
+    "format": " {}",
+    "on-click": "wezterm start yay -Syu --noconfirm --devel"
+  },
+  "tray": {
+    "icon-size": 17,
+    "spacing": 10
+  },
+  "backlight": {
+    "device": "intel_backlight",
+    "format": "{icon} {percent}%",
+    "format-icons": ["", "", ""],
+    "on-scroll-up": "brightnessctl set 1%+",
+    "on-scroll-down": "brightnessctl set 1%-",
+    "min-length": 6
+  },
+  "battery": {
+    "states": {
+      "good": 80,
+      "warning": 30,
+      "critical": 20
+    },
+    "format": "{icon} {capacity}%",
+    "format-charging": " {capacity}%",
+    "format-plugged": " {capacity}%",
+    "format-alt": "{time} {icon}",
+    "format-icons": [
+      "CHARGE-IMMEDIATELY-NOW ",
+      "Charge-immediately ",
+      "Charge-quickly ",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "clock": {
+    "format": "{: %R   %d/%m}",
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+  },
+  "network": {
+    "format-wifi": "直 {essid}",
+    "format-ethernet": " {essid}",
+    "format-linked": "{ifname} (No IP) ",
+    "format-disconnected": "睊 Disc.",
+    "tooltip-format-wifi": "Signal Strenght: {signalStrength}% | Down Speed: {bandwidthDownBits}, Up Speed: {bandwidthUpBits}",
+    // "on-click": "wofi-wifi-menu",
+    "on-click": "alacritty -e nmtui"
+  },
+  "cpu": {
+    "interval": 10,
+    "format": " {}%",
+    "max-length": 10
+  },
+  "memory": {
+    "interval": 30,
+    "format": " {used:0.1f}G/{total:0.1f}G",
+    "max-length": 15
+  },
+  "pulseaudio": {
+    "format": "{icon} {volume}%",
+    "format-muted": "ﱝ Muted",
+    "on-click": "~/.config/hypr/scripts/volume_ctl.sh",
+    "scroll-step": 1,
+    "format-icons": {
+      "headphone": "",
+      "hands-free": "",
+      "headset": "",
+      "phone": "",
+      "portable": "",
+      "car": "",
+      "default": ["", "", "墳", ""]
+    }
+  },
+  "custom/spotify": {
+    "exec": "$HOME/.config/waybar/scripts/spotify.sh",
+    "max-length": 50,
+    "format": " {}",
+    "on-click": "playerctl play-pause",
+    "on-double-click": "playerctl next",
+    "on-right-click": "on-click-right"
+  }
+}
