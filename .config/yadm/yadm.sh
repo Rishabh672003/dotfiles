@@ -1,7 +1,8 @@
 #!/bin/bash
 
 yadm add ~/.gitignore;
-yadm add ~/.config/alacritty
+yadm add ~/README.md;
+yadm add ~/.config/alacritty;
 yadm add ~/.config/btop;
 yadm add ~/.config/fish;
 yadm add ~/.config/helix;
