@@ -1,0 +1,15 @@
+[Unit]
+Description=rate-arch-mirrors
+After=network.target
+
+[Service]
+User=root
+Type=simple
+WorkingDirectory=/home/rishabh/projects/my-configs/mirrors-and-hosts/
+ExecStart=/bin/sh "/home/rishabh/projects/my-configs/mirrors-and-hosts/rate-mirrors-arch.sh"
+Restart=
+StartLimitIntervalSec=
+StartLimitBurst=
+
+[Install]
+WantedBy=multi-user.target
