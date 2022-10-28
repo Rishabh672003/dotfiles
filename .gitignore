@@ -1,3 +1,4 @@
 .config/nvim/plugin
-.config/kitty/kitty-themes
+.config/lvim/plugin
 .config/mpv/watch_later/*
+.config/kitty/kitty-themes
