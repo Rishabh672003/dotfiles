@@ -21,7 +21,7 @@ yadm add ~/.config/wezterm;
 yadm add ~/.config/wofi;
 yadm add ~/.config/zsh;
 yadm add ~/.config/yadm;
-yadm add ~/projects/other-configs/configs/auto-move-windows;
+yadm add ~/projects/other-configs/auto-move-windows;
 yadm add ~/projects/other-configs/conky;
 yadm add ~/projects/other-configs/material-shell;
 yadm add ~/projects/other-configs/tilix;
