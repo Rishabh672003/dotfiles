@@ -170,6 +170,7 @@ return packer.startup(function(use)
 	})
 
 	use("folke/zen-mode.nvim")
+	use("christianchiarulli/harpoon")
 
 	-- graveyard of plugins
 
