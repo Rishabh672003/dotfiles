@@ -21,11 +21,11 @@ yadm add ~/.config/wezterm;
 yadm add ~/.config/wofi;
 yadm add ~/.config/zsh;
 yadm add ~/.config/yadm;
-yadm add ~/projects/other-configs/auto-move-windows;
-yadm add ~/projects/other-configs/conky;
-yadm add ~/projects/other-configs/material-shell;
-yadm add ~/projects/other-configs/tilix;
-yadm add ~/projects/other-configs/xfce4-terminal;
+yadm add ~/other-configs/auto-move-windows;
+yadm add ~/other-configs/conky;
+yadm add ~/other-configs/material-shell;
+yadm add ~/other-configs/tilix;
+yadm add ~/other-configs/xfce4-terminal;
 
 yadm commit -m "update";
 yadm push
