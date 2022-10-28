@@ -164,11 +164,6 @@ _G.packer_plugins = {
     path = "/home/rishabh/.local/share/nvim/site/pack/packer/start/glow.nvim",
     url = "https://github.com/ellisonleao/glow.nvim"
   },
-  harpoon = {
-    loaded = true,
-    path = "/home/rishabh/.local/share/nvim/site/pack/packer/start/harpoon",
-    url = "https://github.com/christianchiarulli/harpoon"
-  },
   ["hop.nvim"] = {
     loaded = true,
     path = "/home/rishabh/.local/share/nvim/site/pack/packer/start/hop.nvim",
