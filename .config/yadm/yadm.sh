@@ -27,5 +27,5 @@ yadm add ~/other-configs/material-shell;
 yadm add ~/other-configs/tilix;
 yadm add ~/other-configs/xfce4-terminal;
 
-yadm commit -m "update";
+yadm commit -a -m "update";
 yadm push
