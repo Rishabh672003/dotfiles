@@ -5,6 +5,8 @@ vim.api.nvim_set_hl(0, "IlluminatedWordText", { link = "Visual" })
 vim.api.nvim_set_hl(0, "IlluminatedWordRead", { link = "Visual" })
 vim.api.nvim_set_hl(0, "IlluminatedWordWrite", { link = "Visual" })
 
+-- vim.api.nvim_set_hl(0, "Pmenu", { link = "NvimTreeNormal" })
+
 require("catppuccin").setup({
 	styles = { "italic", "bold" },
 	integrations = {
@@ -14,6 +16,7 @@ require("catppuccin").setup({
 	custom_highlights = {
 		WhichKeyGroup = { fg = "#FAB387" },
 		WhichKeySeparator = { fg = "#cdd6f4" },
+		Pmenu = { guifg = "#181825" },
 	},
 })
 

@@ -101,7 +101,7 @@ return packer.startup(function(use)
 	})
 	use("p00f/nvim-ts-rainbow")
 	use("nvim-treesitter/playground")
-	use("JoosepAlviste/nvim-ts-context-commentstring")
+	use("Rishabh672003/nvim-ts-context-commentstring")
 	use("kyazdani42/nvim-web-devicons")
 
 	--alpha-nvim-dashboard
@@ -170,6 +170,7 @@ return packer.startup(function(use)
 	})
 
 	use("folke/zen-mode.nvim")
+	use("ThePrimeagen/vim-be-good")
 
 	-- graveyard of plugins
 

@@ -263,7 +263,7 @@ _G.packer_plugins = {
   ["nvim-ts-context-commentstring"] = {
     loaded = true,
     path = "/home/rishabh/.local/share/nvim/site/pack/packer/start/nvim-ts-context-commentstring",
-    url = "https://github.com/JoosepAlviste/nvim-ts-context-commentstring"
+    url = "https://github.com/Rishabh672003/nvim-ts-context-commentstring"
   },
   ["nvim-ts-rainbow"] = {
     loaded = true,
@@ -319,6 +319,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/rishabh/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
     url = "https://github.com/folke/tokyonight.nvim"
+  },
+  ["vim-be-good"] = {
+    loaded = true,
+    path = "/home/rishabh/.local/share/nvim/site/pack/packer/start/vim-be-good",
+    url = "https://github.com/ThePrimeagen/vim-be-good"
   },
   ["vim-illuminate"] = {
     loaded = true,
