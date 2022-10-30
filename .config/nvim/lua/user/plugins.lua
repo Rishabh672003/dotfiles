@@ -101,7 +101,7 @@ return packer.startup(function(use)
 	})
 	use("p00f/nvim-ts-rainbow")
 	use("nvim-treesitter/playground")
-	use("Rishabh672003/nvim-ts-context-commentstring")
+	use("JoosepAlviste/nvim-ts-context-commentstring")
 	use("kyazdani42/nvim-web-devicons")
 
 	--alpha-nvim-dashboard
