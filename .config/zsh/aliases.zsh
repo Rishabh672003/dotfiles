@@ -82,3 +82,4 @@ alias hyp='cp -r ~/.config/hypr ~/projects/hyprland-configs/ \
     cd ~/projects/hyprland-configs/'
 alias nrandom='tr -dc "A-Za-z 0-9" < /dev/urandom | fold -w100 | head -n 19999 > bigfile.txt'
 alias yl='sh ~/.config/yadm/yadm.sh'
+alias yel='yadm enter lazygit' 
