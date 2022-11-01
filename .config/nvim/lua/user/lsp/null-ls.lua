@@ -20,6 +20,7 @@ null_ls.setup({
 		diagnostics.shellcheck,
 		diagnostics.zsh,
 		diagnostics.fish,
-		-- diagnostics.flake8
+		diagnostics.eslint_d,
+		formatting.eslint_d,
 	},
 })
