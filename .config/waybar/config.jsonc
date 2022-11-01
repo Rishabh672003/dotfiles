@@ -66,14 +66,6 @@
       "deactivated": ""
     }
   },
-  "custom/waybar-media": {
-    "return-type": "json",
-    "exec": "waybar-media.py status",
-    "on-click": "waybar-media.py playpause",
-    "on-scroll-up": "waybar-media.py previous",
-    "on-scroll-down": "waybar-media.py next",
-    "escape": true
-  },
   "custom/caffeine": {
     "exec": "~/.config/waybar/scripts/caffeine.sh",
     "return-type": "json",
