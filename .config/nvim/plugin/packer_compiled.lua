@@ -300,6 +300,11 @@ _G.packer_plugins = {
     path = "/home/rishabh/.local/share/nvim/site/pack/packer/start/project.nvim",
     url = "https://github.com/ahmedkhalf/project.nvim"
   },
+  ["schemastore.nvim"] = {
+    loaded = true,
+    path = "/home/rishabh/.local/share/nvim/site/pack/packer/start/schemastore.nvim",
+    url = "https://github.com/b0o/schemastore.nvim"
+  },
   ["telescope-file-browser.nvim"] = {
     loaded = true,
     path = "/home/rishabh/.local/share/nvim/site/pack/packer/start/telescope-file-browser.nvim",
