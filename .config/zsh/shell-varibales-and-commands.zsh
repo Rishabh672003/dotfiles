@@ -22,6 +22,7 @@ export LESSHISTFILE="$XDG_CACHE_HOME"/less/history
 export TERMINFO="$XDG_DATA_HOME"/terminfo
 export TERMINFO_DIRS="$XDG_DATA_HOME"/terminfo:/usr/share/terminfo
 export HISTFILE="${XDG_STATE_HOME}"/zsh/history
+export HISTCONTROL=ignoredups:erasedups
 export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME"/npm/npmrc
 export XDG_SESSION_TYPE=wayland
 export GDK_BACKEND=wayland
@@ -30,4 +31,5 @@ export RUSTUP_HOME="$XDG_DATA_HOME"/rustup
 export ANDROID_HOME="$XDG_DATA_HOME"/android
 export GTK2_RC_FILES="$XDG_CONFIG_HOME"/gtk-2.0/gtkrc
 export XCURSOR_PATH=/usr/share/icons:${XDG_DATA_HOME}/icons
+export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 compinit -d "$XDG_CACHE_HOME"/zsh/zcompdump-"$ZSH_VERSION"

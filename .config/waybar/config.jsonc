@@ -2,9 +2,14 @@
   "layer": "top",
   "position": "top",
   "height": 38,
-
-  "modules-left": ["custom/launcher", "wlr/workspaces", "custom/spotify"],
-  "modules-center": ["clock"],
+  "modules-left": [
+    "custom/launcher",
+    "wlr/workspaces",
+    "custom/spotify"
+  ],
+  "modules-center": [
+    "clock"
+  ],
   "modules-right": [
     "tray",
     "custom/caffeine",
@@ -17,13 +22,11 @@
     "pulseaudio",
     "battery"
   ],
-
   "custom/launcher": {
     "format": "<span color='#F38BA8'> </span>",
     "on-click": "wofi --show drun --insensitive --allow-images"
     // "on-click": "rofi -show drun"
   },
-
   "wlr/workspaces": {
     "disable-scroll": false,
     "all-outputs": true,
@@ -70,7 +73,10 @@
     "exec": "~/.config/waybar/scripts/caffeine.sh",
     "return-type": "json",
     "interval": 3,
-    "format-icons": ["﯈", ""],
+    "format-icons": [
+      "﯈",
+      ""
+    ],
     "format": "{icon}"
   },
   "custom/updates": {
@@ -86,7 +92,11 @@
   "backlight": {
     "device": "intel_backlight",
     "format": "{icon} {percent}%",
-    "format-icons": ["", "", ""],
+    "format-icons": [
+      "",
+      "",
+      ""
+    ],
     "on-scroll-up": "brightnessctl set 1%+",
     "on-scroll-down": "brightnessctl set 1%-",
     "min-length": 6
@@ -150,7 +160,12 @@
       "phone": "",
       "portable": "",
       "car": "",
-      "default": ["", "", "墳", ""]
+      "default": [
+        "",
+        "",
+        "墳",
+        ""
+      ]
     }
   },
   "custom/spotify": {
