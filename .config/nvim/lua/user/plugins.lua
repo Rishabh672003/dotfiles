@@ -57,7 +57,6 @@ return packer.startup(function(use)
 	use({
 		"catppuccin/nvim",
 		as = "catppuccin",
-		run = "CatppuccinCompile"
 	})
 	use("folke/tokyonight.nvim")
 	-- use("EdenEast/nightfox.nvim")
@@ -85,7 +84,7 @@ return packer.startup(function(use)
 		"williamboman/mason-lspconfig.nvim",
 		"neovim/nvim-lspconfig",
 	})
-	-- shows progress of lsp
+	use("b0o/schemastore.nvim")
 	use("j-hui/fidget.nvim")
 
 	-- Quickrun Plugin
@@ -172,7 +171,6 @@ return packer.startup(function(use)
 
 	use("folke/zen-mode.nvim")
 	use("ThePrimeagen/vim-be-good")
-	use("b0o/schemastore.nvim")
 
 	-- graveyard of plugins
 
