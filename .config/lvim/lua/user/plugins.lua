@@ -1,10 +1,10 @@
 -- Additional Plugins
 lvim.plugins = {
-	{
-		"catppuccin/nvim",
-		as = "catppuccin",
-		run = ":CatppuccinCompile",
-	},
+	-- {
+	-- 	"catppuccin/nvim",
+	-- 	as = "catppuccin",
+	-- 	run = ":CatppuccinCompile",
+	-- },
 	"nvim-treesitter/playground",
 	"nvim-treesitter/nvim-treesitter-textobjects",
 	"karb94/neoscroll.nvim",
@@ -16,6 +16,10 @@ lvim.plugins = {
 	"NvChad/nvim-colorizer.lua",
 	"ghillb/cybu.nvim",
 	"moll/vim-bbye",
+	{
+		"0x100101/lab.nvim",
+		run = "cd js && npm ci",
+	},
 	-- "folke/todo-comments.nvim",
 	-- "windwp/nvim-spectre",
 	-- "f-person/git-blame.nvim",
