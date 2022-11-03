@@ -18,8 +18,3 @@ sudo pacman -Sy yadm
 ```
 yadm clone https://github.com/Rishabh672003/dotfiles
 ```
-and remove packer_compiled binaries
-```
-rm -rf ~/.config/nvim/plugin/packer_compiled.lua ~/.config/lvim/plugin/packer_compiled.lua
-```
-
