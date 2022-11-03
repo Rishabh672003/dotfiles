@@ -12,6 +12,7 @@ yadm add ~/.config/lvim;
 yadm add ~/.config/mpv;
 yadm add ~/.config/neofetch;
 yadm add ~/.config/nvim;
+yadm add ~/.config/rofi;
 yadm add ~/.config/shellfetch;
 yadm add ~/.config/sway;
 yadm add ~/.config/tmux;
