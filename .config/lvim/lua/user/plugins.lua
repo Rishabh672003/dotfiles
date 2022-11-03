@@ -1,5 +1,6 @@
 -- Additional Plugins
 lvim.plugins = {
+	"Mofiqul/dracula.nvim",
 	-- {
 	-- 	"catppuccin/nvim",
 	-- 	as = "catppuccin",

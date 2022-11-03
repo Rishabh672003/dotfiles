@@ -170,7 +170,7 @@
   },
   "custom/spotify": {
     "exec": "$HOME/.config/waybar/scripts/spotify.sh",
-    "max-length": 50,
+    "max-length": 33,
     "format": " {}",
     "on-click": "playerctl play-pause",
     "on-double-click": "playerctl next",
