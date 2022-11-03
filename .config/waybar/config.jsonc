@@ -23,7 +23,7 @@
     "battery"
   ],
   "custom/launcher": {
-    "format": "<span color='#F38BA8'> </span>",
+    "format": "<span color='#F38BA8'></span>",
     "on-click": "wofi --show drun --insensitive --allow-images"
     // "on-click": "rofi -show drun"
   },
@@ -62,6 +62,7 @@
     // }
   },
   "inhibitor": {
+    "on-click": "",
     "what": "idle",
     "format": "{icon}",
     "format-icons": {
@@ -70,6 +71,7 @@
     }
   },
   "custom/caffeine": {
+    "on-click": "",
     "exec": "~/.config/waybar/scripts/caffeine.sh",
     "return-type": "json",
     "interval": 3,
@@ -86,10 +88,12 @@
     "on-click": "wezterm start yay -Syu --noconfirm --devel"
   },
   "tray": {
+    "on-click": "",
     "icon-size": 17,
     "spacing": 10
   },
   "backlight": {
+    "on-click": "",
     "device": "intel_backlight",
     "format": "{icon} {percent}%",
     "format-icons": [
@@ -126,6 +130,7 @@
     ]
   },
   "clock": {
+    "on-click": "",
     "format": "{: %R   %d/%m}",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
   },
@@ -139,11 +144,13 @@
     "on-click": "alacritty -e nmtui"
   },
   "cpu": {
+    "on-click": "",
     "interval": 10,
     "format": " {}%",
     "max-length": 10
   },
   "memory": {
+    "on-click": "",
     "interval": 30,
     "format": " {used:0.1f}G/{total:0.1f}G",
     "max-length": 15
