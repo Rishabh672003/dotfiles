@@ -13,7 +13,7 @@ these are managed by a software called [yadm](https://github.com/TheLocehiliosan
 sudo pacman -Sy yadm
 ```
 
-#### clone the repo with yadm
+#### i would say fork this repo and then install it using yadm here the way you do it so just change the github link to your fork 
 
 ```
 yadm clone https://github.com/Rishabh672003/dotfiles
