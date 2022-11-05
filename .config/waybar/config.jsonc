@@ -7,9 +7,7 @@
     "wlr/workspaces",
     "custom/spotify"
   ],
-  "modules-center": [
-    "clock"
-  ],
+  "modules-center": ["clock"],
   "modules-right": [
     "tray",
     "custom/caffeine",
@@ -20,12 +18,12 @@
     "cpu",
     "backlight",
     "pulseaudio",
-    "battery"
+    "battery",
   ],
   "custom/launcher": {
     "format": "<span color='#F38BA8'></span>",
-    "on-click": "wofi --show drun --insensitive --allow-images"
-    // "on-click": "rofi -show drun"
+    // "on-click": "wofi --show drun --insensitive --allow-images"
+    "on-click": "rofi -show drun"
   },
   "wlr/workspaces": {
     "disable-scroll": false,
@@ -131,7 +129,7 @@
   },
   "clock": {
     "on-click": "",
-    "format": "{: %R   %d/%m}",
+    "format": "{: %d/%m   %R}",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
   },
   "network": {
@@ -153,7 +151,7 @@
     "on-click": "",
     "interval": 30,
     "format": " {used:0.1f}G/{total:0.1f}G",
-    "max-length": 15
+    "max-length": 20
   },
   "pulseaudio": {
     "format": "{icon} {volume}%",
@@ -183,4 +181,8 @@
     "on-double-click": "playerctl next",
     "on-right-click": "on-click-right"
   }
+  // "custom/exit": {
+  //   "format": "<span color='#F38BA8'>⏻</span>",
+  //   "on-click": "sh ~/.config/rofi/leave/leave.sh"
+  // }
 }

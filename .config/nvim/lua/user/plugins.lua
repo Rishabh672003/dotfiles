@@ -84,7 +84,10 @@ return packer.startup(function(use)
 		"williamboman/mason-lspconfig.nvim",
 		"neovim/nvim-lspconfig",
 	})
+	--for-json-schemas
 	use("b0o/schemastore.nvim")
+
+	--for-showing lsp progress
 	use("j-hui/fidget.nvim")
 
 	-- Quickrun Plugin

@@ -13,22 +13,6 @@ null_ls.setup({
 	sources = {
 		formatting.prettier.with({
 			extra_args = { "--no-semi", "--single-quote", "--jsx-single-quote" },
-			filetypes = {
-				"javascript",
-				"javascriptreact",
-				"typescript",
-				"typescriptreact",
-				"vue",
-				"css",
-				"scss",
-				"less",
-				"html",
-				"yaml",
-				"markdown",
-				"markdown.mdx",
-				"graphql",
-				"handlebars",
-			},
 		}),
 		-- formatting.black.with({ extra_args = { "--fast" } }),
 		formatting.autopep8,
