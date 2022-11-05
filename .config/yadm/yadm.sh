@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/env bash
 
 yadm add ~/.gitignore;
 yadm add ~/README.md;
