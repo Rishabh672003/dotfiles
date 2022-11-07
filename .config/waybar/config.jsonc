@@ -25,8 +25,8 @@
   ],
   "custom/launcher": {
     "format": "<span color='#F38BA8'></span>",
-    "on-click": "wofi --show drun --insensitive --allow-images"
-    // "on-click": "rofi -show drun"
+    // "on-click": "wofi --show drun --insensitive --allow-images"
+    "on-click": "rofi -show drun"
   },
   "wlr/workspaces": {
     "disable-scroll": false,

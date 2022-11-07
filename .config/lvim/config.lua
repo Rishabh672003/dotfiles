@@ -20,3 +20,4 @@ formatters.setup({
 	{ command = "autopep8", filetypes = { "python" } },
 	{ command = "prettier" },
 })
+lvim.format_on_save = true
