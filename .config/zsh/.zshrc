@@ -70,7 +70,9 @@ z4h source ~/.config/zsh/.p10k.zsh
 z4h source ~/projects/zsh-autoswitch-virtualenv/autoswitch_virtualenv.plugin.zsh
 
 # Use additional Git repositories pulled in with `z4h install`.
-#
+
+z4h install "zap-zsh/vim"
+
 # This is just an example that you should delete. It does nothing useful.
 # z4h source ohmyzsh/ohmyzsh/lib/diagnostics.zsh  # source an individual file
 # z4h load   ohmyzsh/ohmyzsh/plugins/emoji-clock  # load a plugin
