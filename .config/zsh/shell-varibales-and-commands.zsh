@@ -8,7 +8,7 @@ pfetch
 eval "$(zoxide init zsh)"
 
 #shell variables
-export XDG_CURRENT_DESKTOP="sway"
+export XDG_CURRENT_DESKTOP="Wayland"
 export PATH=$HOME/bin:/usr/local/bin:$HOME/.local/bin:$PATH
 export ZDOTDIR="$HOME"/.config/zsh
 export XDG_DATA_HOME=$HOME/.local/share
