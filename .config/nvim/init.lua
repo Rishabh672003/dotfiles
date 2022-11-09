@@ -28,6 +28,7 @@ local core_modules = {
 	"user.jaq",
 	"user.better-escape",
 	"user.hop",
+	"user.dapui",
 }
 
 -- Using pcall we can handle better any loading issues
