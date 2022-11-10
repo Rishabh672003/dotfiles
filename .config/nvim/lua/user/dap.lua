@@ -18,6 +18,8 @@ dap_install.setup({})
 dap_install.config("python", {})
 -- add other configs here
 
+require('dap-python').setup('~/.virtualenvs/debugpy/bin/python')
+
 dapui.setup({
 	expand_lines = true,
 	icons = { expanded = "", collapsed = "", circular = "" },
@@ -73,5 +75,3 @@ end
 dap.listeners.before.event_exited["dapui_config"] = function()
 	dapui.close()
 end
-
-require('dap-python').setup('~/.virtualenvs/debugpy/bin/python')

@@ -21,4 +21,4 @@ swaylock \
     --inside-wrong-color f38ba8 \
     --inside-clear-color a6e3a1 \
     --indicator-caps-lock \
-    --image ~/.config/hypr/wallpapers/wp1959331-mob-psycho-100-wallpapers.png
+    --image ~/.config/hypr/wallpapers/ofl08dxh34z91.jpg

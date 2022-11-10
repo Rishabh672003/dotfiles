@@ -1,7 +1,7 @@
 local core_modules = {
 	"user.impatient",
 	"user.plugins",
-	"user.colorschemes.catppuccin",
+	"user.colorschemes.tokyonight",
 	"user.lualine-themes.lualine1",
 	"user.startup-screens.startup-screen3",
 	"user.barbeque.barbeque2",
@@ -28,7 +28,7 @@ local core_modules = {
 	"user.jaq",
 	"user.better-escape",
 	"user.hop",
-	"user.dapui",
+	"user.dap",
 }
 
 -- Using pcall we can handle better any loading issues

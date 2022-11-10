@@ -163,7 +163,7 @@ return packer.startup(function(use)
 
 	-- winbar stuff
 	use("SmiteshP/nvim-navic")
-	use("utilyre/barbecue.nvim")
+	use({ "utilyre/barbecue.nvim", branch = "issue/14" })
 
 	use("max397574/better-escape.nvim")
 	use({
@@ -179,6 +179,7 @@ return packer.startup(function(use)
 	use({ "rcarriga/nvim-dap-ui", commit = "1cd4764221c91686dcf4d6b62d7a7b2d112e0b13" })
 	use({ "ravenxrz/DAPInstall.nvim", commit = "8798b4c36d33723e7bba6ed6e2c202f84bb300de" })
 	use({ "mfussenegger/nvim-dap-python", commit = "27a0eff2bd3114269bb010d895b179e667e712bd" })
+
 	-- graveyard of plugins
 
 	-- use({
