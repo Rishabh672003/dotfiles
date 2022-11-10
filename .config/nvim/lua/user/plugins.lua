@@ -163,7 +163,7 @@ return packer.startup(function(use)
 
 	-- winbar stuff
 	use("SmiteshP/nvim-navic")
-	use({ "utilyre/barbecue.nvim", branch = "issue/14" })
+	use({ "utilyre/barbecue.nvim"--[[ , branch = "issue/14"  ]]})
 
 	use("max397574/better-escape.nvim")
 	use({
@@ -173,6 +173,7 @@ return packer.startup(function(use)
 
 	use("folke/zen-mode.nvim")
 	use("ThePrimeagen/vim-be-good")
+	use("Pocco81/auto-save.nvim")
 
 	-- DAP
 	use({ "mfussenegger/nvim-dap", commit = "6b12294a57001d994022df8acbe2ef7327d30587" })

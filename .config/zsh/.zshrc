@@ -13,7 +13,6 @@ pfetch
 autoload -U +X compinit && compinit
 autoload -Uz zmv
 compinit -d "$XDG_CACHE_HOME"/zsh/zcompdump-"$ZSH_VERSION"
-SAVEHIST=1000000000
 
 # Example install plugins
 zapplug "zap-zsh/supercharge"
@@ -57,6 +56,8 @@ zapplug "romkatv/powerlevel10k"
 
 # Example install completion
 # zapcmp "esc/conda-zsh-completion" false
+
+SAVEHIST=1000000000
 
 # To customize prompt, run `p10k configure` or edit ~/.config/zsh/.p10k.zsh.
 [[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh

@@ -17,13 +17,6 @@ vim.api.nvim_create_autocmd({ "FileType" }, {
 })
 
 vim.cmd("autocmd BufEnter * ++nested if winnr('$') == 1 && bufname() == 'NvimTree_' . tabpagenr() | quit | endif")
--- vim.api.nvim_create_autocmd({ "BufEnter" }, {
---   callback = function()
---     vim.cmd [[
---       if winnr('$') == 1 && bufname() == 'NvimTree_' . tabpagenr() | quit | endif
---     ]]
---   end,
--- })
 
 vim.api.nvim_create_autocmd({ "VimResized" }, {
 	callback = function()
@@ -59,7 +52,7 @@ vim.api.nvim_create_autocmd({ "VimEnter" }, {
 vim.api.nvim_create_autocmd({ "BufWinEnter" }, {
 	callback = function()
 		local line_count = vim.api.nvim_buf_line_count(0)
-		if line_count >= 1000 then
+		if line_count >= 400000 then
 			vim.cmd("IlluminatePauseBuf")
 			vim.cmd("Gitsigns detach")
 			vim.cmd("LspStop")
@@ -80,5 +73,12 @@ vim.api.nvim_create_autocmd({ "BufWinEnter" }, {
 	pattern = "*.conf",
 	callback = function()
 		vim.cmd("set ft=conf")
+	end,
+})
+
+vim.api.nvim_create_autocmd({ "BufWinEnter" }, {
+	pattern = "plugins.lua",
+	callback = function()
+		vim.cmd("ASToggle")
 	end,
 })

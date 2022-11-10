@@ -1,0 +1,1118 @@
+nv .vim-bookmarks
+yay contour
+contour
+nv hello.log
+nv --startuptime hello.log
+yay -Rns gnome-shell
+pacman -Rc gnome
+sudo pacman -Rc gnome
+yay -S gdm
+yay -S evince nautilus
+yay -S gvfs-afc gvfs-smb gvfs-gphoto2 gvfs-nfs gvfs-goa gvfs-google gvfs-mtp
+cd ~/.config/gnome-session/
+rm -rf saved-session/
+yay -Rcns gdm
+yay gnome
+yay -S gnome-control-center
+killall -9 gnome-control-center
+cd zsh-configs
+cd hyprland-and-waybar
+cp -r ~/.config/alacritty .
+cp -r ~/.config/kitty .
+cp -r ~/.config/lvim .
+cp -r ~/.config/wezterm .
+npm i -g neovim
+npm u neovim
+npm help
+npm uninstall neovim
+nvim +Colorscheme tokyonight
+nvim +colorscheme tokyonight
+cd Neovim/
+nv Downloads/bible.txt
+nv init.lua
+nv a.apex
+nv a.cls
+neovim
+rm package.json package-lock.json
+cp -r ~/.config/hypr ~/projects/hyprland-configs/
+cd hy
+cd projects/hyp
+mkdir git-repos
+git clone https://github.com/stardust-kyun/dotfiles
+dotfiles/install.sh
+useradd -m -g wheel rj
+sudo useradd -m -g wheel rj
+cd git-repos
+passwd rj
+su rj
+su
+cd ..
+cd rj/
+cd .config/awesome/
+nvim .
+clear
+cut -d: -f1 /etc/passwd
+sudo userdel rj
+rm -rf /home/rj
+sudo rm -rf /home/rj
+sudo userdel --remove-home rj\
+
+killall -9 mocp
+indicator-kdeconnect
+sudo pacman -S yadm
+yadm -help
+yadm list
+yadm commit -m "init the repo"
+git remote get-url "https://github.com/Rishabh672003/dotfiles"
+git remote set-url "https://github.com/Rishabh672003/dotfiles"
+yadm remote set-url "https://github.com/Rishabh672003/dotfiles"
+git remote add "dotfiles"
+git remote add "github.com"
+yadm --help
+yadm add remote-url
+yadm set remote-url
+git --help
+yadm remote set-url
+yadm remote set-url --add "dotfiles" "https://github.com/Rishabh672003/dotfiles"
+yadm remote set-url --add dotfiles "https://github.com/Rishabh672003/dotfiles"
+yadm remote set-url --add 'dotfiles' "https://github.com/Rishabh672003/dotfiles"
+yadm remote set-url --add "https://github.com/Rishabh672003/dotfiles"
+yadm remote set-url --add https://github.com/Rishabh672003/dotfiles
+gh repo clone Rishabh672003/dotfiles
+sudo cp -r .git/* .
+rm -rf .git/
+yadm add ~/.config/waybar
+rm -rf repo.git/
+sudo rm -rf repo.git/
+mkdir repo.git
+sudo cp -r ~/dotfiles/.git/* ~/.local/share/yadm/repo.git/
+rm -rf ~/.local/share/yadm/
+sudo rm -rf ~/.local/share/yadm/
+yadm
+git config --help
+cd .local/share/yadm
+cp -r dotfiles/.git ~/.local/share/yadm/repo.git
+cp -r ~/dotfiles/.git ~/.local/share/yadm/repo.git
+yadm add ~/.config/hypr/
+sudo rm -rf *
+yadm init
+yadm init -f
+yadm clone url https://github.com/rishabh672003/dotfiles
+yadm clone url "https://github.com/rishabh672003/dotfiles"
+yadm clone "https://github.com/rishabh672003/dotfiles"
+yadm add ~/.config/hypr
+yadm add ~/.config/waybar/
+yadm add ~/.config/ala
+yadm add ~/.config/alacritty
+git rm --cached .config/kitty/kitty-themes
+yadm rm --cached .config/kitty/kitty-themes
+yadm rm --cached .config/kitty/kitty-themes -f
+yadm add ~/.config/wezterm
+cd .mozilla/
+yadm commit
+cd firefox/
+yadm add .bashrc
+yadm add ~/.config/fish
+cd .moc/
+cd .config
+yadm add nvim
+yadm add wofi
+yadm add tmux
+cd tmux/
+cd plugins
+cd ~/.config/
+yadm add shellfetch
+yadm add neofetch
+yadm add btop
+yadm add helix/
+yadm add sway
+nv init.vim
+yadm add vim
+man yadm
+yadm add ~/.config/zsh
+yadm status -u
+cd ~/.config
+yadm add mpv
+cd ~/projects/hyprland-configs/
+nv a
+cd ~/.local/share/yadm/
+cd repo.git
+cd ~/.config/yadm
+mv ~/.local/share/yadm/repo.git/.gitignore .
+nv yadm.sh
+sudo chmod +x yadm.sh
+cp ~/projects/yadm.sh ~/.config/yadm/
+yadm add ~/.config/yadm
+nv ~/.config/yadm
+yadm prune
+sudo rm /home/rishabh/.local/share/yadm/repo.git/gc.log
+cd ~/.local/share/yadm/repo.git
+yadm add README.md
+yadm pull
+cd ~/.local/bin/
+rm waybar-media.py
+fuck
+yadm add auto-move-windows
+yadm add conky
+cd linux-setup
+cd wallpapers
+cp * ~/.config/hypr/wallpapers/
+cd ~/.config/hypr/wallpapers
+yadm add ~/projects/configs/auto-move-windows
+yadm list -a
+mkdir ~/projects/other-configs
+cp -r auto-move-windows conky material-shell tilix xfce4-terminal ~/projects/other-configs/
+nv ~/.config/yadm/yadm.sh
+yadm add other-configs/conky
+mv ~/projects/other-configs/ ~/other-configs
+yadm commit -m "update"
+yadm push
+yadm commit -a
+cd ~/.config/lvim
+cd isos
+cd ~/projects/configs
+cp -r linux-setup/ ~/other-configs
+cd other-configs
+cd projects/configs
+cp configs/extensions-list ~/other-configs/
+mv archlinux-2022.10.01-x86_64.iso ~/isos/
+yay wezterm
+yay yadm
+yay -Rns jetbrains-toolbox
+paccache -rk0
+sudo cp -r ~/projects/Neovim/.git ~/.config/nvim/
+rm .git
+sudo rm -rf .git
+yadm log
+yadm add .gitignore
+yadm commit -a -m "update"
+git clone https://github.com/rishabh672003/configs
+cd configs
+cp -r mirrors-and-hosts/ ~/other-configs/
+cd mirrorlist/
+rm -rf configs/
+yadm add other-configs/*
+cd other-configs/mirrors-and-hosts/rate-mirrors-arch.sh
+cd other-configs/mirrors-and-hosts/
+vs
+vs /etc/systemd/system/rate-mirrors.service
+crontab --help
+crontab -e
+crontab -l
+cd mach
+cd waybar/.config/waybar/
+cd .local/share/nvim
+cd site/pack/packer
+cd start/
+cd start
+cd nvim-ts-context-commentstring/
+gh repo clone Rishabh672003/nvim-basic-ide
+git add .
+git commit -a -m "update"
+rm -rf nvim-ts-context-commentstring/
+gh repo clone Rishabh672003/nvim-ts-context-commentstring
+swayidle --help
+cd .config/nvim/lua/user/plugins.lua
+nv plugins.lua
+cd pro/nvi
+cd projects/nv
+cd python-study
+nv py
+shut
+sudo crontab -e
+swayexit
+nv ~/.config/sway/config
+hyrlad
+hyprlad
+hyprland
+rest
+yay gnome-cheese
+yay cheese
+Hyprland -h
+Hyprland -c
+pacman -Qi hyprland-bin
+nnvim
+mv nvim.appimage ~/Applications/nvim-0.8.appimage
+cd app
+sudo chmod -x nvim-0.8.appimage
+sudo chmod -X nvim-0.8.appimage
+sudo chmod +x nvim-0.8.appimage
+cdd nvim
+yay neovide
+neovide
+yay -Rcs neovide
+y
+export XDG_CURRENT_DESKTOP=Unity
+yadm add .mozilla/
+yay -S hyprpicker-git
+hyppicker
+hyprpicker
+hyprpicker --format hex | wl-copy
+hyprpicker --format hex
+yadm enter lazygit
+yay -R prettier
+cd projects/nvim-basic-ide
+nv a.js
+yay -R webapp-manager
+mkdir tspro
+cd tspro
+nv package.json
+yay -S eslint-d
+yay -S eslintd
+yay -S prettier
+rm -rf tspro
+\:: Synchronizing package databases...
+killall -9 playerctl
+killall -9 stacer
+lgit
+cd Neovim
+gitk
+gitk main
+gitk 7bb1e4e
+rm -rf ~/.config/nvim
+cp -r Neovim ~/.config/nvim
+sudo rm -rf /var/lib/pacman/db.lck
+cd .config/nvim/lua/user/
+cd lua/user
+rm barbeque.lua
+cd barbeque
+rm -rf $HOME/.config/nvim $HOME/.local/share/nvim $HOME/.cache/nvim
+git clone https://github.com/rishabh672003/Neovim ~/.config/nvim
+yay waydroid-image
+rm -rf .git .gitignore README.md
+cd py
+pgrep -x waybar
+cd way
+cd .con
+cd hypr
+cd .config/nvim/lua/user/lsp/settings
+nv sumneko_lua.lua
+mkdir jspro
+cd jspro
+lv a.json
+nv a.json
+cd .co
+cd mpv/
+cd watch_later/
+cd .local/share/nvim/site/pack
+cd packer/start/nvim-ts-rainbow/
+cd .local/share/nvim/site/pack/packer/start/nvim-ts-rainbow/
+mpv ~/Downloads/Cunk.On.Earth.S01.1080p.iP.WEBRip.AAC2.0.x264-PlayWEB\[rartv\]/Cunk.on.Earth.S01E05.Wars.of.the.Worlds.1080p.iP.WEB-DL.AAC2.0.H.264-playWEB.mkv
+gh repo clone Ruixi-rebirth/nixos-config
+cd nixos-config
+rm -rf nixos-config/
+yay mako
+mako --help
+mako
+cd .config/mako
+nv config
+killall -9 mako
+nv .bash_profile 
+bash
+cd neo
+cdd
+man swayidle
+man nvim
+nv a.ts
+yay astyle
+yay -R astyle
+yay -R prettier autopep8 stylua beautysh shellcheck-bin
+yay -S prettier autopep8 stylua beautysh shellcheck-bin
+yay -S astyle
+man prettier
+prettier -help
+prettier --help
+yay -S nemo
+yay -S pcmanfm
+yay -S thunar
+yay -Rns pcmanfm thunar
+yay -S hyprlnd-git
+Hyprland
+Hyprland --version
+Hyprland -v
+yay -R hyprland-git
+yay -S hyprland-git
+yay hyprland-git
+cd ki
+rm -rf .git
+yadm add ~/.config/kitty
+yadm status
+yadm enter
+yadm remove ~/.config/kitty/
+mv ~/.config/kitty/ .
+mv kitty/ ~/.config/
+cd .config/kitty/
+cd kitty-themes
+rm -rf .github/
+rm .all-contributorsrc
+yadm add kitty-themes
+nv .gitignore
+rm -rf ~/.config/nvim/plugin/ ~/.config/lvim/plugin/
+mv ~/.config/mpv/watch_later/ ../../
+mv ../../watch_later/ ~/.config/mpv/
+gh repo clone gopi487krishna/wayland-dot-files
+mv ~/.config/rofi ~/projects/
+cp -r rofi/ ~/.config/
+rofi -show
+rofi leave/leave.sh
+rofi -show drun ~/.config/rofi/leave/leave.sh
+./.config/rofi/leave/leave.sh
+cd .config/rofi/leave
+sudo chmod +x leave.sh
+yadm add ~/.config/rofi
+cd .config/yadm/
+sudo rm -rf ~/.local/share/yadm/repo.git/
+yadm clone https://github.com/Rishabh672003/dotfiles
+20:09  ï€ƒ¶ LICENSE\
+.rw-r--r--  303Ki rishabh  2 Nov 15:08  ïƒ§ƒ¥ mpv-shot0001.jpg\
+drwxr-xr-x      - rishabh 30 Sep 12:32  ïƒ¤ƒµ Music\
+drwxr-xr-x      - rishabh 19 Jul 16:35  ïƒ¤ƒµ Music-others\
+drwxr-xr-x      - rishabh 28 Oct 16:51  ïƒ¤ƒµ other-configs\
+drwxr-xr-x      - rishabh 26 Oct 09:27  ïƒ¤ƒµ Pictures\
+drwxr-xr-x      - rishabh  3 Nov 14:47  ïƒ¤ƒµ projects\
+drwxr-xr-x      - rishabh 25 Apr 15:03  ïƒ¤ƒµ Public\
+drwxr-xr-x      - rishabh 30 Sep 20:54  ïƒ¤ƒµ python-study\
+.rw-r--r--    492 rishabh  3 Nov 15:02  ïƒ²ƒª README.md\
+drwxr-xr-x      - rishabh 25 Apr 15:03  ïƒ¤ƒµ Templates\
+drwxr-xr-x      - rishabh 21 Oct 16:42  ïƒ¤ƒµ Videos\
+drwxr-xr-x      - rishabh 24 Jun 18:15  ïƒ¤ƒµ workspace\
+.rw-r--r--    756 rishabh 24 Sep 11:28  ï€ƒ¶ Xresources\
+ rishabh  1 Nov 11:14  ïƒ¤ƒµ Documents\
+drwxr-xr-x      - rishabh 27 Oct 19:55  ïƒ¤ƒµ dotfiles\
+drwxr-xr-x      - rishabh  2 Nov 20:26  ïƒ¤ƒµ Downloads\
+drwxr-xr-x      - rishabh 27 Oct 16:29  ïƒ¤ƒµ git-repos\
+.rw-r--r--   38Ki rishabh 25 Oct 22:31  ïƒ¦ƒ­ hello.log\
+drwxr-xr-x      - rishabh 28 Oct 10:22  ïƒ¤ƒµ isos\
+drwxr-xr-x      - rishabh 21 Sep 13:29  ïƒ¤ƒµ java\
+drwxr-xr-x      - rishabh 23 Aug 11:44  ïƒ¤ƒµ java-vscodium\
+.rw-r--r--   34Ki rishabh 27 Oct 20:09  ï€ƒ¶ LICENSE\
+.rw-r--r--  303Ki rishabh  2 Nov 15:08  ïƒ§ƒ¥ mpv-shot0001.jpg\
+drwxr-xr-x      - rishabh 30 Sep 12:32  ïƒ¤ƒµ Music\
+drwxr-xr-x      - rishabh 19 Jul 16:35  ïƒ¤ƒµ Music-others\
+drwxr-xr-x      - rishabh 28 Oct 16:51  ïƒ¤ƒµ other-configs\
+drwxr-xr-x      - rishabh 26 Oct 09:27  ïƒ¤ƒµ Pictures\
+drwxr-xr-x      - rishabh  3 Nov 14:47  ïƒ¤ƒµ projects\
+drwxr-xr-x      - rishabh 25 Apr 15:03  ïƒ¤ƒµ Public\
+drwxr-xr-x      - rishabh 30 Sep 20:54  ïƒ¤ƒµ python-study\
+.rw-r--r--    492 rishabh  3 Nov 15:02  ïƒ²ƒª README.md\
+drwxr-xr-x      - rishabh 25 Apr 15:03  ïƒ¤ƒµ Templates\
+drwxr-xr-x      - rishabh 21 Oct 16:42  ïƒ¤ƒµ Videos\
+drwxr-xr-x      - rishabh 24 Jun 18:15  ïƒ¤ƒµ workspace\
+.rw-r--r--    756 rishabh 24 Sep 11:28  ï€ƒ¶ Xresources\
+\
+âƒ¶ƒ±âƒ¶ƒ²âƒ¶ƒ³ ïƒ¬ƒ£ ° ï€ƒµ ~ °e
+cd wayland-dot-files/
+lv .
+lv config.lua
+gh repo clone Rishabh672003/nvim-0.8-stable
+cd nvim-0.8-stable/
+cd nvim-0.8-stable
+sudo rm /usr/local/share/nvim/runtime/plugin/man.vim
+sudo rm /usr/local/share/nvim/runtime/autoload/man.vim
+sudo rm -rf /usr/local/share/nvim/runtime/
+nvim --headless +PackerSync
+cd projects/random-repos/neovim/
+sudo make distclean
+fccache
+fc-cache -f
+ls
+yay wayland-hyprland
+mv ~/.config/waybar/config.jsonc ~/projects/
+cp ~/projects/hyprland-configs/waybar/config.jsonc ~/.config/waybar/
+mv ~/projects/config.jsonc ~/.config/waybar/
+cd js
+npm ci
+nv .config/rofi/leave/leave.sh
+cp ~/.config/rofi/leave/leave.sh ~/.config/wofi/
+cd .config/wofi
+wofi
+cd .local/share/nvim/site/pack/packer/start/lab.nvim
+cd jaq-nvim
+cd barbecue.nvim
+cp ~/.config/rofi/leave/leave.sh ~/projects/
+rm -rf rofi
+gh repo clone catppuccin/rofi
+cd rofi
+cd basic
+cd rofi/basic
+./install.sh
+rofi --help
+cd projects/
+./leave.sh
+nv leave.sh
+man rofi
+cd .local/share/rofi/themes/catppuccin-mocha.rasi
+cd .local/share/rofi/themes
+rofi -dmenu
+rofi -show drun
+./projects/leave.sh
+nv projects/leave.sh
+wofi --show dmenu
+gh repo clone baolhq/catppuccin-sway
+rm -rf wofi
+mv ~/.config/wofi/ .
+cd catppuccin-sway
+cd config
+cp -r wofi/ ~/.config/
+rm -rf catppuccin-sway/
+mv wofi ~/.config/
+cd AmitGolden\ dotfiles\ main\ .config-wofi
+mv ~/.config/wofi/ ~/projects/
+cp -r AmitGolden\ dotfiles\ main\ .config-wofi ~/.config/wofi
+cd ~/.config/wofi
+rm -rf ~/.config/wofi/
+cd pro
+cd arch-setup
+lvim
+nv a.jenkins
+du -sh
+du -sh *
+du -sh projects/
+du -sh Videos/
+gh repo clone NarutoXY/dunst
+nv ~/.config/dunst/dunstrc
+dunst --help
+cd auto-cpufreq/
+yay -R onefetch
+yay -S onefetch
+ln -s libssl.so.3 libssl.so
+onefetch
+pyright
+pyright-langserver --stdio
+sudo ldconfig
+ldconfig --help
+npm u
+yay libcrypto
+telegram-desktop
+waydroid
+yay -S openssl
+element-desktop-nightly
+element-desktop
+yay -S gnome-keyring
+one
+yay kitty
+kitty
+yay -Rns kitty
+sudo pacman -Syyyyyyyyyyyyu
+nv .config/yadm/yadm.sh
+cd .config/rofi
+mv ~/projects/wofi .
+wofi --show drun
+yay -Rns pulseaudio
+waydroid -h
+killall -9 wezterm
+killall -9 wezterm-gui
+n
+vc
+cd .local/share/nvim/site/pack/packer/start/catppuccin
+dunstify "It works"
+pgit
+cp -r ~/python-study/rps .
+killall -9 firefox
+hyprctl devices
+log
+dunstify "It works2"
+sys
+cfc
+wf-recorder
+rm recording.mp4
+wf-recorder -g "$(slurp)"
+mpv recording.mp4
+wf-recorder --help
+wf-recorder -g "$(slurp)" -f hypr.mp4
+mpv hypr.mp4
+yay foot
+foot
+nv ~/.config/hypr/hyprland.conf
+nv hyprland.conf
+yay -R waybar-hyprland-git
+rm -rf /usr/share/waydroid-extra/images/vendor.img
+sudo systemctl restart waydroid-container.service
+sudo waydroid logcat >> waydroid.log
+nv waydroid.log
+vs /var/lib/waydroid/waydroid_base.prop
+yay -R waydroid-image waydroid
+yay -S waydroid
+yay -S aria2
+aria2c https://yer.dl.sourceforge.net/project/waydroid/images/system/lineage/waydroid_x86_64/lineage-18.1-20221030-VANILLA-waydroid_x86_64-system.zip
+mv lua/user/autopairs.lua ..
+cd .config/nvim
+fdauto
+fd auto
+cp ~/projects/Neovim/lua/user/autopairs.lua lua/user/
+cat ~/.local/state/zsh/history | fzf
+cat ~/.local/state/zsh/history | sed '/:*;/d' | fzf
+sed '/:*;/d' ~/.local/state/zsh/history  | fzf
+fzf
+aria2c https://yer.dl.sourceforge.net/project/waydroid/images/system/lineage/waydroid_x86_64/lineage-18.1-20221030-VANILLA-waydroid_x86_64-system.zip https://yer.dl.sourceforge.net/project/waydroid/images/vendor/waydroid_x86_64/lineage-18.1-20221030-MAINLINE-waydroid_x86_64-vendor.zip
+diff
+diff .bashrc ~/.config/zsh/aliases.zsh
+ll --sort=date
+rm lineage-18.1-20221030-MAINLINE-waydroid_x86_64-vendor.1.zip
+exex
+rm lineage-18.1-20221030-MAINLINE-waydroid_x86_64-vendor.1.zip.aria2
+waydroid init -f
+sudo pacman -S rebuild-detector
+checkrebuild
+checkrebuild -v
+rm lineage-18.1-20221030-MAINLINE-waydroid_x86_64-vendor.zip lineage-18.1-20221030-MAINLINE-waydroid_x86_64-vendor.zip.aria2 lineage-18.Ytb3qwLs.1-20221030-MAINLINE-waydroid_x86_64-vendor.zip.part
+yay -S hyprland-bin
+wf-recorder -g "$(slurp)" -f hypr2.mp4
+waybar -v
+yay waybar-hyprland
+cd down
+aria2c https://yer.dl.sourceforge.net/project/waydroid/images/vendor/waydroid_x86_64/lineage-18.1-20221030-MAINLINE-waydroid_x86_64-vendor.zip
+yay hyprland
+rm lineage-18.1-20221030-MAINLINE-waydroid_x86_64-vendor.zip lineage-18.1-20221030-MAINLINE-waydroid_x86_64-vendor.zip.aria2
+fd images
+cd usr/share
+sudo mkdir waydroid-extra
+cd waydroid-extra/
+sudo mkdir images
+cp ~/Downloads/lineage-18.1-20221030-VANILLA-waydroid_x86_64-system/system.img .
+sudo cp ~/Downloads/lineage-18.1-20221030-VANILLA-waydroid_x86_64-system/system.img .
+nemo
+sudo cp ~/Downloads/lineage-18.1-20221030-MAINLINE-waydroid_x86_64-vendor/vendor.img  .
+dunstify "Charge your deivice"
+DISPLAY=:0 /usr/bin/notify-send -u low "battery" "$BATTINFO"
+acpi
+yay -S acpi
+printf 'script started' | systemd-cat -t check-battery #write to log when script is called\
+BATTINFO=`acpi -b`\
+if [[ `echo $BATTINFO | grep Discharging` && `echo $BATTINFO | cut -f 5 -d " "` < 00:30:00 ]] ; then\
+        printf 'condition is true' | systemd-cat -t check-battery #write to log if condition is true\
+        DISPLAY=:0 /usr/bin/notify-send -u low "battery" "$BATTINFO"\
+fi
+cd ~/.config/hypr/scripts
+nv check-battery.sh
+acpi --battery | sed '/Battery/d'
+acpi --battery
+acpi --battery | cut -f 5 -d " "
+acpi --battery | cut -f 1 -d " "
+acpi --battery | cut -f 2 -d " "
+acpi --battery | cut -f 3 -d " "
+acpi --battery | cut -f 4 -d " "
+man cut
+acpi --battery | cut -f 4 -d ","
+acpi --battery | cut -f 1 -d ","
+acpi --battery | cut -f 2 -d ","
+dunstify -u critical "charge your device"
+dunstify -u
+dunstify -u critical "Battery is running low (Urgent)"
+dunstify -u normal "Battery is running low"
+cat /sys/class/power_supply/BAT0
+cat /sys/class/power_supply/BAT0/energy_now
+cd scripts
+sudo chmod +x check-battery.sh
+./check-battery.sh
+killall -9 evince
+evince
+dunstify --help
+cat "$bat_loc"/status
+cat /sys/class/power_supply/BAT0/status
+acpi --battery | cut -f 2 -d "," | cut -f 1 -d "%"
+q
+notify-send --help
+cat /sys/class/power_supply/BAT0/capacity
+yay -S hyprland-waybar
+wf-recorder -g "$(slurp)" -f hypr-spotify.mp4
+gh repo clone dasJ/spotifywm
+which spotify
+cd /usr/bin/spotify
+cd /usr/bin/
+ll | grep spo
+cd spotifywm
+make uninstall
+yay -R spotify
+rm -rf /opt/spotify/
+sudo rm -rf /opt/spotify/
+yay -S spotify
+spotify
+spicetify
+sudo chmod a+wr /opt/spotify\
+sudo chmod a+wr /opt/spotify/Apps -R
+spicetify backup restore apply
+LD_PRELOAD=/home/rishabh/projects/spotifywm/spotifywm.so /opt/spotify/spotify
+nv /etc/default/grub
+nc a.conf
+nv a.conf
+nv .moc/config
+m
+cd /boot/
+cd grub
+nv ~/.local/state/zsh/history
+grub-install --target=x86_64-efi --efi-directory=/dev/nvme0n1p1 --bootloader-id=GRUB
+grub-install --target=x86_64-efi --efi-directory=/boot/grub --bootloader-id=GRUB
+grub-install --target=x86-64-efi --efi-directory=/boot
+grub-install --target=x86-64-efi --efi-directory=/boot/
+grub-install --target=x86-64-efi --efi-directory=/boot --bootloader-id=GRUB
+grub-install --target=x86_64-efi --efi-directory=/boot/ --bootloader-id=GRUB
+grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GRUB
+grub-install --target=x86_64-efi --efi-directory=/boot/grub/efi --bootloader-id=GRUB
+lsblk
+grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUB
+grub-install --target=x86_64-efi --efi-directory=/boot/efi/ --bootloader-id=GRUB
+sudo grub-install --target=x86_64-efi --efi-directory=/boot/efi/ --bootloader-id=GRUB
+cd .local/share/applications
+rm waydroid.im.vector.app.desktop waydroid.kingmodapk.mobi.desktop waydroid.com.abhyas.nta.com.desktop jetbrains-toolbox.desktop waydroid.ph.url.tangodev.randomwallpaper.desktop
+rm waydroid.com.x8bit.bitwarden.desktop
+rm webapp-*
+rm waydroid.com.disney.disneyplus.desktop
+rm waydroid.com.etesync.syncadapter.desktop
+dc
+rm waydroid.com.nis.app.desktop
+rm waydroid.app.revanced.android.youtube.desktop
+yay -R eslint
+mv bigfile.txt ..
+nrandom
+nv a.lua
+tr -dc "A-Za-z 0-9" < /dev/urandom | fold -w100 | head -n 1000 > bigfile.lua
+wf-recorder -g "$(slurp)" -f speed-test.mp4
+wf-recorder -g "$(slurp)" -f speed-test2.mp4
+rm bigfile.txt
+tr -dc "A-Za-z 0-9" < /dev/urandom | fold -w100 | head -n 200000 > bigfile.txt
+tr -dc "A-Za-z 0-9" < /dev/urandom | fold -w100 | head -n 300000 > bigfile.txt
+yys
+killall -9 dunst
+dunstctl is-paused
+yay -S baobab
+rm lineage-18.1-20221030-*
+rm -rf lineage-18.1-20221030-*
+rm nixos-gnome-22.05.3935.b3a8f7ed267-x86_64-linux.iso
+rm -rf Cunk.On.Earth.S01.1080p.iP.WEBRip.AAC2.0.x264-PlayWEB\[rartv\]/
+nv a.tpp
+gtnv
+cd .cache/zsh4humans/v5
+dunst
+sudo systemctl daemon-reload
+sudo systemctl restart auto-cpufreq.service
+sudo systemctl status auto-cpufreq.service
+yay -R gnome-text-editor-git
+nv a.java
+rm a.java
+rm *.mp4
+rm hello.log
+rm bigfile.lua
+tr -dc "A-Za-z 0-9" < /dev/urandom | fold -w100 | head -n 20000 > bigfile.lua
+hx bigfile.lua
+nvc bigfile.lua
+tr -dc "A-Za-z 0-9" < /dev/urandom | fold -w100 | head -n 10000 > bigfile.lua
+nv bigfile.lua
+tr -dc "A-Za-z 0-9" < /dev/urandom | fold -w100 | head -n 100000 > bigfile.txt
+tr -dc "A-Za-z 0-9" < /dev/urandom | fold -w100 | head -n 1000000 > bigfile.txt
+tr -dc "A-Za-z 0-9" < /dev/urandom | fold -w100 | head -n 10000000 > bigfile.txt
+nvc bigfile.txt
+nv bigfile.txt
+rm bigfile.*
+rm yadm.sh
+rm clean-pkg-cache.hook
+rm minimal.lua
+cd st/
+make
+make install
+cd ~/.config/nvim/lua/user/options.lua
+cd ~/.config/nvim/lua/user/
+nv options.lua
+lv options.lua
+nvim
+lv a.java
+cd .config/lvim
+cd lua
+cd user
+rm autocommands.lua
+nvc
+sudo downgrade
+sudo downgrade neovim
+btop
+sudo downgrade openssl
+sudo downgrade hyprland
+sudo downgrade hyprland-git
+sudo downgrade waybar
+git --v
+git -v
+openssl -v
+openssl help
+yay openssl
+cd hyprland-configs/
+cp -r ~/.config/hypr .
+cp -r ~/.config/waybar .
+rm -rf hyprland-configs/
+hx --help
+hx --g
+hx -g
+yay -S lua-language-server
+cd nvim
+hx --health
+hx
+hx .
+yay -R lua-language-server
+nv python-study/main-rps.py
+yay -S nnn
+lf
+nnn
+yay -R nn
+yay -R nnn
+rm -rf nvim-basic-ide/
+gh repo clone LunarVim/nvim-basic-ide
+cd nvim-basic-ide
+mpv waydroid.mp4
+sudo rm -rf /etc/hosts
+rs
+rss
+sudo mv /usr/share/waydroid-extra/images/* projects/
+yay -S waydroid-image
+rm -rf *
+cd waydroid/
+mv *.img waydroid/waydroid-17.1/
+cd waydroid/waydroid-17.1
+cd wa
+mv waydroid-17.1/ waydroid-18.1
+mkdir waydroid-17.1
+cp /usr/share/waydroid-extra/images/* waydroid-17.1/
+yay -R waydroid-image
+mkdir -p /usr/share/waydroid-extra/images
+sudo mkdir -p /usr/share/waydroid-extra/images
+sudo cp waydroid-18.1/* /usr/share/waydroid-extra/images/
+nv /var/lib/waydroid/waydroid_base.prop
+cd .cache
+cd .local/share/waydroid/
+sudo cp ~/projects/waydroid/waydroid-18.1/* /usr/share/waydroid-extra/images/
+sudo pacman -S lzip sqlite
+cd waydroid_script/
+sudo python3 -m pip install -r requirements.txt
+sudo python3 waydroid_extras.py -l
+rm -rf data/
+sudo rm -rf data/
+sudo cp ~/projects/waydroid/waydroid-17.1/* /usr/share/waydroid-extra/images/
+cd .config/nvim/
+cd spell
+uneo
+yay -c
+yay -S flameshot
+nv ~/.config/zsh/shell-varibales-and-commands.zsh
+echo $XDG_CURRENT_DESKTOP
+killall -9 flameshot
+flameshot
+yay -R flameshot
+cd Pictures/
+cd Screenshots
+grim --help
+grim 1664293339.png
+mkdir grim-screenshots
+cd .config/hypr
+nv variables.zsh
+man grim
+cd hyp
+zsh variables.zsh
+cd pi
+cd grim-screenshots
+grim
+grim -g "$(slurp)" - | swappy -f -
+mkdir swappy
+cd projects/xdg-ninja
+git pull
+vz
+rm -rf .android/
+mv ~/.fonts/* ~/.local/share/fonts/
+cd .fonts
+rm -rf .fonts/
+./xdg-ninja.sh
+rm -rf ~/.gnupg/
+cd .icons
+cd default
+mv .icons/ projects/
+rm -rf ~/.terminfo/
+rm -rf ~/.java/
+rm -rf ~/.parallel/
+rm tachiyomi_2022-11-08_15-01.proto.gz
+rm mpv-shot0001.jpg
+rm waydroid.mp4
+rm .wget-hsts
+lv
+cd .local/share/z
+cd .local/share/
+nv .z
+cd zoxide/
+cd Neovim-from-scratch/
+nv /etc/hosts
+cd Pictures/swappy/
+cp -r ~/.config/zsh/* ~/projects/zsh-configs/
+cd projects/zsh-configs/
+cd /etc/zsh
+nv /etc/zsh/zshenv
+yay pfetch
+sdp
+cd projects/Neovim
+ghpr
+ghpr .
+cc
+yay -R waybar-hyprland
+yay -Rns waybar-hyprland
+yay -S waybar-hyprland
+yay -S waybar-hyprland-git
+yay  waybar
+yay discordo
+discordo
+yay -R discord
+yay -R discordo
+yay -R discordo-git
+sudo rm -rf /usr/share/waydroid-extra/images/*
+speedtest
+killall -9 waybar
+waybar
+ngit
+z4h init
+cd .cac
+cd v5
+cd .local/share/zsh/
+cdpp
+cd zsh4humans/
+rm -rf v5/
+z4h update
+rm -rf ~/.cache/zsh4humans/
+cd .cache/zsh4humans/v5/cache/
+cd zap-zsh
+cd vim
+source zap-zsh/vim/vim.plugin.zsh
+v
+p
+cali
+wtr
+yay
+cnv
+which python
+yay -S debugpy
+mkdir .virtualenvs\
+cd .virtualenvs\
+python -m venv debugpy\
+debugpy/bin/python -m pip install debugpy
+python -m pip install --upgrade pip
+sudo rm -rf waydroid-extra/
+wf-recorder -g "$(slurp)" -f waydroid.mp4
+sudo waydroid logcat
+cd /
+fd waydroid
+fd vendor.img
+fd system.img
+cd /mnt/windows/
+exec zsh
+cd Users/
+cd jhari/Downloads/
+nemo .
+nautilus .
+cd .cache/zsh4humans/v5/
+cd zap-zsh/
+cd vim/
+nv .
+zshc
+lg
+rm -rf ~/.config/zsh/*
+ping 8.8.8.8
+exit
+l
+lll
+cf
+cd /var/lib/waydroid/
+cd images
+lsmod
+mv /var/lib/waydroid/images/* ~/projects/waydroid/waydroid-18.1/
+sudo cp * /var/lib/waydroid/images/
+sudo chmod a+w *
+wl
+mv ~/projects/waydroid/waydroid-18.1/* .
+cp * ~/projects/waydroid/waydroid-18.1/
+cd waydroid-18.1/
+cdp
+rm -rf images/
+mkdir /usr/local/share/applications/
+cd /usr/share/waydroid-extra/
+cd /usr/share/
+mkdir waydroid-extra
+sudo mkdir -p waydroid-extra/images
+yl
+cd projects/waydroid/
+cd waydroid-17.1/
+sudo cp * /usr/share/waydroid-extra/images/
+sudo rm -rf ~/.local/share/waydroid/data/
+sudo waydroid init -f
+cd projects/waydroid_script/
+sudo python3 waydroid_extras.py -n
+wr
+we
+ws
+cd Downloads
+waydroid app install fenix-107.0b6-x86.apk
+waydroid app install tachiyomi-x86-v0.14.2.apk
+nv .bashrc
+mv ~/.config/zsh/README.md .
+ll
+nv README.md
+yel
+cd projects
+gh repo clone Rishabh672003/zap
+nv
+nv zap/.
+nr
+sdr
+rm -rf zsp
+rm -rf zap
+cd
+c
+cz
+ys
+e
+nv
+rm -rf ~/.config/zsh
+sh <(curl -s https://raw.githubusercontent.com/zap-zsh/zap/master/install.sh)
+nvim
+ls
+ll
+nv .zshrc
+mkdir .config/zsh
+mv .zshrc ~/.config/zsh/
+nvim ~/.config/zsh/.zshrc
+source ~/.config/zsh/.zshrc
+nvim ~/.config/zsh/.zshrc
+we
+exec zsh
+e
+nvim ~/.config/zsh/.zshrc
+exec zsh
+c
+e
+nv ~/.local/state/zsh/history
+e
+echo $ZDOTDIR
+exec zsh
+echo $ZDOTDIR
+e
+cd
+cd .cache/zsh
+ll
+e
+ll
+cd
+c
+cd
+nv
+cd .config/zsh
+ll
+nv history
+cd
+c
+nv
+exec zsh
+c
+nv ~/.config/zsh
+exec zsh
+ll
+e
+cd
+c
+nv ~/.config/zsh/history
+nv ~/.config/zsh/history
+cd
+exec zsh
+yay -Syyu
+c
+nv
+nv
+yay -Syyu
+c
+ys
+nv
+nv
+nv
+zshc
+lg
+cd
+c
+llll
+llll
+cd
+cdd
+rm -rf .cache/zsh4humans
+c
+ll
+cd
+fd zsh4
+nv
+nv
+nv
+rm -rf ~/.local/state/zsh
+cd
+c
+nv
+exit
+nv 
+nv
+nv .npm
+cd
+nv
+cz
+exec zsh
+nv
+nv
+export HISTFILE="${XDG_CONFIG_HOME}"/zsh/history
+cd
+c
+ll
+cd
+c
+c
+c
+c
+ll
+cd
+cd                   
+cd .
+cd .
+cd .
+cd .
+cd .pki
+cd 
+nv
+cd .config
+cd .config
+cd .config/zsh
+cd .config/zsh
+cd
+cd
+cd
+cd
+c
+nv
+exit
+nv
+yay -S zoxide
+sudo pacman -S zoxide
+nv
+cd
+cd
+cd
+cd
+cd
+cd
+c
+c
+c
+c
+c
+lll
+cd
+c
+source ~/.config/zsh/.zshenv
+cd .config/zsh
+ll
+exec zsh
+nv history
+exec zsh
+c
+source ~/.config/zsh/.zshrc
+c
+cd
+c
+e
+exa
+exe
+exec zsh
