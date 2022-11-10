@@ -7,15 +7,13 @@ fi
 
 [ -f "$HOME/.local/share/zap/zap.zsh" ] && source "$HOME/.local/share/zap/zap.zsh"
 
+#evals needed for apps
+eval "$(zoxide init zsh)"
+pfetch
 autoload -U +X compinit && compinit
 autoload -Uz zmv
-
-#zap source
-zapsource ~/.config/zsh/aliases.zsh
-zapsource ~/.config/zsh/shell-varibales-and-commands.zsh
-zapsource ~/.config/zsh/git.plugin.zsh
-zapsource ~/projects/zsh-autoswitch-virtualenv/autoswitch_virtualenv.plugin.zsh
-zapsource ~/.config/zsh/fzf-tab.zsh
+compinit -d "$XDG_CACHE_HOME"/zsh/zcompdump-"$ZSH_VERSION"
+SAVEHIST=1000000000
 
 # Example install plugins
 zapplug "zap-zsh/supercharge"
@@ -27,12 +25,38 @@ zapplug "Aloxaf/fzf-tab"
 zapplug "zsh-users/zsh-completions"
 zapplug "zsh-users/zsh-history-substring-search"
 
+#zap source
+zapsource ~/.config/zsh/aliases.zsh
+zapsource ~/.config/zsh/shell-varibales-and-commands.zsh
+zapsource ~/.config/zsh/git.plugin.zsh
+zapsource ~/projects/zsh-autoswitch-virtualenv/autoswitch_virtualenv.plugin.zsh
+zapsource ~/.config/zsh/fzf-tab.zsh
+zapsource ~/.local/share/zap/plugins/zsh-history-substring-search/zsh-history-substring-search.zsh
+
+# disable sort when completing `git checkout`
+zstyle ':completion:*:git-checkout:*' sort false
+# set descriptions format to enable group support
+zstyle ':completion:*:descriptions' format '[%d]'
+# set list-colors to enable filename colorizing
+zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
+# preview directory's content with exa when completing cd
+zstyle ':fzf-tab:complete:cd:*' fzf-preview 'exa -1 --color=always $realpath'
+# switch group using `,` and `.`
+zstyle ':fzf-tab:*' switch-group ',' '.'
+
+fpath=(~/.local/share/zap/plugins/zsh-completions/src $fpath)
+
+bindkey '^[[A' history-substring-search-up
+bindkey '^[[B' history-substring-search-down
+bindkey -M vicmd 'k' history-substring-search-up
+bindkey -M vicmd 'j' history-substring-search-down
+
 # Example theme
 # zapplug "zap-zsh/zap-prompt"
 zapplug "romkatv/powerlevel10k"
 
 # Example install completion
-zapcmp "esc/conda-zsh-completion" false
+# zapcmp "esc/conda-zsh-completion" false
 
 # To customize prompt, run `p10k configure` or edit ~/.config/zsh/.p10k.zsh.
 [[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
