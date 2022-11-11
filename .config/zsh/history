@@ -1116,3 +1116,428 @@ e
 exa
 exe
 exec zsh
+c
+lll
+ys
+yl
+we
+wr
+c
+rs
+rss
+cd
+c
+cd
+c
+lll
+cd
+c
+c
+clear
+clear
+c
+ll
+nv
+exec zsh
+cd /usr/share/fzf
+ll
+nv completion.zsh
+cd
+c
+clear
+cz
+ll
+cd
+pfetch
+ll
+cd /usr/share/fzf
+ll
+nv key-bindings.zsh
+nv key-bindings.zsh
+cd
+cz
+cd .local/share/zap
+lg
+git pull
+exec zsh
+nv a.lua
+cd
+c
+zap help
+zap elp
+zap Help
+zap -h
+cd .local/share/zap
+nv .
+ll
+cd
+c
+lll
+cd
+c
+nv .config/zsh
+nv .config/zsh
+e
+cd .con
+cd .con
+cd
+c
+e
+nvim ~/.local/share/zap/zap.zsh
+e
+e
+e
+cd projects
+cd
+cd Pro
+nv zap.zsh
+nvim zap.zsh
+cz
+nvim ~/.config/zsh/.zshrc
+nvim ~/.config/zsh/.zshrc
+nv
+cz
+zap -h
+ys
+nr
+ys
+ping 8.8.8.8
+ping 8.8.8.8
+c
+ll
+cdd
+cd
+c
+nspeedtest
+speedtest
+nr
+speedtest
+c
+cz
+git check-attr
+cd projects/Neovim
+ll
+git check-attr
+git check-attr -a
+git check-attr -a .
+cd
+c
+lll
+cd
+c
+nv
+cd .local/share/zap
+ll
+cd plugins/supercharge
+ll
+nv .
+nv
+cz
+exec zsh
+cz
+exec zsh
+c
+clear
+exec zsh
+cd plugins/supercharge
+ll
+nv .
+ll
+lll
+exec zsh
+nv
+source ~/.zshrc
+source ~/.zshrc
+nv
+source $ZDOTDIR/.zshrc
+lll
+l
+nv
+nv .
+ll
+cd
+c
+ll
+lll
+cd
+cz
+nv ~/.local/share
+nv
+nv
+nv ~/.local/share
+e
+lll
+e
+nvim .
+mkdir -p .local/state/zsh
+cp ~/.config/zsh/history ~/.local/state/zsh
+cz
+nv ~/.local/share
+cd
+c
+lll
+cz
+cz
+cz
+nv ~/.local/state/zsh/history
+lll
+cd
+cd
+cd
+cz
+cz
+cd
+c
+cd
+c
+e
+echo $HISTFILE
+c
+ll
+nv ~/.config/zsh/history
+cd
+c
+nv
+c
+nv
+ nv
+cd .
+e
+cd .
+nv
+nv zap.zsh
+nv
+e
+ source $ZDOTDIR/.zshrc
+ source $ZDOTDIR/.zshrc
+ source $ZDOTDIR/.zshrc
+ source $ZDOTDIR/.zshrc
+ source $ZDOTDIR/.zshrc
+source $ZDOTDIR/.zshrc
+source $ZDOTDIR/.zshrc
+source ~/.zshrc
+source ~/.zshrc
+e
+ll
+cd
+c
+lll
+cd
+c
+cd
+lll
+c
+e
+e
+e
+c
+e
+c
+e
+e
+e
+e
+e
+e
+e
+e
+e
+e
+e
+e
+nv
+ee
+e
+nv
+source ~/.zshrc
+source ~/.zshrc
+nv
+cd
+nv
+nv
+nv
+nv
+nv
+c
+ll
+cd
+c
+nv
+c
+nv
+e
+e
+cd .config/zsh
+ll
+rm .zcompdump.arch-linux.166839
+ll
+rm .zcompdump
+e
+e
+e
+echo "$ZSH_COMPDUMP"
+e
+cd .config/zsh
+ll
+e
+nv zap.zsh
+cd .config/zsh
+e
+ll
+lll
+c
+e
+e
+rm -rf ~/.config/zsh/.zcompdump
+cd
+c
+ll
+e
+cd .config/zsh
+ll
+cd .cac
+cd zsh
+ll
+ll
+cd
+c
+ll
+cd
+c
+ll
+cd
+ll
+lll
+cd
+c
+ll
+cd
+lll
+cd
+lll
+cd
+c
+ll
+cd
+e
+ll
+nv
+ll
+cd
+c
+e
+time exec zsh
+time source ~/.config/zsh/.zshrc
+source ~/.config/zsh/.zshrc
+e
+cargo install colorgen-nvim
+yay -S cargo
+c
+ys
+cd
+c
+ll
+c
+cd
+c
+man zshmodules
+man zshbuiltins
+man zshoptions
+cd projects
+mkdir my-cat
+cd my
+nv
+nv catppuccin-rj.toml
+e
+cd .cache/zsh
+ll
+cat zcompdump-5.9
+e
+e
+e
+nv
+cz
+autoload -Uz compinit
+nv
+timezsh
+e
+timezsh
+e
+time $shell -i -c exit
+e
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+e
+e
+cz
+cz
+cd Downloads
+cd Telegram\ Desktop
+cd
+c
+rm -rf ~/.local/share/zap/plugins
+e
+timezsh
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+e
+zprof
+c
+e
+zprof
+zprof | head
+zprof | head
+zprof | head
+zprof | head
+zprof | head
+zprof
+zprof
+zprof | head
+zprof | head
+zprof | head
+zprof | head
+zprof | head
+zprof | head
+zprof | head
+zprof | head
+zprof | head
+zprof | head
+zprof | head
+zprof | head
+zprof | head
+zprof | head
+zprof | head
+zprof | head
+zprof | head
+zprof | head
+zprof | head
+zprof | head
+zprof | head
+zprof | head
+zprof | head
+zprof | head
+zprof | head
+zprof | head
+zprof | head
+zprof | head
+zprof | head
+zprof | head
+zprof | head
+zprof | head
+zprof | head
+zprof | head
+zprof | head
+zprof | head
+zprof | head
+zprof | head
+zprof | head
+zprof | head
+zprof | head
+e
+e
