@@ -1970,3 +1970,23 @@ cali
 exec zsh
 exec zsh
 yel
+yel
+cd .config/zsh
+ll
+rm -rf .git
+ll
+lg
+yel
+yl
+nv history
+c
+lll
+zshc
+lg
+nv .
+lg
+vali
+cali
+exec zsh
+zshc
+e

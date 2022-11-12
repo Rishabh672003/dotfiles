@@ -70,7 +70,10 @@ alias ngit='cp -r /home/rishabh/.config/nvim/* ~/projects/Neovim/ && \
     cp ~/projects/init.lua ~/projects/Neovim/init.lua && \
     cd ~/projects/Neovim'
 alias zshc='cp ~/.config/zsh/* ~/projects/zsh-configs/ ; \
-    cd ~/projects/zsh-configs'
+    cd ~/projects/zsh-configs && \
+    git add * && \
+    sh ~/git-repos/gc.sh && \
+    git push'
 alias pgit='cp ~/python-study/* ~/projects/python-studies/ ; cd ~/projects/python-studies/'
 alias sdr='sudo docker run -it archlinux:base-devel'
 alias sdp='sudo docker system prune -a'
