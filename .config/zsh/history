@@ -2273,3 +2273,234 @@ nv .local/share/zap/zap.zsh
 cd
 c
 exec zsh
+c
+ll
+nv
+yl
+cd .config/zsh
+ll
+zshc
+ll
+lll
+chmod +x install.sh
+lg
+ll
+lll
+nv git.plugin.zsh
+nv git.plugin.zsh
+nv
+nv
+nv
+nv
+nv
+cz
+cd
+c
+nv
+cd
+c
+c
+c
+c
+c
+ll
+timezsh
+cd .config/zsh
+nv functions.zsh
+for i in $(seq 1 10); do time $shell -i -c exit; done\
+
+time $SHELL -i -c exit\
+
+time $SHELL -i -c exit\
+
+time $SHELL -i -c exit\
+
+time $SHELL -i -c exit\
+
+cz
+exec zsh
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+nv
+nv
+exec zsh
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+cz
+exec zsh
+exec zsh
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+zprof | head
+zprof | head
+zprof | head
+e
+e
+e
+zprof | head
+zprof | head
+zprof | head
+nv
+c
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+exec zsh
+exec zsh
+time $SHELL -i -c exit
+e
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+w
+e
+w
+time $SHELL -i -c exit
+e
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+e
+ll
+exec zsh
+exec zsh
+exec zsh
+time $SHELL -i -c exit
+man stat
+exec zsh
+exec zsh
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+cd .local/share/zap/
+cd plugins
+ack
+nv .
+ll
+cdp
+ll
+nv zap.zsh
+ll
+cd plugins
+yay -S ack
+ack 
+ack "compinit"
+nv
+cz
+cz
+c
+exec zsh
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+zprof
+zprof | head
+e
+zprof | head
+zprof | head
+zprof | head
+zprof | head
+zprof | head
+zprof | head
+zprof | head
+e
+e
+e
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+e
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+e
+e
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+e
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+e
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+cd .local/share/zap/
+cd plugins/supercharge
+nv supercharge.plugin.zsh
+exec zsh
+nv supercharge.plugin.zsh
+exec zsh
+exec zsh
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+exec zsh
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+exec zsh
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+e
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+exec zsh
+exec zsh
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+e
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+nv
+e
+exec zsh
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+zshc
+ll
+rm .zcompdump
+e
+cd .config/zsh
+ll
+zshc
+ll
+c
+e

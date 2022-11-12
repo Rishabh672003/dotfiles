@@ -9,8 +9,8 @@ if not status_ok1 then
 end
 
 configs.setup({
-	ensure_installed = { "lua", "markdown", "markdown_inline", "bash", "python" }, -- put the language you want in this array
-	-- ensure_installed = "all",
+	-- ensure_installed = { "lua", "markdown", "markdown_inline", "bash", "python" }, -- put the language you want in this array
+	ensure_installed = "all",
 	sync_install = false, -- install languages synchronously (only applied to `ensure_installed`)
 	ignore_install = {}, -- List of parsers to ignore installing
 	autopairs = {

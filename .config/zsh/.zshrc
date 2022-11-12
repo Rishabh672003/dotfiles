@@ -11,32 +11,40 @@ fi
 # evals needed for apps
 eval "$(zoxide init zsh)"
 
-# get pfetch every time you open the terminal 
+# get pfetch every time you open the terminal
 pfetch
-
-# Comp stuff and autoloading them
-autoload -Uz compinit
-compinit -d "$XDG_CACHE_HOME"/zsh/zcompdump-"$ZSH_VERSION"
-autoload -Uz zmv
-zmodload zsh/zprof
 
 # Installing and sourcing all the plugins
 # The order is important so dont change it if you dont know what you are doing
+plug "zap-zsh/supercharge"
 plug "Aloxaf/fzf-tab"
 plug "Freed-Wu/fzf-tab-source"
 plug "zap-zsh/fzf"
 plug "zsh-users/zsh-autosuggestions"
-plug "zap-zsh/supercharge"
 plug "hlissner/zsh-autopair"
 plug "zsh-users/zsh-completions"
 plug "zsh-users/zsh-history-substring-search"
 plug "zap-zsh/vim"
 plug "zsh-users/zsh-syntax-highlighting"
+plug "MichaelAquilina/zsh-autoswitch-virtualenv"
+
+# add other function path for completion
+fpath=(~/.local/share/zap/plugins/zsh-completions/src $fpath)
+
+# Comp stuff and autoloading them
+autoload -Uz compinit 
+if [[ -n ${ZDOTDIR}/.zcompdump(#qN.mh+24) ]]; then
+    compinit -d "$XDG_CACHE_HOME"/zsh/zcompdump-"$ZSH_VERSION"
+else
+	compinit -C;
+fi
+
+autoload -Uz zmv
+zmodload zsh/zprof
 
 # source stuff
 _try_source ~/.config/zsh/aliases.zsh
-_try_source ~/.config/zsh/git.plugin.zsh
-_try_source ~/projects/zsh-autoswitch-virtualenv/autoswitch_virtualenv.plugin.zsh
+# _try_source ~/.config/zsh/git.plugin.zsh
 
 # all the completion stuff
 zstyle ':completion:*:git-checkout:*' sort false
@@ -48,9 +56,6 @@ zstyle ':fzf-tab:complete:systemctl-*:*' fzf-preview 'SYSTEMD_COLORS=1 systemctl
 zstyle ':fzf-tab:complete:*:*' fzf-preview 'less ${(Q)realpath}'
 zstyle -d ':completion:*' format
 zstyle ':completion:*:descriptions' format '[%d]'
-
-# add other function path for completion
-fpath=(~/.local/share/zap/plugins/zsh-completions/src $fpath)
 
 # add keybindings
 bindkey '^[[A' history-substring-search-up
