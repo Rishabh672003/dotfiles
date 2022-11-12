@@ -1541,3 +1541,154 @@ zprof | head
 zprof | head
 e
 e
+nv
+cd
+c
+lll
+c
+ll
+cd
+c
+cd
+c
+cz
+zshc
+lg
+nv
+cd
+c
+yl
+yel
+c
+c
+ll
+c
+c
+c
+c
+c
+nv
+cz
+zshc
+lg
+nv
+cd projects
+cd .local/share/
+cdp
+cd nvim/site/pack/packer/start/catppuccin
+nv .
+nv .
+nv .
+timezsh
+nv
+nv
+zprof | head
+zprof | head
+zprof | head
+nr
+for i in $(seq 1 10); do /usr/bin/time $SHELL -i -c exit; done
+which time
+for i in $(seq 1 10); do time $SHELL -i -c exit; done
+ping 8.8.8.8
+c
+ys
+nr
+ys
+ys
+c
+we
+cd .local/share/zap
+git pull
+e
+c
+cdp
+cd
+c
+lll
+cd
+c
+lll
+cd
+c
+cd projects/Neovim
+c
+cd
+c
+ll
+ls
+alias
+exa --color always --icons -a
+exa
+exa --icons
+nv
+cd .local/share/zap/zap.zsh
+cd .local/share/zap/
+nv .
+exec zsh
+exit
+e
+nvim .
+lll
+e
+e
+r
+e
+ll
+cd
+c
+nv
+r
+nv
+r
+nv
+e
+r
+e
+r
+e
+cd e
+e
+exa --color always --icons -a
+exa -1 --color=always $realpath
+exa -1 --color=always $realpath
+.local
+cd
+build-fzf-tab-module
+e
+zprof
+zprof | head
+zprof | head
+zprof | head
+e
+cdpp
+cd
+c
+ll
+exa -1 --color=always $realpath
+e
+nv
+cz
+e
+cd Public
+e
+zstyle ':fzf-tab:complete:systemctl-*:*' fzf-preview 'SYSTEMD_COLORS=1 systemctl status $word'
+e
+exec zsh
+cd
+c
+yay -S lesspipe
+e
+zshc
+lg
+lg
+nv history
+lg
+nv
+yay -R cat
+e
+c
+e
+cd .bashrc
+nv .bashrc
+c
+e
