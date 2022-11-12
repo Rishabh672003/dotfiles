@@ -2504,3 +2504,7 @@ zshc
 ll
 c
 e
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+e
+time $SHELL -i -c exit
