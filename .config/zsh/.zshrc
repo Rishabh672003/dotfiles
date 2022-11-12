@@ -20,10 +20,11 @@ compinit -d "$XDG_CACHE_HOME"/zsh/zcompdump-"$ZSH_VERSION"
 autoload -Uz zmv
 zmodload zsh/zprof
 
-# fzf plugins should be loaded after compinit
-plug "zap-zsh/fzf"
+# Installing and sourcing all the plugins
+# The order is important so dont change it
 plug "Aloxaf/fzf-tab"
 plug "Freed-Wu/fzf-tab-source"
+plug "zap-zsh/fzf"
 plug "zsh-users/zsh-autosuggestions"
 plug "zsh-users/zsh-syntax-highlighting"
 plug "zap-zsh/supercharge"

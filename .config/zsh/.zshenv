@@ -25,3 +25,5 @@ export GTK2_RC_FILES="$XDG_CONFIG_HOME"/gtk-2.0/gtkrc
 export XCURSOR_PATH=/usr/share/icons:${XDG_DATA_HOME}/icons
 export PARALLEL_HOME="$XDG_CONFIG_HOME"/parallel
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+# export LESSOPEN="| /usr/bin/src-hilite-lesspipe.sh %s"
+export LESS=' -R '

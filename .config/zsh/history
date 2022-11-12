@@ -1719,3 +1719,130 @@ ll
 e
 e
 e
+ll
+rm cat.toml
+cp ~/projects/zsh-configs
+cd ~/projects/zsh-configs
+git pull
+cp README.md ~/.config/zsh/README.md
+zshc
+lg
+yl
+cd
+c
+cd .config/zsh
+nv .
+e
+e
+e
+less a.txt
+bat a.txt
+bat -pp a.txt
+e
+e
+e
+e
+/usr/bin/src-hilite-lesspipe.sh
+e
+lesspipe.sh
+less
+less a.txt
+less Applications
+less Applications
+man less
+less --help
+nv
+cd .local/share/zap/plugins/fzf-tab-source/functions/helper.zsh
+cd .local/share/zap/plugins/fzf-tab-source/
+ll
+nv .
+e
+cd python-study
+ls
+less
+less 10.py
+cd
+less Applications
+cd .local/share/zap/plugins/fzf-tab-source/
+lg
+nv
+less Applications
+less Applications
+e
+less Applications
+less Applications
+less Applications
+cd
+cd python-study
+less 10.py
+e
+less -R Applications
+nv
+bat
+cd
+e
+nv
+nv
+e
+man less
+cd
+c
+e
+nv .bashrc
+bat Applications
+bat Applications
+bat Applications/nvim-0.8.appimage
+nv 
+nv 
+nv 
+nv 
+cd
+c
+ll
+c
+cd .cache
+ll
+cd
+c
+e
+ys
+c
+ys
+yay -S source-highlight
+exec zsh
+c
+e
+ll
+cd
+cz
+cd
+c
+man less
+c
+less Applications
+less --help
+man lessecho
+man lesskey
+man lesspipe
+c
+cd
+c
+cat Applications
+ls a.txt
+cd .local/share/zap/p
+cdp
+nv .
+zap -h
+zap pause fzf
+nv
+exec zsh
+zap pause fzf
+nv
+exec zsh
+zap unpause fzf
+e
+zap pause
+nv
+cz
+cz
+exec zsh
