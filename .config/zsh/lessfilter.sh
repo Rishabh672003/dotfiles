@@ -4,7 +4,7 @@ mime=$(file -bL --mime-type "$1")
 category=${mime%%/*}
 kind=${mime##*/}
 if [ -d "$1" ]; then
-    exa --color always --icons -1albh -s name --git --sort date "$1"
+    exa --color always --icons -1abh -s name --git --sort date --group-directories-first "$1"
 elif [ "$category" = image ]; then
     chafa "$1"
     exiftool "$1"
@@ -16,4 +16,3 @@ elif [ "$category" = text ]; then
 else
     lesspipe.sh "$1" | bat --color=always
 fi
-# lesspipe.sh don't use exa, bat and chafa, it use ls and exiftool. so we create a lessfilter.

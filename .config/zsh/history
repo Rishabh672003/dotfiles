@@ -2112,3 +2112,164 @@ c
 ll
 cd
 c
+cd
+c
+ll
+c
+fzf
+man fzf
+yay -S lesspipe
+lesspipe.sh
+lesspipe.sh Applications
+lesspipe.sh .bashrc
+lesspipe.sh Documents
+lesspipe.sh
+nv /usr/bin/lesspipe.sh
+vs /usr/bin/lesspipe.sh
+echo "hello"
+lesspipe.sh Applications
+lesspipe.sh ls -a
+lesspipe.sh | ls
+lesspipe.sh | ls -la
+lesspipe.sh | ls -aa
+lesspipe.sh | ls -a
+lesspipe.sh Applications
+lesspipe.sh .bash_profile
+cz
+zshc
+lg
+yl
+cd
+c
+nv
+clear
+cd
+c
+c
+c
+c
+ll
+c
+nv
+nv  
+nv  
+cd
+c
+ll
+cd
+c
+nv
+exa --help
+man exa
+man exa
+nv
+exec zsh
+wl
+ws
+cd
+c
+c
+c
+c
+c
+c
+c
+c
+lll
+c
+ssssssssssssssssssssssssss
+assssss
+assssss\n
+assssss/n
+nv
+cd .local/share/zap/
+nv zap.zsh
+exec zsh
+c
+zap -h
+zap -h
+zap update
+zap update
+zap pause
+nv
+cz
+c
+zap pause
+nv
+nv
+nv
+nv
+exec zsh
+we
+c
+zap pause
+zap pause
+nv
+cz
+zap pause
+nv
+cz
+c
+nv zap.zsh
+exec zsh
+c
+zap pause
+zap unpause
+zap unpause
+zap h
+zap -h
+zap unpause
+zap unpause
+zap pause
+zap unpause
+exec zsh
+c
+lv
+cd
+c
+c
+c
+c
+cd projects
+ll
+cd
+c
+c
+cd
+c
+nv .bash_profile
+cd
+c
+uneo
+gtnv
+cd
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+lc
+lv
+lv
+lv
+lv
+cd .local/share/zap/
+lg
+exec zsh
+cd
+c
+zap update
+nv .local/share/zap/zap.zsh
+nv .local/share/zap/zap.zsh
+nv .local/share/zap/zap.zsh
+zap update
+nv .local/share/zap/zap.zsh
+cd
+c
+exec zsh
