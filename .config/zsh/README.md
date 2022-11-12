@@ -4,7 +4,7 @@ made with ⚡[zap](https://github.com/zap-zsh-zap) very minimal and has all the 
 
 ## showcase
 
-![image](https://user-images.githubusercontent.com/53911515/200997209-9f23ec26-36c9-46f3-a954-7da5ef9b5d15.png)
+![image](https://user-images.githubusercontent.com/53911515/201457919-c81cbc1a-0b5f-4484-911e-058d5d5d271c.png)
 
 ## installation
 
