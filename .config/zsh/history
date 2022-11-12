@@ -1990,3 +1990,125 @@ cali
 exec zsh
 zshc
 e
+cd .cache/zsh4humans/v5
+cd fzf
+ll
+cdp
+ll
+cd zsh-completions
+ll
+cdp
+ll
+cd fzf
+ll
+cd plugin
+ll
+cdp
+ll
+lll
+cdp
+ll
+cd zsh4humans
+ll
+cdp
+fd fzf
+e
+zshc
+zshc
+cd
+c
+zshc
+yl
+nautilus .
+nemo .
+cd
+c
+fzf
+c
+c
+c
+c
+c
+c
+cd .local/share/zap/plugins
+ll
+cd fzf-tab
+ll
+nv .
+cd
+c
+exec zsh
+c
+time exec zsh
+exit
+cd
+c
+c
+c
+c
+cd .config/zsh
+nv lessfilter.sh
+chmod +x lessfilter.sh
+e
+e
+c 
+exa
+ll
+ls
+chafa
+exa --git -hl --color=always --icons Applications
+exa --git -h --color=always --icons Applications
+e
+man exa
+e
+source ~/.zshrc
+ll
+rm .zshrc
+source ~/.zshrc
+e
+source ~/.zshrc
+e
+cd .local/share/zap/plugins/supercharge
+nv
+source $ZDOTDIR/.zshrc
+source $ZDOTDIR/.zshrc
+exec zsh
+e
+exec zsh
+exec zsh
+exec zsh
+exit
+exec zsh
+c
+nv
+cd .lyrics
+ll
+cdp
+cz
+man exa
+cd projects
+
+man exa
+cd projects
+
+cd
+c
+c
+c
+e
+e
+e
+cd 
+cd
+c
+e
+e
+echo ${(s.:.)LS_COLORS
+echo $LS_COLORS
+man zstyle
+man zshmodules
+nv
+c
+ll
+cd
+c
