@@ -2538,3 +2538,29 @@ cali
 time $SHELL -i -c exit
 time $SHELL -i -c exit
 e
+c
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+c
+lll
+nv
+nv
+c
+cz
+yl
+cd .config/zsh.old
+ll
+cdp
+cd zsh
+ll
+nv .
+zshc
+yay less
+yay lessfile
+e
+yay lessfile
+time $SHELL -i -c exit
+time $SHELL -i -c exit
