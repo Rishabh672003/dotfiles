@@ -1846,3 +1846,88 @@ nv
 cz
 cz
 exec zsh
+gh repo clone Rishabh672003/zap ~/projects/zap
+cd projects/zap
+ll
+cp ~/.local/share/zap/zap.zsh .
+lg
+nv
+yay -S shfmt
+cd .git
+ll
+cd
+c
+lll
+cd
+c
+cd .gitmoji
+ll
+nv gitmojis.json
+cd
+rm .gitmoji
+rm -rf .gitmoji
+ys
+yl
+yay xdg-desktop-portal-wlr
+c
+nv
+cd
+c
+cd .local/share/zap/p
+ll
+cdp
+lg
+ll
+ls
+cd pl
+ll
+ls
+ll
+nv
+cz
+cdp
+nv zap.zsh
+git pull
+lg
+cd
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+cd
+c
+ll
+rm a.txt
+ll
+rm .wget-hsts
+cd git-repos
+ll
+nv .zshrc
+rm -rf .zshrc
+cd
+c
+c
+c
+c
+c
+c
+c
+cz
+nv
+c
+nv
+cd
+c
+cz
+c
+cd
+c
+ll
+c
+nv

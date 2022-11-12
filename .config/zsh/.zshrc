@@ -21,17 +21,17 @@ autoload -Uz zmv
 zmodload zsh/zprof
 
 # Installing and sourcing all the plugins
-# The order is important so dont change it
+# The order is important so dont change it if you dont know what you are doing
 plug "Aloxaf/fzf-tab"
 plug "Freed-Wu/fzf-tab-source"
 plug "zap-zsh/fzf"
 plug "zsh-users/zsh-autosuggestions"
-plug "zsh-users/zsh-syntax-highlighting"
 plug "zap-zsh/supercharge"
 plug "hlissner/zsh-autopair"
 plug "zsh-users/zsh-completions"
 plug "zsh-users/zsh-history-substring-search"
 plug "zap-zsh/vim"
+plug "zsh-users/zsh-syntax-highlighting"
 
 # source stuff
 _try_source ~/.config/zsh/aliases.zsh
