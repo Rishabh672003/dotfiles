@@ -2508,3 +2508,33 @@ time $SHELL -i -c exit
 time $SHELL -i -c exit
 e
 time $SHELL -i -c exit
+cd projects/zsh-configs
+ll
+ls
+exec zsh
+zshc
+lg
+e
+cd .config/zsh
+ll
+cdp
+ll
+yel
+yl
+cd .config/zsh
+ll
+rm shell-varibales-and-commands.zsh autoswitch_virtualenv.plugin.zsh 
+ll
+c
+ls
+nv .zlogin
+nv .zlogin
+nv .zprofile
+rm .zprofile
+ll
+ls
+nv .zshenv
+cali
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+e
