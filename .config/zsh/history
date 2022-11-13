@@ -3058,3 +3058,38 @@ ll
 cp -r ~/projects/zsh-configs/history .
 lg
 yel
+exec zsh
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+c
+lll
+c
+ll
+c
+lll
+c
+e
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+cz
+cz
+e
+e
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+e

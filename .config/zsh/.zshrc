@@ -19,11 +19,11 @@ pfetch
 plug "zsh-users/zsh-autosuggestions"
 plug "zap-zsh/supercharge"
 plug "hlissner/zsh-autopair"
-plug "zsh-users/zsh-completions"
-plug "zsh-users/zsh-history-substring-search"
 plug "zap-zsh/vim"
-plug "zsh-users/zsh-syntax-highlighting"
 plug "MichaelAquilina/zsh-autoswitch-virtualenv"
+plug "zsh-users/zsh-completions"
+plug "zsh-users/zsh-syntax-highlighting"
+plug "zsh-users/zsh-history-substring-search"
 
 # source stuff
 _try_source ~/.config/zsh/aliases.zsh
@@ -41,8 +41,7 @@ else
 	compinit -C;
 fi;
 autoload -Uz zmv
-
-# zmodload zsh/zprof
+zmodload zsh/zprof
 
 plug "Aloxaf/fzf-tab"
 plug "Freed-Wu/fzf-tab-source"
