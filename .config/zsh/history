@@ -2564,3 +2564,497 @@ e
 yay lessfile
 time $SHELL -i -c exit
 time $SHELL -i -c exit
+nr
+yay hyprland
+c
+ys
+spicetify backup restore apply
+playerctl
+playerctl -l
+playerctl position 3
+sdr
+exit
+time $SHELL -i -c exit
+rm ~/.config/zsh/.zlogin
+rm -rf ~/.config/zsh/*.zwc
+cd .config/zsh
+ll
+rm -rf ~/projects/zsh-configs/*.zwc ~/projects/zsh-autoswitch-virtualenv ~/projects/zsh-configs/.zlogin
+zshc
+lg
+yl
+c
+exec zsh
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+nv
+c
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+nv
+cz
+exec zsh
+time $SHELL -i -c exit
+cz
+exec zsh
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+e
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+nv
+nvim
+ys
+c
+ys
+c
+time $SHELL -i -c exit
+c
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+e
+compinit -C
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+c
+c
+c
+c
+c
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+cd .config/zsh
+e
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+e
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+e
+\
+\
+for i in $(seq 1 10); do time /bin/zsh -i -c exit; done;
+nv .config/alacritty/alacritty.yml
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+e
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+cd .cache/zsh
+ll
+cdp
+cd zsh
+cdp
+cd
+cd .cache/zsh
+cdp
+mkdir zsh
+e
+e
+cd .cache/zsh
+ll
+cdp
+ll
+cd .cache/zsh
+ll
+cdp
+ll
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+cd .cache/zsh
+ll
+ll
+cdp
+ll
+e
+e
+e
+ll
+c
+ll
+cd
+c
+ll
+c
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+e
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+nv
+cz
+cz
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+compinit -d "$XDG_CACHE_HOME"/zsh/zcompdump-"$ZSH_VERSION"
+cd .cache/zsh
+ll
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+cd .cache/zsh
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+cd .cache/zsh
+ll
+e
+time $SHELL -i -c exit
+cd .cache/zsh
+ll
+e
+e
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+zprof
+zprof | head
+zprof | head
+zprof | head
+exec zsh
+zprof | head
+zprof | head
+zprof | head
+e
+exec zsh
+time $SHELL -i -c exit
+cd .cache/zsh
+cd
+cd
+c
+cd .config/zsh
+zcompile .zshrc
+ll
+cd .config/zsh
+ll
+zcompile aliases.zsh
+ll
+nv aliases.zsh.zwc
+lll
+cd
+e
+time $SHELL -i -c exit
+e
+lll
+c
+cd .config/zsh
+ll
+ls
+zrecompile 
+autoload -U zrecompile
+zrecompile aliases.zsh
+ll
+ls
+ls -al
+exec zsh
+exec zsh
+exec zsh
+exec zsh
+exec zsh
+exec zsh
+for i in $(seq 1 10); do time /bin/zsh -i -c exit; done
+zrecompile
+zcompile
+zcompile ~/.config/zsh/.zshrc
+ll
+cd .config/zsh
+ll
+nv .zprofile
+c
+zrecompile
+nv .zlogin
+c
+cd
+c
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+c
+nvim
+exec zsh
+cd .cache/zsh
+ll
+cdp
+ll
+cd zsh
+ll
+cdp
+rm discordo.log
+e
+c
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+cz
+c
+ll
+nv
+v
+vi
+cd
+c
+lll
+cd
+c
+cllll
+ll
+c
+f
+c
+f
+cfc
+cpc
+cpc
+cpc
+nv
+cd .local/share/zap/
+yay -S ack
+ack "zmload"
+ack
+e
+ack
+cd wall
+c
+which ack
+yay -R ack
+yay -S ack
+ack
+ack
+ack
+perl ack
+c
+cz
+exec zsh
+rm -rf ~/.local/share/zap/plugins
+exec zsh
+exec zsh
+zshc
+lg
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+zap update
+zap -a
+cd .local/share/zap/
+git pull
+zap --update
+nv .
+zap -A
+zap V
+zap Version
+zap version
+e
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+e
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+nv
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+e
+zshc
+lg
+e
+time $SHELL -i -c exit
+c
+time $SHELL -i -c exit
+zshc
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+lg
+e
+zshc
+lg
+e
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+e
+ack
+cd
+cd .config/zsh
+ack "zmload"
+cd
+cd .local/share/zap/
+ack "zmload"
+cd 
+nv
+cz
+nv
+zshc
+lg
+nv .
+nv .
+nv .
+cd
+cd .config/zsh
+ll
+nv .
+nv .
+nv
+nv
+cd
+x
+x
+c
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+nv
+cd .config/zsh
+nv README.md
+nv
+mv aliases.zsh.zwc ..
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+rm ../aliases.zsh.zwc
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+zshc
+lg
+cd .config/zsh
+ll
+zshc
+awk '!seen[$0]++' history
+nv history
+awk '!seen[$0]++' history > history
+nv history
+lg
+sort history | uniq -u
+nv history
+sort history | uniq -u | tee -a history2
+nv history2
+mv history2 history
+lg
+lg
+cp ~/.config/zsh/history history2
+ll
+nv history
+nv history2
+nv history
+mv history ~/.config/zsh/history
+rm history2
+zshc
+lg
+cz
+exec zsh
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+cd .config/zsh/history
+cd .config/zsh/
+uniq -u history
+uniq --all-repeated=none history
+uniq --unique history
+uniq --unique history > history
+less history
+nv history
+yel
+yadm enter
+ll
+mv .zshenv ..
+yel
+ll
+cdp
+ll
+mv .zshenv zsh
+cd zsh
+ll
+cp -r ~/projects/zsh-configs/history .
+lg
+yel

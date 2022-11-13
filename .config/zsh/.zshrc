@@ -11,16 +11,13 @@ fi
 # evals needed for apps
 eval "$(zoxide init zsh)"
 
-# get pfetch every time you open the terminal
+# get pfetch every time you open the terminal 
 pfetch
 
 # Installing and sourcing all the plugins
 # The order is important so dont change it if you dont know what you are doing
-plug "zap-zsh/supercharge"
-plug "Aloxaf/fzf-tab"
-plug "Freed-Wu/fzf-tab-source"
-plug "zap-zsh/fzf"
 plug "zsh-users/zsh-autosuggestions"
+plug "zap-zsh/supercharge"
 plug "hlissner/zsh-autopair"
 plug "zsh-users/zsh-completions"
 plug "zsh-users/zsh-history-substring-search"
@@ -28,28 +25,33 @@ plug "zap-zsh/vim"
 plug "zsh-users/zsh-syntax-highlighting"
 plug "MichaelAquilina/zsh-autoswitch-virtualenv"
 
+# source stuff
+_try_source ~/.config/zsh/aliases.zsh
+_try_source ~/.config/zsh/git.plugin.zsh
+
 # add other function path for completion
 fpath=(~/.local/share/zap/plugins/zsh-completions/src $fpath)
 
 # Comp stuff and autoloading them
-autoload -Uz compinit 
+autoload -Uz compinit
 if [[ -n ${ZDOTDIR}/.zcompdump(#qN.mh+24) ]]; then
-    compinit -d "$XDG_CACHE_HOME"/zsh/zcompdump-"$ZSH_VERSION"
+    compinit -d "$XDG_CACHE_HOME"/zsh/zcompdump-"$ZSH_VERSION";
+	compinit;
 else
 	compinit -C;
-fi
-
+fi;
 autoload -Uz zmv
-zmodload zsh/zprof
 
-# source stuff
-_try_source ~/.config/zsh/aliases.zsh
-# _try_source ~/.config/zsh/git.plugin.zsh
+# zmodload zsh/zprof
+
+plug "Aloxaf/fzf-tab"
+plug "Freed-Wu/fzf-tab-source"
+plug "zap-zsh/fzf"
 
 # all the completion stuff
 zstyle ':completion:*:git-checkout:*' sort false
 zstyle ':completion:*:descriptions' format '[%d]'
-zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
+zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 zstyle ':fzf-tab:*' switch-group ',' '.'
 zstyle ':fzf-tab:complete:systemctl-*:*' fzf-preview 'SYSTEMD_COLORS=1 systemctl status $word'
