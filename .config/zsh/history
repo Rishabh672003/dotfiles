@@ -3160,3 +3160,21 @@ time $SHELL -i -c exit
 time $SHELL -i -c exit
 time $SHELL -i -c exit
 exec zsh
+zshc
+lg
+yl
+e
+time $SHELL -i -c exit
+e
+nv
+nv
+e
+cd .local/share/nvim
+ll
+lll
+e
+cd
+cd .local/share/nvim
+mason/packages/lua-language-server/extension/server/meta/spell
+ll
+e
