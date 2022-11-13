@@ -9,7 +9,7 @@ made with ⚡[zap](https://github.com/zap-zsh-zap) very minimal and has all the 
 
 ## startup-time
 
-i have tried to worked on the startup time and it's around 300ms to 400ms. If you know how to reduce it please open a pr
+i have tried to worked on the startup time and it varies around 200ms to 400ms. If you know how to reduce it please open a pr, i would very much appreciate it
 
 ![image](https://user-images.githubusercontent.com/53911515/201516321-68531705-211e-4bbd-a5dc-eec93801b3e9.png)
 

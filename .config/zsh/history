@@ -3093,3 +3093,70 @@ time $SHELL -i -c exit
 time $SHELL -i -c exit
 time $SHELL -i -c exit
 e
+wf-recorder -g "$(slurp)" -f cd.mp4
+wf-recorder -g "$(slurp)" -f cd2.mp4
+rm cd2.mp4
+wf-recorder -g "$(slurp)" -f cd2.mp4
+e
+time $SHELL -i -c exit
+nv
+cz
+cz
+nv .
+cd .config/zsh/
+nv .
+cd
+nvim ~/projects/zsh-configs
+cd
+c
+nvim ~/projects/zsh-configs
+nvim ~/.config/nvim/lua/user/nvim-tree.lua
+nvim ~/projects/zsh-configs
+nvim ~/.config/nvim/lua/user/nvim-tree.lua
+cd
+c
+nv
+nv
+nv
+nv ~/.config/zsh/
+nvim
+nvim
+nv ~/.config/zsh/
+nv
+yel
+nvim
+cd
+c
+nv
+cd
+c
+nv .config/zsh/
+cd projects/chrome-gnome-shell
+cd
+nv projects/chrome-gnome-shell
+cd
+c
+cd .mozilla
+ll
+lll
+lll
+cd extensions
+ll
+cdp
+c
+ll
+c
+c
+c
+c
+c
+cll
+c
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+exec zsh
