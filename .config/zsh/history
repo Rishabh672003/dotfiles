@@ -3253,3 +3253,11 @@ ll
 cd scripts
 chmod +x hyprpicker.sh
 e
+c
+ll
+nv
+cd .config/hypr/scripts
+nv hyprpicker.sh
+yl
+c
+e
