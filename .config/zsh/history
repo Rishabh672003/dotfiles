@@ -3160,21 +3160,96 @@ time $SHELL -i -c exit
 time $SHELL -i -c exit
 time $SHELL -i -c exit
 exec zsh
-zshc
-lg
-yl
-e
+exec zsh
 time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+exec zsh
+time $SHELL -i -c exit
+man stat
 e
-nv
-nv
-e
-cd .local/share/nvim
-ll
-lll
-e
+man 
+man man
+c
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+git clone https://github.com/Rishabh672003/Neovim ~/.config/nvim && nvim
+nvim
+nvim
+nvim
+awk '!seen[$0]++' history > history
+nvim
 cd
-cd .local/share/nvim
-mason/packages/lua-language-server/extension/server/meta/spell
+c
+c
+c
+c
+c
+c
+c
+nv
+cd .config/zsh/
 ll
+lg
+rm -rf .git
+nv .
+man bat
+bat -l man -p 
+c
+c
+cc
+c
+c
+c
+c
+nv
+cd
+c
+nv
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+uneo
+zap update
+zap -u
+cd
+c
+exec zsh
+c
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+nv
+nv
+cd
+c
+nv
+nv
+nv
+sdr
+ping 8.8.8.8
+c
+ys
+cd projects
+gh repo clone Rishabh672003/neovim-1
+nvim 
+cd neovim-1
+ll
+nv .
+nv
+nv
+ys
+cd .config/hypr
+ll
+cd scripts
+chmod +x hyprpicker.sh
 e

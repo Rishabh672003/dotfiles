@@ -4,7 +4,7 @@ local core_modules = {
 	"user.colorschemes.catppuccin",
 	"user.lualine-themes.lualine1",
 	"user.startup-screens.startup-screen3",
-	"user.barbeque.barbeque2",
+	"user.barbeque.barbeque1",
 	"user.options",
 	"user.keymaps",
 	"user.cmp",
@@ -27,8 +27,7 @@ local core_modules = {
 	"user.notify",
 	"user.jaq",
 	"user.better-escape",
-	"user.hop",
-	"user.dap",
+	"user.hop"
 }
 
 -- Using pcall we can handle better any loading issues
