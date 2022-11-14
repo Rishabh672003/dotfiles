@@ -5,13 +5,13 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
     source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-# source ⚡zap
+# ⚡zap
 [ -f "$HOME/.local/share/zap/zap.zsh" ] && source "$HOME/.local/share/zap/zap.zsh"
 
 # evals needed for apps
 eval "$(zoxide init zsh)"
 
-# get pfetch every time you open the terminal 
+# get pfetch every time you open the terminal
 pfetch
 
 # Installing and sourcing all the plugins
@@ -36,10 +36,11 @@ fpath=(~/.local/share/zap/plugins/zsh-completions/src $fpath)
 autoload -Uz compinit
 if [[ -n ${ZDOTDIR}/.zcompdump(#qN.mh+24) ]]; then
     compinit -d "$XDG_CACHE_HOME"/zsh/zcompdump-"$ZSH_VERSION";
-	compinit;
+    compinit;
 else
-	compinit -C;
+    compinit -C;
 fi;
+
 autoload -Uz zmv
 zmodload zsh/zprof
 
