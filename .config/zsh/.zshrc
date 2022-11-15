@@ -25,10 +25,6 @@ plug "zsh-users/zsh-completions"
 plug "zsh-users/zsh-syntax-highlighting"
 plug "zsh-users/zsh-history-substring-search"
 
-# source stuff
-plug ~/.config/zsh/aliases.zsh
-plug ~/.config/zsh/git.plugin.zsh
-
 # add other function path for completion
 fpath=(~/.local/share/zap/plugins/zsh-completions/src $fpath)
 
@@ -75,3 +71,7 @@ SAVEHIST=1000000000
 
 # To customize prompt, run `p10k configure` or edit ~/.config/zsh/.p10k.zsh.
 [[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
+
+# source stuff
+plug ~/.config/zsh/aliases.zsh
+plug ~/.config/zsh/git.plugin.zsh

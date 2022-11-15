@@ -3379,3 +3379,103 @@ c
 c
 nv
 exec zsh
+ll
+c
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+e
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+lll
+c
+e
+time $SHELL -i -c exit
+e
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+nv
+cd .config/hypr/scripts
+ll
+nv
+cd
+c
+nv
+nv
+nv
+nv
+dunstctl history | head -n 10
+dunstctl history | head -n 30
+lc
+lv
+lv
+lv
+lv
+lv
+c
+ll
+c
+nv
+cd .local/share/nvim
+ll
+cd site/pack/packer
+cd start/telescope.nvim
+ll
+lll
+cd data
+ll
+cd memes
+ll
+cdpp
+ll
+lll
+cd lua/telescope
+ll
+cd builtin
+ll
+nv
+nv
+cd
+c
+nv
+time $SHELL -i -c exit
+e
+time $SHELL -i -c exit
+nv
+cz
+ys
+c
+ys
+we
+c
+ys
+c
+ll
+ping 8.8.8.8
+we
+c
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+cz
+exec zsh
+exec zsh
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+exec zsh
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+e
+e
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+e

@@ -1,5 +1,5 @@
 lvim.log.level = "warn"
-lvim.builtin.alpha.active = true
+-- lvim.builtin.alpha.active = true
 -- lvim.builtin.illuminate.active = false
 lvim.builtin.bufferline.active = false
 lvim.builtin.alpha.mode = "dashboard"
