@@ -26,8 +26,8 @@ plug "zsh-users/zsh-syntax-highlighting"
 plug "zsh-users/zsh-history-substring-search"
 
 # source stuff
-_try_source ~/.config/zsh/aliases.zsh
-_try_source ~/.config/zsh/git.plugin.zsh
+plug ~/.config/zsh/aliases.zsh
+plug ~/.config/zsh/git.plugin.zsh
 
 # add other function path for completion
 fpath=(~/.local/share/zap/plugins/zsh-completions/src $fpath)
