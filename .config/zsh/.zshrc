@@ -40,6 +40,10 @@ fi;
 autoload -Uz zmv
 zmodload zsh/zprof
 
+# source stuff
+plug ~/.config/zsh/aliases.zsh
+plug ~/.config/zsh/git.plugin.zsh
+
 plug "Aloxaf/fzf-tab"
 plug "Freed-Wu/fzf-tab-source"
 plug "zap-zsh/fzf"
@@ -71,7 +75,3 @@ SAVEHIST=1000000000
 
 # To customize prompt, run `p10k configure` or edit ~/.config/zsh/.p10k.zsh.
 [[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
-
-# source stuff
-plug ~/.config/zsh/aliases.zsh
-plug ~/.config/zsh/git.plugin.zsh
