@@ -1729,7 +1729,6 @@ _comps=(
 'ypxfr' '_yp'
 'ytalk' '_other_accounts'
 'yt-dlp' '_yt-dlp'
-'z' '__zoxide_z_complete'
 'zap' '_zap'
 'zargs' '_zargs'
 'zathura' '_zathura'

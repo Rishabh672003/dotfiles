@@ -2,13 +2,14 @@ configuration{
     modi: "run,drun";
     icon-theme: "Oranchelo";
     show-icons: true;
-    terminal: "wezterm";
+    terminal: "alacritty";
     drun-display-format: "{icon} {name}";
     location: 0;
     disable-history: false;
     hide-scrollbar: true;
     display-drun: "   Apps ";
     display-run: "   Run ";
+    display-emoji: " Emoji ";
     display-window: " 﩯  Window";
     display-Network: " 󰤨  Network";
     display-filebrowser: "  Filebrowser";

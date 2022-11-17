@@ -8,6 +8,8 @@ fi
 # ⚡zap
 [ -f "$HOME/.local/share/zap/zap.zsh" ] && source "$HOME/.local/share/zap/zap.zsh"
 
+plug ~/.config/zsh/supercharge.zsh
+
 # evals needed for apps
 eval "$(zoxide init zsh)"
 
@@ -17,16 +19,15 @@ pfetch
 # Installing and sourcing all the plugins
 # The order is important so dont change it if you dont know what you are doing
 plug "zsh-users/zsh-autosuggestions"
-plug "zap-zsh/supercharge"
 plug "hlissner/zsh-autopair"
 plug "zap-zsh/vim"
 plug "MichaelAquilina/zsh-autoswitch-virtualenv"
-plug "zsh-users/zsh-completions"
 plug "zsh-users/zsh-syntax-highlighting"
 plug "zsh-users/zsh-history-substring-search"
 
-# add other function path for completion
-fpath=(~/.local/share/zap/plugins/zsh-completions/src $fpath)
+plug "Aloxaf/fzf-tab"
+plug "Freed-Wu/fzf-tab-source"
+plug "zap-zsh/fzf"
 
 # Comp stuff and autoloading them
 autoload -Uz compinit
@@ -37,16 +38,9 @@ else
     compinit -C;
 fi;
 
-autoload -Uz zmv
-zmodload zsh/zprof
-
 # source stuff
 plug ~/.config/zsh/aliases.zsh
 plug ~/.config/zsh/git.plugin.zsh
-
-plug "Aloxaf/fzf-tab"
-plug "Freed-Wu/fzf-tab-source"
-plug "zap-zsh/fzf"
 
 # all the completion stuff
 zstyle ':completion:*:git-checkout:*' sort false
@@ -68,15 +62,6 @@ bindkey -s '^x' '^uexec zsh\n'
 
 # theme
 plug "romkatv/powerlevel10k"
-
-# save and get history to working
-HISTSIZE=1000000000
-SAVEHIST=1000000000
-
-setopt hist_expire_dups_first
-setopt hist_ignore_dups
-setopt hist_ignore_space
-setopt share_history
 
 # To customize prompt, run `p10k configure` or edit ~/.config/zsh/.p10k.zsh.
 [[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh

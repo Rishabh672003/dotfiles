@@ -3546,8 +3546,147 @@ c
 ping 8.8.8.8
 c
 exec zsh
-: 1668681054:0;c
-: 1668681061:0;nvim
-: 1668681063:0;ys
-: 1668681200:0;nv
-: 1668681345:0;yl
+c
+nvim
+ys
+nv
+yl
+c
+nv
+c
+ys
+nv
+c
+ll
+c
+exec zsh
+v
+c
+nv
+cd
+c
+nv ~/.config/zsh/history
+time $SHELL -i -c exit
+e
+exec zsh
+c
+nv ~/.config/zsh/history
+c
+ll
+nv
+c
+ll
+nvim
+time $SHELL -i -c exit
+c
+update-grub
+exec zsh
+c
+ll
+nv
+cz
+exec zsh
+cd .config/zsh
+ll
+uniq history
+exec zsh
+uniq history
+c
+e
+cz
+time $SHELL -i -c exit
+nv ~/.local/share/zap
+cd .local/share/zap
+ll
+cd plugins
+ll
+cd supercharge
+ll
+nv supercharge.plugin.zsh
+e
+time $SHELL -i -c exit
+e
+zap -c
+e
+time $SHELL -i -c exit
+e
+ls
+e
+time $SHELL -i -c exit
+c
+nv
+e
+time $SHELL -i -c exit
+e
+time $SHELL -i -c exit
+e
+exec zsh
+time $SHELL -i -c exit
+exec zsh
+time $SHELL -i -c exit
+rm a.vue
+e
+time $SHELL -i -c exit
+e
+time $SHELL -i -c exit
+exec zsh
+e
+e
+exec zsh
+time $SHELL -i -c exit
+exec zsh
+time $SHELL -i -c exit
+e
+time $SHELL -i -c exit
+e
+pacman -Qi | fzf
+pacman -Qq | fzf
+zstat
+zstat Applications
+nv
+time $SHELL -i -c exit
+e
+ls --colour
+ls --colour auto
+e
+time $SHELL -i -c exit
+e
+yay -S zsh-completions-git
+time $SHELL -i -c exit
+cd
+c
+nv
+c
+time $SHELL -i -c exit
+cd projects/zsh-configs
+git pull
+cp -r ~/projects/zsh-configs/README.md ~/.config/zsh
+zshc
+lg
+zshc
+lg
+c
+yay -S rofi-emoji
+rofi-emoji
+rofi -modi emoji -show emoji -emoji-format '{emoji}'
+rofi -modi emoji -show emoji
+nv
+ll
+c
+cd .config/zsh
+ll
+cd
+c
+cd .config/rofi
+ll
+nv .
+rofi -modi emoji -show emoji
+nnv
+nv
+rofi -modi emoji -show emoji
+cd userconfig
+cd
+exec zsh
+: 1668696992:0;c
+: 1668696995:0;nv
+: 1668697024:0;yl

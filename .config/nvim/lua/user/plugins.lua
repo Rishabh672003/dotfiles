@@ -84,6 +84,7 @@ return packer.startup(function(use)
 		"williamboman/mason-lspconfig.nvim",
 		"neovim/nvim-lspconfig",
 	})
+	use("xiyaowong/nvim-transparent")
 	--for-json-schemas
 	use("b0o/schemastore.nvim")
 
@@ -163,7 +164,9 @@ return packer.startup(function(use)
 
 	-- winbar stuff
 	use("SmiteshP/nvim-navic")
-	use({ "utilyre/barbecue.nvim"--[[ , branch = "issue/14"  ]]})
+	use({
+		"utilyre/barbecue.nvim",--[[ , branch = "issue/14"  ]]
+	})
 
 	use("max397574/better-escape.nvim")
 	use({
