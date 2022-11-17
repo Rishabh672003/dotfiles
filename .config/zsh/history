@@ -3479,32 +3479,75 @@ time $SHELL -i -c exit
 time $SHELL -i -c exit
 time $SHELL -i -c exit
 e
+nv history
+exec zsh
+c
 time $SHELL -i -c exit
+c
+ll
+c
+grub-install --target=x86_64-efi --efi-directory=/boot/efi/ --bootloader-id=GRUB
+sudo grub-install --target=x86_64-efi --efi-directory=/boot/efi/ --bootloader-id=GRUB
+c
+lll
+c
+nv history
 time $SHELL -i -c exit
-cz
-cz
+c
+ll
+uneo
+gtnv
 zshc
 lg
-lg
-yl
-nv
-man rofi
-ys
-ping 8.8.8.8
-ping 8.8.8.8
-nr
-time $SHELL -i -c exit
-ys
-time $SHELL -i -c exit
-time $SHELL -i -c exit
-time $SHELL -i -c exit
-time $SHELL -i -c exit
-time $SHELL -i -c exit
-cz
-exec zsh
-time $SHELL -i -c exit
-time $SHELL -i -c exit
-e
+cd
+c
+lll
+c
+ll
+c
+ll
 c
 nv
-e
+ll
+l
+lll
+ll
+l
+ll
+nv
+ping 8.8.8.8
+nv
+ys
+nv
+nv a.vue
+cd projects/jspro
+ll
+mkdir a.git
+nv a.vue
+c
+nv
+cd
+c
+ll
+nv
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+c
+ys
+sudo grub-install --target=x86_64-efi --efi-directory=/boot/efi/ --bootloader-id=GRUB
+grub-update
+c
+cd
+c
+ys
+c
+ll
+c
+ping 8.8.8.8
+c
+exec zsh
+: 1668681054:0;c
+: 1668681061:0;nvim
+: 1668681063:0;ys
+: 1668681200:0;nv
+: 1668681345:0;yl

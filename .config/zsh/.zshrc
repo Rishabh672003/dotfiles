@@ -73,5 +73,10 @@ plug "romkatv/powerlevel10k"
 HISTSIZE=1000000000
 SAVEHIST=1000000000
 
+setopt hist_expire_dups_first
+setopt hist_ignore_dups
+setopt hist_ignore_space
+setopt share_history
+
 # To customize prompt, run `p10k configure` or edit ~/.config/zsh/.p10k.zsh.
 [[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
