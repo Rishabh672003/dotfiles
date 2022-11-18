@@ -3782,3 +3782,8 @@ exec zsh
 : 1668776892:0;yadm commit -a -m "update"
 : 1668776896:0;yel
 : 1668776900:0;yl
+: 1668776908:0;cd .config/nvim
+: 1668776910:0;ll
+: 1668776911:0;cdp
+: 1668776918:0;mv nvim nvim.bak
+: 1668776922:0;yl
