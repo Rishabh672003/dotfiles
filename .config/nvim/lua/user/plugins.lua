@@ -84,7 +84,6 @@ return packer.startup(function(use)
 		"williamboman/mason-lspconfig.nvim",
 		"neovim/nvim-lspconfig",
 	})
-	use("xiyaowong/nvim-transparent")
 	--for-json-schemas
 	use("b0o/schemastore.nvim")
 
