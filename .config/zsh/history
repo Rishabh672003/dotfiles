@@ -3687,6 +3687,81 @@ rofi -modi emoji -show emoji
 cd userconfig
 cd
 exec zsh
-: 1668696992:0;c
-: 1668696995:0;nv
-: 1668697024:0;yl
+c
+nv
+yl
+cz
+time $SHELL -i -c exit
+e
+time $SHELL -i -c exit
+e
+time $SHELL -i -c exit
+e
+time $SHELL -i -c exit
+e
+time $SHELL -i -c exit
+zprof | head
+#hello
+c
+echo
+rm history
+man bat
+c
+e
+cd wall
+c 
+nv
+nv ~/.config/mpv
+nv
+cd
+nv
+exec zsh
+c
+uneo
+nv ~/.config/dunst/dunstrc
+killall -9 dunst
+dunst
+dunstify "help"
+nv ~/.config/dunst/dunstrc
+e
+killall -9 dunst
+dunst
+/usr/bin/dmenu -p dunst
+dmenu -p
+nv
+c
+dunstctl is-paused
+c
+nv
+c
+yay -S mpvpaper
+c
+ys
+yay -R zsh-completions-git
+yay -S zsh-completions
+c
+exec zsh
+time $SHELL -i -c exit
+cat /dev/urandom | hexdump -C | grep "ca fe"
+c
+cz
+exec zsh
+: 1668776449:0;time $SHELL -i -c exit
+: 1668776453:0;c
+: 1668776479:0;exa --accessed Applications --group-directories-first Applications
+: 1668776483:0;cd
+: 1668776483:0;c
+: 1668776492:0;alias cd
+: 1668776501:0;z neo
+: 1668776506:0;cd
+: 1668776507:0;c
+: 1668776508:0;uneo
+: 1668776667:0;c
+: 1668776668:0;nvim
+: 1668776672:0;cd
+: 1668776672:0;c
+: 1668776681:0;nvim --startuptime a.log
+: 1668776696:0;nv a.log
+: 1668776712:0;c
+: 1668776714:0;ll
+: 1668776716:0;yl
