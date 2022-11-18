@@ -3746,48 +3746,133 @@ cat /dev/urandom | hexdump -C | grep "ca fe"
 c
 cz
 exec zsh
-: 1668776449:0;time $SHELL -i -c exit
-: 1668776453:0;c
-: 1668776479:0;exa --accessed Applications --group-directories-first Applications
-: 1668776483:0;cd
-: 1668776483:0;c
-: 1668776492:0;alias cd
-: 1668776501:0;z neo
-: 1668776506:0;cd
-: 1668776507:0;c
-: 1668776508:0;uneo
-: 1668776667:0;c
-: 1668776668:0;nvim
-: 1668776672:0;cd
-: 1668776672:0;c
-: 1668776681:0;nvim --startuptime a.log
-: 1668776696:0;nv a.log
-: 1668776712:0;c
-: 1668776714:0;ll
-: 1668776716:0;yl
-: 1668776738:0;yel
-: 1668776749:0;nv
-: 1668776838:0;yl
-: 1668776847:0;cd .config/nvim
-: 1668776848:0;ll
-: 1668776855:0;rm -rf .git 
-: 1668776857:0;ll
-: 1668776863:0;rm .gitignore
-: 1668776865:0;ll
-: 1668776866:0;c
-: 1668776867:0;cd
-: 1668776868:0;c
-: 1668776869:0;yl
-: 1668776883:0;yadm add ~/.config/nvim
-: 1668776892:0;yadm commit -a -m "update"
-: 1668776896:0;yel
-: 1668776900:0;yl
-: 1668776908:0;cd .config/nvim
-: 1668776910:0;ll
-: 1668776911:0;cdp
-: 1668776918:0;mv nvim nvim.bak
-: 1668776922:0;yl
-: 1668776933:0;mv nvim.bak nvim
-: 1668776937:0;cd nvim
-: 1668776938:0;ll
-: 1668776947:0;yl
+time $SHELL -i -c exit
+c
+exa --accessed Applications --group-directories-first Applications
+cd
+c
+alias cd
+z neo
+cd
+c
+uneo
+c
+nvim
+cd
+c
+nvim --startuptime a.log
+nv a.log
+c
+ll
+yl
+yel
+nv
+yl
+cd .config/nvim
+ll
+rm -rf .git 
+ll
+rm .gitignore
+ll
+c
+cd
+c
+yl
+yadm add ~/.config/nvim
+yadm commit -a -m "update"
+yel
+yl
+cd .config/nvim
+ll
+cdp
+mv nvim nvim.bak
+yl
+mv nvim.bak nvim
+cd nvim
+ll
+yl
+nvim
+nv
+ngit
+lg
+nv
+ngit
+lg
+e
+ngit
+lg
+e
+c
+cd
+cd projects/xdg-ninja
+./xdg-ninja.sh
+rm ~/.zshrc
+cd XDG_DATA_HOME/themes
+cd $XDG_DATA_HOME/themes
+ll
+mv ~/.themes/* .
+sudo mv ~/.themes/* .
+cd
+cd .themes
+ll
+cd
+ll
+fd theme
+rm -rf .themes
+yay -S gradience
+gradience
+tldr tar
+tldr tldr
+tldr man
+tldr tar
+tpg
+ping 8.8.8.8
+trash
+trash-cli
+trash-list
+e
+ll
+trash a.log
+ll
+trash-list
+cz
+trash-restore
+tldr trash-rm
+man tldr-rm
+man tldr
+man trash
+e
+time $SHELL -i -c exit
+trash
+nv
+sdr
+yay -S trash-cli
+yay -S trash
+yay -R trash-cli
+yay -S trash
+yay -S trash --noconfirm
+e
+yay -R trash
+c
+ll
+c
+e
+e
+: 1668784586:0;trash
+: 1668784589:0;time $SHELL -i -c exit
+: 1668785621:0;c
+: 1668785621:0;nv
+: 1668785971:0;c
+: 0:0;
+: 0:0;
+: 1668786658:0;time $SHELL -i -c exit
+: 1668787353:0;c
+: 1668787358:0;lll
+: 1668787359:0;cd
+: 1668787360:0;c
+: 1668787361:0;ll
+: 1668787361:0;c
+: 1668787368:0;nv .bash_profile
+: 1668787376:0;ll
+: 1668787385:0;ya
+: 1668787387:0;yl

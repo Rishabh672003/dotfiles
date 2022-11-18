@@ -14,7 +14,6 @@ local servers = {
 	"bashls",
 	"jsonls",
 	"taplo",
-	"volar",
 }
 
 local settings = {
