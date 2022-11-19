@@ -90,3 +90,7 @@ alias hyp='cp -r ~/.config/hypr ~/projects/hyprland-configs/ \
 alias nrandom='tr -dc "A-Za-z 0-9" < /dev/urandom | fold -w100 | head -n 19999 > bigfile.txt'
 alias yl='sh ~/.config/yadm/yadm.sh'
 alias yel='yadm enter lazygit' 
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"

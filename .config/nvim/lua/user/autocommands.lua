@@ -77,6 +77,13 @@ vim.api.nvim_create_autocmd({ "BufWinEnter" }, {
 })
 
 vim.api.nvim_create_autocmd({ "BufWinEnter" }, {
+	pattern = "*.rasi",
+	callback = function()
+		vim.cmd("set ft=rasi")
+	end,
+})
+
+vim.api.nvim_create_autocmd({ "BufWinEnter" }, {
 	pattern = "plugins.lua",
 	callback = function()
 		vim.cmd("ASToggle")

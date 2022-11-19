@@ -24,7 +24,6 @@ plug "zap-zsh/vim"
 plug "MichaelAquilina/zsh-autoswitch-virtualenv"
 plug "zsh-users/zsh-syntax-highlighting"
 plug "zsh-users/zsh-history-substring-search"
-
 plug "Aloxaf/fzf-tab"
 plug "Freed-Wu/fzf-tab-source"
 plug "zap-zsh/fzf"
@@ -41,6 +40,7 @@ fi;
 # source stuff
 plug ~/.config/zsh/aliases.zsh
 plug ~/.config/zsh/git.plugin.zsh
+plug ~/.local/share/zap/plugins/zsh-autoswitch-virtualenv/autoswitch_virtualenv.plugin.zsh
 
 # all the completion stuff
 zstyle ':completion:*:git-checkout:*' sort false
@@ -65,3 +65,7 @@ plug "romkatv/powerlevel10k"
 
 # To customize prompt, run `p10k configure` or edit ~/.config/zsh/.p10k.zsh.
 [[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/home/rishabh/.local/share/sdkman"
+[[ -s "/home/rishabh/.local/share/sdkman/bin/sdkman-init.sh" ]] && source "/home/rishabh/.local/share/sdkman/bin/sdkman-init.sh"

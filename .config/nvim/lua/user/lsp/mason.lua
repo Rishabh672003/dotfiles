@@ -14,6 +14,8 @@ local servers = {
 	"bashls",
 	"jsonls",
 	"taplo",
+	"clangd",
+	"jdtls",
 }
 
 local settings = {

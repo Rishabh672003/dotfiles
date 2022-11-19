@@ -14,13 +14,18 @@ i have tried to worked on the startup time and it varies around 200ms to 400ms. 
 
 ![image](https://user-images.githubusercontent.com/53911515/202460120-4e80a636-6e1e-45ac-a094-7d6deb910ccc.png)
 
-## installation
+## Installation
 
 ```bash
 sh <(curl -s https://raw.githubusercontent.com/Rishabh672003/zsh-configs/main/install.sh)
 ```
 
-## uninstallation
+### Dependencies
+```bash
+sudo pacman -S zsh fzf exa zoxide zsh-completions bat chafa exiftool --needed --noconfirm 
+```
+
+## Uninstallation
 
 ```bash
 rm -rf $HOME/.local/share/zap $HOME/.config/zsh $HOME/.cache/zsh
