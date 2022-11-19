@@ -4276,69 +4276,102 @@ cd
 rm -rf .m2
 rm -rf .sdkman .cache
 ll
-: 1668859692:0;cd
-: 1668859692:0;c
-: 1668859693:0;ll
-: 1668859697:0;cd .cache
-: 1668859698:0;ll
-: 1668859705:0;cdp
-: 1668859705:0;ll
-: 1668859713:0;javac
-: 1668859720:0;java2html
-: 1668859723:0;java
-: 1668859725:0;cd
-: 1668859728:0;ll
-: 1668859786:0;cd .local/share/sdkman
-: 1668859787:0;lll
-: 1668859803:0;java
-: 1668859806:0;cz
-: 1668859821:0;sdk current
-: 1668859829:0;sdk install java 19.0.1-oracle
-: 1668859992:0;javac
-: 1668859996:0;cd .config/nvim
-: 1668859998:0;cd java-debug
-: 1668859999:0;ll
-: 1668860043:0;./mvnw clean install
-: 1668860177:0;jre
-: 1668860220:0;rm -rf ~/.local/share/sdkman
-: 1668860252:0;yay -S jre-openjdk
-: 1668860295:0;cd p
-: 1668860304:0;java a.java
-: 1668860315:0;cd
-: 1668860320:0;cd .config/nvim/java-debug
-: 1668860321:0;./mvnw clean install
-: 1668860351:0;ll
-: 1668860367:0;./mvnw clean install
-: 1668860410:0;yay -S jre17-openjdk-headless
-: 1668860459:0;javac
-: 1668860465:0;java
-: 1668860478:0;yay -R java-runtime-common
-: 1668860485:0;yay -Rcns java-runtime-common
-: 1668860499:0;export SDKMAN_DIR="/home/rishabh/.local/share/sdkman" && curl -s "https://get.sdkman.io" | bash
-: 1668860514:0;sdk help
-: 1668860544:0;sdk install java 19.0.1-open
-: 1668860668:0;javac
-: 1668860671:0;cd .config/nvim/java-debug
-: 1668860674:0;./mvnw clean install
-: 1668860682:0;cdp
-: 1668860687:0;rm -rf java-debug
-: 1668860693:0;git clone https://github.com/microsoft/java-debug ~/.config/nvim/java-debug\
+cd
+c
+ll
+cd .cache
+ll
+cdp
+ll
+javac
+java2html
+java
+cd
+ll
+cd .local/share/sdkman
+lll
+java
+cz
+sdk current
+sdk install java 19.0.1-oracle
+javac
+cd .config/nvim
+cd java-debug
+ll
+./mvnw clean install
+jre
+rm -rf ~/.local/share/sdkman
+yay -S jre-openjdk
+cd p
+java a.java
+cd
+cd .config/nvim/java-debug
+./mvnw clean install
+ll
+./mvnw clean install
+yay -S jre17-openjdk-headless
+javac
+java
+yay -R java-runtime-common
+yay -Rcns java-runtime-common
+export SDKMAN_DIR="/home/rishabh/.local/share/sdkman" && curl -s "https://get.sdkman.io" | bash
+sdk help
+sdk install java 19.0.1-open
+javac
+cd .config/nvim/java-debug
+./mvnw clean install
+cdp
+rm -rf java-debug
+git clone https://github.com/microsoft/java-debug ~/.config/nvim/java-debug\
 \
 cd ~/.config/nvim/java-debug
-: 1668860700:0;cd java.debug.target
-: 1668860705:0;./mvnw clean install
-: 1668860817:0;cd
-: 1668860818:0;ll
-: 1668862682:0;cd
-: 1668862683:0;c
-: 1668862698:0;rm -rf ~/.config/nvim/java-debug
-: 1668862699:0;cd
-: 1668862700:0;c
-: 1668862701:0;zshc
-: 1668862703:0;lg
-: 1668862717:0;ngit
-: 1668862718:0;lg
-: 1668862729:0;cd
-: 1668862732:0;yl
-: 1668862741:0;c
-: 1668862742:0;yl
+cd java.debug.target
+./mvnw clean install
+cd
+ll
+cd
+c
+rm -rf ~/.config/nvim/java-debug
+cd
+c
+zshc
+lg
+ngit
+lg
+cd
+yl
+c
+yl
+nv
+cd .config/nvim/
+ll
+lll
+nv init.lua
+nv
+lv
+nv
+e
+nvim
+nv
+e
+nv
+ys
+c
+nv
+nr
+nv
+nv a.c
+nv
+nv a.c
+nv
+nv a.c
+nv
+nv a.c
+nv
+nv a.c
+nv a.cpp
+c
+nv
+time $SHELL -i -c exit
+e
+: 1668878629:0;yl

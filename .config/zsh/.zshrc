@@ -21,7 +21,6 @@ pfetch
 plug "zsh-users/zsh-autosuggestions"
 plug "hlissner/zsh-autopair"
 plug "zap-zsh/vim"
-plug "MichaelAquilina/zsh-autoswitch-virtualenv"
 plug "zsh-users/zsh-syntax-highlighting"
 plug "zsh-users/zsh-history-substring-search"
 plug "Aloxaf/fzf-tab"
@@ -40,6 +39,7 @@ fi;
 # source stuff
 plug ~/.config/zsh/aliases.zsh
 plug ~/.config/zsh/git.plugin.zsh
+plug "MichaelAquilina/zsh-autoswitch-virtualenv"
 plug ~/.local/share/zap/plugins/zsh-autoswitch-virtualenv/autoswitch_virtualenv.plugin.zsh
 
 # all the completion stuff
