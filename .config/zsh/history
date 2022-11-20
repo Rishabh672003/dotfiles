@@ -4549,8 +4549,65 @@ cp .gitignore ~/.config/zsh
 zshc
 lg
 exec zsh
-: 1668916358:0;time $SHELL -i -c exit
-: 1668916361:0;lg
-: 1668916389:0;cd
-: 1668916390:0;yel
-: 1668916403:0;yl
+time $SHELL -i -c exit
+lg
+cd
+yel
+yl
+cali
+e
+exec zsh
+e
+time $SHELL -i -c exit
+cd projects/random-repos
+git clone -b zsh4humans https://github.com/Rishabh672003/zsh-configs.git
+cd zsh-configs
+ll
+rm -rf *
+ll
+cdp
+rm -rf zsh-configs
+git clone -b zsh4humans https://github.com/Rishabh672003/zsh-configs.git
+cd zsh-configs
+ll
+rm -rf .gitignore aliases.zsh functions.zsh git.plugin.zsh history install.sh lessfilter.sh LICENSE .p10k-ascii-8color.zsh .p10k.zsh README.md supercharge.zsh .zcompdump .zlogin .zprofile .zshenv .zshrc
+cp -r ~/.config/zsh.old/* .
+ll
+lg
+cd
+cd projects/random-repos
+rm -rf zsh-configs
+c
+ll
+cd
+c
+uneo
+gtnv
+cd
+c
+e
+: 1668917923:0;cd
+: 1668917924:0;c
+: 1668917933:0;rm .gitignore
+: 1668917939:0;cd .config/nvim
+: 1668917940:0;ll
+: 1668917944:0;rm -rf .git
+: 1668917945:0;ll
+: 1668917950:0;nv .gitignore
+: 1668917957:0;yel
+: 1668917970:0;cd .config/lvim
+: 1668917971:0;ll
+: 1668917979:0;cdp
+: 1668917984:0;cd mpv
+: 1668917984:0;ll
+: 1668917988:0;nv .gitignore
+: 1668918004:0;ll
+: 1668918014:0;cd .con
+: 1668918016:0;cd kitty
+: 1668918016:0;ll
+: 1668918021:0;cd kitty-themes
+: 1668918022:0;ll
+: 1668918026:0;cdp
+: 1668918028:0;cd
+: 1668918028:0;c
+: 1668918030:0;yl
