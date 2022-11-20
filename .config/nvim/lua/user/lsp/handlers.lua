@@ -109,10 +109,6 @@ function M.remove_augroup(name)
 	end
 end
 
-local capabilities1 = vim.lsp.protocol.make_client_capabilities()
-capabilities1.offsetEncoding = { "utf-16" }
-require("lspconfig").clangd.setup({ capabilities = capabilities1 })
-
 vim.cmd([[ command! LspToggleAutoFormat execute 'lua require("user.lsp.handlers").toggle_format_on_save()' ]])
 
 return M

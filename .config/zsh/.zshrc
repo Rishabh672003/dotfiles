@@ -27,20 +27,18 @@ plug "Aloxaf/fzf-tab"
 plug "Freed-Wu/fzf-tab-source"
 plug "zap-zsh/fzf"
 
-# Comp stuff and autoloading them
-autoload -Uz compinit
-if [[ -n ${ZDOTDIR}/.zcompdump(#qN.mh+24) ]]; then
-    compinit -d "$XDG_CACHE_HOME"/zsh/zcompdump-"$ZSH_VERSION";
-    compinit;
-else
-    compinit -C;
-fi;
-
 # source stuff
 plug ~/.config/zsh/aliases.zsh
-plug ~/.config/zsh/git.plugin.zsh
 plug "MichaelAquilina/zsh-autoswitch-virtualenv"
 plug ~/.local/share/zap/plugins/zsh-autoswitch-virtualenv/autoswitch_virtualenv.plugin.zsh
+
+# Comp stuff and autoloading them
+autoload -Uz compinit
+for dump in ~/.zcompdump(N.mh+24); do
+    compinit;
+    compinit -d "$XDG_CACHE_HOME"/zsh/zcompdump-"$ZSH_VERSION";
+done
+compinit -C
 
 # all the completion stuff
 zstyle ':completion:*:git-checkout:*' sort false
@@ -52,13 +50,6 @@ zstyle ':fzf-tab:complete:systemctl-*:*' fzf-preview 'SYSTEMD_COLORS=1 systemctl
 zstyle ':fzf-tab:complete:*:*' fzf-preview 'less ${(Q)realpath}'
 zstyle -d ':completion:*' format
 zstyle ':completion:*:descriptions' format '[%d]'
-
-# add keybindings
-bindkey '^[[A' history-substring-search-up
-bindkey '^[[B' history-substring-search-down
-bindkey -M vicmd 'k' history-substring-search-up
-bindkey -M vicmd 'j' history-substring-search-down
-bindkey -s '^x' '^uexec zsh\n'
 
 # theme
 plug "romkatv/powerlevel10k"

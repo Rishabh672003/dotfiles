@@ -4374,4 +4374,183 @@ c
 nv
 time $SHELL -i -c exit
 e
-: 1668878629:0;yl
+yl
+yel
+lv
+ll
+cd .cache
+ll
+nv
+cz
+ll
+rm .cache
+cd .cache
+ll
+mkdir -p ~/.local/cache
+mv * ~/.local/cache
+sudo mv * ~/.local/cache
+e
+rm .cache
+rm -rf .cache
+ll
+rm a.*
+ll
+rm -rf .m2
+ll
+cd .scripts
+ll
+cdp
+rm -rf .cache .gitmoji .scripts
+ll
+rm -rf .zoom
+ll
+e
+cf
+cz
+ll
+cd
+rm -rf .cache
+ll
+nv
+mkdir .cache
+cd .cache
+ll
+nv
+cd nvim
+ll
+cd
+nv
+cz
+lv
+rm -rf ~/.local/cache
+sudo rm -rf ~/.local/cache
+ll
+nv
+e
+e
+nv
+rm -rf $HOME/.config/nvim $HOME/.cache/nvim
+git clone https://github.com/Rishabh672003/Neovim ~/.config/nvim && nvim
+nvim
+ngit
+lg
+cd
+cd .cache
+ll
+e
+time $SHELL -i -c exit
+c
+ll
+rm -rf .java
+ll
+c
+nv
+e
+nvim
+ll
+cd .cache
+ll
+cdp
+cd .mozilla
+ll
+cdp
+e
+time $SHELL -i -c exit
+nv
+cz
+e
+time $SHELL -i -c exit
+cz
+time $SHELL -i -c exit
+e
+if [[ -n ${ZDOTDIR}/.zcompdump(#qN.mh+24) ]]; then\
+    compinit -d "$XDG_CACHE_HOME"/zsh/zcompdump-"$ZSH_VERSION";\
+    compinit;\
+else\
+    compinit -C;\
+fi;\
+
+e
+time $SHELL -i -c exit
+compinit -d "$XDG_CACHE_HOME"/zsh/zcompdump-"$ZSH_VERSION"
+cd .cache
+ll
+cz
+time $SHELL -i -c exit
+e
+time $SHELL -i -c exit
+c
+zsh
+exec zsh
+time $SHELL -i -c exit
+cz
+time $SHELL -i -c exit
+e
+time $SHELL -i -c exit
+e
+time $SHELL -i -c exit
+e
+time $SHELL -i -c exit
+e
+compinit -C
+exec zsh
+time $SHELL -i -c exit
+cd .cache/
+ll
+cd .con
+cd zsh
+ll
+rm .zcompdump
+ll
+e
+time $SHELL -i -c exit
+e
+time $SHELL -i -c exit
+e
+exec zsh
+time $SHELL -i -c exit
+e
+time $SHELL -i -c exit
+e
+e
+e
+time $SHELL -i -c exit
+e
+time $SHELL -i -c exit
+e
+time $SHELL -i -c exit
+cd .cache
+ll
+nv
+cz
+cd
+cd .config/zsh
+zcompile supercharge.zsh
+ll
+time $SHELL -i -c exit
+e
+cz
+ys
+e
+time $SHELL -i -c exit
+e
+time $SHELL -i -c exit
+e
+time $SHELL -i -c exit
+e
+ll
+time $SHELL -i -c exit
+e
+zshc
+lg
+nv .gitignore
+lg
+cp .gitignore ~/.config/zsh
+zshc
+lg
+exec zsh
+: 1668916358:0;time $SHELL -i -c exit
+: 1668916361:0;lg
+: 1668916389:0;cd
+: 1668916390:0;yel
+: 1668916403:0;yl
