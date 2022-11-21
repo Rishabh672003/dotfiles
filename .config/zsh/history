@@ -4586,28 +4586,63 @@ gtnv
 cd
 c
 e
-: 1668917923:0;cd
-: 1668917924:0;c
-: 1668917933:0;rm .gitignore
-: 1668917939:0;cd .config/nvim
-: 1668917940:0;ll
-: 1668917944:0;rm -rf .git
-: 1668917945:0;ll
-: 1668917950:0;nv .gitignore
-: 1668917957:0;yel
-: 1668917970:0;cd .config/lvim
-: 1668917971:0;ll
-: 1668917979:0;cdp
-: 1668917984:0;cd mpv
-: 1668917984:0;ll
-: 1668917988:0;nv .gitignore
-: 1668918004:0;ll
-: 1668918014:0;cd .con
-: 1668918016:0;cd kitty
-: 1668918016:0;ll
-: 1668918021:0;cd kitty-themes
-: 1668918022:0;ll
-: 1668918026:0;cdp
-: 1668918028:0;cd
-: 1668918028:0;c
-: 1668918030:0;yl
+cd
+c
+rm .gitignore
+cd .config/nvim
+ll
+rm -rf .git
+ll
+nv .gitignore
+yel
+cd .config/lvim
+ll
+cdp
+cd mpv
+ll
+nv .gitignore
+ll
+cd .con
+cd kitty
+ll
+cd kitty-themes
+ll
+cdp
+cd
+c
+yl
+c
+e
+nv
+ping 8.8.8.8
+nr
+contour
+e
+ys
+ping 8.8.8.8
+fd cache
+fd .cache
+fd -H .cache
+c
+time $SHELL -i -c exit
+e
+ys
+ping 8.8.8.8
+nv
+we
+e
+: 1669036099:0;c
+: 1669036110:0;ys
+: 1669036742:0;nv
+: 1669037509:0;time $SHELL -i -c exit
+: 1669038517:0;c
+: 1669038520:0;uneo
+: 1669039035:0;nv
+: 1669039049:0;cd
+: 1669039055:0;nv a
+: 1669039075:0;nv a.txt
+: 1669042708:0;rm a a.txt
+: 1669042710:0;nv
+: 1669043182:0;c
+: 1669043184:0;nv
+: 1669043187:0;yl
