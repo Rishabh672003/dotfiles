@@ -1,6 +1,6 @@
 #!/bin/env bash
 
-yadm add ~/.gitignore;
+# yadm add ~/.gitignore;
 yadm add ~/README.md;
 yadm add ~/.config/alacritty;
 yadm add ~/.config/btop;

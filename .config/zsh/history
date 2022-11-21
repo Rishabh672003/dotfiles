@@ -4631,18 +4631,22 @@ ping 8.8.8.8
 nv
 we
 e
-: 1669036099:0;c
-: 1669036110:0;ys
-: 1669036742:0;nv
-: 1669037509:0;time $SHELL -i -c exit
-: 1669038517:0;c
-: 1669038520:0;uneo
-: 1669039035:0;nv
-: 1669039049:0;cd
-: 1669039055:0;nv a
-: 1669039075:0;nv a.txt
-: 1669042708:0;rm a a.txt
-: 1669042710:0;nv
-: 1669043182:0;c
-: 1669043184:0;nv
-: 1669043187:0;yl
+c
+ys
+nv
+time $SHELL -i -c exit
+c
+uneo
+nv
+cd
+nv a
+nv a.txt
+rm a a.txt
+nv
+c
+nv
+yl
+nv README.md
+nv 
+exec zsh
+: 1669043226:0;yl
