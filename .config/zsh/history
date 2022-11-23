@@ -4649,4 +4649,244 @@ yl
 nv README.md
 nv 
 exec zsh
-: 1669043226:0;yl
+yl
+c
+lll
+c
+clll
+ll
+baobab
+yay -S trash-cli
+trash-empty
+ll
+v
+c
+ll
+c
+nv
+c
+ys
+ngit
+lg
+c
+ll
+cd
+c
+ll
+lv
+go install github.com/maaslalani/nap@main
+nap
+ll
+nap
+e
+nap
+cz
+go list
+go clean
+cd Downloads
+ll
+tar -xvf nap_0.1.1_linux_amd64.tar.gz
+ll
+nap
+cd Downloads
+ll
+./nap
+cz
+e
+cp nap ~/.local/bin
+exec zsh
+cd
+nap
+e
+c
+nv
+cd
+c
+nap
+timezsh() {\
+    shell=${1-$SHELL}\
+    for i in $(seq 1 10); do time $shell -i -c exit; done\
+}\
+
+for i in $(seq 1 10); do time $shell -i -c exit\
+
+c
+ll
+nv
+nap
+e
+c
+nv
+ys
+nv
+nv --startuptime a.lua
+nv a.lua
+ping 8.8.8.8
+c
+ll
+c
+e
+c
+nv
+rm a.lua
+c
+nv
+cd projects
+gh repo clone catppuccin/bat
+cd bat
+mkdir -p "$(bat --config-dir)/themes"
+cp *.tmTheme "$(bat --config-dir)/themes"
+bat cache --build
+bat --list-themes
+bat --list-themes | grep "catppuccin"
+bat --list-themes | grep "cat"
+bat --list-themes | grep cat
+cdd
+cdp
+cd bat
+ll
+bat --config-file
+nv config
+exec zsh
+bat config
+c
+cdp
+cd nvim
+bat init.lua
+bat .bashrc
+man trash
+man man
+nv
+c
+man man
+nv
+cd
+c
+nv
+ngit
+lg
+e
+nap
+nv
+cd .local/share/nvim/site/pack/packer/start/catppuccin/lua/catppuccin/groups/integrations/
+nv which_key.lua
+nv
+e
+cd
+c
+cd c
+ll
+cd cpro
+ll
+nv a.c
+ll
+cc a.c
+ll
+./a.out
+e
+cc a.c
+./a.out
+e
+cd cpro
+gcc a.c
+ll
+rm a.out
+gcc a.c
+ll
+./a.out
+nv
+e
+g++ --help
+man g++
+e
+nv cpp
+cd cp
+nv a.c
+e
+cd cp
+ll
+nv a.c
+we
+shut
+nv
+c
+ll
+yd
+ys
+nv
+ping 8.8.8.8
+yay -S gnome-calculator
+we
+nv
+nv ~/.config/nvim/init.lua
+cd cp
+lv a.c
+nv a.c
+nv
+lv
+cd .con
+cd lvim
+ll
+nv
+cd
+cd .local/share/lunarvim/lvim/lua/lvim/lsp
+ll
+nv init.lua
+cd
+cd .config
+ll
+cd
+cd cp
+lv a.c
+nv
+nv a.c
+nvim ~/.config/nvim/lua/user/keymaps.lua
+nv
+e
+nv
+nvim ~/.config/nvim/lua/user/keymaps.lua
+nv
+lv a.c
+cd .config/lvim
+ll
+cd ftplugin
+ll
+rm c.lua
+cd
+cd cp
+lv a.c
+cd
+cd python-study
+nv 10.py
+c
+sdr
+ys
+e
+e
+c
+ys
+lv
+cd
+cd .config
+mv lvim lvim.old
+lv
+cp ~/.local/share/lunarvim/lvim/utils/installer/config.example.lua ~/.config/lvim/
+mkdir ~/.config/lvim
+cp ~/.local/share/lunarvim/lvim/utils/installer/config.example.lua ~/.config/lvim/
+lv
+cd lv
+ll
+rm config.example.lua
+ll
+lv
+lv config.lua
+nv
+uneo
+nnvim
+e
+: 1669226385:0;nv
+: 1669226428:0;nnvim
+: 1669226902:0;nv
+: 1669227021:0;ngit
+: 1669227022:0;lg
+: 1669227064:0;yl
