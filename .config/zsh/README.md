@@ -14,6 +14,9 @@ i have tried to worked on the startup time and it varies around 200ms to 400ms. 
 
 ![image](https://user-images.githubusercontent.com/53911515/202460120-4e80a636-6e1e-45ac-a094-7d6deb910ccc.png)
 
+**Update**: got the startup time to around 170 ms still more less would be better so a pr will be welcomed
+![image](https://user-images.githubusercontent.com/53911515/204026900-ca98095d-fc84-432c-bde6-a8390ed31938.png)
+
 ## Installation
 
 ```bash
@@ -21,8 +24,9 @@ sh <(curl -s https://raw.githubusercontent.com/Rishabh672003/zsh-configs/main/in
 ```
 
 ### Dependencies
+
 ```bash
-sudo pacman -S zsh fzf exa zoxide zsh-completions bat chafa exiftool --needed --noconfirm 
+sudo pacman -S zsh fzf exa zoxide zsh-completions bat chafa exiftool --needed --noconfirm
 ```
 
 ## Uninstallation

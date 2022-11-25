@@ -4884,9 +4884,200 @@ nv
 uneo
 nnvim
 e
-: 1669226385:0;nv
-: 1669226428:0;nnvim
-: 1669226902:0;nv
-: 1669227021:0;ngit
-: 1669227022:0;lg
-: 1669227064:0;yl
+nv
+nnvim
+nv
+ngit
+lg
+yl
+c
+ys
+spicetify backup restore apply
+spicetify backup
+spicetify restore backup
+spicetify backup restore apply
+ping 8.8.8.8
+nr
+ping 8.8.8.8
+nv
+cd cp
+nv a.c
+we
+cz
+rm -v a
+nv
+cz
+ll
+cd /tmp
+ll
+mkdir random
+mkdir 1-100
+ll
+cd 1-100
+ll
+mkdir 1*0
+ll
+touch a.txt
+rm a.txt
+touch a.txt
+rm a.txt
+e
+exec zsh
+c
+touch a.txt
+rm a.txt
+ll
+nv
+./a
+ll
+nv
+gcc a.c
+ll
+./a.out
+e
+ll
+rm s
+rm a
+ll
+nv a.c
+cz
+e
+exec zsh
+touch a.txt
+rm a.txt
+time $SHELL -i -c exit
+cd .local/share/zap
+zap update
+zap --update
+e
+cd .local/share/zap
+ll
+nv installed_plugins
+nv zap.zsh
+systemctl daemon-reload
+e
+ll
+e
+time $SHELL -i -c exit
+e
+cd .local/share/zap
+ll
+nv installed_plugins
+ys
+c
+uneo
+nv
+cd
+nv
+c
+tpg
+p
+/usr/bin/paru -Pw
+time $SHELL -i -c exit
+e
+c
+exec zsh
+ls
+e
+cd .local/share/zap
+ll
+cd plugins/exa
+ll
+nv exa.plugin.zsh
+exa
+yay -R exa
+ls
+e
+exa
+e
+exa
+ls
+e
+exec zsh
+c
+ls
+e
+ls
+yay -S exa
+ls
+e
+cz
+ls
+ys exa
+yay -S exa
+yay -R exa
+exa
+ls
+e
+ls
+yay -S exa
+ls
+e
+exec zsh
+ls
+e
+ls
+e
+time $SHELL -i -c exit
+ping 8.8.8.8
+ll
+c
+e
+cd .cache
+ll
+compinit -d "$XDG_CACHE_HOME"/zsh/zcompdump-"$ZSH_VERSION"
+cd zs
+ll
+cd
+cd .config
+ll
+e
+time $SHELL -i -c exit
+e
+time $SHELL -i -c exit
+e
+time $SHELL -i -c exit
+e
+we
+cz
+nv
+nvim --startuptime a.log
+nv a.log
+e
+nvim
+time $SHELL -i -c exit
+c
+nv
+e
+c
+time $SHELL -i -c exit
+c
+nv
+c
+nv
+c
+cd .config/zsh
+ll
+c
+ll
+c
+nv
+cd
+rm a.log
+nv --startuptime a.lua
+nv a.lua
+nv --startuptime a.log
+e
+nv
+rm a.log
+nv
+time $SHELL -i -c exit
+c
+time $SHELL -i -c exit
+nv
+cd .config/zsh
+nv README.md
+time $SHELL -i -c exit
+e
+: 1669394347:0;time $SHELL -i -c exit
+: 1669394413:0;yl

@@ -36,7 +36,7 @@ plug ~/.local/share/zap/plugins/zsh-autoswitch-virtualenv/autoswitch_virtualenv.
 autoload -Uz compinit
 for dump in ~/.zcompdump(N.mh+24); do
     compinit;
-    compinit -d "$XDG_CACHE_HOME"/zsh/zcompdump-"$ZSH_VERSION";
+    # compinit -d "$XDG_CACHE_HOME"/zsh/zcompdump-"$ZSH_VERSION";
 done
 compinit -C
 

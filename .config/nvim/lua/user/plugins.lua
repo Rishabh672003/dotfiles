@@ -165,6 +165,7 @@ return packer.startup(function(use)
 	use("SmiteshP/nvim-navic")
 	use({
 		"utilyre/barbecue.nvim",
+		-- branch = "feature/truncation",
 	})
 
 	use("max397574/better-escape.nvim")
