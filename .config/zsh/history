@@ -42,7 +42,6 @@
 : 1669518694:0;passwd rj
 : 1669518694:0;su rj
 : 1669518694:0;su
-: 1669518694:0;cd ..
 : 1669518694:0;cd rj/
 : 1669518694:0;cd .config/awesome/
 : 1669518694:0;cut -d: -f1 /etc/passwd
@@ -199,8 +198,6 @@
 : 1669518694:0;rm -rf nvim-ts-context-commentstring/
 : 1669518694:0;gh repo clone Rishabh672003/nvim-ts-context-commentstring
 : 1669518694:0;swayidle --help
-: 1669518694:0;cd .config/nvim/lua/user/plugins.lua
-: 1669518694:0;nv plugins.lua
 : 1669518694:0;cd pro/nvi
 : 1669518694:0;cd projects/nv
 : 1669518694:0;nv py
@@ -235,7 +232,6 @@
 : 1669518694:0;hyprpicker --format hex
 : 1669518694:0;yadm enter lazygit
 : 1669518694:0;yay -R prettier
-: 1669518694:0;cd projects/nvim-basic-ide
 : 1669518694:0;nv a.js
 : 1669518694:0;yay -R webapp-manager
 : 1669518694:0;mkdir tspro
@@ -249,14 +245,12 @@
 : 1669518694:0;killall -9 playerctl
 : 1669518694:0;killall -9 stacer
 : 1669518694:0;lgit
-: 1669518694:0;cd Neovim
 : 1669518694:0;gitk
 : 1669518694:0;gitk main
 : 1669518694:0;gitk 7bb1e4e
 : 1669518694:0;rm -rf ~/.config/nvim
 : 1669518694:0;cp -r Neovim ~/.config/nvim
 : 1669518694:0;sudo rm -rf /var/lib/pacman/db.lck
-: 1669518694:0;cd .config/nvim/lua/user/
 : 1669518694:0;cd lua/user
 : 1669518694:0;rm barbeque.lua
 : 1669518694:0;cd barbeque
@@ -311,7 +305,6 @@
 : 1669518694:0;Hyprland --version
 : 1669518694:0;Hyprland -v
 : 1669518694:0;yay -R hyprland-git
-: 1669518694:0;yay -S hyprland-git
 : 1669518694:0;yay hyprland-git
 : 1669518694:0;cd ki
 : 1669518694:0;yadm add ~/.config/kitty
@@ -435,7 +428,6 @@ drwxr-xr-x      - rishabh 24 Jun 18:15  ïƒ¤ƒµ workspace\
 : 1669518694:0;cp -r AmitGolden\ dotfiles\ main\ .config-wofi ~/.config/wofi
 : 1669518694:0;cd ~/.config/wofi
 : 1669518694:0;rm -rf ~/.config/wofi/
-: 1669518694:0;cd pro
 : 1669518694:0;cd arch-setup
 : 1669518694:0;nv a.jenkins
 : 1669518694:0;du -sh
@@ -460,7 +452,6 @@ drwxr-xr-x      - rishabh 24 Jun 18:15  ïƒ¤ƒµ workspace\
 : 1669518694:0;element-desktop-nightly
 : 1669518694:0;element-desktop
 : 1669518694:0;yay -S gnome-keyring
-: 1669518694:0;one
 : 1669518694:0;yay kitty
 : 1669518694:0;kitty
 : 1669518694:0;yay -Rns kitty
@@ -472,13 +463,11 @@ drwxr-xr-x      - rishabh 24 Jun 18:15  ïƒ¤ƒµ workspace\
 : 1669518694:0;waydroid -h
 : 1669518694:0;killall -9 wezterm
 : 1669518694:0;killall -9 wezterm-gui
-: 1669518694:0;n
 : 1669518694:0;vc
 : 1669518694:0;cd .local/share/nvim/site/pack/packer/start/catppuccin
 : 1669518694:0;dunstify "It works"
 : 1669518694:0;pgit
 : 1669518694:0;cp -r ~/python-study/rps .
-: 1669518694:0;hyprctl devices
 : 1669518694:0;log
 : 1669518694:0;dunstify "It works2"
 : 1669518694:0;sys
@@ -520,7 +509,6 @@ drwxr-xr-x      - rishabh 24 Jun 18:15  ïƒ¤ƒµ workspace\
 : 1669518694:0;checkrebuild
 : 1669518694:0;checkrebuild -v
 : 1669518694:0;rm lineage-18.1-20221030-MAINLINE-waydroid_x86_64-vendor.zip lineage-18.1-20221030-MAINLINE-waydroid_x86_64-vendor.zip.aria2 lineage-18.Ytb3qwLs.1-20221030-MAINLINE-waydroid_x86_64-vendor.zip.part
-: 1669518694:0;yay -S hyprland-bin
 : 1669518694:0;wf-recorder -g "$(slurp)" -f hypr2.mp4
 : 1669518694:0;waybar -v
 : 1669518694:0;yay waybar-hyprland
@@ -700,7 +688,6 @@ sudo chmod a+wr /opt/spotify/Apps -R
 : 1669518694:0;yay -R nnn
 : 1669518694:0;rm -rf nvim-basic-ide/
 : 1669518694:0;gh repo clone LunarVim/nvim-basic-ide
-: 1669518694:0;cd nvim-basic-ide
 : 1669518694:0;mpv waydroid.mp4
 : 1669518694:0;sudo rm -rf /etc/hosts
 : 1669518694:0;sudo mv /usr/share/waydroid-extra/images/* projects/
@@ -989,7 +976,6 @@ debugpy/bin/python -m pip install debugpy
 : 1669518694:0;cd plugin
 : 1669518694:0;cd zsh4humans
 : 1669518694:0;fd fzf
-: 1669518694:0;nautilus .
 : 1669518694:0;nemo .
 : 1669518694:0;cd .local/share/zap/plugins
 : 1669518694:0;cd fzf-tab
@@ -1053,7 +1039,6 @@ debugpy/bin/python -m pip install debugpy
 : 1669518694:0;cd .config/zsh.old
 : 1669518694:0;yay less
 : 1669518694:0;yay lessfile
-: 1669518694:0;yay hyprland
 : 1669518694:0;playerctl
 : 1669518694:0;playerctl -l
 : 1669518694:0;playerctl position 3
@@ -1084,7 +1069,6 @@ for i in $(seq 1 10); do time /bin/zsh -i -c exit; done;
 : 1669518694:0;rm discordo.log
 : 1669518694:0;vi
 : 1669518694:0;cllll
-: 1669518694:0;f
 : 1669518694:0;cfc
 : 1669518694:0;cpc
 : 1669518694:0;which ack
@@ -1153,7 +1137,6 @@ for i in $(seq 1 10); do time /bin/zsh -i -c exit; done;
 : 1669518694:0;rm .wak*
 : 1669518694:0;rm -rf .wak*
 : 1669518694:0;hx
-: 1669518694:0;zap -u
 : 1669518694:0;cd .config/hypr/scripts
 : 1669518694:0;dunstctl history | head -n 10
 : 1669518694:0;lc
@@ -1188,7 +1171,6 @@ for i in $(seq 1 10); do time /bin/zsh -i -c exit; done;
 : 1669518694:0;ls --colour auto
 : 1669518694:0;yay -S zsh-completions-git
 : 1669518694:0;cd projects/zsh-configs
-: 1669518694:0;git pull
 : 1669518694:0;cp -r ~/projects/zsh-configs/README.md ~/.config/zsh
 : 1669518694:0;yay -S rofi-emoji
 : 1669518694:0;rofi-emoji
@@ -1246,7 +1228,6 @@ for i in $(seq 1 10); do time /bin/zsh -i -c exit; done;
 : 1669518694:0;yay -S trash --noconfirm
 : 1669518694:0;yay -R trash
 : 1669518694:0;trash
-: 1669518694:0;
 : 1669518694:0;nv .bash_profile
 : 1669518694:0;ya
 : 1669518694:0;cc
@@ -1321,7 +1302,6 @@ sh -c "$(curl https://raw.githubusercontent.com/XDream8/revanced-creator/main/pa
 : 1669518694:0;mkvenv
 : 1669518694:0;exa --accessed Applications --group-directories-first Applications
 : 1669518694:0;cd py
-: 1669518694:0;cd projects/Neovim
 : 1669518694:0;git ls-files | xargs cat | wc -l
 : 1669518694:0;git ls-files
 : 1669518694:0;mkdir cppro
@@ -1436,7 +1416,6 @@ fi;\
 : 1669518694:0;rm .zcompdump
 : 1669518694:0;zcompile supercharge.zsh
 : 1669518694:0;cp .gitignore ~/.config/zsh
-: 1669518694:0;cali
 : 1669518694:0;rm -rf *
 : 1669518694:0;git clone -b zsh4humans https://github.com/Rishabh672003/zsh-configs.git
 : 1669518694:0;cd zsh-configs
@@ -1444,13 +1423,9 @@ fi;\
 : 1669518694:0;cp -r ~/.config/zsh.old/* .
 : 1669518694:0;cd projects/random-repos
 : 1669518694:0;rm -rf zsh-configs
-: 1669518694:0;gtnv
 : 1669518694:0;rm .gitignore
 : 1669518694:0;cd .config/nvim
-: 1669518694:0;rm -rf .git
-: 1669518694:0;yel
 : 1669518694:0;cd mpv
-: 1669518694:0;nv .gitignore
 : 1669518694:0;cd kitty
 : 1669518694:0;cd kitty-themes
 : 1669518694:0;contour
@@ -1460,7 +1435,6 @@ fi;\
 : 1669518694:0;nv a.txt
 : 1669518694:0;rm a a.txt
 : 1669518694:0;nv 
-: 1669518694:0;lll
 : 1669518694:0;clll
 : 1669518694:0;baobab
 : 1669518694:0;yay -S trash-cli
@@ -1470,15 +1444,12 @@ fi;\
 : 1669518694:0;go list
 : 1669518694:0;go clean
 : 1669518694:0;tar -xvf nap_0.1.1_linux_amd64.tar.gz
-: 1669518694:0;cd Downloads
 : 1669518694:0;./nap
 : 1669518694:0;cp nap ~/.local/bin
 : 1669518694:0;timezsh() {\
     shell=${1-$SHELL}\
     for i in $(seq 1 10); do time $shell -i -c exit; done\
 }\
-
-: 1669518694:0;for i in $(seq 1 10); do time $shell -i -c exit\
 
 : 1669518694:0;rm a.lua
 : 1669518694:0;gh repo clone catppuccin/bat
@@ -1514,7 +1485,6 @@ fi;\
 : 1669518694:0;cd .con
 : 1669518694:0;cd lvim
 : 1669518694:0;cd .local/share/lunarvim/lvim/lua/lvim/lsp
-: 1669518694:0;nv init.lua
 : 1669518694:0;nvim ~/.config/nvim/lua/user/keymaps.lua
 : 1669518694:0;cd .config/lvim
 : 1669518694:0;cd ftplugin
@@ -1522,7 +1492,6 @@ fi;\
 : 1669518694:0;lv a.c
 : 1669518694:0;cd python-study
 : 1669518694:0;nv 10.py
-: 1669518694:0;sdr
 : 1669518694:0;mv lvim lvim.old
 : 1669518694:0;mkdir ~/.config/lvim
 : 1669518694:0;cp ~/.local/share/lunarvim/lvim/utils/installer/config.example.lua ~/.config/lvim/
@@ -1547,31 +1516,23 @@ fi;\
 : 1669518694:0;touch a.txt
 : 1669518694:0;rm a.txt
 : 1669518694:0;zap update
-: 1669518694:0;zap --update
-: 1669518694:0;nv zap.zsh
 : 1669518694:0;systemctl daemon-reload
 : 1669518694:0;nv installed_plugins
-: 1669518694:0;uneo
 : 1669518694:0;p
 : 1669518694:0;/usr/bin/paru -Pw
-: 1669518694:0;cd .local/share/zap
 : 1669518694:0;cd plugins/exa
 : 1669518694:0;nv exa.plugin.zsh
 : 1669518694:0;ys exa
 : 1669518694:0;yay -R exa
 : 1669518694:0;exa
 : 1669518694:0;yay -S exa
-: 1669518694:0;ls
 : 1669518694:0;cd .cache
 : 1669518694:0;compinit -d "$XDG_CACHE_HOME"/zsh/zcompdump-"$ZSH_VERSION"
 : 1669518694:0;cd zs
 : 1669518694:0;cd .config
-: 1669518694:0;we
-: 1669518694:0;nvim
 : 1669518694:0;nv --startuptime a.lua
 : 1669518694:0;nv a.lua
 : 1669518694:0;rm a.log
-: 1669518694:0;yl
 : 1669518694:0;yay -S ticktick
 : 1669518694:0;yay -S zenkit
 : 1669518694:0;zenkit
@@ -1580,14 +1541,12 @@ fi;\
 : 1669518694:0;ys ticktick
 : 1669518694:0;nvim --startuptime a.log
 : 1669518694:0;tpg
-: 1669518694:0;nr
 : 1669518694:0;echo $?
 : 1669518694:0;rm a
 : 1669518694:0;gcc a.c -o a
 : 1669518694:0;./a
 : 1669518694:0;nv a
 : 1669518694:0;nv a.c
-: 1669518694:0;ping 8.8.8.8
 : 1669518694:0;nv --startuptime a.log
 : 1669518694:0;nv a.log
 : 1669518694:0;g++ --help
@@ -1601,58 +1560,142 @@ fi;\
 : 1669518694:0;./switch
 : 1669518694:0;gcc switch.c -o switch2
 : 1669518694:0;./switch2
-: 1669518694:0;gh repo clone Rishabh672003/learning-C
 : 1669518694:0;rm -rf cpro/.git
 : 1669518694:0;sudo mv * ~/projects/cpro
 : 1669518694:0;cd cpp
-: 1669518694:0;cd learning-C
-: 1669518694:0;cdp
 : 1669518694:0;rm learning-C
 : 1669518694:0;rm -rf learning-C
 : 1669518694:0;rm switch
-: 1669518694:0;nv .
-: 1669518694:0;cd
-: 1669518694:0;c
-: 1669518694:0;cd projects
 : 1669518694:0;nv test.c
 : 1669518694:0;yay -S arduino
 : 1669518694:0;nv README.md
-: 1669518694:0;ys
 : 1669518659:0;t
-: 1669518668:0;cd cp
 : 1669518674:0;cd .config/zsh
 : 1669518680:0;nv history
-: 1669518821:0;nv
 : 1669518876:0;nv .config/zsh/
 : 1669518891:0;hx ~/.config/zsh/history
 : 1669518914:0;nv ~/.config/zsh/history
-: 1669518940:0;zshc
-: 1669518942:0;lg
-: 1669519518:0;nvc ~/.config/zsh/history
 : 1669519552:0;cd .config/rofi
-: 1669519553:0;ll
 : 1669519555:0;nv config.rasi
-: 1669519598:0;cz
-: 1669519636:0;time $SHELL -i -c exit
 : 1669519652:0;plug ~/.config/zsh/supercharge.zsh
 : 1669519660:0;plug ~/.config/zsh/.zshrc
-: 1669519670:0;exec zsh
 : 1669519716:0;yay -S hybridbar
 : 1669519730:0;yay hybrid
-: 1669519751:0;e
-: 1669519763:0;nv
-: 1669520353:0;cd
-: 1669520353:0;c
-: 1669520354:0;nv
-: 1669520850:0;ys
-: 1669521285:0;yl
 : 1669521299:0;yel
-: 1669523987:0;nv
-: 1669525633:0;cd .local/share/zap
 : 1669525637:0;nv zap.zsh
-: 1669525745:0;cz
-: 1669525759:0;time $SHELL -i -c exit
-: 1669525760:0;c
-: 1669525777:0;zshc
-: 1669525779:0;lg
 : 1669525797:0;yl
+: 1669525807:0;nvc ~/.config/zsh/history
+: 1669525981:0;rm a.log a.lua
+: 1669529428:0;./while.out
+: 1669529479:0;rm while.out switch.out
+: 1669529502:0;./while
+: 1669529587:0;rm get.out
+: 1669529605:0;nv this.c
+: 1669529758:0;rm get*
+: 1669529766:0;rm this*
+: 1669529775:0;cd cp
+: 1669529881:0;rm while while.cbase.out switch.cbase.out
+: 1669529895:0;rm while.out *.out
+: 1669530010:0;rm -rf .git
+: 1669530017:0;rm .out e
+: 1669530026:0;nv while.c
+: 1669530048:0;gh repo clone Rishabh672003/learning-C
+: 1669530058:0;cali
+: 1669530137:0;rm while
+: 1669553820:0;time fish -i -c exit
+: 1669553860:0;cd .config/fish
+: 1669553866:0;nv config.fish
+: 1669553919:0;fish
+: 1669557590:0;cd ~/projects/Neovim
+: 1669557594:0;nv init.lua
+: 1669557706:0;zap --clean
+: 1669557715:0;zap --update
+: 1669562464:0;ccc
+: 1669562477:0;nv .gitignore
+: 1669562510:0;lll
+: 1669562598:0;rm test.c test.out
+: 1669562601:0;cd test
+: 1669562608:0;cd zap
+: 1669562610:0;one
+: 1669562743:0;mv .gitignore ../
+: 1669562766:0;mv ../.gitignore .
+: 1669571021:0;Neovim
+: 1669571135:0;cd ..
+: 1669571138:0;cd learning-C
+: 1669571154:0;cd pro
+: 1669571177:0;cd Neovim
+: 1669571179:0;\
+onefetch -l | while read line; do echo "$line"; onefetch -a $line; done;
+: 1669572294:0;cd lua/user/plugins.lua
+: 1669572297:0;cd lua/user/
+: 1669572426:0;cd projects/nvim-basic-ide
+: 1669572509:0;git config pull.rebase true
+: 1669572516:0;git pull
+: 1669572529:0;cdp
+: 1669572534:0;rm -rf nvim-basic-ide
+: 1669572547:0;gh repo clone lunarvim/nvim-basic-ide
+: 1669572557:0;cd nvim-basic-ide
+: 1669572681:0;cd .config/nvim/lua/user/plugins.lua
+: 1669572683:0;cd .config/nvim/lua/user/
+: 1669572861:0;nv plugins.lua
+: 1669651734:0;for i in $(seq 1 10); do time $shell -i -c exit\
+
+: 1669734272:0;hyprctl devices
+: 1669734276:0;hyprctl help
+: 1669734450:0;git bisect
+: 1669734454:0;git bisect start
+: 1669734484:0;git bisect reset
+: 1669734568:0;yay -S hyprland-bin
+: 1669734634:0;yay -S hyprland-git
+: 1669734661:0;yay hyprland
+: 1669735314:0;exec zsh
+: 1669735328:0;gtnv
+: 1669743148:0;cd Downloads
+: 1669743157:0;tar -xvf basilioss\ dotfiles\ main\ .config-neofetch.zip
+: 1669743164:0;unzip basilioss\ dotfiles\ main\ .config-neofetch.zip
+: 1669743222:0;rm -rf ascii-* config2.conf
+: 1669743230:0;mv basilioss\ dotfiles\ main\ .config-neofetch.zip ~/projects
+: 1669743237:0;cd Provisional\ Admission\ Letter\ to\ B.Tech.\ Chemical\ Engineering\ offered\ at\ MIT-WPU\ Faculty\ of\ Engineering\ and\ Technology\ for\ Batch\ 2022-2026.eml
+: 1669743239:0;cd
+: 1669743241:0;cd projects
+: 1669743251:0;unzip basilioss\ dotfiles\ main\ .config-neofetch.zip neofetch
+: 1669743321:0;nautilus .
+: 1669743355:0;cd .config/neofetch
+: 1669743367:0;mv config.conf config2.conf
+: 1669743378:0;mv ~/projects/basilioss\ dotfiles\ main\ .config-neofetch/* .
+: 1669743386:0;nv config.conf
+: 1669743452:0;nv ascii-arch
+: 1669743478:0;neofetch help
+: 1669743484:0;neofetch -h
+: 1669743489:0;neofetch --help
+: 1669743537:0;neofetch --ascii source ascii-arch
+: 1669743954:0;we
+: 1669743969:0;n
+: 1669743970:0;f
+: 1669818969:0;ping 8.8.8.8
+: 1669819057:0;ys
+: 1669819691:0;nr
+: 1669822026:0;uneo
+: 1669823446:0;
+: 1669823372:0;zshc
+: 1669823654:0;sdr
+: 1669824210:0;cz
+: 1669824272:0;ls
+: 1669824328:0;mkdir -p "$HOME/.zsh"\
+git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
+: 1669824368:0;cd projects/Neovim
+: 1669824376:0;nv .
+: 1669824464:0;nvim
+: 1669824496:0;nvim ~/.config/nvim/init.lua
+: 1669824634:0;c
+: 1669824800:0;zap -u
+: 1669824809:0;cd .local/share/zap
+: 1669824810:0;ll
+: 1669824812:0;lg
+: 1669825391:0;time $SHELL -i -c exit
+: 1669829694:0;nv
+: 1669829778:0;e
+: 1669829855:0;nv
+: 1669829858:0;awk '!seen[$0]++' history > history
+: 1669829860:0;nv
+: 1669830371:0;yl

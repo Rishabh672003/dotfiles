@@ -1,4 +1,4 @@
-#files: 1001	version: 5.9
+#files: 1006	version: 5.9
 
 _comps=(
 '-' '_precommand'
@@ -1478,6 +1478,11 @@ _comps=(
 'traceroute' '_hosts'
 'transmission-remote' '_transmission'
 'trap' '_trap'
+'trash' '_trash'
+'trash-empty' '_trash-empty'
+'trash-list' '_trash-list'
+'trash-put' '_trash-put'
+'trash-restore' '_trash-restore'
 'tree' '_tree'
 'trial' '_twisted'
 'trove' '_openstack'
@@ -1959,7 +1964,8 @@ autoload -Uz _zap _afew _alacritty _android _archinstallscripts \
             _swayidle _swaylock _swaymsg _systemctl _systemd \
             _systemd-analyze _systemd-delta _systemd-inhibit _systemd-nspawn _systemd-path \
             _systemd-run _systemd-tmpfiles _tarsnap _teamocil _thor \
-            _timedatectl _tmuxinator _tmuxp _tox _udevadm \
+            _timedatectl _tmuxinator _tmuxp _tox _trash \
+            _trash-empty _trash-list _trash-put _trash-restore _udevadm \
             _udisksctl _ufw _updpkgsums _virtualbox _vnstat \
             _wemux _wg-quick _wikicurses _wl-copy _wl-paste \
             _xinput _xsel _yadm _yaourt _yarn \

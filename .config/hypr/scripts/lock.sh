@@ -21,4 +21,4 @@ swaylock \
     --inside-wrong-color f38ba8 \
     --inside-clear-color a6e3a1 \
     --indicator-caps-lock \
-    --image ~/.config/hypr/wallpapers/cr.jpg
+    --image ~/.config/hypr/wallpapers/1000_sunny_one_piece.jpg

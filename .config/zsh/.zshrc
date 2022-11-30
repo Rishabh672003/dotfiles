@@ -9,6 +9,7 @@ fi
 autoload -Uz plug
 [ -f "$HOME/.local/share/zap/zap.zsh" ] && source "$HOME/.local/share/zap/zap.zsh"
 
+# all the good stuff
 plug ~/.config/zsh/supercharge.zsh
 
 # evals needed for apps
@@ -35,9 +36,8 @@ plug ~/.local/share/zap/plugins/zsh-autoswitch-virtualenv/autoswitch_virtualenv.
 
 # Comp stuff and autoloading them
 autoload -Uz compinit
-for dump in ~/.zcompdump(N.mh+24); do
-    compinit;
-    # compinit -d "$XDG_CACHE_HOME"/zsh/zcompdump-"$ZSH_VERSION";
+for dump in "${ZDOTDIR:-$HOME}/.zcompdump"(N.mh+24); do
+    compinit
 done
 compinit -C
 

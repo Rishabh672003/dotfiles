@@ -48,8 +48,8 @@ alias sys='system-monitoring-center'
 alias shut='shutdown now'
 alias sus='systemctl suspend'
 alias ls='exa --color always --icons -a'
-alias ll='exa --color always --icons -1albh -s name --git --sort date'
-alias lll='exa --color always --icons -1albhT -L 2 -s name -I .git --git'
+alias ll='exa --color always --icons -1albh -s name --git --sort date --group-directories-first'
+alias lll='exa --color always --icons -1albhT -L 2 -s name -I .git --git --group-directories-first'
 alias ws='waydroid show-full-ui'
 alias wss='XDG_SESSION_TYPE=wayland waydroid show-full-ui'
 alias we='waydroid session stop'
@@ -72,13 +72,15 @@ alias ngit='cp -r /home/rishabh/.config/nvim/* ~/projects/Neovim/ && \
     cd ~/projects/Neovim'
 alias zshc='cp ~/.config/zsh/* ~/projects/zsh-configs/ ; \
     cd ~/projects/zsh-configs
-    # git add * && \
+# git add * && \
     # sh ~/git-repos/gc.sh && \
     # git push'
 alias pgit='cp ~/python-study/* ~/projects/python-studies/ ; cd ~/projects/python-studies/'
 alias sdr='sudo docker run -it archlinux:base-devel'
 alias sdp='sudo docker system prune -a'
-alias uneo='sudo true && cd /home/rishabh/projects/random-repos/neovim/ && git pull && sudo make CMAKE_BUILD_TYPE=RelWithDebInfo && sudo make install'
+alias uneo='sudo true && cd /home/rishabh/projects/random-repos/neovim/ &&\
+    git pull && sudo make CMAKE_BUILD_TYPE=RelWithDebInfo &&\
+    sudo make install && cd /home/rishabh/'
 alias ngt='git clone https://github.com/rishabh672003/neovim ~/.config/nvim'
 alias hyp='cp -r ~/.config/hypr ~/projects/hyprland-configs/ \
     cp -r ~/.config/waybar ~/projects/hyprland-configs/ \
@@ -86,3 +88,4 @@ alias hyp='cp -r ~/.config/hypr ~/projects/hyprland-configs/ \
 alias nrandom='tr -dc "A-Za-z 0-9" < /dev/urandom | fold -w100 | head -n 1000000 > bigfile.txt'
 alias yl='sh ~/.config/yadm/yadm.sh'
 alias yel='yadm enter lazygit'
+alias ccc='cp /home/rishabh/projects/cpro/* /home/rishabh/projects/learning-C/ && cd ~/projects/learning-C/'
