@@ -1522,7 +1522,6 @@ fi;\
 : 1669518694:0;cd .config
 : 1669518694:0;nv --startuptime a.lua
 : 1669518694:0;nv a.lua
-: 1669518694:0;rm a.log
 : 1669518694:0;yay -S ticktick
 : 1669518694:0;yay -S zenkit
 : 1669518694:0;zenkit
@@ -1536,8 +1535,6 @@ fi;\
 : 1669518694:0;gcc a.c -o a
 : 1669518694:0;./a
 : 1669518694:0;nv a.c
-: 1669518694:0;nv --startuptime a.log
-: 1669518694:0;nv a.log
 : 1669518694:0;g++ --help
 : 1669518694:0;man g++
 : 1669518694:0;gcc b.c -o hello
@@ -1631,8 +1628,6 @@ onefetch -l | while read line; do echo "$line"; onefetch -a $line; done;
 : 1669734568:0;yay -S hyprland-bin
 : 1669734634:0;yay -S hyprland-git
 : 1669734661:0;yay hyprland
-: 1669735314:0;exec zsh
-: 1669735328:0;gtnv
 : 1669743148:0;cd Downloads
 : 1669743157:0;tar -xvf basilioss\ dotfiles\ main\ .config-neofetch.zip
 : 1669743164:0;unzip basilioss\ dotfiles\ main\ .config-neofetch.zip
@@ -1654,7 +1649,6 @@ onefetch -l | while read line; do echo "$line"; onefetch -a $line; done;
 : 1669743954:0;we
 : 1669743969:0;n
 : 1669743970:0;f
-: 1669818969:0;ping 8.8.8.8
 : 1669819691:0;nr
 : 1669823446:0;
 : 1669823654:0;sdr
@@ -1669,19 +1663,15 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1669824800:0;zap -u
 : 1669824809:0;cd .local/share/zap
 : 1669829858:0;awk '!seen[$0]++' history > history
-: 1669830371:0;yl
 : 1669830450:0;ngit
 : 1669830498:0;cd
-: 1669830504:0;cd .config/zsh
 : 1669830507:0;nv history
 : 1669830594:0;nv b
 : 1669830699:0;nv .zshenv
 : 1669830704:0;nv .zshrc
 : 1669830722:0;zrecompile
 : 1669830734:0;zcompile .zcompdump
-: 1669830749:0;zcompile supercharge.zsh
 : 1669830888:0;zshc
-: 1669830907:0;nv .gitignore
 : 1669831029:0;lv .gitignore
 : 1669831047:0;cd zsh-configs
 : 1669831057:0;rm zsh-configs
@@ -1689,26 +1679,18 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1669831072:0;rm history
 : 1669831080:0;cd projects/zsh-configs
 : 1669831098:0;time $SHELL -i -c exit
-: 1669907544:0;ys
 : 1669908553:0;nv a
-: 1669915331:0;c
 : 1669915385:0;cdp
 : 1669915388:0;cd learning-C
-: 1669915389:0;ll
 : 1669915395:0;rm *.out
 : 1669915397:0;lg
 : 1669915723:0;nv ~/.config/nvim/lua/user/plugins.lua
-: 1669917468:0;uneo
-: 1669917520:0;nv
 : 1669917696:0;e
-: 1669917702:0;nv
-: 1669991612:0;c
 : 1669991621:0;ping 8.8.8.8
 : 1669991638:0;nv
 : 1669991644:0;nv --startuptime a.log
 : 1669991648:0;nv a.log
 : 1669991655:0;rm a.log
-: 1669991656:0;ll
 : 1669991708:0;yay -Rns arduino
 : 1669991736:0;yay -S arduino-ide-bin
 : 1669992185:0;ys
@@ -1717,11 +1699,12 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1669992709:0;c
 : 1669996441:0;uneo
 : 1669996871:0;gtnv
-: 1669996906:0;yl
 : 1669996922:0;cd .config/zsh
-: 1669996923:0;ll
 : 1669996927:0;nv .gitignore
-: 1669996937:0;yl
 : 1669996953:0;rm .zcompdump.zwc supercharge.zsh.zwc
 : 1669996956:0;ll
 : 1669996957:0;yl
+: 1669996969:0;zcompile supercharge.zsh
+: 1669996981:0;exec zsh
+: 1669996983:0;ll
+: 1669996986:0;yl
