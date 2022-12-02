@@ -1722,3 +1722,6 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1669996923:0;ll
 : 1669996927:0;nv .gitignore
 : 1669996937:0;yl
+: 1669996953:0;rm .zcompdump.zwc supercharge.zsh.zwc
+: 1669996956:0;ll
+: 1669996957:0;yl
