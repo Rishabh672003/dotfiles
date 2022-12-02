@@ -1718,3 +1718,7 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1669996441:0;uneo
 : 1669996871:0;gtnv
 : 1669996906:0;yl
+: 1669996922:0;cd .config/zsh
+: 1669996923:0;ll
+: 1669996927:0;nv .gitignore
+: 1669996937:0;yl
