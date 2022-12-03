@@ -169,7 +169,6 @@
 : 1669518694:0;yay wezterm
 : 1669518694:0;yay yadm
 : 1669518694:0;yay -Rns jetbrains-toolbox
-: 1669518694:0;paccache -rk0
 : 1669518694:0;sudo cp -r ~/projects/Neovim/.git ~/.config/nvim/
 : 1669518694:0;rm .git
 : 1669518694:0;sudo rm -rf .git
@@ -254,7 +253,6 @@
 : 1669518694:0;cd lua/user
 : 1669518694:0;rm barbeque.lua
 : 1669518694:0;cd barbeque
-: 1669518694:0;rm -rf $HOME/.config/nvim $HOME/.local/share/nvim $HOME/.cache/nvim
 : 1669518694:0;git clone https://github.com/rishabh672003/Neovim ~/.config/nvim
 : 1669518694:0;yay waydroid-image
 : 1669518694:0;rm -rf .git .gitignore README.md
@@ -380,7 +378,6 @@ drwxr-xr-x      - rishabh 24 Jun 18:15  ïƒ¤ƒµ workspace\
 : 1669518694:0;sudo rm -rf /usr/local/share/nvim/runtime/
 : 1669518694:0;nvim --headless +PackerSync
 : 1669518694:0;cd projects/random-repos/neovim/
-: 1669518694:0;sudo make distclean
 : 1669518694:0;fccache
 : 1669518694:0;fc-cache -f
 : 1669518694:0;yay wayland-hyprland
@@ -511,7 +508,6 @@ drwxr-xr-x      - rishabh 24 Jun 18:15  ïƒ¤ƒµ workspace\
 : 1669518694:0;rm lineage-18.1-20221030-MAINLINE-waydroid_x86_64-vendor.zip lineage-18.1-20221030-MAINLINE-waydroid_x86_64-vendor.zip.aria2 lineage-18.Ytb3qwLs.1-20221030-MAINLINE-waydroid_x86_64-vendor.zip.part
 : 1669518694:0;wf-recorder -g "$(slurp)" -f hypr2.mp4
 : 1669518694:0;waybar -v
-: 1669518694:0;yay waybar-hyprland
 : 1669518694:0;aria2c https://yer.dl.sourceforge.net/project/waydroid/images/vendor/waydroid_x86_64/lineage-18.1-20221030-MAINLINE-waydroid_x86_64-vendor.zip
 : 1669518694:0;rm lineage-18.1-20221030-MAINLINE-waydroid_x86_64-vendor.zip lineage-18.1-20221030-MAINLINE-waydroid_x86_64-vendor.zip.aria2
 : 1669518694:0;fd images
@@ -596,7 +592,6 @@ sudo chmod a+wr /opt/spotify/Apps -R
 : 1669518694:0;grub-install --target=x86_64-efi --efi-directory=/boot/ --bootloader-id=GRUB
 : 1669518694:0;grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GRUB
 : 1669518694:0;grub-install --target=x86_64-efi --efi-directory=/boot/grub/efi --bootloader-id=GRUB
-: 1669518694:0;lsblk
 : 1669518694:0;grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUB
 : 1669518694:0;cd .local/share/applications
 : 1669518694:0;rm waydroid.im.vector.app.desktop waydroid.kingmodapk.mobi.desktop waydroid.com.abhyas.nta.com.desktop jetbrains-toolbox.desktop waydroid.ph.url.tangodev.randomwallpaper.desktop
@@ -646,7 +641,6 @@ sudo chmod a+wr /opt/spotify/Apps -R
 : 1669518694:0;rm clean-pkg-cache.hook
 : 1669518694:0;rm minimal.lua
 : 1669518694:0;cd st/
-: 1669518694:0;make
 : 1669518694:0;make install
 : 1669518694:0;cd ~/.config/nvim/lua/user/options.lua
 : 1669518694:0;cd ~/.config/nvim/lua/user/
@@ -804,7 +798,6 @@ debugpy/bin/python -m pip install debugpy
 : 1669518694:0;fd waydroid
 : 1669518694:0;fd vendor.img
 : 1669518694:0;fd system.img
-: 1669518694:0;cd /mnt/windows/
 : 1669518694:0;cd Users/
 : 1669518694:0;cd jhari/Downloads/
 : 1669518694:0;cd .cache/zsh4humans/v5/
@@ -1132,7 +1125,6 @@ for i in $(seq 1 10); do time /bin/zsh -i -c exit; done;
 : 1669518694:0;rm State\ Common\ Entrance\ Test\ Cell,\ Government\ of\ Maharashtra-round-3.pdf
 : 1669518694:0;rm .wak*
 : 1669518694:0;rm -rf .wak*
-: 1669518694:0;hx
 : 1669518694:0;cd .config/hypr/scripts
 : 1669518694:0;dunstctl history | head -n 10
 : 1669518694:0;lc
@@ -1160,7 +1152,6 @@ for i in $(seq 1 10); do time /bin/zsh -i -c exit; done;
 : 1669518694:0;zap -c
 : 1669518694:0;rm a.vue
 : 1669518694:0;pacman -Qi | fzf
-: 1669518694:0;pacman -Qq | fzf
 : 1669518694:0;zstat
 : 1669518694:0;zstat Applications
 : 1669518694:0;ls --colour
@@ -1310,7 +1301,6 @@ sh -c "$(curl https://raw.githubusercontent.com/XDream8/revanced-creator/main/pa
 : 1669518694:0;mkdir cpro
 : 1669518694:0;mkdir -p ftplugin
 : 1669518694:0;lv c.lua
-: 1669518694:0;cd projects/cpro
 : 1669518694:0;lv a.cpp
 : 1669518694:0;pyright
 : 1669518694:0;python-study
@@ -1347,7 +1337,6 @@ cd ~/.config/nvim/java-debug\
 : 1669518694:0;cd .lo
 : 1669518694:0;cd share
 : 1669518694:0;cd sdkman
-: 1669518694:0;cd bin
 : 1669518694:0;cd .m2
 : 1669518694:0;rm -rf .sdkman .cache
 : 1669518694:0;java2html
@@ -1393,7 +1382,6 @@ cd ~/.config/nvim/java-debug
 : 1669518694:0;rm -rf ~/.local/cache
 : 1669518694:0;sudo rm -rf ~/.local/cache
 : 1669518694:0;rm -rf $HOME/.config/nvim $HOME/.cache/nvim
-: 1669518694:0;git clone https://github.com/Rishabh672003/Neovim ~/.config/nvim && nvim
 : 1669518694:0;rm -rf .java
 : 1669518694:0;cd .mozilla
 : 1669518694:0;if [[ -n ${ZDOTDIR}/.zcompdump(#qN.mh+24) ]]; then\
@@ -1435,7 +1423,6 @@ fi;\
 : 1669518694:0;go list
 : 1669518694:0;go clean
 : 1669518694:0;tar -xvf nap_0.1.1_linux_amd64.tar.gz
-: 1669518694:0;./nap
 : 1669518694:0;cp nap ~/.local/bin
 : 1669518694:0;timezsh() {\
     shell=${1-$SHELL}\
@@ -1456,12 +1443,10 @@ fi;\
 : 1669518694:0;bat --config-file
 : 1669518694:0;nv config
 : 1669518694:0;bat config
-: 1669518694:0;cd nvim
 : 1669518694:0;bat init.lua
 : 1669518694:0;bat .bashrc
 : 1669518694:0;man trash
 : 1669518694:0;man man
-: 1669518694:0;nap
 : 1669518694:0;cd .local/share/nvim/site/pack/packer/start/catppuccin/lua/catppuccin/groups/integrations/
 : 1669518694:0;nv which_key.lua
 : 1669518694:0;cd c
@@ -1472,7 +1457,6 @@ fi;\
 : 1669518694:0;shut
 : 1669518694:0;yd
 : 1669518694:0;yay -S gnome-calculator
-: 1669518694:0;nv ~/.config/nvim/init.lua
 : 1669518694:0;cd .con
 : 1669518694:0;cd lvim
 : 1669518694:0;cd .local/share/lunarvim/lvim/lua/lvim/lsp
@@ -1490,7 +1474,6 @@ fi;\
 : 1669518694:0;rm config.example.lua
 : 1669518694:0;lv
 : 1669518694:0;lv config.lua
-: 1669518694:0;nnvim
 : 1669518694:0;spicetify backup
 : 1669518694:0;spicetify restore backup
 : 1669518694:0;spicetify backup restore apply
@@ -1519,7 +1502,6 @@ fi;\
 : 1669518694:0;cd .cache
 : 1669518694:0;compinit -d "$XDG_CACHE_HOME"/zsh/zcompdump-"$ZSH_VERSION"
 : 1669518694:0;cd zs
-: 1669518694:0;cd .config
 : 1669518694:0;nv --startuptime a.lua
 : 1669518694:0;nv a.lua
 : 1669518694:0;yay -S ticktick
@@ -1529,7 +1511,6 @@ fi;\
 : 1669518694:0;yay todoist
 : 1669518694:0;ys ticktick
 : 1669518694:0;nvim --startuptime a.log
-: 1669518694:0;tpg
 : 1669518694:0;echo $?
 : 1669518694:0;rm a
 : 1669518694:0;gcc a.c -o a
@@ -1554,7 +1535,6 @@ fi;\
 : 1669518694:0;rm switch
 : 1669518694:0;nv test.c
 : 1669518694:0;yay -S arduino
-: 1669518694:0;nv README.md
 : 1669518659:0;t
 : 1669518876:0;nv .config/zsh/
 : 1669518891:0;hx ~/.config/zsh/history
@@ -1594,7 +1574,6 @@ fi;\
 : 1669557706:0;zap --clean
 : 1669557715:0;zap --update
 : 1669562464:0;ccc
-: 1669562510:0;lll
 : 1669562598:0;rm test.c test.out
 : 1669562601:0;cd test
 : 1669562608:0;cd zap
@@ -1628,13 +1607,11 @@ onefetch -l | while read line; do echo "$line"; onefetch -a $line; done;
 : 1669734568:0;yay -S hyprland-bin
 : 1669734634:0;yay -S hyprland-git
 : 1669734661:0;yay hyprland
-: 1669743148:0;cd Downloads
 : 1669743157:0;tar -xvf basilioss\ dotfiles\ main\ .config-neofetch.zip
 : 1669743164:0;unzip basilioss\ dotfiles\ main\ .config-neofetch.zip
 : 1669743222:0;rm -rf ascii-* config2.conf
 : 1669743230:0;mv basilioss\ dotfiles\ main\ .config-neofetch.zip ~/projects
 : 1669743237:0;cd Provisional\ Admission\ Letter\ to\ B.Tech.\ Chemical\ Engineering\ offered\ at\ MIT-WPU\ Faculty\ of\ Engineering\ and\ Technology\ for\ Batch\ 2022-2026.eml
-: 1669743241:0;cd projects
 : 1669743251:0;unzip basilioss\ dotfiles\ main\ .config-neofetch.zip neofetch
 : 1669743321:0;nautilus .
 : 1669743355:0;cd .config/neofetch
@@ -1647,31 +1624,23 @@ onefetch -l | while read line; do echo "$line"; onefetch -a $line; done;
 : 1669743489:0;neofetch --help
 : 1669743537:0;neofetch --ascii source ascii-arch
 : 1669743954:0;we
-: 1669743969:0;n
-: 1669743970:0;f
 : 1669819691:0;nr
 : 1669823446:0;
-: 1669823654:0;sdr
-: 1669824210:0;cz
 : 1669824272:0;ls
 : 1669824328:0;mkdir -p "$HOME/.zsh"\
 git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1669824368:0;cd projects/Neovim
 : 1669824376:0;nv .
-: 1669824464:0;nvim
 : 1669824496:0;nvim ~/.config/nvim/init.lua
 : 1669824800:0;zap -u
 : 1669824809:0;cd .local/share/zap
 : 1669829858:0;awk '!seen[$0]++' history > history
-: 1669830450:0;ngit
-: 1669830498:0;cd
 : 1669830507:0;nv history
 : 1669830594:0;nv b
 : 1669830699:0;nv .zshenv
 : 1669830704:0;nv .zshrc
 : 1669830722:0;zrecompile
 : 1669830734:0;zcompile .zcompdump
-: 1669830888:0;zshc
 : 1669831029:0;lv .gitignore
 : 1669831047:0;cd zsh-configs
 : 1669831057:0;rm zsh-configs
@@ -1680,31 +1649,125 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1669831080:0;cd projects/zsh-configs
 : 1669831098:0;time $SHELL -i -c exit
 : 1669908553:0;nv a
-: 1669915385:0;cdp
 : 1669915388:0;cd learning-C
 : 1669915395:0;rm *.out
-: 1669915397:0;lg
-: 1669915723:0;nv ~/.config/nvim/lua/user/plugins.lua
-: 1669917696:0;e
 : 1669991621:0;ping 8.8.8.8
-: 1669991638:0;nv
 : 1669991644:0;nv --startuptime a.log
 : 1669991648:0;nv a.log
 : 1669991655:0;rm a.log
 : 1669991708:0;yay -Rns arduino
 : 1669991736:0;yay -S arduino-ide-bin
-: 1669992185:0;ys
 : 1669992701:0;rm Arduino
 : 1669992706:0;rm -rf Arduino
-: 1669992709:0;c
-: 1669996441:0;uneo
 : 1669996871:0;gtnv
 : 1669996922:0;cd .config/zsh
 : 1669996927:0;nv .gitignore
 : 1669996953:0;rm .zcompdump.zwc supercharge.zsh.zwc
-: 1669996956:0;ll
-: 1669996957:0;yl
 : 1669996969:0;zcompile supercharge.zsh
-: 1669996981:0;exec zsh
-: 1669996983:0;ll
 : 1669996986:0;yl
+: 1669996997:0;zshc
+: 1670001092:0;ac
+: 1670001121:0;yay -R paru
+: 1670001125:0;tpg
+: 1670002155:0;paccache -rk0
+: 1670002194:0;fd hook
+: 1670002273:0;cd Downloads
+: 1670002283:0;tar -xvf transmission-4.0.0-beta.2.dev+r728e5b8350.tar.xz
+: 1670002299:0;cd transmission-4.0.0-beta.2.dev+r728e5b8350
+: 1670002314:0;cd gtk
+: 1670002349:0;cd bin
+: 1670002380:0;rm transmission-4.0.0-beta.2.dev+r728e5b8350.tar.xz transmission-4.0.0-beta.2.dev+r728e5b8350
+: 1670002397:0;rm transmission-4.0.0-beta.2.dev+r728e5b8350
+: 1670002402:0;rm -rf transmission-4.0.0-beta.2.dev+r728e5b8350
+: 1670002411:0;tar -xvf transmission-4.0.0-beta.2+rbceb368f1b.tar.xz
+: 1670002417:0;cd transmission-4.0.0-beta.2+rbceb368f1b
+: 1670002467:0;make
+: 1670002472:0;lll
+: 1670002484:0;cmake
+: 1670002488:0;cmake make
+: 1670002501:0;cmake cmake
+: 1670002522:0;nv README.md
+: 1670002554:0;cd tra
+: 1670002629:0;yay -S transmission-gtk-git
+: 1670002666:0;cdp
+: 1670002682:0;rm -rf transmission-4.0.0-beta.2+rbceb368f1b*
+: 1670002749:0;./nap
+: 1670002756:0;rm nap
+: 1670002760:0;nap
+: 1670002815:0;hx
+: 1670035996:0;yay -R transmission-gtk-git
+: 1670036002:0;paccache -ruk0
+: 1670036064:0;pacman -Qq | fzf
+: 1670036083:0;pacman -Qi waybar-hyprland
+: 1670036102:0;yay waybar-hyprland
+: 1670040470:0;yay xclip
+: 1670040497:0;echo "hello" | xclip
+: 1670040508:0;wl-copy
+: 1670040527:0;pacman -Qi wl-clipboard
+: 1670040780:0;pacman -Qi scrot
+: 1670040795:0;pacman -Qi grim
+: 1670040881:0;pacman -Qi swappy
+: 1670041082:0;pacman -Qi slurp
+: 1670049507:0;yay -S kitty
+: 1670049527:0;kitty --help
+: 1670049548:0;man kitty
+: 1670049593:0;kitty --hold sh -c "echo hello, world"
+: 1670049603:0;kitty --hold sh -c "nvim"
+: 1670049628:0;kitty --hold sh -c nvim
+: 1670049927:0;cd projects
+: 1670049939:0;bash kitty.sh
+: 1670049950:0;bash kitty.sh ~/.config/zsh/install.sh
+: 1670050821:0;top
+: 1670050831:0;n
+: 1670050837:0;f
+: 1670052990:0;lsblk
+: 1670053026:0;cd /mnt/windows/
+: 1670062219:0;cd projects/cpro
+: 1670062222:0;nv card_game_advanced.c
+: 1670063223:0;nv ~/.config/nvim/lua/user/plugins.lua
+: 1670063238:0;nv ~/.config/nvim/init.lua
+: 1670063268:0;sudo make distclean
+: 1670063275:0;sudo make uninstall
+: 1670063318:0;sudo make clean
+: 1670063344:0;nnvim
+: 1670063530:0;e
+: 1670063659:0;uneo
+: 1670063971:0;nv ~/projects/cpro
+: 1670069155:0;ys
+: 1670079382:0;sdr
+: 1670082784:0;cd .config
+: 1670082785:0;cd nvim
+: 1670082786:0;ll
+: 1670083486:0;nv
+: 1670083557:0;ngit
+: 1670083833:0;cd
+: 1670083859:0;lg
+: 1670083900:0;rm -rf $HOME/.config/nvim $HOME/.local/share/nvim $HOME/.cache/nvim
+: 1670083905:0;git clone https://github.com/Rishabh672003/Neovim ~/.config/nvim && nvim
+: 1670083936:0;nvim
+: 1670084012:0;c
+: 1670084014:0;cz
+: 1670084039:0;exec zsh
+: 1670084041:0;ngit
+: 1670084043:0;lg
+: 1670084057:0;nv
+: 1670084160:0;lg
+: 1670084180:0;rm -rf $HOME/.config/nvim
+: 1670084183:0;git clone https://github.com/Rishabh672003/Neovim ~/.config/nvim && nvim
+: 1670084255:0;nvim
+: 1670084306:0;c
+: 1670084308:0;ngit
+: 1670084310:0;lg
+: 1670084326:0;cd nvim
+: 1670084340:0;rm -rf .git README.md LICENSE
+: 1670084341:0;ll
+: 1670084343:0;c
+: 1670084344:0;nv
+: 1670084368:0;ngit
+: 1670084369:0;lg
+: 1670084377:0;nvim
+: 1670084466:0;ngit
+: 1670084467:0;lg
+: 1670084476:0;ngit
+: 1670084478:0;nvim
+: 1670084510:0;yl

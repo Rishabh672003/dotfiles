@@ -68,7 +68,6 @@ alias ua-update-all='export TMPFILE="$(mktemp)"; \
     ua-drop-caches && \
     yay -Syyu --noconfirm'
 alias ngit='cp -r /home/rishabh/.config/nvim/* ~/projects/Neovim/ && \
-    cp ~/projects/init.lua ~/projects/Neovim/init.lua && \
     cd ~/projects/Neovim'
 alias zshc='cp ~/.config/zsh/* ~/projects/zsh-configs/ ; \
     cd ~/projects/zsh-configs

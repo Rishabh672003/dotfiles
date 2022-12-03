@@ -28,7 +28,8 @@ local core_modules = {
 	"user.jaq",
 	"user.better-escape",
 	"user.hop",
-	"user.presence",
+	"user.zen-mode",
+	"user.dap",
 }
 
 -- Using pcall we can handle better any loading issues
