@@ -7,9 +7,7 @@
     "wlr/workspaces",
     "custom/spotify"
   ],
-  "modules-center": [
-    "clock"
-  ],
+  "modules-center": [],
   "modules-right": [
     "tray",
     "custom/caffeine",
@@ -20,13 +18,19 @@
     "cpu",
     "backlight",
     "pulseaudio",
-    "battery"
-    // "custom/exit"
+    "battery",
+    "clock",
+    "custom/exit"
   ],
   "custom/launcher": {
     "format": "<span color='#F38BA8'></span>",
     // "on-click": "wofi --show drun --insensitive --allow-images"
     "on-click": "rofi -show drun"
+  },
+  "custom/exit": {
+    "format": "<span color='#89DCEB'></span>",
+    // "on-click": "wofi --show drun --insensitive --allow-images"
+    "on-click": "wlogout"
   },
   "wlr/workspaces": {
     "disable-scroll": false,

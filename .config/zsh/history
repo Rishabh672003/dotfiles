@@ -769,7 +769,6 @@ sudo chmod a+wr /opt/spotify/Apps -R
 : 1669518694:0;yay -R discordo-git
 : 1669518694:0;sudo rm -rf /usr/share/waydroid-extra/images/*
 : 1669518694:0;killall -9 waybar
-: 1669518694:0;waybar
 : 1669518694:0;z4h init
 : 1669518694:0;cd v5
 : 1669518694:0;cd .local/share/zsh/
@@ -1233,7 +1232,6 @@ for i in $(seq 1 10); do time /bin/zsh -i -c exit; done;
 : 1669518694:0;evince .
 : 1669518694:0;evince Basic\ Electrical\ Engineering\ BEE/BEE.pdf
 : 1669518694:0;rm hello.log
-: 1669518694:0;cd down
 : 1669518694:0;rm Sem\ 1\ books-20221118T172350Z-001.tWLbSZI7.zip.part Sem\ 1\ books-20221118T172350Z-001.zip Sem\ 1\ books-20221118T173842Z-001 Sem\ 1\ books-20221118T173842Z-001.zip
 : 1669518694:0;rm -rf Sem\ 1\ books-20221118T172350Z-001.tWLbSZI7.zip.part Sem\ 1\ books-20221118T172350Z-001.zip Sem\ 1\ books-20221118T173842Z-001 Sem\ 1\ books-20221118T173842Z-001.zip
 : 1669518694:0;wwe
@@ -1556,7 +1554,6 @@ fi;\
 : 1669529605:0;nv this.c
 : 1669529758:0;rm get*
 : 1669529766:0;rm this*
-: 1669529775:0;cd cp
 : 1669529881:0;rm while while.cbase.out switch.cbase.out
 : 1669529895:0;rm while.out *.out
 : 1669530010:0;rm -rf .git
@@ -1582,7 +1579,6 @@ fi;\
 : 1669562766:0;mv ../.gitignore .
 : 1669571021:0;Neovim
 : 1669571135:0;cd ..
-: 1669571154:0;cd pro
 : 1669571177:0;cd Neovim
 : 1669571179:0;\
 onefetch -l | while read line; do echo "$line"; onefetch -a $line; done;
@@ -1630,7 +1626,6 @@ onefetch -l | while read line; do echo "$line"; onefetch -a $line; done;
 : 1669824328:0;mkdir -p "$HOME/.zsh"\
 git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1669824368:0;cd projects/Neovim
-: 1669824376:0;nv .
 : 1669824496:0;nvim ~/.config/nvim/init.lua
 : 1669824800:0;zap -u
 : 1669824809:0;cd .local/share/zap
@@ -1664,7 +1659,6 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1669996927:0;nv .gitignore
 : 1669996953:0;rm .zcompdump.zwc supercharge.zsh.zwc
 : 1669996969:0;zcompile supercharge.zsh
-: 1669996986:0;yl
 : 1669996997:0;zshc
 : 1670001092:0;ac
 : 1670001121:0;yay -R paru
@@ -1689,7 +1683,6 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670002522:0;nv README.md
 : 1670002554:0;cd tra
 : 1670002629:0;yay -S transmission-gtk-git
-: 1670002666:0;cdp
 : 1670002682:0;rm -rf transmission-4.0.0-beta.2+rbceb368f1b*
 : 1670002749:0;./nap
 : 1670002756:0;rm nap
@@ -1723,51 +1716,50 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670052990:0;lsblk
 : 1670053026:0;cd /mnt/windows/
 : 1670062219:0;cd projects/cpro
-: 1670062222:0;nv card_game_advanced.c
 : 1670063223:0;nv ~/.config/nvim/lua/user/plugins.lua
 : 1670063238:0;nv ~/.config/nvim/init.lua
 : 1670063268:0;sudo make distclean
 : 1670063275:0;sudo make uninstall
 : 1670063318:0;sudo make clean
 : 1670063344:0;nnvim
-: 1670063530:0;e
 : 1670063659:0;uneo
 : 1670063971:0;nv ~/projects/cpro
 : 1670069155:0;ys
 : 1670079382:0;sdr
 : 1670082784:0;cd .config
-: 1670082785:0;cd nvim
-: 1670082786:0;ll
-: 1670083486:0;nv
-: 1670083557:0;ngit
-: 1670083833:0;cd
-: 1670083859:0;lg
 : 1670083900:0;rm -rf $HOME/.config/nvim $HOME/.local/share/nvim $HOME/.cache/nvim
-: 1670083905:0;git clone https://github.com/Rishabh672003/Neovim ~/.config/nvim && nvim
-: 1670083936:0;nvim
-: 1670084012:0;c
 : 1670084014:0;cz
 : 1670084039:0;exec zsh
-: 1670084041:0;ngit
-: 1670084043:0;lg
-: 1670084057:0;nv
-: 1670084160:0;lg
 : 1670084180:0;rm -rf $HOME/.config/nvim
 : 1670084183:0;git clone https://github.com/Rishabh672003/Neovim ~/.config/nvim && nvim
-: 1670084255:0;nvim
-: 1670084306:0;c
-: 1670084308:0;ngit
-: 1670084310:0;lg
 : 1670084326:0;cd nvim
 : 1670084340:0;rm -rf .git README.md LICENSE
-: 1670084341:0;ll
-: 1670084343:0;c
-: 1670084344:0;nv
-: 1670084368:0;ngit
-: 1670084369:0;lg
-: 1670084377:0;nvim
-: 1670084466:0;ngit
-: 1670084467:0;lg
-: 1670084476:0;ngit
-: 1670084478:0;nvim
 : 1670084510:0;yl
+: 1670088008:0;nvim
+: 1670088492:0;c
+: 1670088495:0;ngit
+: 1670088496:0;lg
+: 1670088499:0;nv
+: 1670088504:0;cd
+: 1670088505:0;cd cp
+: 1670088508:0;nv card_game_advanced.c
+: 1670090230:0;yay wlogout
+: 1670090263:0;cd down
+: 1670090325:0;cd pro
+: 1670090328:0;cd AmitGolden\ dotfiles\ main\ .config-wlogout
+: 1670090334:0;cdp
+: 1670090349:0;cp -r AmitGolden\ dotfiles\ main\ .config-wlogout ~/.config/wlogout
+: 1670090358:0;cd ~/.config/wlogout
+: 1670090374:0;ll
+: 1670090482:0;nv .
+: 1670090507:0;wlogout
+: 1670090527:0;nvim ~/.config/waybar/config.jsonc
+: 1670090796:0;waybar
+: 1670090878:0;e
+: 1670090910:0;waybar
+: 1670091499:0;c
+: 1670091500:0;ll
+: 1670091501:0;nv
+: 1670091742:0;killall -9 waybar
+: 1670091743:0;waybar
+: 1670091919:0;yl
