@@ -1538,7 +1538,6 @@ fi;\
 : 1669519660:0;plug ~/.config/zsh/.zshrc
 : 1669519716:0;yay -S hybridbar
 : 1669519730:0;yay hybrid
-: 1669521299:0;yel
 : 1669525637:0;nv zap.zsh
 : 1669525807:0;nvc ~/.config/zsh/history
 : 1669525981:0;rm a.log a.lua
@@ -1618,7 +1617,6 @@ onefetch -l | while read line; do echo "$line"; onefetch -a $line; done;
 : 1669824272:0;ls
 : 1669824328:0;mkdir -p "$HOME/.zsh"\
 git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
-: 1669824368:0;cd projects/Neovim
 : 1669824496:0;nvim ~/.config/nvim/init.lua
 : 1669824800:0;zap -u
 : 1669824809:0;cd .local/share/zap
@@ -1715,16 +1713,10 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670082784:0;cd .config
 : 1670083900:0;rm -rf $HOME/.config/nvim $HOME/.local/share/nvim $HOME/.cache/nvim
 : 1670084014:0;cz
-: 1670084039:0;exec zsh
 : 1670084180:0;rm -rf $HOME/.config/nvim
 : 1670084183:0;git clone https://github.com/Rishabh672003/Neovim ~/.config/nvim && nvim
 : 1670084326:0;cd nvim
 : 1670084340:0;rm -rf .git README.md LICENSE
-: 1670088008:0;nvim
-: 1670088495:0;ngit
-: 1670088496:0;lg
-: 1670088505:0;cd cp
-: 1670088508:0;nv card_game_advanced.c
 : 1670090230:0;yay wlogout
 : 1670090263:0;cd down
 : 1670090325:0;cd pro
@@ -1741,16 +1733,13 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670124646:0;nv .gitignore
 : 1670124685:0;rm .zcompdump .zcompdump.zwc
 : 1670124695:0;top
-: 1670124698:0;time $SHELL -i -c exit
 : 1670126410:0;sudo rm /usr/lib/python3.10/site-packages/cairo/__pycache__/__init__.cpython-310.pyc
 : 1670126413:0;ys
 : 1670128516:0;yay -S paru
 : 1670128526:0;p
 : 1670128617:0;waybar
-: 1670132743:0;cd
 : 1670132757:0;nv launch.sh
 : 1670134340:0;bv
-: 1670134364:0;yl
 : 1670134661:0;cd .config/hypr/scripts
 : 1670134669:0;chmod +x launch.sh
 : 1670134672:0;./launch.sh
@@ -1762,16 +1751,34 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670151100:0;nv Cofee_Shop.json
 : 1670154423:0;nv
 : 1670154437:0;mv Cofee_Shop.json projects
-: 1670154437:0;ll
-: 1670154438:0;c
 : 1670154441:0;cd projects
 : 1670154443:0;rm Cofee_Shop.json
-: 1670154445:0;e
 : 1670158291:0;cd projects/Neovim
-: 1670158292:0;ll
 : 1670158307:0;git log
-: 1670158311:0;lg
-: 1670158822:0;c
-: 1670158822:0;cd
-: 1670158823:0;c
 : 1670158824:0;yl
+: 1670158833:0;yel
+: 1670158857:0;cd
+: 1670158859:0;ll
+: 1670158861:0;exec zsh
+: 1670158862:0;time $SHELL -i -c exit
+: 1670158873:0;nvim
+: 1670160756:0;cd cp
+: 1670160759:0;nv card_game_advanced.c
+: 1670161152:0;c
+: 1670161164:0;ngit
+: 1670161165:0;lg
+: 1670161167:0;e
+: 1670161191:0;cd
+: 1670161191:0;c
+: 1670165167:0;nv
+: 1670167742:0;nr
+: 1670169226:0;we
+: 1670169572:0;c
+: 1670169574:0;ys
+: 1670170114:0;tpg
+: 1670171395:0;cd Downloads
+: 1670171403:0;mv shigeo-kageyama-rage-mob-psycho-100-4k-3840Ãƒ·2160.jpg ~/.config/hypr/wallpapers
+: 1670171434:0;cali
+: 1670171452:0;hyp
+: 1670171456:0;cali
+: 1670171462:0;yl
