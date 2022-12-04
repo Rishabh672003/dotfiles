@@ -1487,7 +1487,6 @@ fi;\
 : 1669518694:0;zap update
 : 1669518694:0;systemctl daemon-reload
 : 1669518694:0;nv installed_plugins
-: 1669518694:0;p
 : 1669518694:0;/usr/bin/paru -Pw
 : 1669518694:0;cd plugins/exa
 : 1669518694:0;nv exa.plugin.zsh
@@ -1745,17 +1744,28 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670090507:0;wlogout
 : 1670090527:0;nvim ~/.config/waybar/config.jsonc
 : 1670123726:0;c
-: 1670123730:0;ys
-: 1670123905:0;nv
 : 1670123936:0;killall -9 waybar
-: 1670124207:0;waybar
 : 1670124560:0;yadm pull
 : 1670124609:0;cd .config/zs
 : 1670124638:0;ll
 : 1670124646:0;nv .gitignore
-: 1670124654:0;yl
 : 1670124685:0;rm .zcompdump .zcompdump.zwc
 : 1670124695:0;top
 : 1670124698:0;time $SHELL -i -c exit
-: 1670124700:0;e
 : 1670124706:0;yl
+: 1670124742:0;nv
+: 1670126410:0;sudo rm /usr/lib/python3.10/site-packages/cairo/__pycache__/__init__.cpython-310.pyc
+: 1670126413:0;ys
+: 1670128516:0;yay -S paru
+: 1670128526:0;p
+: 1670128532:0;waybar
+: 1670128581:0;e
+: 1670128617:0;waybar
+: 1670132743:0;cd
+: 1670132744:0;c
+: 1670132748:0;cd .config/hypr/scripts
+: 1670132757:0;nv launch.sh
+: 1670134339:0;c
+: 1670134340:0;bv
+: 1670134341:0;nv
+: 1670134364:0;yl
