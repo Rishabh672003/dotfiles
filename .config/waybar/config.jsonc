@@ -28,8 +28,7 @@
     "on-click": "rofi -show drun"
   },
   "custom/exit": {
-    "format": "<span color='#89DCEB'></span>",
-    // "on-click": "wofi --show drun --insensitive --allow-images"
+    "format": "<span color='#EBA0AC'></span>",
     "on-click": "wlogout"
   },
   "wlr/workspaces": {

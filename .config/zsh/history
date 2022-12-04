@@ -768,7 +768,6 @@ sudo chmod a+wr /opt/spotify/Apps -R
 : 1669518694:0;yay -R discordo
 : 1669518694:0;yay -R discordo-git
 : 1669518694:0;sudo rm -rf /usr/share/waydroid-extra/images/*
-: 1669518694:0;killall -9 waybar
 : 1669518694:0;z4h init
 : 1669518694:0;cd v5
 : 1669518694:0;cd .local/share/zsh/
@@ -1724,7 +1723,6 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670063344:0;nnvim
 : 1670063659:0;uneo
 : 1670063971:0;nv ~/projects/cpro
-: 1670069155:0;ys
 : 1670079382:0;sdr
 : 1670082784:0;cd .config
 : 1670083900:0;rm -rf $HOME/.config/nvim $HOME/.local/share/nvim $HOME/.cache/nvim
@@ -1734,12 +1732,9 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670084183:0;git clone https://github.com/Rishabh672003/Neovim ~/.config/nvim && nvim
 : 1670084326:0;cd nvim
 : 1670084340:0;rm -rf .git README.md LICENSE
-: 1670084510:0;yl
 : 1670088008:0;nvim
-: 1670088492:0;c
 : 1670088495:0;ngit
 : 1670088496:0;lg
-: 1670088499:0;nv
 : 1670088504:0;cd
 : 1670088505:0;cd cp
 : 1670088508:0;nv card_game_advanced.c
@@ -1750,16 +1745,16 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670090334:0;cdp
 : 1670090349:0;cp -r AmitGolden\ dotfiles\ main\ .config-wlogout ~/.config/wlogout
 : 1670090358:0;cd ~/.config/wlogout
-: 1670090374:0;ll
 : 1670090482:0;nv .
 : 1670090507:0;wlogout
 : 1670090527:0;nvim ~/.config/waybar/config.jsonc
-: 1670090796:0;waybar
-: 1670090878:0;e
-: 1670090910:0;waybar
-: 1670091499:0;c
 : 1670091500:0;ll
-: 1670091501:0;nv
-: 1670091742:0;killall -9 waybar
-: 1670091743:0;waybar
 : 1670091919:0;yl
+: 1670123726:0;c
+: 1670123730:0;ys
+: 1670123905:0;nv
+: 1670123936:0;killall -9 waybar
+: 1670123937:0;waybar
+: 1670124174:0;e
+: 1670124207:0;waybar
+: 1670124431:0;yl
