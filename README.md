@@ -5,7 +5,7 @@ these are managed by a software called [yadm](https://github.com/TheLocehiliosan
 
 # Showcase
 
-![showcase](https://i.imgur.com/tqBKBnn.png)
+![image](https://user-images.githubusercontent.com/53911515/205472813-86d27f48-65fa-4381-a77e-fedb7ec1ee1c.png)
 
 # Apply the configs
 
