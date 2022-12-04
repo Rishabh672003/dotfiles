@@ -138,7 +138,6 @@
 : 1669518694:0;sudo rm /home/rishabh/.local/share/yadm/repo.git/gc.log
 : 1669518694:0;cd ~/.local/share/yadm/repo.git
 : 1669518694:0;yadm add README.md
-: 1669518694:0;yadm pull
 : 1669518694:0;cd ~/.local/bin/
 : 1669518694:0;rm waybar-media.py
 : 1669518694:0;fuck
@@ -1641,7 +1640,6 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1669831061:0;rm -rf zsh-configs
 : 1669831072:0;rm history
 : 1669831080:0;cd projects/zsh-configs
-: 1669831098:0;time $SHELL -i -c exit
 : 1669908553:0;nv a
 : 1669915388:0;cd learning-C
 : 1669915395:0;rm *.out
@@ -1655,7 +1653,6 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1669992706:0;rm -rf Arduino
 : 1669996871:0;gtnv
 : 1669996922:0;cd .config/zsh
-: 1669996927:0;nv .gitignore
 : 1669996953:0;rm .zcompdump.zwc supercharge.zsh.zwc
 : 1669996969:0;zcompile supercharge.zsh
 : 1669996997:0;zshc
@@ -1709,7 +1706,6 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670049927:0;cd projects
 : 1670049939:0;bash kitty.sh
 : 1670049950:0;bash kitty.sh ~/.config/zsh/install.sh
-: 1670050821:0;top
 : 1670050831:0;n
 : 1670050837:0;f
 : 1670052990:0;lsblk
@@ -1748,21 +1744,18 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670090482:0;nv .
 : 1670090507:0;wlogout
 : 1670090527:0;nvim ~/.config/waybar/config.jsonc
-: 1670091500:0;ll
-: 1670091919:0;yl
 : 1670123726:0;c
 : 1670123730:0;ys
 : 1670123905:0;nv
 : 1670123936:0;killall -9 waybar
-: 1670123937:0;waybar
-: 1670124174:0;e
 : 1670124207:0;waybar
-: 1670124431:0;yl
 : 1670124560:0;yadm pull
-: 1670124567:0;yl
 : 1670124609:0;cd .config/zs
-: 1670124610:0;ll
-: 1670124617:0;nv .gitignore
 : 1670124638:0;ll
 : 1670124646:0;nv .gitignore
 : 1670124654:0;yl
+: 1670124685:0;rm .zcompdump .zcompdump.zwc
+: 1670124695:0;top
+: 1670124698:0;time $SHELL -i -c exit
+: 1670124700:0;e
+: 1670124706:0;yl
