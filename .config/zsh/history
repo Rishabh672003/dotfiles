@@ -1758,3 +1758,5 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670124174:0;e
 : 1670124207:0;waybar
 : 1670124431:0;yl
+: 1670124560:0;yadm pull
+: 1670124567:0;yl
