@@ -1122,7 +1122,6 @@ for i in $(seq 1 10); do time /bin/zsh -i -c exit; done;
 : 1669518694:0;rm State\ Common\ Entrance\ Test\ Cell,\ Government\ of\ Maharashtra-round-3.pdf
 : 1669518694:0;rm .wak*
 : 1669518694:0;rm -rf .wak*
-: 1669518694:0;cd .config/hypr/scripts
 : 1669518694:0;dunstctl history | head -n 10
 : 1669518694:0;lc
 : 1669518694:0;cd .local/share/nvim
@@ -1262,7 +1261,6 @@ ninja -C build
 : 1669518694:0;yay -S wf-recorder-git
 : 1669518694:0;wl
 : 1669518694:0;wr
-: 1669518694:0;ws
 : 1669518694:0;waydroid app install Spotify\ v8.7.78.373\ \[xManager\]\ \(Armeabi-v7a\).apk
 : 1669518694:0;dunstctl history | head -n 30
 : 1669518694:0;dunstctl history | head -n 100
@@ -1616,8 +1614,6 @@ onefetch -l | while read line; do echo "$line"; onefetch -a $line; done;
 : 1669743484:0;neofetch -h
 : 1669743489:0;neofetch --help
 : 1669743537:0;neofetch --ascii source ascii-arch
-: 1669743954:0;we
-: 1669819691:0;nr
 : 1669823446:0;
 : 1669824272:0;ls
 : 1669824328:0;mkdir -p "$HOME/.zsh"\
@@ -1642,7 +1638,6 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1669908553:0;nv a
 : 1669915388:0;cd learning-C
 : 1669915395:0;rm *.out
-: 1669991621:0;ping 8.8.8.8
 : 1669991644:0;nv --startuptime a.log
 : 1669991648:0;nv a.log
 : 1669991655:0;rm a.log
@@ -1702,7 +1697,6 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670049593:0;kitty --hold sh -c "echo hello, world"
 : 1670049603:0;kitty --hold sh -c "nvim"
 : 1670049628:0;kitty --hold sh -c nvim
-: 1670049927:0;cd projects
 : 1670049939:0;bash kitty.sh
 : 1670049950:0;bash kitty.sh ~/.config/zsh/install.sh
 : 1670050831:0;n
@@ -1718,7 +1712,6 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670063344:0;nnvim
 : 1670063659:0;uneo
 : 1670063971:0;nv ~/projects/cpro
-: 1670079382:0;sdr
 : 1670082784:0;cd .config
 : 1670083900:0;rm -rf $HOME/.config/nvim $HOME/.local/share/nvim $HOME/.cache/nvim
 : 1670084014:0;cz
@@ -1730,7 +1723,6 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670088008:0;nvim
 : 1670088495:0;ngit
 : 1670088496:0;lg
-: 1670088504:0;cd
 : 1670088505:0;cd cp
 : 1670088508:0;nv card_game_advanced.c
 : 1670090230:0;yay wlogout
@@ -1743,29 +1735,43 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670090482:0;nv .
 : 1670090507:0;wlogout
 : 1670090527:0;nvim ~/.config/waybar/config.jsonc
-: 1670123726:0;c
 : 1670123936:0;killall -9 waybar
 : 1670124560:0;yadm pull
 : 1670124609:0;cd .config/zs
-: 1670124638:0;ll
 : 1670124646:0;nv .gitignore
 : 1670124685:0;rm .zcompdump .zcompdump.zwc
 : 1670124695:0;top
 : 1670124698:0;time $SHELL -i -c exit
-: 1670124706:0;yl
-: 1670124742:0;nv
 : 1670126410:0;sudo rm /usr/lib/python3.10/site-packages/cairo/__pycache__/__init__.cpython-310.pyc
 : 1670126413:0;ys
 : 1670128516:0;yay -S paru
 : 1670128526:0;p
-: 1670128532:0;waybar
-: 1670128581:0;e
 : 1670128617:0;waybar
 : 1670132743:0;cd
-: 1670132744:0;c
-: 1670132748:0;cd .config/hypr/scripts
 : 1670132757:0;nv launch.sh
-: 1670134339:0;c
 : 1670134340:0;bv
-: 1670134341:0;nv
 : 1670134364:0;yl
+: 1670134661:0;cd .config/hypr/scripts
+: 1670134669:0;chmod +x launch.sh
+: 1670134672:0;./launch.sh
+: 1670139130:0;sdr
+: 1670148284:0;ping 8.8.8.8
+: 1670148652:0;nr
+: 1670150420:0;we
+: 1670150422:0;ws
+: 1670151100:0;nv Cofee_Shop.json
+: 1670154423:0;nv
+: 1670154437:0;mv Cofee_Shop.json projects
+: 1670154437:0;ll
+: 1670154438:0;c
+: 1670154441:0;cd projects
+: 1670154443:0;rm Cofee_Shop.json
+: 1670154445:0;e
+: 1670158291:0;cd projects/Neovim
+: 1670158292:0;ll
+: 1670158307:0;git log
+: 1670158311:0;lg
+: 1670158822:0;c
+: 1670158822:0;cd
+: 1670158823:0;c
+: 1670158824:0;yl
