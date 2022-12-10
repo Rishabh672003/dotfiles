@@ -28,12 +28,13 @@ zen_mode.setup({
 		-- require("lsp-inlayhints").toggle()
 		vim.g.cmp_active = false
 		vim.cmd([[LspStop]])
-		-- vim.opt.sho
+		vim.cmd([[Barbecue toggle]])
 	end,
 	on_close = function()
 		-- require("lsp-inlayhints").toggle()
 		vim.g.cmp_active = true
 		vim.cmd([[LspStart]])
+		vim.cmd([[Barbecue show]])
 		-- require("user.winbar").create_winbar()
 	end,
 })

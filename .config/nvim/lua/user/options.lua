@@ -36,11 +36,12 @@ local options = {
 	guifont = "JetBrainsMono Nerd Font Regular:h13", -- the font used in graphical neovim applications
 }
 
+--vim.api.nvim_set_var("nvim_tree_group_empty", "1")
+vim.opt.shortmess:append("c")
 for k, v in pairs(options) do
 	vim.opt[k] = v
 end
 
-vim.opt.shortmess:append("c")
 vim.opt.formatoptions:remove({ "c", "r", "o" })
 vim.opt.iskeyword:append("-")
 vim.opt.whichwrap:append("<,>,[,],h,l")

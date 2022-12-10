@@ -79,7 +79,7 @@ lualine.setup({
 		lualine_a = { branch, diagnostics },
 		lualine_b = { mode },
 		lualine_c = {
-			{ "filename", file_status = true, path = 3 },
+			-- { "filename", file_status = true, path = 3 },
 		},
 		-- lualine_x = { "encoding", "fileformat", "filetype" },
 		lualine_x = { diff, filetype },
@@ -102,7 +102,7 @@ lualine.setup({
 	--[[ 	lualine_y = {}, ]]
 	--[[ 	lualine_z = {}, ]]
 	--[[ }, ]]
- --[[]]
+	--[[]]
 	--[[ inactive_winbar = { ]]
 	--[[ 	lualine_a = {}, ]]
 	--[[ 	lualine_b = {}, ]]
@@ -114,4 +114,3 @@ lualine.setup({
 	tabline = {},
 	extensions = {},
 })
-
