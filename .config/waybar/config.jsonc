@@ -181,7 +181,7 @@
     "format": " {}",
     "on-click": "playerctl play-pause",
     "on-double-click": "playerctl next",
-    "on-right-click": "on-click-right"
+    "on-right-click": "python /home/rishabh/.config/hypr/scripts/empris.py"
   },
   "custom/exit": {
     "format": "<span color='#F38BA8'>⏻</span>",
