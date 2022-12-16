@@ -1,4 +1,4 @@
-    for i in $(seq 1 10); do time $shell -i -c exit; done\
+: 1670855649:0;    for i in $(seq 1 10); do time $shell -i -c exit; done\
 }\
 
 : 1669518694:0;rm a.lua
@@ -129,7 +129,6 @@
 : 1669553866:0;nv config.fish
 : 1669553919:0;fish
 : 1669557590:0;cd ~/projects/Neovim
-: 1669557594:0;nv init.lua
 : 1669557706:0;zap --clean
 : 1669557715:0;zap --update
 : 1669562598:0;rm test.c test.out
@@ -266,7 +265,6 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670090328:0;cd AmitGolden\ dotfiles\ main\ .config-wlogout
 : 1670090349:0;cp -r AmitGolden\ dotfiles\ main\ .config-wlogout ~/.config/wlogout
 : 1670090358:0;cd ~/.config/wlogout
-: 1670090507:0;wlogout
 : 1670090527:0;nvim ~/.config/waybar/config.jsonc
 : 1670124560:0;yadm pull
 : 1670124609:0;cd .config/zs
@@ -283,10 +281,8 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670151100:0;nv Cofee_Shop.json
 : 1670154437:0;mv Cofee_Shop.json projects
 : 1670154443:0;rm Cofee_Shop.json
-: 1670158291:0;cd projects/Neovim
 : 1670158307:0;git log
 : 1670160759:0;nv card_game_advanced.c
-: 1670167742:0;nr
 : 1670170114:0;tpg
 : 1670171403:0;mv shigeo-kageyama-rage-mob-psycho-100-4k-3840Ãƒ·2160.jpg ~/.config/hypr/wallpapers
 : 1670171452:0;hyp
@@ -294,7 +290,6 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670261051:0;dunstctl history | head -n 100
 : 1670261792:0;cd Applications
 : 1670261794:0;gtnv
-: 1670261959:0;ngit
 : 1670262062:0;nv README.md
 : 1670262876:0;uneo
 : 1670263322:0;sdp
@@ -382,16 +377,13 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670665524:0;rm plugins
 : 1670665527:0;rm -rf plugins
 : 1670665549:0;cd python-study
-: 1670678221:0;cd
 : 1670678230:0;cz
-: 1670678278:0;yl
 : 1670679306:0;cll
 : 1670681090:0;mv ~/.config/zsh
 : 1670681098:0;cd .config/zsh
 : 1670681134:0;mv zsh zsh.bak
 : 1670681238:0;rm *.mp4
 : 1670681539:0;rm .node_repl_history .python_history .wget-hsts .vim-bookmarks
-: 1670681543:0;yel
 : 1670682153:0;playerctl pause
 : 1670682157:0;playerctl list
 : 1670682165:0;playerctl status
@@ -421,7 +413,6 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670686015:0;cd zsh-configs
 : 1670686033:0;rm git.plugin.zsh functions.zsh .zlogin
 : 1670686039:0;zshc
-: 1670686040:0;lg
 : 1670686754:0;cd .lo
 : 1670686756:0;cd bin
 : 1670686763:0;mv empris empris.py
@@ -430,7 +421,6 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670686809:0;python projects/empris/empris.py
 : 1670686827:0;killall -9 rofi
 : 1670686844:0;killall -9 rofi || python projects/empris/empris.py
-: 1670686855:0;e
 : 1670687032:0;killall -9 waybar
 : 1670688036:0;waybar
 : 1670689822:0;we
@@ -443,7 +433,6 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670694287:0;time $SHELL -i -c exit
 : 1670695467:0;ls -alt /|tail -1|awk '{print $6, $7, $8}'
 : 1670695469:0;ls
-: 1670695504:0;cd .local/share/zap
 : 1670695512:0;cd pl
 : 1670695528:0;rm -rf zsh-autoswitch-virtualenv
 : 1670695554:0;rm -rf fzf-tab fzf-tab-source
@@ -451,34 +440,18 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670729300:0;curl https://nvim.sh/s
 : 1670740489:0;yay -S newm-git
 : 1670740504:0;yay newm
-: 1670743195:0;ys
-: 1670743356:0;sdr
 : 1670743472:0;nb
 : 1670743898:0;git clone https://github.com/LunarVim/nvim-basic-ide.git ~/.config/nvim
-: 1670765365:0;cd projects
 : 1670765369:0;nv a.lua
 : 1670765384:0;rm -rf $HOME/.config/nvim $HOME/.local/share/nvim
 : 1670765390:0;git clone https://github.com/Rishabh672003/Neovim ~/.config/nvim && nvim
 : 1670765436:0;nvim
-: 1670765606:0;cd .config/nvim
 : 1670765616:0;rm -rf .git
 : 1670765620:0;nv .
-: 1670765729:0;nv
-: 1670765841:0;ll
-: 1670765841:0;c
-: 1670765856:0;firefox
-: 1670765878:0;exit
-: 1670765893:0;firefox
-: 1670766061:0;c
 : 1670766071:0;wf-recorder -g "$(slurp)" -f newm.mp4
 : 1670766153:0;wlogout
 : 1670766286:0;firefox
-: 1670767382:0;c
-: 1670767384:0;ys
-: 1670767587:0;touch $HOME/.config/newm/config.py
 : 1670767596:0;mkdir -p ~/.config/newm
-: 1670767598:0;touch $HOME/.config/newm/config.py
-: 1670767609:0;nv $HOME/.config/newm/config.py
 : 1670767748:0;rm $HOME/.config/newm/config.py
 : 1670767752:0;cd\
 mkdir -p .config/newm\
@@ -487,49 +460,64 @@ vim .config/newm/config.py
 : 1670767766:0;touch $HOME/.config/newm/config.py
 : 1670767768:0;nv $HOME/.config/newm/config.py
 : 1670767896:0;cd projects
-: 1670767906:0;nv open-wl
-: 1670767958:0;bash open-wl
-: 1670767988:0;ll
-: 1670767991:0;nv open-wl
 : 1670768011:0;cp open-wl ~/.local/bin
-: 1670768017:0;open-wl
 : 1670768023:0;bash open-wl
 : 1670768029:0;bash
-open-wl
-open-wl brave
-exit
+: 1670855649:0;open-wl
+: 1670855649:0;exit
 : 1670768045:0;nv open-wl
-: 1670768056:0;cd
 : 1670768060:0;cd /usr
-: 1670768061:0;ll
 : 1670768065:0;cd local
-: 1670768066:0;ll
 : 1670768093:0;open-wl brave
-: 1670768095:0;cd
 : 1670768106:0;rm -rf ~/.local/bin/open-wl
-: 1670768108:0;ll
-: 1670768122:0;nv
 : 1670768366:0;start-newm -d
-: 1670768389:0;ll
 : 1670768398:0;rm open-wl.sh newm.mp4
-: 1670768398:0;ll
-: 1670774873:0;c
-: 1670774880:0;ys
-: 1670779640:0;c
-: 1670779644:0;ys
-: 1670779670:0;c
-: 1670779696:0;nv
-: 1670781639:0;yel
-: 1670781659:0;nv
-: 1670781663:0;yel
 : 1670781685:0;cd .config/nvim
-: 1670781686:0;ll
-: 1670781689:0;lg
 : 1670781694:0;yel
-: 1670781893:0;yl
-: 1670782453:0;nv
-: 1670782493:0;yl
-: 1670782500:0;ngit
-: 1670782502:0;lg
-: 1670782525:0;nv
 : 1670782552:0;yl
+: 1670782570:0;cd nv
+: 1670782578:0;rm -rf ftplugin/py.lua
+: 1670782595:0;ngit
+: 1670867381:0;yay -S bitwarden
+: 1670945937:0;bat
+: 1670945954:0;rm -rf .zsh
+: 1670945964:0;bat .vim
+: 1670945966:0;bat .viminfo
+: 1670945979:0;bat ~/.config/zsh/.zshrc
+: 1671039672:0;cd
+: 1671040278:0;nv ~/.config/alacritty/alacritty.yml
+: 1671040294:0;cd .local/share/zap
+: 1671040332:0;cp ~/Downloads/ComicMono.ttf ~/.local/share/folks
+: 1671040334:0;fc-cache -f -v
+: 1671203209:0;nr
+: 1671203255:0;yay -R jackett
+: 1671203258:0;yay -R openssl-1.0
+: 1671203262:0;ys
+: 1671203894:0;cd projects/Neovim
+: 1671203896:0;ll
+: 1671203898:0;nv init.lua
+: 1671204008:0;yay -S jackett
+: 1671204029:0;sdr
+: 1671205196:0;touch ~/.config/lazygit/config.yml
+: 1671205203:0;nv ~/.config/lazygit/config.yml
+: 1671205500:0;nv
+: 1671205514:0;cd neovim
+: 1671205559:0;c
+: 1671205578:0;cd neo
+: 1671205579:0;lg
+: 1671205611:0;e
+: 1671205614:0;cd neo
+: 1671205616:0;lg
+: 1671205678:0;c
+: 1671205679:0;nv
+: 1671205683:0;cd neo
+: 1671205684:0;lg
+: 1671205712:0;c
+: 1671205713:0;nv
+: 1671206017:0;ls
+: 1671206018:0;c
+: 1671206025:0;for i in $(seq 1 10); do time $shell -i -c exit\
+
+: 1671206027:0;time $SHELL -i -c exit
+: 1671206689:0;nv
+: 1671207169:0;yl

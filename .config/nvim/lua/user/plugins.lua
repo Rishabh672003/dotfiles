@@ -185,7 +185,6 @@ return packer.startup(function(use)
 	use({ "mfussenegger/nvim-dap-python", commit = "27a0eff2bd3114269bb010d895b179e667e712bd" })
 
 	use("p00f/clangd_extensions.nvim")
-
 	-- graveyard of plugins
 
 	-- use({
@@ -212,6 +211,11 @@ return packer.startup(function(use)
 
 	--java
 	-- use("mfussenegger/nvim-jdtls")
+
+	-- ascii-stuff
+	-- use({ "MaximilianLloyd/ascii.nvim", requires = {
+	-- 	"MunifTanjim/nui.nvim",
+	-- } })
 
 	-- Put this at the end after all plugins
 	if PACKER_BOOTSTRAP then
