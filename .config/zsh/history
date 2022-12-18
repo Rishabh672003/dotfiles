@@ -67,7 +67,6 @@
 : 1669518694:0;yay -R exa
 : 1669518694:0;exa
 : 1669518694:0;yay -S exa
-: 1669518694:0;cd .cache
 : 1669518694:0;compinit -d "$XDG_CACHE_HOME"/zsh/zcompdump-"$ZSH_VERSION"
 : 1669518694:0;nv --startuptime a.lua
 : 1669518694:0;yay -S ticktick
@@ -108,7 +107,6 @@
 : 1669519660:0;plug ~/.config/zsh/.zshrc
 : 1669519716:0;yay -S hybridbar
 : 1669519730:0;yay hybrid
-: 1669525637:0;nv zap.zsh
 : 1669525807:0;nvc ~/.config/zsh/history
 : 1669525981:0;rm a.log a.lua
 : 1669529428:0;./while.out
@@ -153,8 +151,6 @@ onefetch -l | while read line; do echo "$line"; onefetch -a $line; done;
 : 1669572681:0;cd .config/nvim/lua/user/plugins.lua
 : 1669572683:0;cd .config/nvim/lua/user/
 : 1669572861:0;nv plugins.lua
-: 1669651734:0;for i in $(seq 1 10); do time $shell -i -c exit\
-
 : 1669734272:0;hyprctl devices
 : 1669734276:0;hyprctl help
 : 1669734450:0;git bisect
@@ -182,12 +178,10 @@ onefetch -l | while read line; do echo "$line"; onefetch -a $line; done;
 : 1669824328:0;mkdir -p "$HOME/.zsh"\
 git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1669824496:0;nvim ~/.config/nvim/init.lua
-: 1669824800:0;zap -u
 : 1669829858:0;awk '!seen[$0]++' history > history
 : 1669830507:0;nv history
 : 1669830594:0;nv b
 : 1669830699:0;nv .zshenv
-: 1669830704:0;nv .zshrc
 : 1669830722:0;zrecompile
 : 1669831029:0;lv .gitignore
 : 1669831057:0;rm zsh-configs
@@ -255,7 +249,6 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670063318:0;sudo make clean
 : 1670063344:0;nnvim
 : 1670063971:0;nv ~/projects/cpro
-: 1670082784:0;cd .config
 : 1670083900:0;rm -rf $HOME/.config/nvim $HOME/.local/share/nvim $HOME/.cache/nvim
 : 1670084180:0;rm -rf $HOME/.config/nvim
 : 1670084326:0;cd nvim
@@ -268,7 +261,6 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670090527:0;nvim ~/.config/waybar/config.jsonc
 : 1670124560:0;yadm pull
 : 1670124609:0;cd .config/zs
-: 1670124646:0;nv .gitignore
 : 1670124685:0;rm .zcompdump .zcompdump.zwc
 : 1670124695:0;top
 : 1670126410:0;sudo rm /usr/lib/python3.10/site-packages/cairo/__pycache__/__init__.cpython-310.pyc
@@ -289,9 +281,6 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670175317:0;systemctl status auto-cpufreq.service
 : 1670261051:0;dunstctl history | head -n 100
 : 1670261792:0;cd Applications
-: 1670261794:0;gtnv
-: 1670262062:0;nv README.md
-: 1670262876:0;uneo
 : 1670263322:0;sdp
 : 1670263414:0;yay xdph
 : 1670337559:0;cd projects/learning-C
@@ -353,7 +342,6 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670606232:0;ls -lat --full-time created /etc |tail
 : 1670606237:0;ls -la /etc |tail
 : 1670606254:0;ls -alct /|tail -1|awk '{print $6, $7, $8}'
-: 1670606276:0;lsblk
 : 1670606314:0;sudo tune2fs -l /dev/nvme0n1p1 | grep 'Filesystem created:'
 : 1670606323:0;sudo tune2fs -l /dev/nvme0n1p5 | grep 'Filesystem created:'
 : 1670606358:0;nap
@@ -377,11 +365,8 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670665524:0;rm plugins
 : 1670665527:0;rm -rf plugins
 : 1670665549:0;cd python-study
-: 1670678230:0;cz
 : 1670679306:0;cll
 : 1670681090:0;mv ~/.config/zsh
-: 1670681098:0;cd .config/zsh
-: 1670681134:0;mv zsh zsh.bak
 : 1670681238:0;rm *.mp4
 : 1670681539:0;rm .node_repl_history .python_history .wget-hsts .vim-bookmarks
 : 1670682153:0;playerctl pause
@@ -407,12 +392,9 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670683616:0;cd rofi-spotify
 : 1670683725:0;./rofi-spotify.py
 : 1670683743:0;./rofi-spotify.py --setup
-: 1670683901:0;cdp
 : 1670683904:0;rm -rf rofi-spotify
-: 1670684335:0;build-fzf-tab-module
 : 1670686015:0;cd zsh-configs
 : 1670686033:0;rm git.plugin.zsh functions.zsh .zlogin
-: 1670686039:0;zshc
 : 1670686754:0;cd .lo
 : 1670686756:0;cd bin
 : 1670686763:0;mv empris empris.py
@@ -423,16 +405,13 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670686844:0;killall -9 rofi || python projects/empris/empris.py
 : 1670687032:0;killall -9 waybar
 : 1670688036:0;waybar
-: 1670689822:0;we
 : 1670690003:0;pacman -Qq | fzf
 : 1670693041:0;rm .arduino15 .arduinoIDE
 : 1670693572:0;lvim
 : 1670693574:0;lv
 : 1670694210:0;cd zs
 : 1670694273:0;zcompile .zcompdump
-: 1670694287:0;time $SHELL -i -c exit
 : 1670695467:0;ls -alt /|tail -1|awk '{print $6, $7, $8}'
-: 1670695469:0;ls
 : 1670695512:0;cd pl
 : 1670695528:0;rm -rf zsh-autoswitch-virtualenv
 : 1670695554:0;rm -rf fzf-tab fzf-tab-source
@@ -474,50 +453,104 @@ vim .config/newm/config.py
 : 1670768398:0;rm open-wl.sh newm.mp4
 : 1670781685:0;cd .config/nvim
 : 1670781694:0;yel
-: 1670782552:0;yl
 : 1670782570:0;cd nv
 : 1670782578:0;rm -rf ftplugin/py.lua
 : 1670782595:0;ngit
 : 1670867381:0;yay -S bitwarden
 : 1670945937:0;bat
-: 1670945954:0;rm -rf .zsh
 : 1670945964:0;bat .vim
 : 1670945966:0;bat .viminfo
 : 1670945979:0;bat ~/.config/zsh/.zshrc
-: 1671039672:0;cd
 : 1671040278:0;nv ~/.config/alacritty/alacritty.yml
-: 1671040294:0;cd .local/share/zap
 : 1671040332:0;cp ~/Downloads/ComicMono.ttf ~/.local/share/folks
 : 1671040334:0;fc-cache -f -v
-: 1671203209:0;nr
 : 1671203255:0;yay -R jackett
 : 1671203258:0;yay -R openssl-1.0
-: 1671203262:0;ys
 : 1671203894:0;cd projects/Neovim
-: 1671203896:0;ll
 : 1671203898:0;nv init.lua
 : 1671204008:0;yay -S jackett
 : 1671204029:0;sdr
 : 1671205196:0;touch ~/.config/lazygit/config.yml
 : 1671205203:0;nv ~/.config/lazygit/config.yml
-: 1671205500:0;nv
 : 1671205514:0;cd neovim
-: 1671205559:0;c
-: 1671205578:0;cd neo
-: 1671205579:0;lg
-: 1671205611:0;e
-: 1671205614:0;cd neo
-: 1671205616:0;lg
-: 1671205678:0;c
-: 1671205679:0;nv
-: 1671205683:0;cd neo
-: 1671205684:0;lg
-: 1671205712:0;c
-: 1671205713:0;nv
 : 1671206017:0;ls
-: 1671206018:0;c
 : 1671206025:0;for i in $(seq 1 10); do time $shell -i -c exit\
 
-: 1671206027:0;time $SHELL -i -c exit
-: 1671206689:0;nv
 : 1671207169:0;yl
+: 1671212613:0;gtnv
+: 1671212665:0;rm -rf *arduino*
+: 1671212703:0;rm -rf *Arduino*
+: 1671249815:0;uneo
+: 1671280789:0;we
+: 1671280865:0;cd .config
+: 1671280873:0;mv zsh zsh.bak
+: 1671281539:0;rm -rf .zsh
+: 1671281553:0;rm -rf ~/.local/share/zsh
+: 1671281580:0;rm -rf .local/share/zinit
+: 1671283758:0;nr
+: 1671288569:0;a
+: 1671288572:0;time pfetch
+: 1671295325:0;man zshmodules
+: 1671295416:0;build-fzf-tab-module
+: 1671295564:0;cd cd
+: 1671296154:0;nv vim.plugin.zsh
+: 1671297903:0;cd zsh.bak2
+: 1671297911:0;nv .zshrc
+: 1671297957:0;zcompile ~/.local/share/zap/plugins/fzf-tab-source/fzf-tab-source.plugin.zsh
+: 1671297981:0;cd fzf-tab-source
+: 1671298022:0;cd zsh-autosuggestions
+: 1671298037:0;zcompile --help
+: 1671298052:0;zcompile zsh-autosuggestions.plugin.zsh zsh-autosuggestions.zsh
+: 1671298158:0;cd plugins/fzf-tab-source
+: 1671298230:0;lllll
+: 1671298249:0;zcompile fzfcdp
+: 1671298254:0;zap -u
+: 1671298282:0;cd fzf-tab
+: 1671298290:0;zcompile fzf-tab.plugin.zsh
+: 1671298299:0;nv
+: 1671298311:0;nv zap.zsh
+: 1671298442:0;cd .local/share/zap
+: 1671298444:0;cd plugins
+: 1671298449:0;cd zsh-autopair
+: 1671298545:0;rm -rf ~/.local/share/zap/plugins
+: 1671298918:0;cd
+: 1671298920:0;cd .config/zsh
+: 1671298930:0;zcompile aliases.zsh
+: 1671299227:0;lsblk
+: 1671300174:0;cd /boot
+: 1671300180:0;cd efi
+: 1671300190:0;cd EFI
+: 1671300315:0;efibootmgr
+: 1671300375:0;sudo efibootmgr
+: 1671337742:0;ys
+: 1671337797:0;cd wall
+: 1671337847:0;echo $XDG_CURRENT_DESKTOP
+: 1671337871:0;cd ~root
+: 1671338081:0;cz
+: 1671338180:0;cd neo
+: 1671338439:0;cd zsh
+: 1671338503:0;rm -rf git.plugin.zsh
+: 1671338556:0;rm git.plugin.zsh
+: 1671338571:0;cdd zsh
+: 1671338579:0;zcompile .zshrc
+: 1671339024:0;nv README.md
+: 1671339154:0;cd .cache
+: 1671339378:0;cp README.md ~/.config/zsh
+: 1671339380:0;zshc
+: 1671339395:0;cd .local
+: 1671339399:0;cd share/zap/plugins
+: 1671339405:0;cd zsh-autoswitch-virtualenv
+: 1671339411:0;nv .gitignore
+: 1671339458:0;lg
+: 1671339476:0;zcompile zsh-autoswitch-virtualenv.zsh
+: 1671339502:0;cd vim
+: 1671339512:0;cdp
+: 1671339519:0;zcompile zap.zsh
+: 1671339520:0;ll
+: 1671339532:0;c
+: 1671339539:0;time $SHELL -i -c exit
+: 1671339558:0;rm -rf ~/.local/share/zap/zap.zsh.zwc
+: 1671339559:0;e
+: 1671340182:0;nv
+: 1671340682:0;cz
+: 1671340688:0;yl
