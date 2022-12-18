@@ -27,13 +27,6 @@ plug "Freed-Wu/fzf-tab-source"
 plug "zap-zsh/vim"
 plug "Rishabh672003/zsh-autoswitch-virtualenv"
 
-# Comp stuff and autoloading them
-autoload -Uz compinit
-for dump in "${ZDOTDIR:-$HOME}/.zcompdump"(N.mh+24); do
-    compinit
-done
-compinit -C
-
 # theme
 plug "romkatv/powerlevel10k"
 

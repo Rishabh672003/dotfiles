@@ -1,3 +1,10 @@
+# Comp stuff and autoloading them
+autoload -Uz compinit
+for dump in "${ZDOTDIR:-$HOME}/.zcompdump"(N.mh+24); do
+    compinit
+done
+compinit -C
+
 # Execute code in the background to not affect the current session
 {
     # Compile zcompdump, if modified, to increase startup speed.

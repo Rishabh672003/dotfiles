@@ -141,13 +141,11 @@
 : 1669571179:0;\
 onefetch -l | while read line; do echo "$line"; onefetch -a $line; done;
 : 1669572294:0;cd lua/user/plugins.lua
-: 1669572297:0;cd lua/user/
 : 1669572426:0;cd projects/nvim-basic-ide
 : 1669572509:0;git config pull.rebase true
 : 1669572516:0;git pull
 : 1669572534:0;rm -rf nvim-basic-ide
 : 1669572547:0;gh repo clone lunarvim/nvim-basic-ide
-: 1669572557:0;cd nvim-basic-ide
 : 1669572681:0;cd .config/nvim/lua/user/plugins.lua
 : 1669572683:0;cd .config/nvim/lua/user/
 : 1669572861:0;nv plugins.lua
@@ -251,7 +249,6 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670063971:0;nv ~/projects/cpro
 : 1670083900:0;rm -rf $HOME/.config/nvim $HOME/.local/share/nvim $HOME/.cache/nvim
 : 1670084180:0;rm -rf $HOME/.config/nvim
-: 1670084326:0;cd nvim
 : 1670084340:0;rm -rf .git README.md LICENSE
 : 1670090230:0;yay wlogout
 : 1670090263:0;cd down
@@ -313,7 +310,6 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670397096:0;sudo usermod -a -G uucp rishabh
 : 1670397107:0;sudo usermod -a -G dialout rishabh
 : 1670397115:0;sudo arduino-ide
-: 1670403413:0;nvim -v
 : 1670403468:0;cf
 : 1670427381:0;cd Downloads
 : 1670427391:0;mkdir chem-tutorial
@@ -407,7 +403,6 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670688036:0;waybar
 : 1670690003:0;pacman -Qq | fzf
 : 1670693041:0;rm .arduino15 .arduinoIDE
-: 1670693572:0;lvim
 : 1670693574:0;lv
 : 1670694210:0;cd zs
 : 1670694273:0;zcompile .zcompdump
@@ -426,7 +421,6 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670765390:0;git clone https://github.com/Rishabh672003/Neovim ~/.config/nvim && nvim
 : 1670765436:0;nvim
 : 1670765616:0;rm -rf .git
-: 1670765620:0;nv .
 : 1670766071:0;wf-recorder -g "$(slurp)" -f newm.mp4
 : 1670766153:0;wlogout
 : 1670766286:0;firefox
@@ -452,10 +446,8 @@ vim .config/newm/config.py
 : 1670768366:0;start-newm -d
 : 1670768398:0;rm open-wl.sh newm.mp4
 : 1670781685:0;cd .config/nvim
-: 1670781694:0;yel
 : 1670782570:0;cd nv
 : 1670782578:0;rm -rf ftplugin/py.lua
-: 1670782595:0;ngit
 : 1670867381:0;yay -S bitwarden
 : 1670945937:0;bat
 : 1670945964:0;bat .vim
@@ -469,14 +461,11 @@ vim .config/newm/config.py
 : 1671203894:0;cd projects/Neovim
 : 1671203898:0;nv init.lua
 : 1671204008:0;yay -S jackett
-: 1671204029:0;sdr
 : 1671205196:0;touch ~/.config/lazygit/config.yml
 : 1671205203:0;nv ~/.config/lazygit/config.yml
-: 1671205514:0;cd neovim
 : 1671206017:0;ls
 : 1671206025:0;for i in $(seq 1 10); do time $shell -i -c exit\
 
-: 1671207169:0;yl
 : 1671212613:0;gtnv
 : 1671212665:0;rm -rf *arduino*
 : 1671212703:0;rm -rf *Arduino*
@@ -498,7 +487,6 @@ vim .config/newm/config.py
 : 1671297911:0;nv .zshrc
 : 1671297957:0;zcompile ~/.local/share/zap/plugins/fzf-tab-source/fzf-tab-source.plugin.zsh
 : 1671297981:0;cd fzf-tab-source
-: 1671298022:0;cd zsh-autosuggestions
 : 1671298037:0;zcompile --help
 : 1671298052:0;zcompile zsh-autosuggestions.plugin.zsh zsh-autosuggestions.zsh
 : 1671298158:0;cd plugins/fzf-tab-source
@@ -507,13 +495,10 @@ vim .config/newm/config.py
 : 1671298254:0;zap -u
 : 1671298282:0;cd fzf-tab
 : 1671298290:0;zcompile fzf-tab.plugin.zsh
-: 1671298299:0;nv
 : 1671298311:0;nv zap.zsh
 : 1671298442:0;cd .local/share/zap
-: 1671298444:0;cd plugins
 : 1671298449:0;cd zsh-autopair
 : 1671298545:0;rm -rf ~/.local/share/zap/plugins
-: 1671298918:0;cd
 : 1671298920:0;cd .config/zsh
 : 1671298930:0;zcompile aliases.zsh
 : 1671299227:0;lsblk
@@ -522,35 +507,59 @@ vim .config/newm/config.py
 : 1671300190:0;cd EFI
 : 1671300315:0;efibootmgr
 : 1671300375:0;sudo efibootmgr
-: 1671337742:0;ys
 : 1671337797:0;cd wall
 : 1671337847:0;echo $XDG_CURRENT_DESKTOP
 : 1671337871:0;cd ~root
-: 1671338081:0;cz
 : 1671338180:0;cd neo
 : 1671338439:0;cd zsh
 : 1671338503:0;rm -rf git.plugin.zsh
 : 1671338556:0;rm git.plugin.zsh
-: 1671338571:0;cdd zsh
 : 1671338579:0;zcompile .zshrc
-: 1671339024:0;nv README.md
 : 1671339154:0;cd .cache
 : 1671339378:0;cp README.md ~/.config/zsh
-: 1671339380:0;zshc
 : 1671339395:0;cd .local
 : 1671339399:0;cd share/zap/plugins
 : 1671339405:0;cd zsh-autoswitch-virtualenv
 : 1671339411:0;nv .gitignore
-: 1671339458:0;lg
 : 1671339476:0;zcompile zsh-autoswitch-virtualenv.zsh
 : 1671339502:0;cd vim
-: 1671339512:0;cdp
 : 1671339519:0;zcompile zap.zsh
-: 1671339520:0;ll
-: 1671339532:0;c
-: 1671339539:0;time $SHELL -i -c exit
 : 1671339558:0;rm -rf ~/.local/share/zap/zap.zsh.zwc
-: 1671339559:0;e
-: 1671340182:0;nv
 : 1671340682:0;cz
 : 1671340688:0;yl
+: 1671341804:0;cdd zsh
+: 1671351515:0;nv README.md
+: 1671351750:0;zshc
+: 1671351781:0;time $SHELL -i -c exit
+: 1671351806:0;cd plugins
+: 1671351811:0;cd zsh-autosuggestions
+: 1671351918:0;nv ini
+: 1671352514:0;ngit
+: 1671352528:0;cd lua/user/
+: 1671352533:0;mkdir core
+: 1671352756:0;rm -rf core
+: 1671352769:0;cdp
+: 1671352770:0;cdpp
+: 1671352775:0;yel
+: 1671353149:0;nv Downloads/bible.txt
+: 1671353492:0;ys
+: 1671353524:0;c
+: 1671356038:0;sdr
+: 1671356578:0;nv
+: 1671356603:0;nv .
+: 1671356856:0;cd nvim
+: 1671356857:0;cd
+: 1671356861:0;cd nvim-basic-ide
+: 1671356909:0;cd neovim
+: 1671356909:0;ll
+: 1671356911:0;nv LICENSE
+: 1671357009:0;lg
+: 1671357487:0;nvim -v
+: 1671357754:0;lvim
+: 1671358487:0;e
+: 1671360273:0;c
+: 1671367778:0;uneo
+: 1671367825:0;nv
+: 1671371122:0;ngit
+: 1671371123:0;lg
+: 1671371310:0;yl

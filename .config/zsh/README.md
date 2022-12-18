@@ -31,3 +31,22 @@ sudo pacman -S zsh fzf exa zoxide zsh-completions bat chafa exiftool --needed --
 ```bash
 rm -rf $HOME/.local/share/zap $HOME/.config/zsh $HOME/.cache/zsh $HOME/.cache/p10k-*
 ```
+
+---
+
+## Plugins
+
+### Thanks to all the plugin authors for making my life easier and for there awesome work
+
+- [zap](https://github.com/zap-zsh/zap)
+- [vim](https://github.com/zap-zsh/vim)
+- [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+- [zsh-autopair](https://github.com/hlissner/zsh-autopair)
+- [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+- [zsh-history-substring-search](https://github.com/zsh-users/zsh-history-substring-search)
+- [fzf-tab](https://github.com/Aloxaf/fzf-tab)
+- [fzf-tab-source](https://github.com/Freed-Wu/fzf-tab-source)
+- [zsh-autoswitch-virtualvenv](https://github.com/Rishabh672003/zsh-autoswitch-virtualenv)
+- [powerlevel10k](https://github.com/romkatv/powerlevel10k)
+
+---
