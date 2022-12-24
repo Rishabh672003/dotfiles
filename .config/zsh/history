@@ -1,111 +1,3 @@
-: 1670855649:0;    for i in $(seq 1 10); do time $shell -i -c exit; done\
-}\
-
-: 1669518694:0;rm a.lua
-: 1669518694:0;gh repo clone catppuccin/bat
-: 1669518694:0;mkdir -p "$(bat --config-dir)/themes"
-: 1669518694:0;cp *.tmTheme "$(bat --config-dir)/themes"
-: 1669518694:0;bat cache --build
-: 1669518694:0;bat --list-themes
-: 1669518694:0;bat --list-themes | grep "catppuccin"
-: 1669518694:0;bat --list-themes | grep "cat"
-: 1669518694:0;bat --list-themes | grep cat
-: 1669518694:0;cdd
-: 1669518694:0;cd bat
-: 1669518694:0;bat --config-file
-: 1669518694:0;nv config
-: 1669518694:0;bat config
-: 1669518694:0;bat init.lua
-: 1669518694:0;bat .bashrc
-: 1669518694:0;man trash
-: 1669518694:0;man man
-: 1669518694:0;cd .local/share/nvim/site/pack/packer/start/catppuccin/lua/catppuccin/groups/integrations/
-: 1669518694:0;nv which_key.lua
-: 1669518694:0;cd c
-: 1669518694:0;cc a.c
-: 1669518694:0;cd cpro
-: 1669518694:0;nv cpp
-: 1669518694:0;shut
-: 1669518694:0;yd
-: 1669518694:0;yay -S gnome-calculator
-: 1669518694:0;cd .con
-: 1669518694:0;cd lvim
-: 1669518694:0;cd .local/share/lunarvim/lvim/lua/lvim/lsp
-: 1669518694:0;nvim ~/.config/nvim/lua/user/keymaps.lua
-: 1669518694:0;cd .config/lvim
-: 1669518694:0;cd ftplugin
-: 1669518694:0;rm c.lua
-: 1669518694:0;lv a.c
-: 1669518694:0;nv 10.py
-: 1669518694:0;mv lvim lvim.old
-: 1669518694:0;mkdir ~/.config/lvim
-: 1669518694:0;cp ~/.local/share/lunarvim/lvim/utils/installer/config.example.lua ~/.config/lvim/
-: 1669518694:0;cd lv
-: 1669518694:0;rm config.example.lua
-: 1669518694:0;lv config.lua
-: 1669518694:0;spicetify backup
-: 1669518694:0;spicetify restore backup
-: 1669518694:0;spicetify backup restore apply
-: 1669518694:0;rm -v a
-: 1669518694:0;cd /tmp
-: 1669518694:0;mkdir random
-: 1669518694:0;mkdir 1-100
-: 1669518694:0;cd 1-100
-: 1669518694:0;mkdir 1*0
-: 1669518694:0;gcc a.c
-: 1669518694:0;./a.out
-: 1669518694:0;rm s
-: 1669518694:0;touch a.txt
-: 1669518694:0;rm a.txt
-: 1669518694:0;zap update
-: 1669518694:0;systemctl daemon-reload
-: 1669518694:0;nv installed_plugins
-: 1669518694:0;/usr/bin/paru -Pw
-: 1669518694:0;cd plugins/exa
-: 1669518694:0;nv exa.plugin.zsh
-: 1669518694:0;ys exa
-: 1669518694:0;yay -R exa
-: 1669518694:0;exa
-: 1669518694:0;yay -S exa
-: 1669518694:0;compinit -d "$XDG_CACHE_HOME"/zsh/zcompdump-"$ZSH_VERSION"
-: 1669518694:0;nv --startuptime a.lua
-: 1669518694:0;yay -S ticktick
-: 1669518694:0;yay -S zenkit
-: 1669518694:0;zenkit
-: 1669518694:0;yay -R zenkit
-: 1669518694:0;yay todoist
-: 1669518694:0;ys ticktick
-: 1669518694:0;nvim --startuptime a.log
-: 1669518694:0;echo $?
-: 1669518694:0;gcc a.c -o a
-: 1669518694:0;./a
-: 1669518694:0;g++ --help
-: 1669518694:0;man g++
-: 1669518694:0;gcc b.c -o hello
-: 1669518694:0;./hello
-: 1669518694:0;rm hello
-: 1669518694:0;./d
-: 1669518694:0;gcc e.c -o e
-: 1669518694:0;./e
-: 1669518694:0;./switch
-: 1669518694:0;gcc switch.c -o switch2
-: 1669518694:0;./switch2
-: 1669518694:0;rm -rf cpro/.git
-: 1669518694:0;sudo mv * ~/projects/cpro
-: 1669518694:0;rm learning-C
-: 1669518694:0;rm -rf learning-C
-: 1669518694:0;rm switch
-: 1669518694:0;nv test.c
-: 1669518694:0;yay -S arduino
-: 1669518659:0;t
-: 1669518876:0;nv .config/zsh/
-: 1669518891:0;hx ~/.config/zsh/history
-: 1669518914:0;nv ~/.config/zsh/history
-: 1669519552:0;cd .config/rofi
-: 1669519555:0;nv config.rasi
-: 1669519652:0;plug ~/.config/zsh/supercharge.zsh
-: 1669519660:0;plug ~/.config/zsh/.zshrc
-: 1669519716:0;yay -S hybridbar
 : 1669519730:0;yay hybrid
 : 1669525807:0;nvc ~/.config/zsh/history
 : 1669525981:0;rm a.log a.lua
@@ -143,7 +35,6 @@ onefetch -l | while read line; do echo "$line"; onefetch -a $line; done;
 : 1669572294:0;cd lua/user/plugins.lua
 : 1669572426:0;cd projects/nvim-basic-ide
 : 1669572509:0;git config pull.rebase true
-: 1669572516:0;git pull
 : 1669572534:0;rm -rf nvim-basic-ide
 : 1669572547:0;gh repo clone lunarvim/nvim-basic-ide
 : 1669572681:0;cd .config/nvim/lua/user/plugins.lua
@@ -192,7 +83,6 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1669992701:0;rm Arduino
 : 1669992706:0;rm -rf Arduino
 : 1669996953:0;rm .zcompdump.zwc supercharge.zsh.zwc
-: 1669996969:0;zcompile supercharge.zsh
 : 1670001092:0;ac
 : 1670001121:0;yay -R paru
 : 1670002155:0;paccache -rk0
@@ -206,7 +96,6 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670002411:0;tar -xvf transmission-4.0.0-beta.2+rbceb368f1b.tar.xz
 : 1670002417:0;cd transmission-4.0.0-beta.2+rbceb368f1b
 : 1670002467:0;make
-: 1670002472:0;lll
 : 1670002484:0;cmake
 : 1670002488:0;cmake make
 : 1670002501:0;cmake cmake
@@ -242,8 +131,6 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670062219:0;cd projects/cpro
 : 1670063223:0;nv ~/.config/nvim/lua/user/plugins.lua
 : 1670063238:0;nv ~/.config/nvim/init.lua
-: 1670063268:0;sudo make distclean
-: 1670063275:0;sudo make uninstall
 : 1670063318:0;sudo make clean
 : 1670063344:0;nnvim
 : 1670063971:0;nv ~/projects/cpro
@@ -251,7 +138,6 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670084180:0;rm -rf $HOME/.config/nvim
 : 1670084340:0;rm -rf .git README.md LICENSE
 : 1670090230:0;yay wlogout
-: 1670090263:0;cd down
 : 1670090328:0;cd AmitGolden\ dotfiles\ main\ .config-wlogout
 : 1670090349:0;cp -r AmitGolden\ dotfiles\ main\ .config-wlogout ~/.config/wlogout
 : 1670090358:0;cd ~/.config/wlogout
@@ -276,8 +162,6 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670171403:0;mv shigeo-kageyama-rage-mob-psycho-100-4k-3840Ãƒ·2160.jpg ~/.config/hypr/wallpapers
 : 1670171452:0;hyp
 : 1670175317:0;systemctl status auto-cpufreq.service
-: 1670261051:0;dunstctl history | head -n 100
-: 1670261792:0;cd Applications
 : 1670263322:0;sdp
 : 1670263414:0;yay xdph
 : 1670337559:0;cd projects/learning-C
@@ -286,9 +170,6 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670339149:0;cd lear
 : 1670340081:0;cp * ~/projects/cpro
 : 1670340088:0;cp -r * ~/projects/cpro
-: 1670340092:0;cd cpp
-: 1670340136:0;rm a.out
-: 1670340139:0;nv a.c
 : 1670341979:0;nv a.cpp
 : 1670346993:0;rm a a.out
 : 1670349172:0;dos2unix basic.c
@@ -301,7 +182,6 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670389218:0;lsusb
 : 1670389321:0;speedtest
 : 1670389880:0;l
-: 1670390391:0;cd py
 : 1670390399:0;nv equation-calculator.py
 : 1670391724:0;ls -l /dev/ttyACM*
 : 1670391726:0;ls -l /dev/ttyUSB*
@@ -311,11 +191,9 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670397107:0;sudo usermod -a -G dialout rishabh
 : 1670397115:0;sudo arduino-ide
 : 1670403468:0;cf
-: 1670427381:0;cd Downloads
 : 1670427391:0;mkdir chem-tutorial
 : 1670427402:0;nautilus .
 : 1670432592:0;nv cp
-: 1670432737:0;ccc
 : 1670432759:0;cp -r college_C_stuff ~/projects/learning-C
 : 1670432763:0;cd lea
 : 1670433186:0;cd college_C_stuff
@@ -343,12 +221,8 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670606358:0;nap
 : 1670608994:0;cali
 : 1670642393:0;rm a.log
-: 1670642397:0;nv --startuptime a.log
-: 1670642401:0;nv a.log
-: 1670642442:0;cd cp
 : 1670642454:0;rm *.out
 : 1670642460:0;nv card_game.c
-: 1670646635:0;ping 8.8.8.8
 : 1670647250:0;lv a.py
 : 1670647594:0;nv a.py
 : 1670653833:0;rm a.log a.py
@@ -401,16 +275,13 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670686844:0;killall -9 rofi || python projects/empris/empris.py
 : 1670687032:0;killall -9 waybar
 : 1670688036:0;waybar
-: 1670690003:0;pacman -Qq | fzf
 : 1670693041:0;rm .arduino15 .arduinoIDE
-: 1670693574:0;lv
 : 1670694210:0;cd zs
 : 1670694273:0;zcompile .zcompdump
 : 1670695467:0;ls -alt /|tail -1|awk '{print $6, $7, $8}'
 : 1670695512:0;cd pl
 : 1670695528:0;rm -rf zsh-autoswitch-virtualenv
 : 1670695554:0;rm -rf fzf-tab fzf-tab-source
-: 1670695557:0;exec zsh
 : 1670729300:0;curl https://nvim.sh/s
 : 1670740489:0;yay -S newm-git
 : 1670740504:0;yay newm
@@ -432,12 +303,10 @@ cp .local/lib/pythonX.Y/site-packages/newm/default_config.py .config/newm/config
 vim .config/newm/config.py
 : 1670767766:0;touch $HOME/.config/newm/config.py
 : 1670767768:0;nv $HOME/.config/newm/config.py
-: 1670767896:0;cd projects
 : 1670768011:0;cp open-wl ~/.local/bin
 : 1670768023:0;bash open-wl
 : 1670768029:0;bash
 : 1670855649:0;open-wl
-: 1670855649:0;exit
 : 1670768045:0;nv open-wl
 : 1670768060:0;cd /usr
 : 1670768065:0;cd local
@@ -463,27 +332,22 @@ vim .config/newm/config.py
 : 1671204008:0;yay -S jackett
 : 1671205196:0;touch ~/.config/lazygit/config.yml
 : 1671205203:0;nv ~/.config/lazygit/config.yml
-: 1671206017:0;ls
 : 1671206025:0;for i in $(seq 1 10); do time $shell -i -c exit\
 
 : 1671212613:0;gtnv
 : 1671212665:0;rm -rf *arduino*
 : 1671212703:0;rm -rf *Arduino*
-: 1671249815:0;uneo
-: 1671280789:0;we
 : 1671280865:0;cd .config
 : 1671280873:0;mv zsh zsh.bak
 : 1671281539:0;rm -rf .zsh
 : 1671281553:0;rm -rf ~/.local/share/zsh
 : 1671281580:0;rm -rf .local/share/zinit
-: 1671283758:0;nr
 : 1671288569:0;a
 : 1671288572:0;time pfetch
 : 1671295325:0;man zshmodules
 : 1671295416:0;build-fzf-tab-module
 : 1671295564:0;cd cd
 : 1671296154:0;nv vim.plugin.zsh
-: 1671297903:0;cd zsh.bak2
 : 1671297911:0;nv .zshrc
 : 1671297957:0;zcompile ~/.local/share/zap/plugins/fzf-tab-source/fzf-tab-source.plugin.zsh
 : 1671297981:0;cd fzf-tab-source
@@ -511,7 +375,6 @@ vim .config/newm/config.py
 : 1671337847:0;echo $XDG_CURRENT_DESKTOP
 : 1671337871:0;cd ~root
 : 1671338180:0;cd neo
-: 1671338439:0;cd zsh
 : 1671338503:0;rm -rf git.plugin.zsh
 : 1671338556:0;rm git.plugin.zsh
 : 1671338579:0;zcompile .zshrc
@@ -525,53 +388,161 @@ vim .config/newm/config.py
 : 1671339502:0;cd vim
 : 1671339519:0;zcompile zap.zsh
 : 1671339558:0;rm -rf ~/.local/share/zap/zap.zsh.zwc
-: 1671340682:0;cz
-: 1671340688:0;yl
-: 1671341804:0;cdd zsh
 : 1671351515:0;nv README.md
 : 1671351750:0;zshc
-: 1671351781:0;time $SHELL -i -c exit
 : 1671351806:0;cd plugins
 : 1671351811:0;cd zsh-autosuggestions
 : 1671351918:0;nv ini
-: 1671352514:0;ngit
 : 1671352528:0;cd lua/user/
 : 1671352533:0;mkdir core
 : 1671352756:0;rm -rf core
-: 1671352769:0;cdp
 : 1671352770:0;cdpp
-: 1671352775:0;yel
-: 1671353149:0;nv Downloads/bible.txt
-: 1671353492:0;ys
-: 1671353524:0;c
 : 1671356038:0;sdr
-: 1671356578:0;nv
 : 1671356603:0;nv .
 : 1671356856:0;cd nvim
-: 1671356857:0;cd
 : 1671356861:0;cd nvim-basic-ide
-: 1671356909:0;cd neovim
-: 1671356909:0;ll
 : 1671356911:0;nv LICENSE
-: 1671357009:0;lg
 : 1671357487:0;nvim -v
 : 1671357754:0;lvim
-: 1671358487:0;e
-: 1671360273:0;c
-: 1671367778:0;uneo
-: 1671367825:0;nv
 : 1671371122:0;ngit
 : 1671371123:0;lg
-: 1671371310:0;yl
-: 1671374546:0;c
-: 1671374547:0;ll
-: 1671374548:0;c
-: 1671374548:0;ll
-: 1671374549:0;c
-: 1671374620:0;cd
-: 1671374622:0;cd Downloads
-: 1671374623:0;ll
 : 1671374630:0;rm zshrc*
-: 1671374633:0;ll
 : 1671374641:0;nv zshrc
 : 1671375015:0;yl
+: 1671375953:0;rm *.torrent
+: 1671434805:0;cd p
+: 1671434813:0;nv turtle.py
+: 1671434983:0;nv /etc/zsh/zshenv
+: 1671434997:0;vs /etc/zsh/zshenv
+: 1671435121:0;su
+: 1671437426:0;zsh
+: 1671437426:0;exit
+: 1671435848:0;cd xdg-ninja
+: 1671435996:0;git pull
+: 1671436005:0;./xdg-ninja.sh
+: 1671437477:0;cd zsh
+: 1671437479:0;cdd zsh
+: 1671437485:0;zcompile supercharge.zsh
+: 1671445599:0;cd .cache/nvim
+: 1671445606:0;cd packer.nvim
+: 1671445614:0;cd .local/share/nvim
+: 1671445618:0;cd site
+: 1671445621:0;cd pack
+: 1671445629:0;cd packer/start/nvim-treesitter
+: 1671445770:0;cd $HOME/.local/share/nvim/site/pack/packer/start/nvim-treesitter/parser
+: 1671448588:0;nv hosts-maker.sh
+: 1671448813:0;nv hosts
+: 1671448834:0;sudo cp hosts /etc/hosts
+: 1671448843:0;nv /etc/hosts
+: 1671448902:0;nv /etc/environment
+: 1671452523:0;yay swaylock
+: 1671452729:0;swaylock
+: 1671453782:0;we
+: 1671455513:0;cd zsh.bak2
+: 1671455521:0;mv zsh.bak2 projects
+: 1671462087:0;libreoffice .\~lock.Innovative\ Examination\ Topics-\ PPS\ \(1\).docx\#
+: 1671462109:0;libreoffice Innovative\ Examination\ Topics-\ PPS\ \(1\).docx
+: 1671462164:0;evince Society\ Outreach\ Drama.pdf
+: 1671463942:0;nv .env
+: 1671464142:0;cd .config/alacritty
+: 1671464146:0;nv alacritty.yml
+: 1671464504:0;fc-list
+: 1671464516:0;fc-list | grep comic
+: 1671464522:0;fc-list | grep Comic
+: 1671469972:0;lv
+: 1671470345:0;ccc
+: 1671471036:0;nv 10.py
+: 1671471060:0;nv 24.py
+: 1671471108:0;nv --startuptime a.log
+: 1671471111:0;nv a.log
+: 1671471152:0;cd py
+: 1671471163:0;nv 25.py
+: 1671549693:0;3
+: 1671549695:0;yay jackett
+: 1671553091:0;cd other
+: 1671553101:0;cd other-configs
+: 1671553104:0;cd mirrors-and-hosts
+: 1671553106:0;./hosts-maker.sh
+: 1671557882:0;nv ~/.config/hypr/hyprland.conf
+: 1671631048:0;ping 8.8.8.8
+: 1671632840:0;yel
+: 1671633697:0;cd cpp
+: 1671633704:0;cdd cp
+: 1671633907:0;cd .local/share/nvim/site/pack/packer/start
+: 1671633912:0;rm -tf tokyonight.nvim
+: 1671633917:0;rm --rf tokyonight.nvim
+: 1671633921:0;rm rf tokyonight.nvim
+: 1671633940:0;rm -rf toggleterm.nvim
+: 1671636187:0;ti
+: 1671636191:0;time $SHELL -i -c exit
+: 1671636212:0;exec zsh
+: 1671636227:0;w
+: 1671640666:0;nv a.c
+: 1671643903:0;nv --startuptime b.log
+: 1671643907:0;nv b.log
+: 1671644242:0;nv --startuptime c.log
+: 1671644247:0;nv c.log
+: 1671644963:0;cd Applications
+: 1671644968:0;./nvim-0.8.appimage
+: 1671644986:0;./nvim.appimage
+: 1671645084:0;cd down
+: 1671645105:0;mv nvim.appimage ~/Applications/nvim-0.8.1.appimage
+: 1671645108:0;cd app
+: 1671645117:0;chmod +x nvim-0.8.1.appimage
+: 1671645122:0;./nvim-0.8.1.appimage
+: 1671645238:0;cd projects/random-repos/neovim
+: 1671645240:0;gh pr checkout 21465
+: 1671645263:0;sudo make distclean
+: 1671645272:0;sudo make uninstall
+: 1671645297:0;cz
+: 1671645315:0;cd neovim
+: 1671645628:0;git checkout master
+: 1671645633:0;sudo make CMAKE_BUILD_TYPE=RelWithDebInfo
+: 1671645690:0;sudo make install
+: 1671725852:0;nv Downloads/bible.txt
+: 1671729654:0;ls
+: 1671731305:0;dunstctl history | head -n 100
+: 1671799417:0;rm *.log
+: 1671799422:0;rm a.out
+: 1671799426:0;rm a.c
+: 1671803112:0;nr
+: 1671806234:0;uneo
+: 1671807117:0;ys
+: 1671807188:0;pacman -Qi alacritty-git
+: 1671807199:0;pacman -Qq | fzf
+: 1671807336:0;cd Downloads
+: 1671807340:0;nv bible.txt
+: 1671807365:0;cd .config/wezterm
+: 1671807370:0;nv wezterm.lua
+: 1671807405:0;lll
+: 1671812456:0;cd projects
+: 1671812457:0;gh repo clone Jacekun/AniPy
+: 1671812465:0;cd AniPy
+: 1671812496:0;pip3 install -r requirements.txt
+: 1671812581:0;nv anilistConfig.json
+: 1671813080:0;mv animelist_1671813026_-_10206269.xml AniPy/output
+: 1671813086:0;cd AniPy/output
+: 1671813094:0;nv animelist_1671813026_-_10206269.xml
+: 1671813195:0;mv animelist_1671813026_-_10206269.xml ~/projects
+: 1671813199:0;rm -rf *
+: 1671813248:0;cd output
+: 1671813292:0;nv anime_2022-12-23.xml
+: 1671813988:0;cdp
+: 1671813991:0;python main.py
+: 1671816925:0;nv main.py
+: 1671816962:0;c
+: 1671817637:0;nv
+: 1671817642:0;cd
+: 1671817644:0;cd cp
+: 1671817654:0;nv line.c
+: 1671819423:0;gcc -o array array.c
+: 1671819434:0;ll
+: 1671819442:0;./array
+: 1671819460:0;e
+: 1671819472:0;nv array.c
+: 1671853307:0;cd cp
+: 1671853308:0;ll
+: 1671853318:0;nv string.c
+: 1671856266:0;c
+: 1671856267:0;ys
+: 1671857471:0;yl

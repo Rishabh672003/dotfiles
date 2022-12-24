@@ -173,6 +173,14 @@ return packer.startup(function(use)
 		"phaazon/hop.nvim",
 		branch = "v2", -- optional but strongly recommended
 	})
+	-- use({
+	-- 	"jinh0/eyeliner.nvim",
+	-- 	config = function()
+	-- 		require("eyeliner").setup({
+	-- 			highlight_on_key = true,
+	-- 		})
+	-- 	end,
+	-- })
 
 	use("folke/zen-mode.nvim")
 	use("ThePrimeagen/vim-be-good")

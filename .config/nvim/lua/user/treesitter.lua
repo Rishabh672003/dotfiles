@@ -8,6 +8,12 @@ if not status_ok1 then
 	return
 end
 
+local _, tsinstall = pcall(require, "nvim-treesitter.install")
+if not _ then
+	return
+end
+tsinstall.prefer_git = true
+
 configs.setup({
 	ensure_installed = { "lua", "markdown", "markdown_inline", "bash", "python" }, -- put the language you want in this array
 	-- ensure_installed = "all",

@@ -1,8 +1,9 @@
 local core_modules = {
 	"user.impatient",
+	-- "user.lazy",
 	"user.plugins",
 	"user.colorschemes.catppuccin",
-	"user.lualine-themes.lualine11",
+	"user.lualine-themes.lualine1",
 	"user.startup-screens.startup-screen3",
 	"user.barbeque.barbeque2",
 	"user.options",

@@ -1,3 +1,6 @@
+export EDITOR="nvim"
+export BROWSER="firefox"
+export VIDEO="mpv"
 export XDG_CURRENT_DESKTOP="hyprland"
 export PATH=$HOME/bin:/usr/local/bin:$HOME/.local/bin:/usr/bin/vendor_perl:$PATH
 export ZDOTDIR="$HOME"/.config/zsh
