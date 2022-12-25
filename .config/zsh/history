@@ -29,12 +29,10 @@
 : 1669562766:0;mv ../.gitignore .
 : 1669571021:0;Neovim
 : 1669571135:0;cd ..
-: 1669571177:0;cd Neovim
 : 1669571179:0;\
 onefetch -l | while read line; do echo "$line"; onefetch -a $line; done;
 : 1669572294:0;cd lua/user/plugins.lua
 : 1669572426:0;cd projects/nvim-basic-ide
-: 1669572509:0;git config pull.rebase true
 : 1669572534:0;rm -rf nvim-basic-ide
 : 1669572547:0;gh repo clone lunarvim/nvim-basic-ide
 : 1669572681:0;cd .config/nvim/lua/user/plugins.lua
@@ -67,7 +65,6 @@ onefetch -l | while read line; do echo "$line"; onefetch -a $line; done;
 : 1669824328:0;mkdir -p "$HOME/.zsh"\
 git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1669824496:0;nvim ~/.config/nvim/init.lua
-: 1669829858:0;awk '!seen[$0]++' history > history
 : 1669830507:0;nv history
 : 1669830594:0;nv b
 : 1669830699:0;nv .zshenv
@@ -125,17 +122,12 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670049628:0;kitty --hold sh -c nvim
 : 1670049939:0;bash kitty.sh
 : 1670049950:0;bash kitty.sh ~/.config/zsh/install.sh
-: 1670050831:0;n
-: 1670050837:0;f
 : 1670053026:0;cd /mnt/windows/
 : 1670062219:0;cd projects/cpro
 : 1670063223:0;nv ~/.config/nvim/lua/user/plugins.lua
 : 1670063238:0;nv ~/.config/nvim/init.lua
 : 1670063318:0;sudo make clean
-: 1670063344:0;nnvim
 : 1670063971:0;nv ~/projects/cpro
-: 1670083900:0;rm -rf $HOME/.config/nvim $HOME/.local/share/nvim $HOME/.cache/nvim
-: 1670084180:0;rm -rf $HOME/.config/nvim
 : 1670084340:0;rm -rf .git README.md LICENSE
 : 1670090230:0;yay wlogout
 : 1670090328:0;cd AmitGolden\ dotfiles\ main\ .config-wlogout
@@ -170,7 +162,6 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670339149:0;cd lear
 : 1670340081:0;cp * ~/projects/cpro
 : 1670340088:0;cp -r * ~/projects/cpro
-: 1670341979:0;nv a.cpp
 : 1670346993:0;rm a a.out
 : 1670349172:0;dos2unix basic.c
 : 1670349354:0;ccd
@@ -178,7 +169,6 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670349372:0;dos2unix *.c
 : 1670349377:0;nv basic.c
 : 1670381040:0;cfc
-: 1670389212:0;cn
 : 1670389218:0;lsusb
 : 1670389321:0;speedtest
 : 1670389880:0;l
@@ -247,7 +237,6 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670682245:0;playerctl --list-all
 : 1670682361:0;playerctl --all-players
 : 1670682587:0;cd .config/hypr/scripts
-: 1670682595:0;cd pro
 : 1670682597:0;gh repo clone madprops/empris
 : 1670682602:0;cd empris
 : 1670682612:0;python empris.py
@@ -266,7 +255,6 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670686015:0;cd zsh-configs
 : 1670686033:0;rm git.plugin.zsh functions.zsh .zlogin
 : 1670686754:0;cd .lo
-: 1670686756:0;cd bin
 : 1670686763:0;mv empris empris.py
 : 1670686768:0;./empris.py
 : 1670686804:0;python projects/empris
@@ -285,13 +273,9 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670729300:0;curl https://nvim.sh/s
 : 1670740489:0;yay -S newm-git
 : 1670740504:0;yay newm
-: 1670743472:0;nb
 : 1670743898:0;git clone https://github.com/LunarVim/nvim-basic-ide.git ~/.config/nvim
 : 1670765369:0;nv a.lua
 : 1670765384:0;rm -rf $HOME/.config/nvim $HOME/.local/share/nvim
-: 1670765390:0;git clone https://github.com/Rishabh672003/Neovim ~/.config/nvim && nvim
-: 1670765436:0;nvim
-: 1670765616:0;rm -rf .git
 : 1670766071:0;wf-recorder -g "$(slurp)" -f newm.mp4
 : 1670766153:0;wlogout
 : 1670766286:0;firefox
@@ -314,7 +298,6 @@ vim .config/newm/config.py
 : 1670768106:0;rm -rf ~/.local/bin/open-wl
 : 1670768366:0;start-newm -d
 : 1670768398:0;rm open-wl.sh newm.mp4
-: 1670781685:0;cd .config/nvim
 : 1670782570:0;cd nv
 : 1670782578:0;rm -rf ftplugin/py.lua
 : 1670867381:0;yay -S bitwarden
@@ -328,7 +311,6 @@ vim .config/newm/config.py
 : 1671203255:0;yay -R jackett
 : 1671203258:0;yay -R openssl-1.0
 : 1671203894:0;cd projects/Neovim
-: 1671203898:0;nv init.lua
 : 1671204008:0;yay -S jackett
 : 1671205196:0;touch ~/.config/lazygit/config.yml
 : 1671205203:0;nv ~/.config/lazygit/config.yml
@@ -359,8 +341,6 @@ vim .config/newm/config.py
 : 1671298254:0;zap -u
 : 1671298282:0;cd fzf-tab
 : 1671298290:0;zcompile fzf-tab.plugin.zsh
-: 1671298311:0;nv zap.zsh
-: 1671298442:0;cd .local/share/zap
 : 1671298449:0;cd zsh-autopair
 : 1671298545:0;rm -rf ~/.local/share/zap/plugins
 : 1671298920:0;cd .config/zsh
@@ -393,22 +373,14 @@ vim .config/newm/config.py
 : 1671351806:0;cd plugins
 : 1671351811:0;cd zsh-autosuggestions
 : 1671351918:0;nv ini
-: 1671352528:0;cd lua/user/
 : 1671352533:0;mkdir core
 : 1671352756:0;rm -rf core
 : 1671352770:0;cdpp
-: 1671356038:0;sdr
-: 1671356603:0;nv .
-: 1671356856:0;cd nvim
 : 1671356861:0;cd nvim-basic-ide
 : 1671356911:0;nv LICENSE
-: 1671357487:0;nvim -v
 : 1671357754:0;lvim
-: 1671371122:0;ngit
-: 1671371123:0;lg
 : 1671374630:0;rm zshrc*
 : 1671374641:0;nv zshrc
-: 1671375015:0;yl
 : 1671375953:0;rm *.torrent
 : 1671434805:0;cd p
 : 1671434813:0;nv turtle.py
@@ -416,16 +388,13 @@ vim .config/newm/config.py
 : 1671434997:0;vs /etc/zsh/zshenv
 : 1671435121:0;su
 : 1671437426:0;zsh
-: 1671437426:0;exit
 : 1671435848:0;cd xdg-ninja
-: 1671435996:0;git pull
 : 1671436005:0;./xdg-ninja.sh
 : 1671437477:0;cd zsh
 : 1671437479:0;cdd zsh
 : 1671437485:0;zcompile supercharge.zsh
 : 1671445599:0;cd .cache/nvim
 : 1671445606:0;cd packer.nvim
-: 1671445614:0;cd .local/share/nvim
 : 1671445618:0;cd site
 : 1671445621:0;cd pack
 : 1671445629:0;cd packer/start/nvim-treesitter
@@ -437,7 +406,6 @@ vim .config/newm/config.py
 : 1671448902:0;nv /etc/environment
 : 1671452523:0;yay swaylock
 : 1671452729:0;swaylock
-: 1671453782:0;we
 : 1671455513:0;cd zsh.bak2
 : 1671455521:0;mv zsh.bak2 projects
 : 1671462087:0;libreoffice .\~lock.Innovative\ Examination\ Topics-\ PPS\ \(1\).docx\#
@@ -453,9 +421,6 @@ vim .config/newm/config.py
 : 1671470345:0;ccc
 : 1671471036:0;nv 10.py
 : 1671471060:0;nv 24.py
-: 1671471108:0;nv --startuptime a.log
-: 1671471111:0;nv a.log
-: 1671471152:0;cd py
 : 1671471163:0;nv 25.py
 : 1671549693:0;3
 : 1671549695:0;yay jackett
@@ -465,7 +430,6 @@ vim .config/newm/config.py
 : 1671553106:0;./hosts-maker.sh
 : 1671557882:0;nv ~/.config/hypr/hyprland.conf
 : 1671631048:0;ping 8.8.8.8
-: 1671632840:0;yel
 : 1671633697:0;cd cpp
 : 1671633704:0;cdd cp
 : 1671633907:0;cd .local/share/nvim/site/pack/packer/start
@@ -475,11 +439,8 @@ vim .config/newm/config.py
 : 1671633940:0;rm -rf toggleterm.nvim
 : 1671636187:0;ti
 : 1671636191:0;time $SHELL -i -c exit
-: 1671636212:0;exec zsh
 : 1671636227:0;w
 : 1671640666:0;nv a.c
-: 1671643903:0;nv --startuptime b.log
-: 1671643907:0;nv b.log
 : 1671644242:0;nv --startuptime c.log
 : 1671644247:0;nv c.log
 : 1671644963:0;cd Applications
@@ -492,57 +453,252 @@ vim .config/newm/config.py
 : 1671645122:0;./nvim-0.8.1.appimage
 : 1671645238:0;cd projects/random-repos/neovim
 : 1671645240:0;gh pr checkout 21465
-: 1671645263:0;sudo make distclean
-: 1671645272:0;sudo make uninstall
-: 1671645297:0;cz
-: 1671645315:0;cd neovim
 : 1671645628:0;git checkout master
 : 1671645633:0;sudo make CMAKE_BUILD_TYPE=RelWithDebInfo
 : 1671645690:0;sudo make install
 : 1671725852:0;nv Downloads/bible.txt
 : 1671729654:0;ls
-: 1671731305:0;dunstctl history | head -n 100
 : 1671799417:0;rm *.log
 : 1671799422:0;rm a.out
 : 1671799426:0;rm a.c
 : 1671803112:0;nr
-: 1671806234:0;uneo
-: 1671807117:0;ys
 : 1671807188:0;pacman -Qi alacritty-git
 : 1671807199:0;pacman -Qq | fzf
 : 1671807336:0;cd Downloads
 : 1671807340:0;nv bible.txt
 : 1671807365:0;cd .config/wezterm
 : 1671807370:0;nv wezterm.lua
-: 1671807405:0;lll
-: 1671812456:0;cd projects
 : 1671812457:0;gh repo clone Jacekun/AniPy
-: 1671812465:0;cd AniPy
 : 1671812496:0;pip3 install -r requirements.txt
 : 1671812581:0;nv anilistConfig.json
 : 1671813080:0;mv animelist_1671813026_-_10206269.xml AniPy/output
 : 1671813086:0;cd AniPy/output
 : 1671813094:0;nv animelist_1671813026_-_10206269.xml
 : 1671813195:0;mv animelist_1671813026_-_10206269.xml ~/projects
-: 1671813199:0;rm -rf *
-: 1671813248:0;cd output
-: 1671813292:0;nv anime_2022-12-23.xml
-: 1671813988:0;cdp
 : 1671813991:0;python main.py
 : 1671816925:0;nv main.py
-: 1671816962:0;c
-: 1671817637:0;nv
-: 1671817642:0;cd
-: 1671817644:0;cd cp
 : 1671817654:0;nv line.c
 : 1671819423:0;gcc -o array array.c
-: 1671819434:0;ll
 : 1671819442:0;./array
-: 1671819460:0;e
-: 1671819472:0;nv array.c
-: 1671853307:0;cd cp
-: 1671853308:0;ll
 : 1671853318:0;nv string.c
-: 1671856266:0;c
-: 1671856267:0;ys
 : 1671857471:0;yl
+: 1671862859:0;cd downloads
+: 1671863769:0;cd Videos
+: 1671863778:0;rm -rf *.mp4
+: 1671863786:0;rm -rf *.webm
+: 1671863792:0;ncdu
+: 1671863934:0;baobab
+: 1671870390:0;lll
+: 1671871808:0;man strstr
+: 1671871832:0;man stdio
+: 1671871853:0;nv a.cpp
+: 1671871863:0;man std::iostream
+: 1671871921:0;nv loop.c
+: 1671879353:0;we
+: 1671904890:0;mkdir jsts
+: 1671904896:0;cd jspro
+: 1671905060:0;cd pro
+: 1671905062:0;cd AniPy
+: 1671905098:0;dunstctl is-paused
+: 1671905105:0;dunstctl history | head -n 100
+: 1671905123:0;dunst
+: 1671905161:0;cd projects/AniPy
+: 1671905166:0;cd output
+: 1671905182:0;nv anime_2022-12-23.xml
+: 1671905731:0;cp manga_2022-12-23.xml ~/projects
+: 1671905757:0;vscodium manga_2022-12-23.xml
+: 1671905874:0;nv manga_2022-12-23.xml
+: 1671939643:0;ys
+: 1671939987:0;cd js
+: 1671940110:0;cd jsp
+: 1671940113:0;nv a.js
+: 1671942631:0;cp init.lua init3.lua
+: 1671942638:0;cp init.lua init2.lua
+: 1671942649:0;rm init.lua
+: 1671942983:0;nvim -u init2.lua
+: 1671943670:0;rm -rf .local/share/nvim/tree*
+: 1671944455:0;cd .local/share/nvim
+: 1671944463:0;rm -rf *
+: 1671944668:0;rm init2.lua
+: 1671944680:0;rm -rf plugins.lua
+: 1671944778:0;nv --startuptime a.log
+: 1671944782:0;nv a.log
+: 1671944822:0;nvim -u init2.lua --startuptime a.log
+: 1671944906:0;mv init.lua init3.lua
+: 1671944914:0;mv init2.lua init.lua
+: 1671945068:0;cd projects
+: 1671945077:0;nv --startuptime b.log
+: 1671945082:0;nv b.log
+: 1671945142:0;mv init.lua init2.lua
+: 1671945153:0;mv init3.lua init.lua
+: 1671945665:0;exit
+: 1671945703:0;rm -rf $HOME/.config/nvim
+: 1671945734:0;nv .
+: 1671946023:0;cdd nvim
+: 1671946034:0;rm -rf nvim
+: 1671946043:0;git clone https://github.com/Rishabh672003/Neovim ~/.config/nvim -b lazy && nvim
+: 1671946132:0;git checkout -b packer
+: 1671946159:0;git checkout -b main
+: 1671947582:0;git clone https://github.com/Rishabh672003/Neovim ~/.config/nvim && nvim
+: 1671947641:0;nb
+: 1671947870:0;rm -rf .local/share/nvim
+: 1671948004:0;sdr
+: 1671948123:0;nv lua/user/lazy.lua
+: 1671948192:0;rm -rf Neovim
+: 1671948194:0;git clone https://github.com/Rishabh672003/Neovim
+: 1671948315:0;git push
+: 1671949378:0;awk '!seen[$0]++' history > history
+: 1671949748:0;nv 41.py
+: 1671949830:0;cd ftplugin
+: 1671949835:0;nv c.lua
+: 1671951225:0;cd py
+: 1671951231:0;nv 40.py
+: 1671951596:0;cd Neovim
+: 1671951622:0;git config pull.rebase true
+: 1671951625:0;git pull
+: 1671951675:0;rm -rf .git
+: 1671951690:0;cd .config/nvim
+: 1671951704:0;ngit
+: 1671953679:0;cn
+: 1671953691:0;nv .con
+: 1671953707:0;nv ~/.config/neofetch/config.conf
+: 1671953796:0;f
+: 1671953845:0;nv .config/fastfetch/config.conf
+: 1671954454:0;n
+: 1671959772:0;cd .con
+: 1671959777:0;cd hypr/scripts/lock.sh
+: 1671959779:0;cd hypr/scripts/
+: 1671959782:0;nv lock.sh
+: 1671960353:0;cd .local/share/zap
+: 1671960356:0;nv zap.zsh
+: 1671960530:0;cd .config/waybar
+: 1671960536:0;cd .config/hypr
+: 1671960551:0;./hyprpicker.sh
+: 1671960561:0;./sleep.sh
+: 1671960716:0;cd caffeine.sh
+: 1671960720:0;nv caffeine.sh
+: 1671960803:0;kill -9 "$(pgrep swayidle | tail -1)"
+: 1671960851:0;nv sleep.sh
+: 1671962588:0;cd waybar
+: 1671962591:0;cd scripts
+: 1671962599:0;nv config.jsonc
+: 1671962687:0;pgrep -x sleep.sh
+: 1671962729:0;pgrep sleep
+: 1671963112:0;cd .config/nvim/lua/user/lsp/
+: 1671963230:0;mv ~/.config/nvim/lua/user/lsp/settings/clangd.lua
+: 1671963237:0;mv ~/.config/nvim/lua/user/lsp/settings/clangd.lua ~/projects
+: 1671963355:0;e\
+
+: 1671963359:0;cd nvim
+: 1671963366:0;cd lsp
+: 1671963370:0;cd settings
+: 1671965079:0;q!
+: 1671965127:0;nv ~/.config/nvim/lua/user/lsp/clangd.lua
+: 1671965187:0;nv ~/.config/nvim/lua/user/lsp/init.lua
+: 1671965205:0;yel
+: 1671965244:0;rm -rf $HOME/.config/nvim $HOME/.local/share/nvim $HOME/.cache/nvim
+: 1671965577:0;yay -S bob-bin
+: 1671965667:0;cd rand
+: 1671965671:0;cd neovim
+: 1671965682:0;sudo make uninstall
+: 1671965688:0;sudo make distclean
+: 1671965736:0;sudo cmake uninstall
+: 1671965811:0;bob --help
+: 1671965833:0;bob install nightly
+: 1671965906:0;bob list
+: 1671966012:0;cd .local/share/bob
+: 1671966017:0;cd nightly
+: 1671966021:0;nv bob.json
+: 1671966024:0;vim bob.json
+: 1671966033:0;cd nvim-linux64
+: 1671966037:0;cd bin
+: 1671966040:0;./nvim
+: 1671966055:0;uneo
+: 1671966108:0;sudo cmake --build build/ --target uninstall
+: 1671966117:0;sudo rm /usr/local/bin/nvim\
+sudo rm -r /usr/local/share/nvim/
+: 1671966136:0;nightly
+: 1671966145:0;cz
+: 1671966154:0;vim ~/.config/zsh
+: 1671966207:0;exec zsh
+: 1671966229:0;nnvim
+: 1671966236:0;git clone https://github.com/Rishabh672003/Neovim ~/.config/nvim -b packer && nvim
+: 1671966293:0;nvim
+: 1671966492:0;git checkou lazy
+: 1671966496:0;git checkout lazy
+: 1671966507:0;git checkout 09c0516
+: 1671966530:0;cd plugin
+: 1671966531:0;cdp
+: 1671966537:0;git checkout main
+: 1671966541:0;cd lua/user/
+: 1671966544:0;nv lazy.lua
+: 1671966786:0;reflector --hwlp
+: 1671966789:0;reflector --help
+: 1671968286:0;bob install 0.8.1
+: 1671968300:0;bob use 0.8.1
+: 1671968305:0;nvim -v
+: 1671968308:0;bob ls
+: 1671968314:0;bob use nightly
+: 1671968331:0;c
+: 1671968335:0;cd .config/nvim/
+: 1671968351:0;git checkout -b lazy
+: 1671968357:0;nv init.lua
+: 1671968442:0;rm -rf $HOME/.local/share/nvim $HOME/.cache/nvim
+: 1671968566:0;rm -rf plugin
+: 1671968573:0;rm -rf lua/user/plugins.lua
+: 1671968577:0;lg
+: 1671968623:0;cd lua/user/lsp
+: 1671968623:0;ll
+: 1671968662:0;cd
+: 1671968663:0;cd cp
+: 1671968714:0;nv clangd.lua
+: 1671968858:0;nv
+: 1671968876:0;nv tracks.c
+: 1671968879:0;nv array.c
+: 1671968883:0;e
+: 1671968903:0;lg
+: 1671968926:0;cdp
+: 1671968933:0;git checkout main
+: 1671968940:0;rm -rf $HOME/.local/share/nvim $HOME/.cache/nvim
+: 1671968941:0;nv
+: 1671969035:0;cd cp
+: 1671969036:0;ll
+: 1671969038:0;nv tracks.c
+: 1671969091:0;nv
+: 1671969612:0;nmcli device wifi show-password
+: 1671969670:0;nmcli device wifi list
+: 1671970082:0;nv
+: 1671970084:0;c
+: 1671970086:0;n
+: 1671970087:0;nv
+: 1671970117:0;c
+: 1671970119:0;cd cp
+: 1671970123:0;nv a.c
+: 1671976468:0;nv
+: 1671977101:0;dunstctl history | head -n 100
+: 1671977310:0;cd
+: 1671977312:0;cd .config/nvim/
+: 1671977313:0;ll
+: 1671977314:0;cd lua
+: 1671977315:0;ll
+: 1671977323:0;nv plugins.lua
+: 1671977405:0;lg
+: 1671977428:0;git checkout lazy
+: 1671977429:0;lg
+: 1671977438:0;cd user
+: 1671977438:0;ll
+: 1671977440:0;cdp
+: 1671977442:0;nv plugins.lua
+: 1671977466:0;rm -rf $HOME/.local/share/nvim $HOME/.cache/nvim
+: 1671977468:0;nv
+: 1671977649:0;ll
+: 1671977653:0;nv plugins.lua
+: 1671977658:0;nv
+: 1671977695:0;ll
+: 1671977697:0;cd nvim
+: 1671977698:0;ll
+: 1671977702:0;cd lua/user/lsp
+: 1671977703:0;ll
+: 1671977706:0;rm handlers.lua
+: 1671977709:0;nv
+: 1671977725:0;yl

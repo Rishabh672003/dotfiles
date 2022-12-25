@@ -32,7 +32,7 @@ function send_notification {
   iconMuted="audio-volume-muted"
   nid=$(get_notification_id)
   if is_mute ; then
-    notify-send -i $iconMuted -p -r $nid -u normal "Muted" > $NotificationID_File
+    notify-send -i $iconMuted -p -r "$nid" -u normal "Muted" > $NotificationID_File
   else
     volume=$(get_volume)
     # Make the bar with the special character ─ (it's not dash -)
@@ -40,7 +40,7 @@ function send_notification {
     bar=$(seq --separator="─" 0 "$(((volume - 1) / 4))" | sed 's/[0-9]//g')
     space=$(seq --separator=" " 0 "$(((100 - volume) / 4))" | sed 's/[0-9]//g')
     # Send the notification
-    notify-send -i $iconSound -p -r $nid -u normal "|$bar$space| $volume%" > $NotificationID_File
+    notify-send -i $iconSound -p -r "$nid" -u normal "|$bar$space| $volume%" > $NotificationID_File
   fi
 }
 
