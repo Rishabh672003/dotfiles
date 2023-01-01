@@ -78,9 +78,7 @@ alias zshc='cp ~/.config/zsh/* ~/projects/zsh-configs/ ; \
 alias pgit='cp ~/python-study/* ~/projects/python-studies/ ; cd ~/projects/python-studies/'
 alias sdr='sudo docker run -it archlinux:base-devel'
 alias sdp='sudo docker system prune -a'
-alias uneo='sudo true && cd /home/rishabh/projects/random-repos/neovim/ &&\
-    git pull && sudo make CMAKE_BUILD_TYPE=RelWithDebInfo &&\
-    sudo make install && cd /home/rishabh/'
+alias uneo='bob install nightly'
 alias ngt='git clone https://github.com/rishabh672003/neovim ~/.config/nvim'
 alias hyp='cp -r ~/.config/hypr ~/projects/hyprland-configs/ \
     cp -r ~/.config/waybar ~/projects/hyprland-configs/ \
