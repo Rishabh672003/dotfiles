@@ -1,6 +1,7 @@
 font:
   normal:
     family: JetBrainsMono Nerd Font
+    # family: Comic Code Ligatures
     style: Regular
   bold:
     family: JetBrainsMono Nerd Font
@@ -15,13 +16,11 @@ font:
 
 window:
   decorations: none
-  opacity: 0.4
+  opacity: 0.5
   dynamic_padding: true
 
 shell:
   program: /bin/zsh
-  args:
-    - --login
 
 draw_bold_text_with_bright_colors: true
 

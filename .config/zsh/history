@@ -126,7 +126,6 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670063238:0;nv ~/.config/nvim/init.lua
 : 1670063318:0;sudo make clean
 : 1670063971:0;nv ~/projects/cpro
-: 1670084340:0;rm -rf .git README.md LICENSE
 : 1670090230:0;yay wlogout
 : 1670090328:0;cd AmitGolden\ dotfiles\ main\ .config-wlogout
 : 1670090349:0;cp -r AmitGolden\ dotfiles\ main\ .config-wlogout ~/.config/wlogout
@@ -385,7 +384,6 @@ vim .config/newm/config.py
 : 1671462109:0;libreoffice Innovative\ Examination\ Topics-\ PPS\ \(1\).docx
 : 1671462164:0;evince Society\ Outreach\ Drama.pdf
 : 1671463942:0;nv .env
-: 1671464142:0;cd .config/alacritty
 : 1671464504:0;fc-list
 : 1671464516:0;fc-list | grep comic
 : 1671464522:0;fc-list | grep Comic
@@ -441,7 +439,6 @@ vim .config/newm/config.py
 : 1671819442:0;./array
 : 1671853318:0;nv string.c
 : 1671862859:0;cd downloads
-: 1671863769:0;cd Videos
 : 1671863778:0;rm -rf *.mp4
 : 1671863786:0;rm -rf *.webm
 : 1671863792:0;ncdu
@@ -476,10 +473,8 @@ vim .config/newm/config.py
 : 1671945703:0;rm -rf $HOME/.config/nvim
 : 1671946023:0;cdd nvim
 : 1671946034:0;rm -rf nvim
-: 1671947582:0;git clone https://github.com/Rishabh672003/Neovim ~/.config/nvim && nvim
 : 1671947641:0;nb
 : 1671947870:0;rm -rf .local/share/nvim
-: 1671948192:0;rm -rf Neovim
 : 1671948194:0;git clone https://github.com/Rishabh672003/Neovim
 : 1671948315:0;git push
 : 1671949378:0;awk '!seen[$0]++' history > history
@@ -487,7 +482,6 @@ vim .config/newm/config.py
 : 1671951596:0;cd Neovim
 : 1671951622:0;git config pull.rebase true
 : 1671951690:0;cd .config/nvim
-: 1671951704:0;ngit
 : 1671953707:0;nv ~/.config/neofetch/config.conf
 : 1671953796:0;f
 : 1671953845:0;nv .config/fastfetch/config.conf
@@ -586,7 +580,6 @@ sudo rm -r /usr/local/share/nvim/
 : 1672067460:0;nv alpha.lua
 : 1672067540:0;cp -r nvim ~/.config
 : 1672067964:0;rm plugin/packer_compiled.lua
-: 1672069046:0;rm -rf $HOME/.config/nvim $HOME/.local/share/nvim $HOME/.cache/nvim
 : 1672069054:0;git clone https://github.com/Rishabh672003/Neovim ~/.config/nvim -b lazy && nvim
 : 1672070707:0;git checkout la
 : 1672071215:0;bob use 0.8.1
@@ -603,10 +596,8 @@ sudo rm -r /usr/local/share/nvim/
 : 1672078027:0;rm -rf .git
 : 1672078035:0;rm -rf ftplugin plugin
 : 1672078047:0;cd lua/user
-: 1672079606:0;ping 8.8.8.8
 : 1672079710:0;cd minimal
 : 1672080175:0;rm -rf *
-: 1672080180:0;nv minimal.lua
 : 1672080191:0;nvim --clean -u minimal.lua
 : 1672152010:0;cd .config/nvim/lua/user
 : 1672152013:0;nv whichkey.lua
@@ -619,7 +610,6 @@ docker rmi $(docker images --quiet --filter "dangling=true")\
 : 1672157235:0;sudo docker volume rm $(docker volume ls -f dangling=true -q) &&\
 sudo docker rmi $(docker images --quiet --filter "dangling=true")
 : 1672157243:0;sdp
-: 1672157278:0;sdr
 : 1672161099:0;lg p
 : 1672161368:0;cp lua/user/lazy.lua ~/projects
 : 1672161388:0;cp ~/projects/lazy.lua lua/user
@@ -660,16 +650,13 @@ sudo docker rmi $(docker images --quiet --filter "dangling=true")
 : 1672337298:0;cp main.c ~/projects/learning-C
 : 1672337309:0;cp main.c ~/projects/cpro/health.c
 : 1672339135:0;n
-: 1672339137:0;cn
 : 1672407471:0;gh repo clone Rishabh672003/Password-management-system
 : 1672407482:0;mv Password-management-system projects
 : 1672408853:0;cd Health-Care-Organisation-System-
 : 1672409957:0;cd Password-management-system
 : 1672410378:0;rm -rf plugin
 : 1672410680:0;vscodium lua/user/lazy.lua
-: 1672410825:0;rm a.log
 : 1672410828:0;nv --startuptime a.log
-: 1672410831:0;nv a.log
 : 1672410915:0;nv lazy.lua
 : 1672412386:0;cp main.c ~/projects/cpro/fprintf.c
 : 1672412389:0;ccc
@@ -682,7 +669,6 @@ sudo docker rmi $(docker images --quiet --filter "dangling=true")
 : 1672415999:0;nrandom
 : 1672416009:0;nv bigfile.txt
 : 1672418371:0;rm -rf $HOME/.local/share/nvim
-: 1672420931:0;cd .config/nvim/
 : 1672420937:0;nv c.lua
 : 1672421080:0;rm -rf AniPy
 : 1672421081:0;gh repo clone jindalpratik/AniPy
@@ -716,7 +702,6 @@ sudo docker rmi $(docker images --quiet --filter "dangling=true")
 : 1672478866:0;rm -rf projects/password.txt
 : 1672486968:0;cd projects/Password-management-system
 : 1672487387:0;mv things_we_learned_while_making_this_project things_i_learned_while_making_this_project
-: 1672492410:0;uneo
 : 1672492545:0;rm *.out
 : 1672492927:0;nv ~/.config/nvim/lua/user/lazy.lua
 : 1672500156:0;yay -S powertop
@@ -738,13 +723,10 @@ sudo docker rmi $(docker images --quiet --filter "dangling=true")
 : 1672561047:0;rm a.vue
 : 1672561150:0;lv a.js
 : 1672572374:0;nr
-: 1672576110:0;ls
 : 1672576118:0;waydroid
 : 1672576122:0;waydroid -h
 : 1672579472:0;cd js
-: 1672579473:0;lll
 : 1672579476:0;nv a.js
-: 1672580094:0;yl
 : 1672581733:0;cd Downloads
 : 1672581741:0;waydroid app install tachiyomi-x86-v0.14.2.apk
 : 1672581938:0;sudo rm -rf /var/lib/waydroid
@@ -754,7 +736,6 @@ sudo docker rmi $(docker images --quiet --filter "dangling=true")
 : 1672594416:0;rm *.xml
 : 1672594799:0;cd cp
 : 1672594805:0;nv fact.c
-: 1672596689:0;kk
 : 1672597055:0;cd /usr/share/
 : 1672597091:0;sudo mkdir -p waydroid-extra/images
 : 1672597103:0;cd waydroid-extra/images
@@ -775,16 +756,13 @@ sudo docker rmi $(docker images --quiet --filter "dangling=true")
 : 1672672046:0;cd lua/user/
 : 1672672048:0;cd lsp
 : 1672672052:0;nv attach.lua
-: 1672674829:0;cd projects
 : 1672674835:0;nv script.sh
 : 1672674849:0;chmod +x script.sh
-: 1672677319:0;cd lear
 : 1672677368:0;rm *.exe
 : 1672677376:0;nv a.exe
 : 1672677385:0;rm a.exe
 : 1672677401:0;mkdir hacker_rank
 : 1672681163:0;nv 1.c
-: 1672681695:0;spicetify backup restore apply
 : 1672685586:0;playerctl --all-players
 : 1672685591:0;playerctl open
 : 1672685595:0;playerctl pause
@@ -798,12 +776,10 @@ sudo docker rmi $(docker images --quiet --filter "dangling=true")
 : 1672758161:0;cd pro
 : 1672758166:0;./script.sh
 : 1672758268:0;/tmp/lazy-lvim/bin/lvim
-: 1672759389:0;nv README.md
 : 1672759986:0;cd learning
 : 1672760006:0;cd college_C_stuff
 : 1672760029:0;nv pms.c
 : 1672760963:0;cd nvi
-: 1672761401:0;rm -rf $HOME/.local/share/nvim plugin
 : 1672762337:0;cd pass
 : 1672762349:0;nv .gitignore
 : 1672762430:0;nv password.tx
@@ -823,8 +799,6 @@ sudo docker rmi $(docker images --quiet --filter "dangling=true")
 : 1672768250:0;chafa main_image_star-forming_region_carina_nircam_final-5mb.jpg
 : 1672768418:0;clear
 : 1672849991:0;zap -u
-: 1672850073:0;time $SHELL -i -c exit
-: 1672850084:0;cz
 : 1672851517:0;cd lea
 : 1672853081:0;rm point.out
 : 1672853105:0;exit
@@ -833,71 +807,100 @@ sudo docker rmi $(docker images --quiet --filter "dangling=true")
 : 1672853917:0;nv 2.c
 : 1672853929:0;./2.out
 : 1672853944:0;nv point.c
-: 1672931454:0;ys
-: 1672936027:0;ll
-: 1672936189:0;cd neo
 : 1672936215:0;git checkout -b packer-main
 : 1672936242:0;git checkout -b packer
 : 1672936448:0;git push -u origin lazy
-: 1672936463:0;git pull
-: 1672936501:0;git checkout main
-: 1672936549:0;cd nvim
-: 1672936552:0;cd
-: 1672936553:0;c
 : 1672936556:0;cd projects/random-repos
 : 1672936574:0;git clone https://github.com/Rishabh672003/Neovim.git
-: 1672936578:0;cd neovim
-: 1672936614:0;cdp
 : 1672936621:0;cd random-repos/Neovim
 : 1672936626:0;git pull origin main
 : 1672936633:0;git checkout lazy
-: 1672936637:0;git merge main
 : 1672936710:0;git status
 : 1672936784:0;cd projects/random-repos/Neovim
 : 1672936787:0;nv init.lua
-: 1672937070:0;lg
-: 1672937080:0;nv
-: 1672937094:0;e
-: 1672937109:0;lg
 : 1672937130:0;git merge main
-: 1672937179:0;c
 : 1672937180:0;sdr
 : 1672937739:0;nv README.md
-: 1672937794:0;lg
 : 1672937805:0;cdp
 : 1672937809:0;rm -rf Neovim
-: 1672937810:0;cd
 : 1672937812:0;cd neo
-: 1672937813:0;lg
-: 1672937827:0;cd nvim
-: 1672937828:0;lg
 : 1672937845:0;git pull
-: 1672937850:0;lg
-: 1672939718:0;rm -rf $HOME/.config/nvim $HOME/.local/share/nvim $HOME/.cache/nvim
-: 1672939720:0;cd
-: 1672939721:0;c
 : 1672939726:0;git clone https://github.com/Rishabh672003/Neovim ~/.config/nvim && nvim
-: 1672939868:0;nv
-: 1672940010:0;cd nvim
 : 1672940019:0;rm -rf .git README.md LICENSE
-: 1672940020:0;ll
-: 1672940021:0;c
 : 1672940026:0;uneo
-: 1672940049:0;nv
 : 1672940191:0;ngit
-: 1672940193:0;lg
 : 1672940232:0;ping 8.8.8.8
-: 1672940395:0;nv
-: 1672940408:0;c
-: 1672940409:0;cd
-: 1672940409:0;c
 : 1672940412:0;cd lear
-: 1672940413:0;lg
-: 1672941431:0;nv
 : 1672941433:0;time $SHELL -i -c exit
-: 1672941530:0;nv
 : 1672941561:0;cd neovim
 : 1672941562:0;kk
 : 1672941564:0;lg
-: 1672941671:0;nv
 : 1672941720:0;yl
+: 1673010444:0;echo $OPENAI_API_KEY
+: 1673010450:0;cz
+: 1673010866:0;cd Videos
+: 1673010875:0;cd Screencasts
+: 1673010888:0;xdg-open Screencast\ from\ 05-21-2022\ 07:23:08\ PM.webm
+: 1673021277:0;rm -rf $HOME/.config/nvim $HOME/.local/share/nvim $HOME/.cache/nvim
+: 1673021287:0;cd
+: 1673021290:0;cd .config/nvim/
+: 1673021292:0;cd .config/
+: 1673021308:0;git clone https://github.com/Rishabh672003/Neovim ~/.config/nvim -b packer
+: 1673021483:0;cd nvim
+: 1673021487:0;git checkout main
+: 1673021488:0;ls
+: 1673021500:0;rm -rf $HOME/.local/share/nvim plugin
+: 1673065227:0;ys
+: 1673065245:0;cd .config/alacritty
+: 1673065272:0;mv alacritty.yml.1665165664612.bak alacritty.yml
+: 1673065279:0;alacritty-themes
+: 1673065296:0;cn
+: 1673065624:0;lll
+: 1673070190:0;cd getnf
+: 1673070191:0;ll
+: 1673070203:0;./getnf
+: 1673072643:0;spicetify backup restore apply
+: 1673078949:0;cd projects
+: 1673079178:0;nv minimal.lua
+: 1673079992:0;nv -u minimal.lua --startuptime a.log
+: 1673079996:0;nv a.log
+: 1673080005:0;rm a.log
+: 1673080007:0;nv -u minimal.lua
+: 1673084190:0;rm -rf ~/.local/share/nvim/lazy2
+: 1673084192:0;c
+: 1673084211:0;nv
+: 1673085712:0;e
+: 1673085730:0;nv
+: 1673086966:0;cd
+: 1673086967:0;cd nvim
+: 1673086968:0;lg
+: 1673088297:0;nv
+: 1673088909:0;uneo
+: 1673097133:0;c
+: 1673097134:0;lg
+: 1673097973:0;c
+: 1673097974:0;ys
+: 1673098447:0;c
+: 1673098449:0;ys
+: 1673103081:0;nv
+: 1673103364:0;cz
+: 1673103379:0;hyp
+: 1673103548:0;cd
+: 1673103550:0;cd pro
+: 1673103551:0;https://github.com/Rishabh672003/hyprland.git
+: 1673103557:0;git clone https://github.com/Rishabh672003/hyprland.git
+: 1673103561:0;cd hyprland
+: 1673103569:0;cp -r ~/.config/hypr/* .
+: 1673103571:0;ll
+: 1673103574:0;lg
+: 1673103791:0;cd
+: 1673103792:0;cd py
+: 1673103799:0;nv equation-calculator-def.py
+: 1673103920:0;cd
+: 1673103921:0;c
+: 1673103922:0;ll
+: 1673103923:0;cd
+: 1673103923:0;c
+: 1673104543:0;ll
+: 1673104544:0;c
+: 1673104545:0;yl
