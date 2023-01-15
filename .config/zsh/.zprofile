@@ -30,4 +30,3 @@ export PARALLEL_HOME="$XDG_CONFIG_HOME"/parallel
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 export LESSOPEN='|~/.config/zsh/lessfilter.sh %s'
 export LESS=' -R '
-export OPENAI_API_KEY="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"
