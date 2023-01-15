@@ -29,7 +29,6 @@
 : 1672078020:0;cp -r ~/.config/nvim/* .
 : 1672078027:0;rm -rf .git
 : 1672078035:0;rm -rf ftplugin plugin
-: 1672078047:0;cd lua/user
 : 1672079710:0;cd minimal
 : 1672080191:0;nvim --clean -u minimal.lua
 : 1672152010:0;cd .config/nvim/lua/user
@@ -80,7 +79,6 @@ sudo docker rmi $(docker images --quiet --filter "dangling=true")
 : 1672332215:0;cp .gitignore ~/projects/Health-Care-Organisation-System-
 : 1672337298:0;cp main.c ~/projects/learning-C
 : 1672337309:0;cp main.c ~/projects/cpro/health.c
-: 1672339135:0;n
 : 1672407471:0;gh repo clone Rishabh672003/Password-management-system
 : 1672407482:0;mv Password-management-system projects
 : 1672408853:0;cd Health-Care-Organisation-System-
@@ -180,7 +178,6 @@ sudo docker rmi $(docker images --quiet --filter "dangling=true")
 : 1672685591:0;playerctl open
 : 1672685595:0;playerctl pause
 : 1672685599:0;playerctl play
-: 1672685603:0;cd hypr
 : 1672685605:0;cd scripts
 : 1672685612:0;python empris.py
 : 1672755466:0;nv lua/user/plugins.lua
@@ -202,7 +199,6 @@ sudo docker rmi $(docker images --quiet --filter "dangling=true")
 : 1672768176:0;chafa ~/Pictures/22d9b978f65a0490b0128dc24730190dc9fd550147c4cc33ad8318b23fdc67d1_1.webp
 : 1672768204:0;cd Pictures
 : 1672768209:0;chafa ~/Pictures/main_image_star-forming_region_carina_nircam_final-5mb.jpg
-: 1672768250:0;chafa main_image_star-forming_region_carina_nircam_final-5mb.jpg
 : 1672853081:0;rm point.out
 : 1672853105:0;exit
 : 1672853172:0;./point.out
@@ -248,7 +244,6 @@ sudo docker rmi $(docker images --quiet --filter "dangling=true")
 : 1673103569:0;cp -r ~/.config/hypr/* .
 : 1673103792:0;cd py
 : 1673103799:0;nv equation-calculator-def.py
-: 1673104545:0;yl
 : 1673104873:0;zap --update
 : 1673104878:0;zap --version
 : 1673105810:0;nv /etc/environment
@@ -302,7 +297,6 @@ sudo docker rmi $(docker images --quiet --filter "dangling=true")
 : 1673188840:0;wf-recorder -g "$(slurp)" -f ~/issue23.mp4
 : 1673188846:0;wf-recorder -g "$(slurp)" -f ~/issue33.mp4
 : 1673190923:0;wf-recorder -g "$(slurp)" -f ~/works.mp4
-: 1673197036:0;cn
 : 1673197526:0;cd learning-C
 : 1673197552:0;cp ~/Downloads/PS2\ IE.pptx .
 : 1673198770:0;cd cp
@@ -383,8 +377,6 @@ mv ~/.local/share/nvim ~/.local/share/nvim.bak
 : 1673374240:0;git clone https://github.com/LazyVim/starter ~/.config/nvim
 : 1673374243:0;nvim
 : 1673374347:0;bob use 0.8.1
-: 1673374350:0;bob use 0.8.2
-: 1673374362:0;bob use 0.8.3
 : 1673374501:0;mkdir ftplugin
 : 1673374512:0;nv ftplugin/lua.lua
 : 1673374700:0;mkdir lua/plugins/core.lua
@@ -426,7 +418,6 @@ mv ~/.local/share/nvim ~/.local/share/nvim.bak
 : 1673453688:0;nv treesitter.lua
 : 1673453927:0;cdpp
 : 1673454816:0;git clone https://github.com/Rishabh672003/Neovim ~/.config/nvim -b from-scratch
-: 1673455806:0;git checkout origin/lazy-for-scratch
 : 1673461591:0;nv ~/.config/nvim/init.lua
 : 1673461717:0;su root
 : 1673630317:0;su rishabh
@@ -458,7 +449,6 @@ mv ~/.local/share/nvim ~/.local/share/nvim.bak
 : 1673619517:0;waydroid app install AuroraStore_4.1.1.apk
 : 1673630120:0;git checkout origin/from-scratch
 : 1673630160:0;git switch -c from-scratch
-: 1673630175:0;rm -rf $HOME/.local/share/nvim plugin
 : 1673630604:0;Hyprland --help
 : 1673630614:0;Hyprland --config
 : 1673632015:0;mkdir -p lua/rj/plugins/alpha-themes
@@ -469,13 +459,10 @@ mv ~/.local/share/nvim ~/.local/share/nvim.bak
 : 1673634124:0;nv functions.lua
 : 1673634204:0;nv .
 : 1673634218:0;nv ../../init.lua
-: 1673634256:0;bob use nightly
-: 1673634268:0;lv
 : 1673634315:0;cdp
 : 1673634336:0;git clone https://github.com/Rishabh672003/Neovim -b from-scratch ~/.config/nvim
 : 1673634425:0;cd neovim
 : 1673634445:0;git checkout from-scratch
-: 1673634456:0;git checkout main
 : 1673634459:0;git merge from-scratch
 : 1673634880:0;git add lua/rj/plugins/colorscheme.lua
 : 1673634897:0;git rm lua/user/bufferline.lua
@@ -509,7 +496,6 @@ mv ~/.local/share/nvim ~/.local/share/nvim.bak
 : 1673689204:0;cd zsh
 : 1673689210:0;cd .config/zsh
 : 1673689216:0;nv history
-: 1673689254:0;lll
 : 1673689261:0;cd st
 : 1673689268:0;nv normalMode.c
 : 1673692182:0;nv st.c
@@ -527,65 +513,67 @@ mv ~/.local/share/nvim ~/.local/share/nvim.bak
 : 1673703068:0;cd rj
 : 1673703076:0;cd plugins
 : 1673703110:0;nv notify.lua
-: 1673716105:0;rm -rf $HOME/.config/nvim $HOME/.local/share/nvim $HOME/.cache/nvim
-: 1673716111:0;git clone https://github.com/Rishabh672003/Neovim ~/.config/nvim
 : 1673717630:0;nvim --headless "+Lazy! sync" +qa
 : 1673718359:0;uneo
-: 1673718363:0;lg
 : 1673718373:0;sdr
-: 1673719441:0;cd nvim
 : 1673719526:0;cd pa
-: 1673719877:0;nv init.lua
-: 1673755776:0;cd projects
-: 1673756999:0;cd pass
-: 1673765547:0;nv main.c
-: 1673775866:0;cd
 : 1673776441:0;we
 : 1673776445:0;ys
 : 1673779227:0;wf-recorder -g "$(slurp)" -f ~/clang-issue.mp4
-: 1673782440:0;cf
-: 1673782527:0;c
-: 1673782528:0;ll
-: 1673782848:0;nv
-: 1673783685:0;e
-: 1673783688:0;rm -rf $HOME/.config/nvim $HOME/.local/share/nvim $HOME/.cache/nvim
 : 1673783695:0;gh repo clone ray-x/nvim ~/.config/nvim
-: 1673783699:0;nv
-: 1673783813:0;rm -rf $HOME/.config/nvim $HOME/.local/share/nvim $HOME/.cache/nvim
-: 1673783837:0;git clone https://github.com/Rishabh672003/Neovim ~/.config/nvim
-: 1673783844:0;cd nvim
-: 1673783846:0;one
-: 1673783862:0;lg
 : 1673783896:0;git ls-files nuage-cats/ | grep -E ".*(py|robot)" | xargs wc -l
 : 1673784052:0;n
-: 1673784054:0;nv
-: 1673784261:0;lg
-: 1673784267:0;nv
-: 1673784284:0;lg
 : 1673784296:0;git checkout origin/lazy-for-scratch
-: 1673784297:0;lg
 : 1673784350:0;git checkout main
-: 1673784352:0;lg
-: 1673784376:0;git checkout origin/packer-real
-: 1673784377:0;lg
 : 1673784385:0;one
-: 1673784408:0;nv
-: 1673784434:0;lg
 : 1673784471:0;bob use 0.8.3
-: 1673784474:0;bob use 0.8.2
-: 1673784476:0;lg
-: 1673784477:0;nv
-: 1673784500:0;rm -rf $HOME/.config/nvim $HOME/.local/share/nvim $HOME/.cache/nvim
 : 1673784503:0;git checkout origin/packer-real
-: 1673784505:0;cd
-: 1673784508:0;git clone https://github.com/Rishabh672003/Neovim ~/.config/nvim
-: 1673784511:0;nv
-: 1673784629:0;bob use nightly
-: 1673784643:0;nv
 : 1673784768:0;bob use 0.8.2
-: 1673784769:0;nv
 : 1673785045:0;cp Downloads/ani* ~/other-configs
-: 1673785046:0;cd
 : 1673785049:0;cd other-configs
-: 1673785050:0;ll
 : 1673785054:0;yl
+: 1673785776:0;chafa anilist.png
+: 1673785783:0;cd hypr
+: 1673785787:0;cd wallpapers
+: 1673785806:0;chafa main_image_star-forming_region_carina_nircam_final-5mb.jpg
+: 1673785837:0;cn
+: 1673785846:0;cf
+: 1673792270:0;bob use nightly
+: 1673793049:0;rm -rf $HOME/.config/nvim $HOME/.local/share/nvim $HOME/.cache/nvim
+: 1673793053:0;git clone https://github.com/Rishabh672003/Neovim ~/.config/nvim
+: 1673793133:0;nv init.lua
+: 1673793441:0;cd pass
+: 1673795887:0;nv main.c
+: 1673798697:0;yay -S goneovim
+: 1673798731:0;goneovim
+: 1673798753:0;yay -Rns goneovim-bin
+: 1673798881:0;cd
+: 1673798882:0;cd projects
+: 1673798884:0;lll
+: 1673799108:0;git clone https://github.com/torvalds/linux
+: 1673799397:0;c
+: 1673799819:0;git ls-file
+: 1673799821:0;git ls-files
+: 1673800169:0;:q!
+: 1673803896:0;cd nvim
+: 1673803935:0;git checkout origin/packer
+: 1673804001:0;git checkout origin/with-barbecue
+: 1673804047:0;rm -rf $HOME/.local/share/nvim plugin
+: 1673804049:0;lg
+: 1673804055:0;nv
+: 1673805333:0;cd lvim
+: 1673805336:0;ll
+: 1673805348:0;mkdir -p ftplugin
+: 1673805354:0;nv ftplugin/java.lua
+: 1673805360:0;lv
+: 1673805478:0;mkdir -p lua/user
+: 1673805482:0;cd lua/user
+: 1673805483:0;e
+: 1673805500:0;lv
+: 1673805507:0;nv a.java
+: 1673805515:0;lv a.java
+: 1673805530:0;yel
+: 1673805537:0;cd
+: 1673805538:0;c
+: 1673805540:0;yel
+: 1673805548:0;yl
