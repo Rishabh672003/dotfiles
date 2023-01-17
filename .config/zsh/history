@@ -52,8 +52,6 @@ sudo docker rmi $(docker images --quiet --filter "dangling=true")
 : 1672164034:0;cd .con
 : 1672164036:0;cd alacritty
 : 1672164039:0;nv alacritty.yml
-: 1672164108:0;cd waybar
-: 1672164113:0;nv style.css
 : 1672164129:0;cd pr
 : 1672164132:0;rm a
 : 1672164140:0;rm a.lua
@@ -181,7 +179,6 @@ sudo docker rmi $(docker images --quiet --filter "dangling=true")
 : 1672685605:0;cd scripts
 : 1672685612:0;python empris.py
 : 1672755466:0;nv lua/user/plugins.lua
-: 1672755675:0;speedtest
 : 1672758166:0;./script.sh
 : 1672758268:0;/tmp/lazy-lvim/bin/lvim
 : 1672759986:0;cd learning
@@ -274,7 +271,6 @@ sudo docker rmi $(docker images --quiet --filter "dangling=true")
 : 1673160170:0;nv password.txt
 : 1673160191:0;rm password.txt *.out
 : 1673160286:0;nv main2.c
-: 1673161514:0;./main.out
 : 1673168986:0;cz
 : 1673170602:0;curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-marketplace/main/resources/install.sh | sh
 : 1673185517:0;clangd
@@ -299,7 +295,6 @@ sudo docker rmi $(docker images --quiet --filter "dangling=true")
 : 1673190923:0;wf-recorder -g "$(slurp)" -f ~/works.mp4
 : 1673197526:0;cd learning-C
 : 1673197552:0;cp ~/Downloads/PS2\ IE.pptx .
-: 1673198770:0;cd cp
 : 1673198780:0;nv fibo.c
 : 1673275172:0;yay sopcast
 : 1673277450:0;cd ~/.local/share/lunarvim/lvim/utils/installer
@@ -374,7 +369,6 @@ mv ~/.local/share/nvim ~/.local/share/nvim.bak
 : 1673373898:0;nv mason.lua
 : 1673373914:0;mkdir settings
 : 1673373927:0;cp ~/Downloads/Rishabh672003\ Neovim\ main\ lua-user_lsp_settings/* settings
-: 1673374240:0;git clone https://github.com/LazyVim/starter ~/.config/nvim
 : 1673374243:0;nvim
 : 1673374347:0;bob use 0.8.1
 : 1673374501:0;mkdir ftplugin
@@ -403,7 +397,6 @@ mv ~/.local/share/nvim ~/.local/share/nvim.bak
 : 1673451026:0;nv catppuccin.lua
 : 1673451623:0;nv lsp/mason.lua
 : 1673451863:0;rm -rf init.lua
-: 1673451872:0;nv lazy.lua
 : 1673452021:0;cdc
 : 1673452218:0;pkill playerctld
 : 1673452227:0;playerctl daemon
@@ -444,7 +437,6 @@ mv ~/.local/share/nvim ~/.local/share/nvim.bak
 : 1673619325:0;wr
 : 1673619331:0;sudo waydroid init
 : 1673619338:0;ws
-: 1673619501:0;cd Downloads
 : 1673619508:0;waydroid app install tachiyomi-x86-v0.14.2.apk
 : 1673619517:0;waydroid app install AuroraStore_4.1.1.apk
 : 1673630120:0;git checkout origin/from-scratch
@@ -459,7 +451,6 @@ mv ~/.local/share/nvim ~/.local/share/nvim.bak
 : 1673634124:0;nv functions.lua
 : 1673634204:0;nv .
 : 1673634218:0;nv ../../init.lua
-: 1673634315:0;cdp
 : 1673634336:0;git clone https://github.com/Rishabh672003/Neovim -b from-scratch ~/.config/nvim
 : 1673634425:0;cd neovim
 : 1673634445:0;git checkout from-scratch
@@ -483,7 +474,6 @@ mv ~/.local/share/nvim ~/.local/share/nvim.bak
 : 1673681178:0;clang-format -style=IndentWidth: 4 main.c
 : 1673681205:0;clang-format -style="{IndentWidth: 4}" main.c
 : 1673681258:0;mv .clang-format ..
-: 1673681291:0;cd lear
 : 1673681498:0;nv array.c
 : 1673684629:0;nv a.c
 : 1673684641:0;rm a.c
@@ -493,32 +483,22 @@ mv ~/.local/share/nvim ~/.local/share/nvim.bak
 : 1673689177:0;pacman -Qi
 : 1673689181:0;pacman -qi
 : 1673689188:0;pacman -Qqi
-: 1673689204:0;cd zsh
-: 1673689210:0;cd .config/zsh
 : 1673689216:0;nv history
 : 1673689261:0;cd st
 : 1673689268:0;nv normalMode.c
 : 1673692182:0;nv st.c
 : 1673696201:0;nv arg.h
 : 1673696877:0;nv st-copyout
-: 1673698518:0;zap -u
-: 1673698686:0;time $SHELL -i -c exit
-: 1673701315:0;ls
 : 1673701841:0;cd cricket
 : 1673701877:0;gh repo clone sumitst05/Cricket-Score-Sheet
 : 1673701882:0;cd Cricket-Score-Sheet
 : 1673701885:0;nv cricket_score_sheet.c
-: 1673702420:0;rm -rf password.txt main.out
-: 1673703064:0;cd lua
 : 1673703068:0;cd rj
 : 1673703076:0;cd plugins
 : 1673703110:0;nv notify.lua
 : 1673717630:0;nvim --headless "+Lazy! sync" +qa
-: 1673718359:0;uneo
 : 1673718373:0;sdr
 : 1673719526:0;cd pa
-: 1673776441:0;we
-: 1673776445:0;ys
 : 1673779227:0;wf-recorder -g "$(slurp)" -f ~/clang-issue.mp4
 : 1673783695:0;gh repo clone ray-x/nvim ~/.config/nvim
 : 1673783896:0;git ls-files nuage-cats/ | grep -E ".*(py|robot)" | xargs wc -l
@@ -531,49 +511,111 @@ mv ~/.local/share/nvim ~/.local/share/nvim.bak
 : 1673784768:0;bob use 0.8.2
 : 1673785045:0;cp Downloads/ani* ~/other-configs
 : 1673785049:0;cd other-configs
-: 1673785054:0;yl
 : 1673785776:0;chafa anilist.png
-: 1673785783:0;cd hypr
 : 1673785787:0;cd wallpapers
 : 1673785806:0;chafa main_image_star-forming_region_carina_nircam_final-5mb.jpg
 : 1673785837:0;cn
 : 1673785846:0;cf
 : 1673792270:0;bob use nightly
-: 1673793049:0;rm -rf $HOME/.config/nvim $HOME/.local/share/nvim $HOME/.cache/nvim
-: 1673793053:0;git clone https://github.com/Rishabh672003/Neovim ~/.config/nvim
-: 1673793133:0;nv init.lua
-: 1673793441:0;cd pass
-: 1673795887:0;nv main.c
 : 1673798697:0;yay -S goneovim
 : 1673798731:0;goneovim
 : 1673798753:0;yay -Rns goneovim-bin
-: 1673798881:0;cd
-: 1673798882:0;cd projects
-: 1673798884:0;lll
 : 1673799108:0;git clone https://github.com/torvalds/linux
-: 1673799397:0;c
 : 1673799819:0;git ls-file
 : 1673799821:0;git ls-files
 : 1673800169:0;:q!
-: 1673803896:0;cd nvim
 : 1673803935:0;git checkout origin/packer
 : 1673804001:0;git checkout origin/with-barbecue
 : 1673804047:0;rm -rf $HOME/.local/share/nvim plugin
-: 1673804049:0;lg
-: 1673804055:0;nv
 : 1673805333:0;cd lvim
-: 1673805336:0;ll
 : 1673805348:0;mkdir -p ftplugin
 : 1673805354:0;nv ftplugin/java.lua
-: 1673805360:0;lv
 : 1673805478:0;mkdir -p lua/user
 : 1673805482:0;cd lua/user
-: 1673805483:0;e
 : 1673805500:0;lv
 : 1673805507:0;nv a.java
 : 1673805515:0;lv a.java
-: 1673805530:0;yel
-: 1673805537:0;cd
-: 1673805538:0;c
 : 1673805540:0;yel
 : 1673805548:0;yl
+: 1673805565:0;cd .config/lvim
+: 1673805626:0;cd projects
+: 1673805642:0;git clone https://github.com/LazyVim/starter lazyvim
+: 1673805647:0;cd lazyvim
+: 1673805675:0;nv -u init.lua
+: 1673805737:0;git clone https://github.com/LazyVim/starter ~/.config/nvim
+: 1673805845:0;rm -rf $HOME/.config/nvim $HOME/.local/share/nvim $HOME/.cache/nvim
+: 1673805853:0;git clone https://github.com/Rishabh672003/Neovim ~/.config/nvim
+: 1673805988:0;cd .config/zsh
+: 1673806007:0;nv .zshrc
+: 1673806020:0;time $SHELL -i -c exit
+: 1673842917:0;nv init.lua
+: 1673843067:0;mkdir notes
+: 1673844526:0;nv pc-assembly-cpu
+: 1673844527:0;nv pc-assembly-cpu.md
+: 1673845815:0;ls
+: 1673846379:0;nv ~/.config/waybar/config.jsonc
+: 1673860179:0;cd hyp
+: 1673860218:0;swaybg -i ~/.config/hypr/wallpapers/girl-getting-out-of-the-train-3-3840Ãƒ·2160.jpg\
+
+: 1673860263:0;swaybg -i ~/.config/hypr/wallpapers/cr.jpg
+: 1673862706:0;cd lear
+: 1673862759:0;nv chef.c
+: 1673862819:0;nv chef.cpp
+: 1673863999:0;nv bubble.c
+: 1673870740:0;yay canva
+: 1673871261:0;./main.out
+: 1673871474:0;gcc -o pms ./main.c
+: 1673871477:0;./pms
+: 1673882887:0;cd notes
+: 1673882898:0;nv pps-pms.txt
+: 1673882901:0;nv pps-pms.md
+: 1673888411:0;cd Downloads
+: 1673888421:0;zathura Academic\ Calendar\ for\ the\ year\ 2022-23\ \(Sem-I\)\ \(Revised\)\ \(Stude.pdf
+: 1673888476:0;evince Academic\ Calendar\ for\ the\ year\ 2022-23\ \(Sem-I\)\ \(Revised\)\ \(Stude-1.pdf
+: 1673942869:0;cd .config
+: 1673942891:0;cd hypr
+: 1673942903:0;nv hyprland.conf
+: 1673943181:0;waybar
+: 1673943203:0;cdd nvim
+: 1673943268:0;cd
+: 1673943278:0;cd waybar
+: 1673943298:0;nv style.css
+: 1673943582:0;nv main.c
+: 1673945552:0;nv main_linux.c
+: 1673946839:0;rm -rf password.txt main.out
+: 1673946843:0;rm -rf password.txt *.out
+: 1673946845:0;lll
+: 1673948288:0;ys
+: 1673948330:0;cd pass
+: 1673948478:0;speedtest
+: 1673949661:0;cd cp
+: 1673949664:0;nv satish.c
+: 1673951392:0;rm clang-issue.mp4
+: 1673956450:0;we
+: 1673964605:0;cd nvim
+: 1673964610:0;cd lua
+: 1673964617:0;cd user
+: 1673964618:0;ll
+: 1673964622:0;nv lazy.lua
+: 1673964628:0;cdp
+: 1673964632:0;rm -rf user
+: 1673964634:0;lg
+: 1673965665:0;cd zsh
+: 1673965669:0;nv aliases.zsh
+: 1673966479:0;gtnv
+: 1673970239:0;yay whatsapp
+: 1673971897:0;uneo
+: 1673977082:0;nv
+: 1673977249:0;rm ~/projects/chatgpt-key.zsh
+: 1673977257:0;zap -u
+: 1673977263:0;c
+: 1673977264:0;e
+: 1673977268:0;time $SHELL -i -c exit
+: 1673977279:0;c
+: 1673977281:0;nv
+: 1673978693:0;cd zsh
+: 1673978698:0;cdd zsh
+: 1673978705:0;nv .zshrc
+: 1673979233:0;c
+: 1673979235:0;yel
+: 1673979245:0;yl

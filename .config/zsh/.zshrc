@@ -12,7 +12,6 @@ autoload -Uz plug
 # all the good stuff
 plug ~/.config/zsh/aliases.zsh
 plug ~/.config/zsh/supercharge.zsh
-plug ~/projects/chatgpt-key.zsh
 
 # evals needed for apps
 eval "$(zoxide init zsh)"

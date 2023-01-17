@@ -35,14 +35,14 @@ require("lazy").setup({
 		config = function()
 			require("rj.plugins.catppuccin")
 		end,
-		dependencies = {
-			"lukas-reineke/indent-blankline.nvim",
-			event = "BufReadPre",
-			config = function()
-				require("rj.plugins.indentline")
-				vim.cmd("colorscheme catppuccin")
-			end,
-		},
+		dependencies = {},
+	},
+	{
+		"lukas-reineke/indent-blankline.nvim",
+		event = "BufReadPre",
+		config = function()
+			require("rj.plugins.indentline")
+		end,
 	},
 	{
 		"folke/noice.nvim",
@@ -71,7 +71,7 @@ require("lazy").setup({
 		event = "InsertEnter",
 		dependencies = {
 			"hrsh7th/cmp-nvim-lsp",
-			"hrsh7th/cmp-buffer",
+			{ "hrsh7th/cmp-buffer", event = "InsertEnter" },
 			"hrsh7th/cmp-path",
 			"hrsh7th/cmp-cmdline",
 			"saadparwaiz1/cmp_luasnip",
@@ -103,7 +103,7 @@ require("lazy").setup({
 	},
 	{
 		"p00f/clangd_extensions.nvim",
-		event = "BufReadPost",
+		-- event = "BufReadPost",
 		config = function()
 			require("rj.plugins.lsp.clangd")
 		end,
@@ -277,6 +277,12 @@ require("lazy").setup({
 			require("rj.plugins.hop")
 		end,
 	},
+	-- {
+	-- 	"ggandor/leap.nvim",
+	-- 	config = function()
+	-- 		require("leap").add_default_mappings()
+	-- 	end,
+	-- },
 	{
 		"max397574/better-escape.nvim",
 		lazy = false,
@@ -323,13 +329,6 @@ require("lazy").setup({
 		config = function()
 			require("dap_install").setup({})
 			require("dap_install").config("python", {})
-		end,
-	},
-	{
-		"jackMort/ChatGPT.nvim",
-		cmd = "ChatGPT",
-		config = function()
-			require("chatgpt").setup({})
 		end,
 	},
 })
