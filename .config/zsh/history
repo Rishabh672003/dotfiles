@@ -535,8 +535,6 @@ mv ~/.local/share/nvim ~/.local/share/nvim.bak
 : 1673805500:0;lv
 : 1673805507:0;nv a.java
 : 1673805515:0;lv a.java
-: 1673805540:0;yel
-: 1673805548:0;yl
 : 1673805565:0;cd .config/lvim
 : 1673805626:0;cd projects
 : 1673805642:0;git clone https://github.com/LazyVim/starter lazyvim
@@ -546,8 +544,6 @@ mv ~/.local/share/nvim ~/.local/share/nvim.bak
 : 1673805845:0;rm -rf $HOME/.config/nvim $HOME/.local/share/nvim $HOME/.cache/nvim
 : 1673805853:0;git clone https://github.com/Rishabh672003/Neovim ~/.config/nvim
 : 1673805988:0;cd .config/zsh
-: 1673806007:0;nv .zshrc
-: 1673806020:0;time $SHELL -i -c exit
 : 1673842917:0;nv init.lua
 : 1673843067:0;mkdir notes
 : 1673844526:0;nv pc-assembly-cpu
@@ -592,30 +588,31 @@ mv ~/.local/share/nvim ~/.local/share/nvim.bak
 : 1673949664:0;nv satish.c
 : 1673951392:0;rm clang-issue.mp4
 : 1673956450:0;we
-: 1673964605:0;cd nvim
 : 1673964610:0;cd lua
 : 1673964617:0;cd user
 : 1673964618:0;ll
 : 1673964622:0;nv lazy.lua
 : 1673964628:0;cdp
 : 1673964632:0;rm -rf user
-: 1673964634:0;lg
-: 1673965665:0;cd zsh
 : 1673965669:0;nv aliases.zsh
 : 1673966479:0;gtnv
 : 1673970239:0;yay whatsapp
 : 1673971897:0;uneo
-: 1673977082:0;nv
 : 1673977249:0;rm ~/projects/chatgpt-key.zsh
 : 1673977257:0;zap -u
-: 1673977263:0;c
-: 1673977264:0;e
 : 1673977268:0;time $SHELL -i -c exit
-: 1673977279:0;c
-: 1673977281:0;nv
 : 1673978693:0;cd zsh
 : 1673978698:0;cdd zsh
 : 1673978705:0;nv .zshrc
-: 1673979233:0;c
 : 1673979235:0;yel
 : 1673979245:0;yl
+: 1673979254:0;c
+: 1673979742:0;cd nvim
+: 1673979744:0;lg
+: 1673979756:0;nv
+: 1673979893:0;e
+: 1674051559:0;ys
+: 1674139287:0;ncdu
+: 1674139309:0;baobab
+: 1674151407:0;nv
+: 1674152092:0;yl

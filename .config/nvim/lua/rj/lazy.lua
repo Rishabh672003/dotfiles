@@ -277,12 +277,6 @@ require("lazy").setup({
 			require("rj.plugins.hop")
 		end,
 	},
-	-- {
-	-- 	"ggandor/leap.nvim",
-	-- 	config = function()
-	-- 		require("leap").add_default_mappings()
-	-- 	end,
-	-- },
 	{
 		"max397574/better-escape.nvim",
 		lazy = false,
