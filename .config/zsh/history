@@ -290,7 +290,6 @@ sudo docker rmi $(docker images --quiet --filter "dangling=true")
 : 1673198780:0;nv fibo.c
 : 1673275172:0;yay sopcast
 : 1673277450:0;cd ~/.local/share/lunarvim/lvim/utils/installer
-: 1673277452:0;./uninstall.sh
 : 1673277468:0;mv ~/.config/nvim ~/.config/nvim.bak\
 mv ~/.local/share/nvim ~/.local/share/nvim.bak
 : 1673277921:0;cd config
@@ -374,7 +373,6 @@ mv ~/.local/share/nvim ~/.local/share/nvim.bak
 : 1673375987:0;nv ftplugin/c.lua
 : 1673376081:0;nv lua/plugins/telescope.lua
 : 1673446868:0;git clone https://github.com/Rishabh672003/Neovim ~/.config/nvim -b lazy
-: 1673450392:0;bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh)
 : 1673450573:0;nv lua/rj/core/lazy.lua
 : 1673450747:0;mv illuminate.lua lua/rj/plugins
 : 1673450862:0;mv core/* .
@@ -415,7 +413,6 @@ mv ~/.local/share/nvim ~/.local/share/nvim.bak
 : 1673545572:0;cd op
 : 1673545576:0;cd anip
 : 1673545584:0;nv output/manga_2023-01-12.xml
-: 1673549744:0;ping 8.8.8.8
 : 1673619212:0;cd dowm
 : 1673619214:0;cd dow
 : 1673619266:0;mkdir -p /usr/share/waydroid-extra/images
@@ -481,7 +478,6 @@ mv ~/.local/share/nvim ~/.local/share/nvim.bak
 : 1673703068:0;cd rj
 : 1673703076:0;cd plugins
 : 1673703110:0;nv notify.lua
-: 1673717630:0;nvim --headless "+Lazy! sync" +qa
 : 1673718373:0;sdr
 : 1673719526:0;cd pa
 : 1673779227:0;wf-recorder -g "$(slurp)" -f ~/clang-issue.mp4
@@ -549,7 +545,6 @@ mv ~/.local/share/nvim ~/.local/share/nvim.bak
 : 1673943203:0;cdd nvim
 : 1673943278:0;cd waybar
 : 1673943298:0;nv style.css
-: 1673943582:0;nv main.c
 : 1673945552:0;nv main_linux.c
 : 1673946839:0;rm -rf password.txt main.out
 : 1673946843:0;rm -rf password.txt *.out
@@ -569,7 +564,6 @@ mv ~/.local/share/nvim ~/.local/share/nvim.bak
 : 1673978705:0;nv .zshrc
 : 1674139287:0;ncdu
 : 1674139309:0;baobab
-: 1674152092:0;yl
 : 1674152109:0;yel
 : 1674152116:0;time $SHELL -i -c exit
 : 1674152881:0;git add .
@@ -590,7 +584,6 @@ mv ~/.local/share/nvim ~/.local/share/nvim.bak
 : 1674230704:0;cp Downloads/password\ management\ pps\(1\)\(1\).pptx ~/projects/Password-management-system
 : 1674230724:0;libreoffice password\ management\ pps\(1\)\(1\).pptx
 : 1674230784:0;nv README.md
-: 1674231629:0;uneo
 : 1674231779:0;qlg
 : 1674231807:0;clg
 : 1674231842:0;git checkout origin/packer
@@ -603,12 +596,10 @@ mv ~/.local/share/nvim ~/.local/share/nvim.bak
 : 1674271906:0;bob use 0.8.2
 : 1674271938:0;bob use nightly
 : 1674272818:0;cd nv
-: 1674273016:0;lv init.lua
 : 1674274430:0;cd other-configs
 : 1674274436:0;cd mirrors-and-hosts
 : 1674274640:0;nv rate-mirrors-arch.sh
 : 1674274652:0;./rate-mirrors-arch.sh
-: 1674274915:0;we
 : 1674275085:0;cali
 : 1674275103:0;ua-update-all
 : 1674275510:0;cd /etc
@@ -622,77 +613,54 @@ mv ~/.local/share/nvim ~/.local/share/nvim.bak
 : 1674275781:0;rest
 : 1674282232:0;rs
 : 1674282236:0;rss
-: 1674282286:0;ys
 : 1674282337:0;cd /
 : 1674282338:0;fd rate
 : 1674282344:0;fd rate-mirror
 : 1674282394:0;cd /etc/systemd/system
 : 1674282398:0;nv rate-mirrors.service
-: 1674284556:0;lv
-: 1674284706:0;cd .local/share/lunarvim
-: 1674285095:0;cd pass
 : 1674285097:0;one
 : 1674287566:0;cd lua
 : 1674287570:0;cd user
 : 1674287661:0;nv lazy.lua
 : 1674288202:0;rm -rf $HOME/.config/nvim $HOME/.local/share/nvim $HOME/.cache/nvim
 : 1674288207:0;git clone https://github.com/Rishabh672003/Neovim ~/.config/nvim
-: 1674288284:0;cd nvim
 : 1674289220:0;cd neovim
 : 1674289264:0;cd lvim
-: 1674289409:0;cd
-: 1674289409:0;c
 : 1674289415:0;cd nvim-basic
 : 1674289425:0;rm -rf .stylua.toml
-: 1674289430:0;nv init.lua
-: 1674289444:0;lg
 : 1674289463:0;nv .stylua.toml
 : 1674289503:0;mv .stylua.toml ..
-: 1674289504:0;ll
-: 1674289511:0;nv lua/user/plugins.lua
-: 1674293932:0;nv
-: 1674293935:0;e
 : 1674294202:0;nv lua/user/plugins.lua
-: 1674294751:0;nv
-: 1674294845:0;cd
-: 1674294845:0;c
 : 1674294895:0;cp ~/projects/nvim-basic-ide/lua/user/plugins.lua ~/.config/nvim/lua/rj/plugins
-: 1674294900:0;nv
-: 1674294917:0;wf-recorder -g "$(slurp)" -f ~/pac-lazy.mp4
-: 1674294933:0;nv
 : 1674295096:0;wf-recorder -g "$(slurp)" -f ~/pac-lazy.mp4
-: 1674295128:0;nv
 : 1674295218:0;wf-recorder -g "$(slurp)" -f ~/pac-lazy2.mp4
-: 1674295305:0;nv
-: 1674295354:0;cd nvim
-: 1674295355:0;lg
-: 1674295360:0;nv
-: 1674295385:0;nv init.lua
 : 1674295449:0;cd nvim-bas
-: 1674295450:0;ll
-: 1674295452:0;lg
-: 1674295459:0;nv init.lua
-: 1674295654:0;cd
-: 1674295654:0;nv
-: 1674295692:0;c
-: 1674295693:0;nv
-: 1674295706:0;lv
 : 1674295818:0;cd .local/share/lunarvim
-: 1674295819:0;ll
 : 1674295827:0;cd lvim/utils/installer
 : 1674295829:0;./uninstall.sh
 : 1674295832:0;ll
-: 1674295833:0;cd
 : 1674295869:0;bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh)
-: 1674295976:0;lv
-: 1674295982:0;cd nvim
-: 1674295984:0;lv init.lua
-: 1674296027:0;nv
 : 1674296220:0;cd pass
 : 1674296223:0;nv main.c
-: 1674296271:0;nv
 : 1674299141:0;cd nvim
-: 1674299142:0;lg
 : 1674299156:0;nv init.lua
-: 1674300036:0;lg
 : 1674300049:0;yl
+: 1674300896:0;lv init.lua
+: 1674301395:0;lv
+: 1674302239:0;nvim --headless "+Lazy! sync" +qa
+: 1674311391:0;lg
+: 1674314448:0;ping 8.8.8.8
+: 1674314483:0;ys
+: 1674314509:0;uneo
+: 1674320724:0;c
+: 1674321543:0;yay -S xdg-desktop-portal-hyprland-git
+: 1674321602:0;yay -S polkit-kde-agent
+: 1674321647:0;yay -R xdg-desktop-portal-wlr
+: 1674321653:0;e
+: 1674321730:0;we
+: 1674321866:0;cd
+: 1674321868:0;nv
+: 1674322087:0;c
+: 1674322097:0;yay -S nwg-look
+: 1674322100:0;nv
+: 1674322106:0;yl
