@@ -68,7 +68,7 @@ require("lazy").setup({
 	--cmp stuff
 	{
 		"hrsh7th/nvim-cmp",
-		event = "InsertEnter",
+		event = { "InsertEnter", "CmdlineEnter" },
 		dependencies = {
 			"hrsh7th/cmp-nvim-lsp",
 			{ "hrsh7th/cmp-buffer", event = "InsertEnter" },
@@ -81,18 +81,20 @@ require("lazy").setup({
 			require("rj.plugins.cmp")
 		end,
 	},
-	{ "L3MON4D3/LuaSnip", event = "BufReadPost", dependencies = {
+	{ "L3MON4D3/LuaSnip", event = "InsertEnter", dependencies = {
 		"rafamadriz/friendly-snippets",
 	} },
-	{ "neovim/nvim-lspconfig", lazy = true, event = "BufEnter" },
+	{ "neovim/nvim-lspconfig", lazy = true },
 	{
 		"williamboman/mason.nvim",
+		event = "BufReadPre",
 		config = function()
 			require("rj.plugins.lsp.mason")
 		end,
 	},
 	{
 		"williamboman/mason-lspconfig.nvim",
+		lazy = true,
 	},
 	{
 		"jose-elias-alvarez/null-ls.nvim",
@@ -103,19 +105,12 @@ require("lazy").setup({
 	},
 	{
 		"p00f/clangd_extensions.nvim",
-		-- event = "BufReadPost",
+		event = "BufReadPre",
 		config = function()
 			require("rj.plugins.lsp.clangd")
 		end,
 	},
 	{ "b0o/schemastore.nvim", lazy = false },
-	{
-		"j-hui/fidget.nvim",
-		event = "Bufenter",
-		config = function()
-			require("fidget").setup({})
-		end,
-	},
 	{
 		"nvim-telescope/telescope.nvim",
 		event = "Bufenter",
@@ -136,7 +131,8 @@ require("lazy").setup({
 	{ "folke/tokyonight.nvim", event = "VeryLazy" },
 	{
 		"RRethy/vim-illuminate",
-		event = "BufReadPost",
+		event = "VeryLazy",
+		-- event = "BufReadPost",
 		lazy = false,
 		config = function()
 			require("rj.plugins.illuminate")
@@ -147,7 +143,7 @@ require("lazy").setup({
 		event = "BufReadPost",
 		dependencies = {
 			"nvim-treesitter/playground",
-			"JoosepAlviste/nvim-ts-context-commentstring",
+			{ "JoosepAlviste/nvim-ts-context-commentstring", event = "VeryLazy" },
 			{
 				"kyazdani42/nvim-web-devicons",
 				config = function()
@@ -172,6 +168,7 @@ require("lazy").setup({
 	},
 	{
 		"utilyre/barbecue.nvim",
+		event = "BufReadPre",
 		--branch = "hotfix/colorscheme-switch",
 		config = function()
 			require("rj.plugins.barbecue.barbecue")
@@ -209,6 +206,7 @@ require("lazy").setup({
 	},
 	{
 		"numToStr/Comment.nvim",
+		event = "BufRead",
 		config = function()
 			require("rj.plugins.comment")
 		end,
@@ -292,6 +290,15 @@ require("lazy").setup({
 		end,
 	},
 	{ "ThePrimeagen/vim-be-good", cmd = "VimBeGood" },
+	{
+		"jackMort/pommodoro-clock.nvim",
+		-- event = "VeryLazy",
+		config = function()
+			require("pommodoro-clock").setup({
+				-- optional configuration
+			})
+		end,
+	},
 	{
 		"mfussenegger/nvim-dap-python",
 		commit = "27a0eff2bd3114269bb010d895b179e667e712bd",
