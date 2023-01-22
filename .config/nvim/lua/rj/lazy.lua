@@ -288,6 +288,7 @@ require("lazy").setup({
 			require("fidget").setup({})
 		end,
 	},
+	{ "ellisonleao/glow.nvim" },
 	{
 		"folke/zen-mode.nvim",
 		cmd = "ZenMode",
@@ -336,6 +337,18 @@ require("lazy").setup({
 		config = function()
 			require("dap_install").setup({})
 			require("dap_install").config("python", {})
+		end,
+	},
+	{
+		"gaoDean/autolist.nvim",
+		ft = {
+			"markdown",
+			"text",
+			"tex",
+			"plaintex",
+		},
+		config = function()
+			require("rj.plugins.autolist")
 		end,
 	},
 })

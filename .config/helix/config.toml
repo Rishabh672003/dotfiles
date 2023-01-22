@@ -45,4 +45,3 @@ hidden = false
 
 [keys.insert]
 j = { k = "normal_mode" }
-

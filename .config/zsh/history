@@ -303,7 +303,6 @@ mv ~/.local/share/nvim ~/.local/share/nvim.bak
 : 1673285634:0;hyprctl
 : 1673285648:0;hyprctl activewindow
 : 1673286188:0;yay -S gnome-calculator
-: 1673287667:0;hyprctl clients
 : 1673287895:0;git checkout -b lazy
 : 1673288248:0;git pull
 : 1673288423:0;git ush
@@ -345,7 +344,6 @@ mv ~/.local/share/nvim ~/.local/share/nvim.bak
 : 1673371202:0;cd lsp
 : 1673371208:0;nv null-ls.lua
 : 1673371898:0;nv lua/rj/core
-: 1673372093:0;cd down
 : 1673372096:0;nv bible.txt
 : 1673372132:0;rm 3
 : 1673372141:0;kk
@@ -493,7 +491,6 @@ mv ~/.local/share/nvim ~/.local/share/nvim.bak
 : 1673785787:0;cd wallpapers
 : 1673785806:0;chafa main_image_star-forming_region_carina_nircam_final-5mb.jpg
 : 1673785837:0;cn
-: 1673785846:0;cf
 : 1673798697:0;yay -S goneovim
 : 1673798731:0;goneovim
 : 1673798753:0;yay -Rns goneovim-bin
@@ -510,7 +507,6 @@ mv ~/.local/share/nvim ~/.local/share/nvim.bak
 : 1673805507:0;nv a.java
 : 1673805515:0;lv a.java
 : 1673805565:0;cd .config/lvim
-: 1673805626:0;cd projects
 : 1673805642:0;git clone https://github.com/LazyVim/starter lazyvim
 : 1673805647:0;cd lazyvim
 : 1673805675:0;nv -u init.lua
@@ -532,7 +528,6 @@ mv ~/.local/share/nvim ~/.local/share/nvim.bak
 : 1673871261:0;./main.out
 : 1673871474:0;gcc -o pms ./main.c
 : 1673871477:0;./pms
-: 1673882887:0;cd notes
 : 1673882898:0;nv pps-pms.txt
 : 1673882901:0;nv pps-pms.md
 : 1673888411:0;cd Downloads
@@ -548,7 +543,6 @@ mv ~/.local/share/nvim ~/.local/share/nvim.bak
 : 1673945552:0;nv main_linux.c
 : 1673946839:0;rm -rf password.txt main.out
 : 1673946843:0;rm -rf password.txt *.out
-: 1673946845:0;lll
 : 1673949661:0;cd cp
 : 1673949664:0;nv satish.c
 : 1673951392:0;rm clang-issue.mp4
@@ -600,13 +594,11 @@ mv ~/.local/share/nvim ~/.local/share/nvim.bak
 : 1674274436:0;cd mirrors-and-hosts
 : 1674274640:0;nv rate-mirrors-arch.sh
 : 1674274652:0;./rate-mirrors-arch.sh
-: 1674275085:0;cali
 : 1674275103:0;ua-update-all
 : 1674275510:0;cd /etc
 : 1674275525:0;cd pacman.d
 : 1674275537:0;sudo mv mirrorlist-backup mirrorlist
 : 1674275569:0;sudo cp ~/projects/arch-setup/mirrorlist .
-: 1674275570:0;ls
 : 1674275573:0;nv mirrorlist
 : 1674275676:0;sudo systemctl start rate-mirrors.service
 : 1674275681:0;rsss
@@ -618,7 +610,6 @@ mv ~/.local/share/nvim ~/.local/share/nvim.bak
 : 1674282344:0;fd rate-mirror
 : 1674282394:0;cd /etc/systemd/system
 : 1674282398:0;nv rate-mirrors.service
-: 1674285097:0;one
 : 1674287566:0;cd lua
 : 1674287570:0;cd user
 : 1674287661:0;nv lazy.lua
@@ -638,29 +629,122 @@ mv ~/.local/share/nvim ~/.local/share/nvim.bak
 : 1674295818:0;cd .local/share/lunarvim
 : 1674295827:0;cd lvim/utils/installer
 : 1674295829:0;./uninstall.sh
-: 1674295832:0;ll
 : 1674295869:0;bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh)
 : 1674296220:0;cd pass
 : 1674296223:0;nv main.c
-: 1674299141:0;cd nvim
 : 1674299156:0;nv init.lua
-: 1674300049:0;yl
 : 1674300896:0;lv init.lua
 : 1674301395:0;lv
 : 1674302239:0;nvim --headless "+Lazy! sync" +qa
-: 1674311391:0;lg
 : 1674314448:0;ping 8.8.8.8
-: 1674314483:0;ys
 : 1674314509:0;uneo
-: 1674320724:0;c
 : 1674321543:0;yay -S xdg-desktop-portal-hyprland-git
 : 1674321602:0;yay -S polkit-kde-agent
 : 1674321647:0;yay -R xdg-desktop-portal-wlr
-: 1674321653:0;e
 : 1674321730:0;we
-: 1674321866:0;cd
-: 1674321868:0;nv
-: 1674322087:0;c
 : 1674322097:0;yay -S nwg-look
-: 1674322100:0;nv
 : 1674322106:0;yl
+: 1674322128:0;nwg-look
+: 1674322151:0;yay -R lxappearance
+: 1674322155:0;yay -c
+: 1674322159:0;cf
+: 1674322214:0;brave --enable-features=UseOzonePlatform --ozone-platform=wayland
+: 1674322561:0;cd
+: 1674322566:0;one
+: 1674322897:0;yay -S mpvpaper
+: 1674322964:0;cali
+: 1674322974:0;yt "https://www.youtube.com/watch?v=_AiJpvergBI"
+: 1674323011:0;yay ffnvcodec
+: 1674323057:0;cd projects
+: 1674323063:0;\
+git clone --single-branch https://github.com/GhostNaN/mpvpaper\
+#\
+cd mpvpaper\
+meson build --prefix=/usr/local\
+ninja -C build\
+#\
+ninja -C build install
+: 1674323082:0;nv /home/rishabh/projects/mpvpaper/build/meson-logs/meson-log.txt
+: 1674323152:0;mpv
+: 1674323206:0;pkg-config --list-allpkg-config --list-all
+: 1674323211:0;pkg-config --list-allpkg-config
+: 1674323216:0;pkg-config --list-all
+: 1674323224:0;pkg-config --list-all | fzf
+: 1674323253:0;ys mpvpaper
+: 1674323548:0;nv /home/rishabh/.cache/yay/mpvpaper/src/build/meson-logs/meson-log.txt
+: 1674324695:0;hyprctl clients
+: 1674324732:0;/usr/libexec/xdg-desktop-portal-hyprland
+: 1674324746:0;/usr/lib/xdg-desktop-portal
+: 1674324796:0;yay -R nemo
+: 1674324799:0;yay -Rns gnome
+: 1674325676:0;journalctl --user -eu xdg-desktop-portal-hyprland
+: 1674325848:0;yay -R xdg-desktop-portal-gtk
+: 1674359037:0;cd notes
+: 1674359358:0;glow
+: 1674359375:0;cd nvim
+: 1674359380:0;glow README.md
+: 1674359454:0;nv maths-syllabus
+: 1674359466:0;ls
+: 1674359474:0;mkdir .git
+: 1674359475:0;lg
+: 1674359481:0;nv Sylabus-ise-2.md
+: 1674362298:0;mv Complex\ Numbers.pdf ~/Clg-Notes
+: 1674362339:0;mv Module\ 6\ Complex\ Variable\ \(Differentiation\).pdf ~/Clg-Notes
+: 1674362437:0;mv Image\ to\ pdf_20012023_184213.pdf ~/Clg-Notes/Matrics-notes.pdf
+: 1674366395:0;yay -S nemo
+: 1674366903:0;nv
+: 1674370402:0;c
+: 1674370403:0;ys
+: 1674370551:0;mv ~/Downloads/WhatsApp\ Unknown\ 2023-01-22\ at\ 12.25.27\ PM.zip .
+: 1674370553:0;lll
+: 1674370559:0;unzip WhatsApp\ Unknown\ 2023-01-22\ at\ 12.25.27\ PM.zip
+: 1674370582:0;mkdir photos
+: 1674370590:0;mv *.jpeg photos
+: 1674370594:0;rm WhatsApp\ Unknown\ 2023-01-22\ at\ 12.25.27\ PM.zip
+: 1674370595:0;ll
+: 1674370754:0;cd down
+: 1674370759:0;rm jpg2pdf.pdf
+: 1674370776:0;mv jpg2pdf-1.pdf ~/Clg-Notes/beta-func.pdf
+: 1674370778:0;e
+: 1674373194:0;ping 8.8.8.8
+: 1674374704:0;c
+: 1674374725:0;ping 8.8.8.8
+: 1674378221:0;nv
+: 1674378628:0;c
+: 1674378632:0;yay -S ffnvcodec-headers
+: 1674378660:0;yay -S mpvpaper
+: 1674378693:0;yt "https://www.youtube.com/watch?v=_AiJpvergBI"
+: 1674378698:0;cd vid
+: 1674378699:0;yt "https://www.youtube.com/watch?v=_AiJpvergBI"
+: 1674378878:0;pacman -Qq | fzf
+: 1674379092:0;nv
+: 1674382912:0;speedtest
+: 1674385807:0;cd projects
+: 1674385817:0;cd
+: 1674389523:0;nv
+: 1674397265:0;c
+: 1674398782:0;hx
+: 1674398788:0;nv
+: 1674398799:0;hx ISE-2.md
+: 1674398837:0;nv
+: 1674398915:0;hx
+: 1674398954:0;nv
+: 1674398964:0;yel
+: 1674398999:0;cd .config/helix
+: 1674399000:0;ll
+: 1674399002:0;nv config.toml
+: 1674399016:0;yel
+: 1674399969:0;nv
+: 1674399984:0;cd nvim
+: 1674399985:0;ll
+: 1674399991:0;rm Falling\ Into\ a\ Black\ Hole\ \(Simulation\)-_AiJpvergBI.f299.mp4.part
+: 1674399992:0;ll
+: 1674399993:0;lg
+: 1674400016:0;ll
+: 1674400020:0;rm -rf plugin
+: 1674400020:0;ll
+: 1674400039:0;rm -rf ~/.local/share/nvim/site
+: 1674400041:0;ll
+: 1674400043:0;nv
+: 1674400347:0;yel
+: 1674400359:0;yl
