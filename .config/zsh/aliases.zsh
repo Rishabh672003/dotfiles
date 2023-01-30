@@ -57,10 +57,13 @@ alias wr='sudo systemctl restart waydroid-container'
 alias wl='sudo waydroid log'
 alias grub-update=' sudo grub-mkconfig -o /boot/grub/grub.cfg'
 alias wtr='curl -4 https://wttr.in/virar'
-alias gtnv='curl --output-dir ~/Applications/ \
-    -LO https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage'
+alias gtnv='rm -rf ~/Applications/squashfs-root/ ~/Applications/nvim.appimage > /dev/null 2>&1 && \
+    curl --output-dir ~/Applications/ \
+    -LO https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage && \
+    cd ~/Applications && chmod +x nvim.appimage && \
+    ~/Applications/nvim.appimage --appimage-extract > /dev/null 2>&1'
+alias nnvim='~/Applications/squashfs-root/AppRun'
 #alias nnvim='~/Applications/nvim.appimage'
-alias nnvim='~/Applications/squashfs-root/'
 alias ua-drop-caches='yay -Sc --aur --noconfirm'
 alias ua-update-all='export TMPFILE="$(mktemp)"; \
     sudo true; \

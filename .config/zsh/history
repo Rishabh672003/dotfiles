@@ -379,7 +379,6 @@ mv ~/.local/share/nvim ~/.local/share/nvim.bak
 : 1673453188:0;cd ..
 : 1673453323:0;nv indentline.lua
 : 1673453688:0;nv treesitter.lua
-: 1673453927:0;cdpp
 : 1673454816:0;git clone https://github.com/Rishabh672003/Neovim ~/.config/nvim -b from-scratch
 : 1673461591:0;nv ~/.config/nvim/init.lua
 : 1673461717:0;su root
@@ -659,8 +658,6 @@ ninja -C build install
 : 1674399991:0;rm Falling\ Into\ a\ Black\ Hole\ \(Simulation\)-_AiJpvergBI.f299.mp4.part
 : 1674400020:0;rm -rf plugin
 : 1674400039:0;rm -rf ~/.local/share/nvim/site
-: 1674400347:0;yel
-: 1674400359:0;yl
 : 1674401309:0;cd ala
 : 1674402298:0;nr
 : 1674404772:0;killall swaybg
@@ -741,8 +738,6 @@ ninja -C build install
 : 1674883205:0;time $SHELL -i -c exit
 : 1674883374:0;rm -rf LuaSnip
 : 1674886837:0;m
-: 1674887035:0;cd zap
-: 1674887041:0;nv zap.zsh
 : 1674890902:0;spicetify backup restore apply
 : 1674901256:0;nvim --version
 : 1674904449:0;pacman -Q | fzf
@@ -824,7 +819,6 @@ ninja -C build install
 : 1675051598:0;mkdir cprac
 : 1675051600:0;cd cprac
 : 1675054063:0;nv loop-sum.c
-: 1675055501:0;cd Downloads
 : 1675055518:0;unzip WhatsApp\ Unknown\ 2023-01-30\ at\ 8.58.31\ AM.zip
 : 1675055529:0;mkdir whatsapp
 : 1675055554:0;mv WhatsApp\ Image\ 2023-01-28* whatsapp
@@ -834,29 +828,22 @@ ninja -C build install
 : 1675059732:0;gh repo clone MordechaiHadad/bob
 : 1675059738:0;cd bob
 : 1675059744:0;git checkout feat/rollback
-: 1675059746:0;lg
 : 1675059768:0;cargo build
 : 1675059777:0;cd projects
 : 1675059782:0;mkdir nvim
 : 1675059798:0;cp -r ~/.local/share/bob/nightly* nvim
-: 1675059802:0;cd nvim
 : 1675059887:0;rm -rf ~/.local/bin/bob
 : 1675059906:0;cp target/debug/bob ~/.local/bin/
 : 1675059973:0;cp -r nightly-OkAnKrUS ~/.local/share/bob
 : 1675059992:0;ls
-: 1675060007:0;nv -v
 : 1675060023:0;rm -rf ~/.local/share/bob/*
 : 1675060050:0;rm -frf ~/.local/share/bob/*
 : 1675060131:0;cd .local/share/bob
-: 1675060135:0;rm -rf nightly
 : 1675060164:0;bob rollback
-: 1675060503:0;cd nightly
 : 1675060507:0;nv bob.json
-: 1675060588:0;bob ls
 : 1675060609:0;cd ~/.local/share/neovim
 : 1675060611:0;cd ~/.local/share
 : 1675060621:0;rm neovim
-: 1675060625:0;uneo
 : 1675060630:0;bob use nightly
 : 1675060710:0;curl --help
 : 1675060723:0;curl -O https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage
@@ -866,26 +853,91 @@ ninja -C build install
 : 1675061075:0;nv
 : 1675061158:0;lll
 : 1675061237:0;nvim
-: 1675061289:0;nnvim
 : 1675061305:0;./nvim
 : 1675061454:0;rm nvim
 : 1675061490:0;rm squashfs-root
-: 1675061545:0;e
-: 1675061614:0;cdp
-: 1675061615:0;cd
 : 1675061618:0;rm -rf squashfs-root
-: 1675061622:0;cd Applications
-: 1675061629:0;rm -rf squashfs-root nvim.appimage
 : 1675061691:0;./nvim.appimage --appimage-extract
 : 1675061694:0;cd squashfs-root
-: 1675061694:0;ll
 : 1675061699:0;./AppRun
 : 1675061710:0;ls ~/.local/share/bob
 : 1675061714:0;ls ~/.local/share/bob/nightly
 : 1675061719:0;ls ~/.local/share/bob/nightly/nvim-linux64
 : 1675061797:0;c
-: 1675061798:0;gtnv
-: 1675061818:0;exec zsh
-: 1675061819:0;gtnv
 : 1675061886:0;yel
 : 1675061935:0;yl
+: 1675062025:0;cd nvim
+: 1675062028:0;lg
+: 1675062077:0;cd Applications
+: 1675062122:0;curl --output-dir ~/Applications/ -LO https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage && cd ~/Applications && ~/Applications/nvim.appimage --appimage-extract
+: 1675062165:0;rm -rf squashfs-root nvim.appimage
+: 1675062170:0;curl --output-dir ~/Applications/ -LO https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage && cd ~/Applications && chmod +x nvim.appimage && ~/Applications/nvim.appimage --appimage-extract
+: 1675062308:0;cd zap
+: 1675062312:0;nv zap.zsh
+: 1675062367:0;exec zsh
+: 1675062369:0;gtnv
+: 1675062389:0;nnvim
+: 1675062651:0;./nvim.appimage
+: 1675067024:0;cd
+: 1675067028:0;cd Downloads
+: 1675067179:0;cd nightly
+: 1675067190:0;./nvim-linux64/bin/nvim
+: 1675067196:0;cd nvim-linux64/bin
+: 1675067203:0;chmod +x nvim
+: 1675067210:0;./nvim --version
+: 1675067219:0;nv -v
+: 1675067347:0;cd ~/.local/share/bob
+: 1675067361:0;rm -rf nightly
+: 1675067365:0;cdpp
+: 1675067367:0;cdp
+: 1675067388:0;cp -r nightly ~/.local/share/bob
+: 1675067389:0;ll
+: 1675067392:0;bob ls
+: 1675067395:0;uneo
+: 1675067414:0;e
+: 1675067430:0;cd .local/share/neovim
+: 1675067432:0;ll
+: 1675067433:0;cdp
+: 1675067434:0;ll
+: 1675067437:0;cd bob
+: 1675067438:0;ll
+: 1675067445:0;bob ls
+: 1675067450:0;nv -v
+: 1675067457:0;bob rollback
+: 1675067461:0;ll
+: 1675067465:0;bob ls
+: 1675067478:0;nv -v
+: 1675067491:0;bob use nightly
+: 1675067494:0;nv -v
+: 1675067536:0;c
+: 1675067537:0;ll
+: 1675067539:0;c
+: 1675067539:0;cd
+: 1675067540:0;c
+: 1675067602:0;bob ls
+: 1675067605:0;nv -v
+: 1675067613:0;bob use nightly
+: 1675067622:0;c
+: 1675067624:0;bob ls
+: 1675067628:0;nv -v
+: 1675067632:0;bob rollback
+: 1675067635:0;nv -v
+: 1675067709:0;c
+: 1675067710:0;ll
+: 1675067711:0;c
+: 1675067712:0;nv
+: 1675067726:0;gtnv
+: 1675068571:0;nv
+: 1675068598:0;cd
+: 1675068599:0;c
+: 1675068677:0;nv
+: 1675068705:0;cd nvim
+: 1675068706:0;ll
+: 1675068709:0;lg
+: 1675068712:0;cd zsh
+: 1675068713:0;ll
+: 1675068716:0;cdd zsh
+: 1675068720:0;lg
+: 1675068723:0;c
+: 1675068728:0;yel
+: 1675068732:0;yl
