@@ -31,6 +31,7 @@ local options = {
 	wrap = false, -- display lines as one long line
 	scrolloff = 8, -- is one of my fav
 	sidescrolloff = 8,
+	laststatus = 0,
 	virtualedit = "onemore",
 	linebreak = true,
 	guifont = "JetBrainsMono Nerd Font Regular:h13", -- the font used in graphical neovim applications
@@ -44,4 +45,6 @@ vim.opt.shortmess:append("c")
 vim.opt.formatoptions:remove({ "c", "r", "o" })
 vim.opt.iskeyword:append("-")
 vim.opt.whichwrap:append("<,>,[,],h,l")
--- vim.opt.diffopt:append("linematch:60")
+vim.opt.diffopt:append("linematch:60")
+vim.opt.cinkeys:remove(":")
+vim.opt.indentkeys:remove(":")

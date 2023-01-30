@@ -1,7 +1,7 @@
 require("zen-mode").setup({
 	window = {
 		backdrop = 1,
-		height = 0.9,
+		height = 0.87,
 		-- width = 0.5,
 		width = 80,
 		options = {
@@ -18,17 +18,22 @@ require("zen-mode").setup({
 		gitsigns = { enabled = false },
 		tmux = { enabled = false },
 		twilight = { enabled = false },
+		alacritty = {
+			enabled = false,
+			font = "15", -- font size
+		},
 	},
 	on_open = function()
 		-- require("lsp-inlayhints").toggle()
 		vim.g.cmp_active = false
 		vim.cmd([[LspStop]])
-		-- vim.opt.sho
+		require("lualine").hide()
+		vim.o.statusline = " "
 	end,
 	on_close = function()
 		-- require("lsp-inlayhints").toggle()
 		vim.g.cmp_active = true
 		vim.cmd([[LspStart]])
-		-- require("user.winbar").create_winbar()
+		require("lualine").hide({ unhide = true })
 	end,
 })

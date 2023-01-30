@@ -21,13 +21,6 @@ require("lazy").setup({
 		timeout = 600,
 	},
 	{
-		"folke/which-key.nvim",
-		event = "VeryLazy",
-		config = function()
-			require("rj.plugins.whichkey")
-		end,
-	},
-	{
 		"catppuccin/nvim",
 		name = "catppuccin",
 		lazy = false, -- make sure we load this during startup if it is your main colorscheme
@@ -36,6 +29,13 @@ require("lazy").setup({
 			require("rj.plugins.catppuccin")
 		end,
 		dependencies = {},
+	},
+	{
+		"folke/which-key.nvim",
+		event = "VeryLazy",
+		config = function()
+			require("rj.plugins.whichkey")
+		end,
 	},
 	{
 		"lukas-reineke/indent-blankline.nvim",
@@ -78,7 +78,7 @@ require("lazy").setup({
 			"hrsh7th/cmp-nvim-lsp",
 		},
 		config = function()
-			require("rj.plugins.cmp")
+			require("rj.plugins.nvim-cmp")
 		end,
 	},
 	{ "L3MON4D3/LuaSnip", event = "InsertEnter", dependencies = {
@@ -119,13 +119,10 @@ require("lazy").setup({
 			{ "nvim-telescope/telescope-file-browser.nvim", lazy = true },
 			{
 				"ahmedkhalf/project.nvim",
-				config = function()
-					require("rj.plugins.project")
-				end,
 			},
 		},
 		config = function()
-			require("rj.plugins.telescope")
+			require("rj.plugins.nvim-telescope")
 		end,
 	},
 	{ "folke/tokyonight.nvim", event = "VeryLazy" },
@@ -340,15 +337,23 @@ require("lazy").setup({
 		end,
 	},
 	{
-		"gaoDean/autolist.nvim",
-		ft = {
-			"markdown",
-			"text",
-			"tex",
-			"plaintex",
-		},
-		config = function()
-			require("rj.plugins.autolist")
+		"iamcco/markdown-preview.nvim",
+		build = function()
+			vim.fn["mkdp#util#install"]()
 		end,
 	},
+	-- {
+	-- 	"lewis6991/satellite.nvim",
+	-- 	config = function()
+	-- 		require("satellite").setup()
+	-- 	end,
+	-- },
+	-- {
+	-- 	"Pocco81/auto-save.nvim",
+	-- 	config = function()
+	-- 		require("auto-save").setup({
+	-- 			enabled = false,
+	-- 		})
+	-- 	end,
+	-- },
 })
