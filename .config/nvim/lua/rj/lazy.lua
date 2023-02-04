@@ -81,9 +81,16 @@ require("lazy").setup({
 			require("rj.plugins.nvim-cmp")
 		end,
 	},
-	{ "L3MON4D3/LuaSnip", event = "InsertEnter", dependencies = {
-		"rafamadriz/friendly-snippets",
-	} },
+	{
+		"L3MON4D3/LuaSnip",
+		event = "InsertEnter",
+		config = function()
+			require("rj.plugins.nvim-luasnip")
+		end,
+		dependencies = {
+			"rafamadriz/friendly-snippets",
+		},
+	},
 	{ "neovim/nvim-lspconfig", lazy = true },
 	{
 		"williamboman/mason.nvim",
@@ -91,10 +98,13 @@ require("lazy").setup({
 		config = function()
 			require("rj.plugins.lsp.mason")
 		end,
-	},
-	{
-		"williamboman/mason-lspconfig.nvim",
-		lazy = true,
+		dependencies = {
+			{ "b0o/schemastore.nvim", lazy = true },
+			{
+				"williamboman/mason-lspconfig.nvim",
+				lazy = true,
+			},
+		},
 	},
 	{
 		"jose-elias-alvarez/null-ls.nvim",
@@ -105,16 +115,16 @@ require("lazy").setup({
 	},
 	{
 		"p00f/clangd_extensions.nvim",
-		event = "BufReadPre",
+		lazy = true,
+		ft = "c",
 		config = function()
 			require("rj.plugins.lsp.clangd")
 		end,
 	},
-	{ "b0o/schemastore.nvim", lazy = false },
 	{
 		"nvim-telescope/telescope.nvim",
 		event = "Bufenter",
-		-- cmd = { "Telescope", "Telescope projects" },
+		cmd = { "Telescope" },
 		dependencies = {
 			{ "nvim-telescope/telescope-file-browser.nvim", lazy = true },
 			{
@@ -129,7 +139,6 @@ require("lazy").setup({
 	{
 		"RRethy/vim-illuminate",
 		event = "VeryLazy",
-		-- event = "BufReadPost",
 		lazy = false,
 		config = function()
 			require("rj.plugins.illuminate")
@@ -164,9 +173,14 @@ require("lazy").setup({
 		end,
 	},
 	{
+		"NvChad/nvim-colorizer.lua",
+		config = function()
+			require("rj.plugins.colorizer")
+		end,
+	},
+	{
 		"utilyre/barbecue.nvim",
 		event = "BufReadPre",
-		--branch = "hotfix/colorscheme-switch",
 		config = function()
 			require("rj.plugins.barbecue.barbecue")
 		end,
@@ -181,7 +195,8 @@ require("lazy").setup({
 	},
 	{
 		"kyazdani42/nvim-tree.lua",
-		cmd = "NvimTreeToggle",
+		event = "VimEnter",
+		-- cmd = "NvimTreeToggle",
 		tag = "nightly", -- optional, updated every week. (see issue #1193)
 		config = function()
 			require("rj.plugins.nvim-tree")
@@ -285,7 +300,6 @@ require("lazy").setup({
 			require("fidget").setup({})
 		end,
 	},
-	{ "ellisonleao/glow.nvim" },
 	{
 		"folke/zen-mode.nvim",
 		cmd = "ZenMode",
@@ -294,15 +308,6 @@ require("lazy").setup({
 		end,
 	},
 	{ "ThePrimeagen/vim-be-good", cmd = "VimBeGood" },
-	{
-		"jackMort/pommodoro-clock.nvim",
-		-- event = "VeryLazy",
-		config = function()
-			require("pommodoro-clock").setup({
-				-- optional configuration
-			})
-		end,
-	},
 	{
 		"mfussenegger/nvim-dap-python",
 		commit = "27a0eff2bd3114269bb010d895b179e667e712bd",
@@ -341,6 +346,27 @@ require("lazy").setup({
 		build = function()
 			vim.fn["mkdp#util#install"]()
 		end,
+	},
+	{
+		"nvim-neorg/neorg",
+		lazy = true,
+		ft = "norg",
+		cmd = "Neorg",
+		build = ":Neorg sync-parsers",
+		opts = {
+			load = {
+				["core.defaults"] = {}, -- Loads default behaviour
+				["core.norg.concealer"] = {}, -- Adds pretty icons to your documents
+				["core.norg.dirman"] = { -- Manages Neorg workspaces
+					config = {
+						workspaces = {
+							notes = "~/notes",
+						},
+					},
+				},
+			},
+		},
+		dependencies = { { "nvim-lua/plenary.nvim" } },
 	},
 	-- {
 	-- 	"lewis6991/satellite.nvim",
