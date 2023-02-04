@@ -18,8 +18,8 @@ window:
   opacity: 0.4
   dynamic_padding: true
 
-# shell:
-#   program: /bin/zsh
+shell:
+  program: /bin/zsh
 #   args:
 #     - --login
 

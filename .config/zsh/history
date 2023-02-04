@@ -480,7 +480,6 @@ mv ~/.local/share/nvim ~/.local/share/nvim.bak
 : 1673805647:0;cd lazyvim
 : 1673805675:0;nv -u init.lua
 : 1673805737:0;git clone https://github.com/LazyVim/starter ~/.config/nvim
-: 1673805988:0;cd .config/zsh
 : 1673843067:0;mkdir notes
 : 1673844526:0;nv pc-assembly-cpu
 : 1673844527:0;nv pc-assembly-cpu.md
@@ -664,7 +663,6 @@ ninja -C build install
 : 1674490406:0;nv a.c
 : 1674491174:0;cd Notes
 : 1674491183:0;mv .git ~/Clg-Notes
-: 1674491186:0;cd clg
 : 1674496858:0;gcc -o mat.out mat.c
 : 1674496861:0;./mat.out
 : 1674496898:0;rm mat.out
@@ -758,13 +756,10 @@ ninja -C build install
 : 1675002378:0;vim a.cpp
 : 1675002396:0;wf-recorder -g "$(slurp)" -f ~/cpp-issue-vim.mp4
 : 1675002442:0;hx a.cpp
-: 1675002835:0;cd getnf
-: 1675002838:0;./getnf
 : 1675002945:0;cd Downloads/Martian_Mono
 : 1675002959:0;cp MartianMono-VariableFont_wdth,wght.ttf ~/.local/share/fonts
 : 1675002967:0;fc-cache -fv
 : 1675003012:0;kitty ls-fonts
-: 1675003019:0;kitty --ls-fonts
 : 1675012190:0;cd nvi
 : 1675014657:0;vn
 : 1675014798:0;cd lazy/project.nvim
@@ -833,8 +828,6 @@ ninja -C build install
 : 1675067635:0;nv -v
 : 1675067726:0;gtnv
 : 1675068716:0;cdd zsh
-: 1675068728:0;yel
-: 1675068732:0;yl
 : 1675068771:0;nvim
 : 1675069785:0;nv qbit.sh
 : 1675069938:0;cd .config/nvim
@@ -872,7 +865,6 @@ ninja -C build install
 : 1675181233:0;bob
 : 1675181507:0;nv pps-prac.md
 : 1675183953:0;cd projects/prac
-: 1675187035:0;nv .
 : 1675222266:0;fd *.c
 : 1675222279:0;fd .c
 : 1675233385:0;cd pra
@@ -897,13 +889,11 @@ ninja -C build install
 : 1675240381:0;cd one
 : 1675240388:0;one
 : 1675240397:0;rm -rf nvim
-: 1675256950:0;cd nvim
 : 1675257079:0;exit
 : 1675257195:0;time exec zsh
 : 1675257478:0;cd projects/Notes
 : 1675257610:0;vim lua/rj/plugins/lsp/init.lua
 : 1675257652:0;vim lua/rj/lazy.lua
-: 1675259694:0;nv .gitignore
 : 1675259715:0;rm .replit replit.nix
 : 1675262998:0;cd pro
 : 1675263003:0;mkdir arduino
@@ -943,7 +933,6 @@ ninja -C build install
 : 1675359995:0;cdd notes
 : 1675360003:0;nv chem.md
 : 1675360188:0;bob install 0.8.3
-: 1675363069:0;cd projects
 : 1675363071:0;gh repo clone Rishabh672003/Rishabh672003.github.io
 : 1675363078:0;cd Rishabh672003.github.io
 : 1675363092:0;mv SignUp\ and\ Login/* .
@@ -953,12 +942,10 @@ ninja -C build install
 : 1675426364:0;nv /
 : 1675428280:0;speedtest
 : 1675428807:0;nr
-: 1675429466:0;ys
 : 1675435143:0;evince sem\ i\ ai\&ml_15.pdf
 : 1675435804:0;we
 : 1675436017:0;cd web
 : 1675436265:0;git pull
-: 1675436277:0;lg
 : 1675436288:0;cp README.md ..
 : 1675436292:0;nv README.md
 : 1675439488:0;sdr
@@ -968,7 +955,6 @@ ninja -C build install
 : 1675440315:0;hx
 : 1675440342:0;helix-git
 : 1675440344:0;yay helix
-: 1675442707:0;cd zsh
 : 1675445406:0;bob ls
 : 1675445423:0;bob rollback
 : 1675445433:0;uneo
@@ -977,47 +963,56 @@ ninja -C build install
 : 1675445979:0;cd .cache
 : 1675445997:0;rm p10k-*
 : 1675446013:0;cz
-: 1675446053:0;time $SHELL -i -c exit
-: 1675446136:0;lll
 : 1675446206:0;yay -S alacritty
 : 1675446286:0;kk
-: 1675446299:0;cd
 : 1675446302:0;cd Downloads
 : 1675446305:0;nv bible.txt
-: 1675446525:0;ls
-: 1675447174:0;cc
 : 1675447443:0;rm -rf *.out
-: 1675447446:0;cdp
-: 1675447661:0;p10k configure
 : 1675448023:0;export KITTY_ENABLE_WAYLAND=1
 : 1675448313:0;exec zsh
-: 1675448363:0;nv
 : 1675448404:0;cll
-: 1675448460:0;l
-: 1675448476:0;c
-: 1675448700:0;ll
-: 1675448703:0;e
-: 1675448705:0;ll
-: 1675448711:0;c
-: 1675448715:0;nv
 : 1675448730:0;kitty --ls-fonts
 : 1675448732:0;kitty
-: 1675480561:0;c
-: 1675480562:0;ll
 : 1675480808:0;cd clg
-: 1675480809:0;ll
-: 1675480824:0;nv ESE/chemistry.md
-: 1675480843:0;nv .
-: 1675480884:0;nv ESE/chemistry.md
 : 1675483693:0;nv .
-: 1675483742:0;yel
-: 1675483809:0;yl
 : 1675483825:0;cd .config/fish
-: 1675483826:0;ll
 : 1675483838:0;cd functions
-: 1675483839:0;l
-: 1675483839:0;ll
 : 1675483843:0;cdp
 : 1675483850:0;rm -rf functions
 : 1675483852:0;yl
 : 1675483864:0;nv .gitignore
+: 1675484034:0;nv ESE/chemistry.md
+: 1675485816:0;cd getnf
+: 1675485821:0;./getnf
+: 1675485859:0;cc
+: 1675489433:0;grep -IrFl $TERM <dir>
+: 1675489436:0;echo $TERM
+: 1675489718:0;cd nvim
+: 1675490625:0;ys
+: 1675490697:0;p10k configure
+: 1675490822:0;cd .config/zsh
+: 1675490843:0;l
+: 1675490844:0;sls
+: 1675490849:0;lg
+: 1675490872:0;yel
+: 1675490886:0;cd
+: 1675491641:0;cd zsh
+: 1675491656:0;time $SHELL -i -c exit
+: 1675491735:0;beautysh ~/.config/zsh/.p10k.zsh
+: 1675492194:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
+: 1675492619:0;lll
+: 1675492672:0;nvim --clean ~/.config/zsh/.p10k.zsh
+: 1675492725:0;ls
+: 1675492730:0;cd projects
+: 1675492735:0;nv p10
+: 1675492788:0;micro ~/.config/zsh/.p10k.zsh
+: 1675492873:0;gedit
+: 1675492889:0;ll
+: 1675492898:0;vscodium
+: 1675493008:0;nv
+: 1675493019:0;c
+: 1675493021:0;e
+: 1675493025:0;ll
+: 1675493027:0;c
+: 1675493052:0;nv
+: 1675493107:0;yl

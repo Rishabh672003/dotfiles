@@ -68,7 +68,9 @@ require("lazy").setup({
 	--cmp stuff
 	{
 		"hrsh7th/nvim-cmp",
-		event = { "InsertEnter", "CmdlineEnter" },
+		event = {
+			"InsertEnter",--[[ , "CmdlineEnter"  ]]
+		},
 		dependencies = {
 			"hrsh7th/cmp-nvim-lsp",
 			{ "hrsh7th/cmp-buffer", event = "InsertEnter" },
@@ -242,7 +244,7 @@ require("lazy").setup({
 			require("rj.plugins.lastplace")
 		end,
 	},
-	{ "LunarVim/bigfile.nvim" },
+	-- { "LunarVim/bigfile.nvim" },
 	{
 		"windwp/nvim-autopairs",
 		event = "InsertEnter",
