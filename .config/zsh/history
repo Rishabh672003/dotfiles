@@ -1113,3 +1113,43 @@ ninja -C build install
 : 1675609128:0;ll
 : 1675609133:0;nv hyprland.conf
 : 1675609194:0;yl
+: 1675609468:0;c
+: 1675609469:0;ll
+: 1675609470:0;c
+: 1675609471:0;nv
+: 1675609473:0;c
+: 1675609474:0;lll
+: 1675609475:0;c
+: 1675609617:0;cd
+: 1675609620:0;cd projects
+: 1675609621:0;gh repo clone Rishabh672003/Wallpapers
+: 1675609643:0;mv ~/Pictures/wallpapers/* Wallpapers
+: 1675609654:0;rm -rf ~/Pictures/wallpapers
+: 1675609662:0;mv Wallpapers ~/Pictures
+: 1675609664:0;ls
+: 1675609668:0;cd
+: 1675609670:0;cd Pictures
+: 1675609673:0;cd Wallpapers
+: 1675609674:0;ll
+: 1675609677:0;lg
+: 1675609767:0;ls
+: 1675609769:0;ll
+: 1675609770:0;c
+: 1675609818:0;cd pro
+: 1675609819:0;ll
+: 1675610026:0;yadm submodule add https://github.com/Rishabh672003/Wallpapers
+: 1675610046:0;c
+: 1675610049:0;cd pi
+: 1675610050:0;ll
+: 1675610052:0;cd Wallpapers
+: 1675610054:0;ll
+: 1675610055:0;cdp
+: 1675610060:0;rm -rf Wallpapers
+: 1675610064:0;yadm submodule add https://github.com/Rishabh672003/Wallpapers
+: 1675610250:0;yadm status
+: 1675610257:0;ls
+: 1675610259:0;cd
+: 1675610260:0;ll
+: 1675610265:0;nv .gitmodules
+: 1675610272:0;c
+: 1675610298:0;yl
