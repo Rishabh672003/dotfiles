@@ -1,7 +1,8 @@
 # dotfiles
 
 all of my dotfiles,
-these are managed by a software called [yadm](https://github.com/TheLocehiliosan/yadm) and my wallpapers are in ~/.config/hypr/wallpaper
+these are managed by [yadm](https://github.com/TheLocehiliosan/yadm)
+At first this repo contained my wallpapers also but that would just make it very big in size so now they are in a different repo and they are at https://github.com/Rishabh672003/Wallpapers
 
 # Showcase
 
