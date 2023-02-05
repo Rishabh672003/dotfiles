@@ -23,7 +23,7 @@ yadm add ~/.config/wofi;
 yadm add ~/.config/zsh;
 yadm add ~/.config/wpaperd;
 yadm add ~/.config/yadm;
-yadm add ~/other-configs/*;
+yadm add ~/other-stuff;
 
 yadm commit -a -m "update";
 yadm push
