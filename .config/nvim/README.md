@@ -4,7 +4,7 @@ This repo contains all my [neovim](https://github.com/neovim/neovim) configs fil
 
 ### 🛠️ If you also want to use it
 
-#### The Main branch of this repo is configured by me for the developement branch of Neovim which i use, if you are not using the developement branch but the 0.7.2 version of Neovim use that branch, its very stable and will always work for 0.7 version of Neovim
+#### It only works with nvim-nightly
 
 #### Neovim-nightly as an appimage
 
@@ -65,8 +65,8 @@ sh <(curl -s https://raw.githubusercontent.com/Rishabh672003/Neovim/main/install
 
 ## Preview
 
-You can change the startup-screen if you dont like this one go to lua/user/startup-screens and read the readme there
-![image](https://user-images.githubusercontent.com/53911515/213928010-84361382-5006-4bc4-a82b-fa44285fa850.png)
+You can change the startup-screen if you dont like this one go to lua/rj/plugins/alpha-themes and read the readme there
+![image](https://user-images.githubusercontent.com/53911515/216835823-ff85c1d6-ab03-408c-9d7b-83c0f56a5445.png)
 ![image](https://user-images.githubusercontent.com/53911515/213927853-5e6460ed-a54d-414a-9151-f283d0ca9299.png)
 ![image](https://user-images.githubusercontent.com/53911515/213927964-90035c3a-cd4b-4983-9e30-604bd15f0fc4.png)
 ![image](https://user-images.githubusercontent.com/53911515/213927987-5e764e77-e82d-41fd-a97a-1be6952137e3.png)

@@ -1,650 +1,3 @@
-: 1671978853:0;cp user/lsp/handlers.lua plugins.lua
-: 1671978859:0;nv ~/python-study/10.py
-: 1671981603:0;nv user
-: 1671982227:0;nv --startuptime b.log
-: 1671982230:0;nv b.log
-: 1671989155:0;cd hypr/scripts
-: 1671990094:0;yay -S nap
-: 1671990102:0;yay nap
-: 1671990676:0;bob install nightly
-: 1671991603:0;rm b.log
-: 1671991623:0;cd .vscode-oss
-: 1671991747:0;nv .vim
-: 1671991758:0;rm -rf .vim
-: 1671991787:0;trash-rm .gitmoji
-: 1671991797:0;trash-list
-: 1672067424:0;nv 3
-: 1672067438:0;cd Downloads/nvim
-: 1672067442:0;cd lua/iggy
-: 1672067460:0;nv alpha.lua
-: 1672067540:0;cp -r nvim ~/.config
-: 1672067964:0;rm plugin/packer_compiled.lua
-: 1672069054:0;git clone https://github.com/Rishabh672003/Neovim ~/.config/nvim -b lazy && nvim
-: 1672070707:0;git checkout la
-: 1672075621:0;nv 41.py
-: 1672075965:0;rm snapshots
-: 1672075970:0;rm -rf snapshots
-: 1672078004:0;mkdir minimal
-: 1672078020:0;cp -r ~/.config/nvim/* .
-: 1672078027:0;rm -rf .git
-: 1672078035:0;rm -rf ftplugin plugin
-: 1672079710:0;cd minimal
-: 1672080191:0;nvim --clean -u minimal.lua
-: 1672152010:0;cd .config/nvim/lua/user
-: 1672152013:0;nv whichkey.lua
-: 1672152386:0;git checkout -b lazy-without-packer
-: 1672157208:0;\
-\
-docker volume rm $(docker volume ls -f dangling=true -q)\
-docker rmi $(docker images --quiet --filter "dangling=true")\
-
-: 1672157235:0;sudo docker volume rm $(docker volume ls -f dangling=true -q) &&\
-sudo docker rmi $(docker images --quiet --filter "dangling=true")
-: 1672161099:0;lg p
-: 1672161368:0;cp lua/user/lazy.lua ~/projects
-: 1672161388:0;cp ~/projects/lazy.lua lua/user
-: 1672163477:0;nv --startuptime a2.log
-: 1672163481:0;nv a2.log
-: 1672163874:0;rm *.log
-: 1672164028:0;nv .con
-: 1672164036:0;cd alacritty
-: 1672164039:0;nv alacritty.yml
-: 1672164129:0;cd pr
-: 1672164140:0;rm a.lua
-: 1672164143:0;rm -rf a
-: 1672164145:0;lllllll
-: 1672237941:0;rm a2.log
-: 1672238089:0;rm issue2.mp4 issue.mp4
-: 1672240022:0;nv for .c
-: 1672241402:0;nv for.c
-: 1672248827:0;q
-: 1672248912:0;wget
-: 1672249360:0;git bisect help
-: 1672249465:0;rm -rf $HOME/.local/share/nvim $HOME/.cache/nvim
-: 1672249638:0;cp lua/user/plugins.lua ~/projects
-: 1672249706:0;cd lua/user/lazy.lua
-: 1672249773:0;hx projects/plugins.lua
-: 1672249823:0;vim projects/plugins.lua
-: 1672249865:0;nv projects/plugins.lua
-: 1672328372:0;gh repo clone Rishabh672003/outlet
-: 1672328404:0;cd outlet
-: 1672329343:0;nv healthcare.c
-: 1672329679:0;gh repo clone Rishabh672003/Health-Care-Organisation-System-
-: 1672332215:0;cp .gitignore ~/projects/Health-Care-Organisation-System-
-: 1672337298:0;cp main.c ~/projects/learning-C
-: 1672337309:0;cp main.c ~/projects/cpro/health.c
-: 1672407471:0;gh repo clone Rishabh672003/Password-management-system
-: 1672407482:0;mv Password-management-system projects
-: 1672408853:0;cd Health-Care-Organisation-System-
-: 1672409957:0;cd Password-management-system
-: 1672410680:0;vscodium lua/user/lazy.lua
-: 1672412386:0;cp main.c ~/projects/cpro/fprintf.c
-: 1672412389:0;ccc
-: 1672412445:0;cd projects/learning-C
-: 1672415177:0;rm -rf $HOME/.local/share/nvim $HOME/.cache/nvim plugin
-: 1672415977:0;nap
-: 1672415999:0;nrandom
-: 1672416009:0;nv bigfile.txt
-: 1672418371:0;rm -rf $HOME/.local/share/nvim
-: 1672420937:0;nv c.lua
-: 1672421080:0;rm -rf AniPy
-: 1672421081:0;gh repo clone jindalpratik/AniPy
-: 1672421100:0;pip3 install -r requirements.txt
-: 1672421766:0;nv clangd.lua
-: 1672421793:0;rm c.lua
-: 1672421850:0;nv pro
-: 1672421871:0;cd fprintf.c
-: 1672463440:0;cd workspace
-: 1672463456:0;mv main.c fprintf.c
-: 1672463597:0;nv reference.c
-: 1672463743:0;nv reference1.c
-: 1672469765:0;git clone https://github.com/zoelabbb/conio.h.git
-: 1672469837:0;cd conio.h
-: 1672469855:0;sudo make install
-: 1672470302:0;nv conio.h
-: 1672470914:0;nv fprintf.c
-: 1672471139:0;nv host.c
-: 1672471269:0;cp host.c ~/projects/Password-management-system
-: 1672471326:0;mkdir things_we_learned_while_making_this_project
-: 1672471347:0;cp fprintf.c reference1.c reference2.c host.c things_we_learned_while_making_this_project
-: 1672471354:0;mv fprintf.c reference1.c reference2.c host.c things_we_learned_while_making_this_project
-: 1672476724:0;cls
-: 1672476804:0;vf projects
-: 1672478866:0;rm -rf projects/password.txt
-: 1672486968:0;cd projects/Password-management-system
-: 1672487387:0;mv things_we_learned_while_making_this_project things_i_learned_while_making_this_project
-: 1672492545:0;rm *.out
-: 1672492927:0;nv ~/.config/nvim/lua/user/lazy.lua
-: 1672500156:0;yay -S powertop
-: 1672500166:0;powertop
-: 1672500171:0;sudo powertop
-: 1672500578:0;nv sleep.sh
-: 1672508868:0;nv cricket.c
-: 1672510354:0;nv projects/password.txt
-: 1672510383:0;rm projects/password.txt
-: 1672546967:0;ys battop
-: 1672547008:0;battop
-: 1672554712:0;nv ~/Downloads/password.txt
-: 1672555605:0;rm ~/Downloads/password.txt
-: 1672556352:0;git checkout -b no-file
-: 1672557713:0;git checkout -b main
-: 1672558825:0;nv Downloads/password.txt
-: 1672558886:0;rm -rf ~/Downloads/password.txt
-: 1672561043:0;cd jspro
-: 1672561047:0;rm a.vue
-: 1672561150:0;lv a.js
-: 1672576118:0;waydroid
-: 1672576122:0;waydroid -h
-: 1672579472:0;cd js
-: 1672579476:0;nv a.js
-: 1672581938:0;sudo rm -rf /var/lib/waydroid
-: 1672581975:0;cd random-repos
-: 1672583860:0;pkill kdeconnectd
-: 1672587193:0;cd heal
-: 1672594416:0;rm *.xml
-: 1672594805:0;nv fact.c
-: 1672597055:0;cd /usr/share/
-: 1672597091:0;sudo mkdir -p waydroid-extra/images
-: 1672597103:0;cd waydroid-extra/images
-: 1672597128:0;cp ~/Downloads/lineage-17.1-20220723-VANILLA-waydroid_x86_64-system\(1\)/system.img .
-: 1672597134:0;sudo cp ~/Downloads/lineage-17.1-20220723-VANILLA-waydroid_x86_64-system\(1\)/system.img .
-: 1672597158:0;sudo cp ~/Downloads/lineage-17.1-20220723-MAINLINE-waydroid_x86_64-vendor/vendor.img .
-: 1672597176:0;wwr
-: 1672597260:0;wl
-: 1672597353:0;sudo rm -rf /usr/share/waydroid-extra
-: 1672597360:0;sudo rm -rf ~/.local/share/waydroid
-: 1672670241:0;wf-recorder -g "$(slurp)" -f issue.mp4
-: 1672672046:0;cd lua/user/
-: 1672672052:0;nv attach.lua
-: 1672674835:0;nv script.sh
-: 1672674849:0;chmod +x script.sh
-: 1672677368:0;rm *.exe
-: 1672677376:0;nv a.exe
-: 1672677385:0;rm a.exe
-: 1672677401:0;mkdir hacker_rank
-: 1672681163:0;nv 1.c
-: 1672685586:0;playerctl --all-players
-: 1672685591:0;playerctl open
-: 1672685595:0;playerctl pause
-: 1672685599:0;playerctl play
-: 1672685605:0;cd scripts
-: 1672685612:0;python empris.py
-: 1672758166:0;./script.sh
-: 1672758268:0;/tmp/lazy-lvim/bin/lvim
-: 1672759986:0;cd learning
-: 1672760006:0;cd college_C_stuff
-: 1672760029:0;nv pms.c
-: 1672762430:0;nv password.tx
-: 1672765004:0;rm pms.c
-: 1672766521:0;rm pms.out
-: 1672766640:0;rm main.out
-: 1672768158:0;chafa
-: 1672768167:0;chafa ~/Pictures/20221108_20h42m50s_grim.png
-: 1672768176:0;chafa ~/Pictures/22d9b978f65a0490b0128dc24730190dc9fd550147c4cc33ad8318b23fdc67d1_1.webp
-: 1672768204:0;cd Pictures
-: 1672768209:0;chafa ~/Pictures/main_image_star-forming_region_carina_nircam_final-5mb.jpg
-: 1672853081:0;rm point.out
-: 1672853172:0;./point.out
-: 1672853917:0;nv 2.c
-: 1672853929:0;./2.out
-: 1672853944:0;nv point.c
-: 1672936215:0;git checkout -b packer-main
-: 1672936242:0;git checkout -b packer
-: 1672936448:0;git push -u origin lazy
-: 1672936556:0;cd projects/random-repos
-: 1672936574:0;git clone https://github.com/Rishabh672003/Neovim.git
-: 1672936621:0;cd random-repos/Neovim
-: 1672936626:0;git pull origin main
-: 1672936633:0;git checkout lazy
-: 1672936784:0;cd projects/random-repos/Neovim
-: 1672937809:0;rm -rf Neovim
-: 1672939726:0;git clone https://github.com/Rishabh672003/Neovim ~/.config/nvim && nvim
-: 1672940019:0;rm -rf .git README.md LICENSE
-: 1673010444:0;echo $OPENAI_API_KEY
-: 1673010875:0;cd Screencasts
-: 1673010888:0;xdg-open Screencast\ from\ 05-21-2022\ 07:23:08\ PM.webm
-: 1673021290:0;cd .config/nvim/
-: 1673021292:0;cd .config/
-: 1673065245:0;cd .config/alacritty
-: 1673065272:0;mv alacritty.yml.1665165664612.bak alacritty.yml
-: 1673065279:0;alacritty-themes
-: 1673079178:0;nv minimal.lua
-: 1673079992:0;nv -u minimal.lua --startuptime a.log
-: 1673080007:0;nv -u minimal.lua
-: 1673084190:0;rm -rf ~/.local/share/nvim/lazy2
-: 1673103379:0;hyp
-: 1673103551:0;https://github.com/Rishabh672003/hyprland.git
-: 1673103557:0;git clone https://github.com/Rishabh672003/hyprland.git
-: 1673103561:0;cd hyprland
-: 1673103569:0;cp -r ~/.config/hypr/* .
-: 1673103792:0;cd py
-: 1673103799:0;nv equation-calculator-def.py
-: 1673104873:0;zap --update
-: 1673104878:0;zap --version
-: 1673105810:0;nv /etc/environment
-: 1673105837:0;zap --clean
-: 1673109659:0;cd hacker_rank
-: 1673109716:0;rm fact.out
-: 1673109722:0;cc fact.c
-: 1673109731:0;cc --help
-: 1673112057:0;dunstctl is-paused
-: 1673112077:0;dunstify "hello world"
-: 1673112190:0;yay -R schildichat-desktop
-: 1673113239:0;rm password.txt
-: 1673113885:0;yay -S nethogs
-: 1673113895:0;sudo nethogs -v 3
-: 1673113960:0;yay ntop
-: 1673114283:0;cdd cp
-: 1673114319:0;rm main2_linux.out
-: 1673114649:0;rm main2_linux.out *.out
-: 1673148907:0;nnv
-: 1673149237:0;yay arandr
-: 1673151051:0;git
-: 1673151739:0;nv fgets.c
-: 1673155644:0;cd things_i_learned_while_making_this_project
-: 1673158115:0;ngit
-: 1673160170:0;nv password.txt
-: 1673160191:0;rm password.txt *.out
-: 1673160286:0;nv main2.c
-: 1673170602:0;curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-marketplace/main/resources/install.sh | sh
-: 1673185517:0;clangd
-: 1673185534:0;cd .lo
-: 1673185538:0;cd share/nvim
-: 1673185543:0;cd mason
-: 1673185659:0;./clangd --help | grep format
-: 1673186135:0;yay clang
-: 1673186183:0;yay -S clang-format-static-bin
-: 1673186407:0;lv ~/.config/nvim/ftplugin/c.lua
-: 1673186494:0;lv main.c
-: 1673186788:0;pip install clang-format
-: 1673186842:0;clang-format
-: 1673186848:0;clang-format --help
-: 1673187280:0;astyle --help
-: 1673188131:0;rm -rf
-: 1673188407:0;wf-recorder -g "$(slurp)" -f issue2.mp4
-: 1673188484:0;astyle main.c
-: 1673188840:0;wf-recorder -g "$(slurp)" -f ~/issue23.mp4
-: 1673188846:0;wf-recorder -g "$(slurp)" -f ~/issue33.mp4
-: 1673190923:0;wf-recorder -g "$(slurp)" -f ~/works.mp4
-: 1673197526:0;cd learning-C
-: 1673197552:0;cp ~/Downloads/PS2\ IE.pptx .
-: 1673198780:0;nv fibo.c
-: 1673275172:0;yay sopcast
-: 1673277450:0;cd ~/.local/share/lunarvim/lvim/utils/installer
-: 1673277468:0;mv ~/.config/nvim ~/.config/nvim.bak\
-mv ~/.local/share/nvim ~/.local/share/nvim.bak
-: 1673277921:0;cd config
-: 1673278142:0;cp -r ~/.config/nvim.bak/ftplugin ~/.config/nvim
-: 1673278145:0;nv main
-: 1673278519:0;nv lua/user/lsp/init.lua
-: 1673278915:0;rm main.c.orig
-: 1673284384:0;nv lua/user/lazy.lua
-: 1673285279:0;nv ~/projects/Password-management-system/main.c
-: 1673285547:0;rm -rf *.out password.txt
-: 1673285634:0;hyprctl
-: 1673285648:0;hyprctl activewindow
-: 1673286188:0;yay -S gnome-calculator
-: 1673287895:0;git checkout -b lazy
-: 1673288423:0;git ush
-: 1673288425:0;git push
-: 1673288449:0;git checkout packer
-: 1673288483:0;git merge packer
-: 1673288488:0;git merge packer main
-: 1673288492:0;git merge main
-: 1673288971:0;swap
-: 1673288976:0;ramctl
-: 1673288981:0;zswap
-: 1673288988:0;swappy
-: 1673289150:0;ramc
-: 1673289154:0;clear
-: 1673289183:0;zramctl
-: 1673359650:0;git checkout -b from-scratch
-: 1673359678:0;rm -rf lua plugin snapshots init.lua
-: 1673359696:0;rm -rf ftplugin
-: 1673359703:0;mkdir lua
-: 1673359725:0;mkdir rj
-: 1673359831:0;rm -rf ~/.local/share/nvim ~/.local/share/nvim.bak
-: 1673359874:0;ls lua/rj
-: 1673360598:0;nv options.lua
-: 1673360801:0;nv keymaps.lua
-: 1673362084:0;mv *.lua core
-: 1673362179:0;mkdir plugins
-: 1673362255:0;nv autocommands.lua
-: 1673362315:0;nv core/lazy.lua
-: 1673362431:0;nv cmp.lua
-: 1673362504:0;nv ../core/lazy.lua
-: 1673363008:0;git push orgin:lazy-from-scratch
-: 1673363051:0;mv core ..
-: 1673363072:0;mv ../core .
-: 1673368595:0;dash
-: 1673371175:0;cd r
-: 1673371183:0;mkdir lsp
-: 1673371198:0;mv lsp plugins
-: 1673371202:0;cd lsp
-: 1673371208:0;nv null-ls.lua
-: 1673371898:0;nv lua/rj/core
-: 1673372132:0;rm 3
-: 1673372924:0;cd lua/rj/core
-: 1673373075:0;mv attach.lua ../plugins/lsp
-: 1673373868:0;nv lua.lua
-: 1673373896:0;cd lua/rj/plugins/lsp
-: 1673373898:0;nv mason.lua
-: 1673373914:0;mkdir settings
-: 1673373927:0;cp ~/Downloads/Rishabh672003\ Neovim\ main\ lua-user_lsp_settings/* settings
-: 1673374347:0;bob use 0.8.1
-: 1673374501:0;mkdir ftplugin
-: 1673374512:0;nv ftplugin/lua.lua
-: 1673374700:0;mkdir lua/plugins/core.lua
-: 1673374706:0;cd lua/plugins
-: 1673374710:0;cd core
-: 1673374716:0;rm core.lua
-: 1673374720:0;rm -rf core.lua
-: 1673374725:0;mkdir core
-: 1673375836:0;cp ~/projects/Neovim/lua/user/icons.lua lua
-: 1673375850:0;nv core.lua
-: 1673375987:0;nv ftplugin/c.lua
-: 1673376081:0;nv lua/plugins/telescope.lua
-: 1673446868:0;git clone https://github.com/Rishabh672003/Neovim ~/.config/nvim -b lazy
-: 1673450573:0;nv lua/rj/core/lazy.lua
-: 1673450747:0;mv illuminate.lua lua/rj/plugins
-: 1673450862:0;mv core/* .
-: 1673450873:0;rm -rf core
-: 1673450932:0;nv ../init.lua
-: 1673451003:0;cd rj/plugins
-: 1673451008:0;rm illuminate
-: 1673451012:0;nv catppuccin
-: 1673451023:0;mv catppuccin catppuccin.lua
-: 1673451026:0;nv catppuccin.lua
-: 1673451623:0;nv lsp/mason.lua
-: 1673451863:0;rm -rf init.lua
-: 1673452021:0;cdc
-: 1673452218:0;pkill playerctld
-: 1673452227:0;playerctl daemon
-: 1673452246:0;playerctld daemon
-: 1673452516:0;cd lua/rj/plugins
-: 1673452585:0;nv icons.lua
-: 1673452781:0;nv telescope.lua
-: 1673453009:0;nv indent.lus
-: 1673453178:0;nv ../lazy.lua
-: 1673453188:0;cd ..
-: 1673453323:0;nv indentline.lua
-: 1673453688:0;nv treesitter.lua
-: 1673454816:0;git clone https://github.com/Rishabh672003/Neovim ~/.config/nvim -b from-scratch
-: 1673461591:0;nv ~/.config/nvim/init.lua
-: 1673461717:0;su root
-: 1673630317:0;su rishabh
-: 1673539241:0;zathura Downloads/Molar\ Extiction\ Coefficient.pdf
-: 1673545207:0;cd AniPy
-: 1673545222:0;mkbenv
-: 1673545225:0;mkvenv
-: 1673545253:0;python main.py
-: 1673545326:0;cd output
-: 1673545459:0;nv anime_2022-12-30.xml
-: 1673545566:0;cd anim
-: 1673545572:0;cd op
-: 1673545576:0;cd anip
-: 1673545584:0;nv output/manga_2023-01-12.xml
-: 1673619212:0;cd dowm
-: 1673619214:0;cd dow
-: 1673619266:0;mkdir -p /usr/share/waydroid-extra/images
-: 1673619270:0;sudo mkdir -p /usr/share/waydroid-extra/images
-: 1673619277:0;cp lineage-17.1-20220723-MAINLINE-waydroid_x86_64-vendor/vendor.img /usr/share/waydroid-extra/images/
-: 1673619283:0;sudo cp lineage-17.1-20220723-MAINLINE-waydroid_x86_64-vendor/vendor.img /usr/share/waydroid-extra/images/
-: 1673619303:0;sudo cp lineage-17.1-20220723-VANILLA-waydroid_x86_64-system\(1\)/system.img /usr/share/waydroid-extra/images
-: 1673619325:0;wr
-: 1673619331:0;sudo waydroid init
-: 1673619508:0;waydroid app install tachiyomi-x86-v0.14.2.apk
-: 1673619517:0;waydroid app install AuroraStore_4.1.1.apk
-: 1673630120:0;git checkout origin/from-scratch
-: 1673630160:0;git switch -c from-scratch
-: 1673630604:0;Hyprland --help
-: 1673630614:0;Hyprland --config
-: 1673632015:0;mkdir -p lua/rj/plugins/alpha-themes
-: 1673632046:0;cp ~/Downloads/Rishabh672003\ Neovim\ main\ lua-user_startup-screens/* lua/rj/plugins/alpha-themes
-: 1673632298:0;mkdir -p lua/rj/plugins/lualine-themes
-: 1673632328:0;cp ~/Downloads/Rishabh672003\ Neovim\ main\ lua-user_lualine-themes/* lua/rj/plugins/lualine-themes
-: 1673633118:0;nv lua/rj/lazy.lua
-: 1673634124:0;nv functions.lua
-: 1673634218:0;nv ../../init.lua
-: 1673634336:0;git clone https://github.com/Rishabh672003/Neovim -b from-scratch ~/.config/nvim
-: 1673634445:0;git checkout from-scratch
-: 1673634459:0;git merge from-scratch
-: 1673634880:0;git add lua/rj/plugins/colorscheme.lua
-: 1673634897:0;git rm lua/user/bufferline.lua
-: 1673634944:0;git rm lua/user/file-browser.lua lua/user/lsp/init.lua lua/user/dap.lua lua/user/lsp/settings/sumneko_lua.lua
-: 1673666980:0;cd nvim-
-: 1673669259:0;cd lua/rj
-: 1673669287:0;mv barbecue*.lua barbecue
-: 1673669294:0;cd barbecue
-: 1673680811:0;nv .clang-format
-: 1673680829:0;nv pass]
-: 1673680908:0;cd ~/.local/share/nvim/mason/bin
-: 1673680912:0;./clangd --help
-: 1673680928:0;./clangd --IndentWidth=4
-: 1673681033:0;cd lea
-: 1673681039:0;nv armstrong.c
-: 1673681143:0;clang-format -style="{IndentWidth: 4}"
-: 1673681178:0;clang-format -style=IndentWidth: 4 main.c
-: 1673681205:0;clang-format -style="{IndentWidth: 4}" main.c
-: 1673681258:0;mv .clang-format ..
-: 1673681498:0;nv array.c
-: 1673684641:0;rm a.c
-: 1673689150:0;bob update
-: 1673689156:0;bob --help
-: 1673689177:0;pacman -Qi
-: 1673689216:0;nv history
-: 1673689261:0;cd st
-: 1673689268:0;nv normalMode.c
-: 1673692182:0;nv st.c
-: 1673696201:0;nv arg.h
-: 1673696877:0;nv st-copyout
-: 1673701841:0;cd cricket
-: 1673701877:0;gh repo clone sumitst05/Cricket-Score-Sheet
-: 1673701882:0;cd Cricket-Score-Sheet
-: 1673701885:0;nv cricket_score_sheet.c
-: 1673703068:0;cd rj
-: 1673703076:0;cd plugins
-: 1673703110:0;nv notify.lua
-: 1673719526:0;cd pa
-: 1673779227:0;wf-recorder -g "$(slurp)" -f ~/clang-issue.mp4
-: 1673783695:0;gh repo clone ray-x/nvim ~/.config/nvim
-: 1673783896:0;git ls-files nuage-cats/ | grep -E ".*(py|robot)" | xargs wc -l
-: 1673784052:0;n
-: 1673784296:0;git checkout origin/lazy-for-scratch
-: 1673784503:0;git checkout origin/packer-real
-: 1673785045:0;cp Downloads/ani* ~/other-configs
-: 1673785776:0;chafa anilist.png
-: 1673785787:0;cd wallpapers
-: 1673785806:0;chafa main_image_star-forming_region_carina_nircam_final-5mb.jpg
-: 1673785837:0;cn
-: 1673798697:0;yay -S goneovim
-: 1673798731:0;goneovim
-: 1673798753:0;yay -Rns goneovim-bin
-: 1673799108:0;git clone https://github.com/torvalds/linux
-: 1673799819:0;git ls-file
-: 1673799821:0;git ls-files
-: 1673800169:0;:q!
-: 1673804001:0;git checkout origin/with-barbecue
-: 1673804047:0;rm -rf $HOME/.local/share/nvim plugin
-: 1673805348:0;mkdir -p ftplugin
-: 1673805354:0;nv ftplugin/java.lua
-: 1673805478:0;mkdir -p lua/user
-: 1673805482:0;cd lua/user
-: 1673805507:0;nv a.java
-: 1673805515:0;lv a.java
-: 1673805565:0;cd .config/lvim
-: 1673805642:0;git clone https://github.com/LazyVim/starter lazyvim
-: 1673805647:0;cd lazyvim
-: 1673805675:0;nv -u init.lua
-: 1673805737:0;git clone https://github.com/LazyVim/starter ~/.config/nvim
-: 1673843067:0;mkdir notes
-: 1673844526:0;nv pc-assembly-cpu
-: 1673844527:0;nv pc-assembly-cpu.md
-: 1673846379:0;nv ~/.config/waybar/config.jsonc
-: 1673860179:0;cd hyp
-: 1673860218:0;swaybg -i ~/.config/hypr/wallpapers/girl-getting-out-of-the-train-3-3840Ãƒ·2160.jpg\
-
-: 1673862706:0;cd lear
-: 1673862759:0;nv chef.c
-: 1673862819:0;nv chef.cpp
-: 1673863999:0;nv bubble.c
-: 1673870740:0;yay canva
-: 1673871261:0;./main.out
-: 1673871474:0;gcc -o pms ./main.c
-: 1673871477:0;./pms
-: 1673882898:0;nv pps-pms.txt
-: 1673882901:0;nv pps-pms.md
-: 1673888421:0;zathura Academic\ Calendar\ for\ the\ year\ 2022-23\ \(Sem-I\)\ \(Revised\)\ \(Stude.pdf
-: 1673888476:0;evince Academic\ Calendar\ for\ the\ year\ 2022-23\ \(Sem-I\)\ \(Revised\)\ \(Stude-1.pdf
-: 1673942869:0;cd .config
-: 1673942891:0;cd hypr
-: 1673942903:0;nv hyprland.conf
-: 1673943278:0;cd waybar
-: 1673943298:0;nv style.css
-: 1673945552:0;nv main_linux.c
-: 1673946839:0;rm -rf password.txt main.out
-: 1673946843:0;rm -rf password.txt *.out
-: 1673949664:0;nv satish.c
-: 1673951392:0;rm clang-issue.mp4
-: 1673964632:0;rm -rf user
-: 1673965669:0;nv aliases.zsh
-: 1673970239:0;yay whatsapp
-: 1673977249:0;rm ~/projects/chatgpt-key.zsh
-: 1673978705:0;nv .zshrc
-: 1674139309:0;baobab
-: 1674152881:0;git add .
-: 1674152886:0;git commit
-: 1674228439:0;rm a.log
-: 1674228446:0;nv --startuptime a.log
-: 1674228449:0;nv a.log
-: 1674228529:0;git branch main origin/packer
-: 1674228534:0;git branch origin/packer
-: 1674228563:0;git clone https://github.com/Rishabh672003/Neovim ~/.config/nvim -b packer
-: 1674229927:0;pacman -Qqi
-: 1674229933:0;pacman -qi
-: 1674229939:0;pacman -Q
-: 1674229942:0;pacman -Qq
-: 1674230588:0;nv python-study/10.py
-: 1674230704:0;cp Downloads/password\ management\ pps\(1\)\(1\).pptx ~/projects/Password-management-system
-: 1674230724:0;libreoffice password\ management\ pps\(1\)\(1\).pptx
-: 1674231779:0;qlg
-: 1674231807:0;clg
-: 1674231842:0;git checkout origin/packer
-: 1674231887:0;git status
-: 1674231903:0;git push orgin:packer
-: 1674231972:0;cd neo
-: 1674234222:0;vscodium main.c
-: 1674271653:0;wf-recorder -g "$(slurp)" -f ~/pomo-issue.mp4
-: 1674272818:0;cd nv
-: 1674274430:0;cd other-configs
-: 1674274436:0;cd mirrors-and-hosts
-: 1674274640:0;nv rate-mirrors-arch.sh
-: 1674274652:0;./rate-mirrors-arch.sh
-: 1674275103:0;ua-update-all
-: 1674275510:0;cd /etc
-: 1674275525:0;cd pacman.d
-: 1674275537:0;sudo mv mirrorlist-backup mirrorlist
-: 1674275569:0;sudo cp ~/projects/arch-setup/mirrorlist .
-: 1674275573:0;nv mirrorlist
-: 1674275676:0;sudo systemctl start rate-mirrors.service
-: 1674275681:0;rsss
-: 1674275781:0;rest
-: 1674282232:0;rs
-: 1674282236:0;rss
-: 1674282337:0;cd /
-: 1674282338:0;fd rate
-: 1674282344:0;fd rate-mirror
-: 1674282394:0;cd /etc/systemd/system
-: 1674282398:0;nv rate-mirrors.service
-: 1674287566:0;cd lua
-: 1674287570:0;cd user
-: 1674287661:0;nv lazy.lua
-: 1674288202:0;rm -rf $HOME/.config/nvim $HOME/.local/share/nvim $HOME/.cache/nvim
-: 1674288207:0;git clone https://github.com/Rishabh672003/Neovim ~/.config/nvim
-: 1674289220:0;cd neovim
-: 1674289264:0;cd lvim
-: 1674289415:0;cd nvim-basic
-: 1674289425:0;rm -rf .stylua.toml
-: 1674289463:0;nv .stylua.toml
-: 1674289503:0;mv .stylua.toml ..
-: 1674294202:0;nv lua/user/plugins.lua
-: 1674294895:0;cp ~/projects/nvim-basic-ide/lua/user/plugins.lua ~/.config/nvim/lua/rj/plugins
-: 1674295096:0;wf-recorder -g "$(slurp)" -f ~/pac-lazy.mp4
-: 1674295449:0;cd nvim-bas
-: 1674295818:0;cd .local/share/lunarvim
-: 1674295827:0;cd lvim/utils/installer
-: 1674295829:0;./uninstall.sh
-: 1674296220:0;cd pass
-: 1674296223:0;nv main.c
-: 1674300896:0;lv init.lua
-: 1674302239:0;nvim --headless "+Lazy! sync" +qa
-: 1674321543:0;yay -S xdg-desktop-portal-hyprland-git
-: 1674321602:0;yay -S polkit-kde-agent
-: 1674321647:0;yay -R xdg-desktop-portal-wlr
-: 1674322097:0;yay -S nwg-look
-: 1674322151:0;yay -R lxappearance
-: 1674322214:0;brave --enable-features=UseOzonePlatform --ozone-platform=wayland
-: 1674323011:0;yay ffnvcodec
-: 1674323063:0;\
-git clone --single-branch https://github.com/GhostNaN/mpvpaper\
-#\
-cd mpvpaper\
-meson build --prefix=/usr/local\
-ninja -C build\
-#\
-ninja -C build install
-: 1674323082:0;nv /home/rishabh/projects/mpvpaper/build/meson-logs/meson-log.txt
-: 1674323152:0;mpv
-: 1674323206:0;pkg-config --list-allpkg-config --list-all
-: 1674323211:0;pkg-config --list-allpkg-config
-: 1674323216:0;pkg-config --list-all
-: 1674323224:0;pkg-config --list-all | fzf
-: 1674323253:0;ys mpvpaper
-: 1674323548:0;nv /home/rishabh/.cache/yay/mpvpaper/src/build/meson-logs/meson-log.txt
-: 1674324732:0;/usr/libexec/xdg-desktop-portal-hyprland
-: 1674324746:0;/usr/lib/xdg-desktop-portal
-: 1674324796:0;yay -R nemo
-: 1674324799:0;yay -Rns gnome
-: 1674325676:0;journalctl --user -eu xdg-desktop-portal-hyprland
-: 1674325848:0;yay -R xdg-desktop-portal-gtk
-: 1674359380:0;glow README.md
-: 1674359454:0;nv maths-syllabus
-: 1674359481:0;nv Sylabus-ise-2.md
-: 1674362298:0;mv Complex\ Numbers.pdf ~/Clg-Notes
-: 1674362339:0;mv Module\ 6\ Complex\ Variable\ \(Differentiation\).pdf ~/Clg-Notes
-: 1674362437:0;mv Image\ to\ pdf_20012023_184213.pdf ~/Clg-Notes/Matrics-notes.pdf
-: 1674366395:0;yay -S nemo
-: 1674370551:0;mv ~/Downloads/WhatsApp\ Unknown\ 2023-01-22\ at\ 12.25.27\ PM.zip .
-: 1674370559:0;unzip WhatsApp\ Unknown\ 2023-01-22\ at\ 12.25.27\ PM.zip
-: 1674370582:0;mkdir photos
-: 1674370590:0;mv *.jpeg photos
-: 1674370594:0;rm WhatsApp\ Unknown\ 2023-01-22\ at\ 12.25.27\ PM.zip
-: 1674370754:0;cd down
-: 1674370759:0;rm jpg2pdf.pdf
-: 1674370776:0;mv jpg2pdf-1.pdf ~/Clg-Notes/beta-func.pdf
-: 1674378632:0;yay -S ffnvcodec-headers
-: 1674378660:0;yay -S mpvpaper
-: 1674378698:0;cd vid
-: 1674398799:0;hx ISE-2.md
-: 1674398999:0;cd .config/helix
-: 1674399002:0;nv config.toml
-: 1674399991:0;rm Falling\ Into\ a\ Black\ Hole\ \(Simulation\)-_AiJpvergBI.f299.mp4.part
-: 1674400020:0;rm -rf plugin
-: 1674400039:0;rm -rf ~/.local/share/nvim/site
-: 1674401309:0;cd ala
-: 1674404772:0;killall swaybg
-: 1674404774:0;mpvpaper Falling\ Into\ a\ Black\ Hole\ \(Simulation\)-_AiJpvergBI.mp4
-: 1674404795:0;mpvpaper -vs -o "no-audio loop" Falling\ Into\ a\ Black\ Hole\ \(Simulation\)-_AiJpvergBI.mp4
-: 1674404830:0;mpvpaper -vs -o "no-audio loop" DP-2 Falling\ Into\ a\ Black\ Hole\ \(Simulation\)-_AiJpvergBI.mp4
-: 1674405448:0;swaybg -i ~/.config/hypr/wallpapers/cr.jpg
-: 1674405774:0;swaybg -i ~/.config/hypr/wallpapers/download.jpeg
-: 1674410031:0;yay -S webcord
-: 1674410061:0;webcord
-: 1674410554:0;yay -R discord
-: 1674410561:0;yay -Rns discord
-: 1674411469:0;webcord --enable-features=UseOzonePlatform --ozone-platform=wayland
-: 1674481555:0;mv ilovepdf_converted/* ~/Clg-Notes
-: 1674481568:0;mv Module\ 6-Structures.pdf ~/Clg-Notes
 : 1674484588:0;cd no_name
 : 1674484596:0;mv ISE-2.md ..
 : 1674484601:0;nv ise
@@ -872,13 +225,11 @@ ninja -C build install
 : 1675240381:0;cd one
 : 1675240388:0;one
 : 1675240397:0;rm -rf nvim
-: 1675257079:0;exit
 : 1675257195:0;time exec zsh
 : 1675257478:0;cd projects/Notes
 : 1675257610:0;vim lua/rj/plugins/lsp/init.lua
 : 1675257652:0;vim lua/rj/lazy.lua
 : 1675259715:0;rm .replit replit.nix
-: 1675262998:0;cd pro
 : 1675263003:0;mkdir arduino
 : 1675263782:0;cd codeche
 : 1675263792:0;nv 1st.c
@@ -928,8 +279,6 @@ ninja -C build install
 : 1675436017:0;cd web
 : 1675436265:0;git pull
 : 1675436288:0;cp README.md ..
-: 1675436292:0;nv README.md
-: 1675439488:0;sdr
 : 1675439556:0;cali
 : 1675439866:0;nnvim
 : 1675440172:0;hx --version
@@ -963,7 +312,6 @@ ninja -C build install
 : 1675489436:0;echo $TERM
 : 1675490697:0;p10k configure
 : 1675490822:0;cd .config/zsh
-: 1675490843:0;l
 : 1675490844:0;sls
 : 1675490872:0;yel
 : 1675491641:0;cd zsh
@@ -975,7 +323,6 @@ ninja -C build install
 : 1675492788:0;micro ~/.config/zsh/.p10k.zsh
 : 1675492873:0;gedit
 : 1675492898:0;vscodium
-: 1675493107:0;yl
 : 1675494090:0;cd code
 : 1675494097:0;rm -rf *.out
 : 1675494107:0;nv subscription.c
@@ -1027,7 +374,6 @@ ninja -C build install
 : 1675531430:0;rm recording.mp4
 : 1675531760:0;rm .wget-hsts
 : 1675531780:0;rm -rf .arduino*
-: 1675531831:0;lll
 : 1675532534:0;cd cp
 : 1675532542:0;nv switch.c
 : 1675532851:0;wf-recorder -g "$(slurp)" -f ~/nvim-tree.mp4
@@ -1035,10 +381,8 @@ ninja -C build install
 : 1675533323:0;cd nvim
 : 1675533326:0;nvim init.lua
 : 1675534361:0;nv init.lua
-: 1675535153:0;lg
 : 1675565963:0;cd Clg-Notes
 : 1675565969:0;cd ESE
-: 1675566403:0;ls
 : 1675566405:0;cd ese
 : 1675566416:0;mkdir ESE-Papers
 : 1675566429:0;unzip WhatsApp\ Unknown\ 2023-02-05\ at\ 8.36.28\ AM.zip
@@ -1052,7 +396,6 @@ ninja -C build install
 : 1675570458:0;x
 : 1675573854:0;cd Downloads/Blue.is.the.Warmest.Color.2013.1080p.BluRay.6CH.3.4GB.MkvCage.mkv
 : 1675573860:0;cd Downloads/
-: 1675573953:0;cd projects
 : 1675573956:0;./qbit.sh
 : 1675577301:0;yay wpaperd
 : 1675577356:0;nv chemistry.md
@@ -1075,97 +418,97 @@ ninja -C build install
 : 1675589995:0;cd mp
 : 1675590009:0;cd .config/mpv
 : 1675590015:0;rm -rf watch_later
-: 1675590017:0;c
-: 1675590019:0;cd
 : 1675590027:0;mpv ~/Downloads/A\ History\ of\ Violence\ \(2005\)\ \[1080p\]
 : 1675591343:0;cd Downloads
 : 1675591350:0;unzip linuxmobile\ hyprland-dots\ main\ .config-waybar.zip
-: 1675591361:0;nemo .
 : 1675591394:0;mv ~/.config/waybar ~/.config/waybar.bak
 : 1675591417:0;cp -r linuxmobile\ hyprland-dots\ main\ .config-waybar ~/.config/waybar
-: 1675591442:0;cd .con
 : 1675591485:0;mv waybar waybar.bak
 : 1675591496:0;cp -r ~/Downloads/linuxmobile\ hyprland-dots\ main\ .config-waybar waybar
 : 1675591525:0;cd .config/waybar
-: 1675591526:0;ll
 : 1675591528:0;nv config.jsonc
-: 1675591648:0;cdp
 : 1675591651:0;rm -rf waybar
 : 1675591654:0;mv waybar.bak waybar
 : 1675591659:0;pkill waybar
 : 1675591661:0;waybar
-: 1675592670:0;nv
 : 1675592710:0;hyprctl clients
-: 1675598104:0;pkill wpaperd
-: 1675598106:0;wpaperd
-: 1675598435:0;e
-: 1675598436:0;c
-: 1675598438:0;nv
-: 1675602340:0;pkill wpaperd
-: 1675602347:0;wpaperd
-: 1675602352:0;pkill wpaperd
-: 1675602353:0;wpaperd
-: 1675607474:0;nv
-: 1675609111:0;c
 : 1675609119:0;cd hypr
-: 1675609119:0;ll
 : 1675609127:0;mv wallpapers ~/Pictures
-: 1675609128:0;ll
 : 1675609133:0;nv hyprland.conf
-: 1675609194:0;yl
-: 1675609468:0;c
-: 1675609469:0;ll
-: 1675609470:0;c
-: 1675609471:0;nv
-: 1675609473:0;c
 : 1675609474:0;lll
-: 1675609475:0;c
-: 1675609617:0;cd
 : 1675609620:0;cd projects
 : 1675609621:0;gh repo clone Rishabh672003/Wallpapers
 : 1675609643:0;mv ~/Pictures/wallpapers/* Wallpapers
 : 1675609654:0;rm -rf ~/Pictures/wallpapers
 : 1675609662:0;mv Wallpapers ~/Pictures
-: 1675609664:0;ls
-: 1675609668:0;cd
-: 1675609670:0;cd Pictures
-: 1675609673:0;cd Wallpapers
-: 1675609674:0;ll
 : 1675609677:0;lg
-: 1675609767:0;ls
-: 1675609769:0;ll
-: 1675609770:0;c
 : 1675609818:0;cd pro
-: 1675609819:0;ll
-: 1675610026:0;yadm submodule add https://github.com/Rishabh672003/Wallpapers
-: 1675610046:0;c
 : 1675610049:0;cd pi
-: 1675610050:0;ll
-: 1675610052:0;cd Wallpapers
-: 1675610054:0;ll
-: 1675610055:0;cdp
-: 1675610060:0;rm -rf Wallpapers
-: 1675610064:0;yadm submodule add https://github.com/Rishabh672003/Wallpapers
-: 1675610250:0;yadm status
-: 1675610257:0;ls
-: 1675610259:0;cd
-: 1675610260:0;ll
-: 1675610265:0;nv .gitmodules
-: 1675610272:0;c
-: 1675610298:0;yl
 : 1675610327:0;mv Pictures/Wallpapers .
-: 1675610328:0;ll
-: 1675610334:0;nv .gitmodules
-: 1675610347:0;yl
 : 1675610362:0;rm -rf .gitmodules
-: 1675610370:0;yl
-: 1675610385:0;yadm submodule add https://github.com/Rishabh672003/Wallpapers
 : 1675610397:0;yadm status
 : 1675610406:0;yadm submodule add https://github.com/Rishabh672003/Wallpapers wallpapers
 : 1675610417:0;rm -rf Wallpapers
 : 1675610420:0;yadm submodule add https://github.com/Rishabh672003/Wallpapers
-: 1675610648:0;yl
 : 1675610663:0;nv .gitmodules
 : 1675610684:0;nv README.md
 : 1675610844:0;sdr
 : 1675611212:0;yl
+: 1675611226:0;rm -rf Wallpapers .gitmodules
+: 1675611231:0;cd Pictures
+: 1675611241:0;git clone https://github.com/Rishabh672003/Wallpapers
+: 1675611305:0;pkill wpaperd
+: 1675611318:0;ls
+: 1675611333:0;wpaperd
+: 1675617080:0;l
+: 1675617087:0;cd Wallpapers
+: 1675617091:0;cdp
+: 1675617234:0;cd .con
+: 1675617239:0;cd swappy/
+: 1675617242:0;nv config
+: 1675617745:0;yay grimblast
+: 1675618343:0;hyprctl keyword animation "fadeOut,0,0,default"; grimblast --notify copysave area; hyprctl keyword animation "fadeOut,1,4,default"
+: 1675618368:0;which grimblast
+: 1675618772:0;cd
+: 1675619429:0;grimblast --help
+: 1675619450:0;grimblast check
+: 1675619493:0;grimblast save
+: 1675619623:0;cd scree
+: 1675619627:0;nemo .
+: 1675620025:0;grimblast area
+: 1675620050:0;yay -R grimblast-git
+: 1675620100:0;ll
+: 1675620246:0;grimblast copy
+: 1675620356:0;nv
+: 1675620364:0;grimblast screen
+: 1675620368:0;hyprctl keyword animation "fadeOut,0,0,default"; grimblast --notify copysave area; hyprctl keyword animation "fadeOut,1,4,default"\
+
+: 1675620405:0;cd .local/bin
+: 1675620453:0;rm -rf ~/.local/bin/grimblast
+: 1675620458:0;yay -S grimblast
+: 1675620462:0;yay -S grimblast-git
+: 1675620483:0;nv grimblast
+: 1675620553:0;echo "${XDG_SCREENSHOTS_DIR:-${XDG_PICTURES_DIR:-$HOME}}"
+: 1675620626:0;sudo cp ~/.local/bin/grimblast /usr/bin
+: 1675620635:0;su
+: 1675620645:0;grimblast
+: 1675620645:0;exit
+: 1675620662:0;c
+: 1675620664:0;e
+: 1675620691:0;mv /usr/bin/grimblast .
+: 1675620696:0;sudo mv /usr/bin/grimblast .
+: 1675620710:0;cp grimblast ~/.local/bin
+: 1675620713:0;cd .local/bin
+: 1675620713:0;ll
+: 1675620735:0;ln -s /usr/bin/grimblast grimblast
+: 1675620738:0;ls
+: 1675620755:0;ln -s grimblast /usr/bin/grimblast
+: 1675620760:0;sudo ln -s grimblast /usr/bin/grimblast
+: 1675620762:0;c
+: 1675620786:0;sudo rm -rf /usr/bin/grimblast
+: 1675620788:0;c
+: 1675620813:0;sudo mv grimblast /usr/bin
+: 1675620876:0;c
+: 1675620879:0;yel
+: 1675620889:0;yadm status
+: 1675620898:0;yl
