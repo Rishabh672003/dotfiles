@@ -21,6 +21,7 @@ yadm add ~/.config/waybar;
 yadm add ~/.config/wezterm;
 yadm add ~/.config/wofi;
 yadm add ~/.config/zsh;
+yadm add ~/.config/wpaperd;
 yadm add ~/.config/yadm;
 yadm add ~/other-configs/*;
 

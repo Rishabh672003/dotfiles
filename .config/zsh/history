@@ -202,7 +202,6 @@ sudo docker rmi $(docker images --quiet --filter "dangling=true")
 : 1672939726:0;git clone https://github.com/Rishabh672003/Neovim ~/.config/nvim && nvim
 : 1672940019:0;rm -rf .git README.md LICENSE
 : 1673010444:0;echo $OPENAI_API_KEY
-: 1673010866:0;cd Videos
 : 1673010875:0;cd Screencasts
 : 1673010888:0;xdg-open Screencast\ from\ 05-21-2022\ 07:23:08\ PM.webm
 : 1673021290:0;cd .config/nvim/
@@ -581,14 +580,12 @@ mv ~/.local/share/nvim ~/.local/share/nvim.bak
 : 1674295869:0;bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh)
 : 1674296220:0;cd pass
 : 1674296223:0;nv main.c
-: 1674299156:0;nv init.lua
 : 1674300896:0;lv init.lua
 : 1674302239:0;nvim --headless "+Lazy! sync" +qa
 : 1674321543:0;yay -S xdg-desktop-portal-hyprland-git
 : 1674321602:0;yay -S polkit-kde-agent
 : 1674321647:0;yay -R xdg-desktop-portal-wlr
 : 1674322097:0;yay -S nwg-look
-: 1674322128:0;nwg-look
 : 1674322151:0;yay -R lxappearance
 : 1674322214:0;brave --enable-features=UseOzonePlatform --ozone-platform=wayland
 : 1674323011:0;yay ffnvcodec
@@ -608,7 +605,6 @@ ninja -C build install
 : 1674323224:0;pkg-config --list-all | fzf
 : 1674323253:0;ys mpvpaper
 : 1674323548:0;nv /home/rishabh/.cache/yay/mpvpaper/src/build/meson-logs/meson-log.txt
-: 1674324695:0;hyprctl clients
 : 1674324732:0;/usr/libexec/xdg-desktop-portal-hyprland
 : 1674324746:0;/usr/lib/xdg-desktop-portal
 : 1674324796:0;yay -R nemo
@@ -617,7 +613,6 @@ ninja -C build install
 : 1674325848:0;yay -R xdg-desktop-portal-gtk
 : 1674359380:0;glow README.md
 : 1674359454:0;nv maths-syllabus
-: 1674359474:0;mkdir .git
 : 1674359481:0;nv Sylabus-ise-2.md
 : 1674362298:0;mv Complex\ Numbers.pdf ~/Clg-Notes
 : 1674362339:0;mv Module\ 6\ Complex\ Variable\ \(Differentiation\).pdf ~/Clg-Notes
@@ -654,13 +649,11 @@ ninja -C build install
 : 1674411469:0;webcord --enable-features=UseOzonePlatform --ozone-platform=wayland
 : 1674481555:0;mv ilovepdf_converted/* ~/Clg-Notes
 : 1674481568:0;mv Module\ 6-Structures.pdf ~/Clg-Notes
-: 1674484583:0;cd Clg-Notes
 : 1674484588:0;cd no_name
 : 1674484596:0;mv ISE-2.md ..
 : 1674484601:0;nv ise
 : 1674484604:0;nv ISE-2.md
 : 1674489354:0;mv WMP\ ISE-2.pdf ~/Clg-Notes
-: 1674490406:0;nv a.c
 : 1674491174:0;cd Notes
 : 1674491183:0;mv .git ~/Clg-Notes
 : 1674496858:0;gcc -o mat.out mat.c
@@ -668,7 +661,6 @@ ninja -C build install
 : 1674496898:0;rm mat.out
 : 1674497034:0;rm -rf Notes
 : 1674497036:0;gh repo clone Rishabh672003/Notes
-: 1674497256:0;nv arm.c
 : 1674498176:0;cp pps-notes-module4.md ~/projects/Notes
 : 1674498730:0;cp pps-notes-module-5.md ~/projects/Notes
 : 1674499218:0;cd no
@@ -717,7 +709,6 @@ ninja -C build install
 : 1674908146:0;mpvpaper -vs -o "no-audio loop" eDP-1 Falling\ Into\ a\ Black\ Hole\ \(Simulation\)-_AiJpvergBI.mp4
 : 1674908197:0;yt "https://www.youtube.com/watch?v=_AiJpvergBI"
 : 1674908204:0;fd falling
-: 1674908224:0;mpvpaper -vs -o "no-audio loop" eDP-1 ~/Videos/Falling\ Into\ a\ Black\ Hole\ \(Simulation\)-_AiJpvergBI.mp4
 : 1674908255:0;wf-recorder -g "$(slurp)" -f ~/pac-lazy2.mp4
 : 1674908268:0;wf-recorder -g "$(slurp)" -f ~/mpvpaper.mp4
 : 1674926207:0;mv hacker-rank ..
@@ -822,7 +813,6 @@ ninja -C build install
 : 1675067210:0;./nvim --version
 : 1675067347:0;cd ~/.local/share/bob
 : 1675067361:0;rm -rf nightly
-: 1675067365:0;cdpp
 : 1675067388:0;cp -r nightly ~/.local/share/bob
 : 1675067430:0;cd .local/share/neovim
 : 1675067635:0;nv -v
@@ -841,7 +831,6 @@ ninja -C build install
 : 1675094459:0;nv ~/.config/alacritty/alacritty.yml
 : 1675094546:0;mkdir cppro
 : 1675095334:0;cd cppro
-: 1675095338:0;nv a.cpp
 : 1675167520:0;cargo build
 : 1675167592:0;time ls
 : 1675167595:0;time ll
@@ -919,7 +908,6 @@ ninja -C build install
 : 1675344404:0;cd notes
 : 1675344407:0;nv index.norg
 : 1675348930:0;rm -rf notes
-: 1675349117:0;cd cp
 : 1675349122:0;nv test-luasnip.c
 : 1675349642:0;glow
 : 1675350033:0;gh repo clone amitsuthar69/WEB
@@ -943,7 +931,6 @@ ninja -C build install
 : 1675428280:0;speedtest
 : 1675428807:0;nr
 : 1675435143:0;evince sem\ i\ ai\&ml_15.pdf
-: 1675435804:0;we
 : 1675436017:0;cd web
 : 1675436265:0;git pull
 : 1675436288:0;cp README.md ..
@@ -955,9 +942,7 @@ ninja -C build install
 : 1675440315:0;hx
 : 1675440342:0;helix-git
 : 1675440344:0;yay helix
-: 1675445406:0;bob ls
 : 1675445423:0;bob rollback
-: 1675445433:0;uneo
 : 1675445464:0;lllllllllllllllllllllllllllllllllllllllllllllllll
 : 1675445885:0;fish
 : 1675445979:0;cd .cache
@@ -967,19 +952,15 @@ ninja -C build install
 : 1675446286:0;kk
 : 1675446302:0;cd Downloads
 : 1675446305:0;nv bible.txt
-: 1675447443:0;rm -rf *.out
 : 1675448023:0;export KITTY_ENABLE_WAYLAND=1
 : 1675448313:0;exec zsh
 : 1675448404:0;cll
 : 1675448730:0;kitty --ls-fonts
 : 1675448732:0;kitty
 : 1675480808:0;cd clg
-: 1675483693:0;nv .
 : 1675483825:0;cd .config/fish
 : 1675483838:0;cd functions
-: 1675483843:0;cdp
 : 1675483850:0;rm -rf functions
-: 1675483852:0;yl
 : 1675483864:0;nv .gitignore
 : 1675484034:0;nv ESE/chemistry.md
 : 1675485816:0;cd getnf
@@ -987,32 +968,114 @@ ninja -C build install
 : 1675485859:0;cc
 : 1675489433:0;grep -IrFl $TERM <dir>
 : 1675489436:0;echo $TERM
-: 1675489718:0;cd nvim
-: 1675490625:0;ys
 : 1675490697:0;p10k configure
 : 1675490822:0;cd .config/zsh
 : 1675490843:0;l
 : 1675490844:0;sls
-: 1675490849:0;lg
 : 1675490872:0;yel
-: 1675490886:0;cd
 : 1675491641:0;cd zsh
 : 1675491656:0;time $SHELL -i -c exit
 : 1675491735:0;beautysh ~/.config/zsh/.p10k.zsh
 : 1675492194:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
-: 1675492619:0;lll
 : 1675492672:0;nvim --clean ~/.config/zsh/.p10k.zsh
-: 1675492725:0;ls
-: 1675492730:0;cd projects
 : 1675492735:0;nv p10
 : 1675492788:0;micro ~/.config/zsh/.p10k.zsh
 : 1675492873:0;gedit
-: 1675492889:0;ll
 : 1675492898:0;vscodium
-: 1675493008:0;nv
-: 1675493019:0;c
-: 1675493021:0;e
-: 1675493025:0;ll
-: 1675493027:0;c
-: 1675493052:0;nv
 : 1675493107:0;yl
+: 1675494090:0;cd code
+: 1675494097:0;rm -rf *.out
+: 1675494107:0;nv subscription.c
+: 1675503032:0;mkdir bash-learning
+: 1675503034:0;cd bash-learning
+: 1675503047:0;nv math.bash
+: 1675503480:0;mv bash-learning shell-learning
+: 1675503485:0;cd shell-learning
+: 1675503499:0;mv math.bash math-operation.sh
+: 1675507179:0;cd shell
+: 1675507188:0;mkdir .git
+: 1675507193:0;nv math-operation.sh
+: 1675508057:0;we
+: 1675508543:0;cd wall
+: 1675508552:0;dc
+: 1675508615:0;mpvpaper -vs -o "no-audio loop" eDP-1 ~/Videos/Falling\ Into\ a\ Black\ Hole\ \(Simulation\)-_AiJpvergBI.mp4
+: 1675508741:0;mkdir random-shit
+: 1675508744:0;cd random-shit
+: 1675508759:0;cdp
+: 1675508761:0;cd Videos
+: 1675508769:0;mkdir video-wallpapers
+: 1675508777:0;cp Falling\ Into\ a\ Black\ Hole\ \(Simulation\)-_AiJpvergBI.mp4 video-wallpapers
+: 1675508790:0;mv ~/Downloads/Waves\ -\ 71122.mp4 video-wallpapers
+: 1675508795:0;rm Falling\ Into\ a\ Black\ Hole\ \(Simulation\)-_AiJpvergBI.mp4
+: 1675508810:0;mpvpaper -vs -o "no-audio loop" eDP-1 ~/Videos/video-wallpapers/Waves\ -\ 71122.mp4
+: 1675508972:0;cp ~/Downloads/Rain\ -\ 28236.mp4 ~/Videos/video-wallpapers
+: 1675508981:0;mpvpaper -vs -o "no-audio loop" eDP-1 ~/Videos/video-wallpapers/Rain\ -\ 28236.mp4
+: 1675510072:0;mv video-wallpapers/Rain\ -\ 28236.mp4 Rain-28236.mp4
+: 1675510088:0;cd video-wallpapers
+: 1675510098:0;mv ../Rain-28236.mp4 .
+: 1675510819:0;swaybg -i ~/.config/hypr/wallpapers/main_image_star-forming_region_carina_nircam_final-5mb.jpg
+: 1675510825:0;mpvpaper -vs -o "no-audio loop" eDP-1 ~/Videos/video-wallpapers/water-pexels-adrien-jacta-6430233.mp4
+: 1675511714:0;nv a.c
+: 1675511730:0;cd cpp
+: 1675511733:0;nv a.cpp
+: 1675511786:0;nv arm.c
+: 1675511955:0;nwg-look
+: 1675512318:0;pkill mpvpaper
+: 1675512352:0;swaylack
+: 1675512618:0;swaylock
+: 1675512720:0;cd .config/hypr
+: 1675512731:0;yay -S swaylock
+: 1675512780:0;mpvpaper -vs -o "no-audio loop" eDP-1 ~/Videos/video-wallpapers/Rain-28236.mp4
+: 1675512922:0;hyprctl clients
+: 1675531417:0;timezsh() {\
+ shell=${1-$SHELL}\
+ for i in $(seq 1 10); do time $shell -i -c exit; done\
+}\
+
+: 1675531422:0;t
+: 1675531430:0;rm recording.mp4
+: 1675531760:0;rm .wget-hsts
+: 1675531780:0;rm -rf .arduino*
+: 1675531831:0;lll
+: 1675532161:0;nv .
+: 1675532534:0;cd cp
+: 1675532542:0;nv switch.c
+: 1675532851:0;wf-recorder -g "$(slurp)" -f ~/nvim-tree.mp4
+: 1675533132:0;wf-recorder -g "$(slurp)" -f ~/nvim-tree2.mp4
+: 1675533321:0;cd
+: 1675533323:0;cd nvim
+: 1675533326:0;nvim init.lua
+: 1675534361:0;nv init.lua
+: 1675535153:0;lg
+: 1675565963:0;cd Clg-Notes
+: 1675565969:0;cd ESE
+: 1675566403:0;ls
+: 1675566405:0;cd ese
+: 1675566416:0;mkdir ESE-Papers
+: 1675566429:0;unzip WhatsApp\ Unknown\ 2023-02-05\ at\ 8.36.28\ AM.zip
+: 1675566440:0;mv WhatsApp\ Image\ 2023-02-05\ at* ESE-Papers
+: 1675566450:0;cd ESE-Papers
+: 1675566454:0;cdpp
+: 1675570070:0;ys
+: 1675570212:0;trash-empty
+: 1675570409:0;uneo
+: 1675570433:0;bob ls
+: 1675570440:0;nv
+: 1675570458:0;x
+: 1675573854:0;cd Downloads/Blue.is.the.Warmest.Color.2013.1080p.BluRay.6CH.3.4GB.MkvCage.mkv
+: 1675573860:0;cd Downloads/
+: 1675573861:0;ll
+: 1675573868:0;mpv Blue.is.the.Warmest.Color.2013.1080p.BluRay.6CH.3.4GB.MkvCage.mkv
+: 1675573948:0;c
+: 1675573953:0;cd projects
+: 1675573956:0;./qbit.sh
+: 1675577301:0;yay wpaperd
+: 1675577356:0;nv chemistry.md
+: 1675577709:0;nv XDG_CONFIG_HOME/wpaperd/output.conf
+: 1675577728:0;nv $HOME/.config/wpaperd/output.conf
+: 1675577793:0;mkdir ~/.config/wpaperd
+: 1675577804:0;nv ~/.config/wpaperd/output.conf
+: 1675577935:0;pkill wpaperd
+: 1675577967:0;wpaperd
+: 1675577984:0;pkill swaybg
+: 1675577988:0;e
