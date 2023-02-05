@@ -47,7 +47,6 @@ sudo docker rmi $(docker images --quiet --filter "dangling=true")
 : 1672163481:0;nv a2.log
 : 1672163874:0;rm *.log
 : 1672164028:0;nv .con
-: 1672164034:0;cd .con
 : 1672164036:0;cd alacritty
 : 1672164039:0;nv alacritty.yml
 : 1672164129:0;cd pr
@@ -452,7 +451,6 @@ mv ~/.local/share/nvim ~/.local/share/nvim.bak
 : 1673783896:0;git ls-files nuage-cats/ | grep -E ".*(py|robot)" | xargs wc -l
 : 1673784052:0;n
 : 1673784296:0;git checkout origin/lazy-for-scratch
-: 1673784471:0;bob use 0.8.3
 : 1673784503:0;git checkout origin/packer-real
 : 1673785045:0;cp Downloads/ani* ~/other-configs
 : 1673785776:0;chafa anilist.png
@@ -501,7 +499,6 @@ mv ~/.local/share/nvim ~/.local/share/nvim.bak
 : 1673942869:0;cd .config
 : 1673942891:0;cd hypr
 : 1673942903:0;nv hyprland.conf
-: 1673943181:0;waybar
 : 1673943278:0;cd waybar
 : 1673943298:0;nv style.css
 : 1673945552:0;nv main_linux.c
@@ -577,7 +574,6 @@ mv ~/.local/share/nvim ~/.local/share/nvim.bak
 : 1674295818:0;cd .local/share/lunarvim
 : 1674295827:0;cd lvim/utils/installer
 : 1674295829:0;./uninstall.sh
-: 1674295869:0;bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh)
 : 1674296220:0;cd pass
 : 1674296223:0;nv main.c
 : 1674300896:0;lv init.lua
@@ -678,7 +674,6 @@ ninja -C build install
 : 1674742142:0;gh repo clone tpope/vim-fugitive
 : 1674742150:0;cd vim-fugitive
 : 1674742172:0;rm -rf vim-fugitive
-: 1674742190:0;lv
 : 1674828570:0;yay -R bob-bin
 : 1674829169:0;./bob
 : 1674829183:0;./bob use nightly
@@ -836,7 +831,6 @@ ninja -C build install
 : 1675167595:0;time ll
 : 1675167966:0;time
 : 1675168931:0;bob install 0.8.2
-: 1675168964:0;bob use nightly
 : 1675171326:0;mkdir prac
 : 1675172050:0;cargo uninstall
 : 1675172059:0;cargo install
@@ -950,7 +944,6 @@ ninja -C build install
 : 1675446013:0;cz
 : 1675446206:0;yay -S alacritty
 : 1675446286:0;kk
-: 1675446302:0;cd Downloads
 : 1675446305:0;nv bible.txt
 : 1675448023:0;export KITTY_ENABLE_WAYLAND=1
 : 1675448313:0;exec zsh
@@ -1001,7 +994,6 @@ ninja -C build install
 : 1675508615:0;mpvpaper -vs -o "no-audio loop" eDP-1 ~/Videos/Falling\ Into\ a\ Black\ Hole\ \(Simulation\)-_AiJpvergBI.mp4
 : 1675508741:0;mkdir random-shit
 : 1675508744:0;cd random-shit
-: 1675508759:0;cdp
 : 1675508761:0;cd Videos
 : 1675508769:0;mkdir video-wallpapers
 : 1675508777:0;cp Falling\ Into\ a\ Black\ Hole\ \(Simulation\)-_AiJpvergBI.mp4 video-wallpapers
@@ -1026,7 +1018,6 @@ ninja -C build install
 : 1675512720:0;cd .config/hypr
 : 1675512731:0;yay -S swaylock
 : 1675512780:0;mpvpaper -vs -o "no-audio loop" eDP-1 ~/Videos/video-wallpapers/Rain-28236.mp4
-: 1675512922:0;hyprctl clients
 : 1675531417:0;timezsh() {\
  shell=${1-$SHELL}\
  for i in $(seq 1 10); do time $shell -i -c exit; done\
@@ -1037,12 +1028,10 @@ ninja -C build install
 : 1675531760:0;rm .wget-hsts
 : 1675531780:0;rm -rf .arduino*
 : 1675531831:0;lll
-: 1675532161:0;nv .
 : 1675532534:0;cd cp
 : 1675532542:0;nv switch.c
 : 1675532851:0;wf-recorder -g "$(slurp)" -f ~/nvim-tree.mp4
 : 1675533132:0;wf-recorder -g "$(slurp)" -f ~/nvim-tree2.mp4
-: 1675533321:0;cd
 : 1675533323:0;cd nvim
 : 1675533326:0;nvim init.lua
 : 1675534361:0;nv init.lua
@@ -1060,13 +1049,9 @@ ninja -C build install
 : 1675570212:0;trash-empty
 : 1675570409:0;uneo
 : 1675570433:0;bob ls
-: 1675570440:0;nv
 : 1675570458:0;x
 : 1675573854:0;cd Downloads/Blue.is.the.Warmest.Color.2013.1080p.BluRay.6CH.3.4GB.MkvCage.mkv
 : 1675573860:0;cd Downloads/
-: 1675573861:0;ll
-: 1675573868:0;mpv Blue.is.the.Warmest.Color.2013.1080p.BluRay.6CH.3.4GB.MkvCage.mkv
-: 1675573948:0;c
 : 1675573953:0;cd projects
 : 1675573956:0;./qbit.sh
 : 1675577301:0;yay wpaperd
@@ -1075,7 +1060,56 @@ ninja -C build install
 : 1675577728:0;nv $HOME/.config/wpaperd/output.conf
 : 1675577793:0;mkdir ~/.config/wpaperd
 : 1675577804:0;nv ~/.config/wpaperd/output.conf
-: 1675577935:0;pkill wpaperd
-: 1675577967:0;wpaperd
 : 1675577984:0;pkill swaybg
-: 1675577988:0;e
+: 1675580861:0;bob use 0.8.3
+: 1675580867:0;LV_BRANCH='release-1.2/neovim-0.8' bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/fc6873809934917b470bff1b072171879899a36b/utils/installer/install.sh)
+: 1675581084:0;~/.local/share/lunarvim/lvim/utils/installer/uninstall.sh
+: 1675581089:0;bob use nightly
+: 1675581114:0;bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh)
+: 1675581159:0;lv
+: 1675581337:0;lvim
+: 1675582335:0;nv .
+: 1675588595:0;mpv Blue.is.the.Warmest.Color.2013.1080p.BluRay.6CH.3.4GB.MkvCage.mkv
+: 1675588719:0;mpv A\ History\ of\ Violence\ \(2005\)\ \[1080p\]
+: 1675589993:0;cd .cac
+: 1675589995:0;cd mp
+: 1675590009:0;cd .config/mpv
+: 1675590015:0;rm -rf watch_later
+: 1675590017:0;c
+: 1675590019:0;cd
+: 1675590027:0;mpv ~/Downloads/A\ History\ of\ Violence\ \(2005\)\ \[1080p\]
+: 1675591343:0;cd Downloads
+: 1675591350:0;unzip linuxmobile\ hyprland-dots\ main\ .config-waybar.zip
+: 1675591361:0;nemo .
+: 1675591394:0;mv ~/.config/waybar ~/.config/waybar.bak
+: 1675591417:0;cp -r linuxmobile\ hyprland-dots\ main\ .config-waybar ~/.config/waybar
+: 1675591442:0;cd .con
+: 1675591485:0;mv waybar waybar.bak
+: 1675591496:0;cp -r ~/Downloads/linuxmobile\ hyprland-dots\ main\ .config-waybar waybar
+: 1675591525:0;cd .config/waybar
+: 1675591526:0;ll
+: 1675591528:0;nv config.jsonc
+: 1675591648:0;cdp
+: 1675591651:0;rm -rf waybar
+: 1675591654:0;mv waybar.bak waybar
+: 1675591659:0;pkill waybar
+: 1675591661:0;waybar
+: 1675592670:0;nv
+: 1675592710:0;hyprctl clients
+: 1675598104:0;pkill wpaperd
+: 1675598106:0;wpaperd
+: 1675598435:0;e
+: 1675598436:0;c
+: 1675598438:0;nv
+: 1675602340:0;pkill wpaperd
+: 1675602347:0;wpaperd
+: 1675602352:0;pkill wpaperd
+: 1675602353:0;wpaperd
+: 1675607474:0;nv
+: 1675609111:0;c
+: 1675609119:0;cd hypr
+: 1675609119:0;ll
+: 1675609127:0;mv wallpapers ~/Pictures
+: 1675609128:0;ll
+: 1675609133:0;nv hyprland.conf
+: 1675609194:0;yl
