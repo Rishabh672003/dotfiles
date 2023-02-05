@@ -515,3 +515,17 @@
 : 1675620923:0;rm ~/.config/hypr/scripts/env-vars.sh
 : 1675620925:0;c
 : 1675620925:0;yl
+: 1675620938:0;cd
+: 1675620938:0;c
+: 1675620941:0;cd other-configs
+: 1675620943:0;ll
+: 1675620954:0;cdp
+: 1675620964:0;mv other-configs other-stuff
+: 1675620969:0;cd other-stuff
+: 1675620972:0;nv grimblast
+: 1675620991:0;nv /usr/bin/grimblast
+: 1675620998:0;nv grimblast
+: 1675621007:0;ls
+: 1675621011:0;c
+: 1675621011:0;cd
+: 1675621013:0;yl
