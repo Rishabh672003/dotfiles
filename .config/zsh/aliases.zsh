@@ -55,7 +55,8 @@ alias wss='XDG_SESSION_TYPE=wayland waydroid show-full-ui'
 alias we='waydroid session stop'
 alias wr='sudo systemctl restart waydroid-container'
 alias wl='sudo waydroid log'
-alias grub-update=' sudo grub-mkconfig -o /boot/grub/grub.cfg'
+alias install-grub='sudo grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUB'
+alias update-grub=' sudo grub-mkconfig -o /boot/grub/grub.cfg'
 alias wtr='curl -4 https://wttr.in/virar'
 alias gtnv='rm -rf ~/Applications/squashfs-root/ ~/Applications/nvim.appimage > /dev/null 2>&1 && \
     curl --output-dir ~/Applications/ \

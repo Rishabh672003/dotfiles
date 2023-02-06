@@ -105,7 +105,6 @@
 : 1675014808:0;nv lua/telescope/_extensions
 : 1675014910:0;cd .local/share/nvim
 : 1675014914:0;cd lazy
-: 1675014920:0;rm -rf *
 : 1675049088:0;tpg
 : 1675049710:0;nvim -v
 : 1675050606:0;nv used
@@ -180,7 +179,6 @@
 : 1675167520:0;cargo build
 : 1675167592:0;time ls
 : 1675167595:0;time ll
-: 1675167966:0;time
 : 1675168931:0;bob install 0.8.2
 : 1675171326:0;mkdir prac
 : 1675172050:0;cargo uninstall
@@ -419,7 +417,6 @@
 : 1675591654:0;mv waybar.bak waybar
 : 1675591659:0;pkill waybar
 : 1675591661:0;waybar
-: 1675592710:0;hyprctl clients
 : 1675609119:0;cd hypr
 : 1675609127:0;mv wallpapers ~/Pictures
 : 1675609133:0;nv hyprland.conf
@@ -440,8 +437,6 @@
 : 1675611226:0;rm -rf Wallpapers .gitmodules
 : 1675611231:0;cd Pictures
 : 1675611241:0;git clone https://github.com/Rishabh672003/Wallpapers
-: 1675611305:0;pkill wpaperd
-: 1675611333:0;wpaperd
 : 1675617080:0;l
 : 1675617087:0;cd Wallpapers
 : 1675617234:0;cd .con
@@ -497,7 +492,6 @@
 : 1675654433:0;cd /
 : 1675654439:0;cd boot/efi
 : 1675654452:0;sudo grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUB
-: 1675654500:0;yl
 : 1675657065:0;gh repo clone catppuccin/firefox
 : 1675657108:0;make package .
 : 1675657117:0;yay yq
@@ -526,7 +520,6 @@
 : 1675658164:0;rm -rf /home/rishabh/.cache/mozilla/firefox/a3dvpcoo.default-release
 : 1675658176:0;rm -rf /home/rishabh/.cache/mozilla/firefox/bdfp0sgl.default
 : 1675658241:0;cd chrome
-: 1675658242:0;ls
 : 1675658245:0;nv userChrome.css
 : 1675658324:0;cdpp
 : 1675658334:0;rm -rf a3dvpcoo.default-release/chrome
@@ -544,69 +537,38 @@
 : 1675658761:0;nv chemistry.md
 : 1675662049:0;uneo
 : 1675662074:0;nvim
-: 1675662110:0;nv
 : 1675662473:0;cd zsh
 : 1675662479:0;cdd zsh
-: 1675662482:0;ll
 : 1675662484:0;nv README.md
 : 1675662545:0;trash-empty
 : 1675662580:0;time $SHELL -i -c exit
-: 1675662582:0;c
-: 1675662582:0;e
 : 1675664330:0;wpaperd
 : 1675664389:0;pkill wpaperd
 : 1675664410:0;swaybg -i ~/Pictures/Wallpapers/Milky_Way.JPG
 : 1675664428:0;mv ~/Pictures/Screenshots .
-: 1675664429:0;ll
 : 1675664432:0;cd Screenshots
-: 1675664433:0;ll
 : 1675664453:0;sudo nv /usr/bin/grimblast
 : 1675664459:0;sudo nvim /usr/bin/grimblast
-: 1675664474:0;vs /usr/bin/grimblast
-: 1675664495:0;c
-: 1675664503:0;ls
-: 1675664504:0;ll
-: 1675664655:0;vs /usr/bin/grimblast
-: 1675664679:0;date -Ins
-: 1675664682:0;date -In
-: 1675664683:0;date -I
-: 1675664687:0;date -In
 : 1675664691:0;ll
-: 1675664693:0;man date
-: 1675664727:0;date %D
 : 1675664732:0;date --%D
 : 1675664735:0;date %D
-: 1675664737:0;man date
 : 1675664793:0;date --date=string
 : 1675664796:0;date --date=String
-: 1675664799:0;man date
 : 1675664805:0;man -d
-: 1675664817:0;man date
 : 1675664837:0;date --iso-8601
 : 1675664842:0;date -Ins
 : 1675664844:0;date -In
-: 1675664849:0;date -I
-: 1675664853:0;date -Is
-: 1675664864:0;c
-: 1675664866:0;vs /usr/bin/grimblast
-: 1675664879:0;c
 : 1675664881:0;man date
 : 1675664915:0;ls
 : 1675664927:0;date -Is
 : 1675664939:0;date -Is | awk 'T '
 : 1675664952:0;date -Is | awk * T
-: 1675664966:0;c
 : 1675664973:0;sed
 : 1675664989:0;man awk
-: 1675665060:0;c
 : 1675665063:0;rm -rf *
-: 1675665075:0;vs /usr/bin/grimblast
-: 1675665147:0;c
 : 1675665159:0;vs
-: 1675665161:0;vs /usr/bin/grimblast
 : 1675665182:0;sudo cp ~/other-stuff/grimblast /usr/bin/grimblast
 : 1675665185:0;vs /usr/bin/grimblast
-: 1675665196:0;c
 : 1675665212:0;time
 : 1675665218:0;date
 : 1675665222:0;cal
@@ -623,3 +585,25 @@
 : 1675667579:0;hyprctl clients
 : 1675667589:0;nv
 : 1675667651:0;yl
+: 1675667658:0;e
+: 1675668393:0;wpaperd
+: 1675668492:0;cd
+: 1675668494:0;cd Screenshots
+: 1675668496:0;ll
+: 1675668504:0;shotwell 2023-02-06T12:02:28+05:30.png
+: 1675668542:0;c
+: 1675668544:0;cd
+: 1675668546:0;cd Applications
+: 1675668546:0;ll
+: 1675668583:0;rm -rf ~/.local/share/applications/appimagekit_a733bf125b830ccf945f0d44f8c091d1-Neovim*
+: 1675668591:0;rm -rf ~/.local/share/applications/appimagekit_d28f94101ecd4e0bb101d524ca32d3bc-Neovim.desktop
+: 1675668599:0;rm -rf ~/.local/share/applications/appimagekit_dc5a01ff6e885926206c8f411dbd566d-Neovim.desktop
+: 1675668609:0;rm -rf nvim-0.8.1.appimage nvim-0.8.appimage nvim.appimage
+: 1675668611:0;c
+: 1675668628:0;gtnv
+: 1675668640:0;nnvim
+: 1675668653:0;nnvim -v
+: 1675668660:0;nv -v
+: 1675669639:0;sudo grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUB
+: 1675669656:0;install-grub
+: 1675669690:0;yl
