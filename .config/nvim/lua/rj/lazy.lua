@@ -198,7 +198,6 @@ require("lazy").setup({
 	},
 	{
 		"kyazdani42/nvim-tree.lua",
-		event = "VeryLazy",
 		cmd = "NvimTreeToggle",
 		tag = "nightly",
 		config = function()
@@ -348,7 +347,7 @@ require("lazy").setup({
 	{
 		"iamcco/markdown-preview.nvim",
 		ft = "markdown",
-		event = "VeryLazy",
+		-- event = "VeryLazy",
 		build = function()
 			vim.fn["mkdp#util#install"]()
 		end,

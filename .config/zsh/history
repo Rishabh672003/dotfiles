@@ -165,8 +165,6 @@
 : 1675067430:0;cd .local/share/neovim
 : 1675067635:0;nv -v
 : 1675067726:0;gtnv
-: 1675068716:0;cdd zsh
-: 1675068771:0;nvim
 : 1675069785:0;nv qbit.sh
 : 1675069938:0;cd .config/nvim
 : 1675069941:0;cdd nvim
@@ -313,8 +311,6 @@
 : 1675490697:0;p10k configure
 : 1675490822:0;cd .config/zsh
 : 1675490844:0;sls
-: 1675491641:0;cd zsh
-: 1675491656:0;time $SHELL -i -c exit
 : 1675491735:0;beautysh ~/.config/zsh/.p10k.zsh
 : 1675492672:0;nvim --clean ~/.config/zsh/.p10k.zsh
 : 1675492735:0;nv p10
@@ -381,21 +377,16 @@
 : 1675534361:0;nv init.lua
 : 1675565963:0;cd Clg-Notes
 : 1675565969:0;cd ESE
-: 1675566405:0;cd ese
 : 1675566416:0;mkdir ESE-Papers
 : 1675566429:0;unzip WhatsApp\ Unknown\ 2023-02-05\ at\ 8.36.28\ AM.zip
 : 1675566440:0;mv WhatsApp\ Image\ 2023-02-05\ at* ESE-Papers
 : 1675566450:0;cd ESE-Papers
-: 1675566454:0;cdpp
-: 1675570212:0;trash-empty
-: 1675570409:0;uneo
 : 1675570433:0;bob ls
 : 1675570458:0;x
 : 1675573854:0;cd Downloads/Blue.is.the.Warmest.Color.2013.1080p.BluRay.6CH.3.4GB.MkvCage.mkv
 : 1675573860:0;cd Downloads/
 : 1675573956:0;./qbit.sh
 : 1675577301:0;yay wpaperd
-: 1675577356:0;nv chemistry.md
 : 1675577709:0;nv XDG_CONFIG_HOME/wpaperd/output.conf
 : 1675577728:0;nv $HOME/.config/wpaperd/output.conf
 : 1675577793:0;mkdir ~/.config/wpaperd
@@ -433,12 +424,10 @@
 : 1675609127:0;mv wallpapers ~/Pictures
 : 1675609133:0;nv hyprland.conf
 : 1675609474:0;lll
-: 1675609620:0;cd projects
 : 1675609621:0;gh repo clone Rishabh672003/Wallpapers
 : 1675609643:0;mv ~/Pictures/wallpapers/* Wallpapers
 : 1675609654:0;rm -rf ~/Pictures/wallpapers
 : 1675609662:0;mv Wallpapers ~/Pictures
-: 1675609677:0;lg
 : 1675609818:0;cd pro
 : 1675610049:0;cd pi
 : 1675610327:0;mv Pictures/Wallpapers .
@@ -447,7 +436,6 @@
 : 1675610417:0;rm -rf Wallpapers
 : 1675610420:0;yadm submodule add https://github.com/Rishabh672003/Wallpapers
 : 1675610663:0;nv .gitmodules
-: 1675610684:0;nv README.md
 : 1675610844:0;sdr
 : 1675611226:0;rm -rf Wallpapers .gitmodules
 : 1675611231:0;cd Pictures
@@ -494,28 +482,144 @@
 : 1675620889:0;yadm status
 : 1675620923:0;rm ~/.config/hypr/scripts/env-vars.sh
 : 1675620941:0;cd other-configs
-: 1675620954:0;cdp
 : 1675620964:0;mv other-configs other-stuff
 : 1675620969:0;cd other-stuff
 : 1675620991:0;nv /usr/bin/grimblast
 : 1675620998:0;nv grimblast
 : 1675621040:0;nv ~/.config/yadm/yadm.sh
 : 1675621236:0;rm grimblast
-: 1675621658:0;yl
 : 1675653191:0;./remain.out
-: 1675653248:0;nv
-: 1675654191:0;ll
-: 1675654192:0;c
 : 1675654196:0;ys
 : 1675654273:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
 : 1675654348:0;lsblk
 : 1675654399:0;sudo grub-install --target=x86_64-efi --efi-directory=/dev/nvme0n1p1 --bootloader-id=GRUB
 : 1675654407:0;sudo grub-install --target=x86_64-efi --efi-directory= /dev/nvme0n1p1 --bootloader-id=GRUB
-: 1675654432:0;cd
 : 1675654433:0;cd /
 : 1675654439:0;cd boot/efi
-: 1675654440:0;ls
 : 1675654452:0;sudo grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUB
-: 1675654493:0;e
-: 1675654499:0;c
 : 1675654500:0;yl
+: 1675657065:0;gh repo clone catppuccin/firefox
+: 1675657108:0;make package .
+: 1675657117:0;yay yq
+: 1675657136:0;yay -S yq
+: 1675657165:0;mkdir make-pack
+: 1675657168:0;cd firefox
+: 1675657174:0;make package ../make-pack
+: 1675657201:0;yay -S yarn
+: 1675657208:0;yarn install
+: 1675657256:0;nv manifest.json
+: 1675657286:0;cd node_modules
+: 1675657309:0;make package
+: 1675657333:0;la
+: 1675657339:0;lg
+: 1675657356:0;yarn generate
+: 1675657380:0;cd dist
+: 1675657387:0;cd mocha
+: 1675657390:0;cd blue
+: 1675657726:0;gh repo clone andreasgrafen/cascade
+: 1675657760:0;cd cascade
+: 1675657796:0;cd .mozilla/firefox/eq5qrv2i.default-release
+: 1675657914:0;cp -r chrome ~/.mozilla/firefox/a3dvpcoo.default-release
+: 1675657976:0;cd includes
+: 1675657999:0;cp ~/projects/cascade/integrations/catppuccin/cascade-mocha.css .
+: 1675658159:0;rm /home/rishabh/.cache/mozilla/firefox/a3dvpcoo.default-release
+: 1675658164:0;rm -rf /home/rishabh/.cache/mozilla/firefox/a3dvpcoo.default-release
+: 1675658176:0;rm -rf /home/rishabh/.cache/mozilla/firefox/bdfp0sgl.default
+: 1675658241:0;cd chrome
+: 1675658242:0;ls
+: 1675658245:0;nv userChrome.css
+: 1675658324:0;cdpp
+: 1675658334:0;rm -rf a3dvpcoo.default-release/chrome
+: 1675658394:0;cd a3dvpcoo.default-release
+: 1675658703:0;cd
+: 1675658705:0;cd projects
+: 1675658709:0;rm -rf cascade
+: 1675658715:0;rm web2
+: 1675658719:0;rm -rf web2
+: 1675658733:0;cdp
+: 1675658744:0;rm nvim-tree2*
+: 1675658748:0;rm nvim-tree
+: 1675658749:0;rm nvim-tree.mp4
+: 1675658758:0;cd ese
+: 1675658761:0;nv chemistry.md
+: 1675662049:0;uneo
+: 1675662074:0;nvim
+: 1675662110:0;nv
+: 1675662473:0;cd zsh
+: 1675662479:0;cdd zsh
+: 1675662482:0;ll
+: 1675662484:0;nv README.md
+: 1675662545:0;trash-empty
+: 1675662580:0;time $SHELL -i -c exit
+: 1675662582:0;c
+: 1675662582:0;e
+: 1675664330:0;wpaperd
+: 1675664389:0;pkill wpaperd
+: 1675664410:0;swaybg -i ~/Pictures/Wallpapers/Milky_Way.JPG
+: 1675664428:0;mv ~/Pictures/Screenshots .
+: 1675664429:0;ll
+: 1675664432:0;cd Screenshots
+: 1675664433:0;ll
+: 1675664453:0;sudo nv /usr/bin/grimblast
+: 1675664459:0;sudo nvim /usr/bin/grimblast
+: 1675664474:0;vs /usr/bin/grimblast
+: 1675664495:0;c
+: 1675664503:0;ls
+: 1675664504:0;ll
+: 1675664655:0;vs /usr/bin/grimblast
+: 1675664679:0;date -Ins
+: 1675664682:0;date -In
+: 1675664683:0;date -I
+: 1675664687:0;date -In
+: 1675664691:0;ll
+: 1675664693:0;man date
+: 1675664727:0;date %D
+: 1675664732:0;date --%D
+: 1675664735:0;date %D
+: 1675664737:0;man date
+: 1675664793:0;date --date=string
+: 1675664796:0;date --date=String
+: 1675664799:0;man date
+: 1675664805:0;man -d
+: 1675664817:0;man date
+: 1675664837:0;date --iso-8601
+: 1675664842:0;date -Ins
+: 1675664844:0;date -In
+: 1675664849:0;date -I
+: 1675664853:0;date -Is
+: 1675664864:0;c
+: 1675664866:0;vs /usr/bin/grimblast
+: 1675664879:0;c
+: 1675664881:0;man date
+: 1675664915:0;ls
+: 1675664927:0;date -Is
+: 1675664939:0;date -Is | awk 'T '
+: 1675664952:0;date -Is | awk * T
+: 1675664966:0;c
+: 1675664973:0;sed
+: 1675664989:0;man awk
+: 1675665060:0;c
+: 1675665063:0;rm -rf *
+: 1675665075:0;vs /usr/bin/grimblast
+: 1675665147:0;c
+: 1675665159:0;vs
+: 1675665161:0;vs /usr/bin/grimblast
+: 1675665182:0;sudo cp ~/other-stuff/grimblast /usr/bin/grimblast
+: 1675665185:0;vs /usr/bin/grimblast
+: 1675665196:0;c
+: 1675665212:0;time
+: 1675665218:0;date
+: 1675665222:0;cal
+: 1675665229:0;cal -j
+: 1675665234:0;cal -m
+: 1675665253:0;date -I
+: 1675665255:0;c
+: 1675665262:0;date -I | cat
+: 1675665279:0;date -I && date --universal
+: 1675665290:0;date -I && date --universal | awk ' '
+: 1675665300:0;date --universal | awk ' '
+: 1675665304:0;date --universal | awk ''
+: 1675665305:0;date --universal | awk
+: 1675667579:0;hyprctl clients
+: 1675667589:0;nv
+: 1675667651:0;yl
