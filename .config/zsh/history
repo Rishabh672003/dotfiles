@@ -313,11 +313,9 @@
 : 1675490697:0;p10k configure
 : 1675490822:0;cd .config/zsh
 : 1675490844:0;sls
-: 1675490872:0;yel
 : 1675491641:0;cd zsh
 : 1675491656:0;time $SHELL -i -c exit
 : 1675491735:0;beautysh ~/.config/zsh/.p10k.zsh
-: 1675492194:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
 : 1675492672:0;nvim --clean ~/.config/zsh/.p10k.zsh
 : 1675492735:0;nv p10
 : 1675492788:0;micro ~/.config/zsh/.p10k.zsh
@@ -389,7 +387,6 @@
 : 1675566440:0;mv WhatsApp\ Image\ 2023-02-05\ at* ESE-Papers
 : 1675566450:0;cd ESE-Papers
 : 1675566454:0;cdpp
-: 1675570070:0;ys
 : 1675570212:0;trash-empty
 : 1675570409:0;uneo
 : 1675570433:0;bob ls
@@ -446,30 +443,25 @@
 : 1675610049:0;cd pi
 : 1675610327:0;mv Pictures/Wallpapers .
 : 1675610362:0;rm -rf .gitmodules
-: 1675610397:0;yadm status
 : 1675610406:0;yadm submodule add https://github.com/Rishabh672003/Wallpapers wallpapers
 : 1675610417:0;rm -rf Wallpapers
 : 1675610420:0;yadm submodule add https://github.com/Rishabh672003/Wallpapers
 : 1675610663:0;nv .gitmodules
 : 1675610684:0;nv README.md
 : 1675610844:0;sdr
-: 1675611212:0;yl
 : 1675611226:0;rm -rf Wallpapers .gitmodules
 : 1675611231:0;cd Pictures
 : 1675611241:0;git clone https://github.com/Rishabh672003/Wallpapers
 : 1675611305:0;pkill wpaperd
-: 1675611318:0;ls
 : 1675611333:0;wpaperd
 : 1675617080:0;l
 : 1675617087:0;cd Wallpapers
-: 1675617091:0;cdp
 : 1675617234:0;cd .con
 : 1675617239:0;cd swappy/
 : 1675617242:0;nv config
 : 1675617745:0;yay grimblast
 : 1675618343:0;hyprctl keyword animation "fadeOut,0,0,default"; grimblast --notify copysave area; hyprctl keyword animation "fadeOut,1,4,default"
 : 1675618368:0;which grimblast
-: 1675618772:0;cd
 : 1675619429:0;grimblast --help
 : 1675619450:0;grimblast check
 : 1675619493:0;grimblast save
@@ -477,64 +469,53 @@
 : 1675619627:0;nemo .
 : 1675620025:0;grimblast area
 : 1675620050:0;yay -R grimblast-git
-: 1675620100:0;ll
 : 1675620246:0;grimblast copy
-: 1675620356:0;nv
 : 1675620364:0;grimblast screen
 : 1675620368:0;hyprctl keyword animation "fadeOut,0,0,default"; grimblast --notify copysave area; hyprctl keyword animation "fadeOut,1,4,default"\
 
-: 1675620405:0;cd .local/bin
 : 1675620453:0;rm -rf ~/.local/bin/grimblast
 : 1675620458:0;yay -S grimblast
 : 1675620462:0;yay -S grimblast-git
-: 1675620483:0;nv grimblast
 : 1675620553:0;echo "${XDG_SCREENSHOTS_DIR:-${XDG_PICTURES_DIR:-$HOME}}"
 : 1675620626:0;sudo cp ~/.local/bin/grimblast /usr/bin
 : 1675620635:0;su
 : 1675620645:0;grimblast
 : 1675620645:0;exit
-: 1675620662:0;c
-: 1675620664:0;e
 : 1675620691:0;mv /usr/bin/grimblast .
 : 1675620696:0;sudo mv /usr/bin/grimblast .
 : 1675620710:0;cp grimblast ~/.local/bin
 : 1675620713:0;cd .local/bin
-: 1675620713:0;ll
 : 1675620735:0;ln -s /usr/bin/grimblast grimblast
-: 1675620738:0;ls
 : 1675620755:0;ln -s grimblast /usr/bin/grimblast
 : 1675620760:0;sudo ln -s grimblast /usr/bin/grimblast
-: 1675620762:0;c
 : 1675620786:0;sudo rm -rf /usr/bin/grimblast
-: 1675620788:0;c
 : 1675620813:0;sudo mv grimblast /usr/bin
-: 1675620876:0;c
 : 1675620879:0;yel
 : 1675620889:0;yadm status
-: 1675620898:0;yl
 : 1675620923:0;rm ~/.config/hypr/scripts/env-vars.sh
-: 1675620925:0;c
-: 1675620925:0;yl
-: 1675620938:0;cd
-: 1675620938:0;c
 : 1675620941:0;cd other-configs
-: 1675620943:0;ll
 : 1675620954:0;cdp
 : 1675620964:0;mv other-configs other-stuff
 : 1675620969:0;cd other-stuff
-: 1675620972:0;nv grimblast
 : 1675620991:0;nv /usr/bin/grimblast
 : 1675620998:0;nv grimblast
-: 1675621007:0;ls
-: 1675621011:0;c
-: 1675621011:0;cd
-: 1675621013:0;yl
 : 1675621040:0;nv ~/.config/yadm/yadm.sh
-: 1675621076:0;c
-: 1675621227:0;ll
 : 1675621236:0;rm grimblast
-: 1675621239:0;c
-: 1675621239:0;ll
-: 1675621247:0;c
-: 1675621329:0;nv
 : 1675621658:0;yl
+: 1675653191:0;./remain.out
+: 1675653248:0;nv
+: 1675654191:0;ll
+: 1675654192:0;c
+: 1675654196:0;ys
+: 1675654273:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
+: 1675654348:0;lsblk
+: 1675654399:0;sudo grub-install --target=x86_64-efi --efi-directory=/dev/nvme0n1p1 --bootloader-id=GRUB
+: 1675654407:0;sudo grub-install --target=x86_64-efi --efi-directory= /dev/nvme0n1p1 --bootloader-id=GRUB
+: 1675654432:0;cd
+: 1675654433:0;cd /
+: 1675654439:0;cd boot/efi
+: 1675654440:0;ls
+: 1675654452:0;sudo grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUB
+: 1675654493:0;e
+: 1675654499:0;c
+: 1675654500:0;yl
