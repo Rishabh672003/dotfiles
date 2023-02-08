@@ -198,10 +198,18 @@ require("lazy").setup({
 	},
 	{
 		"kyazdani42/nvim-tree.lua",
+		event = "VeryLazy",
 		cmd = "NvimTreeToggle",
 		tag = "nightly",
 		config = function()
 			require("rj.plugins.nvim-tree")
+		end,
+	},
+	{
+		"is0n/jaq-nvim",
+		cmd = "Jaq",
+		config = function()
+			require("rj.plugins.jaq")
 		end,
 	},
 	{
@@ -253,13 +261,6 @@ require("lazy").setup({
 		end,
 	},
 	{ "antoinemadec/FixCursorHold.nvim", lazy = false, event = "BufReadPre" },
-	{
-		"is0n/jaq-nvim",
-		cmd = "Jaq",
-		config = function()
-			require("rj.plugins.jaq")
-		end,
-	},
 	{
 		"Darazaki/indent-o-matic",
 		event = "VeryLazy",

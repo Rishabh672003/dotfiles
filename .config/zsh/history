@@ -146,7 +146,6 @@
 : 1675061710:0;ls ~/.local/share/bob
 : 1675061714:0;ls ~/.local/share/bob/nightly
 : 1675061719:0;ls ~/.local/share/bob/nightly/nvim-linux64
-: 1675062077:0;cd Applications
 : 1675062122:0;curl --output-dir ~/Applications/ -LO https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage && cd ~/Applications && ~/Applications/nvim.appimage --appimage-extract
 : 1675062165:0;rm -rf squashfs-root nvim.appimage
 : 1675062170:0;curl --output-dir ~/Applications/ -LO https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage && cd ~/Applications && chmod +x nvim.appimage && ~/Applications/nvim.appimage --appimage-extract
@@ -162,8 +161,6 @@
 : 1675067361:0;rm -rf nightly
 : 1675067388:0;cp -r nightly ~/.local/share/bob
 : 1675067430:0;cd .local/share/neovim
-: 1675067635:0;nv -v
-: 1675067726:0;gtnv
 : 1675069785:0;nv qbit.sh
 : 1675069938:0;cd .config/nvim
 : 1675069941:0;cdd nvim
@@ -173,9 +170,7 @@
 : 1675091895:0;wf-recorder -g "$(slurp)" -f ~/snippet4.mp4
 : 1675094343:0;yay -S scc
 : 1675094419:0;scc
-: 1675094459:0;nv ~/.config/alacritty/alacritty.yml
 : 1675094546:0;mkdir cppro
-: 1675095334:0;cd cppro
 : 1675167520:0;cargo build
 : 1675167592:0;time ls
 : 1675167595:0;time ll
@@ -203,7 +198,6 @@
 : 1675234774:0;cd Documents
 : 1675234783:0;cd PPS\ Practical\ Exam
 : 1675234848:0;gcc -o test Armstrong-Numbers.c
-: 1675234852:0;./test
 : 1675234897:0;nv 1.Armstrong\ Numbers.c
 : 1675234904:0;nv Armstrong-Numbers.c
 : 1675234918:0;cp projects/.clang-format .
@@ -276,7 +270,6 @@
 : 1675436265:0;git pull
 : 1675436288:0;cp README.md ..
 : 1675439556:0;cali
-: 1675439866:0;nnvim
 : 1675440172:0;hx --version
 : 1675440315:0;hx
 : 1675440342:0;helix-git
@@ -288,10 +281,8 @@
 : 1675445997:0;rm p10k-*
 : 1675446013:0;cz
 : 1675446206:0;yay -S alacritty
-: 1675446286:0;kk
 : 1675446305:0;nv bible.txt
 : 1675448023:0;export KITTY_ENABLE_WAYLAND=1
-: 1675448313:0;exec zsh
 : 1675448404:0;cll
 : 1675448730:0;kitty --ls-fonts
 : 1675448732:0;kitty
@@ -327,7 +318,6 @@
 : 1675507179:0;cd shell
 : 1675507188:0;mkdir .git
 : 1675507193:0;nv math-operation.sh
-: 1675508057:0;we
 : 1675508543:0;cd wall
 : 1675508552:0;dc
 : 1675508615:0;mpvpaper -vs -o "no-audio loop" eDP-1 ~/Videos/Falling\ Into\ a\ Black\ Hole\ \(Simulation\)-_AiJpvergBI.mp4
@@ -346,9 +336,6 @@
 : 1675510098:0;mv ../Rain-28236.mp4 .
 : 1675510819:0;swaybg -i ~/.config/hypr/wallpapers/main_image_star-forming_region_carina_nircam_final-5mb.jpg
 : 1675510825:0;mpvpaper -vs -o "no-audio loop" eDP-1 ~/Videos/video-wallpapers/water-pexels-adrien-jacta-6430233.mp4
-: 1675511714:0;nv a.c
-: 1675511730:0;cd cpp
-: 1675511733:0;nv a.cpp
 : 1675511786:0;nv arm.c
 : 1675511955:0;nwg-look
 : 1675512318:0;pkill mpvpaper
@@ -366,11 +353,9 @@
 : 1675531430:0;rm recording.mp4
 : 1675531760:0;rm .wget-hsts
 : 1675531780:0;rm -rf .arduino*
-: 1675532534:0;cd cp
 : 1675532542:0;nv switch.c
 : 1675532851:0;wf-recorder -g "$(slurp)" -f ~/nvim-tree.mp4
 : 1675533132:0;wf-recorder -g "$(slurp)" -f ~/nvim-tree2.mp4
-: 1675533323:0;cd nvim
 : 1675533326:0;nvim init.lua
 : 1675534361:0;nv init.lua
 : 1675565963:0;cd Clg-Notes
@@ -379,7 +364,6 @@
 : 1675566429:0;unzip WhatsApp\ Unknown\ 2023-02-05\ at\ 8.36.28\ AM.zip
 : 1675566440:0;mv WhatsApp\ Image\ 2023-02-05\ at* ESE-Papers
 : 1675566450:0;cd ESE-Papers
-: 1675570433:0;bob ls
 : 1675570458:0;x
 : 1675573854:0;cd Downloads/Blue.is.the.Warmest.Color.2013.1080p.BluRay.6CH.3.4GB.MkvCage.mkv
 : 1675573860:0;cd Downloads/
@@ -420,12 +404,10 @@
 : 1675609119:0;cd hypr
 : 1675609127:0;mv wallpapers ~/Pictures
 : 1675609133:0;nv hyprland.conf
-: 1675609474:0;lll
 : 1675609621:0;gh repo clone Rishabh672003/Wallpapers
 : 1675609643:0;mv ~/Pictures/wallpapers/* Wallpapers
 : 1675609654:0;rm -rf ~/Pictures/wallpapers
 : 1675609662:0;mv Wallpapers ~/Pictures
-: 1675609818:0;cd pro
 : 1675610049:0;cd pi
 : 1675610327:0;mv Pictures/Wallpapers .
 : 1675610362:0;rm -rf .gitmodules
@@ -433,11 +415,9 @@
 : 1675610417:0;rm -rf Wallpapers
 : 1675610420:0;yadm submodule add https://github.com/Rishabh672003/Wallpapers
 : 1675610663:0;nv .gitmodules
-: 1675610844:0;sdr
 : 1675611226:0;rm -rf Wallpapers .gitmodules
 : 1675611231:0;cd Pictures
 : 1675611241:0;git clone https://github.com/Rishabh672003/Wallpapers
-: 1675617080:0;l
 : 1675617087:0;cd Wallpapers
 : 1675617234:0;cd .con
 : 1675617239:0;cd swappy/
@@ -458,7 +438,6 @@
 
 : 1675620453:0;rm -rf ~/.local/bin/grimblast
 : 1675620458:0;yay -S grimblast
-: 1675620462:0;yay -S grimblast-git
 : 1675620553:0;echo "${XDG_SCREENSHOTS_DIR:-${XDG_PICTURES_DIR:-$HOME}}"
 : 1675620626:0;sudo cp ~/.local/bin/grimblast /usr/bin
 : 1675620635:0;su
@@ -471,7 +450,6 @@
 : 1675620735:0;ln -s /usr/bin/grimblast grimblast
 : 1675620755:0;ln -s grimblast /usr/bin/grimblast
 : 1675620760:0;sudo ln -s grimblast /usr/bin/grimblast
-: 1675620786:0;sudo rm -rf /usr/bin/grimblast
 : 1675620813:0;sudo mv grimblast /usr/bin
 : 1675620879:0;yel
 : 1675620889:0;yadm status
@@ -484,14 +462,11 @@
 : 1675621040:0;nv ~/.config/yadm/yadm.sh
 : 1675621236:0;rm grimblast
 : 1675653191:0;./remain.out
-: 1675654196:0;ys
 : 1675654273:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
 : 1675654348:0;lsblk
 : 1675654399:0;sudo grub-install --target=x86_64-efi --efi-directory=/dev/nvme0n1p1 --bootloader-id=GRUB
 : 1675654407:0;sudo grub-install --target=x86_64-efi --efi-directory= /dev/nvme0n1p1 --bootloader-id=GRUB
-: 1675654433:0;cd /
 : 1675654439:0;cd boot/efi
-: 1675654452:0;sudo grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUB
 : 1675657065:0;gh repo clone catppuccin/firefox
 : 1675657108:0;make package .
 : 1675657117:0;yay yq
@@ -512,44 +487,32 @@
 : 1675657390:0;cd blue
 : 1675657726:0;gh repo clone andreasgrafen/cascade
 : 1675657760:0;cd cascade
-: 1675657796:0;cd .mozilla/firefox/eq5qrv2i.default-release
 : 1675657914:0;cp -r chrome ~/.mozilla/firefox/a3dvpcoo.default-release
 : 1675657976:0;cd includes
 : 1675657999:0;cp ~/projects/cascade/integrations/catppuccin/cascade-mocha.css .
 : 1675658159:0;rm /home/rishabh/.cache/mozilla/firefox/a3dvpcoo.default-release
 : 1675658164:0;rm -rf /home/rishabh/.cache/mozilla/firefox/a3dvpcoo.default-release
 : 1675658176:0;rm -rf /home/rishabh/.cache/mozilla/firefox/bdfp0sgl.default
-: 1675658241:0;cd chrome
 : 1675658245:0;nv userChrome.css
-: 1675658324:0;cdpp
 : 1675658334:0;rm -rf a3dvpcoo.default-release/chrome
 : 1675658394:0;cd a3dvpcoo.default-release
-: 1675658703:0;cd
-: 1675658705:0;cd projects
 : 1675658709:0;rm -rf cascade
 : 1675658715:0;rm web2
 : 1675658719:0;rm -rf web2
-: 1675658733:0;cdp
 : 1675658744:0;rm nvim-tree2*
 : 1675658748:0;rm nvim-tree
 : 1675658749:0;rm nvim-tree.mp4
-: 1675658758:0;cd ese
-: 1675658761:0;nv chemistry.md
-: 1675662049:0;uneo
 : 1675662074:0;nvim
 : 1675662473:0;cd zsh
 : 1675662479:0;cdd zsh
 : 1675662484:0;nv README.md
 : 1675662545:0;trash-empty
 : 1675662580:0;time $SHELL -i -c exit
-: 1675664330:0;wpaperd
 : 1675664389:0;pkill wpaperd
 : 1675664410:0;swaybg -i ~/Pictures/Wallpapers/Milky_Way.JPG
 : 1675664428:0;mv ~/Pictures/Screenshots .
-: 1675664432:0;cd Screenshots
 : 1675664453:0;sudo nv /usr/bin/grimblast
 : 1675664459:0;sudo nvim /usr/bin/grimblast
-: 1675664691:0;ll
 : 1675664732:0;date --%D
 : 1675664735:0;date %D
 : 1675664793:0;date --date=string
@@ -559,7 +522,6 @@
 : 1675664842:0;date -Ins
 : 1675664844:0;date -In
 : 1675664881:0;man date
-: 1675664915:0;ls
 : 1675664927:0;date -Is
 : 1675664939:0;date -Is | awk 'T '
 : 1675664952:0;date -Is | awk * T
@@ -575,35 +537,157 @@
 : 1675665229:0;cal -j
 : 1675665234:0;cal -m
 : 1675665253:0;date -I
-: 1675665255:0;c
 : 1675665262:0;date -I | cat
 : 1675665279:0;date -I && date --universal
 : 1675665290:0;date -I && date --universal | awk ' '
 : 1675665300:0;date --universal | awk ' '
 : 1675665304:0;date --universal | awk ''
 : 1675665305:0;date --universal | awk
-: 1675667579:0;hyprctl clients
-: 1675667589:0;nv
-: 1675667651:0;yl
-: 1675667658:0;e
 : 1675668393:0;wpaperd
-: 1675668492:0;cd
-: 1675668494:0;cd Screenshots
-: 1675668496:0;ll
 : 1675668504:0;shotwell 2023-02-06T12:02:28+05:30.png
-: 1675668542:0;c
-: 1675668544:0;cd
 : 1675668546:0;cd Applications
-: 1675668546:0;ll
 : 1675668583:0;rm -rf ~/.local/share/applications/appimagekit_a733bf125b830ccf945f0d44f8c091d1-Neovim*
 : 1675668591:0;rm -rf ~/.local/share/applications/appimagekit_d28f94101ecd4e0bb101d524ca32d3bc-Neovim.desktop
 : 1675668599:0;rm -rf ~/.local/share/applications/appimagekit_dc5a01ff6e885926206c8f411dbd566d-Neovim.desktop
 : 1675668609:0;rm -rf nvim-0.8.1.appimage nvim-0.8.appimage nvim.appimage
-: 1675668611:0;c
-: 1675668628:0;gtnv
-: 1675668640:0;nnvim
 : 1675668653:0;nnvim -v
 : 1675668660:0;nv -v
 : 1675669639:0;sudo grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUB
 : 1675669656:0;install-grub
 : 1675669690:0;yl
+: 1675669774:0;exec zsh
+: 1675669778:0;gtnv
+: 1675669798:0;nnvim
+: 1675678067:0;nv chemistry.md
+: 1675693040:0;yarn install\
+yarn generatec
+: 1675693045:0;cdpp
+: 1675693050:0;rm -rf firefox
+: 1675696184:0;uneo
+: 1675696190:0;bob ls
+: 1675697886:0;QT_QPA_PLATFORM=wayland telegram-desktop
+: 1675698037:0;sudo rm -rf /usr/bin/grimblast
+: 1675698045:0;yay -S grimblast-git
+: 1675698126:0;dunstctl history
+: 1675698142:0;cd /
+: 1675698151:0;fd screenshots
+: 1675698162:0;vs /etc/environment
+: 1675698215:0;cd Screenshots
+: 1675698559:0;discord --enable-features=UseOzonePlatform
+: 1675698593:0;discord --enable-features=UseOzonePlatform --ozone-platform=wayland
+: 1675698647:0;/usr/bin/discord --enable-features=UseOzonePlatform --ozone-platform=wayland
+: 1675701027:0;nv .clang-format
+: 1675704676:0;cd .mozilla/firefox
+: 1675704688:0;cd .mozilla/firefox/eq5qrv2i.default-release
+: 1675704693:0;cd chrome
+: 1675704698:0;cdp
+: 1675704702:0;lll
+: 1675705032:0;rm -rf .zoom
+: 1675708155:0;yay hidamari
+: 1675708219:0;hidamari
+: 1675708347:0;yay -Rns hidamari
+: 1675708361:0;rm -rf Videos/Hidamari
+: 1675763304:0;cd projects
+: 1675763309:0;cd cppro
+: 1675763958:0;./a.out
+: 1675763985:0;rm first.out
+: 1675763988:0;g++ first.cpp
+: 1675763997:0;g++ -o test first.cpp
+: 1675764002:0;./test
+: 1675764239:0;nv first.cpp
+: 1675764674:0;~/projects/cppro/first.out
+: 1675764678:0;~/projects/cppro/a.out
+: 1675764826:0;cd cp
+: 1675764830:0;nv a.c
+: 1675765171:0;cd cpp
+: 1675765218:0;cd cppr
+: 1675765228:0;cdd cpp
+: 1675765235:0;nv a.cpp
+: 1675765447:0;cd pro
+: 1675765462:0;nv lazy.lua
+: 1675765526:0;sdr
+: 1675767651:0;cd all
+: 1675767653:0;cd alla
+: 1675767658:0;cd ~/.config/alacritty
+: 1675767661:0;nv alacritty.yml
+: 1675767673:0;wf-recorder -g "$(slurp)" -f ~/jaq-issue.mp4
+: 1675768579:0;nv ~/.config/alacritty/alacritty.yml
+: 1675769171:0;cd ese
+: 1675769179:0;rm chemistry.md WhatsApp\ Unknown\ 2023-02-05\ at\ 8.36.28\ AM.zip
+: 1675769186:0;nv maths.md
+: 1675777054:0;we
+: 1675783372:0;hyprctl clients
+: 1675783382:0;hyprctl layers
+: 1675783452:0;rofi
+: 1675783462:0;rofi -show drun
+: 1675783917:0;wf-recorder -g "$(slurp)" -f ~/hypr.mp4
+: 1675784153:0;wf-recorder -g "$(slurp)" -f ~/hypr2.mp4
+: 1675786692:0;ys
+: 1675786862:0;spotify --enable-features=UseOzonePlatform --ozone-platform=wayland
+: 1675786888:0;pkill spotify
+: 1675786905:0;ae
+: 1675788745:0;killall -9 spotify
+: 1675789104:0;r
+: 1675789107:0;alias
+: 1675789125:0;c
+: 1675789133:0;cd .config/tmux
+: 1675789205:0;cd nvim
+: 1675789206:0;kk
+: 1675789214:0;l
+: 1675789215:0;ll
+: 1675789231:0;cd
+: 1675789236:0;cd tmux
+: 1675789239:0;nv tmux.conf
+: 1675789265:0;xe
+: 1675789268:0;tmux
+: 1675789270:0;ls
+: 1675789271:0;nv
+: 1675789674:0;wf-recorder -g "$(slurp)" -f ~/hypr3.mp4
+: 1675790992:0;e
+: 1675791605:0;nv
+: 1675791618:0;cd nv
+: 1675791620:0;l
+: 1675791622:0;lg
+: 1675791629:0;nv
+: 1675791642:0;lg
+: 1675791661:0;nv init.lua
+: 1675791669:0;lg
+: 1675791895:0;yay -S obsidian
+: 1675792251:0;nv
+: 1675792444:0;c
+: 1675792445:0;ll
+: 1675792446:0;c
+: 1675792452:0;n
+: 1675792481:0;nv
+: 1675824823:0;c
+: 1675824829:0;nv
+: 1675825372:0;cd Videos
+: 1675825373:0;ll
+: 1675825390:0;rm -rf *.mp4
+: 1675825392:0;ll
+: 1675825403:0;cd
+: 1675825413:0;mkdir Screencasts
+: 1675825420:0;cd hypr
+: 1675825425:0;nv hyprland.conf
+: 1675825727:0;cd
+: 1675825729:0;cd Videos
+: 1675825729:0;ll
+: 1675825732:0;rm -rf *.mp4
+: 1675825733:0;cd
+: 1675825738:0;cd Screencasts
+: 1675825738:0;ll
+: 1675825977:0;nv
+: 1675826341:0;c
+: 1675826344:0;nv
+: 1675826386:0;yay -S tilix
+: 1675826405:0;ll
+: 1675826406:0;nv
+: 1675826431:0;hyprctl clients
+: 1675826491:0;yay -S gimp
+: 1675826587:0;hyprctl clients
+: 1675826602:0;nv
+: 1675826656:0;c
+: 1675826657:0;ll
+: 1675826659:0;l
+: 1675826660:0;ll
+: 1675827434:0;yl

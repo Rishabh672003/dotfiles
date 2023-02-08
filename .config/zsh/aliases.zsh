@@ -60,8 +60,8 @@ alias update-grub=' sudo grub-mkconfig -o /boot/grub/grub.cfg'
 alias wtr='curl -4 https://wttr.in/virar'
 alias gtnv='rm -rf ~/Applications/squashfs-root/ ~/Applications/nvim.appimage > /dev/null 2>&1 && \
     curl --output-dir ~/Applications/ \
-    -LO https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage && \
-    cd ~/Applications && chmod +x nvim.appimage && \
+    -LO https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage  && \
+    chmod +x ~/Applications/nvim.appimage && \
     ~/Applications/nvim.appimage --appimage-extract > /dev/null 2>&1'
 alias nnvim='~/Applications/squashfs-root/AppRun'
 #alias nnvim='~/Applications/nvim.appimage'
