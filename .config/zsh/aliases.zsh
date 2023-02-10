@@ -38,7 +38,6 @@ alias hx='helix'
 alias lv='lvim'
 alias shut='shutdown now'
 alias rest='reboot'
-alias log='gnome-session-quit'
 alias rs='sudo systemctl start rate-mirrors'
 alias rss='systemctl status rate-mirrors'
 alias rsss='sh ~/projects/configs/mirrors-and-hosts/rate-mirrors-arch.sh'
@@ -58,13 +57,12 @@ alias wl='sudo waydroid log'
 alias install-grub='sudo grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUB'
 alias update-grub=' sudo grub-mkconfig -o /boot/grub/grub.cfg'
 alias wtr='curl -4 https://wttr.in/virar'
-alias gtnv='rm -rf ~/Applications/squashfs-root/ ~/Applications/nvim.appimage > /dev/null 2>&1 && \
+alias gtnv='cd ~/Applications/ && \
+    rm -rf ~/Applications/nvim-linux64 ~/Applications/nvim-linux64.tar.gz > /dev/null 2>&1 ; \
     curl --output-dir ~/Applications/ \
-    -LO https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage  && \
-    chmod +x ~/Applications/nvim.appimage && \
-    ~/Applications/nvim.appimage --appimage-extract > /dev/null 2>&1'
-alias nnvim='~/Applications/squashfs-root/AppRun'
-#alias nnvim='~/Applications/nvim.appimage'
+    -LO https://github.com/neovim/neovim/releases/download/nightly/nvim-linux64.tar.gz && \
+    tar -xvf ~/Applications/nvim-linux64.tar.gz > /dev/null 2>&1'
+alias nnv='~/Applications/nvim-linux64/bin/nvim'
 alias ua-drop-caches='yay -Sc --aur --noconfirm'
 alias ua-update-all='export TMPFILE="$(mktemp)"; \
     sudo true; \
@@ -92,5 +90,3 @@ alias nrandom='tr -dc "A-Za-z 0-9" < /dev/urandom | fold -w100 | head -n 1000000
 alias yl='sh ~/.config/yadm/yadm.sh'
 alias yel='yadm enter lazygit'
 alias yt="youtube-dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4'"
-alias bobb='cd $HOME/projects/bob && git pull && cargo build \
-    && cp target/debug/bob ~/.local/bin/'
