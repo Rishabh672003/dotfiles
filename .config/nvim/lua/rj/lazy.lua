@@ -96,8 +96,8 @@ require("lazy").setup({
 	{ "neovim/nvim-lspconfig", lazy = true },
 	{
 		"williamboman/mason.nvim",
-		cmd = "Mason",
-		event = "BufReadPre",
+		-- cmd = "Mason",
+		-- event = "BufReadPre",
 		config = function()
 			require("rj.plugins.lsp.mason")
 		end,
@@ -126,7 +126,7 @@ require("lazy").setup({
 	},
 	{
 		"nvim-telescope/telescope.nvim",
-		event = "Bufenter",
+		event = "BufEnter",
 		cmd = { "Telescope" },
 		dependencies = {
 			{ "nvim-telescope/telescope-file-browser.nvim", lazy = true },
@@ -183,7 +183,7 @@ require("lazy").setup({
 	},
 	{
 		"utilyre/barbecue.nvim",
-		event = "BufReadPre",
+		event = { "BufEnter", "BufReadPre", "BufAdd" },
 		config = function()
 			require("rj.plugins.barbecue.barbecue")
 		end,

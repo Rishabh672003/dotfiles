@@ -1,0 +1,71 @@
+font:
+  normal:
+    family: JetBrainsMono Nerd Font
+    style: Regular
+  bold:
+    family: JetBrainsMono Nerd Font
+    style: Bold
+  italic:
+    family: JetBrainsMono Nerd Font
+    style: Italic
+  bold_italic:
+    family: JetBrainsMono Nerd Font
+    style: Italic
+  size: 14
+
+window:
+  decorations: none
+  opacity: 0.4
+  dynamic_padding: true
+
+shell:
+  program: /bin/zsh
+#   args:
+#     - --login
+draw_bold_text_with_bright_colors: true
+
+colors:
+  name: Bleh-1
+  author: ""
+  primary:
+    background: "#000000"
+    foreground: "#ffffff"
+  cursor:
+    text: "#000000"
+    cursor: "#ffffff"
+  normal:
+    black: "#666666"
+    red: "#996578"
+    green: "#889965"
+    yellow: "#998565"
+    blue: "#657a99"
+    magenta: "#8b6599"
+    cyan: "#65998d"
+    white: "#a5a5a4"
+  bright:
+    black: "#8c847f"
+    red: "#bd4b76"
+    green: "#95b548"
+    yellow: "#bd814b"
+    blue: "#4c83bf"
+    magenta: "#a04bbd"
+    cyan: "#4dbda8"
+    white: "#848484"
+theme: Bleh-1
+bc4b'
+    blue: '#3daee9'
+    magenta: '#8e44ad'
+    cyan: '#16a085'
+    white: '#ffffff'
+
+  # Dim colors
+  dim:
+    black: '#31363b'
+    red: '#783228'
+    green: '#17a262'
+    yellow: '#b65619'
+    blue: '#1b668f'
+    magenta: '#614a73'
+    cyan: '#186c60'
+    white: '#63686d'
+theme: Breeze

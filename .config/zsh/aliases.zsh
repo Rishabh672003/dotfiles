@@ -1,6 +1,8 @@
 #my aliases
 alias c='clear'
 alias e='exit'
+alias :q='exit'
+alias :wq='exit'
 alias f='fastfetch'
 alias m='mocp'
 alias n='neofetch'
