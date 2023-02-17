@@ -15,7 +15,7 @@ return {
 	enable_wayland = true,
 	enable_tab_bar = false,
 	automatically_reload_config = true,
-	window_background_opacity = 0.5,
+	window_background_opacity = 0.4,
 	window_close_confirmation = "NeverPrompt",
 	window_padding = {
 		left = 0,

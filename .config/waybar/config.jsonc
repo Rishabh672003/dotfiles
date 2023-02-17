@@ -185,6 +185,6 @@
   },
   "custom/exit": {
     "format": "<span color='#F38BA8'>⏻</span>",
-    "on-click": "wlogout"
+    "on-click": "pkill wlogout || wlogout"
   }
 }

@@ -35,40 +35,7 @@ int main() {{
 }}
 ]],
 			{
-				i(1, "// solution"),
-			}
-		)
-	),
-})
-
-ls.add_snippets("cpp", {
-	s(
-		"cc",
-		fmt(
-			[[
-#include <bits/stdc++.h>
-using namespace std;
-
-#define ll long long
-#define ld long double
-#define str string
-
-void solve() {{
-	{}
-}}
-
-int main() {{
-    ios::sync_with_stdio(0);
-    cin.tie(0);
-    ll t;
-    cin >> t;
-    while (t--)
-        solve();
-    return 0;
-}}
-]],
-			{
-				i(1, "// solution"),
+				i(1),
 			}
 		)
 	),
@@ -90,7 +57,93 @@ int main() {{
 }}
 ]],
 			{
-				i(1, "// solution"),
+				i(1),
+			}
+		)
+	),
+})
+
+
+ls.add_snippets("cpp", {
+	s(
+		"cc",
+		fmt(
+			[[
+#include <bits/stdc++.h>
+using namespace std;
+
+#define ll long long
+#define ld long double
+#define str string
+
+void solve() {{
+    int a, b;
+    cin >> a >> b;
+	{}
+}}
+
+int main() {{
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+    ll t;
+    cin >> t;
+    while (t--)
+        solve();
+    return 0;
+}}
+]],
+			{
+				i(1),
+			}
+		)
+	),
+})
+
+ls.add_snippets("cpp", {
+	s(
+		"c",
+		fmt(
+			[[
+#include <bits/stdc++.h>
+using namespace std;
+
+#define ll long long
+#define ld long double
+#define str string
+
+void solve() {{
+ 	{}
+}}
+
+int main() {{
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+    solve();
+}}
+]],
+			{
+				i(1),
+			}
+		)
+	),
+})
+
+ls.add_snippets("java", {
+	s(
+		"cc",
+		fmt(
+			[[
+import java.util.*;
+
+class Test {{
+    public static void main(String args[]){{
+        Scanner sc = new Scanner(System.in);
+		{}
+    }}
+}}
+]],
+			{
+				i(1),
 			}
 		)
 	),

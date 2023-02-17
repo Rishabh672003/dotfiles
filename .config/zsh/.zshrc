@@ -36,6 +36,7 @@ plug "romkatv/powerlevel10k"
 # get pfetch every time you open the terminal
 pfetch
 
+
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="/home/rishabh/.local/share/sdkman"
-[[ -s "/home/rishabh/.local/share/sdkman/bin/sdkman-init.sh" ]]
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"

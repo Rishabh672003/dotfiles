@@ -31,15 +31,26 @@ require("lazy").setup({
 		dependencies = {},
 	},
 	{
+		"neovim/nvim-lspconfig",
+		ft = { "markdown", "lua", "c", "cpp", "java", "python", "json", "xml", "bash", "sh", "toml" },
+		config = function()
+			require("rj.plugins.lsp.lsp-conf")
+			require("rj.plugins.lsp.attach")
+			require("rj.plugins.lsp.diagnostic")
+		end,
+	},
+	-- { "folke/tokyonight.nvim", event = "VeryLazy" },
+	{
 		"folke/which-key.nvim",
 		event = "VeryLazy",
+		-- cmd = "WhichKey",
 		config = function()
 			require("rj.plugins.whichkey")
 		end,
 	},
 	{
 		"lukas-reineke/indent-blankline.nvim",
-		event = "BufReadPre",
+		event = { "BufReadPre", "BufAdd", "BufNew" },
 		config = function()
 			require("rj.plugins.indentline")
 		end,
@@ -52,16 +63,15 @@ require("lazy").setup({
 		end,
 		dependencies = {
 			"MunifTanjim/nui.nvim",
-			{
-				"rcarriga/nvim-notify",
-				event = "VeryLazy",
-				config = function()
-					require("rj.plugins.notify")
-				end,
-			},
+			-- {
+			-- 	"rcarriga/nvim-notify",
+			-- 	event = "VeryLazy",
+			-- 	config = function()
+			-- 		require("rj.plugins.notify")
+			-- 	end,
+			-- },
 		},
 	},
-	{ "folke/tokyonight.nvim", event = "VeryLazy" },
 	"nvim-lua/popup.nvim",
 	{ "nvim-lua/plenary.nvim", lazy = true },
 	--cmp stuff
@@ -78,6 +88,17 @@ require("lazy").setup({
 			"hrsh7th/cmp-cmdline",
 			"saadparwaiz1/cmp_luasnip",
 			"hrsh7th/cmp-nvim-lua",
+			{
+				"jcdickinson/codeium.nvim",
+				dependencies = {
+					"nvim-lua/plenary.nvim",
+					"MunifTanjim/nui.nvim",
+					"hrsh7th/nvim-cmp",
+				},
+				config = function()
+					require("codeium").setup({})
+				end,
+			},
 		},
 		config = function()
 			require("rj.plugins.nvim-cmp")
@@ -93,25 +114,9 @@ require("lazy").setup({
 			"rafamadriz/friendly-snippets",
 		},
 	},
-	{ "neovim/nvim-lspconfig", lazy = true },
-	{
-		"williamboman/mason.nvim",
-		-- cmd = "Mason",
-		-- event = "BufReadPre",
-		config = function()
-			require("rj.plugins.lsp.mason")
-		end,
-		dependencies = {
-			{ "b0o/schemastore.nvim", lazy = true },
-			{
-				"williamboman/mason-lspconfig.nvim",
-				lazy = true,
-			},
-		},
-	},
 	{
 		"jose-elias-alvarez/null-ls.nvim",
-		event = "BufReadPre",
+		event = { "BufReadPre", "BufRead" },
 		config = function()
 			require("rj.plugins.lsp.null-ls")
 		end,
@@ -125,24 +130,27 @@ require("lazy").setup({
 		end,
 	},
 	{
-		"nvim-telescope/telescope.nvim",
-		event = "BufEnter",
-		cmd = { "Telescope" },
+		"ahmedkhalf/project.nvim",
+		event = "VeryLazy",
+		-- keys = { "<leader>p" },
 		dependencies = {
-			{ "nvim-telescope/telescope-file-browser.nvim", lazy = true },
 			{
-				"ahmedkhalf/project.nvim",
+				"nvim-telescope/telescope.nvim",
+				-- event = "BufEnter",
+				cmd = { "Telescope" },
+				dependencies = {
+					{ "nvim-telescope/telescope-file-browser.nvim", lazy = true },
+				},
+				config = function()
+					require("rj.plugins.nvim-telescope")
+				end,
 			},
 		},
-		config = function()
-			require("rj.plugins.nvim-telescope")
-		end,
 	},
 	{ "folke/tokyonight.nvim", event = "VeryLazy" },
 	{
 		"RRethy/vim-illuminate",
-		event = "VeryLazy",
-		-- lazy = true,
+		event = "BufReadPost",
 		config = function()
 			require("rj.plugins.illuminate")
 		end,
@@ -150,9 +158,12 @@ require("lazy").setup({
 	{
 		"nvim-treesitter/nvim-treesitter",
 		event = "BufReadPost",
+		-- commit = "148cf37572ff2a02037065293ad156d69855b045",
 		dependencies = {
 			"nvim-treesitter/playground",
-			{ "JoosepAlviste/nvim-ts-context-commentstring", event = "VeryLazy" },
+			{
+				"JoosepAlviste/nvim-ts-context-commentstring", --[[ event = "VeryLazy" ]]
+			},
 			{
 				"kyazdani42/nvim-web-devicons",
 				config = function()
@@ -177,13 +188,14 @@ require("lazy").setup({
 	},
 	{
 		"NvChad/nvim-colorizer.lua",
+		event = "BufReadPre",
 		config = function()
 			require("rj.plugins.colorizer")
 		end,
 	},
 	{
 		"utilyre/barbecue.nvim",
-		event = { "BufEnter", "BufReadPre", "BufAdd" },
+		event = { "InsertEnter", "BufReadPre", "BufAdd", "BufNew" },
 		config = function()
 			require("rj.plugins.barbecue.barbecue")
 		end,
@@ -220,7 +232,7 @@ require("lazy").setup({
 	},
 	{
 		"nvim-lualine/lualine.nvim",
-		event = "VeryLazy",
+		event = { "BufReadPre", "BufAdd", "BufNew" },
 		config = function()
 			require("rj.plugins.lualine-themes.lualine1")
 		end,
@@ -234,7 +246,7 @@ require("lazy").setup({
 	},
 	{
 		"lewis6991/gitsigns.nvim",
-		event = "BufReadPre",
+		event = "BufReadPost",
 		config = function()
 			require("rj.plugins.gitsigns")
 		end,
@@ -252,7 +264,7 @@ require("lazy").setup({
 			require("rj.plugins.lastplace")
 		end,
 	},
-	{ "LunarVim/bigfile.nvim", event = "BufReadPre" },
+	-- { "LunarVim/bigfile.nvim", event = "BufReadPre" },
 	{
 		"windwp/nvim-autopairs",
 		event = "InsertEnter",
@@ -260,10 +272,17 @@ require("lazy").setup({
 			require("rj.plugins.autopairs")
 		end,
 	},
-	{ "antoinemadec/FixCursorHold.nvim", lazy = false, event = "BufReadPre" },
+	-- {
+	-- 	"altermo/ultimate-autopair.nvim",
+	-- 	event = { "InsertEnter", "CmdlineEnter" },
+	-- 	config = function()
+	-- 		require("ultimate-autopair").setup({})
+	-- 	end,
+	-- },
+	{ "antoinemadec/FixCursorHold.nvim", lazy = false, event = "BufReadPost" },
 	{
 		"Darazaki/indent-o-matic",
-		event = "VeryLazy",
+		event = "BufReadPost",
 		config = function()
 			require("rj.plugins.indent")
 		end,
@@ -292,7 +311,7 @@ require("lazy").setup({
 	},
 	{
 		"max397574/better-escape.nvim",
-		lazy = false,
+		event = "BufRead",
 		config = function()
 			require("rj.plugins.better-escape")
 		end,
@@ -313,42 +332,8 @@ require("lazy").setup({
 	},
 	{ "ThePrimeagen/vim-be-good", cmd = "VimBeGood" },
 	{
-		"mfussenegger/nvim-dap-python",
-		commit = "27a0eff2bd3114269bb010d895b179e667e712bd",
-		event = "VeryLazy",
-		config = function()
-			require("dap-python").setup("~/.virtualenvs/debugpy/bin/python")
-		end,
-	},
-	{
-		"mfussenegger/nvim-dap",
-		commit = "6b12294a57001d994022df8acbe2ef7327d30587",
-		event = "VeryLazy",
-		config = function()
-			require("rj.plugins.dap")
-		end,
-	},
-	{
-		"rcarriga/nvim-dap-ui",
-		commit = "1cd4764221c91686dcf4d6b62d7a7b2d112e0b13",
-		event = "VeryLazy",
-		config = function()
-			require("rj.plugins.dapui")
-		end,
-	},
-	{
-		"ravenxrz/DAPInstall.nvim",
-		commit = "8798b4c36d33723e7bba6ed6e2c202f84bb300de",
-		lazy = true,
-		config = function()
-			require("dap_install").setup({})
-			require("dap_install").config("python", {})
-		end,
-	},
-	{
 		"iamcco/markdown-preview.nvim",
 		ft = "markdown",
-		-- event = "VeryLazy",
 		build = function()
 			vim.fn["mkdp#util#install"]()
 		end,
@@ -362,6 +347,7 @@ require("lazy").setup({
 		opts = {
 			load = {
 				["core.defaults"] = {}, -- Loads default behaviour
+				["core.export"] = {},
 				["core.norg.concealer"] = {}, -- Adds pretty icons to your documents
 				["core.norg.dirman"] = { -- Manages Neorg workspaces
 					config = {
