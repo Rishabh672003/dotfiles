@@ -3,7 +3,6 @@
 : 1675957147:0;cd .lo
 : 1675957155:0;cd share/nvim
 : 1675957182:0;cd lazy/lazy.nvim
-: 1675957211:0;one
 : 1675957234:0;cd pr
 : 1675957239:0;rm -rf vim-plug
 : 1675957289:0;rm -rf a.log arch-setup arduino a.toml bat btop dash-to-dock dunst gitlab-projects
@@ -24,7 +23,6 @@
 : 1675999398:0;fuck
 : 1675999416:0;which bob
 : 1675999427:0;yay -R bob-bin
-: 1675999447:0;git checkout master
 : 1676000584:0;rs
 : 1676000759:0;cd other
 : 1676000762:0;cd mirrors-and-hosts
@@ -90,8 +88,6 @@
 : 1676094202:0;nv x.c
 : 1676094206:0;rm *.c
 : 1676094230:0;nv ~/.config/nvim/init.lua
-: 1676095163:0;cd waybar
-: 1676095165:0;nv config.jsonc
 : 1676095484:0;go install github.com/abenz1267/pww@latest
 : 1676095537:0;man go
 : 1676095545:0;go --help
@@ -115,7 +111,6 @@
 : 1676096020:0;rm -rf {a..z}.c
 : 1676096041:0;rm -rf *..out
 : 1676100870:0;cn
-: 1676100892:0;yay
 : 1676100967:0;yay linux-git
 : 1676101262:0;nv /etc/pacman.conf
 : 1676101786:0;sudo docker run -it fedora:rawhide
@@ -135,7 +130,6 @@
 : 1676114182:0;cdd zsh
 : 1676114190:0;rm a.md helo\ world
 : 1676114212:0;rm alacritty.yml.1*
-: 1676114215:0;yl
 : 1676117462:0;rm -rf *.
 : 1676117473:0;cd cdp
 : 1676117477:0;cd hacker-rank
@@ -151,7 +145,6 @@
 : 1676137171:0;~/.local/share/sdkman/bin/sdkman-init.sh
 : 1676137185:0;cd .local/state/
 : 1676137188:0;cd sdk
-: 1676137191:0;cd bin
 : 1676137200:0;chmod +x sdkman-init.sh
 : 1676137203:0;./sdkman-init.sh
 : 1676137213:0;sdkman
@@ -203,7 +196,6 @@
 : 1676184731:0;rm .clang-format
 : 1676184742:0;nv cpro/arm.c
 : 1676191524:0;lv a.c
-: 1676191575:0;lv
 : 1676195705:0;pacman -Qi mpv
 : 1676195742:0;yay -Rns mpv
 : 1676195963:0;unzip --help
@@ -243,7 +235,6 @@
 : 1676223999:0;nv a.lua
 : 1676224869:0;cd hyp
 : 1676224873:0;nv hyprland.conf
-: 1676296172:0;pacman -Qi waybar-hyprland
 : 1676296193:0;yay waybar-hyprland
 : 1676296520:0;nv b.cpp
 : 1676296635:0;nv c.cpp
@@ -326,13 +317,11 @@ alacritty -e tmux\
 : 1676398984:0;yay ytmdesktop
 : 1676399215:0;/usr/bin/ytmdesktop-bin
 : 1676399779:0;nv /home/rishabh/.config/YouTube Music/config.json
-: 1676400326:0;cd nvim-
 : 1676456379:0;nv midnight.css
 : 1676458092:0;git switch -b withput-mason
 : 1676458104:0;git -b withput-mason
 : 1676458148:0;playerctl position
 : 1676458570:0;git switch without-mason
-: 1676458604:0;git checkout -b without-mason
 : 1676458826:0;yay -S lua-language-server pyright bash-language-server vscode-json-languageserver jdtls lemminx clang
 : 1676458839:0;yay -S lua-language-server pyright bash-language-server vscode-json-languageserver jdtls lemminx clang --needed --noconfirm
 : 1676459684:0;cd shell
@@ -351,7 +340,6 @@ alacritty -e tmux\
 : 1676460745:0;nv a.ts
 : 1676460804:0;cargo install prosemd-lsp
 : 1676460988:0;typescript-language-server
-: 1676461957:0;time $SHELL -i -c exit
 : 1676461963:0;lsp
 : 1676462138:0;git checkout origin/without-mason
 : 1676462480:0;python YouTube.py https://open.spotify.com/playlist/722XPkPzmg7PWd8nKAxSgi
@@ -384,7 +372,6 @@ alacritty -e tmux\
 : 1676464308:0;git status
 : 1676464338:0;git pull
 : 1676464344:0;git commit -a
-: 1676464356:0;git push
 : 1676470924:0;tar -xvf Neovim-mason.tar.gz
 : 1676470954:0;cp -r settings ~/.config/nvim/lua/rj/plugins/lsp
 : 1676470967:0;cd sett
@@ -432,15 +419,11 @@ alacritty -e tmux\
 : 1676484327:0;bob install 0.8.3
 : 1676484518:0;bob -v
 : 1676484522:0;bob
-: 1676486099:0;we
 : 1676517272:0;cd ~/projects/cppro/
 : 1676517275:0;nv new.cpp
-: 1676518221:0;nv a.cpp
 : 1676518564:0;yay -R exercism-bin
 : 1676518606:0;yay jdtls
 : 1676518627:0;yay lemminx
-: 1676518863:0;yay -c
-: 1676520736:0;lll
 : 1676520740:0;l
 : 1676520747:0;lc
 : 1676523938:0;nv mul.cpp
@@ -461,7 +444,6 @@ alacritty -e tmux\
 : 1676556934:0;man sudo
 : 1676557722:0;vs /etc/environment
 : 1676559270:0;cd root/
-: 1676559270:0;ls
 : 1676559270:0;ls -al
 : 1676559270:0;exit
 : 1676557806:0;lua-language-server
@@ -475,16 +457,12 @@ alacritty -e tmux\
 : 1676559854:0;nv 11.py
 : 1676561082:0;yay -R bash-language-server
 : 1676561096:0;yay -S bash-language-server
-: 1676561456:0;lg
 : 1676563027:0;672003123
-: 1676563571:0;cd nvim-basic
 : 1676563575:0;nv ini
-: 1676563577:0;nv init.lua
 : 1676568396:0;pkill wpaperd
 : 1676568410:0;swaybg -i ~/.config/hypr/wallpapers/download.jpeg\
 
 : 1676568427:0;swaybg -i ~/Pictures/Wallpapers/download.jpeg
-: 1676569268:0;bob ls
 : 1676569291:0;rm -rf Game
 : 1676569392:0;nb
 : 1676569696:0;rss
@@ -498,85 +476,148 @@ alacritty -e tmux\
 : 1676621275:0;rm *.java
 : 1676621350:0;nv issue.cpp
 : 1676631772:0;youtube-music
-: 1676632056:0;cd code
-: 1676632087:0;cd cpp
-: 1676632088:0;cd codechef
 : 1676632093:0;nv age.cpp
 : 1676632500:0;nv tax.cpp
 : 1676632622:0;cdd code
 : 1676632629:0;rm -rf *.out
 : 1676632683:0;rm albo.cpp
 : 1676632688:0;nv albo.cpp
-: 1676633010:0;nv /home/rishabh/.config/YouTube\ Music/config.json
 : 1676633423:0;playerctl metadata
-: 1676633431:0;pkill waybar
-: 1676633433:0;waybar
 : 1676633463:0;touch app.cpp
 : 1676633467:0;nv app.cpp
-: 1676633701:0;ys
 : 1676633921:0;nv foot.cpp
-: 1676634629:0;nv mask.cpp
-: 1676634989:0;uneo
 : 1676635049:0;nvim
 : 1676635273:0;mkdir ~/.config/nvim-basic-ide
 : 1676635274:0;export $NVIM_APPNAME="nvim-basic-ide" | nvim
 : 1676635321:0;export $NVIM_APPNAME=/home/rishabh/projects/nvim-basic-ide
 : 1676635334:0;export $NVIM_APPNAME="/home/rishabh/projects/nvim-basic-ide" | nvim
 : 1676635632:0;export $NVIM_APPNAME="/home/rishabh/projects/nvim-basic-ide" && nvim
-: 1676635673:0;cd projects
 : 1676635681:0;export NVIM_APPNAME="/home/rishabh/projects/nvim-basic-ide" && nvim
 : 1676635776:0;cd con
 : 1676635851:0;mv ~/projects/nvim-basic-ide .
 : 1676635882:0;export NVIM_APPNAME=/home/rishabh/projects/nvim-basic-ide && nvim
 : 1676635895:0;export NVIM_APPNAME=nvim-basic-ide && nvim
-: 1676635930:0;cd nvim
 : 1676635931:0;cdp
 : 1676635934:0;cd nvim-basic-ide
 : 1676636123:0;echo $TERM
 : 1676636258:0;nr
 : 1676636269:0;cd .config
-: 1676636270:0;ll
-: 1676638903:0;cd
 : 1676638937:0;export NVIM_APPNAME
 : 1676638940:0;export $NVIM_APPNAME
-: 1676638950:0;nbi
 : 1676638951:0;echo $NVIM_APPNAME
 : 1676638967:0;gtnv
-: 1676639077:0;c
 : 1676639078:0;nnv
 : 1676639101:0;export NVIM_APPNAME=nvim-basic-ide && nnv
-: 1676639104:0;nv
-: 1676639106:0;e
-: 1676643260:0;nv
-: 1676643601:0;cd nvim
 : 1676643620:0;git checkout -b without-mason
-: 1676643623:0;ll
-: 1676643624:0;lg
 : 1676643633:0;git checkout -b with-mason
-: 1676643635:0;ll
-: 1676643636:0;lg
 : 1676643682:0;git push
-: 1676645807:0;lg
-: 1676646076:0;c
-: 1676646077:0;ys
-: 1676646184:0;nv
 : 1676646502:0;pacman -Qi waybar-hyprland
 : 1676646517:0;yay -S waybar-hyprland
 : 1676647183:0;killall -9 waybar
-: 1676647187:0;waybar
-: 1676649909:0;nv
-: 1676650234:0;cd
-: 1676650235:0;cd cpp
-: 1676650236:0;ll
 : 1676650238:0;nv a.cpp
-: 1676654640:0;cd
-: 1676654642:0;cd nvim
 : 1676654649:0;git add *
-: 1676654652:0;ll
 : 1676654657:0;ls
-: 1676654953:0;lg
-: 1676655336:0;cd
-: 1676655338:0;cd code
 : 1676655341:0;nv 2nd.c
-: 1676656615:0;nv
 : 1676658249:0;yl
+: 1676692445:0;cd waybar
+: 1676692744:0;pkill waybar
+: 1676692745:0;waybar
+: 1676692814:0;nv config.jsonc
+: 1676696641:0;nv subarray.cpp
+: 1676696654:0;nv mask.cpp
+: 1676696709:0;cd pass
+: 1676696713:0;nv main_linux.c
+: 1676703366:0;nv intdes.cpp
+: 1676707865:0;nv prof.cpp
+: 1676711859:0;nv rev2.cpp
+: 1676715292:0;nv sqrt.cpp
+: 1676722837:0;speedtest
+: 1676730225:0;cd nvim-
+: 1676730242:0;nbi init.lua
+: 1676730587:0;we
+: 1676730590:0;time $SHELL -i -c exit
+: 1676733161:0;cd nvim-basic
+: 1676733489:0;git checkout master
+: 1676734265:0;git checkout lazy
+: 1676735165:0;nv advance.cpp
+: 1676735839:0;lvim
+: 1676735866:0;rm -rf $HOME/.local/share/nvim-basic-ide
+: 1676735870:0;nbi
+: 1676741541:0;lv a.log
+: 1676741610:0;cd .local/sshare
+: 1676741613:0;cd .local/
+: 1676741616:0;cd lvim
+: 1676741632:0;cd ~/.local/share/lunarvim/lvim
+: 1676741635:0;nv init.lua
+: 1676741958:0;cd code
+: 1676742825:0;nv helllo.cpp
+: 1676743105:0;cd .local/share/nvim/project_nvim/project_history
+: 1676743108:0;cd .local/share/nvim/project_nvim/
+: 1676743110:0;nv project_history
+: 1676743258:0;lv
+: 1676743514:0;time p
+: 1676743536:0;yay -S pfetch-rs
+: 1676743683:0;yay -R pfetch
+: 1676743686:0;yay -S pfetch-rs-bin
+: 1676743715:0;pfetch
+: 1676743792:0;time pfetch
+: 1676775892:0;uneo
+: 1676776367:0;bob ls
+: 1676776737:0;hx
+: 1676780851:0;lll
+: 1676780993:0;nv lazy-lock.json
+: 1676781042:0;lg
+: 1676781436:0;cd cpp
+: 1676781438:0;cd codechef
+: 1676781448:0;nv make-avg.cpp
+: 1676785661:0;npm i -g vscode-langservers-extracted
+: 1676785674:0;vscode-langservers-extracted
+: 1676785724:0;npm list -g
+: 1676785746:0;cd node_modules
+: 1676785749:0;cd vscode-langservers-extracted
+: 1676785753:0;cd bin
+: 1676785836:0;vscode-css-language-server
+: 1676785841:0;vscode-json-languageserver
+: 1676785852:0;yay -S vscode-html-languageserver
+: 1676785884:0;vscode-html-languageserver
+: 1676785897:0;cd projects
+: 1676785929:0;cd .local/share/npm/lib
+: 1676785933:0;cd node_modules/vscode-langservers-extracted/bin
+: 1676785944:0;yay -R vscode-html-languageserver vscode-json-languageserver
+: 1676785950:0;yay -c
+: 1676785956:0;cp * ~/.local/bin
+: 1676785960:0;ls ~/.local/bin
+: 1676786000:0;cd projects/new-pro
+: 1676786006:0;nv a.html
+: 1676786063:0;npm root -g
+: 1676787596:0;ping 1.1.1.1
+: 1676787610:0;ping 9.9.9.9
+: 1676788783:0;nv a.scss
+: 1676788860:0;cd ~/.local/share/npm/bin
+: 1676788877:0;rm -rf ~/.local/bin/vscode-*
+: 1676788881:0;pwd
+: 1676801063:0;cd
+: 1676801065:0;cd nvim
+: 1676801066:0;ll
+: 1676801782:0;c
+: 1676801784:0;one
+: 1676801885:0;nv /home/rishabh/.config/YouTube\ Music/config.json
+: 1676801922:0;vscode-html-language-server
+: 1676801948:0;vscode-json-language-server
+: 1676801952:0;nv
+: 1676802043:0;yay
+: 1676802048:0;ys
+: 1676802300:0;e
+: 1676802303:0;cd code
+: 1676802305:0;cd
+: 1676802307:0;cdd code
+: 1676802323:0;nv shoes.cpp
+: 1676802349:0;cd .local/share/lunarvim/lvim/lua
+: 1676802350:0;cdp
+: 1676802353:0;nv init.lua
+: 1676802611:0;nv
+: 1676803519:0;yay -R lua-language-server
+: 1676803526:0;nv
+: 1676803548:0;yay -S lua-language-server
+: 1676804422:0;nv
+: 1676805263:0;yl

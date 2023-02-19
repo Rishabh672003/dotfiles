@@ -12,19 +12,18 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 -- example using a list of specs with the default options
-vim.g.mapleader = " " -- make sure to set `mapleader` before lazy so your mappings are correct
+vim.g.mapleader = " "
 
 require("lazy").setup({
 	git = {
-		-- defaults for the `Lazy log` command
 		log = { "--since=3 days ago" }, -- show commits from the last 3 days
 		timeout = 600,
 	},
 	{
 		"catppuccin/nvim",
 		name = "catppuccin",
-		lazy = false, -- make sure we load this during startup if it is your main colorscheme
-		priority = 1000, -- make sure to load this before all the other start plugins
+		lazy = false,
+		priority = 1000,
 		config = function()
 			require("rj.plugins.catppuccin")
 		end,
@@ -32,25 +31,35 @@ require("lazy").setup({
 	},
 	{
 		"neovim/nvim-lspconfig",
-		ft = { "markdown", "lua", "c", "cpp", "java", "python", "json", "xml", "bash", "sh", "toml" },
+		ft = {
+			"markdown",
+			"lua",
+			"c",
+			"cpp",
+			"java",
+			"python",
+			"json",
+			"xml",
+			"bash",
+			"sh",
+			"toml",
+		},
 		config = function()
 			require("rj.plugins.lsp.lsp-conf")
 			require("rj.plugins.lsp.attach")
 			require("rj.plugins.lsp.diagnostic")
 		end,
 	},
-	-- { "folke/tokyonight.nvim", event = "VeryLazy" },
 	{
 		"folke/which-key.nvim",
 		event = "VeryLazy",
-		-- cmd = "WhichKey",
 		config = function()
 			require("rj.plugins.whichkey")
 		end,
 	},
 	{
 		"lukas-reineke/indent-blankline.nvim",
-		event = { "BufReadPre", "BufAdd", "BufNew" },
+		event = { "BufReadPost", "BufRead", "BufWinEnter", "BufNewFile" },
 		config = function()
 			require("rj.plugins.indentline")
 		end,
@@ -63,23 +72,33 @@ require("lazy").setup({
 		end,
 		dependencies = {
 			"MunifTanjim/nui.nvim",
-			-- {
-			-- 	"rcarriga/nvim-notify",
-			-- 	event = "VeryLazy",
-			-- 	config = function()
-			-- 		require("rj.plugins.notify")
-			-- 	end,
-			-- },
 		},
+	},
+	{
+		"m4xshen/smartcolumn.nvim",
+		event = { "BufReadPost", "BufRead", "BufWinEnter", "BufNewFile" },
+		config = function()
+			require("smartcolumn").setup({
+				colorcolumn = 80,
+				disabled_filetypes = {
+					"help",
+					"text",
+					"markdown",
+					"alpha",
+					"lazy",
+					"lspinfo",
+					"netrw",
+				},
+			})
+		end,
 	},
 	"nvim-lua/popup.nvim",
 	{ "nvim-lua/plenary.nvim", lazy = true },
-	--cmp stuff
 	{
 		"hrsh7th/nvim-cmp",
 		event = {
 			"InsertEnter",
-			-- "CmdlineEnter",
+			"CmdlineEnter",
 		},
 		dependencies = {
 			"hrsh7th/cmp-nvim-lsp",
@@ -90,11 +109,6 @@ require("lazy").setup({
 			"hrsh7th/cmp-nvim-lua",
 			{
 				"jcdickinson/codeium.nvim",
-				dependencies = {
-					"nvim-lua/plenary.nvim",
-					"MunifTanjim/nui.nvim",
-					"hrsh7th/nvim-cmp",
-				},
 				config = function()
 					require("codeium").setup({})
 				end,
@@ -116,14 +130,13 @@ require("lazy").setup({
 	},
 	{
 		"jose-elias-alvarez/null-ls.nvim",
-		event = { "BufReadPre", "BufRead" },
+		event = { "BufReadPost", "BufRead", "BufWinEnter", "BufNewFile" },
 		config = function()
 			require("rj.plugins.lsp.null-ls")
 		end,
 	},
 	{
 		"p00f/clangd_extensions.nvim",
-		lazy = true,
 		ft = { "c", "cpp" },
 		config = function()
 			require("rj.plugins.lsp.clangd")
@@ -132,11 +145,9 @@ require("lazy").setup({
 	{
 		"ahmedkhalf/project.nvim",
 		event = "VeryLazy",
-		-- keys = { "<leader>p" },
 		dependencies = {
 			{
 				"nvim-telescope/telescope.nvim",
-				-- event = "BufEnter",
 				cmd = { "Telescope" },
 				dependencies = {
 					{ "nvim-telescope/telescope-file-browser.nvim", lazy = true },
@@ -158,11 +169,10 @@ require("lazy").setup({
 	{
 		"nvim-treesitter/nvim-treesitter",
 		event = "BufReadPost",
-		-- commit = "148cf37572ff2a02037065293ad156d69855b045",
 		dependencies = {
 			"nvim-treesitter/playground",
 			{
-				"JoosepAlviste/nvim-ts-context-commentstring", --[[ event = "VeryLazy" ]]
+				"JoosepAlviste/nvim-ts-context-commentstring",
 			},
 			{
 				"kyazdani42/nvim-web-devicons",
@@ -195,7 +205,7 @@ require("lazy").setup({
 	},
 	{
 		"utilyre/barbecue.nvim",
-		event = { "InsertEnter", "BufReadPre", "BufAdd", "BufNew" },
+		event = { "BufReadPost", "BufRead", "BufWinEnter", "BufNewFile" },
 		config = function()
 			require("rj.plugins.barbecue.barbecue")
 		end,
@@ -232,7 +242,7 @@ require("lazy").setup({
 	},
 	{
 		"nvim-lualine/lualine.nvim",
-		event = { "BufReadPre", "BufAdd", "BufNew" },
+		event = { "BufReadPost", "BufRead", "BufWinEnter", "BufNewFile" },
 		config = function()
 			require("rj.plugins.lualine-themes.lualine1")
 		end,
@@ -272,17 +282,10 @@ require("lazy").setup({
 			require("rj.plugins.autopairs")
 		end,
 	},
-	-- {
-	-- 	"altermo/ultimate-autopair.nvim",
-	-- 	event = { "InsertEnter", "CmdlineEnter" },
-	-- 	config = function()
-	-- 		require("ultimate-autopair").setup({})
-	-- 	end,
-	-- },
 	{ "antoinemadec/FixCursorHold.nvim", lazy = false, event = "BufReadPost" },
 	{
 		"Darazaki/indent-o-matic",
-		event = "BufReadPost",
+		event = { "BufReadPost", "BufRead", "BufWinEnter", "BufNewFile" },
 		config = function()
 			require("rj.plugins.indent")
 		end,
@@ -311,7 +314,7 @@ require("lazy").setup({
 	},
 	{
 		"max397574/better-escape.nvim",
-		event = "BufRead",
+		event = { "BufReadPost", "BufRead", "BufWinEnter", "BufNewFile" },
 		config = function()
 			require("rj.plugins.better-escape")
 		end,
