@@ -1,180 +1,3 @@
-: 1675956786:0;gh repo clone junegunn/vim-plug
-: 1675956846:0;cd vim-plug
-: 1675957147:0;cd .lo
-: 1675957155:0;cd share/nvim
-: 1675957182:0;cd lazy/lazy.nvim
-: 1675957234:0;cd pr
-: 1675957239:0;rm -rf vim-plug
-: 1675957289:0;rm -rf a.log arch-setup arduino a.toml bat btop dash-to-dock dunst gitlab-projects
-: 1675957297:0;cd darkmatter-grub2-theme
-: 1675962657:0;cd do
-: 1675962695:0;gh repo clone Rishabh672003/C-practice
-: 1675962712:0;cp ~/Documents/C_Practice.md C-practice
-: 1675962716:0;cd C-practice
-: 1675962751:0;nv C_Practice.md
-: 1675965015:0;exec zsh
-: 1675965093:0;mkdir check
-: 1675965095:0;cd check
-: 1675965098:0;nv 1.c
-: 1675965161:0;nv 2.c
-: 1675965191:0;mkdir .git
-: 1675965194:0;nv 3.c
-: 1675999359:0;cd .local/bin
-: 1675999398:0;fuck
-: 1675999416:0;which bob
-: 1675999427:0;yay -R bob-bin
-: 1676000584:0;rs
-: 1676000759:0;cd other
-: 1676000762:0;cd mirrors-and-hosts
-: 1676000771:0;nv rate-mirrors-arch.sh
-: 1676001052:0;nnvim
-: 1676002172:0;cd Clg-Notes
-: 1676002182:0;nv PPS-ESE.md
-: 1676004059:0;nv test
-: 1676004064:0;cd test
-: 1676004124:0;echo "hello world" >> a.md
-: 1676004138:0;echo "'hello'" >> a.md
-: 1676004140:0;nv a.md
-: 1676005174:0;source ~/.bashrc ~/.config/fish/config.fish
-: 1676009739:0;spicetify update
-: 1676009743:0;spicetify backup restore apply
-: 1676009872:0;fish
-: 1676010536:0;cd zsh
-: 1676010545:0;cdd cpp
-: 1676010554:0;rm -rf nvim-linux64
-: 1676010919:0;cd codec
-: 1676010925:0;nv sale.
-: 1676010929:0;nv sale.c
-: 1676011073:0;tee -a "helo world" a.md
-: 1676011831:0;nv pps-notes-module4.md
-: 1676020104:0;cd getnf
-: 1676020108:0;./getnf
-: 1676020279:0;fc-cache -fv
-: 1676020876:0;cd way
-: 1676020882:0;cd waydroid_script
-: 1676020890:0;mkvenv
-: 1676020908:0;pip install --upgrade pip
-: 1676020928:0;sudo pacman -S lzip sqlite\
-
-: 1676020941:0;cd waydroid_sc
-: 1676021000:0;alias
-: 1676021083:0;sudo python3 waydroid_extras.py -n
-: 1676021098:0;wr
-: 1676021104:0;wss
-: 1676021124:0;sudo systemctl start waydroid-container.service
-: 1676021129:0;ws
-: 1676021140:0;wl
-: 1676036980:0;nv strtup.sh
-: 1676043297:0;:q
-: 1676043299:0;:wq
-: 1676049085:0;nnvim -v
-: 1676049114:0;rm -rf ~/.local/bin/nvim
-: 1676049372:0;cp target/debug/bob ~/.local/bin/
-: 1676049406:0;nv -v
-: 1676049417:0;nnv -v
-: 1676049494:0;nv ~/projects/cppro/a.cpp
-: 1676050134:0;nv ~/projects/cpro/a.c
-: 1676086931:0;nv gtsb.sh
-: 1676087039:0;mkdir obsidian_notes
-: 1676087111:0;nv a.sh
-: 1676087356:0;rm -rf obsidian_notes
-: 1676092272:0;nv f.c
-: 1676092317:0;nv g.c
-: 1676092590:0;nv e.c
-: 1676092680:0;nv .
-: 1676093692:0;nv r.c
-: 1676093844:0;nv t.c
-: 1676093882:0;nv ~/.config/alacritty/alacritty.yml
-: 1676094202:0;nv x.c
-: 1676094206:0;rm *.c
-: 1676094230:0;nv ~/.config/nvim/init.lua
-: 1676095484:0;go install github.com/abenz1267/pww@latest
-: 1676095537:0;man go
-: 1676095545:0;go --help
-: 1676095561:0;go help install
-: 1676095617:0;cd .nv
-: 1676095633:0;cd .local
-: 1676095637:0;cd share/go
-: 1676095652:0;./pww
-: 1676095782:0;pww
-: 1676095792:0;which nap
-: 1676095802:0;rm -rf ~/.local/bin/nap
-: 1676095807:0;nap -v
-: 1676095814:0;nap --help
-: 1676095885:0;go list nap
-: 1676095912:0;go update
-: 1676095917:0;go help
-: 1676095942:0;go install github.com/maaslalani/nap@main
-: 1676095962:0;cd go
-: 1676095975:0;nap
-: 1676095993:0;nv y.c
-: 1676096020:0;rm -rf {a..z}.c
-: 1676096041:0;rm -rf *..out
-: 1676100870:0;cn
-: 1676100967:0;yay linux-git
-: 1676101262:0;nv /etc/pacman.conf
-: 1676101786:0;sudo docker run -it fedora:rawhide
-: 1676110117:0;cd .local/state/nvim
-: 1676110128:0;rm -rf nvim
-: 1676110406:0;fd shada
-: 1676110416:0;cd state
-: 1676110428:0;nv log
-: 1676110705:0;nv arm.c
-: 1676110707:0;nv math.sh
-: 1676113984:0;nv alacritty2.yml
-: 1676114021:0;llll
-: 1676114036:0;mv alacritty.yml alacritty3.yml
-: 1676114045:0;mv alacritty2.yml alacritty.yml
-: 1676114084:0;rm alacritty3.yml
-: 1676114126:0;alacritty-themes
-: 1676114182:0;cdd zsh
-: 1676114190:0;rm a.md helo\ world
-: 1676114212:0;rm alacritty.yml.1*
-: 1676117462:0;rm -rf *.
-: 1676117473:0;cd cdp
-: 1676117477:0;cd hacker-rank
-: 1676117484:0;nv bit.c
-: 1676127547:0;x
-: 1676129379:0;nv unique.c
-: 1676129388:0;nv fact100.c
-: 1676132908:0;nv random.c
-: 1676136112:0;./isprime101.out
-: 1676137050:0;git clone https://github.com/sumitst05/Game
-: 1676137088:0;cz
-: 1676137151:0;sdk selfupdate force
-: 1676137171:0;~/.local/share/sdkman/bin/sdkman-init.sh
-: 1676137185:0;cd .local/state/
-: 1676137188:0;cd sdk
-: 1676137200:0;chmod +x sdkman-init.sh
-: 1676137203:0;./sdkman-init.sh
-: 1676137213:0;sdkman
-: 1676137215:0;sdk
-: 1676137252:0;rm -rf ~/.local/share/sdkman
-: 1676137372:0;source "/home/rishabh/.local/share/sdkman/bin/sdkman-init.sh"
-: 1676137631:0;java app
-: 1676137675:0;curl -s "https://get.sdkman.io" | bash
-: 1676137714:0;source "/home/rishabh/.sdkman/bin/sdkman-init.sh"
-: 1676137718:0;sdk help
-: 1676137726:0;sdk use java 19.0.1-open
-: 1676137734:0;sdk install java 19.0.1-open
-: 1676137910:0;javac
-: 1676137932:0;./Main.class
-: 1676138053:0;java
-: 1676138085:0;rm -rf .java
-: 1676138112:0;rm -rf *.class
-: 1676138131:0;cd src
-: 1676138135:0;javac Main.java
-: 1676138141:0;java Main
-: 1676138203:0;nv Main.java
-: 1676138288:0;cd game
-: 1676138385:0;java -v
-: 1676138392:0;java --version
-: 1676138489:0;jdk ls
-: 1676138492:0;sdk ls
-: 1676138792:0;sdk default
-: 1676138808:0;sdk current
-: 1676138823:0;sdk ls java
-: 1676138857:0;sdk install java 19.0.2-oracle
 : 1676139942:0;rm a.out
 : 1676139946:0;rm github_sync_logs.log
 : 1676170474:0;nv a.cc
@@ -186,8 +9,6 @@
 : 1676171188:0;nv d.cpp
 : 1676173594:0;rm *.css
 : 1676173601:0;nv te.c
-: 1676178557:0;zap -u
-: 1676178562:0;zap update
 : 1676178593:0;touch a.sh
 : 1676178597:0;rm a.sh
 : 1676181824:0;nv pat.c
@@ -234,11 +55,7 @@
 : 1676223993:0;cd lazy
 : 1676223999:0;nv a.lua
 : 1676224869:0;cd hyp
-: 1676224873:0;nv hyprland.conf
 : 1676296193:0;yay waybar-hyprland
-: 1676296520:0;nv b.cpp
-: 1676296635:0;nv c.cpp
-: 1676299513:0;nv a.java
 : 1676299556:0;nv src/Main.java
 : 1676299684:0;nv .mvn
 : 1676299711:0;nv pom.xml
@@ -274,7 +91,6 @@
 alacritty -e tmux\
 
 : 1676355394:0;nv test.cpp
-: 1676357994:0;cd rj
 : 1676357999:0;mkdir lsp
 : 1676358010:0;nv lsp.lua
 : 1676358242:0;gh repo clone NTBBloodbath/nvim ~/.config/nvim
@@ -305,8 +121,6 @@ alacritty -e tmux\
 : 1676395258:0;python YouTube.py --all python 4qtvh5xixrh8fhwwjg1034o6a
 : 1676395267:0;python YouTube.py --all 4qtvh5xixrh8fhwwjg1034o6a
 : 1676398155:0;chmod +x YouTube.Music.Desktop.App-1.14.1_Nightly.AppImage
-: 1676398179:0;cali
-: 1676398353:0;cd down
 : 1676398357:0;cd appl
 : 1676398374:0;rm ytmdesktop-bin_e42f01524c0bf227516dc28ba743c3d3
 : 1676398443:0;sudo paccache -rk0
@@ -326,7 +140,6 @@ alacritty -e tmux\
 : 1676458839:0;yay -S lua-language-server pyright bash-language-server vscode-json-languageserver jdtls lemminx clang --needed --noconfirm
 : 1676459684:0;cd shell
 : 1676459687:0;nv triangle.sh
-: 1676459826:0;cd python-study
 : 1676459829:0;nv 10.py
 : 1676460070:0;cargo install --features lsp --locked taplo-cli
 : 1676460385:0;tsserver
@@ -343,7 +156,6 @@ alacritty -e tmux\
 : 1676461963:0;lsp
 : 1676462138:0;git checkout origin/without-mason
 : 1676462480:0;python YouTube.py https://open.spotify.com/playlist/722XPkPzmg7PWd8nKAxSgi
-: 1676462485:0;cd cp
 : 1676462648:0;pacman -Qi typescript-language-server
 : 1676462735:0;pacman -Qi pyright
 : 1676462756:0;jsonls
@@ -352,7 +164,6 @@ alacritty -e tmux\
 : 1676462939:0;pacman -Qi cargo
 : 1676462947:0;pacman -Qi npm
 : 1676462950:0;sdr
-: 1676463130:0;cd lua
 : 1676463415:0;nv .luarc.json
 : 1676463420:0;rm .luarc.json
 : 1676463426:0;nv rj/autocommands.lua
@@ -370,23 +181,17 @@ alacritty -e tmux\
 : 1676464292:0;git merge -abort
 : 1676464294:0;git merge --abort
 : 1676464308:0;git status
-: 1676464338:0;git pull
 : 1676464344:0;git commit -a
-: 1676470924:0;tar -xvf Neovim-mason.tar.gz
 : 1676470954:0;cp -r settings ~/.config/nvim/lua/rj/plugins/lsp
 : 1676470967:0;cd sett
 : 1676470982:0;cd lua/rj/plugins
 : 1676470986:0;cd lsp
 : 1676470992:0;nv lsp-conf.lua
 : 1676471027:0;cd doe
-: 1676471031:0;cd Downloads
-: 1676471033:0;cd Neovim-mason
 : 1676471042:0;cd lua/rj/plugins/lsp
 : 1676471044:0;nv mason.lua
-: 1676472731:0;nvim --startuptime a.log
 : 1676473028:0;cd mason
 : 1676473041:0;nv lua/rj/plugins/lsp/mason.lua
-: 1676474023:0;rm -rf Neovim-mason
 : 1676476108:0;yay -Rns typescript-language-server
 : 1676476435:0;rm -rf ~/.local/share/neovim
 : 1676476530:0;curl -LO https://github.com/MordechaiHadad/bob/releases/tag/v2.0%2C0
@@ -404,7 +209,6 @@ alacritty -e tmux\
 : 1676476672:0;bob clean
 : 1676476689:0;bob erase
 : 1676476695:0;bob install nightly
-: 1676476743:0;bob use nightly
 : 1676476813:0;nv --version
 : 1676477138:0;yay bob-bib
 : 1676477189:0;yay bob
@@ -424,9 +228,7 @@ alacritty -e tmux\
 : 1676518564:0;yay -R exercism-bin
 : 1676518606:0;yay jdtls
 : 1676518627:0;yay lemminx
-: 1676520740:0;l
 : 1676520747:0;lc
-: 1676523938:0;nv mul.cpp
 : 1676524088:0;nv mul_line.cpp
 : 1676524282:0;nv string_inp.cpp
 : 1676531246:0;nv basic.cpp
@@ -438,19 +240,15 @@ alacritty -e tmux\
 : 1676552084:0;sudoedit /etc/pacman.conf
 : 1676552712:0;cd /root/
 : 1676552716:0;cd /
-: 1676552724:0;su
 : 1676556784:0;which nvim
 : 1676556928:0;sudo -e /etc/pacman.conf
 : 1676556934:0;man sudo
 : 1676557722:0;vs /etc/environment
 : 1676559270:0;cd root/
 : 1676559270:0;ls -al
-: 1676559270:0;exit
 : 1676557806:0;lua-language-server
 : 1676558124:0;taplo
-: 1676558419:0;yay -R lua-language-server
 : 1676558441:0;prosemd-lsp
-: 1676558448:0;yay -S lua-language-server
 : 1676558690:0;nv install.sh
 : 1676559429:0;bob help
 : 1676559852:0;cd py
@@ -467,7 +265,6 @@ alacritty -e tmux\
 : 1676569392:0;nb
 : 1676569696:0;rss
 : 1676569834:0;yay -R ytmdesktop-bin
-: 1676570045:0;nv a.log
 : 1676570064:0;nv --startuptime a.log
 : 1676570600:0;yay -S aspell-en
 : 1676570620:0;cd spell
@@ -476,17 +273,13 @@ alacritty -e tmux\
 : 1676621275:0;rm *.java
 : 1676621350:0;nv issue.cpp
 : 1676631772:0;youtube-music
-: 1676632093:0;nv age.cpp
 : 1676632500:0;nv tax.cpp
-: 1676632622:0;cdd code
-: 1676632629:0;rm -rf *.out
 : 1676632683:0;rm albo.cpp
 : 1676632688:0;nv albo.cpp
 : 1676633423:0;playerctl metadata
 : 1676633463:0;touch app.cpp
 : 1676633467:0;nv app.cpp
 : 1676633921:0;nv foot.cpp
-: 1676635049:0;nvim
 : 1676635273:0;mkdir ~/.config/nvim-basic-ide
 : 1676635274:0;export $NVIM_APPNAME="nvim-basic-ide" | nvim
 : 1676635321:0;export $NVIM_APPNAME=/home/rishabh/projects/nvim-basic-ide
@@ -497,31 +290,21 @@ alacritty -e tmux\
 : 1676635851:0;mv ~/projects/nvim-basic-ide .
 : 1676635882:0;export NVIM_APPNAME=/home/rishabh/projects/nvim-basic-ide && nvim
 : 1676635895:0;export NVIM_APPNAME=nvim-basic-ide && nvim
-: 1676635931:0;cdp
-: 1676635934:0;cd nvim-basic-ide
 : 1676636123:0;echo $TERM
-: 1676636258:0;nr
 : 1676636269:0;cd .config
 : 1676638937:0;export NVIM_APPNAME
 : 1676638940:0;export $NVIM_APPNAME
 : 1676638951:0;echo $NVIM_APPNAME
-: 1676638967:0;gtnv
-: 1676639078:0;nnv
 : 1676639101:0;export NVIM_APPNAME=nvim-basic-ide && nnv
 : 1676643620:0;git checkout -b without-mason
 : 1676643633:0;git checkout -b with-mason
 : 1676643682:0;git push
 : 1676646502:0;pacman -Qi waybar-hyprland
 : 1676646517:0;yay -S waybar-hyprland
-: 1676647183:0;killall -9 waybar
-: 1676650238:0;nv a.cpp
 : 1676654649:0;git add *
-: 1676654657:0;ls
 : 1676655341:0;nv 2nd.c
-: 1676658249:0;yl
 : 1676692445:0;cd waybar
 : 1676692744:0;pkill waybar
-: 1676692745:0;waybar
 : 1676692814:0;nv config.jsonc
 : 1676696641:0;nv subarray.cpp
 : 1676696654:0;nv mask.cpp
@@ -532,43 +315,26 @@ alacritty -e tmux\
 : 1676711859:0;nv rev2.cpp
 : 1676715292:0;nv sqrt.cpp
 : 1676722837:0;speedtest
-: 1676730225:0;cd nvim-
 : 1676730242:0;nbi init.lua
-: 1676730587:0;we
 : 1676730590:0;time $SHELL -i -c exit
 : 1676733161:0;cd nvim-basic
 : 1676733489:0;git checkout master
 : 1676734265:0;git checkout lazy
 : 1676735165:0;nv advance.cpp
-: 1676735839:0;lvim
 : 1676735866:0;rm -rf $HOME/.local/share/nvim-basic-ide
-: 1676735870:0;nbi
 : 1676741541:0;lv a.log
 : 1676741610:0;cd .local/sshare
 : 1676741613:0;cd .local/
 : 1676741616:0;cd lvim
 : 1676741632:0;cd ~/.local/share/lunarvim/lvim
-: 1676741635:0;nv init.lua
-: 1676741958:0;cd code
 : 1676742825:0;nv helllo.cpp
 : 1676743105:0;cd .local/share/nvim/project_nvim/project_history
 : 1676743108:0;cd .local/share/nvim/project_nvim/
 : 1676743110:0;nv project_history
-: 1676743258:0;lv
 : 1676743514:0;time p
 : 1676743536:0;yay -S pfetch-rs
 : 1676743683:0;yay -R pfetch
-: 1676743686:0;yay -S pfetch-rs-bin
-: 1676743715:0;pfetch
-: 1676743792:0;time pfetch
-: 1676775892:0;uneo
-: 1676776367:0;bob ls
-: 1676776737:0;hx
-: 1676780851:0;lll
 : 1676780993:0;nv lazy-lock.json
-: 1676781042:0;lg
-: 1676781436:0;cd cpp
-: 1676781438:0;cd codechef
 : 1676781448:0;nv make-avg.cpp
 : 1676785661:0;npm i -g vscode-langservers-extracted
 : 1676785674:0;vscode-langservers-extracted
@@ -580,44 +346,250 @@ alacritty -e tmux\
 : 1676785841:0;vscode-json-languageserver
 : 1676785852:0;yay -S vscode-html-languageserver
 : 1676785884:0;vscode-html-languageserver
-: 1676785897:0;cd projects
 : 1676785929:0;cd .local/share/npm/lib
 : 1676785933:0;cd node_modules/vscode-langservers-extracted/bin
 : 1676785944:0;yay -R vscode-html-languageserver vscode-json-languageserver
-: 1676785950:0;yay -c
 : 1676785956:0;cp * ~/.local/bin
 : 1676785960:0;ls ~/.local/bin
 : 1676786000:0;cd projects/new-pro
-: 1676786006:0;nv a.html
 : 1676786063:0;npm root -g
 : 1676787596:0;ping 1.1.1.1
-: 1676787610:0;ping 9.9.9.9
 : 1676788783:0;nv a.scss
 : 1676788860:0;cd ~/.local/share/npm/bin
 : 1676788877:0;rm -rf ~/.local/bin/vscode-*
 : 1676788881:0;pwd
-: 1676801063:0;cd
-: 1676801065:0;cd nvim
-: 1676801066:0;ll
-: 1676801782:0;c
 : 1676801784:0;one
 : 1676801885:0;nv /home/rishabh/.config/YouTube\ Music/config.json
 : 1676801922:0;vscode-html-language-server
 : 1676801948:0;vscode-json-language-server
-: 1676801952:0;nv
-: 1676802043:0;yay
-: 1676802048:0;ys
-: 1676802300:0;e
-: 1676802303:0;cd code
-: 1676802305:0;cd
 : 1676802307:0;cdd code
 : 1676802323:0;nv shoes.cpp
 : 1676802349:0;cd .local/share/lunarvim/lvim/lua
-: 1676802350:0;cdp
-: 1676802353:0;nv init.lua
-: 1676802611:0;nv
-: 1676803519:0;yay -R lua-language-server
-: 1676803526:0;nv
-: 1676803548:0;yay -S lua-language-server
-: 1676804422:0;nv
 : 1676805263:0;yl
+: 1676806436:0;nv .gitignore
+: 1676806442:0;rm .gitignore
+: 1676811228:0;cd down
+: 1676811231:0;tar -xvf Neovim-mason.tar.gz
+: 1676811234:0;cd Neovim-mason
+: 1676811241:0;nv lua/rj/autocommands.lua
+: 1676811254:0;rm -rf Neovim-mason
+: 1676811321:0;cd Downloads
+: 1676811323:0;nv bible.txt
+: 1676823872:0;bash ~/.local/share/lunarvim/lvim/utils/installer/uninstall.sh
+: 1676824098:0;bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh)
+: 1676828548:0;which grimblast
+: 1676828558:0;yay -R grimblast-git
+: 1676828576:0;cp other-stuff/grimblast ~/.local/bin
+: 1676828581:0;grimblast
+: 1676828588:0;nv other-stuff/grimblast
+: 1676828609:0;cp other-stuff/grimblast /usr/bin
+: 1676828614:0;sudo cp other-stuff/grimblast /usr/bin
+: 1676828955:0;nv ~/.bashrc
+: 1676829013:0;exit
+: 1676829112:0;nv ~/.config/zsh/.zprofile
+: 1676829937:0;lvim
+: 1676831416:0;sudo pacman -Syyyyyyyyyyyyyyyyyyyuuuuuuuuuuuuuuuuuuuuuuuuu
+: 1676832447:0;echo $PATH
+: 1676862454:0;cd .config/hypr
+: 1676862459:0;nv hyprland.conf
+: 1676867535:0;pf
+: 1676867539:0;pfp
+: 1676867643:0;f
+: 1676867654:0;time pfetch
+: 1676867659:0;time f
+: 1676872906:0;cd Clg-Notes
+: 1676872918:0;nv EWPPC-notes.md
+: 1676873281:0;vs /usr/bin/grimblast
+: 1676878303:0;nv zooz.cpp
+: 1676888865:0;cd .con
+: 1676888872:0;cd yay
+: 1676888878:0;nv config.json
+: 1676916060:0;man pacman
+: 1676916134:0;cd Pictures
+: 1676916152:0;rm -rf 2023*
+: 1676916191:0;yay -S lua-language-server
+: 1676916236:0;sudo pacman -S lua-language-server
+: 1676916256:0;bash
+: 1676916283:0;su
+: 1676965421:0;passwd rishabh
+: 1676916303:0;sudo
+: 1676916312:0;sudo pacman -Sy lua-language-server
+: 1676969697:0;ping 9.9.9.9
+: 1676969801:0;ls
+: 1676969984:0;cc
+: 1676983459:0;ya
+: 1676983561:0;mkdir study-and-notes
+: 1676983897:0;history
+: 1676983933:0;cat ~/.config/zsh/history | fzf | exec
+: 1676983944:0;cat ~/.config/zsh/history | fzf
+: 1676983976:0;nv vector.cpp
+: 1676984197:0;cf
+: 1676992847:0;killall -9 firefox
+: 1676993047:0;cd /etc
+: 1676993067:0;cat /proc/sys/vm/swappiness
+: 1676993084:0;nv sysctl.d/99-swappiness.conf
+: 1676993094:0;vs sysctl.d/99-swappiness.conf
+: 1676994769:0;NVIM_APPIMAGE=nvim-basic-ide nvim
+: 1676994775:0;NVIM_APPIMAGE=nvim-basic-ide && nvim
+: 1676995757:0;nvim --startuptime a.log
+: 1676995776:0;nvim --startuptime --clean b.log
+: 1676995785:0;nv b
+: 1676995813:0;nv --clean --startuptime a.log
+: 1676996314:0;killall -9 qbittorrent
+: 1676996321:0;./qbit.sh
+: 1676997043:0;rm lazy-lock.json
+: 1677000706:0;nvim --clean --startuptime
+: 1677000832:0;nv a.html
+: 1677001370:0;gh repo clone sumitst05/DSA-notes
+: 1677001429:0;nv Data\ Structures/Arrays/declaration_and_initialisation.cpp
+: 1677001511:0;rm -rf DSA-notes/
+: 1677001517:0;gh repo clone Rishabh672003/DSA-notes
+: 1677001585:0;cd Data\ Structures
+: 1677001596:0;cd Arrays
+: 1677001633:0;rm -rf deletion_in_array declaration_and_intialisation insertion_in_array multi_dimensional_array sorting_an_array reverse_array search_element
+: 1677002084:0;nv Arrays/declaration_and_initialisation.cpp
+: 1677037217:0;cdpp
+: 1677037221:0;cd nvim-basic-ide
+: 1677037227:0;rm -rf plugin
+: 1677037239:0;rm -rf ~/.local/share/nvim-basic-ide
+: 1677039763:0;nbi
+: 1677040258:0;nv age.cpp
+: 1677061412:0;cd lua
+: 1677061414:0;cd rj
+: 1677061424:0;stylua lazy.lua
+: 1677068659:0;rm -rf ~/.local/share/nvim
+: 1677070125:0;cd cp
+: 1677070133:0;cdd cp
+: 1677070152:0;fd wave
+: 1677070984:0;yay -S pfetch
+: 1677071002:0;cpc
+: 1677071003:0;cp
+: 1677071006:0;pfetch
+: 1677071012:0;yay -S pfetch-rs-bin
+: 1677072825:0;nr
+: 1677076983:0;mkdir cc-contest-2023-02-22
+: 1677077084:0;cd cc-contest-2023-02-22
+: 1677077090:0;nv 1st.cpp
+: 1677082529:0;touch b.cpp
+: 1677082531:0;nv b.cpp
+: 1677082608:0;rm -rf b.cpp
+: 1677082611:0;rm b.out
+: 1677082957:0;nv a.java
+: 1677088863:0;lg
+: 1677089308:0;rm -rf *.out
+: 1677089316:0;mkdir pracrice
+: 1677089318:0;cd pracrice
+: 1677091709:0;cd DSA-notes
+: 1677091714:0;git pull
+: 1677091720:0;cd Data\ Structures/Arrays
+: 1677091724:0;cd Strings
+: 1677091726:0;nv string.cpp
+: 1677122112:0;sp
+: 1677122711:0;yay -R lua-language-server
+: 1677122820:0;sudo pacman -Fy
+: 1677123326:0;pacman -Slq | fzf --multi --preview 'cat <(pacman -Si {1}) <(pacman -Fl {1} | awk "{print \$2}")' | xargs -ro sudo pacman -S\
+
+: 1677123535:0;cz
+: 1677124965:0;nvim /usr/share/fzf/key-bindings.zsh
+: 1677126446:0;cd study-and-notes
+: 1677126449:0;nv array.cpp
+: 1677138948:0;nv pronun.cpp
+: 1677150833:0;man grub-bios-setup
+: 1677150891:0;lv
+: 1677151702:0;rm -rf a.log
+: 1677151732:0;rm a.log
+: 1677152557:0;zap -u
+: 1677152562:0;zap update
+: 1677165060:0;diff a.java
+: 1677165064:0;diff a.java a.html
+: 1677165136:0;nvim -d a.html a.java
+: 1677165319:0;rm -rf bob-linux-x86_64.zip
+: 1677165324:0;rm bob
+: 1677165895:0;cd nvim-
+: 1677165957:0;nv init.lua
+: 1677165976:0;cd cpp
+: 1677165979:0;nv a.cpp
+: 1677165988:0;nv c.cpp
+: 1677166162:0;cd python-study
+: 1677166165:0;nv 12.py
+: 1677166183:0;nv 13.py
+: 1677166618:0;cd nvim
+: 1677166619:0;l
+: 1677166623:0;nvim inin
+: 1677166626:0;nvim init.lua
+: 1677167411:0;mkdir codechef
+: 1677167415:0;cd code
+: 1677167418:0;cdp
+: 1677167421:0;cd codechef
+: 1677167434:0;nv prog-lang.cpp
+: 1677170284:0;nv mul.cpp
+: 1677173674:0;hyprctl clients
+: 1677174706:0;mkdir my-cpp-projects
+: 1677174709:0;cd my-cpp-projects
+: 1677175070:0;mkdir .git
+: 1677175073:0;nv pi.cpp
+: 1677208924:0;function dud() {\
+    du -hd1 "${1:-$PWD}" | sort -hr\
+}
+: 1677208927:0;dud
+: 1677211210:0;we
+: 1677247160:0;uneo
+: 1677247174:0;gtnv
+: 1677247257:0;nnv
+: 1677247273:0;nvim --clean --startuptime a.log
+: 1677247277:0;nv a.log
+: 1677248989:0;cd projects/codechef
+: 1677248993:0;nv atm.cpp
+: 1677251264:0;ys
+: 1677251702:0;yay -c
+: 1677251706:0;yay -C
+: 1677251708:0;yay -cC
+: 1677251718:0;yay -Sc
+: 1677251725:0;yay -Scc
+: 1677251745:0;yay
+: 1677251765:0;yay -R eww-wayland-git
+: 1677251815:0;ssep
+: 1677251900:0;e
+: 1677251935:0;pacman -Slq | fzf --multi --preview 'pacman -Si {1}' | xargs -ro sudo pacman -S
+: 1677251974:0;exec zsh
+: 1677252078:0;killall -9 waybar
+: 1677252272:0;hx
+: 1677260476:0;ser
+: 1677260486:0;rep
+: 1677260562:0;cd
+: 1677260564:0;cd projects
+: 1677260572:0;rm -rf cpro
+: 1677261045:0;:wq
+: 1677261048:0;:q
+: 1677261053:0;:q!
+: 1677262129:0;waybar
+: 1677262684:0;lll
+: 1677262716:0;ll
+: 1677262718:0;bob ls
+: 1677262857:0;bob use nightly
+: 1677262860:0;nv
+: 1677262882:0;bob use 0.8.3
+: 1677263042:0;sep
+: 1677263148:0;c
+: 1677263623:0;cali
+: 1677263656:0;neovide
+: 1677263669:0;neovim
+: 1677263671:0;nvim
+: 1677263682:0;nvim -v
+: 1677263700:0;yay -Rns neovide
+: 1677263720:0;e
+: 1677263724:0;sep
+: 1677263739:0;yay neovim-gtk
+: 1677264129:0;c
+: 1677264133:0;yay -Scc
+: 1677264215:0;we
+: 1677295017:0;c
+: 1677295018:0;ys
+: 1677295777:0;nv
+: 1677295787:0;yay -Rns neovim
+: 1677295815:0;c
+: 1677295816:0;nv
+: 1677295820:0;cali
+: 1677295821:0;nnv
+: 1677297118:0;yel
+: 1677297167:0;yl

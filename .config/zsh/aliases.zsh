@@ -93,3 +93,10 @@ alias nrandom='tr -dc "A-Za-z 0-9" < /dev/urandom | fold -w100 | head -n 1000000
 alias yl='sh ~/.config/yadm/yadm.sh'
 alias yel='yadm enter lazygit'
 alias yt="youtube-dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4'"
+alias sep="pacman -Slq | fzf --multi --preview 'pacman -Si {1}' \
+    | xargs -ro sudo pacman -S"
+alias rep="pacman -Qq | fzf --multi --preview 'pacman -Qi {1}' \
+    | xargs -ro sudo pacman -Rns"
+alias ssep="pacman -Slq | fzf --multi --preview 'cat <(pacman -Si {1})\
+    <(pacman -Fl {1} | awk "{print \$2}")' | xargs -ro sudo pacman -S"
+

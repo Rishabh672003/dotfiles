@@ -28,6 +28,7 @@ plug "Aloxaf/fzf-tab"
 plug "Freed-Wu/fzf-tab-source"
 plug "zap-zsh/vim"
 plug "Rishabh672003/zsh-autoswitch-virtualenv"
+plug "zap-zsh/fzf"
 
 # theme
 plug "romkatv/powerlevel10k"
