@@ -46,6 +46,8 @@ cmp.setup({
 	},
 	sorting = {
 		comparators = {
+			require("copilot_cmp.comparators").prioritize,
+			require("copilot_cmp.comparators").score,
 			cmp.config.compare.offset,
 			cmp.config.compare.exact,
 			cmp.config.compare.recently_used,
@@ -117,6 +119,7 @@ cmp.setup({
 				luasnip = "[Snippet]",
 				buffer = "[Buffer]",
 				path = "[Path]",
+				copilot = "[Copilot]",
 				codeium = "[Codeium]",
 			})[entry.source.name]
 			return vim_item
@@ -128,6 +131,7 @@ cmp.setup({
 		{ name = "luasnip" },
 		{ name = "buffer" },
 		{ name = "path" },
+		{ name = "copilot" },
 		{ name = "codeium" },
 	},
 	confirm_opts = {

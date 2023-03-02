@@ -86,6 +86,7 @@ require("lazy").setup({
 			"bash",
 			"sh",
 			"toml",
+			"zsh",
 		},
 		config = function()
 			require("rj.plugins.lsp.lsp-conf")
@@ -119,27 +120,13 @@ require("lazy").setup({
 			"MunifTanjim/nui.nvim",
 		},
 	},
-	{
-		"m4xshen/smartcolumn.nvim",
-		event = { "BufReadPre", "BufAdd", "BufNew" },
-		config = function()
-			require("smartcolumn").setup({
-				colorcolumn = 80,
-				disabled_filetypes = {
-					"help",
-					"text",
-					"markdown",
-					"alpha",
-					"lazy",
-					"lspinfo",
-					"netrw",
-					"man",
-					"help",
-					"lspinfo",
-				},
-			})
-		end,
-	},
+	-- {
+	-- 	"m4xshen/smartcolumn.nvim",
+	-- 	event = { "BufReadPre", "BufAdd", "BufNew" },
+	-- 	config = function()
+	-- 		require("rj.plugins.smartcolumn")
+	-- 	end,
+	-- },
 	"nvim-lua/popup.nvim",
 	{ "nvim-lua/plenary.nvim", lazy = true },
 	{
@@ -200,7 +187,7 @@ require("lazy").setup({
 				"nvim-telescope/telescope.nvim",
 				cmd = { "Telescope" },
 				dependencies = {
-					{ "nvim-telescope/telescope-file-browser.nvim", lazy = true },
+					{ "nvim-telescope/telescope-file-browser.nvim", lazy = true, cmd = "Telescope file_browser" },
 				},
 				config = function()
 					require("rj.plugins.nvim-telescope")
@@ -415,6 +402,29 @@ require("lazy").setup({
 			},
 		},
 		dependencies = { { "nvim-lua/plenary.nvim" } },
+	},
+	{
+		"zbirenbaum/copilot-cmp",
+		after = { "copilot.lua" },
+		config = function()
+			require("copilot_cmp").setup({
+				formatters = {
+					insert_text = require("copilot_cmp.format").remove_existing,
+				},
+			})
+		end,
+	},
+	{
+		"zbirenbaum/copilot.lua",
+		cmd = "Copilot",
+		event = "InsertEnter",
+		config = function()
+			require("copilot").setup({
+				filetypes = {
+					markdown = true, -- overrides default
+				},
+			})
+		end,
 	},
 	-- {
 	-- 	"lewis6991/satellite.nvim",

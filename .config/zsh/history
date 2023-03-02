@@ -53,7 +53,6 @@
 : 1676223578:0;cd prog
 : 1676223583:0;nv fib.c
 : 1676223993:0;cd lazy
-: 1676223999:0;nv a.lua
 : 1676224869:0;cd hyp
 : 1676296193:0;yay waybar-hyprland
 : 1676299556:0;nv src/Main.java
@@ -69,14 +68,12 @@
 	-DinteractiveMode=false
 : 1676300140:0;cd 312321
 : 1676300147:0;nv src/main/java/hello/App.java
-: 1676300197:0;cd cppro
 : 1676300201:0;cd cpro
 : 1676300204:0;nv a.c
 : 1676300763:0;rm -rf 312321
 : 1676303734:0;nv b.c
 : 1676304377:0;nv c.c
 : 1676304996:0;nv watch.c
-: 1676347648:0;cd clg
 : 1676347654:0;nv EGD-ese
 : 1676347657:0;nv EGD-ese.md
 : 1676350296:0;echo "'hello'"
@@ -163,7 +160,6 @@ alacritty -e tmux\
 : 1676462908:0;pacman -Qi jdtls
 : 1676462939:0;pacman -Qi cargo
 : 1676462947:0;pacman -Qi npm
-: 1676462950:0;sdr
 : 1676463415:0;nv .luarc.json
 : 1676463420:0;rm .luarc.json
 : 1676463426:0;nv rj/autocommands.lua
@@ -198,8 +194,6 @@ alacritty -e tmux\
 : 1676476553:0;curl -LO https://github.com/MordechaiHadad/bob/releases/download/v2.0%2C0/bob-linux-x86_64.zip
 : 1676476569:0;mv bob-linux-x86_64.zip ~/projects
 : 1676476575:0;rm v2.0%2C0
-: 1676476578:0;yel
-: 1676476596:0;cd pro
 : 1676476620:0;rm -rf bob
 : 1676476622:0;unzip bob-linux-x86_64.zip
 : 1676476626:0;cd bob
@@ -240,14 +234,12 @@ alacritty -e tmux\
 : 1676552084:0;sudoedit /etc/pacman.conf
 : 1676552712:0;cd /root/
 : 1676552716:0;cd /
-: 1676556784:0;which nvim
 : 1676556928:0;sudo -e /etc/pacman.conf
 : 1676556934:0;man sudo
 : 1676557722:0;vs /etc/environment
 : 1676559270:0;cd root/
 : 1676559270:0;ls -al
 : 1676557806:0;lua-language-server
-: 1676558124:0;taplo
 : 1676558441:0;prosemd-lsp
 : 1676558690:0;nv install.sh
 : 1676559429:0;bob help
@@ -303,9 +295,7 @@ alacritty -e tmux\
 : 1676646517:0;yay -S waybar-hyprland
 : 1676654649:0;git add *
 : 1676655341:0;nv 2nd.c
-: 1676692445:0;cd waybar
 : 1676692744:0;pkill waybar
-: 1676692814:0;nv config.jsonc
 : 1676696641:0;nv subarray.cpp
 : 1676696654:0;nv mask.cpp
 : 1676696709:0;cd pass
@@ -314,10 +304,8 @@ alacritty -e tmux\
 : 1676707865:0;nv prof.cpp
 : 1676711859:0;nv rev2.cpp
 : 1676715292:0;nv sqrt.cpp
-: 1676722837:0;speedtest
 : 1676730242:0;nbi init.lua
 : 1676730590:0;time $SHELL -i -c exit
-: 1676733161:0;cd nvim-basic
 : 1676733489:0;git checkout master
 : 1676734265:0;git checkout lazy
 : 1676735165:0;nv advance.cpp
@@ -365,7 +353,6 @@ alacritty -e tmux\
 : 1676802307:0;cdd code
 : 1676802323:0;nv shoes.cpp
 : 1676802349:0;cd .local/share/lunarvim/lvim/lua
-: 1676805263:0;yl
 : 1676806436:0;nv .gitignore
 : 1676806442:0;rm .gitignore
 : 1676811228:0;cd down
@@ -373,7 +360,6 @@ alacritty -e tmux\
 : 1676811234:0;cd Neovim-mason
 : 1676811241:0;nv lua/rj/autocommands.lua
 : 1676811254:0;rm -rf Neovim-mason
-: 1676811321:0;cd Downloads
 : 1676811323:0;nv bible.txt
 : 1676823872:0;bash ~/.local/share/lunarvim/lvim/utils/installer/uninstall.sh
 : 1676824098:0;bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh)
@@ -414,7 +400,6 @@ alacritty -e tmux\
 : 1676965421:0;passwd rishabh
 : 1676916303:0;sudo
 : 1676916312:0;sudo pacman -Sy lua-language-server
-: 1676969697:0;ping 9.9.9.9
 : 1676969801:0;ls
 : 1676969984:0;cc
 : 1676983459:0;ya
@@ -422,7 +407,6 @@ alacritty -e tmux\
 : 1676983897:0;history
 : 1676983933:0;cat ~/.config/zsh/history | fzf | exec
 : 1676983944:0;cat ~/.config/zsh/history | fzf
-: 1676983976:0;nv vector.cpp
 : 1676984197:0;cf
 : 1676992847:0;killall -9 firefox
 : 1676993047:0;cd /etc
@@ -436,28 +420,22 @@ alacritty -e tmux\
 : 1676995785:0;nv b
 : 1676995813:0;nv --clean --startuptime a.log
 : 1676996314:0;killall -9 qbittorrent
-: 1676996321:0;./qbit.sh
 : 1676997043:0;rm lazy-lock.json
 : 1677000706:0;nvim --clean --startuptime
 : 1677000832:0;nv a.html
-: 1677001370:0;gh repo clone sumitst05/DSA-notes
 : 1677001429:0;nv Data\ Structures/Arrays/declaration_and_initialisation.cpp
 : 1677001511:0;rm -rf DSA-notes/
 : 1677001517:0;gh repo clone Rishabh672003/DSA-notes
 : 1677001585:0;cd Data\ Structures
-: 1677001596:0;cd Arrays
 : 1677001633:0;rm -rf deletion_in_array declaration_and_intialisation insertion_in_array multi_dimensional_array sorting_an_array reverse_array search_element
 : 1677002084:0;nv Arrays/declaration_and_initialisation.cpp
 : 1677037217:0;cdpp
 : 1677037221:0;cd nvim-basic-ide
 : 1677037227:0;rm -rf plugin
-: 1677037239:0;rm -rf ~/.local/share/nvim-basic-ide
-: 1677039763:0;nbi
 : 1677040258:0;nv age.cpp
 : 1677061412:0;cd lua
 : 1677061414:0;cd rj
 : 1677061424:0;stylua lazy.lua
-: 1677068659:0;rm -rf ~/.local/share/nvim
 : 1677070125:0;cd cp
 : 1677070133:0;cdd cp
 : 1677070152:0;fd wave
@@ -466,7 +444,6 @@ alacritty -e tmux\
 : 1677071003:0;cp
 : 1677071006:0;pfetch
 : 1677071012:0;yay -S pfetch-rs-bin
-: 1677072825:0;nr
 : 1677076983:0;mkdir cc-contest-2023-02-22
 : 1677077084:0;cd cc-contest-2023-02-22
 : 1677077090:0;nv 1st.cpp
@@ -474,13 +451,8 @@ alacritty -e tmux\
 : 1677082531:0;nv b.cpp
 : 1677082608:0;rm -rf b.cpp
 : 1677082611:0;rm b.out
-: 1677082957:0;nv a.java
-: 1677088863:0;lg
-: 1677089308:0;rm -rf *.out
 : 1677089316:0;mkdir pracrice
 : 1677089318:0;cd pracrice
-: 1677091709:0;cd DSA-notes
-: 1677091714:0;git pull
 : 1677091720:0;cd Data\ Structures/Arrays
 : 1677091724:0;cd Strings
 : 1677091726:0;nv string.cpp
@@ -491,11 +463,8 @@ alacritty -e tmux\
 
 : 1677123535:0;cz
 : 1677124965:0;nvim /usr/share/fzf/key-bindings.zsh
-: 1677126446:0;cd study-and-notes
-: 1677126449:0;nv array.cpp
 : 1677138948:0;nv pronun.cpp
 : 1677150833:0;man grub-bios-setup
-: 1677150891:0;lv
 : 1677151702:0;rm -rf a.log
 : 1677151732:0;rm a.log
 : 1677152557:0;zap -u
@@ -507,89 +476,216 @@ alacritty -e tmux\
 : 1677165324:0;rm bob
 : 1677165895:0;cd nvim-
 : 1677165957:0;nv init.lua
-: 1677165976:0;cd cpp
-: 1677165979:0;nv a.cpp
 : 1677165988:0;nv c.cpp
-: 1677166162:0;cd python-study
 : 1677166165:0;nv 12.py
 : 1677166183:0;nv 13.py
-: 1677166618:0;cd nvim
 : 1677166619:0;l
 : 1677166623:0;nvim inin
 : 1677166626:0;nvim init.lua
 : 1677167411:0;mkdir codechef
-: 1677167415:0;cd code
-: 1677167418:0;cdp
-: 1677167421:0;cd codechef
 : 1677167434:0;nv prog-lang.cpp
 : 1677170284:0;nv mul.cpp
 : 1677173674:0;hyprctl clients
 : 1677174706:0;mkdir my-cpp-projects
-: 1677174709:0;cd my-cpp-projects
-: 1677175070:0;mkdir .git
 : 1677175073:0;nv pi.cpp
 : 1677208924:0;function dud() {\
     du -hd1 "${1:-$PWD}" | sort -hr\
 }
 : 1677208927:0;dud
-: 1677211210:0;we
-: 1677247160:0;uneo
 : 1677247174:0;gtnv
-: 1677247257:0;nnv
 : 1677247273:0;nvim --clean --startuptime a.log
 : 1677247277:0;nv a.log
 : 1677248989:0;cd projects/codechef
 : 1677248993:0;nv atm.cpp
-: 1677251264:0;ys
 : 1677251702:0;yay -c
 : 1677251706:0;yay -C
 : 1677251708:0;yay -cC
 : 1677251718:0;yay -Sc
-: 1677251725:0;yay -Scc
 : 1677251745:0;yay
 : 1677251765:0;yay -R eww-wayland-git
-: 1677251815:0;ssep
 : 1677251900:0;e
 : 1677251935:0;pacman -Slq | fzf --multi --preview 'pacman -Si {1}' | xargs -ro sudo pacman -S
 : 1677251974:0;exec zsh
-: 1677252078:0;killall -9 waybar
 : 1677252272:0;hx
 : 1677260476:0;ser
 : 1677260486:0;rep
-: 1677260562:0;cd
-: 1677260564:0;cd projects
 : 1677260572:0;rm -rf cpro
 : 1677261045:0;:wq
 : 1677261048:0;:q
 : 1677261053:0;:q!
-: 1677262129:0;waybar
-: 1677262684:0;lll
-: 1677262716:0;ll
-: 1677262718:0;bob ls
-: 1677262857:0;bob use nightly
-: 1677262860:0;nv
 : 1677262882:0;bob use 0.8.3
-: 1677263042:0;sep
-: 1677263148:0;c
-: 1677263623:0;cali
 : 1677263656:0;neovide
 : 1677263669:0;neovim
-: 1677263671:0;nvim
 : 1677263682:0;nvim -v
 : 1677263700:0;yay -Rns neovide
-: 1677263720:0;e
-: 1677263724:0;sep
 : 1677263739:0;yay neovim-gtk
-: 1677264129:0;c
 : 1677264133:0;yay -Scc
-: 1677264215:0;we
-: 1677295017:0;c
-: 1677295018:0;ys
-: 1677295777:0;nv
-: 1677295787:0;yay -Rns neovim
-: 1677295815:0;c
-: 1677295816:0;nv
-: 1677295820:0;cali
-: 1677295821:0;nnv
 : 1677297118:0;yel
 : 1677297167:0;yl
+: 1677297912:0;bob ls
+: 1677297920:0;nnv
+: 1677297932:0;yay -Rns neovim
+: 1677297940:0;bob use nightly
+: 1677308401:0;zig
+: 1677309145:0;nv index.norg
+: 1677311674:0;rm a.*
+: 1677318750:0;nv game.lua
+: 1677320389:0;nv a.java
+: 1677320994:0;cd ftplugin/java.lua
+: 1677320996:0;cd ftplugin/
+: 1677320998:0;nv java.lua
+: 1677325513:0;nv game.html
+: 1677325669:0;xdg-open game.html
+: 1677332480:0;cd my-cpp-projects
+: 1677332489:0;fd vector
+: 1677332498:0;cd cppr
+: 1677332504:0;mv study-and-notes ..
+: 1677332507:0;cd study-and-notes
+: 1677333115:0;nv vector.cpp
+: 1677333184:0;rm -rf ~/.local/share/nvim
+: 1677333186:0;nvim
+: 1677346168:0;cd zsh
+: 1677346172:0;cdd zsh
+: 1677346180:0;nv .zshrc
+: 1677347967:0;cd codechef
+: 1677347974:0;nv a.cpp
+: 1677349236:0;killall -9 waybar
+: 1677349239:0;waybar
+: 1677383107:0;nv pointer.cpp
+: 1677384384:0;cd python-study
+: 1677384387:0;nv cal.py
+: 1677389836:0;mkdir solo
+: 1677389848:0;touch tick.cpp
+: 1677389850:0;nv tick.cpp
+: 1677391943:0;cd waybar
+: 1677391948:0;nv config.jsonc
+: 1677392167:0;cdd study
+: 1677392175:0;nv sort.cpp
+: 1677393459:0;sudo trash-empty
+: 1677393632:0;rm -rf ~/.local/share/nvim-basic-ide
+: 1677393707:0;rm -rf ~/.cache/spotify
+: 1677393800:0;rm -rf ~/.local/share/cargo/*
+: 1677394795:0;speedtest
+: 1677401313:0;taplo
+: 1677401338:0;cargo install --features lsp --locked taplo-cli;\
+cargo install prosemd-lsp;
+: 1677403055:0;nv luck.cpp
+: 1677405850:0;nv a.lua
+: 1677405904:0;rm -rf a.lua
+: 1677411223:0;nc
+: 1677411851:0;nv array.cpp
+: 1677421648:0;which nvim
+: 1677432362:0;gh status
+: 1677432425:0;rm -rf DSA-notes
+: 1677432427:0;gh repo clone sumitst05/DSA-notes
+: 1677432481:0;cd DSA-notes
+: 1677432508:0;nv Arrays/Time_and_Space_complexity.md
+: 1677432893:0;cd cppro
+: 1677432901:0;rm *
+: 1677432925:0;cdp
+: 1677432929:0;cdd solo
+: 1677433047:0;nv max.cpp
+: 1677433363:0;nv rand.cpp
+: 1677434265:0;nv bmi.cpp
+: 1677473546:0;cd sru
+: 1677475207:0;./stremio.sh
+: 1677477287:0;sep
+: 1677477701:0;curl -LO https://raw.githubusercontent.com/MadeOfMagicAndWires/qBit-plugins/master/engines/nyaasi.py
+: 1677477708:0;mv nyaasi.py projects
+: 1677477714:0;nv nyaasi.py
+: 1677478174:0;sudo systemctl start jackett.service
+: 1677478178:0;sudo systemctl status jackett.service
+: 1677478395:0;sudo systemctl enable jackett.service
+: 1677478538:0;nv ~/.local/share/qBittorrent/nova3/engines/jackett.py
+: 1677478753:0;nv ~/.local/share/qBittorrent/nova3/engines/jackett.json
+: 1677480800:0;nv def-arg.cpp
+: 1677496013:0;nv recursion.cpp
+: 1677496232:0;touch arr-func.cpp
+: 1677496234:0;nv arr-func.cpp
+: 1677500365:0;rm -fr pbref.out
+: 1677500368:0;nv pbref.cpp
+: 1677502797:0;cd solo
+: 1677502812:0;nv palindrome.cpp
+: 1677520575:0;./qbit.sh
+: 1677520600:0;vs /usr/share/applications/org.qbittorrent.qBittorrent.desktop
+: 1677590642:0;cdd stu
+: 1677594455:0;yay prettier
+: 1677596592:0;yay broot
+: 1677596606:0;broot
+: 1677597631:0;mkdir leetcode
+: 1677597634:0;cd leetcode
+: 1677597786:0;rm -rf .git
+: 1677597789:0;cd lee
+: 1677597793:0;mkdir .git
+: 1677597795:0;nv search.cpp
+: 1677599417:0;ping 9.9.9.9
+: 1677599848:0;nr
+: 1677600228:0;rm -rf *
+: 1677601389:0;cd study
+: 1677601392:0;cdd 
+: 1677673757:0;cd nvim
+: 1677675102:0;nv vector2.cpp
+: 1677676384:0;cd dsa
+: 1677676398:0;lll
+: 1677676400:0;cd Data-Structures
+: 1677676403:0;cd Arrays
+: 1677676406:0;nv sorting_an_array.cpp
+: 1677678366:0;date
+: 1677678888:0;/usr/bin/paru
+: 1677678891:0;paru
+: 1677678893:0;tpg
+: 1677679740:0;rm \[SubsPlease\]\ Mob\ Psycho\ 100\ S3\ -\ 01v2\ \(1080p\)\ \[95315F0C\].mkv \[SubsPlease\]\ Mob\ Psycho\ 100\ S3\ -\ 02v2\ \(1080p\)\ \[989BA728\].mkv \[SubsPlease\]\ Mob\ Psycho\ 100\ S3\ -\ 03v2\ \(1080p\)\ \[0CAF1435\].mkv \[SubsPlease\]\ Mob\ Psycho\ 100\ S3\ -\ 04v2\ \(1080p\)\ \[78A3A468\].mkv \[SubsPlease\]\ Mob\ Psycho\ 100\ S3\ -\ 05v2\ \(1080p\)\ \[CF520AEE\].mkv \[SubsPlease\]\ Mob\ Psycho\ 100\ S3\ -\ 06v2\ \(1080p\)\ \[0DC3FCD1\].mkv \[SubsPlease\]\ Mob\ Psycho\ 100\ S3\ -\ 07\ \(1080p\)\ \[34EEB900\].mkv \[SubsPlease\]\ Mob\ Psycho\ 100\ S3\ -\ 08\ \(1080p\)\ \[4D4B803D\].mkv
+: 1677679862:0;yay bottles
+: 1677679881:0;yay wine
+: 1677681365:0;cd \[SubsPlease\]\ Mob\ Psycho\ 100\ S3\ \(01-12\)\ \(1080p\)\ \[Batch\]
+: 1677681373:0;rm -rf \[SubsPlease\]\ Mob\ Psycho\ 100\ S3\ -\ 09\ \(1080p\)\ \[F34EE0A7\].mkv \[SubsPlease\]\ Mob\ Psycho\ 100\ S3\ -\ 10v2\ \(1080p\)\ \[3B717070\].mkv
+: 1677682610:0;yay -Rns wine-mono
+: 1677682687:0;yay -R bott
+: 1677682688:0;yay -R bottles
+: 1677682770:0;trash-empty
+: 1677685499:0;cd code
+: 1677685674:0;cd Downloads
+: 1677687501:0;lv
+: 1677693185:0;rm -rf *.out
+: 1677693251:0;nv vector3.cpp
+: 1677694239:0;we
+: 1677719574:0;cd stu
+: 1677719602:0;cp vectors.md ~/Clg-Notes
+: 1677719605:0;cd clg
+: 1677719632:0;cd projects
+: 1677719634:0;kk
+: 1677719636:0;kg
+: 1677760751:0;ys
+: 1677762547:0;cd cpp
+: 1677762549:0;cdd stud
+: 1677762561:0;nv vector5.cpp
+: 1677766222:0;nv bin-search.cpp
+: 1677767808:0;cp vectors.md ~/projects/Notes
+: 1677767810:0;cd pro
+: 1677768493:0;nbi
+: 1677768762:0;cd nvim-basic
+: 1677768763:0;lg
+: 1677769461:0;rm -v
+: 1677769919:0;uneo
+: 1677770392:0;cd notes
+: 1677770396:0;cd Notes
+: 1677771075:0;c
+: 1677773294:0;ll
+: 1677773423:0;exa --icons
+: 1677777933:0;cd Note
+: 1677777935:0;cd
+: 1677777940:0;cd projects/Notes
+: 1677777943:0;git pull
+: 1677777984:0;nv vectors.md
+: 1677779035:0;pacman -qi
+: 1677779039:0;pacman -Qq
+: 1677779051:0;pacman -Qq | fzf
+: 1677779065:0;pacman -Qi openssl-1.1
+: 1677779089:0;yay openssl-1.1
+: 1677779490:0;sdr
+: 1677779539:0;nv
+: 1677780148:0;cali
+: 1677780649:0;pacman -Slq | fzf --multi --preview 'cat <(pacman -Si {1}) <(pacman -Fl {1} | awk "{print \$2}")' | xargs -ro sudo pacman -S
+: 1677780719:0;ssep
+: 1677780725:0;e
+: 1677780977:0;yl

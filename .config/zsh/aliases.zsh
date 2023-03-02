@@ -14,7 +14,6 @@ alias cf='clear;fastfetch'
 alias cn='c && n'
 alias cz='nvim ~/.config/zsh/.zshrc'
 alias cat='bat -p'
-alias ccc='cp /home/rishabh/projects/cpro/* /home/rishabh/projects/learning-C/ && cd ~/projects/learning-C/'
 alias cdd='zi'
 alias cdp='cd ..'
 alias cpc='clear;pfetch'
@@ -97,6 +96,7 @@ alias sep="pacman -Slq | fzf --multi --preview 'pacman -Si {1}' \
     | xargs -ro sudo pacman -S"
 alias rep="pacman -Qq | fzf --multi --preview 'pacman -Qi {1}' \
     | xargs -ro sudo pacman -Rns"
-alias ssep="pacman -Slq | fzf --multi --preview 'cat <(pacman -Si {1})\
-    <(pacman -Fl {1} | awk "{print \$2}")' | xargs -ro sudo pacman -S"
-
+export ssep (){
+    pacman -Slq | fzf --multi --preview 'cat <(pacman -Si {1}) <(pacman -Fl {1} | awk "{print \$2}")' | xargs -ro sudo pacman -S
+}
+alias ssep=ssep
