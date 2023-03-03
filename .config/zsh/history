@@ -521,7 +521,6 @@ alacritty -e tmux\
 : 1677263739:0;yay neovim-gtk
 : 1677264133:0;yay -Scc
 : 1677297118:0;yel
-: 1677297167:0;yl
 : 1677297912:0;bob ls
 : 1677297920:0;nnv
 : 1677297932:0;yay -Rns neovim
@@ -655,21 +654,17 @@ cargo install prosemd-lsp;
 : 1677719632:0;cd projects
 : 1677719634:0;kk
 : 1677719636:0;kg
-: 1677760751:0;ys
 : 1677762547:0;cd cpp
 : 1677762549:0;cdd stud
 : 1677762561:0;nv vector5.cpp
 : 1677766222:0;nv bin-search.cpp
 : 1677767808:0;cp vectors.md ~/projects/Notes
 : 1677767810:0;cd pro
-: 1677768493:0;nbi
 : 1677768762:0;cd nvim-basic
 : 1677768763:0;lg
 : 1677769461:0;rm -v
-: 1677769919:0;uneo
 : 1677770392:0;cd notes
 : 1677770396:0;cd Notes
-: 1677771075:0;c
 : 1677773294:0;ll
 : 1677773423:0;exa --icons
 : 1677777933:0;cd Note
@@ -683,9 +678,17 @@ cargo install prosemd-lsp;
 : 1677779065:0;pacman -Qi openssl-1.1
 : 1677779089:0;yay openssl-1.1
 : 1677779490:0;sdr
-: 1677779539:0;nv
 : 1677780148:0;cali
 : 1677780649:0;pacman -Slq | fzf --multi --preview 'cat <(pacman -Si {1}) <(pacman -Fl {1} | awk "{print \$2}")' | xargs -ro sudo pacman -S
 : 1677780719:0;ssep
-: 1677780725:0;e
 : 1677780977:0;yl
+: 1677848275:0;ys
+: 1677848650:0;spicetify restore backup apply
+: 1677849129:0;c
+: 1677849137:0;uneo
+: 1677849717:0;bni
+: 1677849728:0;nbi
+: 1677849740:0;nv
+: 1677849772:0;e
+: 1677849773:0;nv
+: 1677849819:0;yl
