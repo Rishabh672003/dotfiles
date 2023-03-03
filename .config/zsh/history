@@ -692,3 +692,10 @@ cargo install prosemd-lsp;
 : 1677849772:0;e
 : 1677849773:0;nv
 : 1677849819:0;yl
+: 1677850717:0;curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-marketplace/main/resources/install.sh | sh
+: 1677850847:0;nv
+: 1677851337:0;cd projects
+: 1677851338:0;ll
+: 1677851350:0;cd spotifyplaylist_to_ytmusic
+: 1677851351:0;ll
+: 1677851452:0;yl
