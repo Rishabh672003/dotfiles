@@ -17,6 +17,7 @@ alias cat='bat -p'
 alias cdd='zi'
 alias cdp='cd ..'
 alias cpc='clear;pfetch'
+alias pf='pfetch'
 alias cnp='c;n;p'
 alias cny='c;n;y'
 alias cdpp='cd ../../'
@@ -94,7 +95,7 @@ alias yel='yadm enter lazygit'
 alias yt="youtube-dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4'"
 alias sep="pacman -Slq | fzf --multi --preview 'pacman -Si {1}' \
     | xargs -ro sudo pacman -S"
-alias rep="pacman -Qq | fzf --multi --preview 'pacman -Qi {1}' \
+alias srp="pacman -Qq | fzf --multi --preview 'pacman -Qi {1}' \
     | xargs -ro sudo pacman -Rns"
 export ssep (){
     pacman -Slq | fzf --multi --preview 'cat <(pacman -Si {1}) <(pacman -Fl {1} | awk "{print \$2}")' | xargs -ro sudo pacman -S

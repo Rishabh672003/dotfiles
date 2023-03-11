@@ -69,6 +69,7 @@ require("lazy").setup({
 		priority = 1000,
 		config = function()
 			require("rj.plugins.catppuccin")
+			vim.cmd("colorscheme catppuccin")
 		end,
 		dependencies = {},
 	},
@@ -97,14 +98,14 @@ require("lazy").setup({
 	{
 		"folke/which-key.nvim",
 		event = "VeryLazy",
-		priority = 5,
+		keys = "<Space>",
 		config = function()
 			require("rj.plugins.whichkey")
 		end,
 	},
 	{
 		"lukas-reineke/indent-blankline.nvim",
-		event = { "BufReadPre", "BufAdd", "BufNew" },
+		event = { "BufReadPost", "BufNewFile" },
 		config = function()
 			require("rj.plugins.indentline")
 		end,
@@ -120,13 +121,6 @@ require("lazy").setup({
 			"MunifTanjim/nui.nvim",
 		},
 	},
-	-- {
-	-- 	"m4xshen/smartcolumn.nvim",
-	-- 	event = { "BufReadPre", "BufAdd", "BufNew" },
-	-- 	config = function()
-	-- 		require("rj.plugins.smartcolumn")
-	-- 	end,
-	-- },
 	"nvim-lua/popup.nvim",
 	{ "nvim-lua/plenary.nvim", lazy = true },
 	{
@@ -164,15 +158,21 @@ require("lazy").setup({
 		},
 	},
 	{
+		"alvarosevilla95/luatab.nvim",
+		event = { "TabNew", "TabEnter", "TabNewEntered" },
+		config = function()
+			require("luatab").setup({})
+		end,
+	},
+	{
 		"jose-elias-alvarez/null-ls.nvim",
-		event = { "BufReadPre", "BufRead" },
+		event = { "BufReadPre", "BufRead", "BufNew" },
 		config = function()
 			require("rj.plugins.lsp.null-ls")
 		end,
 	},
 	{
 		"p00f/clangd_extensions.nvim",
-		lazy = true,
 		ft = { "c", "cpp" },
 		config = function()
 			require("rj.plugins.lsp.clangd")
@@ -181,7 +181,6 @@ require("lazy").setup({
 	{
 		"ahmedkhalf/project.nvim",
 		event = "VeryLazy",
-		priority = 30,
 		dependencies = {
 			{
 				"nvim-telescope/telescope.nvim",
@@ -279,7 +278,7 @@ require("lazy").setup({
 	},
 	{
 		"nvim-lualine/lualine.nvim",
-		event = { "BufReadPre", "BufAdd", "BufNew" },
+		event = { "BufReadPre", "BufAdd", "BufNew", "TabNew", "TabEnter" },
 		priority = 100,
 		config = function()
 			require("rj.plugins.lualine-themes.lualine1")
@@ -331,10 +330,8 @@ require("lazy").setup({
 	{
 		"akinsho/toggleterm.nvim",
 		priority = 10,
-		-- event = "VeryLazy",
-		-- lazy = true,
 		config = function()
-			require("rj.plugins.toggleterm")
+			require("rj.plugins.nvim-toggleterm")
 		end,
 	},
 	{
@@ -383,7 +380,6 @@ require("lazy").setup({
 	},
 	{
 		"nvim-neorg/neorg",
-		lazy = true,
 		ft = "norg",
 		cmd = "Neorg",
 		build = ":Neorg sync-parsers",
@@ -403,29 +399,31 @@ require("lazy").setup({
 		},
 		dependencies = { { "nvim-lua/plenary.nvim" } },
 	},
+
 	{
-		"zbirenbaum/copilot-cmp",
-		after = { "copilot.lua" },
-		config = function()
-			require("copilot_cmp").setup({
-				formatters = {
-					insert_text = require("copilot_cmp.format").remove_existing,
-				},
-			})
-		end,
+		"willothy/flatten.nvim",
+		config = true,
+		events = { "TermEnter", "TermOpen" },
 	},
-	{
-		"zbirenbaum/copilot.lua",
-		cmd = "Copilot",
-		event = "InsertEnter",
-		config = function()
-			require("copilot").setup({
-				filetypes = {
-					markdown = true, -- overrides default
-				},
-			})
-		end,
-	},
+	-- {
+	-- 	"zbirenbaum/copilot-cmp",
+	-- 	after = { "copilot.lua" },
+	-- 	config = function()
+	-- 		require("copilot_cmp").setup({
+	-- 			formatters = {
+	-- 				insert_text = require("copilot_cmp.format").remove_existing,
+	-- 			},
+	-- 		})
+	-- 	end,
+	-- },
+	-- {
+	-- 	"zbirenbaum/copilot.lua",
+	-- 	cmd = "Copilot",
+	-- 	event = "InsertEnter",
+	-- 	config = function()
+	-- 		require("copilot").setup({})
+	-- 	end,
+	-- },
 	-- {
 	-- 	"lewis6991/satellite.nvim",
 	-- 	config = function()
