@@ -21,6 +21,7 @@ require("lazy").setup({
 	defaults = {
 		lazy = true,
 	},
+	install = { colorscheme = { "catppuccin" } },
 	performance = {
 		rtp = {
 			paths = {
@@ -66,6 +67,7 @@ require("lazy").setup({
 		"catppuccin/nvim",
 		name = "catppuccin",
 		lazy = false,
+		build = ":CatppuccinCompile",
 		priority = 1000,
 		config = function()
 			require("rj.plugins.catppuccin")
@@ -278,7 +280,7 @@ require("lazy").setup({
 	},
 	{
 		"nvim-lualine/lualine.nvim",
-		event = { "BufReadPre", "BufAdd", "BufNew", "TabNew", "TabEnter" },
+		event = { "InsertEnter", "BufReadPre", "BufAdd", "BufNew", "BufReadPost" },
 		priority = 100,
 		config = function()
 			require("rj.plugins.lualine-themes.lualine1")
@@ -402,9 +404,15 @@ require("lazy").setup({
 
 	{
 		"willothy/flatten.nvim",
-		config = true,
-		events = { "TermEnter", "TermOpen" },
+		lazy = false,
+		priority = 1001,
+		opts = {
+			window = {
+				open = "tab",
+			},
+		},
 	},
+	"rawnly/gist.nvim",
 	-- {
 	-- 	"zbirenbaum/copilot-cmp",
 	-- 	after = { "copilot.lua" },

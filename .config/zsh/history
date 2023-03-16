@@ -39,7 +39,6 @@
 : 1676204730:0;yay carbonyl
 : 1676208599:0;nv install2.sh
 : 1676209844:0;chmod +x install.sh
-: 1676210058:0;la
 : 1676210177:0;./target/debug/bob
 : 1676222348:0;mkdir programming-stuff
 : 1676222354:0;cd programming-stuff
@@ -77,7 +76,6 @@
 : 1676351081:0;wezterm ls-fonts --list-system | grep noto
 : 1676351150:0;nn
 : 1676351320:0;nv ~/.config/wezterm/wezterm.lua
-: 1676351376:0;tmux
 : 1676351627:0;tabbed alacritty --embed
 : 1676351746:0;\
 \
@@ -191,12 +189,10 @@ alacritty -e tmux\
 : 1676476652:0;chmod +x bob
 : 1676476663:0;cp bob ~/.local/bin
 : 1676476672:0;bob clean
-: 1676476689:0;bob erase
 : 1676476813:0;nv --version
 : 1676477138:0;yay bob-bib
 : 1676477189:0;yay bob
 : 1676477455:0;nv tom.c
-: 1676482377:0;cd Applications
 : 1676483614:0;cd Game
 : 1676483741:0;yay -S bob-bin
 : 1676483749:0;yay -S bob
@@ -215,7 +211,6 @@ alacritty -e tmux\
 : 1676544419:0;sh -c "$(curl -s https://raw.githubusercontent.com/ibhagwan/fzf-lua/main/scripts/mini.sh)"
 : 1676544929:0;rm -fr *.out
 : 1676546054:0;nv bat.cpp
-: 1676551894:0;bob sync
 : 1676552071:0;clear
 : 1676552712:0;cd /root/
 : 1676556928:0;sudo -e /etc/pacman.conf
@@ -399,7 +394,6 @@ alacritty -e tmux\
 : 1677037227:0;rm -rf plugin
 : 1677040258:0;nv age.cpp
 : 1677061412:0;cd lua
-: 1677061414:0;cd rj
 : 1677061424:0;stylua lazy.lua
 : 1677070125:0;cd cp
 : 1677070133:0;cdd cp
@@ -458,19 +452,15 @@ alacritty -e tmux\
 : 1677251765:0;yay -R eww-wayland-git
 : 1677251900:0;e
 : 1677251935:0;pacman -Slq | fzf --multi --preview 'pacman -Si {1}' | xargs -ro sudo pacman -S
-: 1677252272:0;hx
 : 1677260476:0;ser
 : 1677260486:0;rep
 : 1677260572:0;rm -rf cpro
 : 1677261045:0;:wq
-: 1677261048:0;:q
-: 1677261053:0;:q!
 : 1677263656:0;neovide
 : 1677263669:0;neovim
 : 1677263700:0;yay -Rns neovide
 : 1677263739:0;yay neovim-gtk
 : 1677264133:0;yay -Scc
-: 1677297118:0;yel
 : 1677297932:0;yay -Rns neovim
 : 1677308401:0;zig
 : 1677309145:0;nv index.norg
@@ -487,7 +477,6 @@ alacritty -e tmux\
 : 1677332498:0;cd cppr
 : 1677332504:0;mv study-and-notes ..
 : 1677333115:0;nv vector.cpp
-: 1677333184:0;rm -rf ~/.local/share/nvim
 : 1677346168:0;cd zsh
 : 1677346172:0;cdd zsh
 : 1677346180:0;nv .zshrc
@@ -588,13 +577,10 @@ cargo install prosemd-lsp;
 : 1677849717:0;bni
 : 1677850717:0;curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-marketplace/main/resources/install.sh | sh
 : 1677851350:0;cd spotifyplaylist_to_ytmusic
-: 1677851452:0;yl
-: 1677853948:0;cd code
 : 1677853959:0;nv chrowcol.cpp
 : 1677855913:0;nv bin-seach-func.cpp
 : 1677862486:0;rm -rf *.out
 : 1677862958:0;cdd notes
-: 1677862983:0;git status
 : 1677897597:0;cd notes
 : 1677897611:0;nv timecomplexity.md
 : 1677897627:0;mv timecomplexity.md time-complexity.md
@@ -615,7 +601,6 @@ cargo install prosemd-lsp;
 : 1677918100:0;cdd stud
 : 1677918190:0;nv todo.txt
 : 1677918263:0;cd cppro
-: 1677918268:0;nv .git
 : 1677918384:0;nv .
 : 1677918955:0;nv rand.cpp
 : 1677919173:0;yay -S gtk4
@@ -650,16 +635,13 @@ cargo install prosemd-lsp;
 : 1677987920:0;cmatrix -rm
 : 1677987996:0;rm -rf The.Good.Place.S01-S04.COMPLETE.SERIES.REPACK.1080p.Bluray.x265-HiQVE
 : 1677988080:0;trash-empty
-: 1677988739:0;fc-cache -fv
 : 1677988750:0;cmatrix -r
 : 1677988771:0;cmatix -c
 : 1677988773:0;cmatrix -c
 : 1677988785:0;cmatrix -h
 : 1677988967:0;cd projects/Notes
-: 1677989770:0;yay -c
 : 1677989788:0;cfc
 : 1677989790:0;cf
-: 1677989792:0;cp
 : 1677989794:0;cpc
 : 1677989803:0;time pfetch
 : 1677991119:0;time
@@ -682,7 +664,6 @@ cargo install prosemd-lsp;
 : 1678010310:0;proselint
 : 1678010324:0;nv arrays.md
 : 1678012463:0;we
-: 1678016391:0;srp
 : 1678016403:0;gh repo clone MordechaiHadad/bob
 : 1678016415:0;cd bob
 : 1678016505:0;git checkout origin/fix/sudo-error
@@ -693,7 +674,6 @@ cargo install prosemd-lsp;
 : 1678016602:0;sudo ./bob
 : 1678016617:0;mv bob ./nvim
 : 1678016624:0;sudo ./nvim
-: 1678016680:0;ssep
 : 1678016692:0;yay bob-bin
 : 1678017125:0;nv test.md
 : 1678018572:0;cargo install --git https://github.com/MordechaiHadad/bob.git --branch 'fix/sudo-error'
@@ -707,19 +687,13 @@ cargo install prosemd-lsp;
 : 1678023173:0;mkdir gfg
 : 1678023179:0;nv nice-arr.cpp
 : 1678023261:0;cd gfg
-: 1678023265:0;mkdir .git
 : 1678032501:0;cdd cpp
 : 1678032515:0;nv vector-prac.cpp
 : 1678033089:0;touch vector-prac2.cpp
 : 1678033314:0;touch vector-prac3.cpp
 : 1678034826:0;touch vector-prac4.cpp
-: 1678037993:0;cd pro
 : 1678037995:0;gh repo clone amitsuthar69/RockPaperScissors
 : 1678038007:0;codespell
-: 1678038354:0;nv os.cpp
-: 1678038425:0;cd RockPaperScissors
-: 1678038436:0;nv .gitignore
-: 1678038462:0;nv code.cpp
 : 1678039448:0;rm -rf RockPaperScissors
 : 1678039450:0;gh repo clone Rishabh672003/RockPaperScissors
 : 1678039464:0;nv RockPaperScissors
@@ -738,7 +712,6 @@ cargo install prosemd-lsp;
 : 1678122312:0;yay hyprland-waybar
 : 1678122319:0;yay waybar-hyprland
 : 1678122524:0;waybar
-: 1678122854:0;bob use nightly
 : 1678124284:0;touch hc.cpp
 : 1678160754:0;pkill firefox
 : 1678162358:0;nvim --startuptime a.log
@@ -764,22 +737,18 @@ cargo install prosemd-lsp;
 : 1678194722:0;cd prog
 : 1678194727:0;cd OOp
 : 1678199547:0;gnu-screen
-: 1678200044:0;lv
 : 1678201110:0;cd /mnt/windows
 : 1678201118:0;cd Users/jhari
 : 1678201139:0;cd OneDrive
 : 1678201172:0;cd Pictures
 : 1678201178:0;cd Documents
 : 1678201182:0;nv desktop.ini
-: 1678201774:0;cd nvim-basic-ide
 : 1678201783:0;cd lua/user/plugins.lua
-: 1678201786:0;cd lua/user/
 : 1678201787:0;nv lazy.lua
 : 1678209521:0;pacman -Qq | fzf
 : 1678209568:0;pip install proselint
 : 1678210342:0;yay hyprland
 : 1678210349:0;yay hyprland-git
-: 1678211680:0;cd projects
 : 1678211711:0;nv study-and-notes/binserach-vector.cpp
 : 1678211745:0;cd study-and-notes
 : 1678211750:0;nv binserach-vector.cpp
@@ -811,9 +780,7 @@ sudo chmod a+wr /opt/spotify/Apps -R
 : 1678370425:0;cargo update
 : 1678379673:0;cd codechef
 : 1678379679:0;nv can-distri.cpp
-: 1678382739:0;bob ls
 : 1678383557:0;hyprctl clients
-: 1678383750:0;bob
 : 1678384077:0;fzf
 : 1678453523:0;mv nvim-basic-ide nvim-basic-ide.bak
 : 1678453541:0;gh repo clone MickTheRus/nvim-basic-ide
@@ -823,7 +790,6 @@ sudo chmod a+wr /opt/spotify/Apps -R
 : 1678456311:0;cd .lo
 : 1678456315:0;cd state
 : 1678456328:0;cd shada
-: 1678456328:0;l
 : 1678456494:0;cd swap
 : 1678456503:0;nv log
 : 1678456529:0;cdpp
@@ -860,18 +826,15 @@ sudo chmod a+wr /opt/spotify/Apps -R
 : 1678467932:0;git config pull.rebase true
 : 1678467941:0;git pull
 : 1678468253:0;pfetch
-: 1678468259:0;cali
 : 1678468281:0;exa --icons
 : 1678468283:0;exec zsh
 : 1678468295:0;time pf
-: 1678469146:0;ls
 : 1678469170:0;cc
 : 1678507328:0;cd con
 : 1678507336:0;git clone --depth 1 https://github.com/AstroNvim/AstroNvim
 : 1678507354:0;NVIM_APPNAME=AstroNvim nvim
 : 1678507477:0;rm -rf AstroNvim
 : 1678507508:0;lvim
-: 1678513786:0;sep
 : 1678513796:0;yay -S workstyle
 : 1678513801:0;yay workstyle
 : 1678514469:0;nv lua/rj/autocommands.lua
@@ -881,50 +844,204 @@ sudo chmod a+wr /opt/spotify/Apps -R
 : 1678516258:0;zellij
 : 1678516276:0;zellij setup --check
 : 1678525193:0;ping gnu.org
-: 1678525208:0;ping 9.9.9.9
-: 1678527192:0;nr
-: 1678529654:0;nvim
 : 1678530765:0;w
 : 1678530812:0;nvim zsh/aliases.zsh
-: 1678531376:0;pf
-: 1678534320:0;nvim init.lua
-: 1678535649:0;cd cpp
 : 1678535654:0;nvim rand.cpp
 : 1678535669:0;touch big.cpp
 : 1678535673:0;nvim big.cpp
-: 1678535729:0;cd
-: 1678535732:0;cd nvim
 : 1678535743:0;git add .
 : 1678535748:0;git commit -a
-: 1678537829:0;nv README.md
-: 1678538144:0;lg
 : 1678538627:0;nv init.lua
-: 1678538710:0;uneo
 : 1678538714:0;nvim -v
-: 1678538725:0;gtnv
 : 1678538778:0;bob --hrlp
 : 1678538780:0;bob --help
-: 1678538788:0;cargo install --git https://github.com/MordechaiHadad/bob.git
 : 1678538847:0;sudoedit /etc/pacman.conf
 : 1678538943:0;bob -h
-: 1678538952:0;bob install nightly
 : 1678538954:0;nv -v
 : 1678538958:0;nnv -v
-: 1678539541:0;nbi
-: 1678539715:0;nnv
 : 1678541359:0;ua-drop-caches
-: 1678544044:0;c
 : 1678544101:0;lllllllllllllllllllllll
 : 1678544105:0;naughty americac
 : 1678546244:0;lazyvim
-: 1678546263:0;cd .config
-: 1678546279:0;ll
 : 1678546296:0;ll --sort name
-: 1678546323:0;lll
-: 1678546337:0;cdp
 : 1678546342:0;rm -rf starter
-: 1678546354:0;nv
-: 1678546377:0;ys
-: 1678546382:0;e
-: 1678546397:0;srp
 : 1678546416:0;yl
+: 1678546551:0;nvim history
+: 1678547251:0;yel
+: 1678553354:0;vim
+: 1678553366:0;la
+: 1678553373:0;vim alacritty/alacritty.yml
+: 1678553893:0;nv projects/cppro/anagram.cpp
+: 1678554258:0;ld
+: 1678554299:0;sep
+: 1678554311:0;hx
+: 1678554320:0;hx -h
+: 1678554329:0;hx --health
+: 1678554348:0;cd nvim
+: 1678554352:0;hx init.lua
+: 1678554450:0;cali
+: 1678554532:0;cargo install --git https://github.com/helix-editor/helix.git
+: 1678555373:0;fc-cache -fv
+: 1678592288:0;pf
+: 1678592325:0;cd tmux
+: 1678592329:0;nv tmux.conf
+: 1678593216:0;cd projects
+: 1678593230:0;mkdir cpproject
+: 1678593234:0;cd cpproject
+: 1678593240:0;nv game.cpp
+: 1678594636:0;yay sdl
+: 1678594907:0;unzip 01_hello_SDL.zip
+: 1678595038:0;nv Makefile
+: 1678595170:0;mv cpproject game-project
+: 1678595184:0;cd projects/game-project
+: 1678595190:0;mkdir .git
+: 1678595199:0;cd 01_hello_SDL/01_hello_SDL.cpp
+: 1678595472:0;cd 01_hello_SDL
+: 1678596183:0;./01_hello_SDL
+: 1678599924:0;unzip 03_event_driven_programming.zip
+: 1678599936:0;nv 03_event_driven_programming.cpp
+: 1678599983:0;nv readme.txt
+: 1678599997:0;cp ../01_hello_SDL/Makefile .
+: 1678600095:0;cd 03_event_driven_programming
+: 1678600099:0;make all
+: 1678600106:0;./03_event_driven_programming
+: 1678606714:0;cd .config/
+: 1678607018:0;tmux
+: 1678608472:0;nv 01_hello_SDL/01_hello_SDL.cpp
+: 1678619945:0;nvim install.sh
+: 1678620125:0;cd pro
+: 1678620129:0;cd RockPaperScissors
+: 1678620158:0;nv code.cpp
+: 1678620173:0;git status
+: 1678621095:0;lll
+: 1678621529:0;nv README.md
+: 1678623728:0;cargo install --git https://github.com/MordechaiHadad/bob.git --branch 'fix/nightly-update'
+: 1678623920:0;bob install nightly
+: 1678624005:0;cargo install --git https://github.com/MordechaiHadad/bob.git
+: 1678636192:0;gh repo clone PolyMarsDev/Twini-Golf
+: 1678636321:0;g++ -c src/*.cpp -std=c++14 -O3 -Wall -m64 -I include && mkdir -p bin/release && g++ *.o -o bin/release/main -s -lSDL2main -lSDL2 -lSDL2_image -lSDL2_ttf -lSDL2_mixer
+: 1678636338:0;cd Twini-Golf
+: 1678636344:0;nv src/ball.cpp
+: 1678636804:0;cd .local/share/nvim/lazy/catppuccin/lua/catppuccin/palettes/mocha.lua
+: 1678636807:0;cd .local/share/nvim/lazy/catppuccin/lua/catppuccin/palettes/
+: 1678636810:0;nv mocha.lua
+: 1678641486:0;nvim z.cpp
+: 1678642968:0;r
+: 1678642968:0;rustc a.rs
+: 1678643982:0;:Q
+: 1678643984:0;:q
+: 1678643988:0;:q!
+: 1678643996:0;:1
+: 1678644433:0;cd cpp
+: 1678644569:0;nv os.cpp
+: 1678712177:0;yay -R newm
+: 1678712194:0;yay -c
+: 1678712201:0;yay newm
+: 1678712369:0;aaa
+: 1678712397:0;aa
+: 1678712414:0;a
+: 1678712516:0;srp
+: 1678712529:0;yay -Rns wf-recorder-git
+: 1678712540:0;ssep
+: 1678712618:0;nv .config/hypr
+: 1678713467:0;touch .config/bob
+: 1678713473:0;rm -rf .config/bob
+: 1678713480:0;mkdir ~/.config/bob
+: 1678713488:0;touch /home/user/.config/bob/config.json
+: 1678713504:0;touch ~/.config/bob/config.json
+: 1678713514:0;nv /home/user/.config/bob/config.json
+: 1678713542:0;rm ~/.config/bob/config.json
+: 1678713567:0;bob
+: 1678713900:0;bob update
+: 1678713906:0;bob -help
+: 1678713962:0;nv ~/.config/bob/config.json
+: 1678714008:0;nr
+: 1678714597:0;cd nvim/
+: 1678714602:0;nv .git
+: 1678714615:0;nv .gitignore
+: 1678714802:0;bob ls
+: 1678715247:0;unro
+: 1678715249:0;uneo
+: 1678715252:0;gtnv
+: 1678715308:0;nnv
+: 1678718627:0;bob use 
+: 1678718632:0;bob rollback
+: 1678718905:0;l
+: 1678718906:0;snvim
+: 1678719052:0;cargo install --git https://github.com/MordechaiHadad/bob.git --branch 'fix/sync'
+: 1678719255:0;cd .config/nvim
+: 1678720086:0;cat ~/.config/nvim/nvim.version
+: 1678720244:0;bob erase
+: 1678720267:0;nnv nvim.version
+: 1678720586:0;nvim nvim.version
+: 1678720590:0;bob sync
+: 1678722274:0;cd .local/share/zap/plugins
+: 1678722278:0;nv .gitkeep
+: 1678722291:0;cd vim
+: 1678722295:0;nvim vim.plugin.zsh
+: 1678722531:0;cp
+: 1678722744:0;cl
+: 1678722753:0;ls -
+: 1678727589:0;lv
+: 1678728663:0;cd .config
+: 1678728666:0;cd Applications
+: 1678728681:0;bob use v0.8.3
+: 1678728699:0;bob use nightly
+: 1678728837:0;rm -rf ~/.local/share/nvim
+: 1678730042:0;q
+: 1678799374:0;cd code
+: 1678799392:0;nv rearange.cpp
+: 1678804636:0;ping 9.9.9.9
+: 1678885613:0;c
+: 1678885613:0;ys
+: 1678896521:0;nbi
+: 1678896616:0;cd lua/user/
+: 1678896630:0;cdp
+: 1678896633:0;cd nvim-basic-ide
+: 1678897199:0;ls
+: 1678897227:0;nvim init.lua install.sh
+: 1678897294:0;cd
+: 1678897353:0;nvim init.lua
+: 1678897409:0;nvim .bashrc
+: 1678897559:0;nv
+: 1678897697:0;cd .config/nvim/lua
+: 1678897701:0;nv rj/plugins
+: 1678897718:0;cd rj
+: 1678897719:0;ll
+: 1678897750:0;lg
+: 1678897765:0;nvim 
+: 1678897838:0;nvim lazy.lua
+: 1678897891:0;nvim ~/.config/nvim/init.lua
+: 1678900608:0;nvim
+: 1678901577:0;e
+: 1678901580:0;nvim lazy.lua
+: 1678901598:0;nv
+: 1678902009:0;uneo
+: 1678902104:0;gtnv
+: 1678902126:0;nnv
+: 1678902139:0;nv
+: 1678902379:0;ys
+: 1678902436:0;helix
+: 1678902438:0;hx
+: 1678902456:0;hexdump
+: 1678902465:0;yes
+: 1678902489:0;sudo pacman -Syu | yes
+: 1678902503:0;yes | sudo pacman -Syu
+: 1678971719:0;c
+: 1678971720:0;ys
+: 1678971761:0;c
+: 1678971762:0;nv
+: 1678971765:0;ys
+: 1678971767:0;c
+: 1678971771:0;nvim .bashrc
+: 1678972761:0;nr
+: 1678974380:0;c
+: 1678974381:0;ll
+: 1678975524:0;c
+: 1678979540:0;ll
+: 1678979549:0;sdk update
+: 1678981274:0;nv
+: 1678981278:0;cd hypr
+: 1678981278:0;ll
+: 1678981282:0;nv hyprland.conf
+: 1678987121:0;yl
