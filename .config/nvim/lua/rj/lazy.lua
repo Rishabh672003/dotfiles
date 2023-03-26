@@ -27,40 +27,6 @@ require("lazy").setup({
 			paths = {
 				vim.fn.expand("~") .. "/.config/nvim",
 			},
-			disabled_plugins = {
-				"loaded_python3_provider",
-				"python_provider",
-				"node_provider",
-				"ruby_provider",
-				"perl_provider",
-				"2html_plugin",
-				"getscript",
-				"getscriptPlugin",
-				"gzip",
-				"tar",
-				"tarPlugin",
-				"rrhelper",
-				"vimball",
-				"vimballPlugin",
-				"zip",
-				"zipPlugin",
-				"tutor",
-				"rplugin",
-				"logiPat",
-				"netrwSettings",
-				"netrwFileHandlers",
-				"syntax",
-				"synmenu",
-				"optwin",
-				"compiler",
-				"bugreport",
-				"ftplugin",
-				"load_ftplugin",
-				"indent_on",
-				"netrwPlugin",
-				"tohtml",
-				"man",
-			},
 		},
 	},
 	{
@@ -90,11 +56,27 @@ require("lazy").setup({
 			"sh",
 			"toml",
 			"zsh",
+			"rust",
 		},
 		config = function()
 			require("rj.plugins.lsp.lsp-conf")
 			require("rj.plugins.lsp.attach")
 			require("rj.plugins.lsp.diagnostic")
+		end,
+	},
+	{
+		"p00f/clangd_extensions.nvim",
+		ft = { "c", "cpp" },
+		config = function()
+			require("rj.plugins.lsp.clangd")
+		end,
+	},
+	{
+		"simrat39/rust-tools.nvim",
+		ft = { "rust" },
+		event = { "InsertEnter", "BufReadPre", "BufAdd", "BufNew" },
+		config = function()
+			require("rj.plugins.lsp.rust-tools")
 		end,
 	},
 	{
@@ -171,13 +153,6 @@ require("lazy").setup({
 		event = { "BufReadPre", "BufRead", "BufNew" },
 		config = function()
 			require("rj.plugins.lsp.null-ls")
-		end,
-	},
-	{
-		"p00f/clangd_extensions.nvim",
-		ft = { "c", "cpp" },
-		config = function()
-			require("rj.plugins.lsp.clangd")
 		end,
 	},
 	{
@@ -313,7 +288,6 @@ require("lazy").setup({
 			require("rj.plugins.lastplace")
 		end,
 	},
-	-- { "LunarVim/bigfile.nvim", event = "BufReadPre" },
 	{
 		"windwp/nvim-autopairs",
 		event = "InsertEnter",
@@ -331,7 +305,6 @@ require("lazy").setup({
 	},
 	{
 		"akinsho/toggleterm.nvim",
-		priority = 10,
 		config = function()
 			require("rj.plugins.nvim-toggleterm")
 		end,
@@ -412,26 +385,39 @@ require("lazy").setup({
 			},
 		},
 	},
-	"rawnly/gist.nvim",
-	-- {
-	-- 	"zbirenbaum/copilot-cmp",
-	-- 	after = { "copilot.lua" },
-	-- 	config = function()
-	-- 		require("copilot_cmp").setup({
-	-- 			formatters = {
-	-- 				insert_text = require("copilot_cmp.format").remove_existing,
-	-- 			},
-	-- 		})
-	-- 	end,
-	-- },
-	-- {
-	-- 	"zbirenbaum/copilot.lua",
-	-- 	cmd = "Copilot",
-	-- 	event = "InsertEnter",
-	-- 	config = function()
-	-- 		require("copilot").setup({})
-	-- 	end,
-	-- },
+	{
+		"rawnly/gist.nvim",
+		event = "BufRead",
+	},
+	{
+		"zbirenbaum/copilot-cmp",
+		after = { "copilot.lua" },
+		config = function()
+			require("copilot_cmp").setup({
+				formatters = {
+					insert_text = require("copilot_cmp.format").remove_existing,
+				},
+			})
+		end,
+	},
+	{
+		"zbirenbaum/copilot.lua",
+		cmd = "Copilot",
+		config = function()
+			require("copilot").setup({})
+		end,
+	},
+	{
+		"jim-fx/sudoku.nvim",
+		cmd = "Sudoku",
+		config = function()
+			require("sudoku").setup({})
+		end,
+	},
+	{
+		"nullchilly/fsread.nvim",
+		cmd = "FSToggle",
+	},
 	-- {
 	-- 	"lewis6991/satellite.nvim",
 	-- 	config = function()

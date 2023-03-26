@@ -1,6 +1,11 @@
 local cmp = require("cmp")
 local luasnip = require("luasnip")
 
+local status_ok, copilot_cmp = pcall(require, "copilot_cmp.comparators")
+if not status_ok then
+	return
+end
+
 require("luasnip/loaders/from_vscode").lazy_load()
 
 local check_backspace = function()
@@ -36,12 +41,13 @@ local kind_icons = {
 	Operator = "",
 	TypeParameter = "",
 	Codeium = "󰚩",
+	Copilot = "",
 }
 -- find more here: https://www.nerdfonts.com/cheat-sheet
-cmp.setup{
+cmp.setup({
 	enabled = function()
-    return vim.g.cmp_toggle
-  end,
+		return vim.g.cmp_toggle
+	end,
 	snippet = {
 		expand = function(args)
 			luasnip.lsp_expand(args.body) -- For `luasnip` users.
@@ -49,16 +55,16 @@ cmp.setup{
 	},
 	sorting = {
 		comparators = {
-			-- require("copilot_cmp.comparators").prioritize,
-			-- require("copilot_cmp.comparators").score,
-			cmp.config.compare.offset,
 			cmp.config.compare.exact,
+			copilot_cmp.prioritize,
+			copilot_cmp.score,
 			cmp.config.compare.recently_used,
-			require("clangd_extensions.cmp_scores"),
+			cmp.config.compare.order,
+			cmp.config.compare.offset,
 			cmp.config.compare.kind,
 			cmp.config.compare.sort_text,
 			cmp.config.compare.length,
-			cmp.config.compare.order,
+			require("clangd_extensions.cmp_scores"),
 		},
 	},
 	mapping = {
@@ -71,7 +77,7 @@ cmp.setup{
 		["<C-j>"] = cmp.mapping.select_next_item(),
 		["<C-d>"] = cmp.mapping(cmp.mapping.scroll_docs(-1), { "i", "c" }),
 		["<C-f>"] = cmp.mapping(cmp.mapping.scroll_docs(1), { "i", "c" }),
-		["<C-Space>"] = cmp.mapping(cmp.mapping.complete(), { "i", "c" }),
+		-- ["<C-Space>"] = cmp.mapping(cmp.mapping.complete(), { "i", "c" }),
 		["<C-y>"] = cmp.config.disable,
 		["<C-e>"] = cmp.mapping({
 			i = cmp.mapping.abort(),
@@ -115,14 +121,14 @@ cmp.setup{
 		format = function(entry, vim_item)
 			-- Kind icons
 			vim_item.kind = string.format("%s", kind_icons[vim_item.kind])
-			-- vim_item.kind = string.format('%s %s', kind_icons[vim_item.kind], vim_item.kind) -- This concatonates the icons with the name of the item kind
+			-- vim_item.kind = string.format("%s %s", kind_icons[vim_item.kind], vim_item.kind) -- This concatonates the icons with the name of the item kind
 			vim_item.menu = ({
 				nvim_lsp = "[LSP]",
 				nvim_lua = "[NVLUA]",
 				luasnip = "[SNPT]",
 				buffer = "[BFR]",
 				path = "[PATH]",
-				-- copilot = "[Copilot]",
+				copilot = "[CPLT]",
 				codeium = "[CDEM]",
 			})[entry.source.name]
 			return vim_item
@@ -134,7 +140,7 @@ cmp.setup{
 		{ name = "luasnip" },
 		{ name = "buffer" },
 		{ name = "path" },
-		-- { name = "copilot" },
+		{ name = "copilot" },
 		{ name = "codeium" },
 	},
 	confirm_opts = {
@@ -149,4 +155,4 @@ cmp.setup{
 	experimental = {
 		ghost_text = true,
 	},
-}
+})

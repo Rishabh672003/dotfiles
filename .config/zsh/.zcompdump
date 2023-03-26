@@ -1,4 +1,4 @@
-#files: 1011	version: 5.9
+#files: 1016	version: 5.9
 
 _comps=(
 '-' '_precommand'
@@ -521,6 +521,7 @@ _comps=(
 'gln' '_ln'
 'global' '_global'
 'glocate' '_locate'
+'glow' '_glow'
 'gls' '_ls'
 'gm' '_graphicsmagick'
 'gmake' '_make'
@@ -657,6 +658,8 @@ _comps=(
 'hd' '_hexdump'
 'head' '_head'
 'heat' '_openstack'
+'_helix' '_helix'
+'helix' '_helix'
 'hello' '_hello'
 'help' '_sccs'
 'hexdump' '_hexdump'
@@ -812,6 +815,7 @@ _comps=(
 'ltrace' '_ltrace'
 'lua' '_lua'
 'luarocks' '_luarocks'
+'luarocks-admin' '_luarocks-admin'
 'lunchy' '_lunchy'
 'lynx' '_lynx'
 'lz4' '_lz4'
@@ -1257,6 +1261,7 @@ _comps=(
 'run-help' '_run-help'
 'rup' '_hosts'
 'rusage' '_precommand'
+'rustup' '_rustup'
 'rview' '_vim'
 'rvim' '_vim'
 'rwho' '_hosts'
@@ -1938,27 +1943,28 @@ autoload -Uz _afew _alacritty _android _archinstallscripts _archlinux-java \
             _ffind _fleetctl _flutter _foot _footclient \
             _force _fwupdmgr _gas _gh _ghc \
             _gist _git-flow _git-journal _git-pulls _git-revise \
-            _git-wtf _glances _golang _google _gpgconf \
-            _gtk-launch _hello _hg _hledger _homestead \
-            _hostnamectl _httpie _ibus _include-what-you-use _inxi \
-            _jmeter _jmeter-plugins _jonas _journalctl _jrnl \
-            _kak _kdeconnect _kernel-install _kitchen _knife \
-            _language_codes _less _lf _libinput _lilypond \
-            _localectl _loginctl _lsd _lunchy _machinectl \
-            _mako _makoctl _mc _meson _middleman \
-            _mina _mix _mkinitcpio _mpv _mssh \
-            _mussh _mvn _nano _nanoc _netctl \
-            _networkctl _nftables _ninja _node _nvm \
-            _onefetch _oomctl _openssl _openvpn3 _optirun \
-            _opustools _paccache _pacdiff _pacignore _paclist \
-            _paclog-pkglist _pacman _pacscripts _pacsearch _pacsort \
-            _pactree _parallel _paru _patool _perf \
-            _periscope _pgsql_utils _phing _pixz _pkcon \
-            _pkgfile _play _playerctl _pm2 _port \
-            _protoc _pulseaudio _pygmentize _qmk _rails \
-            _ralio _rankmirrors _redis-cli _resolvectl _rfkill \
-            _rg _rkt _rmlint _rslsync _rspec \
-            _rsvm _rubocop _sbt _scala _scrub \
+            _git-wtf _glances _glow _golang _google \
+            _gpgconf _gtk-launch _helix _hello _hg \
+            _hledger _homestead _hostnamectl _httpie _ibus \
+            _include-what-you-use _inxi _jmeter _jmeter-plugins _jonas \
+            _journalctl _jrnl _kak _kdeconnect _kernel-install \
+            _kitchen _knife _language_codes _less _lf \
+            _libinput _lilypond _localectl _loginctl _lsd \
+            _luarocks _luarocks-admin _lunchy _machinectl _mako \
+            _makoctl _mc _meson _middleman _mina \
+            _mix _mkinitcpio _mpv _mssh _mussh \
+            _mvn _nano _nanoc _netctl _networkctl \
+            _nftables _ninja _node _nvm _onefetch \
+            _oomctl _openssl _openvpn3 _optirun _opustools \
+            _paccache _pacdiff _pacignore _paclist _paclog-pkglist \
+            _pacman _pacscripts _pacsearch _pacsort _pactree \
+            _parallel _paru _patool _perf _periscope \
+            _pgsql_utils _phing _pixz _pkcon _pkgfile \
+            _play _playerctl _pm2 _port _protoc \
+            _pulseaudio _pygmentize _qmk _rails _ralio \
+            _rankmirrors _redis-cli _resolvectl _rfkill _rg \
+            _rkt _rmlint _rslsync _rspec _rsvm \
+            _rubocop _rustup _sbt _scala _scrub \
             _sdd _sd_hosts_or_user_at_host _sd_machines _sd_outputmodes _sd_unit_files \
             _setcap _setup.py _sfdx _shellcheck _showoff \
             _srm _stack _subl _subliminal _supervisorctl \

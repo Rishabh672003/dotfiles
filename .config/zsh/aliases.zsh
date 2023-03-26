@@ -1,4 +1,3 @@
-#my aliases
 alias c='clear'
 alias e='exit'
 alias :q='exit'
@@ -60,11 +59,6 @@ alias wl='sudo waydroid log'
 alias install-grub='sudo grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUB'
 alias update-grub=' sudo grub-mkconfig -o /boot/grub/grub.cfg'
 alias wtr='curl -4 https://wttr.in/virar'
-alias gtnv='cd ~/Applications/ && \
-    rm -rf ~/Applications/nvim-linux64 ~/Applications/nvim-linux64.tar.gz > /dev/null 2>&1 ; \
-    curl --output-dir ~/Applications/ \
-    -LO https://github.com/neovim/neovim/releases/download/nightly/nvim-linux64.tar.gz && \
-    tar -xvf ~/Applications/nvim-linux64.tar.gz > /dev/null 2>&1'
 alias nnv='~/Applications/nvim-linux64/bin/nvim'
 alias ua-drop-caches='yay -Sc --aur --noconfirm'
 alias ua-update-all='export TMPFILE="$(mktemp)"; \
@@ -97,7 +91,24 @@ alias sep="pacman -Slq | fzf --multi --preview 'pacman -Si {1}' \
     | xargs -ro sudo pacman -S"
 alias srp="pacman -Qq | fzf --multi --preview 'pacman -Qi {1}' \
     | xargs -ro sudo pacman -Rns"
+
 export ssep (){
     pacman -Slq | fzf --multi --preview 'cat <(pacman -Si {1}) <(pacman -Fl {1} | awk "{print \$2}")' | xargs -ro sudo pacman -S
 }
 alias ssep=ssep
+
+export gtnv(){
+    if command -v aria2c &> /dev/null; then
+        cd ~/Applications/ &&
+        rm -rf ~/Applications/nvim-linux64 ~/Applications/nvim-linux64.tar.gz > /dev/null 2>&1 ;
+        aria2c "https://github.com/neovim/neovim/releases/download/nightly/nvim-linux64.tar.gz"
+        tar -xvf ~/Applications/nvim-linux64.tar.gz > /dev/null 2>&1
+    else
+        cd ~/Applications/ && \
+            rm -rf ~/Applications/nvim-linux64 ~/Applications/nvim-linux64.tar.gz > /dev/null 2>&1 ; \
+            curl --output-dir ~/Applications/ \
+            -LO https://github.com/neovim/neovim/releases/download/nightly/nvim-linux64.tar.gz && \
+            tar -xvf ~/Applications/nvim-linux64.tar.gz > /dev/null 2>&1
+    fi
+}
+alias gtnv=gtnv

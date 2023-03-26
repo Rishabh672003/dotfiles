@@ -49,7 +49,7 @@ These are all the optional dependencies if you dont want anything just remove th
 #### LSP dependencies as now these configs dont use mason, so you will have to install them yourself
 
 ```bash
-sudo pacman -Sy --needed --noconfirm lua-language-server;
+sudo pacman -Sy --needed --noconfirm lua-language-server rust-analyzer;
 yay -S jdtls lemminx;
 cargo install --features lsp --locked taplo-cli;
 cargo install prosemd-lsp;
@@ -78,7 +78,7 @@ sh <(curl -s https://raw.githubusercontent.com/Rishabh672003/Neovim/main/install
 
 You can change the startup-screen if you don't like this one go to lua/rj/plugins/alpha-themes and read the readme there
 ![image](https://user-images.githubusercontent.com/53911515/216835823-ff85c1d6-ab03-408c-9d7b-83c0f56a5445.png)
-![image](https://user-images.githubusercontent.com/53911515/213927853-5e6460ed-a54d-414a-9151-f283d0ca9299.png)
+![image](https://user-images.githubusercontent.com/53911515/227719958-c34ba80a-3ae8-4e32-a7ae-7b6ca0503a13.png)
 ![image](https://user-images.githubusercontent.com/53911515/213927964-90035c3a-cd4b-4983-9e30-604bd15f0fc4.png)
 ![image](https://user-images.githubusercontent.com/53911515/213927987-5e764e77-e82d-41fd-a97a-1be6952137e3.png)
 
