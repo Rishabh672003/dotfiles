@@ -63,7 +63,6 @@ int main() {{
 	),
 })
 
-
 ls.add_snippets("cpp", {
 	s(
 		"cc",
@@ -128,13 +127,50 @@ ls.add_snippets("java", {
 		"cc",
 		fmt(
 			[[
+import java.io.*;
 import java.util.*;
 
 class Test {{
-    public static void main(String args[]){{
-        Scanner sc = new Scanner(System.in);
-		{}
+  public static void main(String[] args) {{
+    FastScanner sc = new FastScanner();
+    PrintWriter out = new PrintWriter(System.out);
+    int T = sc.nextInt();
+    while (T-- > 0) {{
+			{}
     }}
+    out.close();
+  }}
+
+  static class FastScanner {{
+    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    StringTokenizer st = new StringTokenizer("");
+
+    String next() {{
+      while (!st.hasMoreTokens())
+        try {{
+          st = new StringTokenizer(br.readLine());
+        }} catch (IOException e) {{
+          e.printStackTrace();
+        }}
+      return st.nextToken();
+    }}
+
+    int nextInt() {{
+      return Integer.parseInt(next());
+    }}
+
+    long nextLong() {{
+      return Long.parseLong(next());
+    }}
+
+    double nextDouble() {{
+      return Double.parseDouble(next());
+    }}
+
+    boolean nextBoolean() {{
+      return Boolean.parseBoolean(next());
+    }}
+  }}
 }}
 ]],
 			{

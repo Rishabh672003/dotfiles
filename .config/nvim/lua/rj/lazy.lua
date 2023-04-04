@@ -74,7 +74,6 @@ require("lazy").setup({
 	{
 		"simrat39/rust-tools.nvim",
 		ft = { "rust" },
-		event = { "InsertEnter", "BufReadPre", "BufAdd", "BufNew" },
 		config = function()
 			require("rj.plugins.lsp.rust-tools")
 		end,
@@ -163,7 +162,10 @@ require("lazy").setup({
 				"nvim-telescope/telescope.nvim",
 				cmd = { "Telescope" },
 				dependencies = {
-					{ "nvim-telescope/telescope-file-browser.nvim", lazy = true, cmd = "Telescope file_browser" },
+					{
+						"nvim-telescope/telescope-file-browser.nvim",
+						cmd = "Telescope file_browser",
+					},
 				},
 				config = function()
 					require("rj.plugins.nvim-telescope")
@@ -418,12 +420,41 @@ require("lazy").setup({
 		"nullchilly/fsread.nvim",
 		cmd = "FSToggle",
 	},
-	-- {
-	-- 	"lewis6991/satellite.nvim",
-	-- 	config = function()
-	-- 		require("satellite").setup()
-	-- 	end,
-	-- },
+	{
+		"lewis6991/satellite.nvim",
+		event = { "InsertEnter", "BufReadPre" },
+		config = function()
+			require("satellite").setup()
+		end,
+	},
+	{
+		"Xuyuanp/neochat.nvim",
+		event = { "InsertEnter", "BufReadPre", "BufAdd", "BufNew" },
+		build = function()
+			vim.fn.system({ "pip", "install", "-U", "openai" })
+		end,
+		dependencies = {
+			"MunifTanjim/nui.nvim",
+		},
+		config = function()
+			require("neochat").setup({})
+		end,
+	},
+	{
+		"jackMort/ChatGPT.nvim",
+		config = function()
+			require("chatgpt").setup({})
+		end,
+	},
+	{
+		"chrisgrieser/nvim-early-retirement",
+		event = "VeryLazy",
+		opts = {
+			retirementAgeMins = 60,
+			ignoreAltFile = true,
+			notificationOnAutoClose = true,
+		},
+	},
 	-- {
 	-- 	"Pocco81/auto-save.nvim",
 	-- 	config = function()

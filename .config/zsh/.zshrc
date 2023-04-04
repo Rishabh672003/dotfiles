@@ -1,3 +1,7 @@
+# # Starts tmux in every window 
+# if [ -x "$(command -v tmux)" ] && [ -n "${DISPLAY}" ] && [ -z "${TMUX}" ]; then
+#     tmux attach || tmux >/dev/null 2>&1
+# fi
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.config/zsh/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -14,6 +18,7 @@ autoload -Uz plug
 # all the good stuff
 plug ~/.config/zsh/aliases.zsh
 plug ~/.config/zsh/supercharge.zsh
+plug ~/projects/openai.zsh
 
 # evals needed for apps
 eval "$(zoxide init zsh)"

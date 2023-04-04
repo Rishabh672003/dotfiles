@@ -1,883 +1,6 @@
-: 1676139942:0;rm a.out
-: 1676139946:0;rm github_sync_logs.log
-: 1676170474:0;nv a.cc
-: 1676170483:0;nv a.css
-: 1676170569:0;nv b.css
-: 1676170602:0;nv c.css
-: 1676170764:0;nv d.css
-: 1676171185:0;rm d.cpp
-: 1676171188:0;nv d.cpp
-: 1676173594:0;rm *.css
-: 1676173601:0;nv te.c
-: 1676178593:0;touch a.sh
-: 1676178597:0;rm a.sh
-: 1676181824:0;nv pat.c
-: 1676184428:0;nv .clang-format
-: 1676184461:0;rm sem\ i\ ai\&ml_15.pdf
-: 1676184731:0;rm .clang-format
-: 1676184742:0;nv cpro/arm.c
-: 1676191524:0;lv a.c
-: 1676195705:0;pacman -Qi mpv
-: 1676195742:0;yay -Rns mpv
-: 1676195963:0;unzip --help
-: 1676195998:0;unzip -hh
-: 1676196078:0;cd ThatTakashi\ DotFiles\ master\ mako
-: 1676196097:0;cp ThatTakashi\ DotFiles\ master\ mako ~/.config/mako2
-: 1676196101:0;cp -r ThatTakashi\ DotFiles\ master\ mako ~/.config/mako2
-: 1676196107:0;cd .config/mako
-: 1676196114:0;mv mako mako3
-: 1676196118:0;mv mako2 mako
-: 1676196161:0;nv mako/config
-: 1676196217:0;pkill dunst
-: 1676196218:0;mako
-: 1676196301:0;pkill mako
-: 1676196849:0;cd dunst
-: 1676196853:0;nv dunstrc
-: 1676199634:0;lsblk
-: 1676201433:0;./projects/qbit.sh
-: 1676202843:0;dunst
-: 1676204730:0;yay carbonyl
-: 1676208599:0;nv install2.sh
-: 1676209844:0;chmod +x install.sh
-: 1676210177:0;./target/debug/bob
-: 1676222348:0;mkdir programming-stuff
-: 1676222354:0;cd programming-stuff
-: 1676222358:0;nv lua1.lua
-: 1676222384:0;lua lua1.lua
-: 1676222391:0;rm lua1.lua
-: 1676222395:0;nv pi.c
-: 1676223444:0;git clone https://github.com/Rishabh672003/Neovim ~/.config/nvim && nvim
-: 1676223583:0;nv fib.c
-: 1676223993:0;cd lazy
-: 1676224869:0;cd hyp
-: 1676299556:0;nv src/Main.java
-: 1676299684:0;nv .mvn
-: 1676299711:0;nv pom.xml
-: 1676299725:0;nv src/Alien.java
-: 1676299861:0;maven
-: 1676299876:0;sdk install maven 3.9.0
-: 1676299914:0;mvn archetype:generate \
-	-DgroupId={project-packaging}\
-	-DartifactId={project-name}\
-	-DarchetypeArtifactId={maven-template} \
-	-DinteractiveMode=false
-: 1676300140:0;cd 312321
-: 1676300147:0;nv src/main/java/hello/App.java
-: 1676300201:0;cd cpro
-: 1676300204:0;nv a.c
-: 1676300763:0;rm -rf 312321
-: 1676303734:0;nv b.c
-: 1676304377:0;nv c.c
-: 1676304996:0;nv watch.c
-: 1676347654:0;nv EGD-ese
-: 1676347657:0;nv EGD-ese.md
-: 1676350296:0;echo "'hello'"
-: 1676351069:0;wezterm ls-fonts --list-system
-: 1676351081:0;wezterm ls-fonts --list-system | grep noto
-: 1676351150:0;nn
-: 1676351320:0;nv ~/.config/wezterm/wezterm.lua
-: 1676351627:0;tabbed alacritty --embed
-: 1676351746:0;\
-\
-alacritty -e tmux\
-
-: 1676355394:0;nv test.cpp
-: 1676357999:0;mkdir lsp
-: 1676358010:0;nv lsp.lua
-: 1676358242:0;gh repo clone NTBBloodbath/nvim ~/.config/nvim
-: 1676358293:0;rm -rf $HOME/.config/nvim $HOME/.local/share/nvim $HOME/.cache/nvim
-: 1676358297:0;git clone https://github.com/Rishabh672003/Neovim ~/.config/nvim
-: 1676359850:0;nv d.c
-: 1676360574:0;clang
-: 1676361800:0;yay -Rns lua-language-server pyright bash-language-server vscode-json-languageserver jdtls lemminx clang
-: 1676361820:0;yay -Rnss lua-language-server pyright bash-language-server vscode-json-languageserver jdtls lemminx clang
-: 1676361845:0;yay -R cppcheck
-: 1676361926:0;yay -S cppcheck
-: 1676379409:0;cd ala
-: 1676379411:0;nv alacritty.yml
-: 1676392527:0;yay -S youtube-music-bin
-: 1676392742:0;gh repo clone sigma67/spotifyplaylist_to_ytmusic
-: 1676392785:0;cp settings.ini.example settings.ini
-: 1676392949:0;nv Setup.py
-: 1676393698:0;pip install ytmusicapi
-: 1676394819:0;pip install -U -r requirements
-: 1676394830:0;python -m pip install --upgrade pip
-: 1676395079:0;cd spo
-: 1676395083:0;python Setup.py youtube
-: 1676395098:0;nv settings.ini
-: 1676395153:0;python YouTube.py https://open.spotify.com/playlist/722XPkPzmg7PWd8nKAxSgi?si=b0c3f41883d0411c
-: 1676395258:0;python YouTube.py --all python 4qtvh5xixrh8fhwwjg1034o6a
-: 1676395267:0;python YouTube.py --all 4qtvh5xixrh8fhwwjg1034o6a
-: 1676398155:0;chmod +x YouTube.Music.Desktop.App-1.14.1_Nightly.AppImage
-: 1676398357:0;cd appl
-: 1676398374:0;rm ytmdesktop-bin_e42f01524c0bf227516dc28ba743c3d3
-: 1676398443:0;sudo paccache -rk0
-: 1676398520:0;nemo .
-: 1676398563:0;./YouTube.Music.Desktop.App-1.14.1_Nightly.AppImage
-: 1676398632:0;nv ~/.config/youtube-music-desktop-app/locales/en.json
-: 1676398890:0;./YouTube-Music-Desktop-App-1.13.0.AppImage
-: 1676398984:0;yay ytmdesktop
-: 1676399215:0;/usr/bin/ytmdesktop-bin
-: 1676399779:0;nv /home/rishabh/.config/YouTube Music/config.json
-: 1676456379:0;nv midnight.css
-: 1676458092:0;git switch -b withput-mason
-: 1676458104:0;git -b withput-mason
-: 1676458148:0;playerctl position
-: 1676458570:0;git switch without-mason
-: 1676458826:0;yay -S lua-language-server pyright bash-language-server vscode-json-languageserver jdtls lemminx clang
-: 1676458839:0;yay -S lua-language-server pyright bash-language-server vscode-json-languageserver jdtls lemminx clang --needed --noconfirm
-: 1676459684:0;cd shell
-: 1676459687:0;nv triangle.sh
-: 1676459829:0;nv 10.py
-: 1676460070:0;cargo install --features lsp --locked taplo-cli
-: 1676460385:0;tsserver
-: 1676460459:0;lemminx
-: 1676460537:0;nv a.js
-: 1676460608:0;npm install -g typescript typescript-language-server
-: 1676460626:0;npm uninstall -g typescript typescript-language-server
-: 1676460634:0;yay typescript-language-server
-: 1676460737:0;cd jsts
-: 1676460740:0;cd js
-: 1676460745:0;nv a.ts
-: 1676460804:0;cargo install prosemd-lsp
-: 1676460988:0;typescript-language-server
-: 1676461963:0;lsp
-: 1676462138:0;git checkout origin/without-mason
-: 1676462480:0;python YouTube.py https://open.spotify.com/playlist/722XPkPzmg7PWd8nKAxSgi
-: 1676462648:0;pacman -Qi typescript-language-server
-: 1676462735:0;pacman -Qi pyright
-: 1676462756:0;jsonls
-: 1676462874:0;pacman -Qi lemminx
-: 1676462908:0;pacman -Qi jdtls
-: 1676462939:0;pacman -Qi cargo
-: 1676462947:0;pacman -Qi npm
-: 1676463415:0;nv .luarc.json
-: 1676463420:0;rm .luarc.json
-: 1676463426:0;nv rj/autocommands.lua
-: 1676463913:0;git checkout main
-: 1676463925:0;rm install.sh
-: 1676463994:0;git config pull.rebase false
-: 1676464049:0;rm install2.sh
-: 1676464157:0;git commit README.md init.lua lazy-lock.json lua/rj/lazy.lua lua/rj/plugins/lsp/init.lua lua/rj/plugins/lsp/settings/lua_ls.lua lua/rj/plugins/lsp/mason.lua lua/rj/plugins/lsp/settings/jsonls.lua lua/rj/plugins/lsp/settings/pyright.lua
-: 1676464173:0;git commit install2.sh
-: 1676464187:0;git add README.md init.lua lazy-lock.json lua/rj/lazy.lua lua/rj/plugins/lsp/init.lua lua/rj/plugins/lsp/settings/lua_ls.lua lua/rj/plugins/lsp/mason.lua lua/rj/plugins/lsp/settings/jsonls.lua lua/rj/plugins/lsp/settings/pyright.lua
-: 1676464202:0;git add README.md init.lua lazy-lock.json lua/rj/lazy.lua lua/rj/plugins/lsp/settings/lua_ls.lua lua/rj/plugins/lsp/mason.lua lua/rj/plugins/lsp/settings/jsonls.lua lua/rj/plugins/lsp/settings/pyright.lua
-: 1676464233:0;git add README.md init.lua lazy-lock.json lua/rj/lazy.lua
-: 1676464274:0;git rm lua/rj/plugins/lsp/mason.lua lua/rj/plugins/lsp/settings/jsonls.lua lua/rj/plugins/lsp/settings/pyright.lua
-: 1676464292:0;git merge -abort
-: 1676464294:0;git merge --abort
-: 1676470954:0;cp -r settings ~/.config/nvim/lua/rj/plugins/lsp
-: 1676470967:0;cd sett
-: 1676470982:0;cd lua/rj/plugins
-: 1676470986:0;cd lsp
-: 1676470992:0;nv lsp-conf.lua
-: 1676471027:0;cd doe
-: 1676471042:0;cd lua/rj/plugins/lsp
-: 1676471044:0;nv mason.lua
-: 1676473028:0;cd mason
-: 1676473041:0;nv lua/rj/plugins/lsp/mason.lua
-: 1676476108:0;yay -Rns typescript-language-server
-: 1676476435:0;rm -rf ~/.local/share/neovim
-: 1676476530:0;curl -LO https://github.com/MordechaiHadad/bob/releases/tag/v2.0%2C0
-: 1676476553:0;curl -LO https://github.com/MordechaiHadad/bob/releases/download/v2.0%2C0/bob-linux-x86_64.zip
-: 1676476569:0;mv bob-linux-x86_64.zip ~/projects
-: 1676476575:0;rm v2.0%2C0
-: 1676476620:0;rm -rf bob
-: 1676476622:0;unzip bob-linux-x86_64.zip
-: 1676476652:0;chmod +x bob
-: 1676476663:0;cp bob ~/.local/bin
-: 1676476672:0;bob clean
-: 1676476813:0;nv --version
-: 1676477138:0;yay bob-bib
-: 1676477189:0;yay bob
-: 1676477455:0;nv tom.c
-: 1676483614:0;cd Game
-: 1676483741:0;yay -S bob-bin
-: 1676483749:0;yay -S bob
-: 1676484260:0;rm -rf ~/.local/bin/bob
-: 1676484327:0;bob install 0.8.3
-: 1676484518:0;bob -v
-: 1676517272:0;cd ~/projects/cppro/
-: 1676517275:0;nv new.cpp
-: 1676518564:0;yay -R exercism-bin
-: 1676518606:0;yay jdtls
-: 1676518627:0;yay lemminx
-: 1676520747:0;lc
-: 1676524088:0;nv mul_line.cpp
-: 1676524282:0;nv string_inp.cpp
-: 1676531246:0;nv basic.cpp
-: 1676544419:0;sh -c "$(curl -s https://raw.githubusercontent.com/ibhagwan/fzf-lua/main/scripts/mini.sh)"
-: 1676544929:0;rm -fr *.out
-: 1676546054:0;nv bat.cpp
-: 1676552071:0;clear
-: 1676552712:0;cd /root/
-: 1676556928:0;sudo -e /etc/pacman.conf
-: 1676556934:0;man sudo
-: 1676557722:0;vs /etc/environment
-: 1676559270:0;cd root/
-: 1676559270:0;ls -al
-: 1676557806:0;lua-language-server
-: 1676558441:0;prosemd-lsp
-: 1676559429:0;bob help
-: 1676559852:0;cd py
-: 1676559854:0;nv 11.py
-: 1676561082:0;yay -R bash-language-server
-: 1676561096:0;yay -S bash-language-server
-: 1676563027:0;672003123
-: 1676563575:0;nv ini
-: 1676568396:0;pkill wpaperd
-: 1676568410:0;swaybg -i ~/.config/hypr/wallpapers/download.jpeg\
-
-: 1676569291:0;rm -rf Game
-: 1676569392:0;nb
-: 1676569696:0;rss
-: 1676569834:0;yay -R ytmdesktop-bin
-: 1676570064:0;nv --startuptime a.log
-: 1676570600:0;yay -S aspell-en
-: 1676570620:0;cd spell
-: 1676570640:0;aspell -d english dump master | aspell -l english expand > my.dict
-: 1676570649:0;aspell -d en dump master | aspell -l en expand > my.dict
-: 1676621275:0;rm *.java
-: 1676621350:0;nv issue.cpp
-: 1676631772:0;youtube-music
-: 1676632500:0;nv tax.cpp
-: 1676632683:0;rm albo.cpp
-: 1676632688:0;nv albo.cpp
-: 1676633423:0;playerctl metadata
-: 1676633463:0;touch app.cpp
-: 1676633467:0;nv app.cpp
-: 1676633921:0;nv foot.cpp
-: 1676635273:0;mkdir ~/.config/nvim-basic-ide
-: 1676635274:0;export $NVIM_APPNAME="nvim-basic-ide" | nvim
-: 1676635321:0;export $NVIM_APPNAME=/home/rishabh/projects/nvim-basic-ide
-: 1676635334:0;export $NVIM_APPNAME="/home/rishabh/projects/nvim-basic-ide" | nvim
-: 1676635632:0;export $NVIM_APPNAME="/home/rishabh/projects/nvim-basic-ide" && nvim
-: 1676635681:0;export NVIM_APPNAME="/home/rishabh/projects/nvim-basic-ide" && nvim
-: 1676635851:0;mv ~/projects/nvim-basic-ide .
-: 1676635882:0;export NVIM_APPNAME=/home/rishabh/projects/nvim-basic-ide && nvim
-: 1676635895:0;export NVIM_APPNAME=nvim-basic-ide && nvim
-: 1676636123:0;echo $TERM
-: 1676638937:0;export NVIM_APPNAME
-: 1676638940:0;export $NVIM_APPNAME
-: 1676638951:0;echo $NVIM_APPNAME
-: 1676639101:0;export NVIM_APPNAME=nvim-basic-ide && nnv
-: 1676643620:0;git checkout -b without-mason
-: 1676643633:0;git checkout -b with-mason
-: 1676646502:0;pacman -Qi waybar-hyprland
-: 1676646517:0;yay -S waybar-hyprland
-: 1676654649:0;git add *
-: 1676655341:0;nv 2nd.c
-: 1676696641:0;nv subarray.cpp
-: 1676696654:0;nv mask.cpp
-: 1676696709:0;cd pass
-: 1676696713:0;nv main_linux.c
-: 1676703366:0;nv intdes.cpp
-: 1676707865:0;nv prof.cpp
-: 1676711859:0;nv rev2.cpp
-: 1676715292:0;nv sqrt.cpp
-: 1676730242:0;nbi init.lua
-: 1676730590:0;time $SHELL -i -c exit
-: 1676733489:0;git checkout master
-: 1676734265:0;git checkout lazy
-: 1676735165:0;nv advance.cpp
-: 1676735866:0;rm -rf $HOME/.local/share/nvim-basic-ide
-: 1676741541:0;lv a.log
-: 1676741610:0;cd .local/sshare
-: 1676741613:0;cd .local/
-: 1676741616:0;cd lvim
-: 1676741632:0;cd ~/.local/share/lunarvim/lvim
-: 1676742825:0;nv helllo.cpp
-: 1676743105:0;cd .local/share/nvim/project_nvim/project_history
-: 1676743108:0;cd .local/share/nvim/project_nvim/
-: 1676743110:0;nv project_history
-: 1676743514:0;time p
-: 1676743536:0;yay -S pfetch-rs
-: 1676743683:0;yay -R pfetch
-: 1676780993:0;nv lazy-lock.json
-: 1676781448:0;nv make-avg.cpp
-: 1676785661:0;npm i -g vscode-langservers-extracted
-: 1676785674:0;vscode-langservers-extracted
-: 1676785724:0;npm list -g
-: 1676785746:0;cd node_modules
-: 1676785749:0;cd vscode-langservers-extracted
-: 1676785836:0;vscode-css-language-server
-: 1676785841:0;vscode-json-languageserver
-: 1676785852:0;yay -S vscode-html-languageserver
-: 1676785884:0;vscode-html-languageserver
-: 1676785929:0;cd .local/share/npm/lib
-: 1676785933:0;cd node_modules/vscode-langservers-extracted/bin
-: 1676785944:0;yay -R vscode-html-languageserver vscode-json-languageserver
-: 1676785956:0;cp * ~/.local/bin
-: 1676785960:0;ls ~/.local/bin
-: 1676786000:0;cd projects/new-pro
-: 1676786063:0;npm root -g
-: 1676787596:0;ping 1.1.1.1
-: 1676788783:0;nv a.scss
-: 1676788860:0;cd ~/.local/share/npm/bin
-: 1676788877:0;rm -rf ~/.local/bin/vscode-*
-: 1676788881:0;pwd
-: 1676801885:0;nv /home/rishabh/.config/YouTube\ Music/config.json
-: 1676801922:0;vscode-html-language-server
-: 1676801948:0;vscode-json-language-server
-: 1676802307:0;cdd code
-: 1676802323:0;nv shoes.cpp
-: 1676802349:0;cd .local/share/lunarvim/lvim/lua
-: 1676806442:0;rm .gitignore
-: 1676811228:0;cd down
-: 1676811231:0;tar -xvf Neovim-mason.tar.gz
-: 1676811234:0;cd Neovim-mason
-: 1676811254:0;rm -rf Neovim-mason
-: 1676811323:0;nv bible.txt
-: 1676823872:0;bash ~/.local/share/lunarvim/lvim/utils/installer/uninstall.sh
-: 1676824098:0;bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh)
-: 1676828548:0;which grimblast
-: 1676828558:0;yay -R grimblast-git
-: 1676828576:0;cp other-stuff/grimblast ~/.local/bin
-: 1676828581:0;grimblast
-: 1676828588:0;nv other-stuff/grimblast
-: 1676828609:0;cp other-stuff/grimblast /usr/bin
-: 1676828614:0;sudo cp other-stuff/grimblast /usr/bin
-: 1676828955:0;nv ~/.bashrc
-: 1676829013:0;exit
-: 1676829112:0;nv ~/.config/zsh/.zprofile
-: 1676831416:0;sudo pacman -Syyyyyyyyyyyyyyyyyyyuuuuuuuuuuuuuuuuuuuuuuuuu
-: 1676832447:0;echo $PATH
-: 1676862454:0;cd .config/hypr
-: 1676867539:0;pfp
-: 1676867643:0;f
-: 1676872906:0;cd Clg-Notes
-: 1676872918:0;nv EWPPC-notes.md
-: 1676873281:0;vs /usr/bin/grimblast
-: 1676878303:0;nv zooz.cpp
-: 1676888865:0;cd .con
-: 1676888872:0;cd yay
-: 1676888878:0;nv config.json
-: 1676916060:0;man pacman
-: 1676916152:0;rm -rf 2023*
-: 1676916191:0;yay -S lua-language-server
-: 1676916236:0;sudo pacman -S lua-language-server
-: 1676916256:0;bash
-: 1676916283:0;su
-: 1676965421:0;passwd rishabh
-: 1676916303:0;sudo
-: 1676916312:0;sudo pacman -Sy lua-language-server
-: 1676983459:0;ya
-: 1676983561:0;mkdir study-and-notes
-: 1676983897:0;history
-: 1676983933:0;cat ~/.config/zsh/history | fzf | exec
-: 1676983944:0;cat ~/.config/zsh/history | fzf
-: 1676993047:0;cd /etc
-: 1676993067:0;cat /proc/sys/vm/swappiness
-: 1676993084:0;nv sysctl.d/99-swappiness.conf
-: 1676993094:0;vs sysctl.d/99-swappiness.conf
-: 1676994769:0;NVIM_APPIMAGE=nvim-basic-ide nvim
-: 1676994775:0;NVIM_APPIMAGE=nvim-basic-ide && nvim
-: 1676995776:0;nvim --startuptime --clean b.log
-: 1676995785:0;nv b
-: 1676995813:0;nv --clean --startuptime a.log
-: 1676996314:0;killall -9 qbittorrent
-: 1676997043:0;rm lazy-lock.json
-: 1677000706:0;nvim --clean --startuptime
-: 1677000832:0;nv a.html
-: 1677001429:0;nv Data\ Structures/Arrays/declaration_and_initialisation.cpp
-: 1677001511:0;rm -rf DSA-notes/
-: 1677001517:0;gh repo clone Rishabh672003/DSA-notes
-: 1677001585:0;cd Data\ Structures
-: 1677001633:0;rm -rf deletion_in_array declaration_and_intialisation insertion_in_array multi_dimensional_array sorting_an_array reverse_array search_element
-: 1677002084:0;nv Arrays/declaration_and_initialisation.cpp
-: 1677037227:0;rm -rf plugin
-: 1677040258:0;nv age.cpp
-: 1677061412:0;cd lua
-: 1677061424:0;stylua lazy.lua
-: 1677070125:0;cd cp
-: 1677070133:0;cdd cp
-: 1677070152:0;fd wave
-: 1677070984:0;yay -S pfetch
-: 1677071012:0;yay -S pfetch-rs-bin
-: 1677076983:0;mkdir cc-contest-2023-02-22
-: 1677077084:0;cd cc-contest-2023-02-22
-: 1677077090:0;nv 1st.cpp
-: 1677082529:0;touch b.cpp
-: 1677082531:0;nv b.cpp
-: 1677082608:0;rm -rf b.cpp
-: 1677082611:0;rm b.out
-: 1677089316:0;mkdir pracrice
-: 1677091720:0;cd Data\ Structures/Arrays
-: 1677091726:0;nv string.cpp
-: 1677122112:0;sp
-: 1677122711:0;yay -R lua-language-server
-: 1677122820:0;sudo pacman -Fy
-: 1677123326:0;pacman -Slq | fzf --multi --preview 'cat <(pacman -Si {1}) <(pacman -Fl {1} | awk "{print \$2}")' | xargs -ro sudo pacman -S\
-
-: 1677124965:0;nvim /usr/share/fzf/key-bindings.zsh
-: 1677138948:0;nv pronun.cpp
-: 1677150833:0;man grub-bios-setup
-: 1677151702:0;rm -rf a.log
-: 1677151732:0;rm a.log
-: 1677152557:0;zap -u
-: 1677165060:0;diff a.java
-: 1677165064:0;diff a.java a.html
-: 1677165136:0;nvim -d a.html a.java
-: 1677165319:0;rm -rf bob-linux-x86_64.zip
-: 1677165324:0;rm bob
-: 1677165895:0;cd nvim-
-: 1677165988:0;nv c.cpp
-: 1677166165:0;nv 12.py
-: 1677166183:0;nv 13.py
-: 1677166623:0;nvim inin
-: 1677167411:0;mkdir codechef
-: 1677167434:0;nv prog-lang.cpp
-: 1677170284:0;nv mul.cpp
-: 1677174706:0;mkdir my-cpp-projects
-: 1677175073:0;nv pi.cpp
-: 1677208924:0;function dud() {\
-    du -hd1 "${1:-$PWD}" | sort -hr\
-}
-: 1677208927:0;dud
-: 1677247273:0;nvim --clean --startuptime a.log
-: 1677248989:0;cd projects/codechef
-: 1677248993:0;nv atm.cpp
-: 1677251706:0;yay -C
-: 1677251708:0;yay -cC
-: 1677251718:0;yay -Sc
-: 1677251745:0;yay
-: 1677251765:0;yay -R eww-wayland-git
-: 1677251900:0;e
-: 1677251935:0;pacman -Slq | fzf --multi --preview 'pacman -Si {1}' | xargs -ro sudo pacman -S
-: 1677260476:0;ser
-: 1677260486:0;rep
-: 1677260572:0;rm -rf cpro
-: 1677261045:0;:wq
-: 1677263656:0;neovide
-: 1677263669:0;neovim
-: 1677263700:0;yay -Rns neovide
-: 1677263739:0;yay neovim-gtk
-: 1677264133:0;yay -Scc
-: 1677297932:0;yay -Rns neovim
-: 1677308401:0;zig
-: 1677311674:0;rm a.*
-: 1677318750:0;nv game.lua
-: 1677320389:0;nv a.java
-: 1677320994:0;cd ftplugin/java.lua
-: 1677320996:0;cd ftplugin/
-: 1677320998:0;nv java.lua
-: 1677325513:0;nv game.html
-: 1677325669:0;xdg-open game.html
-: 1677332480:0;cd my-cpp-projects
-: 1677332489:0;fd vector
-: 1677332498:0;cd cppr
-: 1677332504:0;mv study-and-notes ..
-: 1677333115:0;nv vector.cpp
-: 1677346172:0;cdd zsh
-: 1677346180:0;nv .zshrc
-: 1677347974:0;nv a.cpp
-: 1677349236:0;killall -9 waybar
-: 1677383107:0;nv pointer.cpp
-: 1677384387:0;nv cal.py
-: 1677389836:0;mkdir solo
-: 1677389848:0;touch tick.cpp
-: 1677389850:0;nv tick.cpp
-: 1677391943:0;cd waybar
-: 1677391948:0;nv config.jsonc
-: 1677392167:0;cdd study
-: 1677392175:0;nv sort.cpp
-: 1677393459:0;sudo trash-empty
-: 1677393707:0;rm -rf ~/.cache/spotify
-: 1677393800:0;rm -rf ~/.local/share/cargo/*
-: 1677401313:0;taplo
-: 1677401338:0;cargo install --features lsp --locked taplo-cli;\
-cargo install prosemd-lsp;
-: 1677403055:0;nv luck.cpp
-: 1677405850:0;nv a.lua
-: 1677405904:0;rm -rf a.lua
-: 1677411223:0;nc
-: 1677421648:0;which nvim
-: 1677432362:0;gh status
-: 1677432425:0;rm -rf DSA-notes
-: 1677432427:0;gh repo clone sumitst05/DSA-notes
-: 1677432508:0;nv Arrays/Time_and_Space_complexity.md
-: 1677432901:0;rm *
-: 1677432929:0;cdd solo
-: 1677433047:0;nv max.cpp
-: 1677434265:0;nv bmi.cpp
-: 1677473546:0;cd sru
-: 1677475207:0;./stremio.sh
-: 1677477701:0;curl -LO https://raw.githubusercontent.com/MadeOfMagicAndWires/qBit-plugins/master/engines/nyaasi.py
-: 1677477708:0;mv nyaasi.py projects
-: 1677477714:0;nv nyaasi.py
-: 1677478174:0;sudo systemctl start jackett.service
-: 1677478178:0;sudo systemctl status jackett.service
-: 1677478395:0;sudo systemctl enable jackett.service
-: 1677478538:0;nv ~/.local/share/qBittorrent/nova3/engines/jackett.py
-: 1677478753:0;nv ~/.local/share/qBittorrent/nova3/engines/jackett.json
-: 1677480800:0;nv def-arg.cpp
-: 1677496013:0;nv recursion.cpp
-: 1677496232:0;touch arr-func.cpp
-: 1677496234:0;nv arr-func.cpp
-: 1677500365:0;rm -fr pbref.out
-: 1677500368:0;nv pbref.cpp
-: 1677502797:0;cd solo
-: 1677502812:0;nv palindrome.cpp
-: 1677520575:0;./qbit.sh
-: 1677520600:0;vs /usr/share/applications/org.qbittorrent.qBittorrent.desktop
-: 1677590642:0;cdd stu
-: 1677594455:0;yay prettier
-: 1677596592:0;yay broot
-: 1677597631:0;mkdir leetcode
-: 1677597786:0;rm -rf .git
-: 1677600228:0;rm -rf *
-: 1677601389:0;cd study
-: 1677601392:0;cdd 
-: 1677675102:0;nv vector2.cpp
-: 1677676406:0;nv sorting_an_array.cpp
-: 1677678366:0;date
-: 1677678888:0;/usr/bin/paru
-: 1677678891:0;paru
-: 1677678893:0;tpg
-: 1677679740:0;rm \[SubsPlease\]\ Mob\ Psycho\ 100\ S3\ -\ 01v2\ \(1080p\)\ \[95315F0C\].mkv \[SubsPlease\]\ Mob\ Psycho\ 100\ S3\ -\ 02v2\ \(1080p\)\ \[989BA728\].mkv \[SubsPlease\]\ Mob\ Psycho\ 100\ S3\ -\ 03v2\ \(1080p\)\ \[0CAF1435\].mkv \[SubsPlease\]\ Mob\ Psycho\ 100\ S3\ -\ 04v2\ \(1080p\)\ \[78A3A468\].mkv \[SubsPlease\]\ Mob\ Psycho\ 100\ S3\ -\ 05v2\ \(1080p\)\ \[CF520AEE\].mkv \[SubsPlease\]\ Mob\ Psycho\ 100\ S3\ -\ 06v2\ \(1080p\)\ \[0DC3FCD1\].mkv \[SubsPlease\]\ Mob\ Psycho\ 100\ S3\ -\ 07\ \(1080p\)\ \[34EEB900\].mkv \[SubsPlease\]\ Mob\ Psycho\ 100\ S3\ -\ 08\ \(1080p\)\ \[4D4B803D\].mkv
-: 1677679862:0;yay bottles
-: 1677679881:0;yay wine
-: 1677681365:0;cd \[SubsPlease\]\ Mob\ Psycho\ 100\ S3\ \(01-12\)\ \(1080p\)\ \[Batch\]
-: 1677681373:0;rm -rf \[SubsPlease\]\ Mob\ Psycho\ 100\ S3\ -\ 09\ \(1080p\)\ \[F34EE0A7\].mkv \[SubsPlease\]\ Mob\ Psycho\ 100\ S3\ -\ 10v2\ \(1080p\)\ \[3B717070\].mkv
-: 1677682610:0;yay -Rns wine-mono
-: 1677682687:0;yay -R bott
-: 1677682688:0;yay -R bottles
-: 1677693251:0;nv vector3.cpp
-: 1677719574:0;cd stu
-: 1677719602:0;cp vectors.md ~/Clg-Notes
-: 1677719605:0;cd clg
-: 1677719636:0;kg
-: 1677762561:0;nv vector5.cpp
-: 1677767808:0;cp vectors.md ~/projects/Notes
-: 1677768762:0;cd nvim-basic
-: 1677769461:0;rm -v
-: 1677777933:0;cd Note
-: 1677779035:0;pacman -qi
-: 1677779039:0;pacman -Qq
-: 1677779065:0;pacman -Qi openssl-1.1
-: 1677779089:0;yay openssl-1.1
-: 1677780649:0;pacman -Slq | fzf --multi --preview 'cat <(pacman -Si {1}) <(pacman -Fl {1} | awk "{print \$2}")' | xargs -ro sudo pacman -S
-: 1677849717:0;bni
-: 1677850717:0;curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-marketplace/main/resources/install.sh | sh
-: 1677851350:0;cd spotifyplaylist_to_ytmusic
-: 1677853959:0;nv chrowcol.cpp
-: 1677855913:0;nv bin-seach-func.cpp
-: 1677862958:0;cdd notes
-: 1677897611:0;nv timecomplexity.md
-: 1677897627:0;mv timecomplexity.md time-complexity.md
-: 1677897658:0;nv time-complexity.md
-: 1677898055:0;mkdir College-pps-notes
-: 1677898068:0;mv pps-* College-pps-notes
-: 1677898080:0;mv PPS\ Module\ 4.pdf College-pps-notes
-: 1677901713:0;cd projects/AniPy
-: 1677902941:0;lv README.md
-: 1677914265:0;gh repo clone sumitst05/Cosmic-Dodge
-: 1677914446:0;rm -rf Cosmic-Dodge
-: 1677914447:0;gh repo clone Rishabh672003/Cosmic-Dodge
-: 1677914493:0;javac CosmicDodge.java
-: 1677918100:0;cdd stud
-: 1677918190:0;nv todo.txt
-: 1677918384:0;nv .
-: 1677918955:0;nv rand.cpp
-: 1677919173:0;yay -S gtk4
-: 1677919277:0;nv gtk.cpp
-: 1677919427:0;pkg-config --cflags --libs gtk+-3.0
-: 1677919430:0;pkg-config --cflags --libs gtk+-4.0
-: 1677919489:0;g++ gtk.cpp `pkg-config --cflags --libs gtk+-2.0`
-: 1677919494:0;g++ gtk.cpp pkg-config --cflags --libs gtk+-2.0
-: 1677919498:0;g++ gtk.cpp `pkg-config --cflags --libs gtk+-4.0`
-: 1677919505:0;g++ gtk.cpp `pkg-config --cflags --libs gtk+-3.0`
-: 1677919924:0;rm gtk*
-: 1677919974:0;rm -rf zsh.bak2/ zsh-configs .zshrc
-: 1677920126:0;cd Notes
-: 1677920167:0;cd College-pps-notes-for-C
-: 1677920193:0;mv College-pps-notes/* College-pps-notes-for-C
-: 1677920198:0;rm -rf College-pps-notes
-: 1677920232:0;cd DSA-notes
-: 1677920241:0;cd Arrays
-: 1677920247:0;nv array.cpp
-: 1677931262:0;gh repo clone Rishabh672003/Programming-Notes
-: 1677931786:0;pruner
-: 1677931853:0;git prune --expire=now; git reflog expire --expire-unreachable=now --rewrite --all
-: 1677931873:0;git reflog expire --expire=now --all && git gc --prune=now --aggressive
-: 1677931890:0;git count-objects -v
-: 1677937079:0;nv strings.md
-: 1677948943:0;cd dsa
-: 1677948960:0;cd Data-Structures
-: 1677948964:0;cd Strings
-: 1677950765:0;ed a mix of old school and new. So 20 hands to the shoulder bump, then 23â€ƒ½ for the length of the neck and head. Traditionally they never measure to the head c
-: 1677987898:0;cmatrix
-: 1677987905:0;cmatrix --help
-: 1677987920:0;cmatrix -rm
-: 1677987996:0;rm -rf The.Good.Place.S01-S04.COMPLETE.SERIES.REPACK.1080p.Bluray.x265-HiQVE
-: 1677988080:0;trash-empty
-: 1677988750:0;cmatrix -r
-: 1677988771:0;cmatix -c
-: 1677988773:0;cmatrix -c
-: 1677988785:0;cmatrix -h
-: 1677988967:0;cd projects/Notes
-: 1677989788:0;cfc
-: 1677989794:0;cpc
-: 1677989803:0;time pfetch
-: 1677991119:0;time
-: 1677991122:0;time f
-: 1677991152:0;wtr
-: 1677991687:0;touch bin-search.cpp
-: 1677993734:0;cd goo
-: 1677993738:0;cd /
-: 1677993741:0;fd google
-: 1677993771:0;cd run/user/1000/gvfs/google-drive:host=gmail.com,user=jharishabh672003
-: 1677993779:0;cd GVfsSharedWithMe
-: 1677993795:0;cd 0APxHBwIhlT9RUk9PVA
-: 1677993800:0;cd 1BKJNgfqlGzUvdxM7ufVDqmCl0BtF4nZr
-: 1677994074:0;touch reverse.cpp
-: 1677994351:0;nv linear-seacrh.cpp
-: 1677994356:0;nv reverse.cpp
-: 1677998555:0;cd Pictures/Wallpapers/
-: 1678010266:0;yay -S proselint
-: 1678010279:0;yay proselint
-: 1678010310:0;proselint
-: 1678010324:0;nv arrays.md
-: 1678016403:0;gh repo clone MordechaiHadad/bob
-: 1678016415:0;cd bob
-: 1678016505:0;git checkout origin/fix/sudo-error
-: 1678016514:0;cargo clean
-: 1678016592:0;cd target/debug
-: 1678016595:0;./bob
-: 1678016602:0;sudo ./bob
-: 1678016617:0;mv bob ./nvim
-: 1678016624:0;sudo ./nvim
-: 1678016692:0;yay bob-bin
-: 1678018572:0;cargo install --git https://github.com/MordechaiHadad/bob.git --branch 'fix/sudo-error'
-: 1678019008:0;yay -R bob-bin
-: 1678019058:0;sudo bob
-: 1678019079:0;which bob
-: 1678019092:0;cd ~/.local/share/cargo
-: 1678019098:0;cd bin
-: 1678019293:0;baobab
-: 1678019496:0;cd .local/share/cargo
-: 1678023173:0;mkdir gfg
-: 1678023179:0;nv nice-arr.cpp
-: 1678023261:0;cd gfg
-: 1678032501:0;cdd cpp
-: 1678032515:0;nv vector-prac.cpp
-: 1678033089:0;touch vector-prac2.cpp
-: 1678033314:0;touch vector-prac3.cpp
-: 1678034826:0;touch vector-prac4.cpp
-: 1678037995:0;gh repo clone amitsuthar69/RockPaperScissors
-: 1678038007:0;codespell
-: 1678039448:0;rm -rf RockPaperScissors
-: 1678039450:0;gh repo clone Rishabh672003/RockPaperScissors
-: 1678039464:0;nv RockPaperScissors
-: 1678106429:0;visudo
-: 1678106443:0;alias vs
-: 1678108074:0;od
-: 1678108077:0;id
-: 1678109042:0;nv vectors.md
-: 1678110851:0;touch dup.cpp
-: 1678111229:0;touch anagram.cpp
-: 1678117980:0;nv 
-: 1678118594:0;bob use stable
-: 1678121880:0;pkill waybar
-: 1678122312:0;yay hyprland-waybar
-: 1678122319:0;yay waybar-hyprland
-: 1678122524:0;waybar
-: 1678124284:0;touch hc.cpp
-: 1678162358:0;nvim --startuptime a.log
-: 1678162361:0;nv a.log
-: 1678169210:0;nv find.cpp
-: 1678169697:0;mkdir -p ~/projects/Programming-Notes/examples
-: 1678169701:0;cp  search.cpp find.cpp ~/projects/Programming-Notes/examples
-: 1678169709:0;nv search.cpp
-: 1678175233:0;rm -rf *.out codechef/*.out
-: 1678182954:0;nv cpp
-: 1678185750:0;cd python-study
-: 1678185758:0;nv equation-calculator-def.py
-: 1678185780:0;nbi equation-calculator-def.py
-: 1678192970:0;nv OOPS.md
-: 1678194359:0;mkdir OOP
-: 1678194371:0;mv Classes-Objects.md OOP
-: 1678194389:0;cd OOP
-: 1678194395:0;nv Classes-Objects.md
-: 1678194430:0;mv Classes-Objects.md Classes-Objects-intro.md
-: 1678194441:0;nv Abstraction.md
-: 1678194722:0;cd prog
-: 1678194727:0;cd OOp
-: 1678199547:0;gnu-screen
-: 1678201110:0;cd /mnt/windows
-: 1678201118:0;cd Users/jhari
-: 1678201139:0;cd OneDrive
-: 1678201172:0;cd Pictures
-: 1678201182:0;nv desktop.ini
-: 1678201783:0;cd lua/user/plugins.lua
-: 1678201787:0;nv lazy.lua
-: 1678209521:0;pacman -Qq | fzf
-: 1678209568:0;pip install proselint
-: 1678210342:0;yay hyprland
-: 1678210349:0;yay hyprland-git
-: 1678211711:0;nv study-and-notes/binserach-vector.cpp
-: 1678211745:0;cd study-and-notes
-: 1678211750:0;nv binserach-vector.cpp
-: 1678278447:0;cd .m2
-: 1678278451:0;cd repository
-: 1678278459:0;rm -rf .m2
-: 1678279916:0;git clone https://github.com/LazyVim/starter
-: 1678279946:0;NVIM_APPIMAGE=starter && nvim
-: 1678279958:0;NVIM_APPNAME=starter && nvim
-: 1678279971:0;NVIM_APPNAME=starter nvim
-: 1678280717:0;nV
-: 1678290088:0;cargo install --git https://github.com/MordechaiHadad/bob.git --branch 'rewrite'
-: 1678290282:0;bob uninstall unstable
-: 1678290314:0;bob uninstall stable
-: 1678290350:0;bob install stable
-: 1678292176:0;nv two-sum.cpp
-: 1678292983:0;yay spotify
-: 1678293103:0;sudo rm -rf /opt/spotify
-: 1678293108:0;yay -R spotify
-: 1678293116:0;yay -S spotify
-: 1678293123:0;spotify
-: 1678294756:0;sudo chmod a+wr /opt/spotify\
-sudo chmod a+wr /opt/spotify/Apps -R
-: 1678294793:0;spicetify restore backup apply
-: 1678370366:0;cargo update --verbose bob
-: 1678370373:0;cargo update bob
-: 1678370376:0;cargo update bob-bin
-: 1678370407:0;cargo update --package=bob
-: 1678379673:0;cd codechef
-: 1678379679:0;nv can-distri.cpp
-: 1678453523:0;mv nvim-basic-ide nvim-basic-ide.bak
-: 1678453650:0;git clone https://github.com/MickTheRus/nvim-basic-ide.git -b lazy
-: 1678453718:0;mv nvim-basic-ide.bak nvim-basic-ide
-: 1678456311:0;cd .lo
-: 1678456315:0;cd state
-: 1678456328:0;cd shada
-: 1678456494:0;cd swap
-: 1678456503:0;nv log
-: 1678456537:0;cd share/nvim
-: 1678457202:0;mpvpaper ~/Videos/video-wallpapers/makima-under-the-storm-chainsaw-man-moewalls.com.mp4
-: 1678457212:0;pkill swaybg
-: 1678457286:0;mpvpaper -vs -o "no-audio loop" eDP-1 ~/Videos/video-wallpapers/makima-under-the-storm-chainsaw-man-moewalls.com.mp4
-: 1678457460:0;swaybg -i ~/Pictures/Wallpapers/download.jpeg
-: 1678461609:0;yay zeal
-: 1678461729:0;zeal
-: 1678462105:0;yay zeal-cli
-: 1678462124:0;pip install zeal-cli==2.0.0.dev2 
-: 1678462133:0;zeal-cli
-: 1678462140:0;zeal-cli install c++
-: 1678462157:0;zeal-cli install C++
-: 1678462778:0;cd neat
-: 1678462783:0;fd code
-: 1678462789:0;cd LICENSE
-: 1678462794:0;cd projects/leetcode
-: 1678462799:0;cd projects/
-: 1678462802:0;rm -rf learning-C
-: 1678462849:0;nv  Replace-Elements-with-Greatest-Element-on-Right-Side.cpp
-: 1678463833:0;zeal-cli --help
-: 1678463975:0;zeal-cli list
-: 1678463983:0;zeal-cli search vector
-: 1678463998:0;zeal-cli search Vectors
-: 1678464006:0;zeal-cli search std
-: 1678464012:0;zeal-cli search std::vector
-: 1678467887:0;mv 006717ce-773c-4000-8515-39baed1e2c27.jpg ~/projects/Programming-Notes/Algorithm-complexity.jpg
-: 1678467894:0;cd projects/Programming-Notes
-: 1678467932:0;git config pull.rebase true
-: 1678468253:0;pfetch
-: 1678468281:0;exa --icons
-: 1678468283:0;exec zsh
-: 1678468295:0;time pf
-: 1678469170:0;cc
-: 1678507328:0;cd con
-: 1678507336:0;git clone --depth 1 https://github.com/AstroNvim/AstroNvim
-: 1678507354:0;NVIM_APPNAME=AstroNvim nvim
-: 1678507477:0;rm -rf AstroNvim
-: 1678513796:0;yay -S workstyle
-: 1678513801:0;yay workstyle
-: 1678514469:0;nv lua/rj/autocommands.lua
-: 1678514496:0;nv install.sh
-: 1678515637:0;bash <(curl -L zellij.dev/launch)
-: 1678515810:0;yay zellij
-: 1678516258:0;zellij
-: 1678516276:0;zellij setup --check
-: 1678525193:0;ping gnu.org
-: 1678530765:0;w
-: 1678530812:0;nvim zsh/aliases.zsh
-: 1678535654:0;nvim rand.cpp
-: 1678535669:0;touch big.cpp
-: 1678535673:0;nvim big.cpp
-: 1678535743:0;git add .
-: 1678535748:0;git commit -a
-: 1678538627:0;nv init.lua
-: 1678538714:0;nvim -v
-: 1678538778:0;bob --hrlp
-: 1678538780:0;bob --help
-: 1678538847:0;sudoedit /etc/pacman.conf
-: 1678538943:0;bob -h
-: 1678538954:0;nv -v
-: 1678538958:0;nnv -v
-: 1678541359:0;ua-drop-caches
-: 1678544101:0;lllllllllllllllllllllll
-: 1678544105:0;naughty americac
-: 1678546244:0;lazyvim
-: 1678546296:0;ll --sort name
-: 1678546342:0;rm -rf starter
-: 1678546551:0;nvim history
-: 1678553354:0;vim
-: 1678553373:0;vim alacritty/alacritty.yml
-: 1678553893:0;nv projects/cppro/anagram.cpp
-: 1678554299:0;sep
-: 1678554320:0;hx -h
-: 1678554329:0;hx --health
-: 1678554352:0;hx init.lua
-: 1678554532:0;cargo install --git https://github.com/helix-editor/helix.git
-: 1678555373:0;fc-cache -fv
-: 1678592288:0;pf
-: 1678592325:0;cd tmux
-: 1678592329:0;nv tmux.conf
-: 1678593230:0;mkdir cpproject
-: 1678593234:0;cd cpproject
-: 1678593240:0;nv game.cpp
-: 1678594636:0;yay sdl
-: 1678594907:0;unzip 01_hello_SDL.zip
-: 1678595038:0;nv Makefile
-: 1678595170:0;mv cpproject game-project
-: 1678595184:0;cd projects/game-project
-: 1678595199:0;cd 01_hello_SDL/01_hello_SDL.cpp
-: 1678595472:0;cd 01_hello_SDL
-: 1678596183:0;./01_hello_SDL
-: 1678599924:0;unzip 03_event_driven_programming.zip
-: 1678599936:0;nv 03_event_driven_programming.cpp
-: 1678599983:0;nv readme.txt
-: 1678599997:0;cp ../01_hello_SDL/Makefile .
-: 1678600095:0;cd 03_event_driven_programming
-: 1678600099:0;make all
-: 1678600106:0;./03_event_driven_programming
-: 1678606714:0;cd .config/
-: 1678607018:0;tmux
-: 1678608472:0;nv 01_hello_SDL/01_hello_SDL.cpp
-: 1678620129:0;cd RockPaperScissors
-: 1678620158:0;nv code.cpp
-: 1678620173:0;git status
-: 1678623728:0;cargo install --git https://github.com/MordechaiHadad/bob.git --branch 'fix/nightly-update'
-: 1678623920:0;bob install nightly
-: 1678624005:0;cargo install --git https://github.com/MordechaiHadad/bob.git
-: 1678636192:0;gh repo clone PolyMarsDev/Twini-Golf
-: 1678636321:0;g++ -c src/*.cpp -std=c++14 -O3 -Wall -m64 -I include && mkdir -p bin/release && g++ *.o -o bin/release/main -s -lSDL2main -lSDL2 -lSDL2_image -lSDL2_ttf -lSDL2_mixer
-: 1678636338:0;cd Twini-Golf
-: 1678636344:0;nv src/ball.cpp
-: 1678636804:0;cd .local/share/nvim/lazy/catppuccin/lua/catppuccin/palettes/mocha.lua
-: 1678636807:0;cd .local/share/nvim/lazy/catppuccin/lua/catppuccin/palettes/
-: 1678636810:0;nv mocha.lua
-: 1678641486:0;nvim z.cpp
-: 1678642968:0;r
-: 1678642968:0;rustc a.rs
-: 1678643982:0;:Q
-: 1678643984:0;:q
-: 1678643988:0;:q!
-: 1678643996:0;:1
 : 1678644569:0;nv os.cpp
 : 1678712177:0;yay -R newm
 : 1678712194:0;yay -c
-: 1678712201:0;yay newm
 : 1678712369:0;aaa
 : 1678712397:0;aa
 : 1678712414:0;a
@@ -890,13 +13,11 @@ sudo chmod a+wr /opt/spotify/Apps -R
 : 1678713504:0;touch ~/.config/bob/config.json
 : 1678713514:0;nv /home/user/.config/bob/config.json
 : 1678713542:0;rm ~/.config/bob/config.json
-: 1678713567:0;bob
 : 1678713900:0;bob update
 : 1678713906:0;bob -help
 : 1678713962:0;nv ~/.config/bob/config.json
 : 1678714597:0;cd nvim/
 : 1678714602:0;nv .git
-: 1678714615:0;nv .gitignore
 : 1678715247:0;unro
 : 1678718627:0;bob use 
 : 1678718632:0;bob rollback
@@ -933,15 +54,11 @@ sudo chmod a+wr /opt/spotify/Apps -R
 : 1678979549:0;sdk update
 : 1678981278:0;cd hypr
 : 1678981282:0;nv hyprland.conf
-: 1678987121:0;yl
-: 1678987133:0;yel
 : 1678987206:0;nvim .bashrc
 : 1678987515:0;broot
-: 1678987530:0;cz
 : 1678987818:0;cd nivm
 : 1678987822:0;cd nvm
 : 1678987824:0;cd nvi
-: 1678987826:0;one
 : 1679059998:0;nv missing number
 : 1679060373:0;cd leetcode
 : 1679060385:0;cd lee
@@ -995,7 +112,6 @@ sudo chmod a+wr /opt/spotify/Apps -R
 : 1679137372:0;sudo waydroid init
 : 1679137374:0;ws
 : 1679146868:0;pkill firefox
-: 1679146876:0;killall -9 firefox
 : 1679147609:0;nv index.norg
 : 1679153351:0;speedtest
 : 1679199931:0;mv bible.txt kjv-bible.txt
@@ -1009,29 +125,23 @@ sudo chmod a+wr /opt/spotify/Apps -R
 : 1679206525:0;git checkout origin/lazy
 : 1679206570:0;cd .config
 : 1679206575:0;ls nvim-basic-ide
-: 1679206680:0;bob use nightly
-: 1679206696:0;NVIM_APPNAME=nvim-basic-ide nvim
 : 1679206852:0;cd lua/user
 : 1679206856:0;nvim nvim-tree.lua
 : 1679206873:0;nbi nvim-tree.lua
 : 1679211874:0;git rebase master
 : 1679211899:0;git rebase FETCH_HEAD
-: 1679222049:0;cdpp
 : 1679222066:0;cargo new guessing_game
 : 1679222072:0;cd guessing_game
 : 1679229032:0;ac
-: 1679241215:0;ping 9.9.9.9
 : 1679317616:0;cargo update
 : 1679317628:0;nv Cargo.lock
 : 1679318260:0;cargo doc --open
 : 1679318308:0;rm -rf target/doc
-: 1679318979:0;cd guess
 : 1679318982:0;cargo check
 : 1679319243:0;rustc cmp.rs
 : 1679319248:0;./cmp
 : 1679319264:0;rm -rf cmp
 : 1679329590:0;nvim ~/.config/zsh/.p10k.zsh
-: 1679390586:0;nvim anagram.cpp
 : 1679391321:0;nvim ~/.config/kitty/kitty.conf
 : 1679393783:0;p
 : 1679393789:0;ccc
@@ -1051,18 +161,11 @@ sudo chmod a+wr /opt/spotify/Apps -R
 : 1679456026:0;nvim guessing_game/src/main.rs
 : 1679456761:0;nvim projects/guessing_game/src/main.rs
 : 1679457225:0;cp
-: 1679457228:0;cf
 : 1679459863:0;nvim time-complexity.md
 : 1679469295:0;cargo new variables
-: 1679469303:0;nv src/main.rs
-: 1679492504:0;l
 : 1679494243:0;llll
-: 1679495492:0;hyprctl clients
-: 1679495704:0;lvim
-: 1679495792:0;bob ls
 : 1679496765:0;nv mintomax.cpp
 : 1679508885:0;nv stacks.md
-: 1679558639:0;cd Downloads
 : 1679572716:0;cd code
 : 1679572722:0;mkdir ashraf
 : 1679573177:0;cd ashraf
@@ -1081,19 +184,14 @@ sudo chmod a+wr /opt/spotify/Apps -R
 : 1679667487:0;cd 24-3
 : 1679667491:0;mkdir .git
 : 1679667493:0;nv mangoes.cpp
-: 1679671346:0;nvim
-: 1679678144:0;cd Programming-Notes
 : 1679678161:0;mv stacks* examples
 : 1679678169:0;cd examples
 : 1679678178:0;nv queue.cpp
 : 1679678855:0;cd rust-learning
-: 1679678862:0;cd src
 : 1679678865:0;nv main.rs
-: 1679713769:0;uneo
 : 1679715412:0;cargo build
 : 1679715417:0;cd target
 : 1679715428:0;rm -fr target
-: 1679717262:0;we
 : 1679723261:0;aria2
 : 1679723291:0;aria
 : 1679723329:0;aria2c
@@ -1102,13 +200,11 @@ sudo chmod a+wr /opt/spotify/Apps -R
 : 1679723463:0;curl --output-dir ~/Applications/ \\
     -LO https://github.com/neovim/neovim/releases/download/nightly/nvim-linux64.tar.gz
 : 1679723507:0;nv gtnv.sh
-: 1679723571:0;cd 
 : 1679723572:0;cd zsh
 : 1679723647:0;zap
 : 1679723649:0;zap update
 : 1679723684:0;nvim zap.zsh
 : 1679723710:0;cd zap
-: 1679724300:0;cd Applications
 : 1679724312:0;rm nvim-linux64*
 : 1679724316:0;rm -rf nvim-linux64*
 : 1679724434:0;cali
@@ -1117,19 +213,16 @@ sudo chmod a+wr /opt/spotify/Apps -R
 : 1679724531:0;man aria2c
 : 1679724636:0;rm gtnv.zsh
 : 1679725064:0;mkdir Applications
-: 1679725138:0;gtnv
 : 1679726440:0;nv gtnv.zsh
 : 1679727295:0;cargo install clippy
 : 1679727317:0;rustup component add clippy-preview
 : 1679727441:0;rm -rf nvim-linux64.tar.gz
 : 1679727445:0;cd variables
-: 1679727690:0;btop
 : 1679728132:0;clangd
 : 1679734387:0;cd leet
 : 1679734400:0;nvim median-2arrays.cpp
 : 1679735789:0;nvim Xofakindinadeck.cpp
 : 1679740271:0;nnv
-: 1679740274:0;lv
 : 1679745269:0;cd notes
 : 1679745274:0;cd progra
 : 1679746241:0;nv linked_List.md
@@ -1150,65 +243,284 @@ sudo chmod a+wr /opt/spotify/Apps -R
 : 1679747878:0;mv College-pps-notes-for-C C-Notes
 : 1679748350:0;mv Examples Example-Code
 : 1679750594:0;rm -rf *.out
-: 1679750772:0;cd nvim
 : 1679750780:0;rm -rf install.sh
 : 1679750785:0;mv install2.sh install.sh
-: 1679750902:0;nv README.md
-: 1679751420:0;ys
-: 1679755212:0;nr
 : 1679755269:0;sdr
-: 1679756068:0;cdp
 : 1679756073:0;rm -rf nvim-basic-ide
 : 1679756129:0;gh repo clone LunarVim/nvim-basic-ide
 : 1679756141:0;cd nvim-basic-ide
 : 1679756143:0;gh pr checkout 117
 : 1679756181:0;rm -rf ~/.local/share/nvim-basic-ide
-: 1679756478:0;nbi
-: 1679758456:0;ls
-: 1679758458:0;lll
-: 1679764272:0;cd projects
 : 1679764276:0;cd progr
-: 1679764278:0;lg
 : 1679764289:0;git push
 : 1679764302:0;git pull
 : 1679799822:0;yay alacritty-ligatures
-: 1679801474:0;c
-: 1679801749:0;ssep
 : 1679801778:0;rustup update
 : 1679801785:0;rustup component add clippy
 : 1679801803:0;rustup default stable
 : 1679801924:0;clippy
 : 1679801940:0;cd variable
-: 1679801943:0;cargo clippy
-: 1679802768:0;cd Example-Code
 : 1679802773:0;./bubble-sort.out
 : 1679803655:0;nv num
-: 1679803920:0;cd cpp
-: 1679803920:0;ll
 : 1679803923:0;nv jack.cpp
 : 1679806129:0;nv num.cpp
-: 1679806168:0;cd
 : 1679806176:0;nv .bashrc
-: 1679806221:0;nv
-: 1679806332:0;e
-: 1679806412:0;nv
 : 1679806559:0;kitty --help
 : 1679806752:0;man kitty
-: 1679806992:0;c
-: 1679809400:0;cd projects
-: 1679809402:0;ll
-: 1679809406:0;cd Programming-Notes
-: 1679809407:0;ll
-: 1679809410:0;lll
 : 1679809417:0;cd Sorting-Algorithms
-: 1679809418:0;ll
-: 1679809434:0;nv ../time-complexity.md
-: 1679809610:0;nr
 : 1679810141:0;nv ../time-complexity.md
-: 1679810143:0;cd
-: 1679810145:0;cd cpp
-: 1679810145:0;ll
-: 1679810150:0;nv selectionsort.cpp
 : 1679811007:0;rm -rf Example-Code/*.out
 : 1679811015:0;nv Sorting-Algorithms/bubble-sort.md
 : 1679811712:0;yl
+: 1679813730:0;yt-dlp -x --audio-format opus "$(playerctl -p firefox.instance"$(pgrep librewolf)" metadata | grep "watch?v=" | sed "s/.*watch?v=\(...........\).*/https:\/\/invidious.snopyta.org\/watch?v=\1/")" -P $(ls | dmenu)
+: 1679820409:0;nv selectionsort.cpp
+: 1679830737:0;mkdir GBA-games
+: 1679830740:0;cd GBA-games
+: 1679831281:0;sudo pacman -S base-devel cmake extra-cmake-modules git libpcap sdl2 qt5-base qt5-multimedia libslirp libarchive --needed
+: 1679831294:0;git clone https://github.com/melonDS-emu/melonDS\
+cd melonDS
+: 1679831374:0;cmake -B build
+: 1679831387:0;cmake --build build -j$(nproc --all)
+: 1679831529:0;cmake uninstall
+: 1679831549:0;./melonDS
+: 1679832033:0;cd melon
+: 1679832039:0;cd build
+: 1679832048:0;cp melonDS ~/.local/bin
+: 1679832161:0;cd Applications
+: 1679832169:0;tar -xvf desmume-0.9.13.tar.xz
+: 1679832175:0;cd desmume-0.9.13
+: 1679832179:0;cd desmume
+: 1679832202:0;nv README.md
+: 1679832261:0;cd Applications/desmume-0.9.13/desmume
+: 1679832267:0;cd srd
+: 1679832269:0;cd src
+: 1679832286:0;cd frontend/posix
+: 1679832294:0;./autogen.sh
+: 1679832307:0;./configure
+: 1679832336:0;make -j3
+: 1679832473:0;nv /etc/environment
+: 1679832503:0;vs /etc/environment
+: 1679832600:0;melonDS
+: 1679832634:0;rm -rf ~/.local/bin/melonDS
+: 1679832639:0;yay melonds
+: 1679832719:0;mkdir -p ~/.config/qt5ct/colors/
+: 1679832730:0;gh repo clone catppuccin/qt5ct
+: 1679832737:0;rm -rf melonDS
+: 1679832742:0;cd qt5ct
+: 1679832747:0;cd themes
+: 1679832770:0;cp Catppuccin-Mocha.conf ~/.config/qt5ct/colors/
+: 1679833028:0;mv GBA-games Pokemon-games
+: 1679833202:0;mv Pokemon\ -\ Leaf\ Green\ Version\ \(U\)\ \(V1.1\).gba ~/Pokemon-games
+: 1679833225:0;rm Pokemon\ -\ Leaf\ Green\ Version\ \(U\)\ \(V1.1\)-01.sgm Pokemon\ -\ Leaf\ Green\ Version\ \(U\)\ \(V1.1\)\ \(1\).gba Pokemon\ -\ Leaf\ Green\ Version\ \(U\)\ \(V1.1\).zip
+: 1679833241:0;rm \[CIA\]\ Pokemon\ X\ \[EUR\ region\ free\].zip
+: 1679833253:0;mkdir pokemon-leafgrean
+: 1679833272:0;mv Pokemon\ -\ Leaf\ Green\ Version\ \(U\)\ \(V1.1\).gba pokemon-leafgrean
+: 1679833286:0;mkdir pokemon-platinum
+: 1679833298:0;mv Pokemon\ -\ Platinum\ Version\ \(USA\)\ \(Rev\ 1\)* pokemon-platinum
+: 1679833307:0;rm Pokemon-x-hexrom_com.HEkdkG-7.zip.part Pokemon-x-hexrom_com.zip
+: 1679833786:0;yay citra
+: 1679834449:0;sudo paccache -rk0
+: 1679834976:0;cp -r Batch\ CIA\ 3DS\ Decryptor /mnt/windows/Users/jhari
+: 1679835108:0;cd Pokemon-games
+: 1679835115:0;mkdir pokemon-emerald
+: 1679835130:0;mv pokemon-emerald emerald
+: 1679835138:0;mv pokemon-leafgrean leafgrean
+: 1679835148:0;mv pokemon-platinum platinum
+: 1679835367:0;mkdir diamond
+: 1679850157:0;pacman -Qqi | fzf
+: 1679850178:0;pacman -Qqi melonds-git
+: 1679851075:0;bat
+: 1679851094:0;man cat
+: 1679851831:0;yay hyprland
+: 1679853576:0;gh repo clone hyprwm/contrib
+: 1679853581:0;cd contrib
+: 1679853629:0;./scratchpad -c
+: 1679853635:0;./scratchpad -g
+: 1679853661:0;./scratchpad -l
+: 1679853669:0;./scratchpad -gcd
+: 1679853673:0;cd projects/contrib
+: 1679853677:0;cd scratchpad
+: 1679853683:0;./scratchpad -h
+: 1679853692:0;./scratchpad -t
+: 1679853703:0;./scratchpad
+: 1679853709:0;./scratchpad --help
+: 1679853718:0;./scratchpad -m
+: 1679853722:0;./scratchpad -m rofi
+: 1679853992:0;cp projects/contrib/scratchpad ~/.local/bin
+: 1679854008:0;cp projects/contrib/scratchpad/scratchpad ~/.local/bin/
+: 1679854025:0;scratchpad
+: 1679854033:0;scratchpad --help
+: 1679854051:0;scratchpad -t
+: 1679854169:0;scratchpad -h
+: 1679965933:0;we
+: 1680011238:0;cd nv
+: 1680097380:0;time gtnv
+: 1680097962:0;672003123
+: 1680103843:0;cd nvim-basi
+: 1680105003:0;cd cpp
+: 1680105027:0;mkdir cc-contest-2023-03-29
+: 1680105030:0;cd cc-contest-2023-03-29
+: 1680105036:0;nv couple-game.cpp
+: 1680111621:0;yay bob
+: 1680111639:0;cargo clippy
+: 1680111658:0;cargo install --git https://github.com/MordechaiHadad/bob.git
+: 1680111937:0;bob
+: 1680113042:0;trash-empty
+: 1680113096:0;cc
+: 1680113098:0;cf
+: 1680147166:0;rm -rf *.out */*.out
+: 1680147183:0;cd[]
+: 1680147209:0;rm -rf *.out */*.out */*/*.out
+: 1680147215:0;rm -rf */*.out */*/*.out
+: 1680147286:0;rm -rf *.out */*.out */*/*.out */*/*/*.out
+: 1680147360:0;bnrm
+: 1680147460:0;binrm
+: 1680148028:0;rm -rf *.o */*.o
+: 1680148033:0;rm -rf *.o */*/*.o
+: 1680167511:0;v
+: 1680167514:0;vnv
+: 1680168481:0;bob ls
+: 1680199242:0;cd guess
+: 1680199289:0;nv src/main.rs
+: 1680249185:0;cd nbi
+: 1680249196:0;cd nvim-basic
+: 1680263607:0;nv fils.txt
+: 1680263667:0;nmtui
+: 1680263848:0;snes9x
+: 1680263905:0;cd Snes-games
+: 1680263911:0;snes9x Super\ Mario\ World\ \(USA\).sfc
+: 1680263932:0;snes9x Super\ Mario\ World\ \(USA\).sfc -fullscrean
+: 1680263941:0;snes9x Super\ Mario\ World\ \(USA\).sfc -fullscreen
+: 1680264038:0;yay higan
+: 1680264067:0;higan
+: 1680264079:0;yay -R higan
+: 1680264148:0;zsnes
+: 1680264154:0;yay -R zsnes
+: 1680264235:0;cd Snes-games && snes9x Super\ Mario\ World\ \(USA\).sfc -fullscreen
+: 1680270810:0;yay zsnes
+: 1680270818:0;yay snes9x
+: 1680274543:0;yay -S gnome-software
+: 1680327444:0;one
+: 1680340558:0;yay desmume
+: 1680350089:0;bob use stable
+: 1680357152:0;cd 
+: 1680357180:0;cd prog
+: 1680357182:0;lg
+: 1680363083:0;btop
+: 1680363292:0;hyprctl clients
+: 1680363309:0;hyprctl --help
+: 1680363322:0;hyprctl binds
+: 1680368849:0;nvim
+: 1680368927:0;NVIM_APPNAME=nvim-basic-ide && nv
+: 1680368932:0;NVIM_APPNAME=nvim-basic-ide && nnv
+: 1680368943:0;NVIM_APPNAME=nvim-basic-ide nv
+: 1680368964:0;bob use nightly
+: 1680368985:0;NVIM_APPNAME=nvim-basic-ide nvim
+: 1680368987:0;nbi
+: 1680369916:0;nv reddit.py
+: 1680369943:0;python reddit.py
+: 1680370091:0;cd Downloads
+: 1680370098:0;mpv pep.mp4
+: 1680412075:0;yay river
+: 1680412091:0;yay riverwm
+: 1680412103:0;yay river-wayland
+: 1680412115:0;yay newm
+: 1680415872:0;pkill -9 firefox
+: 1680454581:0;lunarvim
+: 1680454646:0;cd projects
+: 1680454651:0;nv openai.zsh
+: 1680454724:0;echo $OPEN_AI_KEY
+: 1680456016:0;yay hollywood
+: 1680456063:0;hollywood
+: 1680456163:0;/usr/bin/hollywood 
+: 1680456146:0;cd .config/tmux
+: 1680456149:0;nv tmux.conf
+: 1680456231:0;nvim anagram.cpp
+: 1680456307:0;tmux lsb
+: 1680456525:0;wpaperd --help
+: 1680456527:0;wpaperd
+: 1680457293:0;as
+: 1680458344:0;sl
+: 1680458350:0;lv
+: 1680458562:0;tmux lsk
+: 1680458570:0;tmux lsk | grep kill
+: 1680458750:0;nv ~/.config/kitty/kitty.conf
+: 1680459198:0;tmux -a
+: 1680492219:0;t
+: 1680492264:0;nv init.lua
+: 1680493152:0;nr
+: 1680493170:0;l
+: 1680493176:0;tmux attach
+: 1680494053:0;tmux detach
+: 1680494130:0;export NVIM_APPNAME=nvim-basic-ide && nnv
+: 1680498433:0;pkill wpaperd
+: 1680508689:0;byobu
+: 1680508758:0;lll
+: 1680508767:0;lsp
+: 1680508839:0;yel
+: 1680510183:0;ls
+: 1680510317:0;te
+: 1680510319:0;rra
+: 1680510321:0;tta
+: 1680510347:0;td
+: 1680510348:0;ta
+: 1680530634:0;cz
+: 1680533206:0;sep
+: 1680533342:0;ssep
+: 1680533350:0;pacman -Qi
+: 1680533356:0;pacman -Qq | fzf
+: 1680540889:0;exec zsh
+: 1680541416:0;cd example
+: 1680541421:0;./singly-linked-list.out
+: 1680543396:0;cdpp
+: 1680543402:0;cd Programming-Notes
+: 1680543414:0;nv .gitignore
+: 1680543447:0;cd Example-Code
+: 1680543457:0;g++ bubble-sort.cpp
+: 1680543459:0;ll
+: 1680543465:0;cdp
+: 1680543687:0;uneo
+: 1680543713:0;gtnv
+: 1680577139:0;c
+: 1680577140:0;ys
+: 1680577339:0;nv -y
+: 1680577341:0;nv -y a.cpp
+: 1680577408:0;vim
+: 1680577415:0;vim -y
+: 1680587018:0;rm -rf ~/.cache/bat
+: 1680587024:0;man shutdown
+: 1680587072:0;ssh-keygen
+: 1680587116:0;ip -s addr ens3
+: 1680587130:0;ip addr show enp2s0
+: 1680590791:0;date -s â€ƒ¼4 Apr 2023 22:59:59â€ƒ½
+: 1680590797:0;date -s â€ƒ¼4 Apr 22:59:59â€ƒ½
+: 1680590802:0;date -s â€ƒ¼22:59:59â€ƒ½
+: 1680590835:0;date -s '2014-12-25 10:34:56'
+: 1680590842:0;sudo date -s '2014-12-25 10:34:56'
+: 1680590851:0;date
+: 1680590920:0;date set --set=10:59
+: 1680590936:0;date --set=+10:59
+: 1680590941:0;date set --set=+10:59
+: 1680598788:0;killall -9 firefox
+: 1680599636:0;tmux
+: 1680599686:0;sh ~/.local/share/lunarvim/lvim/utils/installer/uninstall.sh
+: 1680599738:0;exit
+: 1680599739:0;bash ~/.local/share/lunarvim/lvim/utils/installer/uninstall.sh
+: 1680599750:0;bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh)
+: 1680599824:0;lvim
+: 1680600214:0;cd nvim
+: 1680600860:0;nv
+: 1680624663:0;ping 9.9.9.9
+: 1680625063:0;firefox
+: 1680628571:0;cargo install --git=https://github.com/nate-sys/hypr-empty
+: 1680628706:0;mkdir ~/.config/hypr-empty
+: 1680628714:0;nv ~/.config/hypr-empty/config.toml
+: 1680628953:0;hypr-empty
+: 1680629506:0;cargo uninstall hypr-empty
+: 1680629513:0;cargo clean
+: 1680629532:0;cargo clean --package=bob-nvim
+: 1680629534:0;cd
+: 1680629552:0;rm -rf ~/.config/hypr-empty
+: 1680629554:0;e
+: 1680629556:0;nv
+: 1680629614:0;yl
