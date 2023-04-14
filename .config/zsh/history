@@ -1,302 +1,3 @@
-: 1678644569:0;nv os.cpp
-: 1678712177:0;yay -R newm
-: 1678712194:0;yay -c
-: 1678712369:0;aaa
-: 1678712397:0;aa
-: 1678712414:0;a
-: 1678712529:0;yay -Rns wf-recorder-git
-: 1678712618:0;nv .config/hypr
-: 1678713467:0;touch .config/bob
-: 1678713473:0;rm -rf .config/bob
-: 1678713480:0;mkdir ~/.config/bob
-: 1678713488:0;touch /home/user/.config/bob/config.json
-: 1678713504:0;touch ~/.config/bob/config.json
-: 1678713514:0;nv /home/user/.config/bob/config.json
-: 1678713542:0;rm ~/.config/bob/config.json
-: 1678713900:0;bob update
-: 1678713906:0;bob -help
-: 1678713962:0;nv ~/.config/bob/config.json
-: 1678714597:0;cd nvim/
-: 1678714602:0;nv .git
-: 1678715247:0;unro
-: 1678718627:0;bob use 
-: 1678718632:0;bob rollback
-: 1678718906:0;snvim
-: 1678719052:0;cargo install --git https://github.com/MordechaiHadad/bob.git --branch 'fix/sync'
-: 1678720086:0;cat ~/.config/nvim/nvim.version
-: 1678720244:0;bob erase
-: 1678720267:0;nnv nvim.version
-: 1678720586:0;nvim nvim.version
-: 1678720590:0;bob sync
-: 1678722274:0;cd .local/share/zap/plugins
-: 1678722278:0;nv .gitkeep
-: 1678722291:0;cd vim
-: 1678722295:0;nvim vim.plugin.zsh
-: 1678722744:0;cl
-: 1678722753:0;ls -
-: 1678728681:0;bob use v0.8.3
-: 1678728837:0;rm -rf ~/.local/share/nvim
-: 1678730042:0;q
-: 1678799392:0;nv rearange.cpp
-: 1678896616:0;cd lua/user/
-: 1678897227:0;nvim init.lua install.sh
-: 1678897353:0;nvim init.lua
-: 1678897697:0;cd .config/nvim/lua
-: 1678897701:0;nv rj/plugins
-: 1678897718:0;cd rj
-: 1678897765:0;nvim 
-: 1678897891:0;nvim ~/.config/nvim/init.lua
-: 1678901580:0;nvim lazy.lua
-: 1678902456:0;hexdump
-: 1678902465:0;yes
-: 1678902489:0;sudo pacman -Syu | yes
-: 1678902503:0;yes | sudo pacman -Syu
-: 1678979549:0;sdk update
-: 1678981278:0;cd hypr
-: 1678981282:0;nv hyprland.conf
-: 1678987206:0;nvim .bashrc
-: 1678987515:0;broot
-: 1678987818:0;cd nivm
-: 1678987822:0;cd nvm
-: 1678987824:0;cd nvi
-: 1679059998:0;nv missing number
-: 1679060373:0;cd leetcode
-: 1679060385:0;cd lee
-: 1679060395:0;nv missing-number.cpp
-: 1679062687:0;nv single-number.cpp
-: 1679074475:0;kk
-: 1679074487:0;nvim bin-conv.cpp
-: 1679075269:0;ld
-: 1679075282:0;llllllllllllllllllllllllllllllllllll
-: 1679110341:0;python
-: 1679111336:0;nvim +LazySync
-: 1679112833:0;nv map.cpp
-: 1679118476:0;cargo init rust-learning
-: 1679118612:0;rustup component add rust-src
-: 1679118763:0;cd projects/rust-learning
-: 1679118830:0;rust-analyzer
-: 1679119402:0;bob use 0.8.4
-: 1679119404:0;bob use 0.8.3
-: 1679121110:0;rustfmt
-: 1679123438:0;dunstify "hello"
-: 1679123460:0;x
-: 1679125539:0;sixel
-: 1679125608:0;nvim install.sh
-: 1679125813:0;la
-: 1679131254:0;cd /usr/share/waydroid-extra
-: 1679131261:0;cd images
-: 1679131300:0;mkdir -p ~/projects/waydroid-extra/images
-: 1679131316:0;sudo mv * ~/projects/waydroid-extra/images
-: 1679131344:0;waydroid
-: 1679131347:0;waydroid -h
-: 1679131398:0;rm -rf /usr/share/waydroid-extra /var/lib/waydroid/*
-: 1679131486:0;rm -rf /usr/share/waydroid-extra 
-: 1679131490:0;sudo rm -rf /usr/share/waydroid-extra 
-: 1679133491:0;luarocks
-: 1679133574:0;luarocks install luamagick --local
-: 1679133712:0;ls /usr/lib
-: 1679133734:0;ls /usr/lib  | grep libMagick
-: 1679133795:0;sudo luarocks install luamagick
-: 1679136194:0;waydroid app install 
-: 1679136197:0;s
-: 1679136197:0;Instagram
-: 1679136198:0;Ultimate Competitive Programming Course for FREE: The Beginning | EP 0
-: 1679137059:0;waydroid app install firefox-111-0.apk
-: 1679137099:0;rm -rf /var/lib/waydroid/*
-: 1679137115:0;sudo rm -rf /var/lib/waydroid/*
-: 1679137153:0;sudo mkdir -p /usr/share/waydroid-extra/images
-: 1679137188:0;sudo cp ~/projects/waydroid-extra/images/* /usr/share/waydroid-extra/images
-: 1679137324:0;sudo rm -rf /var/lib/waydroid
-: 1679137336:0;wr
-: 1679137367:0;rm -rf ~/.local/share/waydroid
-: 1679137372:0;sudo waydroid init
-: 1679137374:0;ws
-: 1679146868:0;pkill firefox
-: 1679147609:0;nv index.norg
-: 1679153351:0;speedtest
-: 1679199931:0;mv bible.txt kjv-bible.txt
-: 1679199940:0;cd Documents
-: 1679199943:0;nv kjv-bible.txt
-: 1679200856:0;pkill neovim
-: 1679200858:0;pkill nvim
-: 1679200865:0;killall -9 neovim
-: 1679200868:0;killall -9 nvim
-: 1679206510:0;gh repo clone MickTheRus/nvim-basic-ide
-: 1679206525:0;git checkout origin/lazy
-: 1679206570:0;cd .config
-: 1679206575:0;ls nvim-basic-ide
-: 1679206852:0;cd lua/user
-: 1679206856:0;nvim nvim-tree.lua
-: 1679206873:0;nbi nvim-tree.lua
-: 1679211874:0;git rebase master
-: 1679211899:0;git rebase FETCH_HEAD
-: 1679222066:0;cargo new guessing_game
-: 1679222072:0;cd guessing_game
-: 1679229032:0;ac
-: 1679317616:0;cargo update
-: 1679317628:0;nv Cargo.lock
-: 1679318260:0;cargo doc --open
-: 1679318308:0;rm -rf target/doc
-: 1679318982:0;cargo check
-: 1679319243:0;rustc cmp.rs
-: 1679319248:0;./cmp
-: 1679319264:0;rm -rf cmp
-: 1679329590:0;nvim ~/.config/zsh/.p10k.zsh
-: 1679391321:0;nvim ~/.config/kitty/kitty.conf
-: 1679393783:0;p
-: 1679393789:0;ccc
-: 1679405021:0;lls
-: 1679406143:0;cd Password-management-system
-: 1679406152:0;nvim main_linux.c
-: 1679407166:0;cd game-project
-: 1679407238:0;java src
-: 1679407240:0;cd ja
-: 1679407245:0;cd Cosmic-Dodge
-: 1679407320:0;java CosmicDodge
-: 1679452493:0;cd .config/nvim
-: 1679452501:0;nvim ~/.config/bob/config.json
-: 1679452513:0;nvim ~/.config/bob/
-: 1679452581:0;rm -rf nvim.version
-: 1679455929:0;cd pro
-: 1679456026:0;nvim guessing_game/src/main.rs
-: 1679456761:0;nvim projects/guessing_game/src/main.rs
-: 1679457225:0;cp
-: 1679459863:0;nvim time-complexity.md
-: 1679469295:0;cargo new variables
-: 1679494243:0;llll
-: 1679496765:0;nv mintomax.cpp
-: 1679508885:0;nv stacks.md
-: 1679572716:0;cd code
-: 1679572722:0;mkdir ashraf
-: 1679573177:0;cd ashraf
-: 1679573186:0;nvim winner.cpp
-: 1679574154:0;xdg-open one-piece-ace.jpg
-: 1679574174:0;xdg-open dick.png
-: 1679581190:0;xdg-open Downloads/BEE\ TUTORIAL\ 2\ ANSWERS\ .pdf
-: 1679591125:0;hx
-: 1679591172:0;helix
-: 1679667119:0;mkdir proramming-contests
-: 1679667122:0;cd proramming-contests
-: 1679667129:0;mv proramming-contests contests
-: 1679667130:0;cd contests
-: 1679667144:0;mkdir 24-3-acm-tcet
-: 1679667146:0;cd 24-3-acm-tcet
-: 1679667487:0;cd 24-3
-: 1679667491:0;mkdir .git
-: 1679667493:0;nv mangoes.cpp
-: 1679678161:0;mv stacks* examples
-: 1679678169:0;cd examples
-: 1679678178:0;nv queue.cpp
-: 1679678855:0;cd rust-learning
-: 1679678865:0;nv main.rs
-: 1679715412:0;cargo build
-: 1679715417:0;cd target
-: 1679715428:0;rm -fr target
-: 1679723261:0;aria2
-: 1679723291:0;aria
-: 1679723329:0;aria2c
-: 1679723332:0;aria2c --help
-: 1679723410:0;cd .. && aria2c "https://github.com/neovim/neovim/releases/download/nightly/nvim-linux64.tar.gz"
-: 1679723463:0;curl --output-dir ~/Applications/ \\
-    -LO https://github.com/neovim/neovim/releases/download/nightly/nvim-linux64.tar.gz
-: 1679723507:0;nv gtnv.sh
-: 1679723572:0;cd zsh
-: 1679723647:0;zap
-: 1679723649:0;zap update
-: 1679723684:0;nvim zap.zsh
-: 1679723710:0;cd zap
-: 1679724312:0;rm nvim-linux64*
-: 1679724316:0;rm -rf nvim-linux64*
-: 1679724434:0;cali
-: 1679724461:0;srp
-: 1679724521:0;tldr aria2c
-: 1679724531:0;man aria2c
-: 1679724636:0;rm gtnv.zsh
-: 1679725064:0;mkdir Applications
-: 1679726440:0;nv gtnv.zsh
-: 1679727295:0;cargo install clippy
-: 1679727317:0;rustup component add clippy-preview
-: 1679727441:0;rm -rf nvim-linux64.tar.gz
-: 1679727445:0;cd variables
-: 1679728132:0;clangd
-: 1679734387:0;cd leet
-: 1679734400:0;nvim median-2arrays.cpp
-: 1679735789:0;nvim Xofakindinadeck.cpp
-: 1679740271:0;nnv
-: 1679745269:0;cd notes
-: 1679745274:0;cd progra
-: 1679746241:0;nv linked_List.md
-: 1679746685:0;nv test.md
-: 1679746737:0;cd cppro
-: 1679746742:0;fzf
-: 1679746751:0;cd pracrice
-: 1679746755:0;nv bin-search.cpp
-: 1679747147:0;mv examples Examples
-: 1679747160:0;mv Searching\ Algorithms Searching-Algorithms
-: 1679747179:0;mv linked_List.md linked-list.md
-: 1679747231:0;mkdir Data-Structures
-: 1679747245:0;mv linked-list.md arrays.md strings.md Data-Structures
-: 1679747251:0;mv vectors.md Data-Structures
-: 1679747275:0;xdg-open Software\ Development\ Agency\ by\ Slidesgo.pptx
-: 1679747295:0;mv Software\ Development\ Agency\ by\ Slidesgo.pptx ..
-: 1679747775:0;rm Algorithm-complexity.jpg Time-complexity.png TIme-complexity.png
-: 1679747878:0;mv College-pps-notes-for-C C-Notes
-: 1679748350:0;mv Examples Example-Code
-: 1679750594:0;rm -rf *.out
-: 1679750780:0;rm -rf install.sh
-: 1679750785:0;mv install2.sh install.sh
-: 1679755269:0;sdr
-: 1679756073:0;rm -rf nvim-basic-ide
-: 1679756129:0;gh repo clone LunarVim/nvim-basic-ide
-: 1679756141:0;cd nvim-basic-ide
-: 1679756143:0;gh pr checkout 117
-: 1679756181:0;rm -rf ~/.local/share/nvim-basic-ide
-: 1679764276:0;cd progr
-: 1679764289:0;git push
-: 1679764302:0;git pull
-: 1679799822:0;yay alacritty-ligatures
-: 1679801778:0;rustup update
-: 1679801785:0;rustup component add clippy
-: 1679801803:0;rustup default stable
-: 1679801924:0;clippy
-: 1679801940:0;cd variable
-: 1679802773:0;./bubble-sort.out
-: 1679803655:0;nv num
-: 1679803923:0;nv jack.cpp
-: 1679806129:0;nv num.cpp
-: 1679806176:0;nv .bashrc
-: 1679806559:0;kitty --help
-: 1679806752:0;man kitty
-: 1679809417:0;cd Sorting-Algorithms
-: 1679810141:0;nv ../time-complexity.md
-: 1679811007:0;rm -rf Example-Code/*.out
-: 1679811015:0;nv Sorting-Algorithms/bubble-sort.md
-: 1679811712:0;yl
-: 1679813730:0;yt-dlp -x --audio-format opus "$(playerctl -p firefox.instance"$(pgrep librewolf)" metadata | grep "watch?v=" | sed "s/.*watch?v=\(...........\).*/https:\/\/invidious.snopyta.org\/watch?v=\1/")" -P $(ls | dmenu)
-: 1679820409:0;nv selectionsort.cpp
-: 1679830737:0;mkdir GBA-games
-: 1679830740:0;cd GBA-games
-: 1679831281:0;sudo pacman -S base-devel cmake extra-cmake-modules git libpcap sdl2 qt5-base qt5-multimedia libslirp libarchive --needed
-: 1679831294:0;git clone https://github.com/melonDS-emu/melonDS\
-cd melonDS
-: 1679831374:0;cmake -B build
-: 1679831387:0;cmake --build build -j$(nproc --all)
-: 1679831529:0;cmake uninstall
-: 1679831549:0;./melonDS
-: 1679832033:0;cd melon
-: 1679832039:0;cd build
-: 1679832048:0;cp melonDS ~/.local/bin
-: 1679832161:0;cd Applications
-: 1679832169:0;tar -xvf desmume-0.9.13.tar.xz
-: 1679832175:0;cd desmume-0.9.13
-: 1679832179:0;cd desmume
-: 1679832202:0;nv README.md
-: 1679832261:0;cd Applications/desmume-0.9.13/desmume
-: 1679832267:0;cd srd
-: 1679832269:0;cd src
-: 1679832286:0;cd frontend/posix
-: 1679832294:0;./autogen.sh
-: 1679832307:0;./configure
 : 1679832336:0;make -j3
 : 1679832473:0;nv /etc/environment
 : 1679832503:0;vs /etc/environment
@@ -352,7 +53,6 @@ cd melonDS
 : 1679854033:0;scratchpad --help
 : 1679854051:0;scratchpad -t
 : 1679854169:0;scratchpad -h
-: 1679965933:0;we
 : 1680011238:0;cd nv
 : 1680097380:0;time gtnv
 : 1680097962:0;672003123
@@ -374,18 +74,14 @@ cd melonDS
 : 1680147215:0;rm -rf */*.out */*/*.out
 : 1680147286:0;rm -rf *.out */*.out */*/*.out */*/*/*.out
 : 1680147360:0;bnrm
-: 1680147460:0;binrm
 : 1680148028:0;rm -rf *.o */*.o
 : 1680148033:0;rm -rf *.o */*/*.o
 : 1680167511:0;v
 : 1680167514:0;vnv
-: 1680168481:0;bob ls
 : 1680199242:0;cd guess
-: 1680199289:0;nv src/main.rs
 : 1680249185:0;cd nbi
 : 1680249196:0;cd nvim-basic
 : 1680263607:0;nv fils.txt
-: 1680263667:0;nmtui
 : 1680263848:0;snes9x
 : 1680263905:0;cd Snes-games
 : 1680263911:0;snes9x Super\ Mario\ World\ \(USA\).sfc
@@ -402,24 +98,18 @@ cd melonDS
 : 1680274543:0;yay -S gnome-software
 : 1680327444:0;one
 : 1680340558:0;yay desmume
-: 1680350089:0;bob use stable
 : 1680357152:0;cd 
 : 1680357180:0;cd prog
-: 1680357182:0;lg
 : 1680363083:0;btop
 : 1680363292:0;hyprctl clients
 : 1680363309:0;hyprctl --help
 : 1680363322:0;hyprctl binds
-: 1680368849:0;nvim
 : 1680368927:0;NVIM_APPNAME=nvim-basic-ide && nv
 : 1680368932:0;NVIM_APPNAME=nvim-basic-ide && nnv
 : 1680368943:0;NVIM_APPNAME=nvim-basic-ide nv
-: 1680368964:0;bob use nightly
 : 1680368985:0;NVIM_APPNAME=nvim-basic-ide nvim
-: 1680368987:0;nbi
 : 1680369916:0;nv reddit.py
 : 1680369943:0;python reddit.py
-: 1680370091:0;cd Downloads
 : 1680370098:0;mpv pep.mp4
 : 1680412075:0;yay river
 : 1680412091:0;yay riverwm
@@ -427,18 +117,14 @@ cd melonDS
 : 1680412115:0;yay newm
 : 1680415872:0;pkill -9 firefox
 : 1680454581:0;lunarvim
-: 1680454646:0;cd projects
 : 1680454651:0;nv openai.zsh
 : 1680454724:0;echo $OPEN_AI_KEY
 : 1680456016:0;yay hollywood
-: 1680456063:0;hollywood
-: 1680456163:0;/usr/bin/hollywood 
 : 1680456146:0;cd .config/tmux
 : 1680456149:0;nv tmux.conf
 : 1680456231:0;nvim anagram.cpp
 : 1680456307:0;tmux lsb
 : 1680456525:0;wpaperd --help
-: 1680456527:0;wpaperd
 : 1680457293:0;as
 : 1680458344:0;sl
 : 1680458350:0;lv
@@ -447,45 +133,26 @@ cd melonDS
 : 1680458750:0;nv ~/.config/kitty/kitty.conf
 : 1680459198:0;tmux -a
 : 1680492219:0;t
-: 1680492264:0;nv init.lua
-: 1680493152:0;nr
-: 1680493170:0;l
 : 1680493176:0;tmux attach
 : 1680494053:0;tmux detach
 : 1680494130:0;export NVIM_APPNAME=nvim-basic-ide && nnv
-: 1680498433:0;pkill wpaperd
 : 1680508689:0;byobu
-: 1680508758:0;lll
 : 1680508767:0;lsp
 : 1680508839:0;yel
-: 1680510183:0;ls
 : 1680510317:0;te
 : 1680510319:0;rra
 : 1680510321:0;tta
 : 1680510347:0;td
 : 1680510348:0;ta
-: 1680530634:0;cz
-: 1680533206:0;sep
 : 1680533342:0;ssep
 : 1680533350:0;pacman -Qi
 : 1680533356:0;pacman -Qq | fzf
-: 1680540889:0;exec zsh
 : 1680541416:0;cd example
 : 1680541421:0;./singly-linked-list.out
-: 1680543396:0;cdpp
-: 1680543402:0;cd Programming-Notes
-: 1680543414:0;nv .gitignore
 : 1680543447:0;cd Example-Code
 : 1680543457:0;g++ bubble-sort.cpp
-: 1680543459:0;ll
-: 1680543465:0;cdp
-: 1680543687:0;uneo
-: 1680543713:0;gtnv
-: 1680577139:0;c
-: 1680577140:0;ys
 : 1680577339:0;nv -y
 : 1680577341:0;nv -y a.cpp
-: 1680577408:0;vim
 : 1680577415:0;vim -y
 : 1680587018:0;rm -rf ~/.cache/bat
 : 1680587024:0;man shutdown
@@ -501,16 +168,9 @@ cd melonDS
 : 1680590920:0;date set --set=10:59
 : 1680590936:0;date --set=+10:59
 : 1680590941:0;date set --set=+10:59
-: 1680598788:0;killall -9 firefox
-: 1680599636:0;tmux
 : 1680599686:0;sh ~/.local/share/lunarvim/lvim/utils/installer/uninstall.sh
-: 1680599738:0;exit
 : 1680599739:0;bash ~/.local/share/lunarvim/lvim/utils/installer/uninstall.sh
 : 1680599750:0;bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh)
-: 1680599824:0;lvim
-: 1680600214:0;cd nvim
-: 1680600860:0;nv
-: 1680624663:0;ping 9.9.9.9
 : 1680625063:0;firefox
 : 1680628571:0;cargo install --git=https://github.com/nate-sys/hypr-empty
 : 1680628706:0;mkdir ~/.config/hypr-empty
@@ -519,8 +179,335 @@ cd melonDS
 : 1680629506:0;cargo uninstall hypr-empty
 : 1680629513:0;cargo clean
 : 1680629532:0;cargo clean --package=bob-nvim
-: 1680629534:0;cd
 : 1680629552:0;rm -rf ~/.config/hypr-empty
-: 1680629554:0;e
-: 1680629556:0;nv
 : 1680629614:0;yl
+: 1680631989:0;pkill swaybg
+: 1680632000:0;pkill wpaperd
+: 1680703714:0;pkill firefox
+: 1680707160:0;mkdir cc-contest-2023-04-05
+: 1680707181:0;nv chef-and-donation.cpp
+: 1680707585:0;mv elections-in-chefland.cpp cc-contest-2023-04-05
+: 1680707595:0;binrm
+: 1680707607:0;cd cc-contest-2023-04-05
+: 1680707610:0;mkdir .git
+: 1680707619:0;nv melt-gold.cpp
+: 1680715356:0;cd /
+: 1680715367:0;cd mnt/windows/Users/jhari/Batch\ CIA\ 3DS\ Decryptor
+: 1680751913:0;vim
+: 1680752122:0;cmatrix
+: 1680752136:0;cmatrix --help
+: 1680752143:0;cmatrix -r
+: 1680752155:0;cmatrix -b
+: 1680752163:0;cmatrix -s
+: 1680752180:0;cmatrix -m
+: 1680752238:0;tree
+: 1680752241:0;tree /
+: 1680752262:0;cz 
+: 1680752417:0;-md
+: 1680752439:0;pwd
+: 1680752452:0;cd Documents
+: 1680774148:0;cd code
+: 1680774163:0;nv scholarship.cpp
+: 1680777105:0;tmux
+: 1680777137:0;hollywood
+: 1680794294:0;/usr/bin/hollywood 
+: 1680788270:0;ping 9.9.9.9
+: 1680789603:0;chage
+: 1680789608:0;chage -E
+: 1680789617:0;chage -E git
+: 1680794270:0;
+: 1680794279:0;jk
+: 1680794280:0;j
+: 1680794287:0;a
+: 1680794288:0;s
+: 1680794289:0;d
+: 1680794289:0;f
+: 1680794291:0;g
+: 1680794292:0;h
+: 1680794294:0;q
+: 1680839814:0;waydroid app install tachiyomi-x86_64-v0.14.5.apk
+: 1680840119:0;wr
+: 1680840124:0;ws
+: 1680849989:0;npm help
+: 1680850830:0;yay tsserver
+: 1680859820:0;nv .
+: 1680859922:0;http-server
+: 1680859955:0;npm
+: 1680859966:0;node
+: 1680859995:0;nv server.js
+: 1680860175:0;yay http-server
+: 1680860258:0;npm i http-server
+: 1680860823:0;npm uninstall http-server
+: 1680860830:0;rm -rf node_modules
+: 1680860917:0;rm -rf ~/.local/share/npm/bin/http-server
+: 1680861011:0;./node_modules/.bin/prettier
+: 1680861074:0;npm i -g http-server
+: 1680861415:0;npm run 
+: 1680861457:0;npm buils
+: 1680861460:0;npm build
+: 1680861655:0;npm install
+: 1680861665:0;npm start
+: 1680861933:0;npm run build
+: 1680862150:0;git status
+: 1680862830:0;rm -rf gamedevjs-2023 game.html game-project
+: 1680862836:0;gh repo clone BitBrigade/gamedevjs-2023
+: 1680862899:0;cd node_modules/.bin
+: 1680862917:0;nv package.json
+: 1680862941:0;cd node_modules/bin
+: 1680862943:0;cd node_modules/
+: 1680862958:0;fd http
+: 1680862963:0;grep http
+: 1680862976:0;nv package-lock.json
+: 1680865353:0;npm --help
+: 1680865358:0;dunstify "hello"
+: 1680865628:0;http-server ./game.html
+: 1680865750:0;nv .gitignore
+: 1680870043:0;neovide
+: 1680870687:0;rm -rf ~/.local/share/nvim/lazy
+: 1680877869:0;aria2c https://master.dl.sourceforge.net/project/althafvly/los19/lux/lineage-19.0-20220121-UNOFFICIAL-lux.zip?viasf=1
+: 1680877877:0;aria2c "https://master.dl.sourceforge.net/project/althafvly/los19/lux/lineage-19.0-20220121-UNOFFICIAL-lux.zip?viasf=1"
+: 1680882066:0;bob install 0.9
+: 1680882073:0;bob ls
+: 1680882094:0;;s
+: 1680882222:0;cargo install --git=https://github.com/MordechaiHadad/bob
+: 1680882769:0;nv -v
+: 1680883305:0;cd .config
+: 1680883314:0;gh repo clone MickTheRus/nvim-basic-ide
+: 1680883610:0;gh repo clone BitBrigade/nvim-basic-ide
+: 1680885858:0;sudo cat /etc/NetworkManager/system-connections
+: 1680885869:0;cd /etc/NetworkManager/system-connections
+: 1680885881:0;sudo cd /etc/NetworkManager/system-connections
+: 1680885883:0;su
+: 1680886297:0;sudo cat /etc/NetworkManager/system-connections/Gopesh.nmconnection 
+: 1680886297:0;exot
+: 1680886322:0;aria2c "https://github.com/bitwarden/mobile/releases/download/v2023.3.2/com.x8bit.bitwarden-fdroid.apk"
+: 1680927637:0;nvc
+: 1680931608:0;cd game
+: 1680931820:0;nv game.html
+: 1680935198:0;git checkout main
+: 1680937267:0;adb
+: 1680937282:0;adb devices
+: 1680937285:0;adb reboot recovery
+: 1680937526:0;spicetify backup restore apply
+: 1680939816:0;nvim -v
+: 1680939862:0;killall -9 firefox
+: 1680939876:0;downgrade wayland
+: 1680939879:0;sudo downgrade wayland
+: 1680950255:0;lllllllllllllll
+: 1680959876:0;nvim a.lua
+: 1680968644:0;rm -rf programming-stuff
+: 1680968646:0;cd Programming-Notes
+: 1680968707:0;nv Data-Structures/linked-list.md
+: 1680969005:0;nv Example-Code/singly-linked-list-simple.cpp
+: 1680975889:0;gh repo clone Rishabh672003/Learning-Rust
+: 1680975922:0;cp -r Learning-Rust/.git Learning-Rust/.gitignore Learning-Rust/LICENSE variables
+: 1681016729:0;./main
+: 1681016756:0;mkdir rust-learning
+: 1681016767:0;rm -rf Learning-Rust
+: 1681016774:0;mkdir learning-rust
+: 1681016778:0;cd learning-rust
+: 1681016965:0;rustc --help
+: 1681016990:0;rustc function.rs -o function.out
+: 1681017025:0;nv function.rs
+: 1681017482:0;cd variables
+: 1681017836:0;cp -r src ..
+: 1681017864:0;rm -rf src target Cargo.lock Cargo.toml
+: 1681019057:0;cargo new
+: 1681019109:0;cargo new functions
+: 1681019112:0;cd functions
+: 1681019115:0;nv src/main.rs
+: 1681022861:0;cd gamedevjs-2023
+: 1681022874:0;http-server ./
+: 1681023178:0;nv index.html
+: 1681062413:0;wpaperd
+: 1681063700:0;nnv
+: 1681063708:0;cd home
+: 1681063712:0;cd rishabh
+: 1681063716:0;cdpp
+: 1681063721:0;rm -rf home
+: 1681063724:0;l
+: 1681063735:0;rm -rf desmume-0.9.13*
+: 1681063741:0;rm -rf a.log
+: 1681063763:0;gtnv
+: 1681064296:0;hx
+: 1681064396:0;hx --help
+: 1681126397:0;cd Downloads
+: 1681126428:0;mv APznzabrhMPpFtr1ja_dc8pMJCDYoydiLfCpyegEC7vqBHL1jela3NzOUcblUO7nGfLjvdFcdKAiHv2SuzRQbvRHL0gFZGbD7Bz-qZLRO0hEgoLdGc7lMyYOzln4GxcA_T7SZ0bFCNRJQUM2IoB0zu91J1sXkDYS_DC4pwRTi2t44zmgjl44wPb7Yq0rgnKljk0eNijMaKKUbgPHu1pk4sCDM.pdf BEE-EXPT-3.pdf
+: 1681128778:0;nv a.md
+: 1681130652:0;gh repo clone vinceliuice/Lavanda-gtk-theme
+: 1681130691:0;cd Lavanda-gtk-theme
+: 1681130698:0;./install.sh -l
+: 1681130851:0;cd .config/gtk-4.0
+: 1681130857:0;rm -rf *
+: 1681135159:0;cd .themes
+: 1681135164:0;rm -rf .themes
+: 1681139800:0;rsss
+: 1681140928:0;rm -rf nvim.appimage nvim-linux64
+: 1681140957:0;gh pr checkout 9
+: 1681149117:0;rs
+: 1681149123:0;rss
+: 1681213729:0;nmtui
+: 1681214985:0;yay qalculate
+: 1681226139:0;cd notes
+: 1681226166:0;nv index.norg
+: 1681230598:0;yay showmethekey
+: 1681230703:0;showkey
+: 1681230719:0;showmethekey
+: 1681285640:0;nvim --clean
+: 1681285666:0;nvim
+: 1681285897:0;cd projects
+: 1681285900:0;nv a.lua
+: 1681286788:0;sep
+: 1681286795:0;srp
+: 1681296916:0;nv init.lua
+: 1681297276:0;git merge MickTheRus-lazy
+: 1681297533:0;https://github.com/MickTheRus/nvim-basic-ide.git
+: 1681297750:0;git mergetool
+: 1681297835:0;git clone https://github.com/MickTheRus/nvim-basic-ide.git -b lazy
+: 1681297870:0;git checkout HEAD
+: 1681297876:0;git checkout origin
+: 1681297956:0;git checkout -b MickTheRus-lazy lazy\
+git pull https://github.com/MickTheRus/nvim-basic-ide.git lazy\
+
+: 1681297966:0;git checkout lazy\
+git merge --no-ff MickTheRus-lazy\
+git push origin lazy
+: 1681298090:0;git checkout -b MickTheRus-lazy
+: 1681298093:0;git checkout -b lazy
+: 1681298123:0;git config pull.ff only
+: 1681298200:0;git pull https://github.com/MickTheRus/nvim-basic-ide.git lazy\
+
+: 1681298344:0;gh pr merge 117
+: 1681298352:0;gh pr checkout 117 && git fetch origin lazy && git merge origin/lazy
+: 1681298523:0;gh pr checkout 117
+: 1681298569:0;gh pr merge
+: 1681298627:0;git remote add MickTheRus https://github.com/MickTheRus/nvim-basic-ide.git\
+git fetch MickTheRus lazy\
+git switch --track MickTheRus/lazy
+: 1681298653:0;git fetch MickTheRus lazy
+: 1681298659:0;git switch --track MickTheRus/lazy
+: 1681298670:0;git checkout MickTheRus/lazy
+: 1681298892:0;git config pull.rebase false
+: 1681298965:0;git clone https://github.com/MickTheRus/nvim-basic-ide.git
+: 1681298983:0;git pull
+: 1681299020:0;git checkout -b MickTheRus-lazy lazy
+: 1681299033:0;git config pull.rebase true
+: 1681299034:0;git pull https://github.com/MickTheRus/nvim-basic-ide.git lazy
+: 1681299067:0;git merge --no-ff MickTheRus-lazy
+: 1681299087:0;git push origin lazy
+: 1681299148:0;git push
+: 1681299296:0;git checkout master
+: 1681299323:0;git checkout -b ide-0.8
+: 1681299379:0;nv README.md
+: 1681299875:0;git pull origin master
+: 1681299879:0;git checkout lazy
+: 1681299885:0;git merge master
+: 1681299953:0;git push -u origin lazy
+: 1681300248:0;rm -rf nvim-basic-ide
+: 1681300249:0;gh repo clone LunarVim/nvim-basic-ide
+: 1681302240:0;nr
+: 1681303959:0;git checkout -b lazy-reformat
+: 1681303963:0;nv 
+: 1681304228:0;nbi init.lua
+: 1681304579:0;bob use stable
+: 1681304664:0;bob use 0.8.3
+: 1681304873:0;cd nvim-
+: 1681304886:0;nv Lazy.lua
+: 1681304909:0;nv dapui.lua
+: 1681304926:0;nv user/which-key.lua
+: 1681305548:0;mkdir new-plug
+: 1681305606:0;mv autopairs.lua better-escape.lua catppuccin.lua colorizer.lua ../../new-plug
+: 1681305676:0;lvim
+: 1681305696:0;cd nvim-basic-ide
+: 1681305698:0;uneo
+: 1681305776:0;bob use nightly
+: 1681306028:0;mv lua/new-plug lua/rj
+: 1681306280:0;cd plugins
+: 1681306289:0;mv comment.lua ../new-plug
+: 1681306297:0;nbi 
+: 1681307052:0;cd nvim-bas
+: 1681307056:0;cd lua
+: 1681307065:0;cd user
+: 1681307072:0;rm -rf lsp
+: 1681307581:0;cd
+: 1681307984:0;mv lua/rj/plugins/treesitter.lua lua/rj/new-plug
+: 1681308274:0;cd lua/rj
+: 1681308282:0;mv plugins/whichkey.lua new-plug
+: 1681308298:0;nv new-plug/whichkey.lua
+: 1681308644:0;mv plugins/nvim-cmp.lua ../rj/new-plug
+: 1681308696:0;nbi new-plug/nvim-cmp.lua
+: 1681308958:0;killall -9 wpaperd
+: 1681309273:0;mv plugins/nvim-tree.lua new-plug
+: 1681309404:0;mv plugins/gitsigns.lua new-plug
+: 1681309486:0;nvi
+: 1681309615:0;mv plugins/nvim-telescope.lua new-plug
+: 1681309859:0;mv plugins/noice.lua new-plug
+: 1681309984:0;mv plugins/alpha-themes/startup-screen3.lua new-plug
+: 1681310286:0;mv plugins/nvim-luasnip.lua new-plug
+: 1681310453:0;mv plugins/barbecue/barbecue.lua new-plug
+: 1681310817:0;!
+: 1681311071:0;mv plugins/lualine-themes/lualine1.lua new-plug
+: 1681311189:0;mv plugins/cybu.lua new-plug
+: 1681311310:0;mv plugins/indent.lua new-plug
+: 1681311380:0;mv plugins/nvim-toggleterm.lua new-plug
+: 1681311418:0;mv plugins/lsp .
+: 1681311649:0;mv new-plug/noice.lua ..
+: 1681311844:0;mv plugins/indentline.lua new-plug
+: 1681312046:0;mv plugins/hop.lua new-plug
+: 1681312062:0;mv ../noice.lua new-plug
+: 1681312117:0;mv plugins/illuminate.lua new-plug
+: 1681312331:0;mv plugins/lastplace.lua new-plug
+: 1681312424:0;mv plugins/navic.lua new-plug
+: 1681312516:0;mv plugins/jaq.lua new-plug
+: 1681312707:0;cdp
+: 1681312711:0;nv ftplugin
+: 1681312726:0;cd rj
+: 1681312748:0;cd pl
+: 1681312762:0;mv plugins/presence.lua new-plug
+: 1681313053:0;mv plugins/zen-mode.lua new-plug
+: 1681313090:0;mv plugins Usefull-stuff
+: 1681313100:0;mv new-plug plugins
+: 1681313159:0;nbi
+: 1681313231:0;lg
+: 1681313259:0;lll
+: 1681313317:0;mv lua/rj/plugins/noice.lua .
+: 1681314157:0;cd nvim
+: 1681314359:0;vs /etc/pacman.conf
+: 1681314426:0;yay electron
+: 1681314438:0;yay -R webcord-git
+: 1681314445:0;yay -Cc
+: 1681314447:0;yay -cc
+: 1681314459:0;bash
+: 1681321857:0;kitty
+: 1681321857:0;exit
+: 1681314486:0;yay
+: 1681314504:0;yay -Scc
+: 1681321838:0;ls
+: 1681321853:0;mv noice.lua lua/rj/plugins
+: 1681324277:0;c
+: 1681324278:0;ys
+: 1681324306:0;yay -c
+: 1681388129:0;we
+: 1681388211:0;cd fun
+: 1681388212:0;ll
+: 1681388216:0;nv Cargo.toml
+: 1681395009:0;exec zsh
+: 1681395019:0;nvapp 
+: 1681395025:0;nvapp nvim-basic-ide
+: 1681395053:0;nv
+: 1681395056:0;cz
+: 1681395065:0;zap clean
+: 1681395072:0;zap list
+: 1681395076:0;e
+: 1681395079:0;zap clean
+: 1681395400:0;uneo
+: 1681395531:0;nv
+: 1681395589:0;cd
+: 1681395590:0;nv
+: 1681398209:0;nr
+: 1681444358:0;nv
+: 1681447921:0;zsh <(curl -s https://raw.githubusercontent.com/zap-zsh/zap/master/install.zsh) --branch release-v1
+: 1681448502:0;time
+: 1681449013:0;ls
+: 1681449016:0;cz
+: 1681449110:0;yl

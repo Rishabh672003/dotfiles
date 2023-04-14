@@ -9,12 +9,13 @@ local servers = {
 	bashls = "bash-language-server",
 	html = "vscode-html-language-server",
 	jsonls = "vscode-json-language-server",
+	tsserver = "typescript-language-server",
 }
 for k, v in pairs(servers) do
 	if vim.fn.executable(v) == 1 then
 		lspconfig[k].setup({
-			on_attach = require("rj.plugins.lsp.attach").on_attach,
-			capabilities = require("rj.plugins.lsp.attach").capabilities,
+			on_attach = require("rj.lsp.attach").on_attach,
+			capabilities = require("rj.lsp.attach").capabilities,
 		})
 	else
 		print("lspconfig: " .. v .. " not found")
@@ -23,8 +24,8 @@ end
 
 if vim.fn.executable("lua-language-server") == 1 then
 	lspconfig.lua_ls.setup({
-		on_attach = require("rj.plugins.lsp.attach").on_attach,
-		capabilities = require("rj.plugins.lsp.attach").capabilities,
+		on_attach = require("rj.lsp.attach").on_attach,
+		capabilities = require("rj.lsp.attach").capabilities,
 		settings = {
 			Lua = {
 				format = {
@@ -68,8 +69,8 @@ end
 
 if vim.fn.executable("pyright") == 1 then
 	require("lspconfig").pyright.setup({
-		on_attach = require("rj.plugins.lsp.attach").on_attach,
-		capabilities = require("rj.plugins.lsp.attach").capabilities,
+		on_attach = require("rj.lsp.attach").on_attach,
+		capabilities = require("rj.lsp.attach").capabilities,
 		settings = {
 			python = {
 				analysis = {
