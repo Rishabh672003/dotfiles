@@ -571,3 +571,20 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1682790256:0;cdp
 : 1682790257:0;cd
 : 1682790267:0;nv ~/.config/yadm/yadm.sh
+: 1682790432:0;ping 9.9.9.9
+: 1682790561:0;spicetify config current_theme sleek
+: 1682790567:0;cd .spi
+: 1682790571:0;cd .config/spicetify
+: 1682790572:0;ll
+: 1682790575:0;cd Themes
+: 1682790576:0;l
+: 1682790576:0;ll
+: 1682790584:0;spicetify config current_theme Sleek
+: 1682790586:0;cd Sleek
+: 1682790588:0;ll
+: 1682790595:0;nv user.css
+: 1682790605:0;cdp
+: 1682790608:0;nv README.md
+: 1682790714:0;nvim
+: 1682790870:0;nv README.md
+: 1682790978:0;yl

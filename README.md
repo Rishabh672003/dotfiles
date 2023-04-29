@@ -6,7 +6,7 @@ At first this repo contained my wallpapers also but that would just make it very
 
 # Showcase
 
-![image](https://user-images.githubusercontent.com/53911515/205472813-86d27f48-65fa-4381-a77e-fedb7ec1ee1c.png)
+![image](https://user-images.githubusercontent.com/53911515/235317064-720dd2e0-cfa3-43b8-b773-34350b4dd357.png)
 
 # Apply the configs
 
@@ -16,7 +16,7 @@ At first this repo contained my wallpapers also but that would just make it very
 sudo pacman -Sy yadm
 ```
 
-#### i would say fork this repo and then install it using yadm here the way you do it so just change the github link to your fork
+#### I would say fork this repo and then install it using yadm here the way you do it so just change the github link to your fork
 
 ```
 yadm clone https://github.com/Rishabh672003/dotfiles
@@ -25,13 +25,13 @@ yadm clone https://github.com/Rishabh672003/dotfiles
 #### Explaination of yadm
 
 let me explain how yadm works because i couldnt figure it out for the first few
-days that i used it
+days that I used it
 what yadm does is use your home directory as a git repo but doesnt adds anything to the git repo where the .git directory stays is in `~/.local/share/yadm/repo.git/`
 #### Get started
 
 easiest way to get started is make a bare git repo in github or gitlab and do a
-`yadm clone "link of your repo"`
-that will clone the repo in the repo.git that i mentioned above
+`yadm clone "link of your repo"` 
+that will clone the repo in the repo. git that I mentioned above
 aftet that using yadm is just like using git you can do any git command with yadm like `yadm add` or `yadm clone` and all 
 so just add the dotfiles you need to save by doing `yadm add "path of file"`
 than commit by using `yadm commit -am "your message"` and push by using `yadm push`
