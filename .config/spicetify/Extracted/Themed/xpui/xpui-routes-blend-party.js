@@ -1,0 +1,2 @@
+"use strict";(("undefined"!=typeof self?self:global).webpackChunkopen=("undefined"!=typeof self?self:global).webpackChunkopen||[]).push([[4570],{54683:(e,l,n)=>{n.r(l),n.d(l,{default:()=>a});var t=n(38095),s=n(61742),f=n(79953),i=n(4637);const a=()=>(0,i.jsx)(f.u,{title:s.ag.get("blend.only-on-mobile.title"),message:"",children:(0,i.jsx)(t.l,{})})}}]);
+//# sourceMappingURL=xpui-routes-blend-party.js.map

@@ -1,5 +1,6 @@
 local M = {
 	"lewis6991/satellite.nvim",
+	enabled = true,
 	event = { "InsertEnter", "BufReadPre" },
 }
 

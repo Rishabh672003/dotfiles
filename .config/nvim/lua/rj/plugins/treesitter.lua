@@ -5,11 +5,9 @@ local M = {
 		"nvim-treesitter/playground",
 		{
 			"JoosepAlviste/nvim-ts-context-commentstring",
-			event = "VeryLazy",
 		},
 		{
 			"kyazdani42/nvim-web-devicons",
-			event = "VeryLazy",
 			config = function()
 				require("nvim-web-devicons").setup({
 					override = {
@@ -42,6 +40,7 @@ function M.config()
 			"toml",
 			"vim",
 			"vimdoc",
+			"html",
 		}, -- put the language you want in this array
 		-- ensure_installed = "all",
 		sync_install = false, -- install languages synchronously (only applied to `ensure_installed`)

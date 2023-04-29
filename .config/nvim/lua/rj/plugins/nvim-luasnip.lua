@@ -188,6 +188,39 @@ class Test {{
 			)
 		),
 	})
+	ls.add_snippets("rust", {
+		s(
+			"ccc",
+			fmt(
+				[[
+use std::io;
+
+fn solution() {{
+    let mut x = String::new();
+    io::stdin().read_line(&mut x).expect("failed to read line");
+    let x: i32 = x.trim().parse().expect("not an integer");
+    let mut y = String::new();
+    io::stdin().read_line(&mut y).expect("failed to read line");
+    let x: i32 = y.trim().parse().expect("not an integer");
+	{}
+}}
+
+fn main() {{
+    let mut t = String::new();
+    io::stdin().read_line(&mut t).expect("Failed to read line");
+    let mut t: i32 = t.trim().parse().expect("Input not an integer");
+    while t > 0 {{
+        solution();
+        t -= 1;
+    }}
+}}
+			]],
+				{
+					i(1),
+				}
+			)
+		),
+	})
 end
 
 return M

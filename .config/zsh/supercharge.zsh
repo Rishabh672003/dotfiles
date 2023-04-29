@@ -18,9 +18,9 @@ compinit -C
 HISTSIZE=1000000000
 SAVEHIST=1000000000
 
-# setopt hist_expire_dups_first
-# setopt hist_ignore_dups
-# setopt hist_ignore_space
+setopt hist_expire_dups_first
+setopt hist_ignore_dups
+setopt hist_ignore_space
 setopt share_history
 
 # completions

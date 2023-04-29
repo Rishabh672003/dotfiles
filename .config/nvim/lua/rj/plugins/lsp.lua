@@ -15,6 +15,9 @@ return {
 			"toml",
 			"zsh",
 			"rust",
+			"html",
+			"javascript",
+			"typescript",
 		},
 		config = function()
 			require("rj.lsp.lsp-conf")
@@ -47,7 +50,7 @@ return {
 		"j-hui/fidget.nvim",
 		event = "BufReadPre",
 		config = function()
-			require("fidget").setup({})
+			require("fidget").setup()
 		end,
 	},
 }
