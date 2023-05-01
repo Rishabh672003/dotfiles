@@ -196,12 +196,11 @@ class Test {{
 use std::io;
 
 fn solution() {{
-    let mut x = String::new();
-    io::stdin().read_line(&mut x).expect("failed to read line");
-    let x: i32 = x.trim().parse().expect("not an integer");
-    let mut y = String::new();
-    io::stdin().read_line(&mut y).expect("failed to read line");
-    let x: i32 = y.trim().parse().expect("not an integer");
+    let mut input_nums = String::new();
+    io::stdin().read_line(&mut input_nums).expect("failed to read line");
+    let mut iter= input_nums.split_whitespace();
+    let x: i32 = iter.next().unwrap().parse().expect("input not an integer");
+    let y: i32 = iter.next().unwrap().parse().expect("input not an integer");
 	{}
 }}
 

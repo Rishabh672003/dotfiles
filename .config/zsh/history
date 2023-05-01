@@ -36,7 +36,6 @@
 : 1680794289:0;f
 : 1680794291:0;g
 : 1680794292:0;h
-: 1680794294:0;q
 : 1680839814:0;waydroid app install tachiyomi-x86_64-v0.14.5.apk
 : 1680840119:0;wr
 : 1680840124:0;ws
@@ -77,8 +76,6 @@
 : 1680877877:0;aria2c "https://master.dl.sourceforge.net/project/althafvly/los19/lux/lineage-19.0-20220121-UNOFFICIAL-lux.zip?viasf=1"
 : 1680882066:0;bob install 0.9
 : 1680882222:0;cargo install --git=https://github.com/MordechaiHadad/bob
-: 1680882769:0;nv -v
-: 1680883305:0;cd .config
 : 1680883314:0;gh repo clone MickTheRus/nvim-basic-ide
 : 1680883610:0;gh repo clone BitBrigade/nvim-basic-ide
 : 1680885858:0;sudo cat /etc/NetworkManager/system-connections
@@ -194,9 +191,7 @@ git switch --track MickTheRus/lazy
 : 1681304926:0;nv user/which-key.lua
 : 1681305548:0;mkdir new-plug
 : 1681305606:0;mv autopairs.lua better-escape.lua catppuccin.lua colorizer.lua ../../new-plug
-: 1681305676:0;lvim
 : 1681305696:0;cd nvim-basic-ide
-: 1681305776:0;bob use nightly
 : 1681306028:0;mv lua/new-plug lua/rj
 : 1681306280:0;cd plugins
 : 1681306289:0;mv comment.lua ../new-plug
@@ -218,7 +213,6 @@ git switch --track MickTheRus/lazy
 : 1681309984:0;mv plugins/alpha-themes/startup-screen3.lua new-plug
 : 1681310286:0;mv plugins/nvim-luasnip.lua new-plug
 : 1681310453:0;mv plugins/barbecue/barbecue.lua new-plug
-: 1681310817:0;!
 : 1681311071:0;mv plugins/lualine-themes/lualine1.lua new-plug
 : 1681311189:0;mv plugins/cybu.lua new-plug
 : 1681311310:0;mv plugins/indent.lua new-plug
@@ -258,7 +252,6 @@ git switch --track MickTheRus/lazy
 : 1681395079:0;zap clean
 : 1681447921:0;zsh <(curl -s https://raw.githubusercontent.com/zap-zsh/zap/master/install.zsh) --branch release-v1
 : 1681448502:0;time
-: 1681449110:0;yl
 : 1681469832:0;mkdir rust-projects
 : 1681469841:0;mv variables functions rust-projects
 : 1681469846:0;rm -rf learning-rust
@@ -291,7 +284,6 @@ git switch --track MickTheRus/lazy
 : 1681830468:0;nvim init.lua
 : 1681830476:0;lv init.lua
 : 1681830492:0;cd lvim
-: 1681830497:0;mkdir .git
 : 1681830500:0;lv config.lua
 : 1681838189:0;yay oni2
 : 1681838406:0;yay onivim
@@ -303,10 +295,7 @@ git switch --track MickTheRus/lazy
 : 1681905210:0;cd .config/hypr/
 : 1681905213:0;nv hyprland.conf
 : 1681905434:0;cd ru
-: 1681905437:0;cdpp
 : 1681905444:0;nv functions
-: 1681909037:0;killall -9 wpaperd
-: 1681909054:0;swaybg -i ~/Pictures/Wallpapers/download.jpeg
 : 1681918328:0;rm -rf .gitignore
 : 1681918376:0;npm install && npm i -g http-server\
 
@@ -318,7 +307,6 @@ git switch --track MickTheRus/lazy
 : 1681921514:0;rm -rf node_modules
 : 1681921517:0;npm install
 : 1681994574:0;nnv
-: 1681994652:0;nvim
 : 1681998411:0;xo
 : 1681998413:0;cz
 : 1681998440:0;exec zsh
@@ -355,7 +343,6 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1682160777:0;spotify
 : 1682160950:0;cd Pokemon\ GS\ Chronicles
 : 1682160962:0;mv Pokemon\ GS\ Chronicles pokemon-GS-chronicles
-: 1682160965:0;cd pokemon-GS-chronicles
 : 1682160979:0;visualboyadvance-m Pokemon\ GS\ Chronicles\ Beta\ 2\ Build\ 2911192_1.gba
 : 1682161449:0;git clone https://github.com/ronniedroid/getnf.git
 : 1682161462:0;gh pr checkout 17
@@ -396,12 +383,10 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1682409771:0;lf
 : 1682409797:0;cd wall
 : 1682409798:0;kk
-: 1682414719:0;ping 9.9.9.9
 : 1682417416:0;git
 : 1682417781:0;nv src
 : 1682418297:0;hollywood
 : 1682419213:0;/usr/bin/hollywood 
-: 1682419190:0;lll
 : 1682419197:0;nv Cargo.toml
 : 1682477697:0;nmtui
 : 1682496063:0;yay -S tachidesk-sorayomi-bin
@@ -422,7 +407,6 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1682516383:0;cd AppFlowy
 : 1682517267:0;nv openai.zsh
 : 1682517293:0;./AppFlowy
-: 1682521152:0;cd code
 : 1682521174:0;mkdir cc-contest-2023-04-26
 : 1682521180:0;cd cc-contest-2023-04-26
 : 1682521189:0;nv four-tickets.cpp
@@ -456,7 +440,6 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1682668696:0;unzip KaranAhlawat\ dotfiles\ main\ .config-emacs.zip
 : 1682668828:0;cd AniPy
 : 1682691329:0;python main.py
-: 1682691387:0;l
 : 1682691395:0;nv anime_2022-12-30.xml
 : 1682691491:0;git pull
 : 1682691697:0;cd nvim-basic
@@ -485,7 +468,6 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1682693197:0;nbi
 : 1682693273:0;sdr
 : 1682694109:0;cd nvim-
-: 1682694112:0;nv README.md
 : 1682694314:0;sdp
 : 1682696120:0;cd nvim
 : 1682696122:0;nv 
@@ -495,96 +477,144 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1682696697:0;cd test
 : 1682696701:0;nv a.cpp
 : 1682698743:0;rm -rf lineage-19.0-20220121-UNOFFICIAL-lux.zip
-: 1682702737:0;xo .
 : 1682702766:0;xo DOMICILE.jpg
-: 1682736216:0;ys
 : 1682741501:0;gtnv
 : 1682741513:0;bob ls
 : 1682741647:0;lv
-: 1682747680:0;cd projects
 : 1682747724:0;gh repo clone Rishabh672003/Password-management-system
 : 1682747734:0;cd Password-management-system
 : 1682747739:0;xo password\ management\ pps\(1\)\(1\).pptx
 : 1682747862:0;rm -rf Password-management-system
-: 1682754974:0;uneo
-: 1682755027:0;c
 : 1682755186:0;python anipy.py --a
 : 1682756702:0;cd output
-: 1682756719:0;ls
-: 1682756840:0;cd rust
 : 1682756857:0;mv rust-learning rust-projects
-: 1682756860:0;cd rust-projects
 : 1682756866:0;nv rust-learning
 : 1682763804:0;nv rust-learning/Cargo.toml
-: 1682763827:0;cd rust-learning
 : 1682763829:0;cargo build
 : 1682766641:0;dunstify "hello"
 : 1682766655:0;dunstify --help
-: 1682773586:0;nv src/main.rs
 : 1682783862:0;time cargo run
 : 1682785484:0;yay bottles
-: 1682786270:0;yay wine-mono
 : 1682786397:0;cd Pokemon\ Infinity\ 2.3.6
 : 1682786456:0;yay directx
 : 1682786506:0;yay winetricks
 : 1682786513:0;winetricks directx
 : 1682786549:0;yay lutris
-: 1682786667:0;wine Game.exe
 : 1682786998:0;btop
-: 1682787389:0;cdp
-: 1682787392:0;cd Downloads
-: 1682787399:0;cd
 : 1682787402:0;cd Pokemon-games
-: 1682787402:0;ll
 : 1682787406:0;nv pokemon-infinity-236.json
-: 1682789818:0;nv
-: 1682789890:0;e
-: 1682789924:0;cd .config/spicetify
-: 1682789924:0;ll
-: 1682789929:0;cd Themes
-: 1682789930:0;ll
 : 1682789971:0;cp ~/Downloads/yousifm\ dotfiles\ master\ spicetify-Themes.zip .
-: 1682789971:0;ll
 : 1682789976:0;xo .
-: 1682789985:0;ls
 : 1682789988:0;cd yousifm\ dotfiles\ master\ spicetify-Themes
-: 1682789989:0;ll
 : 1682789995:0;mv * ..
-: 1682789996:0;ll
-: 1682789998:0;ls
-: 1682790000:0;cdp
 : 1682790006:0;rm -rf yousifm\ dotfiles\ master\ spicetify-Themes*
-: 1682790008:0;ll
-: 1682790061:0;spicetify config current_theme catppuccin-mocha
-: 1682790067:0;spicetify apply
 : 1682790096:0;spicetify restore backup apply
 : 1682790104:0;spicetify config current_theme catppuccin-mocha
 : 1682790107:0;spicetify apply
-: 1682790169:0;ls
 : 1682790208:0;rm -rf Bloom BurntSienna Default Dreary Dribbblish Glaze Onepunch Turntable Ziro
-: 1682790210:0;ll
-: 1682790211:0;ls
 : 1682790230:0;rm -rf CODE_OF_CONDUCT.md CONTRIBUTING.md LICENSE manifest.json
 : 1682790233:0;nv THEMES.md
 : 1682790250:0;rm -rf THEMES.md
-: 1682790251:0;ls
-: 1682790256:0;cdp
-: 1682790257:0;cd
 : 1682790267:0;nv ~/.config/yadm/yadm.sh
 : 1682790432:0;ping 9.9.9.9
 : 1682790561:0;spicetify config current_theme sleek
 : 1682790567:0;cd .spi
 : 1682790571:0;cd .config/spicetify
-: 1682790572:0;ll
 : 1682790575:0;cd Themes
-: 1682790576:0;l
-: 1682790576:0;ll
 : 1682790584:0;spicetify config current_theme Sleek
 : 1682790586:0;cd Sleek
-: 1682790588:0;ll
 : 1682790595:0;nv user.css
-: 1682790605:0;cdp
-: 1682790608:0;nv README.md
-: 1682790714:0;nvim
 : 1682790870:0;nv README.md
 : 1682790978:0;yl
+: 1682791380:0;cd rust-learning
+: 1682791621:0;l
+: 1682791630:0;nv ~/.config/sway/config
+: 1682791677:0;alacritty
+: 1682791799:0;killall -9 sway
+: 1682826093:0;cd rust
+: 1682826098:0;nv rust-cp
+: 1682826106:0;mkdir rust-cp
+: 1682826226:0;mkdir .git
+: 1682826230:0;nv 1.rs
+: 1682826927:0;rm -rf rust-cp
+: 1682826936:0;cargo new rust-cp
+: 1682826970:0;nv src/main.rs
+: 1682827739:0;cdpp
+: 1682827749:0;mv guessing_game rust-projects
+: 1682827763:0;nv guessing_game/src/main.rs
+: 1682827867:0;cargo run
+: 1682828406:0;q
+: 1682828473:0;winetricks run gmdls
+: 1682828503:0;winetricks list
+: 1682828510:0;winetricks list apps
+: 1682828692:0;cp Pokemon\ Infinity\ 2.3.6 ~/.wine/drive_c/Program\ Files\ \(x86\)/PokemonInfinity
+: 1682828697:0;cp -r Pokemon\ Infinity\ 2.3.6 ~/.wine/drive_c/Program\ Files\ \(x86\)/PokemonInfinity
+: 1682828898:0;yay lib32-pipewire
+: 1682828955:0;yay zenity
+: 1682828985:0;winetricks
+: 1682829077:0;wine Pokemon\ Infinity\ 2.3.6/Game.exe
+: 1682829563:0;yay wine-wayland
+: 1682830004:0;cd Downloads
+: 1682830015:0;pacman -U wineland-8.2-1-x86_64.pkg.tar.zst
+: 1682830019:0;sudo pacman -U wineland-8.2-1-x86_64.pkg.tar.zst
+: 1682830026:0;wineland
+: 1682830462:0;sudo pacman -U wine-wayland-8.2-1-x86_64.pkg.tar.zst
+: 1682830509:0;cd Pokemon-games/Pokemon\ Infinity\ 2.3.6
+: 1682830520:0;wineland Game.exe
+: 1682830577:0;trash-empty
+: 1682835921:0;yay wine-mono
+: 1682835935:0;yay wine
+: 1682835956:0;wine Game.exe
+: 1682836280:0;cd pokemon-GS-chronicles
+: 1682836286:0;lll
+: 1682836314:0;sudo paccache -rk0
+: 1682847737:0;echo $0
+: 1682847773:0;ls
+: 1682847786:0;rm .zshrc_2023-04-14_1681447921 .zshrc_2023-04-26_1682515897
+: 1682851542:0;yay nwg
+: 1682851678:0;nwggrid
+: 1682859906:0;c
+: 1682859907:0;ys
+: 1682860011:0;cd code
+: 1682860018:0;cd rust-projects
+: 1682860021:0;cd rust-cp
+: 1682860030:0;cd target
+: 1682860038:0;cd src
+: 1682860041:0;nv main.rs
+: 1682866621:0;lvim
+: 1682870180:0;cd .config
+: 1682870190:0;git clone https://gitlab.com/vishwanath.tk/nvim.git vishy
+: 1682870238:0;cd vim
+: 1682870242:0;cd vishy
+: 1682870247:0;nv lua/vishy
+: 1682870316:0;NVIM_APPNAME=vishy nvim
+: 1682871100:0;cd .config/vishy
+: 1682871194:0;uneo
+: 1682871243:0;bob use nightly
+: 1682871246:0;nv -v
+: 1682871249:0;nvim
+: 1682871354:0;!
+: 1682871356:0;NVIM_APPNAME=vishy nvim init.lua
+: 1682871429:0;cdp
+: 1682871432:0;rm -rf vishy
+: 1682871451:0;rm -rf ~/.local/share/vishy ~/.cache/vishy
+: 1682871832:0;ll
+: 1682871853:0;killall -9 wpaperd
+: 1682871855:0;nv
+: 1682871874:0;swaybg -i ~/Pictures/Wallpapers/download.jpeg
+: 1682871933:0;cd
+: 1682871940:0;nv eq.py
+: 1682871978:0;cd projects
+: 1682871987:0;python eq.py
+: 1682872125:0;e
+: 1682877770:0;nv /etc/environment
+: 1682877902:0;nv
+: 1682877949:0;c
+: 1682878071:0;nv /etc/environment
+: 1682878203:0;nap
+: 1682878226:0;vs /etc/environment
+: 1682878253:0;nv /etc/environment
+: 1682878452:0;c
+: 1682878465:0;nv
+: 1682910613:0;yel
+: 1682910627:0;yl
