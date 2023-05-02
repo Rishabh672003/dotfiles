@@ -3,6 +3,7 @@ local M = {
 	cmd = "Neotree",
 	branch = "v2.x",
 	event = "BufRead",
+	enabled = false,
 	keys = {
 		{ "<C-\\>", "<cmd>Neotree toggle<cr>", desc = "NeoTree" },
 	},

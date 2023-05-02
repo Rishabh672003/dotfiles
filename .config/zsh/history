@@ -227,7 +227,6 @@ git switch --track MickTheRus/lazy
 : 1681312424:0;mv plugins/navic.lua new-plug
 : 1681312516:0;mv plugins/jaq.lua new-plug
 : 1681312711:0;nv ftplugin
-: 1681312726:0;cd rj
 : 1681312748:0;cd pl
 : 1681312762:0;mv plugins/presence.lua new-plug
 : 1681313053:0;mv plugins/zen-mode.lua new-plug
@@ -248,7 +247,6 @@ git switch --track MickTheRus/lazy
 : 1681388211:0;cd fun
 : 1681395019:0;nvapp 
 : 1681395025:0;nvapp nvim-basic-ide
-: 1681395072:0;zap list
 : 1681395079:0;zap clean
 : 1681447921:0;zsh <(curl -s https://raw.githubusercontent.com/zap-zsh/zap/master/install.zsh) --branch release-v1
 : 1681448502:0;time
@@ -376,7 +374,6 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1682174765:0;cd yt-dl
 : 1682176321:0;mkdir yt-dl-cpp
 : 1682176330:0;cd yt-dl-cpp
-: 1682176340:0;nv main.cpp
 : 1682246128:0;firefox
 : 1682261906:0;killall -9 firefox
 : 1682409769:0;cd nv
@@ -388,13 +385,11 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1682418297:0;hollywood
 : 1682419213:0;/usr/bin/hollywood 
 : 1682419197:0;nv Cargo.toml
-: 1682477697:0;nmtui
 : 1682496063:0;yay -S tachidesk-sorayomi-bin
 : 1682514325:0;yay
 : 1682514954:0;spicetify backup restore apply
 : 1682515805:0;rm -rf ~/.local/share/zap
 : 1682516004:0;zap
-: 1682516007:0;nap
 : 1682516046:0;for i in $(seq 1 10); do time zsh -i -c exit
 : 1682516050:0;time zsh -i -c exit
 : 1682516086:0;.local/share/zap/plugins
@@ -414,7 +409,6 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1682524190:0;nv ab-plus-c.cpp
 : 1682530883:0;nv a.java
 : 1682601498:0;nr
-: 1682611580:0;we
 : 1682616013:0;rustup install rust-analyzer
 : 1682616075:0;rust-analyzer
 : 1682616183:0;curl -L https://github.com/rust-lang/rust-analyzer/releases/latest/download/rust-analyzer-x86_64-unknown-linux-gnu.gz | gunzip -c - > ~/.local/bin/rust-analyzer
@@ -453,7 +447,6 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1682692261:0;cd settings
 : 1682692290:0;cd utils
 : 1682692377:0;cd lu
-: 1682692385:0;cd lua
 : 1682692386:0;llll
 : 1682692395:0;cp ~/.config/nvim/lua/rj/lsp/diagnostic.lua .
 : 1682692401:0;nv init.lua
@@ -479,7 +472,6 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1682698743:0;rm -rf lineage-19.0-20220121-UNOFFICIAL-lux.zip
 : 1682702766:0;xo DOMICILE.jpg
 : 1682741501:0;gtnv
-: 1682741513:0;bob ls
 : 1682741647:0;lv
 : 1682747724:0;gh repo clone Rishabh672003/Password-management-system
 : 1682747734:0;cd Password-management-system
@@ -492,7 +484,6 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1682763804:0;nv rust-learning/Cargo.toml
 : 1682763829:0;cargo build
 : 1682766641:0;dunstify "hello"
-: 1682766655:0;dunstify --help
 : 1682783862:0;time cargo run
 : 1682785484:0;yay bottles
 : 1682786397:0;cd Pokemon\ Infinity\ 2.3.6
@@ -525,7 +516,6 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1682790586:0;cd Sleek
 : 1682790595:0;nv user.css
 : 1682790870:0;nv README.md
-: 1682790978:0;yl
 : 1682791380:0;cd rust-learning
 : 1682791621:0;l
 : 1682791630:0;nv ~/.config/sway/config
@@ -569,12 +559,9 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1682836286:0;lll
 : 1682836314:0;sudo paccache -rk0
 : 1682847737:0;echo $0
-: 1682847773:0;ls
 : 1682847786:0;rm .zshrc_2023-04-14_1681447921 .zshrc_2023-04-26_1682515897
 : 1682851542:0;yay nwg
 : 1682851678:0;nwggrid
-: 1682859906:0;c
-: 1682859907:0;ys
 : 1682860011:0;cd code
 : 1682860018:0;cd rust-projects
 : 1682860021:0;cd rust-cp
@@ -589,32 +576,87 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1682870247:0;nv lua/vishy
 : 1682870316:0;NVIM_APPNAME=vishy nvim
 : 1682871100:0;cd .config/vishy
-: 1682871194:0;uneo
 : 1682871243:0;bob use nightly
 : 1682871246:0;nv -v
 : 1682871249:0;nvim
 : 1682871354:0;!
 : 1682871356:0;NVIM_APPNAME=vishy nvim init.lua
-: 1682871429:0;cdp
 : 1682871432:0;rm -rf vishy
 : 1682871451:0;rm -rf ~/.local/share/vishy ~/.cache/vishy
-: 1682871832:0;ll
 : 1682871853:0;killall -9 wpaperd
-: 1682871855:0;nv
 : 1682871874:0;swaybg -i ~/Pictures/Wallpapers/download.jpeg
 : 1682871933:0;cd
 : 1682871940:0;nv eq.py
-: 1682871978:0;cd projects
 : 1682871987:0;python eq.py
-: 1682872125:0;e
-: 1682877770:0;nv /etc/environment
-: 1682877902:0;nv
-: 1682877949:0;c
-: 1682878071:0;nv /etc/environment
-: 1682878203:0;nap
 : 1682878226:0;vs /etc/environment
 : 1682878253:0;nv /etc/environment
-: 1682878452:0;c
-: 1682878465:0;nv
 : 1682910613:0;yel
 : 1682910627:0;yl
+: 1682911090:0;yay fvim
+: 1682911408:0;yay -Rns fvim
+: 1682911416:0;yay -Rns fvim-bin
+: 1682911450:0;bob ls
+: 1682911458:0;cd .l
+: 1682911465:0;cd share/bob
+: 1682911480:0;rm -rf nightly-*
+: 1682911484:0;ls
+: 1682911510:0;cd .config/bob
+: 1682911513:0;nv config.json
+: 1682920569:0;killall -9 FVim
+: 1682927032:0;cd .config/dunst
+: 1682927040:0;mv dunstrc dunstrc2
+: 1682927045:0;nv dunstrc
+: 1682927075:0;dunstify "hi"
+: 1682927083:0;dunstify -c low "hi"
+: 1682927089:0;dunstify --help
+: 1682927114:0;dunstify -u=critical "hi"
+: 1682927119:0;dunstify -u critical "hi"
+: 1682927132:0;rm -rf dunstrc
+: 1682927136:0;mv dunstrc2 dunstrc
+: 1682927138:0;killall -9 dunst
+: 1682927141:0;dunst
+: 1682927627:0;uneo
+: 1682937491:0;uptime
+: 1682963419:0;c
+: 1682963421:0;ys
+: 1682964625:0;mkdir password
+: 1682964628:0;cd password
+: 1682964640:0;nv main.cpp
+: 1683004708:0;nmtui
+: 1683014373:0;zap list
+: 1683014379:0;zap update
+: 1683023241:0;we
+: 1683037351:0;cd lua
+: 1683037354:0;cd rj
+: 1683037364:0;mv plugins/alpha.lua plugins
+: 1683037374:0;mv plugins/alpha.lua user
+: 1683037384:0;nv
+: 1683039715:0;curl -LSsf https://www.nytimes.com/2023/05/01/technology/ai-google-chatbot-engineer-quits-hinton.html | w3m -dump -T text/html - | less
+: 1683039735:0;curl -LSsf https://www.nytimes.com/2023/05/01/technology/ai-google-chatbot-engineer-quits-hinton.html | w3m -dump -T text/html - | bat
+: 1683039817:0;cd projects && git clone https://github.com/LunarVim/nvim-basic-ide.wiki.git
+: 1683039825:0;cd nvim-basic-ide.wiki
+: 1683039826:0;ll
+: 1683039978:0;cdp
+: 1683039981:0;nv ex.sh
+: 1683039997:0;cd projects
+: 1683040000:0;sh ex.sh
+: 1683040076:0;nap
+: 1683040115:0;e
+: 1683040163:0;cp ex.sh ~/.config/hypr/scripts/exam-reminder.sh
+: 1683040166:0;cd hypr
+: 1683040167:0;ll
+: 1683040171:0;cd
+: 1683040173:0;cd hypr
+: 1683040174:0;ll
+: 1683040177:0;cd sr
+: 1683040180:0;cd
+: 1683040183:0;cd hypr
+: 1683040184:0;ll
+: 1683040187:0;cd scripts
+: 1683040188:0;ll
+: 1683040201:0;chmod +x exam-reminder.sh
+: 1683040202:0;ll
+: 1683040204:0;c
+: 1683040205:0;cd
+: 1683040205:0;c
+: 1683040207:0;yl
