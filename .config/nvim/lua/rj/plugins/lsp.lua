@@ -17,7 +17,9 @@ return {
 			"rust",
 			"html",
 			"javascript",
+			"javascriptreact",
 			"typescript",
+			"python",
 		},
 		config = function()
 			require("rj.lsp.lsp-conf")
@@ -48,7 +50,7 @@ return {
 	},
 	{
 		"j-hui/fidget.nvim",
-		event = "BufReadPre",
+		event = "BufEnter",
 		config = function()
 			require("fidget").setup()
 		end,
