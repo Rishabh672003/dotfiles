@@ -15,12 +15,12 @@ local M = {
 			"L3MON4D3/LuaSnip",
 			"rafamadriz/friendly-snippets",
 		},
-		-- {
-		-- 	"jcdickinson/codeium.nvim",
-		-- 	config = function()
-		-- 		require("codeium").setup({})
-		-- 	end,
-		-- },
+		{
+			"jcdickinson/codeium.nvim",
+			config = function()
+				require("codeium").setup({})
+			end,
+		},
 	},
 }
 
@@ -173,7 +173,7 @@ function M.config()
 			},
 		},
 		experimental = {
-			ghost_text = true,
+			-- ghost_text = true,
 		},
 	})
 end
