@@ -1271,3 +1271,8 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1684847112:0;killall -9 waybar
 : 1684847116:0;waybar
 : 1684847291:0;yl
+: 1684847307:0;cd .con
+: 1684847311:0;cd zsh
+: 1684847312:0;ll
+: 1684847317:0;rm mpv-shot0001.jpg
+: 1684847319:0;yl
