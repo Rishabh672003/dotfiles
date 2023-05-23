@@ -49,7 +49,7 @@
     // "format-icons": {
     //   "1": "",
     //   "2": "",
-    //   "3": "ﭮ",
+    //   "3": "󰙯",
     //   "4": "",
     //   "5": "",
     //   "6": "",
@@ -76,15 +76,15 @@
     "return-type": "json",
     "interval": 3,
     "format-icons": [
-      "﯈",
-      ""
+      "󰛊",
+      "󰅶"
     ],
     "format": "{icon}"
   },
   "custom/updates": {
     "exec": "(checkupdates ; paru -Qua) | wc -l",
     "interval": 12000,
-    "format": " {}",
+    "format": "󰇚 {}",
     "on-click": "wezterm start yay -Syu --noconfirm --devel"
   },
   "tray": {
@@ -97,9 +97,9 @@
     "device": "intel_backlight",
     "format": "{icon} {percent}%",
     "format-icons": [
-      "",
-      "",
-      ""
+      "󰃞",
+      "󰃟",
+      "󰃠"
     ],
     "on-scroll-up": "brightnessctl set 1%+",
     "on-scroll-down": "brightnessctl set 1%-",
@@ -116,17 +116,17 @@
     "format-plugged": " {capacity}%",
     "format-alt": "{time} {icon}",
     "format-icons": [
-      "CHARGE-IMMEDIATELY-NOW ",
-      "Charge-immediately ",
-      "Charge-quickly ",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "CHARGE-IMMEDIATELY-NOW 󰂎",
+      "Charge-immediately 󰁺",
+      "Charge-quickly 󰁻",
+      "󰁼",
+      "󰁽",
+      "󰁾",
+      "󰁿",
+      "󰂀",
+      "󰂁",
+      "󰂂",
+      "󰁹"
     ]
   },
   "clock": {
@@ -135,10 +135,10 @@
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
   },
   "network": {
-    "format-wifi": "直 {essid}",
-    "format-ethernet": " {essid}",
-    "format-linked": "{ifname} (No IP) ",
-    "format-disconnected": "睊 Disc.",
+    "format-wifi": "󰖩 {essid}",
+    "format-ethernet": "󰈀 {essid}",
+    "format-linked": "{ifname} (No IP) 󰊗",
+    "format-disconnected": "󰖪 Disc.",
     "tooltip-format-wifi": "Signal Strenght: {signalStrength}% | Down Speed: {bandwidthDownBits}, Up Speed: {bandwidthUpBits}",
     // "on-click": "wofi-wifi-menu",
     "on-click": "alacritty -e nmtui"
@@ -157,7 +157,7 @@
   },
   "pulseaudio": {
     "format": "{icon} {volume}%",
-    "format-muted": "ﱝ Muted",
+    "format-muted": "󰝟 Muted",
     "on-click": "~/.config/hypr/scripts/volume_ctl.sh",
     "scroll-step": 1,
     "format-icons": {
@@ -170,7 +170,7 @@
       "default": [
         "",
         "",
-        "墳",
+        "󰕾",
         ""
       ]
     }
