@@ -1240,3 +1240,36 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1685246849:0;ls
 : 1685246851:0;cd
 : 1685246853:0;yl
+: 1685247087:0;nv .config/yadm
+: 1685247103:0;cd nvim
+: 1685247103:0;ll
+: 1685247105:0;cdp
+: 1685247120:0;git clone https://github.com/Rishabh672003/Neovim ~/.config/nvim && nvim
+: 1685247136:0;yadm add ~/README.md;\
+yadm add ~/.config/alacritty;\
+yadm add ~/.config/btop;\
+yadm add ~/.config/fish;\
+yadm add ~/.config/contour;\
+yadm add ~/.config/helix;\
+yadm add ~/.config/hypr;\
+yadm add ~/.config/kitty;\
+yadm add ~/.config/lvim;\
+yadm add ~/.config/mpv;\
+yadm add ~/.config/neofetch;\
+yadm add ~/.config/nvim;\
+yadm add ~/.config/rofi;\
+yadm add ~/.config/shellfetch;\
+yadm add ~/.config/sway;\
+yadm add ~/.config/tmux;\
+yadm add ~/.config/vim;\
+yadm add ~/.config/waybar;\
+yadm add ~/.config/wezterm;\
+yadm add ~/.config/wofi;\
+yadm add ~/.config/zsh;\
+yadm add ~/.config/wpaperd;\
+yadm add ~/.config/yadm;\
+yadm add ~/.config/spicetify;\
+yadm add ~/other-stuff;
+: 1685247145:0;yadm status
+: 1685247159:0;yadm commit -a -m "update";\
+
