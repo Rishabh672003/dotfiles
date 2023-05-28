@@ -1273,3 +1273,8 @@ yadm add ~/other-stuff;
 : 1685247145:0;yadm status
 : 1685247159:0;yadm commit -a -m "update";\
 
+: 1685247166:0;yadm push
+: 1685247195:0;ani-cli Hunter X Hunter
+: 1685247826:0;yadm status
+: 1685247902:0;yadm enter
+: 1685248132:0;yl
