@@ -7,10 +7,10 @@ configuration{
     location: 0;
     disable-history: false;
     hide-scrollbar: true;
-    display-drun: "   Apps ";
+    display-drun: " 󰀻 Apps ";
     display-run: "   Run ";
     display-emoji: " Emoji ";
-    display-window: " 﩯  Window";
+    display-window: " 󰕰  Window";
     display-Network: " 󰤨  Network";
     display-filebrowser: "  Filebrowser";
     sidebar-mode: true;

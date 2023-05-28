@@ -32,8 +32,8 @@
     "all-outputs": true,
     "on-click": "activate",
     "format": "{icon}",
-    // "on-scroll-up": "hyprctl dispatch workspace e+1",
-    // "on-scroll-down": "hyprctl dispatch workspace e-1",
+    "on-scroll-down": "hyprctl dispatch workspace e+1",
+    "on-scroll-up": "hyprctl dispatch workspace e-1",
     "persistent_workspaces": {
       "01": [],
       "02": [],
@@ -45,7 +45,7 @@
       "08": [],
       "09": [],
       "10": []
-    },
+    }
     // "format-icons": {
     //   "1": "",
     //   "2": "",
@@ -82,7 +82,7 @@
     "format": "{icon}"
   },
   "custom/updates": {
-    "exec": "(checkupdates ; paru -Qua) | wc -l",
+    "exec": "(checkupdates ; yay -Qua) | wc -l",
     "interval": 12000,
     "format": "󰇚 {}",
     "on-click": "wezterm start yay -Syu --noconfirm --devel"
@@ -146,7 +146,7 @@
   "cpu": {
     "on-click": "",
     "interval": 10,
-    "format": " {}%",
+    "format": " {}%"
     // "max-length": 10
   },
   "memory": {

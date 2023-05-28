@@ -21,4 +21,4 @@ swaylock \
     --inside-wrong-color f38ba8 \
     --inside-clear-color a6e3a1 \
     --indicator-caps-lock \
-    --image ~/Pictures/Wallpapers/ttednp43o5c51.jpg
+    --image ~/Pictures/Wallpapers/cat_fish.png

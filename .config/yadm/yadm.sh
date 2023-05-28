@@ -5,6 +5,7 @@ yadm add ~/README.md;
 yadm add ~/.config/alacritty;
 yadm add ~/.config/btop;
 yadm add ~/.config/fish;
+yadm add ~/.config/contour;
 yadm add ~/.config/helix;
 yadm add ~/.config/hypr;
 yadm add ~/.config/kitty;

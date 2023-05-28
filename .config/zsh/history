@@ -64,7 +64,6 @@
 : 1680865353:0;npm --help
 : 1680865628:0;http-server ./game.html
 : 1680870043:0;neovide
-: 1680870687:0;rm -rf ~/.local/share/nvim/lazy
 : 1680877869:0;aria2c https://master.dl.sourceforge.net/project/althafvly/los19/lux/lineage-19.0-20220121-UNOFFICIAL-lux.zip?viasf=1
 : 1680877877:0;aria2c "https://master.dl.sourceforge.net/project/althafvly/los19/lux/lineage-19.0-20220121-UNOFFICIAL-lux.zip?viasf=1"
 : 1680882066:0;bob install 0.9
@@ -113,7 +112,6 @@
 : 1681063721:0;rm -rf home
 : 1681063735:0;rm -rf desmume-0.9.13*
 : 1681063741:0;rm -rf a.log
-: 1681064296:0;hx
 : 1681064396:0;hx --help
 : 1681126428:0;mv APznzabrhMPpFtr1ja_dc8pMJCDYoydiLfCpyegEC7vqBHL1jela3NzOUcblUO7nGfLjvdFcdKAiHv2SuzRQbvRHL0gFZGbD7Bz-qZLRO0hEgoLdGc7lMyYOzln4GxcA_T7SZ0bFCNRJQUM2IoB0zu91J1sXkDYS_DC4pwRTi2t44zmgjl44wPb7Yq0rgnKljk0eNijMaKKUbgPHu1pk4sCDM.pdf BEE-EXPT-3.pdf
 : 1681128778:0;nv a.md
@@ -123,12 +121,10 @@
 : 1681130851:0;cd .config/gtk-4.0
 : 1681135159:0;cd .themes
 : 1681135164:0;rm -rf .themes
-: 1681139800:0;rsss
 : 1681140928:0;rm -rf nvim.appimage nvim-linux64
 : 1681140957:0;gh pr checkout 9
 : 1681230598:0;yay showmethekey
 : 1681230703:0;showkey
-: 1681230719:0;showmethekey
 : 1681285640:0;nvim --clean
 : 1681286788:0;sep
 : 1681286795:0;srp
@@ -180,7 +176,6 @@ git switch --track MickTheRus/lazy
 : 1681305606:0;mv autopairs.lua better-escape.lua catppuccin.lua colorizer.lua ../../new-plug
 : 1681305696:0;cd nvim-basic-ide
 : 1681306028:0;mv lua/new-plug lua/rj
-: 1681306280:0;cd plugins
 : 1681306289:0;mv comment.lua ../new-plug
 : 1681306297:0;nbi 
 : 1681307052:0;cd nvim-bas
@@ -213,7 +208,6 @@ git switch --track MickTheRus/lazy
 : 1681312424:0;mv plugins/navic.lua new-plug
 : 1681312516:0;mv plugins/jaq.lua new-plug
 : 1681312711:0;nv ftplugin
-: 1681312748:0;cd pl
 : 1681312762:0;mv plugins/presence.lua new-plug
 : 1681313053:0;mv plugins/zen-mode.lua new-plug
 : 1681313090:0;mv plugins Usefull-stuff
@@ -224,7 +218,6 @@ git switch --track MickTheRus/lazy
 : 1681314445:0;yay -Cc
 : 1681314459:0;bash
 : 1681321857:0;kitty
-: 1681321857:0;exit
 : 1681321853:0;mv noice.lua lua/rj/plugins
 : 1681388211:0;cd fun
 : 1681395019:0;nvapp 
@@ -256,7 +249,6 @@ git switch --track MickTheRus/lazy
 : 1681667278:0;go clean
 : 1681667349:0;go install github.com/maaslalani/nap@main
 : 1681735201:0;cd ga
-: 1681827687:0;speedtest
 : 1681830127:0;sh ~/.local/share/lunarvim/lvim/utils/installer/uninstall.sh
 : 1681830159:0;bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh)
 : 1681830296:0;lvim init.lua
@@ -267,7 +259,6 @@ git switch --track MickTheRus/lazy
 : 1681838406:0;yay onivim
 : 1681839299:0;yay -R onivim2-bin
 : 1681902392:0;wpaperd
-: 1681903955:0;nv index.norg
 : 1681905154:0;cd .config/kitty/kitty-themes
 : 1681905210:0;cd .config/hypr/
 : 1681905213:0;nv hyprland.conf
@@ -327,7 +318,6 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1682165382:0;rofi -show drun
 : 1682165512:0;nwg-dock-hyprland -d
 : 1682165978:0;cd .config/alacritty
-: 1682165982:0;nv alacritty.yml
 : 1682167008:0;nv a.rasi
 : 1682167026:0;cd gtnf
 : 1682167031:0;cd getnf
@@ -345,8 +335,6 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1682174765:0;cd yt-dl
 : 1682176321:0;mkdir yt-dl-cpp
 : 1682176330:0;cd yt-dl-cpp
-: 1682409769:0;cd nv
-: 1682409771:0;lf
 : 1682409797:0;cd wall
 : 1682409798:0;kk
 : 1682417416:0;git
@@ -354,7 +342,6 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1682418297:0;hollywood
 : 1682419213:0;/usr/bin/hollywood 
 : 1682496063:0;yay -S tachidesk-sorayomi-bin
-: 1682514325:0;yay
 : 1682514954:0;spicetify backup restore apply
 : 1682515805:0;rm -rf ~/.local/share/zap
 : 1682516004:0;zap
@@ -406,7 +393,6 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1682692117:0;emacs
 : 1682692136:0;emacs-28.2
 : 1682692251:0;cd lua/utils
-: 1682692261:0;cd settings
 : 1682692290:0;cd utils
 : 1682692377:0;cd lu
 : 1682692395:0;cp ~/.config/nvim/lua/rj/lsp/diagnostic.lua .
@@ -462,7 +448,6 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1682791799:0;killall -9 sway
 : 1682826098:0;nv rust-cp
 : 1682826106:0;mkdir rust-cp
-: 1682826226:0;mkdir .git
 : 1682826230:0;nv 1.rs
 : 1682826927:0;rm -rf rust-cp
 : 1682826936:0;cargo new rust-cp
@@ -490,7 +475,6 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1682835935:0;yay wine
 : 1682835956:0;wine Game.exe
 : 1682836280:0;cd pokemon-GS-chronicles
-: 1682836314:0;sudo paccache -rk0
 : 1682847737:0;echo $0
 : 1682847786:0;rm .zshrc_2023-04-14_1681447921 .zshrc_2023-04-26_1682515897
 : 1682851542:0;yay nwg
@@ -539,8 +523,6 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1682964640:0;nv main.cpp
 : 1683004708:0;nmtui
 : 1683014373:0;zap list
-: 1683037351:0;cd lua
-: 1683037354:0;cd rj
 : 1683037364:0;mv plugins/alpha.lua plugins
 : 1683037374:0;mv plugins/alpha.lua user
 : 1683039715:0;curl -LSsf https://www.nytimes.com/2023/05/01/technology/ai-google-chatbot-engineer-quits-hinton.html | w3m -dump -T text/html - | less
@@ -550,11 +532,8 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1683040000:0;sh ex.sh
 : 1683040163:0;cp ex.sh ~/.config/hypr/scripts/exam-reminder.sh
 : 1683040177:0;cd sr
-: 1683040183:0;cd hypr
-: 1683040187:0;cd scripts
 : 1683040201:0;chmod +x exam-reminder.sh
 : 1683044246:0;cd projects/rust-projects/rust-learning
-: 1683044658:0;cd lua/user
 : 1683044661:0;nv bufferline.lua
 : 1683050189:0;waydroid app install Downloads/AuroraStore_4.1.1.apk
 : 1683050399:0;waydroid app install Downloads/Telegram.apk
@@ -583,7 +562,6 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1683254270:0;git clone https://github.com/LunarVim/nvim-basic-ide.git
 : 1683255293:0;yay -R wineland python-jarowinkler
 : 1683256959:0;npm uninstall vstls
-: 1683264238:0;cali
 : 1683264269:0;systemctl status waydroid-container.service
 : 1683264305:0;hyprctl status
 : 1683264340:0;hyprctl list 
@@ -662,7 +640,6 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1683292118:0;waydroid app install firefox-111-0.apk
 : 1683292136:0;waydroid app install fenix-113.0b9-x86_64.apk
 : 1683292205:0;waydroid app install Telegram.apk
-: 1683292902:0;cdpp
 : 1683292906:0;cd nvim-basic-ide.wiki
 : 1683298646:0;stylua *.lua
 : 1683299292:0;mkdir -p ~/apks && mv *.apk ~/apks
@@ -744,7 +721,6 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1683350822:0;ls ~/.local/bin
 : 1683350831:0;rust-analyzer
 : 1683357384:0;yay amberol
-: 1683357845:0;cd waybar
 : 1683357848:0;nv style.css
 : 1683360092:0;yay evince
 : 1683366494:0;cd rust-cp
@@ -763,7 +739,6 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1683384529:0;cd One-Pace
 : 1683386969:0;one
 : 1683394162:0;bob use 0.9
-: 1683394502:0;cd guessing_game
 : 1683394507:0;cd src
 : 1683394714:0;r
 : 1683394737:0;nv main2.rs
@@ -780,7 +755,6 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1683432565:0;cd ~/.local/share/appl
 : 1683432612:0;nv /usr/share/applications/vscodium.desktop
 : 1683432899:0;nv a.json
-: 1683432977:0;nv a.hs
 : 1683441005:0;nv completion.md
 : 1683445575:0;ani-cli one piece
 : 1683446291:0;cd pro
@@ -789,7 +763,6 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1683460192:0;gh repo clone BitBrigade/Tim-E-Scape
 : 1683460196:0;cd Tim-E-Scape
 : 1683482180:0;nv .
-: 1683482879:0;cd code
 : 1683482882:0;nv albo.out
 : 1683482888:0;nv app.cpp
 : 1683520425:0;cd /mnt/windows
@@ -797,7 +770,6 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1683520450:0;fd apple
 : 1683520495:0;cp AppData/Local/Temp/apple-tree.docx ~/Documents
 : 1683520509:0;xo apple-tree.docx
-: 1683564792:0;yay marksman
 : 1683564960:0;yay proselint
 : 1683565065:0;pip install proselint -g
 : 1683565070:0;pip install proselint
@@ -805,13 +777,10 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1683652987:0;nv functions/src/main.rs
 : 1683724765:0;rm -rf $HOME/.config/nvim $HOME/.local/share/nvim $HOME/.cache/nvim
 : 1683724780:0;git clone https://github.com/Rishabh672003/Neovim ~/.config/nvim && nvim
-: 1683724932:0;cd rust-learning
 : 1683731176:0;mkdir rs-code
 : 1683731192:0;nv main.rs
 : 1683731206:0;rm -rf rs-code
 : 1683731213:0;cargo new rs-code
-: 1683731216:0;cd rs-code
-: 1683739183:0;cd rust
 : 1683739189:0;cargo new rand
 : 1683898320:0;qalculate-gtk
 : 1683898489:0;firefox --private-window
@@ -820,12 +789,8 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1683900880:0;yay -Rns hyprpicker-git
 : 1683900892:0;yay hyprpicker
 : 1683901132:0;yay hyprland
-: 1683904659:0;cd lua/rj/plugins
-: 1683904769:0;nv alpha.lua
-: 1683905006:0;nv lsp.lua
 : 1683905150:0;rm -rf alpha.lua lsp.lua
 : 1683905158:0;rm neorg.lua
-: 1683905192:0;rm -rf *
 : 1683905213:0;rm better-escape.lua
 : 1683905228:0;rm catppuccin.lua
 : 1683905238:0;rm colorizer.lua
@@ -834,24 +799,18 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1683905282:0;rm cybu.lua
 : 1683905299:0;rm fix-cursorhold.lua
 : 1683905317:0;rm flatten.lua
-: 1683905700:0;cd zsh
 : 1683905706:0;nv .p10k.zsh
-: 1683905806:0;nap
 : 1683905848:0;bob use .gtkrc-2.0
 : 1683910562:0;lv
 : 1683912410:0;echo !
 : 1683912414:0;echo *
 : 1683912433:0;echo **
 : 1683912716:0;llll
-: 1683912733:0;nvim -v
-: 1683912742:0;bob use stable
 : 1683912749:0;bob ls
 : 1683913772:0;nv a
 : 1683945188:0;history | fzf | sed -E 's/^[[:space:]]*[0-9]+//' | sh
-: 1683945529:0;lll
 : 1683947146:0;killall -9 nwg-dock-hyprland
 : 1683947661:0;gdb ~/.local/bin/black
-: 1683947919:0;cd notes
 : 1683947924:0;nv IE.md
 : 1683958287:0;cd cppro
 : 1683958291:0;nv game.cpp
@@ -902,15 +861,10 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1684080752:0;p
 : 1684085844:0;cd ru
 : 1684085848:0;cd rand
-: 1684085851:0;nv src/main.rs
 : 1684086124:0;which nvim
 : 1684086452:0;cd lua/rj
 : 1684086457:0;nv vscode.lua
-: 1684087371:0;cd nvim
-: 1684149426:0;uneo
-: 1684149463:0;bob use nightly
 : 1684240587:0;yay rofi-lbonn-wayland-git
-: 1684291999:0;firefox
 : 1684334516:0;pandoc a.tex -o latex.pdf
 : 1684334560:0;nv a.tex
 : 1684334569:0;pdflatex a.tex
@@ -928,11 +882,8 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1684516731:0;nv a.zsh
 : 1684516766:0;nbi a.zsh
 : 1684516809:0;nb
-: 1684516901:0;sdr
 : 1684517125:0;rm -rf ~/.local/share/nvim-basic-ide ~/.cache/nvim-basic-ide
-: 1684550726:0;yl
 : 1684568449:0;less apks
-: 1684568473:0;cd projects
 : 1684568493:0;cd .config
 : 1684568506:0;mv zsh zsh.old2
 : 1684568729:0;ls .bash_profile
@@ -945,7 +896,6 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1684570532:0;mv Pokemon-games /mnt/windows/Users/jhari
 : 1684570643:0;btop
 : 1684575255:0;ping 9.9.9.9
-: 1684580192:0;bob use 0.9.0
 : 1684580405:0;rm -rf ~/.cache/fontconfig
 : 1684580543:0;ani-cli a silent voice
 : 1684580593:0;ani-cli highschool babysitter
@@ -961,15 +911,11 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1684604105:0;nv electron19-flags.conf
 : 1684604185:0;spotify --force-device-scale-factor=1.4 --uri=%U --enable-features=UseOzonePlatform --ozone-platform=wayland
 : 1684604340:0;discord --enable-features=UseOzonePlatform --ozone-platform=wayland
-: 1684604361:0;hyprctl clients
 : 1684604894:0;cd Telegram\ Desktop
 : 1684604919:0;xo photo_2023-05-20_23-17-40.jpg
 : 1684604937:0;swaybg -i photo_2023-05-20_23-17-40.jpg
 : 1684604978:0;ysss
 : 1684604980:0;yss
-: 1684604986:0;ys
-: 1684605121:0;cd other-stuff
-: 1684605136:0;cd mirrors-and-hosts
 : 1684605141:0;nv rate-mirrors-arch.sh
 : 1684635327:0;cd lv
 : 1684635603:0;nv lessfilter.sh
@@ -982,24 +928,17 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1684635730:0;./lessfilter.sh aliases.zsh
 : 1684635736:0;./lessfilter.sh ../alacritty
 : 1684635748:0;./lessfilter.sh ../../Applications
-: 1684635810:0;cz
 : 1684635991:0;rm -rf ~/.lessfilter
 : 1684636001:0;cd .config/zsh
 : 1684636007:0;yel
 : 1684636286:0;less aliases.zsh
-: 1684636552:0;nv .lessfilter
-: 1684636869:0;nr
 : 1684637174:0;ani-cli -q 1080p one piece
 : 1684649068:0;eval "$(zoxide init zsh)"
 : 1684649572:0;\ls
 : 1684649575:0;\exa
 : 1684660632:0;wtr
-: 1684660677:0;c
-: 1684663390:0;killall -9 firefox
-: 1684667737:0;ani-cli -q 1080p hunter
 : 1684676413:0;gh pr checkout 130
 : 1684676584:0;gh pr checkout 129
-: 1684677800:0;nv init.lua
 : 1684677826:0;yay -R ttf-jetbrains-mono
 : 1684677877:0;rm -rf /usr/share/fonts/JetBrains\ Mono*
 : 1684677881:0;sudo rm -rf /usr/share/fonts/JetBrains\ Mono*
@@ -1008,18 +947,14 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1684678000:0;rm -rf ~/.local/share/fonts
 : 1684678026:0;cd /usr/share/fonts
 : 1684678046:0;getnf
-: 1684678223:0;mv JetBrainsMono ~/.local/share/fonts
 : 1684678250:0;nvim init.lua
-: 1684680857:0;nv a.lua
 : 1684681058:0;dunstctl is-paused
 : 1684681062:0;dunstctl "hi"
 : 1684681067:0;dunstctl hi
 : 1684681567:0;dunstify -u critical "hi"
 : 1684683232:0;spicetify restore backup apply
 : 1684690293:0;mv ~/Documents/JetBrainsMono ~/.local/share/fonts
-: 1684691820:0;we
 : 1684764128:0;sudo pacman -Syu "pacman>=6.0.2-7"
-: 1684764740:0;exec zsh
 : 1684764826:0;cp /etc/pacman.conf projects
 : 1684764828:0;pacdiff
 : 1684764841:0;sudo pacdiff
@@ -1028,251 +963,280 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1684764959:0;vs /etc/pacman.conf
 : 1684764973:0;sudo pacman -Syyuu
 : 1684765447:0;yay linux
-: 1684765494:0;rs
-: 1684765504:0;rss
 : 1684765920:0;cargo install --git https://github.com/loichyan/nerdfix.git
-: 1684766201:0;cd
 : 1684766206:0;cd .config/nvim-basic-ide
 : 1684766215:0;cd nvim/lua/rj/plugins
 : 1684766225:0;nerdfix
 : 1684766235:0;nerdfix nvim-cmp.lua
 : 1684766287:0;nerdfix check nvim-cmp.lua
 : 1684766308:0;nerdfix fix nvim-cmp.lua
-: 1684766441:0;cd Documents
-: 1684766445:0;cdp
-: 1684766447:0;cd Downloads
 : 1684766482:0;mv ~/Downloads/JetBrainsMono ~/.local/share/fonts/
-: 1684766533:0;cd nvim-
-: 1684766551:0;nvim
-: 1684766597:0;lg
-: 1684766605:0;rm -rf ~/.local/share/fonts/JetBrainsMono
-: 1684766614:0;cd docu
-: 1684766614:0;ll
-: 1684766618:0;xo .
 : 1684766636:0;mv ~/Documents/JetBrainsMono ~/.local/share/fonts/
-: 1684766638:0;fc-cache -f -v
-: 1684766645:0;ls
-: 1684766647:0;nbi
-: 1684766652:0;nv
-: 1684766663:0;e
-: 1684766665:0;ls
-: 1684766666:0;nbi
-: 1684766672:0;nv
 : 1684766677:0;nvim
-: 1684766691:0;nv
-: 1684766705:0;cd nvim-
-: 1684766706:0;ll
-: 1684766708:0;lg
-: 1684766867:0;cd
-: 1684766871:0;cd nvim-
-: 1684766874:0;nbi
-: 1684766902:0;cd lua/user
-: 1684766903:0;ll
 : 1684766912:0;nerdfix fix lsp.lua
 : 1684766918:0;nerdfix fix dap.lua
 : 1684766921:0;nerdfix fix dapui.lua
 : 1684766926:0;nerdfix fix lualine.lua
-: 1684767011:0;nv
-: 1684767089:0;rm -rf ~/.local/share/fonts/JetBrainsMono
 : 1684767098:0;rm -rf ~/Documents/JetBrainsMono.zip
 : 1684767103:0;rm -rf ~/Downloads/JetBrainsMono.zip
-: 1684767270:0;cd
-: 1684767272:0;cd Downloads
-: 1684767274:0;xo .
-: 1684767326:0;cd docu
-: 1684767326:0;ll
-: 1684767330:0;xo .
-: 1684767348:0;mv JetBrainsMono ~/.local/share/fonts
-: 1684767351:0;fc-cache -f -v
-: 1684767356:0;lg
-: 1684767363:0;ls
-: 1684767366:0;nbi
-: 1684767390:0;nv
-: 1684767485:0;nbi
 : 1684767534:0;cd rst
-: 1684767536:0;cd rust
-: 1684767537:0;ll
 : 1684767540:0;cd rs-code
-: 1684767541:0;ll
-: 1684767545:0;nv src/main.rs
 : 1684767560:0;nbi src/main.rs
 : 1684767623:0;showmethekey
 : 1684767626:0;showmethekey-gtk
-: 1684768560:0;cd
-: 1684768562:0;cd nvim-
-: 1684768569:0;cd lua/user
-: 1684768569:0;ll
-: 1684768575:0;nerdfix fix gitsigns.lua
-: 1684768608:0;ls
-: 1684768609:0;lg
-: 1684768624:0;cd nvim
-: 1684768624:0;ll
-: 1684768628:0;cd nvim
-: 1684768629:0;ls
-: 1684768635:0;cd lua/rj/plugins
-: 1684768635:0;ll
 : 1684768638:0;nerdfix fix gitsigns.lua
-: 1684768646:0;lg
-: 1684768774:0;nerdfix fix *
-: 1684768797:0;rm -rf ~/.local/share/fonts/JetBrainsMono
-: 1684768967:0;cd down
-: 1684768967:0;ll
-: 1684768970:0;xo .
-: 1684768981:0;mv JetBrainsMono ~/.local/share/fonts
-: 1684768983:0;fc-cache -f -v
-: 1684768990:0;ls
-: 1684768993:0;cd nvim
-: 1684768997:0;nerdfix fix *
-: 1684769002:0;cd lua
-: 1684769003:0;ll
 : 1684769006:0;cd rj/plugins
-: 1684769007:0;ll
 : 1684769010:0;nerdfix fix *
-: 1684769089:0;lg
-: 1684769098:0;ll
-: 1684769099:0;cdp
-: 1684769100:0;ll
 : 1684769116:0;nerdfix fix icons.lua
-: 1684769191:0;ls
-: 1684769203:0;nerdfix fix *.lua
-: 1684769206:0;cdp
-: 1684769209:0;ll
-: 1684769220:0;nerdfix fix *.lua
-: 1684769237:0;ls
-: 1684769238:0;cd
-: 1684769240:0;cd nvim-
-: 1684769240:0;ll
-: 1684769242:0;lg
-: 1684769249:0;cd lua/user
-: 1684769250:0;ll
-: 1684769254:0;nerdfix fix *.lua
-: 1684769269:0;ls
-: 1684769271:0;cdp
-: 1684769272:0;ll
-: 1684769276:0;nerdfix fix *.lua
 : 1684769281:0;cd settings
-: 1684769283:0;ll
-: 1684769285:0;nerdfix fix *.lua
-: 1684769286:0;cdpp
-: 1684769288:0;ls
-: 1684769291:0;nerdfix fix *.lua
-: 1684769294:0;ls
-: 1684769294:0;ll
-: 1684769296:0;lg
-: 1684769460:0;cd nvim-
-: 1684769461:0;ll
-: 1684769462:0;lg
-: 1684769574:0;nv
-: 1684769693:0;cd nvim
-: 1684769694:0;ll
-: 1684769695:0;lg
-: 1684769720:0;nv
-: 1684769810:0;rm -rf ~/.local/share/fonts/JetBrainsMono
 : 1684769814:0;cd down
-: 1684769815:0;ll
 : 1684769821:0;cd docu
-: 1684769822:0;ll
 : 1684769826:0;xo JetBrainsMono.zip
-: 1684769838:0;mv JetBrainsMono ~/.local/share/fonts
-: 1684769840:0;fc-cache -f -v
-: 1684769850:0;ls
-: 1684769852:0;nbi
 : 1684769883:0;cd nvim-
-: 1684769884:0;lg
-: 1684769891:0;nerdfix fix *.lua
 : 1684769894:0;cd lua/user
-: 1684769895:0;ll
-: 1684769897:0;nerdfix fix *.lua
 : 1684769908:0;cd ~/.local/share/nvim-basic-ide
-: 1684769909:0;ll
 : 1684769912:0;cd lazy/telescope.nvim
-: 1684769913:0;ll
-: 1684769916:0;nerdfix fix *.lua
 : 1684769919:0;cd lua
-: 1684769921:0;ll
 : 1684769923:0;cd telescope
-: 1684769924:0;ll
-: 1684769927:0;nerdfix fix *.lua
 : 1684769931:0;cd pickers
 : 1684769933:0;nerdfix fix *.lua
-: 1684769936:0;ll
-: 1684769937:0;cdp
-: 1684769940:0;cdpp
-: 1684769941:0;ll
 : 1684769959:0;nerdfix fix *.lua */*.lua
 : 1684769964:0;nerdfix fix */*.lua
 : 1684769975:0;nerdfix fix */*.lua */*/*.lua
-: 1684771478:0;cd
-: 1684771479:0;ls
-: 1684771481:0;nv
-: 1684771491:0;cd
-: 1684771492:0;nv
-: 1684771502:0;nbi
-: 1684771531:0;nv
-: 1684771561:0;uneo
-: 1684771592:0;ls
-: 1684771593:0;ll
-: 1684771600:0;bob use nightly
-: 1684771601:0;nv
-: 1684771608:0;bob use 0.9.0
-: 1684771609:0;nv
-: 1684771919:0;nbi
 : 1684772950:0;sudo pacman -Syu base-devel
-: 1684773239:0;nv
-: 1684773260:0;nbi
-: 1684773386:0;nv
-: 1684776759:0;yt
 : 1684776763:0;cz
-: 1684776768:0;cali
-: 1684776908:0;yt "https://www.youtube.com/watch?v=wRG7Er6qlvk"
 : 1684776919:0;yt https://www.youtube.com/watch?v=wRG7Er6qlvk
 : 1684776949:0;yt-dlp "https://www.youtube.com/watch?v=wRG7Er6qlvk"
-: 1684776966:0;ls
 : 1684776971:0;xo MOB\ VS\ Toichiro\ Final\ Fight\[ENG\ SUB\]Mob\ Psycho\ 100\ Season\ 2\ Episode\ 13\ \[wRG7Er6qlvk\].webm
-: 1684777022:0;hyprctl clients
 : 1684777133:0;yt-dlp --help
 : 1684777238:0;yt
 : 1684777242:0;yt "https://www.youtube.com/watch?v=wRG7Er6qlvk"
-: 1684777249:0;cali
 : 1684777283:0;tldr yt-dlp
 : 1684777314:0;yt-dlp --list-formats "https://www.youtube.com/watch?v=wRG7Er6qlvk"
 : 1684777388:0;yt-dlp --list-formats "https://www.youtube.com/watch?v=wRG7Er6qlvk" -f mp4
 : 1684777396:0;yt-dlp "https://www.youtube.com/watch?v=wRG7Er6qlvk" -f mp4
-: 1684777459:0;ls
 : 1684777515:0;rm -rf MOB\ VS\ Toichiro\ Final\ Fight\[ENG\ SUB\]Mob\ Psycho\ 100\ Season\ 2\ Episode\ 13\ \[wRG7Er6qlvk\].*
-: 1684777851:0;rm -rf ~/.local/share/fonts/JetBrainsMono
-: 1684777853:0;ls
-: 1684777858:0;fc-cache -f -v
 : 1684777874:0;cd Downloads
-: 1684777874:0;ll
-: 1684777879:0;xo .
-: 1684777891:0;mv JetBrainsMono ~/.local/share/fonts
-: 1684777894:0;fc-cache -f -v
-: 1684777902:0;ls
-: 1684777903:0;nv
 : 1684777922:0;rm -rf ~/.local/share/fonts/JetBrainsMono
 : 1684777925:0;cd Documents
-: 1684777925:0;ll
 : 1684777928:0;xo .
 : 1684777938:0;mv JetBrainsMono ~/.local/share/fonts
 : 1684777941:0;fc-cache -f -v
-: 1684777949:0;nv
-: 1684778506:0;nbi
-: 1684778585:0;nv
-: 1684846977:0;cd
 : 1684846982:0;cd .config/hypr
-: 1684846982:0;ll
 : 1684846990:0;nerdfix fix *.conf
-: 1684846992:0;cdp
 : 1684846995:0;cd waybar
-: 1684846996:0;ll
 : 1684847002:0;nerdfix fix style.css
 : 1684847006:0;nerdfix fix config.jsonc
-: 1684847112:0;killall -9 waybar
-: 1684847116:0;waybar
-: 1684847291:0;yl
-: 1684847307:0;cd .con
 : 1684847311:0;cd zsh
-: 1684847312:0;ll
 : 1684847317:0;rm mpv-shot0001.jpg
 : 1684847319:0;yl
+: 1684847847:0;nerdfix fix *.sh
+: 1684849932:0;uneo
+: 1684852976:0;nvim -v
+: 1684863790:0;glxinfo | grep OpenGL
+: 1684865892:0;cd Screencasts
+: 1684865972:0;xo recording_2023-05-23-234755.mp4
+: 1684866285:0;rm -rf $HOME/.local/share/nvim $HOME/.cache/nvim
+: 1684928218:0;cd .local/share
+: 1684928226:0;cd lazy
+: 1684928247:0;fd shada
+: 1684928519:0;cd .cache/nvim
+: 1684935650:0;sudo downgrade
+: 1684935662:0;sudo downgrade lua-language-server
+: 1684935792:0;vs /etc/pacman.d/mirrorlist-backup
+: 1684935853:0;cali
+: 1684935892:0;exec zsh
+: 1684935894:0;rsss
+: 1684936081:0;cd /etc/pacman.d
+: 1684936120:0;vs /etc/pacman.d/mirrorlist
+: 1684936149:0;chmod 777 mirrorlist
+: 1684936152:0;sudo chmod 777 mirrorlist
+: 1684949114:0;pacman -Qi lua-language-server
+: 1684950038:0;lf
+: 1684950848:0;cd code
+: 1684950852:0;nv luck.cpp
+: 1684951185:0;nv a.lua
+: 1684951195:0;nv .gtkrc-2.0
+: 1684951206:0;nv a.txt
+: 1684951300:0;nv latex.pdf
+: 1684951322:0;nv a.sc
+: 1684951360:0;nv a.hx
+: 1684951364:0;nv a.hs
+: 1684984368:0;rm -rf ~/.local/share/nvim/lazy
+: 1684986668:0;mkdir .git
+: 1684986671:0;nv rand
+: 1684986724:0;nv .g
+: 1684986736:0;rm -rf .g
+: 1684989756:0;ani-cli -q 1080p hunter
+: 1684989781:0;ani-cli -q 1080p Hunter X Hunter (2011)
+: 1684996263:0;rm -rf ~/.local/share/nvim/project_nvim
+: 1684996922:0;yay flaresolverr
+: 1684996981:0;killall -9 firefox
+: 1684997109:0;sudo usermod -a -G flaresolverr $(whoami)
+: 1684997232:0;hyprctl clients
+: 1684997466:0;sudo paccache -rk0
+: 1685000876:0;yay manga-cli
+: 1685000889:0;yay
+: 1685000965:0;v
+: 1685001018:0;vs /etc/systemd/system/rate-mirrors.service
+: 1685001098:0;/bin/sh "/home/rishabh/other-stuff/mirrors-and-hosts/rate-mirrors-arch.sh"
+: 1685001190:0;sudo cp hosts /etc/hosts
+: 1685001219:0;curl -C - --output hosts https://block.energized.pro/ultimate/formats/hosts
+: 1685001225:0;nv hosts
+: 1685001520:0;./hosts-maker.sh
+: 1685001626:0;rm hosts
+: 1685001633:0;nv /etc/hosts
+: 1685001699:0;curl -C - --output hosts https://raw.githubusercontent.com/hagezi/dns-blocklists/main/hosts/pro.txt
+: 1685001885:0;cd other-stuff
+: 1685001887:0;cd mirrors-and-hosts
+: 1685001897:0;chmod 700 hosts
+: 1685001907:0;chmod 111 hosts
+: 1685001916:0;chmod 222 hosts
+: 1685002083:0;nv hosts-maker.sh
+: 1685002095:0;rs
+: 1685002197:0;yay rate-mirrors
+: 1685002616:0;rss
+: 1685012240:0;yay frogmouth
+: 1685012260:0;pipx install frogmouth
+: 1685012285:0;frogmouth
+: 1685021885:0;we
+: 1685022370:0;cd rust-learning
+: 1685022374:0;cd guessing_game
+: 1685022379:0;nv src/main.rs
+: 1685022593:0;cd plugins
+: 1685022608:0;mv lsp.lua ..
+: 1685022620:0;mv ../lsp.lua .
+: 1685022944:0;cd rust
+: 1685022966:0;bob use rust-learning
+: 1685023022:0;mkdir nvim
+: 1685023039:0;cp lsp.lua alpha.lua ~/projects/nvim/
+: 1685023052:0;rm alpha.lua
+: 1685024326:0;cd pl
+: 1685024329:0;cd lsp
+: 1685024333:0;nv lsp-conf.lua
+: 1685024378:0;cdpp
+: 1685025719:0;cd projects
+: 1685025726:0;nv strtup.sh
+: 1685025736:0;./strtup.sh
+: 1685030348:0;bob use 0.9.0
+: 1685030984:0;cd rofi
+: 1685030991:0;nerdfix fix config.rasi
+: 1685031000:0;cd userconfig
+: 1685031013:0;nv config.rasi
+: 1685035126:0;yay konsole
+: 1685070817:0;firefox
+: 1685073276:0;hx
+: 1685073372:0;hx init.lua
+: 1685077346:0;yay marksman
+: 1685093591:0;yay npm
+: 1685093846:0;nr
+: 1685095538:0;speedtest
+: 1685100200:0;tldr touch
+: 1685106888:0;cd .config/mpv
+: 1685106892:0;nv mpv.conf
+: 1685114463:0;cd watch_later
+: 1685117299:0;yay -S tachidesk
+: 1685117418:0;bash <(curl -s https://raw.githubusercontent.com/Rishabh672003/Neovim/main/install.sh)
+: 1685117437:0;cdd nvim
+: 1685117458:0;yay pip
+: 1685117515:0;sdr
+: 1685119050:0;yay -Rns tachidesk-jui
+: 1685119059:0;yay tachi
+: 1685119647:0;exit
+: 1685119699:0;tachidesk
+: 1685119797:0;yay -Rns tachidesk-qtui
+: 1685122926:0;nv install.sh
+: 1685123443:0;nbi
+: 1685157813:0;cd way
+: 1685157918:0;killall -9 waybar
+: 1685159209:0;(checkupdates ; paru -Qua) | wc -l
+: 1685159221:0;(checkupdates ; yay -Qua) | wc -l
+: 1685159871:0;nv config.jsonc
+: 1685159883:0;waybar
+: 1685160936:0;cd nv
+: 1685160942:0;cd lua/rj/plugins
+: 1685160946:0;rm -rf *
+: 1685161071:0;lvim nvim-cmp.lua
+: 1685161091:0;nap
+: 1685161230:0;cp nvim-cmp.lua ~/projects/nvim
+: 1685161247:0;cp ~/projects/nvim/* .
+: 1685161253:0;nv alpha.lua
+: 1685161433:0;rm -rf ~/.local/share/nvim/lazy/*
+: 1685166775:0;nv lsp.lua
+: 1685166810:0;nv nvim-cmp.lua
+: 1685166872:0;ani-cli -q 1080p Hunter X Hunter
+: 1685168111:0;nvim lsp.lua
+: 1685168173:0;nvim ../lazy.lua
+: 1685168364:0;lvim lazy.lua
+: 1685168383:0;nvim lazy.lua
+: 1685181974:0;cd rj
+: 1685182059:0;rm -rf autocommands.lua functions.lua icons.lua options.lua usefull-stuff
+: 1685182094:0;nv lazy.lua
+: 1685182134:0;nv ../../init.lua
+: 1685182234:0;nv icons.lua
+: 1685182244:0;nv autocommands.lua
+: 1685185234:0;cd sway
+: 1685185236:0;cdp
+: 1685185243:0;cd hypr
+: 1685185245:0;cd scripts
+: 1685185248:0;nv lock.sh
+: 1685186245:0;nv empris.py
+: 1685187813:0;nv init.lua
+: 1685203803:0;nv .lessfilter
+: 1685203809:0;less a.hs
+: 1685203816:0;less a.lua
+: 1685206774:0;cd nvim
+: 1685206775:0;lg
+: 1685206787:0;nv .yarnrc
+: 1685244652:0;bob use nightly
+: 1685244702:0;ani-cli Hunter X Hunter
+: 1685244827:0;bob use stable
+: 1685244972:0;cd
+: 1685244974:0;cd notes
+: 1685244975:0;nv index.norg
+: 1685245247:0;c
+: 1685245248:0;ys
+: 1685245367:0;lll
+: 1685245381:0;cd .config/contour
+: 1685245384:0;nv contour.yml
+: 1685245481:0;cd .con
+: 1685245483:0;cd alacritty
+: 1685245484:0;ll
+: 1685245486:0;nv alacritty.yml
+: 1685245590:0;ls
+: 1685245592:0;nv
+: 1685245714:0;e
+: 1685245719:0;nv
+: 1685245730:0;ll
+: 1685245731:0;ls
+: 1685245733:0;lll
+: 1685245735:0;nv
+: 1685245758:0;c
+: 1685245763:0;cd
+: 1685245766:0;cd .config/yadm
+: 1685245766:0;ll
+: 1685245772:0;nv completion.md
+: 1685245778:0;rm -rf completion.md
+: 1685245781:0;nv yadm.sh
+: 1685245801:0;yl
+: 1685245821:0;cd oth
+: 1685245823:0;cd mirrors-and-hosts
+: 1685245827:0;ll
+: 1685245837:0;sudo chmod 777 hosts
+: 1685245842:0;yl
+: 1685246378:0;yel
+: 1685246386:0;yadm push
+: 1685246404:0;yadm status
+: 1685246420:0;yadm add ~/.config/zsh/history
+: 1685246471:0;yel
+: 1685246478:0;yadm push
+: 1685246561:0;yel
+: 1685246564:0;yl
+: 1685246776:0;ls
+: 1685246778:0;cdp
+: 1685246792:0;sudo rm -rf repo.git
+: 1685246797:0;ls
+: 1685246809:0;yadm clone https://github.com/Rishabh672003/dotfiles
+: 1685246849:0;ls
+: 1685246851:0;cd
+: 1685246853:0;yl
