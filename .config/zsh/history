@@ -261,7 +261,6 @@ git switch --track MickTheRus/lazy
 : 1681902392:0;wpaperd
 : 1681905154:0;cd .config/kitty/kitty-themes
 : 1681905210:0;cd .config/hypr/
-: 1681905213:0;nv hyprland.conf
 : 1681905444:0;nv functions
 : 1681918376:0;npm install && npm i -g http-server\
 
@@ -335,7 +334,6 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1682174765:0;cd yt-dl
 : 1682176321:0;mkdir yt-dl-cpp
 : 1682176330:0;cd yt-dl-cpp
-: 1682409797:0;cd wall
 : 1682409798:0;kk
 : 1682417416:0;git
 : 1682417781:0;nv src
@@ -521,7 +519,6 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1682964625:0;mkdir password
 : 1682964628:0;cd password
 : 1682964640:0;nv main.cpp
-: 1683004708:0;nmtui
 : 1683014373:0;zap list
 : 1683037364:0;mv plugins/alpha.lua plugins
 : 1683037374:0;mv plugins/alpha.lua user
@@ -540,7 +537,6 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1683050521:0;waydroid app install Downloads/firefox-111-0.apk
 : 1683123223:0;nbi Cargo.toml
 : 1683125356:0;yay pyright
-: 1683125442:0;cd python-study
 : 1683125449:0;nv calculator-complete.py
 : 1683125884:0;xo Exp\ no.6\ EM.pdf
 : 1683128313:0;gh pr checkout 116
@@ -566,7 +562,6 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1683264305:0;hyprctl status
 : 1683264340:0;hyprctl list 
 : 1683264353:0;hyprctl list clients
-: 1683264359:0;systemctl restart waydroid-container.service
 : 1683266229:0;cc
 : 1683272684:0;yay -R spicetify-cli
 : 1683272690:0;curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-cli/master/install.sh | sh
@@ -583,7 +578,6 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1683277682:0;spicetify config current_theme catppuccin-mocha
 : 1683277688:0;spicetify apply
 : 1683277899:0;zap update
-: 1683278246:0;tpg
 : 1683284668:0;wss
 : 1683284719:0;fd waydroid
 : 1683284768:0;rm -rf /var/lib/waydroid
@@ -598,7 +592,6 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1683285445:0;gbinder
 : 1683285456:0;yay -S python-gbinder
 : 1683285487:0;nv /etc/grub.d
-: 1683285537:0;cd /
 : 1683285541:0;fd grub
 : 1683285591:0;yay -S python3-gbinder
 : 1683285654:0;yay -S $(pacman -Qoq /usr/lib/python3.11) --answerclean All
@@ -755,14 +748,12 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1683432565:0;cd ~/.local/share/appl
 : 1683432612:0;nv /usr/share/applications/vscodium.desktop
 : 1683432899:0;nv a.json
-: 1683441005:0;nv completion.md
 : 1683445575:0;ani-cli one piece
 : 1683446291:0;cd pro
 : 1683446331:0;cp completion.md ~/.config/yadm
 : 1683460174:0;cd Games
 : 1683460192:0;gh repo clone BitBrigade/Tim-E-Scape
 : 1683460196:0;cd Tim-E-Scape
-: 1683482180:0;nv .
 : 1683482882:0;nv albo.out
 : 1683482888:0;nv app.cpp
 : 1683520425:0;cd /mnt/windows
@@ -776,7 +767,6 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1683565081:0;which proselint
 : 1683652987:0;nv functions/src/main.rs
 : 1683724765:0;rm -rf $HOME/.config/nvim $HOME/.local/share/nvim $HOME/.cache/nvim
-: 1683724780:0;git clone https://github.com/Rishabh672003/Neovim ~/.config/nvim && nvim
 : 1683731176:0;mkdir rs-code
 : 1683731192:0;nv main.rs
 : 1683731206:0;rm -rf rs-code
@@ -812,7 +802,6 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1683947146:0;killall -9 nwg-dock-hyprland
 : 1683947661:0;gdb ~/.local/bin/black
 : 1683947924:0;nv IE.md
-: 1683958287:0;cd cppro
 : 1683958291:0;nv game.cpp
 : 1683963018:0;bv
 : 1683980751:0;yay flameshot
@@ -842,7 +831,6 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1684072803:0;yay texlive
 : 1684072880:0;yay -Rns texlive-bin
 : 1684072897:0;yay texlive-full
-: 1684073447:0;rm -rf ~/.cache/yay
 : 1684073554:0;nv README.md
 : 1684073723:0;rm readme.pdf
 : 1684073843:0;vscodium
@@ -850,7 +838,6 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1684074264:0;pandoc README.md -o readme.pdf
 : 1684074268:0;xo readme.pdf
 : 1684076284:0;a
-: 1684076289:0;l
 : 1684076670:0;pandoc apple-tree.docx -o app.pdf
 : 1684076676:0;xo app.pdf
 : 1684076687:0;rm app.pdf
@@ -862,7 +849,6 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1684085844:0;cd ru
 : 1684085848:0;cd rand
 : 1684086124:0;which nvim
-: 1684086452:0;cd lua/rj
 : 1684086457:0;nv vscode.lua
 : 1684240587:0;yay rofi-lbonn-wayland-git
 : 1684334516:0;pandoc a.tex -o latex.pdf
@@ -895,7 +881,6 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1684569897:0;trash-empty
 : 1684570532:0;mv Pokemon-games /mnt/windows/Users/jhari
 : 1684570643:0;btop
-: 1684575255:0;ping 9.9.9.9
 : 1684580405:0;rm -rf ~/.cache/fontconfig
 : 1684580543:0;ani-cli a silent voice
 : 1684580593:0;ani-cli highschool babysitter
@@ -930,7 +915,6 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1684635748:0;./lessfilter.sh ../../Applications
 : 1684635991:0;rm -rf ~/.lessfilter
 : 1684636001:0;cd .config/zsh
-: 1684636007:0;yel
 : 1684636286:0;less aliases.zsh
 : 1684637174:0;ani-cli -q 1080p one piece
 : 1684649068:0;eval "$(zoxide init zsh)"
@@ -985,18 +969,14 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1684767623:0;showmethekey
 : 1684767626:0;showmethekey-gtk
 : 1684768638:0;nerdfix fix gitsigns.lua
-: 1684769006:0;cd rj/plugins
-: 1684769010:0;nerdfix fix *
 : 1684769116:0;nerdfix fix icons.lua
 : 1684769281:0;cd settings
 : 1684769814:0;cd down
 : 1684769821:0;cd docu
 : 1684769826:0;xo JetBrainsMono.zip
-: 1684769883:0;cd nvim-
 : 1684769894:0;cd lua/user
 : 1684769908:0;cd ~/.local/share/nvim-basic-ide
 : 1684769912:0;cd lazy/telescope.nvim
-: 1684769919:0;cd lua
 : 1684769923:0;cd telescope
 : 1684769931:0;cd pickers
 : 1684769933:0;nerdfix fix *.lua
@@ -1019,7 +999,6 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1684777874:0;cd Downloads
 : 1684777922:0;rm -rf ~/.local/share/fonts/JetBrainsMono
 : 1684777925:0;cd Documents
-: 1684777928:0;xo .
 : 1684777938:0;mv JetBrainsMono ~/.local/share/fonts
 : 1684777941:0;fc-cache -f -v
 : 1684846982:0;cd .config/hypr
@@ -1027,17 +1006,12 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1684846995:0;cd waybar
 : 1684847002:0;nerdfix fix style.css
 : 1684847006:0;nerdfix fix config.jsonc
-: 1684847311:0;cd zsh
 : 1684847317:0;rm mpv-shot0001.jpg
-: 1684847319:0;yl
 : 1684847847:0;nerdfix fix *.sh
-: 1684849932:0;uneo
-: 1684852976:0;nvim -v
 : 1684863790:0;glxinfo | grep OpenGL
 : 1684865892:0;cd Screencasts
 : 1684865972:0;xo recording_2023-05-23-234755.mp4
 : 1684866285:0;rm -rf $HOME/.local/share/nvim $HOME/.cache/nvim
-: 1684928218:0;cd .local/share
 : 1684928226:0;cd lazy
 : 1684928247:0;fd shada
 : 1684928519:0;cd .cache/nvim
@@ -1061,7 +1035,6 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1684951300:0;nv latex.pdf
 : 1684951322:0;nv a.sc
 : 1684951360:0;nv a.hx
-: 1684951364:0;nv a.hs
 : 1684984368:0;rm -rf ~/.local/share/nvim/lazy
 : 1684986668:0;mkdir .git
 : 1684986671:0;nv rand
@@ -1070,13 +1043,10 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1684989756:0;ani-cli -q 1080p hunter
 : 1684989781:0;ani-cli -q 1080p Hunter X Hunter (2011)
 : 1684996263:0;rm -rf ~/.local/share/nvim/project_nvim
-: 1684996922:0;yay flaresolverr
 : 1684996981:0;killall -9 firefox
 : 1684997109:0;sudo usermod -a -G flaresolverr $(whoami)
-: 1684997232:0;hyprctl clients
 : 1684997466:0;sudo paccache -rk0
 : 1685000876:0;yay manga-cli
-: 1685000889:0;yay
 : 1685000965:0;v
 : 1685001018:0;vs /etc/systemd/system/rate-mirrors.service
 : 1685001098:0;/bin/sh "/home/rishabh/other-stuff/mirrors-and-hosts/rate-mirrors-arch.sh"
@@ -1088,7 +1058,6 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1685001633:0;nv /etc/hosts
 : 1685001699:0;curl -C - --output hosts https://raw.githubusercontent.com/hagezi/dns-blocklists/main/hosts/pro.txt
 : 1685001885:0;cd other-stuff
-: 1685001887:0;cd mirrors-and-hosts
 : 1685001897:0;chmod 700 hosts
 : 1685001907:0;chmod 111 hosts
 : 1685001916:0;chmod 222 hosts
@@ -1099,7 +1068,6 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1685012240:0;yay frogmouth
 : 1685012260:0;pipx install frogmouth
 : 1685012285:0;frogmouth
-: 1685021885:0;we
 : 1685022370:0;cd rust-learning
 : 1685022374:0;cd guessing_game
 : 1685022379:0;nv src/main.rs
@@ -1112,10 +1080,7 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1685023039:0;cp lsp.lua alpha.lua ~/projects/nvim/
 : 1685023052:0;rm alpha.lua
 : 1685024326:0;cd pl
-: 1685024329:0;cd lsp
-: 1685024333:0;nv lsp-conf.lua
 : 1685024378:0;cdpp
-: 1685025719:0;cd projects
 : 1685025726:0;nv strtup.sh
 : 1685025736:0;./strtup.sh
 : 1685030348:0;bob use 0.9.0
@@ -1125,11 +1090,9 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1685031013:0;nv config.rasi
 : 1685035126:0;yay konsole
 : 1685070817:0;firefox
-: 1685073276:0;hx
 : 1685073372:0;hx init.lua
 : 1685077346:0;yay marksman
 : 1685093591:0;yay npm
-: 1685093846:0;nr
 : 1685095538:0;speedtest
 : 1685100200:0;tldr touch
 : 1685106888:0;cd .config/mpv
@@ -1145,14 +1108,10 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1685119647:0;exit
 : 1685119699:0;tachidesk
 : 1685119797:0;yay -Rns tachidesk-qtui
-: 1685122926:0;nv install.sh
-: 1685123443:0;nbi
 : 1685157813:0;cd way
-: 1685157918:0;killall -9 waybar
 : 1685159209:0;(checkupdates ; paru -Qua) | wc -l
 : 1685159221:0;(checkupdates ; yay -Qua) | wc -l
 : 1685159871:0;nv config.jsonc
-: 1685159883:0;waybar
 : 1685160936:0;cd nv
 : 1685160942:0;cd lua/rj/plugins
 : 1685160946:0;rm -rf *
@@ -1176,74 +1135,31 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1685182234:0;nv icons.lua
 : 1685182244:0;nv autocommands.lua
 : 1685185234:0;cd sway
-: 1685185236:0;cdp
-: 1685185243:0;cd hypr
 : 1685185245:0;cd scripts
 : 1685185248:0;nv lock.sh
 : 1685186245:0;nv empris.py
-: 1685187813:0;nv init.lua
 : 1685203803:0;nv .lessfilter
 : 1685203809:0;less a.hs
 : 1685203816:0;less a.lua
-: 1685206774:0;cd nvim
-: 1685206775:0;lg
 : 1685206787:0;nv .yarnrc
-: 1685244652:0;bob use nightly
-: 1685244702:0;ani-cli Hunter X Hunter
-: 1685244827:0;bob use stable
-: 1685244972:0;cd
-: 1685244974:0;cd notes
 : 1685244975:0;nv index.norg
-: 1685245247:0;c
-: 1685245248:0;ys
-: 1685245367:0;lll
 : 1685245381:0;cd .config/contour
 : 1685245384:0;nv contour.yml
 : 1685245481:0;cd .con
 : 1685245483:0;cd alacritty
-: 1685245484:0;ll
 : 1685245486:0;nv alacritty.yml
-: 1685245590:0;ls
-: 1685245592:0;nv
-: 1685245714:0;e
-: 1685245719:0;nv
-: 1685245730:0;ll
-: 1685245731:0;ls
-: 1685245733:0;lll
-: 1685245735:0;nv
-: 1685245758:0;c
-: 1685245763:0;cd
 : 1685245766:0;cd .config/yadm
-: 1685245766:0;ll
 : 1685245772:0;nv completion.md
 : 1685245778:0;rm -rf completion.md
 : 1685245781:0;nv yadm.sh
-: 1685245801:0;yl
 : 1685245821:0;cd oth
 : 1685245823:0;cd mirrors-and-hosts
-: 1685245827:0;ll
 : 1685245837:0;sudo chmod 777 hosts
-: 1685245842:0;yl
-: 1685246378:0;yel
-: 1685246386:0;yadm push
-: 1685246404:0;yadm status
 : 1685246420:0;yadm add ~/.config/zsh/history
-: 1685246471:0;yel
-: 1685246478:0;yadm push
 : 1685246561:0;yel
-: 1685246564:0;yl
-: 1685246776:0;ls
-: 1685246778:0;cdp
 : 1685246792:0;sudo rm -rf repo.git
-: 1685246797:0;ls
 : 1685246809:0;yadm clone https://github.com/Rishabh672003/dotfiles
-: 1685246849:0;ls
-: 1685246851:0;cd
-: 1685246853:0;yl
 : 1685247087:0;nv .config/yadm
-: 1685247103:0;cd nvim
-: 1685247103:0;ll
-: 1685247105:0;cdp
 : 1685247120:0;git clone https://github.com/Rishabh672003/Neovim ~/.config/nvim && nvim
 : 1685247136:0;yadm add ~/README.md;\
 yadm add ~/.config/alacritty;\
@@ -1270,11 +1186,179 @@ yadm add ~/.config/wpaperd;\
 yadm add ~/.config/yadm;\
 yadm add ~/.config/spicetify;\
 yadm add ~/other-stuff;
-: 1685247145:0;yadm status
 : 1685247159:0;yadm commit -a -m "update";\
 
 : 1685247166:0;yadm push
-: 1685247195:0;ani-cli Hunter X Hunter
 : 1685247826:0;yadm status
 : 1685247902:0;yadm enter
 : 1685248132:0;yl
+: 1685253940:0;nv a.hs
+: 1685254008:0;cd cppro
+: 1685254050:0;nv elections-in-chefland.cpp
+: 1685256653:0;ks
+: 1685256776:0;echo $TERM
+: 1685256780:0;lll
+: 1685256804:0;cd neo
+: 1685256811:0;cd ~/.config/neofetch
+: 1685256819:0;nerdfix fix *
+: 1685256888:0;l
+: 1685256953:0;
+: 1685256986:0;yay -Rns byobu
+: 1685256999:0;yay -S tmux
+: 1685257010:0;yay -S gnome-terminal
+: 1685264554:0;wget https://github.com/anasrar/nvim-treesitter-parser-bin/releases/download/linux/all.zip
+: 1685264626:0;mv all.zip
+: 1685264657:0;unzip -j all.zip *.so -d ~/.local/share/nvim/lazy/nvim-treesitter/parser/
+: 1685264696:0;mv all/*.so ~/.local/share/nvim/lazy/nvim-treesitter/parser/
+: 1685264719:0;cd ~/.local/share/nvim/lazy/nvim-treesitter
+: 1685264765:0;cd parser
+: 1685264780:0;rm -rf all all.zip
+: 1685264814:0;rm -rf ~/.local/share/nvim/lazy/nvim-treesitter/parser/*
+: 1685267888:0;ani-cli Hunter X Hunter -e 123
+: 1685280591:0;npm install -g solidity-language-server
+: 1685280594:0;nv a.sol
+: 1685280692:0;solidity-language-server
+: 1685280707:0;ee
+: 1685285287:0;npm uninstall solidity-language-server
+: 1685294274:0;cd .npm
+: 1685294969:0;rm a.sol
+: 1685296280:0;systemctl restart waydroid-container.service
+: 1685325013:0;nv install.sh
+: 1685325783:0;yay ueberzugpp
+: 1685376775:0;n
+: 1685376809:0;pacman -Qi contour-git
+: 1685377413:0;playerctl pause
+: 1685377418:0;playerctl play-pause
+: 1685381289:0;nv -d a.hs a.lua
+: 1685381317:0;nv -d .android apks
+: 1685381466:0;nv apks
+: 1685431583:0;cd lua
+: 1685431587:0;cd rj/plugins
+: 1685431594:0;nv dropdown.lua
+: 1685432083:0;cd .local/share
+: 1685432098:0;yay grimblast
+: 1685432109:0;which grimblast
+: 1685432124:0;cd .local/share/bin
+: 1685432129:0;cd .local/share/
+: 1685432138:0;cd bin
+: 1685432141:0;nv grimblast
+: 1685445289:0;cd zsh
+: 1685445294:0;nv .zprofile
+: 1685463521:0;mkdir VIVA.txt
+: 1685463525:0;rm VIVA.txt
+: 1685463528:0;rm -rf VIVA.txt
+: 1685463532:0;nv viva.txt
+: 1685463684:0;nv viva-answers.txt
+: 1685463706:0;nv viva-answers.md
+: 1685464129:0;pandoc viva-answers.md -o viva-answers.pdf
+: 1685464139:0;xo viva-answers.pdf
+: 1685464168:0;nv viva-answers.tex
+: 1685464196:0;rm viva-answers.pdf viva-answers.tex
+: 1685464361:0;rm viva-answers.md viva-answers.tex
+: 1685464524:0;pandoc viva-answers.md -o viva-answers.tex
+: 1685464552:0;pandoc viva-answer.md -o viva-answer.tex
+: 1685464750:0;nv viva-answer.pdf
+: 1685465288:0;nv viva-answer.tex
+: 1685465329:0;pdflatex viva-answer.tex
+: 1685465408:0;pandoc viva-answer.tex -o viva-answer.pdf
+: 1685465471:0;nv viva-answer.md
+: 1685465547:0;Ωnv
+: 1685465586:0;pandoc viva-answer.md -o viva-answer.pdf
+: 1685465591:0;xo viva-answer.pdf
+: 1685470228:0;gh pr checkout 134
+: 1685470300:0;cd nvim-
+: 1685470447:0;nbi
+: 1685526296:0;bob use 0.9.1
+: 1685526305:0;cd notes
+: 1685526311:0;rm -rf viva-answer.*
+: 1685529912:0;tpg
+: 1685541418:0;cargo install --git https://github.com/ErikReider/SwayOSD
+: 1685541719:0;swayosd
+: 1685542916:0;cargo update
+: 1685554373:0;hyprctl reload
+: 1685554406:0;hyprctl splash
+: 1685555587:0;swayosd --output-volume raise
+: 1685555681:0;nv /etc/zsh/zshenv
+: 1685555766:0;we
+: 1685621938:0;bob update
+: 1685631488:0;cd projects
+: 1685631489:0;gh repo clone FlareSolverr/FlareSolverr
+: 1685631497:0;cd FlareSolverr
+: 1685631516:0;yay docker-compose
+: 1685631544:0;docker-compose up -d
+: 1685632074:0;netstat
+: 1685632101:0;yay netstat
+: 1685632133:0;netctl
+: 1685632136:0;netctl list
+: 1685632143:0;netstat-nat
+: 1685632150:0;netstat-nat --help
+: 1685632250:0;sudo netstat -ntulp | grep 443
+: 1685632332:0;nv docker-compose.yml
+: 1685632483:0;lg
+: 1685632894:0;cdp
+: 1685632907:0;yay -S flaresolverr-bin
+: 1685633246:0;which bob
+: 1685633265:0;cargo install --git https://github.com/MordechaiHadad/bob
+: 1685633412:0;bob update --all
+: 1685633540:0;cd lua/rj
+: 1685633544:0;cd lsp
+: 1685633551:0;nv lsp-conf.lua
+: 1685634345:0;nv cal.py
+: 1685634362:0;nvim -v
+: 1685634383:0;cd nvim
+: 1685634386:0;nv init.lua
+: 1685634406:0;cd python-study
+: 1685634409:0;nv 11.py
+: 1685639331:0;killall -9 waybar
+: 1685639333:0;waybar
+: 1685690967:0;nmtui
+: 1685709786:0;nr
+: 1685710650:0;ping 9.9.9.9
+: 1685727648:0;bob use stable
+: 1685727689:0;ls
+: 1685727690:0;hx
+: 1685727714:0;yay
+: 1685761961:0;uneo
+: 1685762033:0;bob use nightly
+: 1685762818:0;hyprctl activewindow
+: 1685762844:0;hyprctl help
+: 1685763283:0;tldr hyprctl
+: 1685763296:0;man hyprctl
+: 1685763321:0;hyprctl dispatch
+: 1685763351:0;ys
+: 1685763467:0;yay -Rns flaresolverr-bin
+: 1685763475:0;yay flaresolverr
+: 1685768432:0;sudo paccache -rk0 --aur
+: 1685768444:0;sudo paccache -rk0 --help
+: 1685768468:0;rm -rf ~/.cache/yay
+: 1685768471:0;cd
+: 1685768472:0;c
+: 1685768733:0;docker run -d --name=flaresolverr -p 8191:8191 -e LOG_LEVEL=info --restart unless-stopped ghcr.io/flaresolverr/flaresolverr:latest
+: 1685768736:0;sudo docker run -d --name=flaresolverr -p 8191:8191 -e LOG_LEVEL=info --restart unless-stopped ghcr.io/flaresolverr/flaresolverr:latest
+: 1685768748:0;cd projects/FlareSolverr
+: 1685768759:0;sudo docker-compose up -d
+: 1685768873:0;cd \ 
+: 1685768874:0;cd /
+: 1685768882:0;fd flaresolverr
+: 1685768923:0;cd /etc/systemd/system/multi-user.target.wants
+: 1685768933:0;nv jackett.service
+: 1685768946:0;nv .
+: 1685768988:0;nv flaresolverr.service
+: 1685780889:0;ani-cli Hunter X Hunter
+: 1685795530:0;cd wall
+: 1685795539:0;xo .
+: 1685795555:0;nautilus .
+: 1685795613:0;nv
+: 1685795638:0;swaybg -i ~/Pictures/Wallpapers/river-reflectting-the-woods.jpg
+: 1685796948:0;mkdir other-configs
+: 1685796968:0;mv hyprland3.conf hyprland4.conf hyprland5.conf other-configs
+: 1685796976:0;nv hyprland.conf
+: 1685797009:0;cd hypr
+: 1685797010:0;ll
+: 1685797029:0;nv startup.conf
+: 1685797484:0;hyprctl clients
+: 1685797989:0;e
+: 1685798263:0;cd
+: 1685798264:0;c
+: 1685798266:0;ys
+: 1685798435:0;yl
