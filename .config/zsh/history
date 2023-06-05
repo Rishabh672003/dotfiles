@@ -1131,7 +1131,6 @@ echo -e "\x1B[31mHello World\e[0m"
 : 1685245481:0;cd .con
 : 1685245483:0;cd alacritty
 : 1685245486:0;nv alacritty.yml
-: 1685245766:0;cd .config/yadm
 : 1685245772:0;nv completion.md
 : 1685245778:0;rm -rf completion.md
 : 1685245781:0;nv yadm.sh
@@ -1352,7 +1351,6 @@ yadm add ~/other-stuff;
 : 1685872899:0;yay river
 : 1685873170:0;man river
 : 1685873190:0;mkdir river
-: 1685873444:0;cd .config
 : 1685873449:0;nv river/init
 : 1685873456:0;cd river
 : 1685873462:0;chmod +x init
@@ -1366,7 +1364,6 @@ yadm add ~/other-stuff;
 : 1685874415:0;rofi show -drun
 : 1685874460:0;nv init
 : 1685874487:0;riverctl map normal Super+Shift Return spawn alacritty
-: 1685874554:0;swaybg -i ~/Pictures/Wallpapers/river-reflectting-the-woods.jpg
 : 1685874591:0;waybar
 : 1685874707:0;reboot
 : 1685875957:0;man riverctl
@@ -1408,9 +1405,10 @@ yadm add ~/other-stuff;
 : 1685943524:0;mpvpaper -vs -o "no-audio loop" eDP-1 ~/Videos/video-wallpapers/the-eclipse-berserker-armor-moewalls.com.mp4
 : 1685943534:0;ls
 : 1685943536:0;sdr
-: 1685943696:0;e
 : 1685943708:0;swaybg -i ~/Pictures/Wallpapers/river-reflectting-the-woods.jpg
 : 1685944576:0;cd .config
 : 1685944580:0;nv yadm/yadm.sh
 : 1685944715:0;cd .config/yadm
 : 1685944716:0;./yadm.sh
+: 1685944721:0;e
+: 1685944816:0;yl
