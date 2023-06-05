@@ -26,4 +26,4 @@ yadm add ~/README.md \
     ~/.config/spicetify \
     ~/other-stuff
 
-yadm commit -am "update" && yadm push
+yadm commit -a -m "update" && yadm push

@@ -1317,7 +1317,6 @@ yadm add ~/other-stuff;
 : 1685796976:0;nv hyprland.conf
 : 1685797009:0;cd hypr
 : 1685797029:0;nv startup.conf
-: 1685798435:0;yl
 : 1685800191:0;cd wall
 : 1685801661:0;chmod +x Cosmic-Dodge.jar
 : 1685801698:0;javac Cosmic-Dodge.jar
@@ -1410,5 +1409,6 @@ yadm add ~/other-stuff;
 : 1685944580:0;nv yadm/yadm.sh
 : 1685944715:0;cd .config/yadm
 : 1685944716:0;./yadm.sh
-: 1685944721:0;e
 : 1685944816:0;yl
+: 1685944820:0;e
+: 1685945268:0;yl
