@@ -1,31 +1,30 @@
 #!/bin/env bash
 
-# yadm add ~/.gitignore;
-yadm add ~/README.md;
-yadm add ~/.config/alacritty;
-yadm add ~/.config/btop;
-yadm add ~/.config/fish;
-yadm add ~/.config/contour;
-yadm add ~/.config/helix;
-yadm add ~/.config/hypr;
-yadm add ~/.config/kitty;
-yadm add ~/.config/lvim;
-yadm add ~/.config/mpv;
-yadm add ~/.config/neofetch;
-yadm add ~/.config/nvim;
-yadm add ~/.config/rofi;
-yadm add ~/.config/shellfetch;
-yadm add ~/.config/sway;
-yadm add ~/.config/tmux;
-yadm add ~/.config/vim;
-yadm add ~/.config/waybar;
-yadm add ~/.config/wezterm;
-yadm add ~/.config/wofi;
-yadm add ~/.config/zsh;
-yadm add ~/.config/wpaperd;
-yadm add ~/.config/yadm;
-yadm add ~/.config/spicetify;
-yadm add ~/other-stuff;
+yadm add ~/README.md \
+    ~/.config/alacritty\
+    ~/.config/btop\
+    ~/.config/fish\
+    ~/.config/contour\
+    ~/.config/helix\
+    ~/.config/hypr\
+    ~/.config/kitty\
+    ~/.config/lvim\
+    ~/.config/mpv\
+    ~/.config/neofetch\
+    ~/.config/nvim\
+    ~/.config/rofi\
+    ~/.config/shellfetch\
+    ~/.config/sway\
+    ~/.config/tmux\
+    ~/.config/vim\
+    ~/.config/waybar\
+    ~/.config/wezterm\
+    ~/.config/wofi\
+    ~/.config/zsh\
+    ~/.config/wpaperd\
+    ~/.config/yadm\
+    ~/.config/spicetify\
+    ~/other-stuff
 
-yadm commit -a -m "update";
+yadm commit -am "update";
 yadm push
