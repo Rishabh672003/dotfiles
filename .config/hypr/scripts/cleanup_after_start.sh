@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sleep 3
+sleep 5
 hyprctl keyword windowrule "workspace unset,firefox"
 hyprctl keyword windowrule "workspace unset,alacritty"
 hyprctl keyword windowrule "workspace unset,kitty"

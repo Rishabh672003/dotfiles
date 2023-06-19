@@ -1,3 +1,6 @@
 
 2022/09/27 (23:28:33) | ===> btop++ v.1.2.9
 2022/09/27 (23:28:33) | ERROR: Invalid RGB decimal value: "ba1a84"
+
+2023/06/10 (15:38:16) | ===> btop++ v.1.2.13
+2023/06/10 (15:38:16) | ERROR: Stall in Runner thread, restarting!
