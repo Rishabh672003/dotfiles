@@ -1,225 +1,3 @@
-: 1684769933:0;nerdfix fix *.lua
-: 1684769959:0;nerdfix fix *.lua */*.lua
-: 1684769964:0;nerdfix fix */*.lua
-: 1684769975:0;nerdfix fix */*.lua */*/*.lua
-: 1684772950:0;sudo pacman -Syu base-devel
-: 1684776919:0;yt https://www.youtube.com/watch?v=wRG7Er6qlvk
-: 1684776949:0;yt-dlp "https://www.youtube.com/watch?v=wRG7Er6qlvk"
-: 1684776971:0;xo MOB\ VS\ Toichiro\ Final\ Fight\[ENG\ SUB\]Mob\ Psycho\ 100\ Season\ 2\ Episode\ 13\ \[wRG7Er6qlvk\].webm
-: 1684777133:0;yt-dlp --help
-: 1684777238:0;yt
-: 1684777242:0;yt "https://www.youtube.com/watch?v=wRG7Er6qlvk"
-: 1684777283:0;tldr yt-dlp
-: 1684777314:0;yt-dlp --list-formats "https://www.youtube.com/watch?v=wRG7Er6qlvk"
-: 1684777388:0;yt-dlp --list-formats "https://www.youtube.com/watch?v=wRG7Er6qlvk" -f mp4
-: 1684777396:0;yt-dlp "https://www.youtube.com/watch?v=wRG7Er6qlvk" -f mp4
-: 1684777515:0;rm -rf MOB\ VS\ Toichiro\ Final\ Fight\[ENG\ SUB\]Mob\ Psycho\ 100\ Season\ 2\ Episode\ 13\ \[wRG7Er6qlvk\].*
-: 1684777922:0;rm -rf ~/.local/share/fonts/JetBrainsMono
-: 1684777925:0;cd Documents
-: 1684777938:0;mv JetBrainsMono ~/.local/share/fonts
-: 1684777941:0;fc-cache -f -v
-: 1684846982:0;cd .config/hypr
-: 1684846990:0;nerdfix fix *.conf
-: 1684846995:0;cd waybar
-: 1684847002:0;nerdfix fix style.css
-: 1684847006:0;nerdfix fix config.jsonc
-: 1684847317:0;rm mpv-shot0001.jpg
-: 1684847847:0;nerdfix fix *.sh
-: 1684863790:0;glxinfo | grep OpenGL
-: 1684865892:0;cd Screencasts
-: 1684865972:0;xo recording_2023-05-23-234755.mp4
-: 1684866285:0;rm -rf $HOME/.local/share/nvim $HOME/.cache/nvim
-: 1684928226:0;cd lazy
-: 1684928247:0;fd shada
-: 1684928519:0;cd .cache/nvim
-: 1684935650:0;sudo downgrade
-: 1684935662:0;sudo downgrade lua-language-server
-: 1684935792:0;vs /etc/pacman.d/mirrorlist-backup
-: 1684935894:0;rsss
-: 1684936081:0;cd /etc/pacman.d
-: 1684936120:0;vs /etc/pacman.d/mirrorlist
-: 1684936149:0;chmod 777 mirrorlist
-: 1684936152:0;sudo chmod 777 mirrorlist
-: 1684949114:0;pacman -Qi lua-language-server
-: 1684950038:0;lf
-: 1684950848:0;cd code
-: 1684950852:0;nv luck.cpp
-: 1684951300:0;nv latex.pdf
-: 1684951322:0;nv a.sc
-: 1684951360:0;nv a.hx
-: 1684984368:0;rm -rf ~/.local/share/nvim/lazy
-: 1684986671:0;nv rand
-: 1684986724:0;nv .g
-: 1684986736:0;rm -rf .g
-: 1684989756:0;ani-cli -q 1080p hunter
-: 1684989781:0;ani-cli -q 1080p Hunter X Hunter (2011)
-: 1684996263:0;rm -rf ~/.local/share/nvim/project_nvim
-: 1684997109:0;sudo usermod -a -G flaresolverr $(whoami)
-: 1684997466:0;sudo paccache -rk0
-: 1685000876:0;yay manga-cli
-: 1685000965:0;v
-: 1685001018:0;vs /etc/systemd/system/rate-mirrors.service
-: 1685001098:0;/bin/sh "/home/rishabh/other-stuff/mirrors-and-hosts/rate-mirrors-arch.sh"
-: 1685001190:0;sudo cp hosts /etc/hosts
-: 1685001219:0;curl -C - --output hosts https://block.energized.pro/ultimate/formats/hosts
-: 1685001225:0;nv hosts
-: 1685001520:0;./hosts-maker.sh
-: 1685001626:0;rm hosts
-: 1685001633:0;nv /etc/hosts
-: 1685001699:0;curl -C - --output hosts https://raw.githubusercontent.com/hagezi/dns-blocklists/main/hosts/pro.txt
-: 1685001885:0;cd other-stuff
-: 1685001897:0;chmod 700 hosts
-: 1685001907:0;chmod 111 hosts
-: 1685001916:0;chmod 222 hosts
-: 1685002083:0;nv hosts-maker.sh
-: 1685002095:0;rs
-: 1685002197:0;yay rate-mirrors
-: 1685012240:0;yay frogmouth
-: 1685012260:0;pipx install frogmouth
-: 1685012285:0;frogmouth
-: 1685022370:0;cd rust-learning
-: 1685022593:0;cd plugins
-: 1685022608:0;mv lsp.lua ..
-: 1685022620:0;mv ../lsp.lua .
-: 1685022966:0;bob use rust-learning
-: 1685023022:0;mkdir nvim
-: 1685023039:0;cp lsp.lua alpha.lua ~/projects/nvim/
-: 1685023052:0;rm alpha.lua
-: 1685024326:0;cd pl
-: 1685025726:0;nv strtup.sh
-: 1685025736:0;./strtup.sh
-: 1685030348:0;bob use 0.9.0
-: 1685030984:0;cd rofi
-: 1685030991:0;nerdfix fix config.rasi
-: 1685031000:0;cd userconfig
-: 1685031013:0;nv config.rasi
-: 1685035126:0;yay konsole
-: 1685070817:0;firefox
-: 1685073372:0;hx init.lua
-: 1685077346:0;yay marksman
-: 1685093591:0;yay npm
-: 1685095538:0;speedtest
-: 1685100200:0;tldr touch
-: 1685106888:0;cd .config/mpv
-: 1685106892:0;nv mpv.conf
-: 1685114463:0;cd watch_later
-: 1685117299:0;yay -S tachidesk
-: 1685117418:0;bash <(curl -s https://raw.githubusercontent.com/Rishabh672003/Neovim/main/install.sh)
-: 1685117437:0;cdd nvim
-: 1685117458:0;yay pip
-: 1685119050:0;yay -Rns tachidesk-jui
-: 1685119059:0;yay tachi
-: 1685119699:0;tachidesk
-: 1685119797:0;yay -Rns tachidesk-qtui
-: 1685157813:0;cd way
-: 1685159209:0;(checkupdates ; paru -Qua) | wc -l
-: 1685159221:0;(checkupdates ; yay -Qua) | wc -l
-: 1685159871:0;nv config.jsonc
-: 1685160942:0;cd lua/rj/plugins
-: 1685160946:0;rm -rf *
-: 1685161071:0;lvim nvim-cmp.lua
-: 1685161230:0;cp nvim-cmp.lua ~/projects/nvim
-: 1685161247:0;cp ~/projects/nvim/* .
-: 1685161253:0;nv alpha.lua
-: 1685161433:0;rm -rf ~/.local/share/nvim/lazy/*
-: 1685166775:0;nv lsp.lua
-: 1685166810:0;nv nvim-cmp.lua
-: 1685166872:0;ani-cli -q 1080p Hunter X Hunter
-: 1685168111:0;nvim lsp.lua
-: 1685168173:0;nvim ../lazy.lua
-: 1685168364:0;lvim lazy.lua
-: 1685168383:0;nvim lazy.lua
-: 1685181974:0;cd rj
-: 1685182059:0;rm -rf autocommands.lua functions.lua icons.lua options.lua usefull-stuff
-: 1685182094:0;nv lazy.lua
-: 1685182134:0;nv ../../init.lua
-: 1685182234:0;nv icons.lua
-: 1685182244:0;nv autocommands.lua
-: 1685185234:0;cd sway
-: 1685185245:0;cd scripts
-: 1685185248:0;nv lock.sh
-: 1685186245:0;nv empris.py
-: 1685203803:0;nv .lessfilter
-: 1685203809:0;less a.hs
-: 1685203816:0;less a.lua
-: 1685206787:0;nv .yarnrc
-: 1685244975:0;nv index.norg
-: 1685245381:0;cd .config/contour
-: 1685245384:0;nv contour.yml
-: 1685245481:0;cd .con
-: 1685245483:0;cd alacritty
-: 1685245486:0;nv alacritty.yml
-: 1685245772:0;nv completion.md
-: 1685245778:0;rm -rf completion.md
-: 1685245781:0;nv yadm.sh
-: 1685245821:0;cd oth
-: 1685245823:0;cd mirrors-and-hosts
-: 1685245837:0;sudo chmod 777 hosts
-: 1685246420:0;yadm add ~/.config/zsh/history
-: 1685246561:0;yel
-: 1685246792:0;sudo rm -rf repo.git
-: 1685246809:0;yadm clone https://github.com/Rishabh672003/dotfiles
-: 1685247087:0;nv .config/yadm
-: 1685247120:0;git clone https://github.com/Rishabh672003/Neovim ~/.config/nvim && nvim
-: 1685247136:0;yadm add ~/README.md;\
-yadm add ~/.config/alacritty;\
-yadm add ~/.config/btop;\
-yadm add ~/.config/fish;\
-yadm add ~/.config/contour;\
-yadm add ~/.config/helix;\
-yadm add ~/.config/hypr;\
-yadm add ~/.config/kitty;\
-yadm add ~/.config/lvim;\
-yadm add ~/.config/mpv;\
-yadm add ~/.config/neofetch;\
-yadm add ~/.config/nvim;\
-yadm add ~/.config/rofi;\
-yadm add ~/.config/shellfetch;\
-yadm add ~/.config/sway;\
-yadm add ~/.config/tmux;\
-yadm add ~/.config/vim;\
-yadm add ~/.config/waybar;\
-yadm add ~/.config/wezterm;\
-yadm add ~/.config/wofi;\
-yadm add ~/.config/zsh;\
-yadm add ~/.config/wpaperd;\
-yadm add ~/.config/yadm;\
-yadm add ~/.config/spicetify;\
-yadm add ~/other-stuff;
-: 1685247159:0;yadm commit -a -m "update";\
-
-: 1685247166:0;yadm push
-: 1685247826:0;yadm status
-: 1685247902:0;yadm enter
-: 1685253940:0;nv a.hs
-: 1685254008:0;cd cppro
-: 1685254050:0;nv elections-in-chefland.cpp
-: 1685256776:0;echo $TERM
-: 1685256804:0;cd neo
-: 1685256811:0;cd ~/.config/neofetch
-: 1685256888:0;l
-: 1685256986:0;yay -Rns byobu
-: 1685256999:0;yay -S tmux
-: 1685257010:0;yay -S gnome-terminal
-: 1685264554:0;wget https://github.com/anasrar/nvim-treesitter-parser-bin/releases/download/linux/all.zip
-: 1685264626:0;mv all.zip
-: 1685264657:0;unzip -j all.zip *.so -d ~/.local/share/nvim/lazy/nvim-treesitter/parser/
-: 1685264696:0;mv all/*.so ~/.local/share/nvim/lazy/nvim-treesitter/parser/
-: 1685264719:0;cd ~/.local/share/nvim/lazy/nvim-treesitter
-: 1685264765:0;cd parser
-: 1685264780:0;rm -rf all all.zip
-: 1685267888:0;ani-cli Hunter X Hunter -e 123
-: 1685280591:0;npm install -g solidity-language-server
-: 1685280594:0;nv a.sol
-: 1685280692:0;solidity-language-server
-: 1685280707:0;ee
-: 1685285287:0;npm uninstall solidity-language-server
-: 1685294274:0;cd .npm
-: 1685294969:0;rm a.sol
-: 1685296280:0;systemctl restart waydroid-container.service
-: 1685325013:0;nv install.sh
-: 1685325783:0;yay ueberzugpp
-: 1685376809:0;pacman -Qi contour-git
 : 1685377413:0;playerctl pause
 : 1685377418:0;playerctl play-pause
 : 1685381289:0;nv -d a.hs a.lua
@@ -233,7 +11,6 @@ yadm add ~/other-stuff;
 : 1685432109:0;which grimblast
 : 1685432124:0;cd .local/share/bin
 : 1685432129:0;cd .local/share/
-: 1685432138:0;cd bin
 : 1685432141:0;nv grimblast
 : 1685445289:0;cd zsh
 : 1685445294:0;nv .zprofile
@@ -289,7 +66,6 @@ yadm add ~/other-stuff;
 : 1685634406:0;cd python-study
 : 1685634409:0;nv 11.py
 : 1685727690:0;hx
-: 1685727714:0;yay
 : 1685762818:0;hyprctl activewindow
 : 1685762844:0;hyprctl help
 : 1685763283:0;tldr hyprctl
@@ -298,7 +74,6 @@ yadm add ~/other-stuff;
 : 1685763467:0;yay -Rns flaresolverr-bin
 : 1685763475:0;yay flaresolverr
 : 1685768432:0;sudo paccache -rk0 --aur
-: 1685768444:0;sudo paccache -rk0 --help
 : 1685768468:0;rm -rf ~/.cache/yay
 : 1685768733:0;docker run -d --name=flaresolverr -p 8191:8191 -e LOG_LEVEL=info --restart unless-stopped ghcr.io/flaresolverr/flaresolverr:latest
 : 1685768736:0;sudo docker run -d --name=flaresolverr -p 8191:8191 -e LOG_LEVEL=info --restart unless-stopped ghcr.io/flaresolverr/flaresolverr:latest
@@ -313,8 +88,6 @@ yadm add ~/other-stuff;
 : 1685796948:0;mkdir other-configs
 : 1685796968:0;mv hyprland3.conf hyprland4.conf hyprland5.conf other-configs
 : 1685796976:0;nv hyprland.conf
-: 1685797009:0;cd hypr
-: 1685797029:0;nv startup.conf
 : 1685800191:0;cd wall
 : 1685801661:0;chmod +x Cosmic-Dodge.jar
 : 1685801698:0;javac Cosmic-Dodge.jar
@@ -378,17 +151,13 @@ yadm add ~/other-stuff;
 : 1685943708:0;swaybg -i ~/Pictures/Wallpapers/river-reflectting-the-woods.jpg
 : 1685944715:0;cd .config/yadm
 : 1685944716:0;./yadm.sh
-: 1685945268:0;yl
 : 1685950423:0;sdp
 : 1685955091:0;rm -rf ~/.local/share/nvim/lazy/nvim-treesitter/parser/*
 : 1685955369:0;nv .gtkrc-2.0
 : 1685955616:0;nv a.txt
 : 1685955651:0;nv a.lua
-: 1685956211:0;cd nv
-: 1685956221:0;git push
 : 1685958132:0;nv yadm/yadm.sh
 : 1685958748:0;cd dowm
-: 1685958750:0;cd down
 : 1685958801:0;cd vide
 : 1685962314:0;cd Videos
 : 1685962317:0;cd John.Wick.Chapter.4.2023.1080p.WEBRip.x264-RARBG
@@ -405,18 +174,13 @@ yadm add ~/other-stuff;
 : 1685985080:0;yay -Rns ttf-firacode-nerd
 : 1685985263:0;nv ~/.local/bin/getnf
 : 1686052998:0;ppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
-: 1686053078:0;hollywood
 : 1686053410:0;reboot
-: 1686062651:0;/usr/bin/hollywood 
-: 1686056606:0;yay hyprland
 : 1686062540:0;mkdir js-course
 : 1686063161:0;node index.js
 : 1686063802:0;live-server
 : 1686063808:0;cd .config
-: 1686063821:0;mkdir .git
 : 1686063824:0;nv index.js
 : 1686063858:0;npm install -g live-server
-: 1686068863:0;cd Downloads
 : 1686068870:0;rm Rishabh\'s\ Resume-hackerresume-*
 : 1686068875:0;rm Rishabh\'s\ Resume-hackerresume.pdf
 : 1686068930:0;xo Resume.pdf
@@ -428,8 +192,6 @@ yadm add ~/other-stuff;
 : 1686071694:0;rm Cosmic-Dodge.jar
 : 1686071745:0;rm Need\ For\ Speed\ Most\ Wanted\ Black\ Edition\ repack\ Mr\ DJ
 : 1686071754:0;rm -rf Need\ For\ Speed\ Most\ Wanted\ Black\ Edition\ repack\ Mr\ DJ
-: 1686071760:0;xo .
-: 1686073205:0;nv a.java
 : 1686119432:0;nvim --clean
 : 1686129504:0;getnf
 : 1686157960:0;bob use 0.9.2
@@ -456,15 +218,12 @@ yadm add ~/other-stuff;
 : 1686313214:0;alias | grep "r="
 : 1686313220:0;wtr
 : 1686313954:0;yay -S swaylock
-: 1686315882:0;nmtui
 : 1686322648:0;pacman -Qi spotify
 : 1686322659:0;yay spotify
 : 1686325011:0;yay spicetify
-: 1686332707:0;ks
 : 1686332717:0;mpv --help
 : 1686332722:0;tldr mpv
 : 1686332741:0;man mpv
-: 1686332895:0;cd Pictures
 : 1686332903:0;mkdir mpv-ss
 : 1686332916:0;mv mpv-shot* ~/Pictures/mpv-ss
 : 1686332942:0;mpv --screenshot-directory=/home/rishabh/Pictures/mpv-ss
@@ -472,7 +231,6 @@ yadm add ~/other-stuff;
 : 1686333049:0;cd Pictures/mpv-ss
 : 1686333478:0;tmux detach
 : 1686333488:0;tmux attach
-: 1686333503:0;exit
 : 1686333975:0;cargo new rust-by-example
 : 1686366798:0;wikicurses
 : 1686366834:0;wikicurses --help
@@ -482,7 +240,6 @@ yadm add ~/other-stuff;
 : 1686368743:0;yay waybar-hyprland
 : 1686371008:0;cargo install --git https://github.com/typst/typst
 : 1686371027:0;yay typst
-: 1686371140:0;cd notes
 : 1686371151:0;nv a.typ
 : 1686371164:0;typst a.typ
 : 1686371170:0;typst compile a.typ
@@ -490,15 +247,12 @@ yadm add ~/other-stuff;
 : 1686378498:0;fd hyprland.log
 : 1686378501:0;fd hyprland
 : 1686378555:0;fd hypr
-: 1686379743:0;n
-: 1686379744:0;f
 : 1686389140:0;mkdir no-cargo
 : 1686389142:0;cd no-cargo
 : 1686389155:0;nv types.rs
 : 1686389647:0;cd rust-cp
 : 1686395284:0;journalctl | head
 : 1686395289:0;journalctl
-: 1686395507:0;cd /
 : 1686395512:0;fd fig-daemon
 : 1686395538:0;fzf
 : 1686396752:0;nv a.qsql
@@ -510,35 +264,27 @@ cargo install mdbook\
 mdbook build\
 mdbook serve
 : 1686402684:0;tmux
-: 1686410025:0;nr
-: 1686412802:0;cz
 : 1686413718:0;nv a.c
 : 1686413759:0;rm a.c
 : 1686418019:0;cargo new random
-: 1686420988:0;ws
 : 1686449296:0;cd dow
 : 1686449316:0;cd docu
 : 1686449320:0;fd rav
 : 1686449336:0;cd Sem_1_books_TCET
 : 1686449345:0;cd Basic\ Electrical\ Engineering\ BEE
 : 1686449356:0;xo Ravish\ singh.pdf
-: 1686462317:0;bob use nightly
 : 1686462378:0;nvim -c
 : 1686462380:0;nvim -v
-: 1686462515:0;bob use stable
 : 1686485125:0;python anipy.py
 : 1686485135:0;grep ani
 : 1686485145:0;ls | grep ls
 : 1686485148:0;ls | grep ani
 : 1686485151:0;ls | grep py
-: 1686566296:0;cd projects/Programming-Notes
 : 1686566304:0;nv Data-Structures
 : 1686566442:0;cd Example-Code
 : 1686566448:0;./find.out
 : 1686566523:0;cd rand
-: 1686566715:0;cd pro
 : 1686566729:0;mdbb
-: 1686566848:0;killall -9 Discord
 : 1686567176:0;mdbook serve
 : 1686569132:0;cd kitty
 : 1686569135:0;nv kitty.conf
@@ -558,10 +304,7 @@ mdbook serve
 : 1686571110:0;./calc 23 32
 : 1686571113:0;./calc 2
 : 1686571116:0;./calc 1000
-: 1686592070:0;waybar
 : 1686592263:0;cd random
-: 1686592270:0;cdpp
-: 1686592300:0;cali
 : 1686592307:0;exec zsh
 : 1686592336:0;cd guessing_game
 : 1686625749:0;cd src
@@ -593,21 +336,16 @@ mdbook serve
 : 1686671174:0;football scores
 : 1686671200:0;football scores -l
 : 1686671224:0;npm uninstall footballcli
-: 1686677238:0;uneo
 : 1686740656:0;killall -9 waybar && waybar
 : 1686743389:0;cd ownership
 : 1686745398:0;cargo new references
-: 1686745400:0;cd references
-: 1686745403:0;nv src/main.rs
 : 1686763473:0;lspblk
 : 1686763489:0;duf
 : 1686763509:0;du
-: 1686763529:0;lll
 : 1686763530:0;llll
 : 1686767132:0;one
 : 1686828417:0;cd .config/waybar
 : 1686828421:0;nv style.css
-: 1686828487:0;killall -9 waybar
 : 1686841673:0;kwe
 : 1686842728:0;cd nvim-
 : 1686843054:0;sdr
@@ -617,12 +355,8 @@ mdbook serve
 : 1686844264:0;nbi a.ts
 : 1686844379:0;rm a.ts
 : 1686849063:0;yay whatsapp
-: 1686919930:0;we
 : 1686924933:0;killall -9 firefox
 : 1686925948:0;pip install --upgrade pip
-: 1686925953:0;ping 9.9.9.9
-: 1686939178:0;rustup docs --book
-: 1686939267:0;cd rust
 : 1686939278:0;cargo new vectors
 : 1686939282:0;cd vectors
 : 1686975938:0;nano .clang-format
@@ -631,75 +365,426 @@ mdbook serve
 
 : 1686980626:0;sudo tune2fs -l /dev/nvme0n1p2 | grep 'Filesystem created:'
 : 1686980631:0;sudo tune2fs -l /dev/nvme0n1p3 | grep 'Filesystem created:'
-: 1686980636:0;lsblk
 : 1686980652:0;sudo tune2fs -l /dev/nvme0n1 | grep 'Filesystem created:'
-: 1686983008:0;cd projects
 : 1686983014:0;cd js-course
 : 1686983017:0;nv dynamic.js
-: 1686983035:0;cdp
 : 1686983040:0;cd Tim-E-Scape
 : 1686983044:0;nv index.html
-: 1686986870:0;nbi
-: 1686995747:0;ls
-: 1686995748:0;cd
 : 1686995752:0;nv notes/devops.md
 : 1687014159:0;nv .
-: 1687014179:0;cd nvim
-: 1687014219:0;lg
 : 1687016204:0;nvim .
-: 1687016271:0;nvim
 : 1687023034:0;ya
-: 1687057191:0;ll
-: 1687057192:0;c
-: 1687057195:0;ys
-: 1687057964:0;nv
 : 1687059184:0;bob ls
 : 1687059191:0;bob update --all
-: 1687059209:0;e
-: 1687059304:0;nv
 : 1687063735:0;rustup docs --book
 : 1687064049:0;cd rust
-: 1687064050:0;ll
 : 1687064055:0;cd references
-: 1687064056:0;ll
-: 1687064060:0;nv src/main.rs
-: 1687064551:0;cdp
 : 1687064559:0;cargo new fixes
-: 1687064573:0;cd fixes
-: 1687064580:0;nv src/main.rs
-: 1687064780:0;cdp
 : 1687064782:0;cd fixes
-: 1687064783:0;ll
 : 1687064789:0;nv src/main.rs
-: 1687081103:0;n
-: 1687081105:0;f
-: 1687081469:0;nr
-: 1687085421:0;nv
 : 1687085645:0;yay linux-zen
-: 1687092104:0;ping 9.9.9.9
-: 1687096245:0;trash-empty
 : 1687096865:0;sudo trash-empty
-: 1687101135:0;cd Downloads
-: 1687101138:0;cd
-: 1687101140:0;cd notes
-: 1687101140:0;ll
 : 1687101143:0;nv github-recovery-codes.txt
-: 1687102528:0;c
-: 1687102530:0;f
-: 1687102531:0;c
-: 1687102532:0;n
-: 1687102689:0;nv
-: 1687110451:0;we
-: 1687140867:0;nv
-: 1687141151:0;c
-: 1687141152:0;nv
-: 1687151580:0;nmtui
-: 1687151622:0;c
-: 1687151743:0;cd
-: 1687151743:0;c
-: 1687152053:0;nv
-: 1687152167:0;nr
 : 1687152271:0;wpaperd
-: 1687152896:0;killall -9 waybar
-: 1687156999:0;c
 : 1687157002:0;yl
+: 1687157005:0;yel
+: 1687157360:0;killall -9 wpaperd
+: 1687157636:0;swaybg -i ~/Pictures/Wallpapers/staring-into-the-woods-3840Ãƒ·2160.jpg
+: 1687185513:0;cd java
+: 1687185522:0;nv a.java
+: 1687185780:0;uneo
+: 1687186159:0;kk
+: 1687186165:0;nv cc-contest-2023-03-29/budget.cpp
+: 1687189499:0;mkdir cpp-from-scratch
+: 1687189502:0;cd cpp-from-scratch
+: 1687189504:0;nv a.cpp
+: 1687189711:0;nv namespaces.cpp
+: 1687190849:0;nv typedef.cpp
+: 1687190894:0;nv type-conv.cpp
+: 1687191365:0;node "/home/rishabh/projects/js-course/index.js"
+: 1687191413:0;cd "/home/rishabh/projects/cpp-from-scratch/" && g++ typedef.cpp -o typedef && "/home/rishabh/projects/cpp-from-scratch/"typedef
+: 1687191593:0;nv input.cpp
+: 1687195594:0;nv hypotenuse.cpp
+: 1687225033:0;cdd cpp
+: 1687225046:0;touch ternary.cpp
+: 1687225049:0;nv ternary.cpp
+: 1687225852:0;pacman -Qi swaylock
+: 1687225860:0;pacman -Qi swayidle
+: 1687225866:0;swayidle
+: 1687225881:0;swayidle before-sleep swaylock
+: 1687225898:0;swaylock
+: 1687225925:0;./sleep.sh
+: 1687225934:0;nv sleep.sh
+: 1687225973:0;cd hypr
+: 1687225978:0;mkdir .git
+: 1687225982:0;nv startup.conf
+: 1687226056:0;wlogout
+: 1687226076:0;swayidle -w timeout 6000 "temp=$(brightnessctl g); brightnessctl set $((temp / 2))" resume "temp=$(brightnessctl g); brightnessctl set $((temp * 2))" timeout 150 "$HOME/.config/hypr/scripts/lock.sh & sleep 1 && hyprctl dispatch dpms off" resume 'hyprctl dispatch dpms on' timeout 200 'systemctl suspend'\
+
+: 1687226388:0;nv temp-conv.cpp
+: 1687237454:0;git
+: 1687237562:0;cd nv
+: 1687238895:0;hollywood
+: 1687250917:0;/usr/bin/hollywood 
+: 1687250917:0;exit
+: 1687240096:0;cd .gnome
+: 1687240128:0;help
+: 1687240181:0;cd --help
+: 1687240183:0;cd -h
+: 1687240192:0;man cd
+: 1687240709:0;mkdir test
+: 1687240712:0;mkdir test2
+: 1687240733:0;cd test2
+: 1687240960:0;mkdir basid-git
+: 1687240962:0;cd ..
+: 1687240978:0;cd rishabh/basid-git
+: 1687241015:0;cd /home/rishabh/notes
+: 1687241722:0;mkdir -p hello/a/b
+: 1687241728:0;cd hello
+: 1687242007:0;cd projects/Programming-Notes
+: 1687243402:0;nv test.md
+: 1687249647:0;cd Applications
+: 1687249650:0;./Cool-Retro-Term-1.1.1-x86_64.AppImage
+: 1687250002:0;cd cpp
+: 1687250007:0;nv bubble.cpp
+: 1687250400:0;man git
+: 1687250609:0;mkdir tcet-test
+: 1687250611:0;cd tcet-test
+: 1687250615:0;git init
+: 1687250664:0;git branch -m main
+: 1687250915:0;git commit-tree
+: 1687251147:0;nv merge.cpp
+: 1687251210:0;go install github.com/mosajjal/bard-cli@latest
+: 1687251395:0;touch /home/rishabh/.bardcli.yaml
+: 1687251411:0;bard-cli --defaultconfig
+: 1687251426:0;bard-cli
+: 1687251590:0;tldr git
+: 1687251762:0;nbi
+: 1687252751:0;cd .config/git
+: 1687252790:0;nv .gitignore
+: 1687252795:0;nv .gitattributes
+: 1687252834:0;nv config
+: 1687252870:0;git config --list
+: 1687253339:0;cd Rishabh672003.github.io
+: 1687253368:0;git clone https://github.com/Rishabh672003/Rishabh672003.git
+: 1687253375:0;nv Rishabh672003
+: 1687253382:0;cd Rishabh672003
+: 1687253988:0;mkdir Tcet-OS
+: 1687253992:0;cd Tcet-OS
+: 1687254009:0;bard-cli what is the meaning of life
+: 1687254018:0;bard-cli "what is the meaning of life"
+: 1687254037:0;cd projects/Tcet-OS
+: 1687254400:0;git clone https://github.com/tcet-opensource/learn-git
+: 1687254451:0;nv a.md
+: 1687254520:0;git clone https://github.com/Rishabh672003/learn-git.git
+: 1687254548:0;nv ARCH_BTW.md
+: 1687254621:0;gh repo clone himanshu-03/learn-git
+: 1687254652:0;cd learn-git
+: 1687255062:0;cp README.md ..
+: 1687255104:0;rm -rf learn-git
+: 1687255105:0;https://github.com/Rishabh672003/learn-git-1.git
+: 1687255123:0;cp ../README.md .
+: 1687256125:0;git switch -b rishabh
+: 1687256131:0;git switch -c rishabh
+: 1687256215:0;mkdir I_am_awesome
+: 1687256652:0;cd Rishabh_Jha
+: 1687256686:0;nv Arch.md
+: 1687257088:0;cp Arch.md ..
+: 1687257093:0;rm -rf learn-git-1
+: 1687257105:0;git clone https://github.com/Rishabh672003/learn-git-1.git
+: 1687257109:0;cd learn-git-1
+: 1687257136:0;mkdir Rishabh_Jha
+: 1687257143:0;cp ../Arch.md .
+: 1687257250:0;git add Rishabh_Jha
+: 1687257318:0;mv Arch.md Rishabh_Jha
+: 1687257355:0;nv Rishabh_Jha/Arch.md
+: 1687257855:0;git push
+: 1687258038:0;git config pull.rebase false
+: 1687258042:0;git pull origin main
+: 1687258490:0;Rishabh_Jha
+: 1687258494:0;..
+: 1687258508:0;nvim README.md
+: 1687282102:0;nv .bardcli.yaml
+: 1687282111:0;rm -rf basid-git
+: 1687282126:0;rm -fr .bardcli.yaml
+: 1687282151:0;cd .local/share/go/bin/
+: 1687282165:0;./bard-cli --default
+: 1687282172:0;./bard-cli --defaultconfig
+: 1687282175:0;./bard-cli
+: 1687282188:0;./bard-cli what is the meaning of life
+: 1687282197:0;rm -rf bard-cli
+: 1687326313:0;sudo paccache -rk0 --help
+: 1687326317:0;sudo paccache -rk0
+: 1687326567:0;ip link show
+: 1687326672:0;yay nm-connection-editor
+: 1687327619:0;q
+: 1687327726:0;nm-connection-editor
+: 1687327765:0;nmtui
+: 1687327791:0;speedtest
+: 1687329141:0;Mc
+: 1687329523:0;n
+: 1687329654:0;cali
+: 1687329718:0;nemo
+: 1687329817:0;nv AniPy
+: 1687333547:0;sudo pacman -Qtdq
+: 1687334478:0;cd notes
+: 1687334487:0;nv day-3.md
+: 1687334852:0;lsblk
+: 1687334938:0;cd boot
+: 1687335058:0;gh
+: 1687335070:0;cd usr
+: 1687335175:0;cd dev
+: 1687335185:0;cd run
+: 1687335196:0;cd proc
+: 1687335550:0;nv /etc/pacman.conf
+: 1687335615:0;sudo pacman -S firefox
+: 1687335795:0;nv /etc/pacman.d/mirrorlist
+: 1687335803:0;rsss
+: 1687340514:0;git clone https://github.com/tcet-opensource/tcet-linux
+: 1687340546:0;git checkout -b xfce-de
+: 1687340984:0;cd airootfs
+: 1687340994:0;nv bootableusb.sh
+: 1687341094:0;pacman -Qi discord
+: 1687341744:0;tar -xvf discord_arch_electron.tar.gz
+: 1687341746:0;cd discord_arch_electron
+: 1687342031:0;cd pro
+: 1687342386:0;cd airootfs/usr/local
+: 1687342390:0;cd share
+: 1687342398:0;cd bin
+: 1687342410:0;nv tl-finalisation
+: 1687342546:0;cd /etc/
+: 1687342631:0;firewalld
+: 1687342637:0;yay firewalld
+: 1687342666:0;sudo systemctl enable firewalld.service
+: 1687342945:0;yay xed
+: 1687342984:0;yay -R xed
+: 1687343013:0;yay archiso
+: 1687343172:0;cd /usr/share/pacman/
+: 1687343278:0;nv /etc/skel/.bashrc
+: 1687343306:0;cd .config/zsh
+: 1687343404:0;yay mcfly
+: 1687343609:0;cd .config/Thunar
+: 1687343614:0;nv uca.xml
+: 1687343999:0;htop
+: 1687344022:0;f
+: 1687344340:0;nv cleanup.sh
+: 1687344541:0;fd mirrorlist
+: 1687344637:0;cd airootfs/etc/skel
+: 1687344678:0;nv .p10k.zsh
+: 1687344786:0;mkarchiso
+: 1687345285:0;yay
+: 1687345912:0;gh repo clone tcet-opensource/tcet-linux-pkgbuild
+: 1687345975:0;yay tela-circle-icon
+: 1687354184:0;mkdir TCET
+: 1687354198:0;mv tcet* TCET
+: 1687354202:0;cd TCET
+: 1687354229:0;sudo mkarchiso -v .
+: 1687358243:0;sudo rm -rf work
+: 1687358423:0;spicetify backup restore apply
+: 1687358730:0;cd Tcet
+: 1687358734:0;nv pacman.conf
+: 1687359738:0;gh repo clone tcet-opensource/tcet-linux-settings
+: 1687359753:0;cd tcet-linux-settings
+: 1687359764:0;nv etc/skel/.config/xfce4/desktop/icons.screen0-1350x724.rc
+: 1687360973:0;cd etc/skel/.config/xfce4/desktop
+: 1687361002:0;nv icons.screen0-1264x757.rc
+: 1687361105:0;cdpp
+: 1687361320:0;cd settings/tcet-linux-settings
+: 1687405625:0;cd Programming-Notes
+: 1687405648:0;git pull
+: 1687406212:0;lazygit
+: 1687446108:0;cd tc
+: 1687446113:0;cd tcet-linux-pkgbuild
+: 1687446120:0;cd tcet-welcome
+: 1687446170:0;nv PKGBUILD
+: 1687446201:0;./cleanup.sh
+: 1687446215:0;makepkg -s
+: 1687446220:0;makepkg -si
+: 1687446263:0;sh cleanup.sh
+: 1687502361:0;cd tce
+: 1687502364:0;cd tcet-linux
+: 1687502380:0;cd airootfs/etc/skel/.zshrc
+: 1687502383:0;cd airootfs/etc/skel/
+: 1687502385:0;nv .zshrc
+: 1687507819:0;ping 9.9.9.9
+: 1687507845:0;x
+: 1687509059:0;yay --devel --save
+: 1687509568:0;rm .bardcli.yaml
+: 1687510723:0;waydroid upgrade
+: 1687510727:0;sudo waydroid upgrade
+: 1687510775:0;sudo rm -rf /var/lib/waydroid /home/.waydroid
+: 1687510784:0;rm -rf ~/waydroid ~/.share/waydroid ~/.local/share/applications/*aydroid* ~/.local/share/waydroid
+: 1687510902:0;cd Pictures
+: 1687510908:0;xo .
+: 1687527135:0;yay -R waydroid
+: 1687527147:0;sudo rm -rf /var/lib/waydroid
+: 1687527185:0;cd /
+: 1687527187:0;fd waydroid
+: 1687527276:0;yay waydroid
+: 1687527295:0;sudo waydroid init -f
+: 1687533548:0;vdir
+: 1687533552:0;dir
+: 1687541113:0;cd progra
+: 1687541116:0;gh pr checkout 5
+: 1687542311:0;mv GIt/commands.md Git
+: 1687542318:0;rm -rf GIt
+: 1687542467:0;nv README.md
+: 1687542901:0;prettier PHP/*
+: 1687542912:0;nvim time-complexity.md
+: 1687542951:0;prettier time-complexity.md
+: 1687542958:0;nv time-complexity.md
+: 1687542965:0;prettier help
+: 1687542970:0;prettier --help
+: 1687543002:0;prettier -w time-complexity.md
+: 1687543012:0;prettier -w *
+: 1687543470:0;npm run format
+: 1687572510:0;yay hyprland
+: 1687578416:0;killall -9 waybar
+: 1687578421:0;waybar
+: 1687580820:0;sudo waydroid logcat
+: 1687581101:0;nv /var/lib/waydroid/waydroid.log
+: 1687581165:0;/usr/lib/waydroid/data/scripts/waydroid-net.sh start
+: 1687581265:0;systemctl stop docker\
+systemctl restart iptables\
+ip link delete docker0
+: 1687581297:0;wl
+: 1687581371:0;cd tachiyomi
+: 1687581376:0;cd waydroid
+: 1687581385:0;cd wayland-dot-files
+: 1687581645:0;fd *.apk
+: 1687581649:0;fd apk
+: 1687581654:0;cd apks
+: 1687581665:0;waydroid app install firefox-111-0.apk
+: 1687581669:0;waydroid app install tachiyomi-x86_64-v0.14.5.apk
+: 1687581685:0;waydroid app install Telegram.apk
+: 1687581785:0;waydroid app install fenix-113.0b9-x86_64.apk
+: 1687616440:0;cd progr
+: 1687616442:0;l
+: 1687620886:0;killall -9 Discord
+: 1687624857:0;trash-empty
+: 1687624864:0;nr
+: 1687627908:0;yay gnome-builder
+: 1687628085:0;clear
+: 1687628880:0;cd nvim
+: 1687628884:0;fd xed
+: 1687664365:0;nv gtk.py
+: 1687664410:0;python gtk.py
+: 1687665250:0;yay libgtk-3-dev
+: 1687665254:0;yay libgtk
+: 1687665344:0;mkdir gtk
+: 1687665352:0;nv first.c
+: 1687665376:0;gcc -o hello_world $(pkg-config --cflags --libs gtk+-3.0) first.c
+: 1687665381:0;./hello_world
+: 1687669127:0;nv second.c
+: 1687669193:0;bob use stable
+: 1687669359:0;pkgconfig --cflags --libs gtk+-3.0
+: 1687669517:0;gcc -o first $(pkg-config --cflags --libs gtk+-3.0) second.c
+: 1687669521:0;./first
+: 1687669613:0;touch gtk-app.c
+: 1687670184:0;gcc -o gtk-app $(pkg-config --cflags --libs gtk+-3.0) gtk-app.c
+: 1687670274:0;nv gtk-app
+: 1687670340:0;rm -rf first.c second.c
+: 1687670345:0;rm -rf *.out
+: 1687670348:0;rmbin
+: 1687670356:0;binrm
+: 1687670371:0;rm -rf hello_world first gtk-app
+: 1687670381:0;nvim Makefile
+: 1687670794:0;pkgconf --cflags harfbuzz
+: 1687670889:0;cz
+: 1687670904:0;gcc -o gtk-app.out $(pkg-config --cflags --libs gtk+-3.0) gtk-app.c
+: 1687671017:0;pkgconf --cflags
+: 1687671028:0;pkgconf --cflags gtk+-3.0
+: 1687671235:0;pkg-config --cflags --libs gtk+-3.0
+: 1687671448:0;cd /usr/include/gtk-3.0/gdk
+: 1687671461:0;nv gdkpixbuf.h
+: 1687671485:0;cd gdk
+: 1687671945:0;nv gtk-app.c
+: 1687672024:0;cp gtk-app.c ..
+: 1687672031:0;./gtk-app.out
+: 1687672094:0;cp ../gtk-app.c .
+: 1687672140:0;gcc -o gtk-app.out $(pkg-config --cflags --libs harbfuzz gtk+-3.0) gtk-app.c
+: 1687672151:0;gcc -o gtk-app.out $(pkg-config --cflags --libs harfbuzz gtk+-3.0) gtk-app.c
+: 1687672262:0;yay gdk
+: 1687672789:0;cd gtk
+: 1687673107:0;rm gtk-app.out
+: 1687673814:0;make clean
+: 1687674002:0;nv start.c\  
+: 1687674010:0;rm start.c\  
+: 1687674014:0;nv start.c
+: 1687674180:0;nv Makefile
+: 1687674531:0;./gtk-app
+: 1687675523:0;ks
+: 1687676235:0;make
+: 1687676239:0;./start
+: 1687677854:0;yay yad
+: 1687678068:0;mkdir yad
+: 1687678069:0;cd yad
+: 1687678076:0;nv sysinfo.sh
+: 1687683487:0;gh repo clone TechXero/XeroNemesis
+: 1687683529:0;nv scripts
+: 1687683642:0;alacritty help
+: 1687683668:0;alacritty -e yay
+: 1687684419:0;./xero-nemesis
+: 1687684444:0;yad xero-nemesis
+: 1687684447:0;yad
+: 1687684472:0;cd scripts
+: 1687684476:0;nv arch
+: 1687685008:0;systemctl stop docker\
+systemctl restart iptables
+: 1687685020:0;we
+: 1687685022:0;wr
+: 1687685032:0;ws
+: 1687686732:0;cd XeroNemesis
+: 1687686736:0;nv xero-nemesis
+: 1687687627:0;cd down
+: 1687687643:0;cd wel
+: 1687687648:0;cd Downloads
+: 1687687661:0;cd Documents
+: 1687687671:0;cd welcome
+: 1687687681:0;./welcome.sh
+: 1687687993:0;xfce4-terminal help
+: 1687688431:0;man yad
+: 1687689497:0;man reflector
+: 1687689790:0;cdp
+: 1687689834:0;rm -rf data src
+: 1687689861:0;cp -r ~/Documents/welcome/* .
+: 1687689874:0;mkdir assets
+: 1687689881:0;mv tcetlinux-logo.png
+: 1687689884:0;mv tcetlinux-logo.png assets
+: 1687689899:0;nv welcome.sh
+: 1687690179:0;nv scripts/discord.sh
+: 1687690199:0;xdg-open
+: 1687690211:0;xdg-open https://github.com
+: 1687691138:0;cd projects
+: 1687691142:0;rm -rf tcet-linux-welcome
+: 1687691148:0;git clone https://github.com/tcet-opensource/tcet-linux-welcome.git
+: 1687695543:0;cd tcet-linux-welcome
+: 1687695550:0;nv LICENSE
+: 1687695573:0;lll
+: 1687695580:0;ys
+: 1687696083:0;bob use nightly
+: 1687696141:0;nvim
+: 1687697857:0;ls
+: 1687697858:0;cd
+: 1687697858:0;c
+: 1687697872:0;cd tcet
+: 1687697876:0;lg
+: 1687697884:0;ll
+: 1687697885:0;nv
+: 1687697897:0;xfce4-terminal --help
+: 1687697920:0;xfce4-terminal -x scripts/discord.sh
+: 1687698195:0;xfce4-terminal -x ./scripts/mirror.sh
+: 1687698204:0;e
+: 1687699549:0;cd apks
+: 1687699551:0;ll
+: 1687699565:0;waydroid app install x86_SystemWebView.apk
+: 1687699584:0;we
+: 1687699585:0;wr
+: 1687699589:0;ws
+: 1687704805:0;c
+: 1687706545:0;nbi
+: 1687706556:0;bob use stable
+: 1687706559:0;nbi
+: 1687710060:0;nv
+: 1687710776:0;yel
+: 1687710833:0;yl
