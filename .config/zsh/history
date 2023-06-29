@@ -10,7 +10,6 @@
 : 1685432098:0;yay grimblast
 : 1685432109:0;which grimblast
 : 1685432124:0;cd .local/share/bin
-: 1685432129:0;cd .local/share/
 : 1685432141:0;nv grimblast
 : 1685445289:0;cd zsh
 : 1685445294:0;nv .zprofile
@@ -104,7 +103,6 @@
 : 1685802171:0;sdk install java 20.0.1-oracle
 : 1685802385:0;java -jar Cosmic-Dodge.jar
 : 1685802449:0;ani-cli Hunter X Hunter
-: 1685846038:0;rss
 : 1685848658:0;nv init.lua
 : 1685853335:0;nv phy.md
 : 1685872899:0;yay river
@@ -174,11 +172,9 @@
 : 1685985080:0;yay -Rns ttf-firacode-nerd
 : 1685985263:0;nv ~/.local/bin/getnf
 : 1686052998:0;ppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
-: 1686053410:0;reboot
 : 1686062540:0;mkdir js-course
 : 1686063161:0;node index.js
 : 1686063802:0;live-server
-: 1686063808:0;cd .config
 : 1686063824:0;nv index.js
 : 1686063858:0;npm install -g live-server
 : 1686068870:0;rm Rishabh\'s\ Resume-hackerresume-*
@@ -248,7 +244,6 @@
 : 1686378501:0;fd hyprland
 : 1686378555:0;fd hypr
 : 1686389140:0;mkdir no-cargo
-: 1686389142:0;cd no-cargo
 : 1686389155:0;nv types.rs
 : 1686389647:0;cd rust-cp
 : 1686395284:0;journalctl | head
@@ -274,7 +269,6 @@ mdbook serve
 : 1686449345:0;cd Basic\ Electrical\ Engineering\ BEE
 : 1686449356:0;xo Ravish\ singh.pdf
 : 1686462378:0;nvim -c
-: 1686462380:0;nvim -v
 : 1686485125:0;python anipy.py
 : 1686485135:0;grep ani
 : 1686485145:0;ls | grep ls
@@ -347,7 +341,6 @@ mdbook serve
 : 1686828417:0;cd .config/waybar
 : 1686828421:0;nv style.css
 : 1686841673:0;kwe
-: 1686842728:0;cd nvim-
 : 1686843054:0;sdr
 : 1686843291:0;gnome-control-center
 : 1686843301:0;gnome-extensions
@@ -366,14 +359,11 @@ mdbook serve
 : 1686980626:0;sudo tune2fs -l /dev/nvme0n1p2 | grep 'Filesystem created:'
 : 1686980631:0;sudo tune2fs -l /dev/nvme0n1p3 | grep 'Filesystem created:'
 : 1686980652:0;sudo tune2fs -l /dev/nvme0n1 | grep 'Filesystem created:'
-: 1686983014:0;cd js-course
-: 1686983017:0;nv dynamic.js
 : 1686983040:0;cd Tim-E-Scape
 : 1686983044:0;nv index.html
 : 1686995752:0;nv notes/devops.md
 : 1687014159:0;nv .
 : 1687016204:0;nvim .
-: 1687023034:0;ya
 : 1687059184:0;bob ls
 : 1687059191:0;bob update --all
 : 1687063735:0;rustup docs --book
@@ -381,13 +371,10 @@ mdbook serve
 : 1687064055:0;cd references
 : 1687064559:0;cargo new fixes
 : 1687064782:0;cd fixes
-: 1687064789:0;nv src/main.rs
 : 1687085645:0;yay linux-zen
 : 1687096865:0;sudo trash-empty
 : 1687101143:0;nv github-recovery-codes.txt
 : 1687152271:0;wpaperd
-: 1687157002:0;yl
-: 1687157005:0;yel
 : 1687157360:0;killall -9 wpaperd
 : 1687157636:0;swaybg -i ~/Pictures/Wallpapers/staring-into-the-woods-3840Ã�2160.jpg
 : 1687185513:0;cd java
@@ -415,8 +402,6 @@ mdbook serve
 : 1687225898:0;swaylock
 : 1687225925:0;./sleep.sh
 : 1687225934:0;nv sleep.sh
-: 1687225973:0;cd hypr
-: 1687225978:0;mkdir .git
 : 1687225982:0;nv startup.conf
 : 1687226056:0;wlogout
 : 1687226076:0;swayidle -w timeout 6000 "temp=$(brightnessctl g); brightnessctl set $((temp / 2))" resume "temp=$(brightnessctl g); brightnessctl set $((temp * 2))" timeout 150 "$HOME/.config/hypr/scripts/lock.sh & sleep 1 && hyprctl dispatch dpms off" resume 'hyprctl dispatch dpms on' timeout 200 'systemctl suspend'\
@@ -426,7 +411,6 @@ mdbook serve
 : 1687237562:0;cd nv
 : 1687238895:0;hollywood
 : 1687250917:0;/usr/bin/hollywood 
-: 1687250917:0;exit
 : 1687240096:0;cd .gnome
 : 1687240128:0;help
 : 1687240181:0;cd --help
@@ -436,7 +420,6 @@ mdbook serve
 : 1687240712:0;mkdir test2
 : 1687240733:0;cd test2
 : 1687240960:0;mkdir basid-git
-: 1687240962:0;cd ..
 : 1687240978:0;cd rishabh/basid-git
 : 1687241015:0;cd /home/rishabh/notes
 : 1687241722:0;mkdir -p hello/a/b
@@ -459,7 +442,6 @@ mdbook serve
 : 1687251411:0;bard-cli --defaultconfig
 : 1687251426:0;bard-cli
 : 1687251590:0;tldr git
-: 1687251762:0;nbi
 : 1687252751:0;cd .config/git
 : 1687252790:0;nv .gitignore
 : 1687252795:0;nv .gitattributes
@@ -519,7 +501,6 @@ mdbook serve
 : 1687326672:0;yay nm-connection-editor
 : 1687327619:0;q
 : 1687327726:0;nm-connection-editor
-: 1687327765:0;nmtui
 : 1687327791:0;speedtest
 : 1687329141:0;Mc
 : 1687329523:0;n
@@ -539,7 +520,6 @@ mdbook serve
 : 1687335550:0;nv /etc/pacman.conf
 : 1687335615:0;sudo pacman -S firefox
 : 1687335795:0;nv /etc/pacman.d/mirrorlist
-: 1687335803:0;rsss
 : 1687340514:0;git clone https://github.com/tcet-opensource/tcet-linux
 : 1687340546:0;git checkout -b xfce-de
 : 1687340984:0;cd airootfs
@@ -547,7 +527,6 @@ mdbook serve
 : 1687341094:0;pacman -Qi discord
 : 1687341744:0;tar -xvf discord_arch_electron.tar.gz
 : 1687341746:0;cd discord_arch_electron
-: 1687342031:0;cd pro
 : 1687342386:0;cd airootfs/usr/local
 : 1687342390:0;cd share
 : 1687342398:0;cd bin
@@ -577,8 +556,6 @@ mdbook serve
 : 1687345975:0;yay tela-circle-icon
 : 1687354184:0;mkdir TCET
 : 1687354198:0;mv tcet* TCET
-: 1687354202:0;cd TCET
-: 1687354229:0;sudo mkarchiso -v .
 : 1687358243:0;sudo rm -rf work
 : 1687358423:0;spicetify backup restore apply
 : 1687358730:0;cd Tcet
@@ -588,21 +565,16 @@ mdbook serve
 : 1687359764:0;nv etc/skel/.config/xfce4/desktop/icons.screen0-1350x724.rc
 : 1687360973:0;cd etc/skel/.config/xfce4/desktop
 : 1687361002:0;nv icons.screen0-1264x757.rc
-: 1687361105:0;cdpp
 : 1687361320:0;cd settings/tcet-linux-settings
 : 1687405625:0;cd Programming-Notes
-: 1687405648:0;git pull
 : 1687406212:0;lazygit
 : 1687446108:0;cd tc
 : 1687446113:0;cd tcet-linux-pkgbuild
-: 1687446120:0;cd tcet-welcome
 : 1687446170:0;nv PKGBUILD
-: 1687446201:0;./cleanup.sh
 : 1687446215:0;makepkg -s
 : 1687446220:0;makepkg -si
 : 1687446263:0;sh cleanup.sh
 : 1687502361:0;cd tce
-: 1687502364:0;cd tcet-linux
 : 1687502380:0;cd airootfs/etc/skel/.zshrc
 : 1687502383:0;cd airootfs/etc/skel/
 : 1687502385:0;nv .zshrc
@@ -639,8 +611,6 @@ mdbook serve
 : 1687543012:0;prettier -w *
 : 1687543470:0;npm run format
 : 1687572510:0;yay hyprland
-: 1687578416:0;killall -9 waybar
-: 1687578421:0;waybar
 : 1687580820:0;sudo waydroid logcat
 : 1687581101:0;nv /var/lib/waydroid/waydroid.log
 : 1687581165:0;/usr/lib/waydroid/data/scripts/waydroid-net.sh start
@@ -653,22 +623,15 @@ ip link delete docker0
 : 1687581385:0;cd wayland-dot-files
 : 1687581645:0;fd *.apk
 : 1687581649:0;fd apk
-: 1687581654:0;cd apks
 : 1687581665:0;waydroid app install firefox-111-0.apk
 : 1687581669:0;waydroid app install tachiyomi-x86_64-v0.14.5.apk
 : 1687581685:0;waydroid app install Telegram.apk
 : 1687581785:0;waydroid app install fenix-113.0b9-x86_64.apk
 : 1687616440:0;cd progr
-: 1687616442:0;l
-: 1687620886:0;killall -9 Discord
 : 1687624857:0;trash-empty
-: 1687624864:0;nr
 : 1687627908:0;yay gnome-builder
 : 1687628085:0;clear
-: 1687628880:0;cd nvim
 : 1687628884:0;fd xed
-: 1687664365:0;nv gtk.py
-: 1687664410:0;python gtk.py
 : 1687665250:0;yay libgtk-3-dev
 : 1687665254:0;yay libgtk
 : 1687665344:0;mkdir gtk
@@ -676,13 +639,11 @@ ip link delete docker0
 : 1687665376:0;gcc -o hello_world $(pkg-config --cflags --libs gtk+-3.0) first.c
 : 1687665381:0;./hello_world
 : 1687669127:0;nv second.c
-: 1687669193:0;bob use stable
 : 1687669359:0;pkgconfig --cflags --libs gtk+-3.0
 : 1687669517:0;gcc -o first $(pkg-config --cflags --libs gtk+-3.0) second.c
 : 1687669521:0;./first
 : 1687669613:0;touch gtk-app.c
 : 1687670184:0;gcc -o gtk-app $(pkg-config --cflags --libs gtk+-3.0) gtk-app.c
-: 1687670274:0;nv gtk-app
 : 1687670340:0;rm -rf first.c second.c
 : 1687670345:0;rm -rf *.out
 : 1687670348:0;rmbin
@@ -690,7 +651,6 @@ ip link delete docker0
 : 1687670371:0;rm -rf hello_world first gtk-app
 : 1687670381:0;nvim Makefile
 : 1687670794:0;pkgconf --cflags harfbuzz
-: 1687670889:0;cz
 : 1687670904:0;gcc -o gtk-app.out $(pkg-config --cflags --libs gtk+-3.0) gtk-app.c
 : 1687671017:0;pkgconf --cflags
 : 1687671028:0;pkgconf --cflags gtk+-3.0
@@ -698,93 +658,306 @@ ip link delete docker0
 : 1687671448:0;cd /usr/include/gtk-3.0/gdk
 : 1687671461:0;nv gdkpixbuf.h
 : 1687671485:0;cd gdk
-: 1687671945:0;nv gtk-app.c
 : 1687672024:0;cp gtk-app.c ..
 : 1687672031:0;./gtk-app.out
 : 1687672094:0;cp ../gtk-app.c .
 : 1687672140:0;gcc -o gtk-app.out $(pkg-config --cflags --libs harbfuzz gtk+-3.0) gtk-app.c
 : 1687672151:0;gcc -o gtk-app.out $(pkg-config --cflags --libs harfbuzz gtk+-3.0) gtk-app.c
 : 1687672262:0;yay gdk
-: 1687672789:0;cd gtk
 : 1687673107:0;rm gtk-app.out
-: 1687673814:0;make clean
 : 1687674002:0;nv start.c\  
 : 1687674010:0;rm start.c\  
 : 1687674014:0;nv start.c
-: 1687674180:0;nv Makefile
 : 1687674531:0;./gtk-app
 : 1687675523:0;ks
-: 1687676235:0;make
-: 1687676239:0;./start
-: 1687677854:0;yay yad
 : 1687678068:0;mkdir yad
 : 1687678069:0;cd yad
 : 1687678076:0;nv sysinfo.sh
 : 1687683487:0;gh repo clone TechXero/XeroNemesis
-: 1687683529:0;nv scripts
 : 1687683642:0;alacritty help
 : 1687683668:0;alacritty -e yay
 : 1687684419:0;./xero-nemesis
 : 1687684444:0;yad xero-nemesis
-: 1687684447:0;yad
-: 1687684472:0;cd scripts
 : 1687684476:0;nv arch
 : 1687685008:0;systemctl stop docker\
 systemctl restart iptables
-: 1687685020:0;we
-: 1687685022:0;wr
-: 1687685032:0;ws
 : 1687686732:0;cd XeroNemesis
 : 1687686736:0;nv xero-nemesis
 : 1687687627:0;cd down
 : 1687687643:0;cd wel
-: 1687687648:0;cd Downloads
 : 1687687661:0;cd Documents
-: 1687687671:0;cd welcome
-: 1687687681:0;./welcome.sh
 : 1687687993:0;xfce4-terminal help
-: 1687688431:0;man yad
 : 1687689497:0;man reflector
-: 1687689790:0;cdp
 : 1687689834:0;rm -rf data src
 : 1687689861:0;cp -r ~/Documents/welcome/* .
 : 1687689874:0;mkdir assets
 : 1687689881:0;mv tcetlinux-logo.png
 : 1687689884:0;mv tcetlinux-logo.png assets
-: 1687689899:0;nv welcome.sh
 : 1687690179:0;nv scripts/discord.sh
 : 1687690199:0;xdg-open
 : 1687690211:0;xdg-open https://github.com
-: 1687691138:0;cd projects
-: 1687691142:0;rm -rf tcet-linux-welcome
-: 1687691148:0;git clone https://github.com/tcet-opensource/tcet-linux-welcome.git
-: 1687695543:0;cd tcet-linux-welcome
 : 1687695550:0;nv LICENSE
-: 1687695573:0;lll
-: 1687695580:0;ys
 : 1687696083:0;bob use nightly
-: 1687696141:0;nvim
-: 1687697857:0;ls
-: 1687697858:0;cd
-: 1687697858:0;c
-: 1687697872:0;cd tcet
-: 1687697876:0;lg
-: 1687697884:0;ll
-: 1687697885:0;nv
 : 1687697897:0;xfce4-terminal --help
 : 1687697920:0;xfce4-terminal -x scripts/discord.sh
 : 1687698195:0;xfce4-terminal -x ./scripts/mirror.sh
-: 1687698204:0;e
 : 1687699549:0;cd apks
-: 1687699551:0;ll
 : 1687699565:0;waydroid app install x86_SystemWebView.apk
-: 1687699584:0;we
-: 1687699585:0;wr
-: 1687699589:0;ws
-: 1687704805:0;c
-: 1687706545:0;nbi
 : 1687706556:0;bob use stable
-: 1687706559:0;nbi
-: 1687710060:0;nv
 : 1687710776:0;yel
 : 1687710833:0;yl
+: 1687753820:0;cz
+: 1687754193:0;cd js
+: 1687754202:0;cd js-course
+: 1687754209:0;nv dynamic.js
+: 1687755053:0;nv gtk-app
+: 1687755057:0;nv gtk-app.c
+: 1687755073:0;make clean
+: 1687755117:0;fd gtk.py
+: 1687757829:0;ccd
+: 1687757845:0;cd mirrors-and-hosts
+: 1687757892:0;xfce4-terminal -e "pkexec pacman --noconfirm -Syyu"
+: 1687757923:0;xfce4-terminal -e "sudo pacman --noconfirm -Syyu"
+: 1687758171:0;nv scripts
+: 1687758182:0;pkexec
+: 1687758253:0;nv update.sh
+: 1687758409:0;yay xfce
+: 1687758421:0;yay xfce4-desktop
+: 1687759978:0;notify-send "TBD"
+: 1687761673:0;cd ru
+: 1687761676:0;cd no-cargo
+: 1687761684:0;cd functions
+: 1687761688:0;nv src/main.rs
+: 1687762628:0;./cleanup.sh
+: 1687763122:0;cdpp
+: 1687763128:0;python gtk.py
+: 1687763965:0;nv scripts/screen-resolution.sh
+: 1687764074:0;reflector --help
+: 1687764278:0;ls /etc/pacman.d/mirrorlist
+: 1687764282:0;ll /etc/pacman.d/mirrorlist
+: 1687764561:0;rm tcet-linux-welcome
+: 1687765029:0;reflector --list-countries
+: 1687765132:0;cd other-stuff
+: 1687765142:0;nv mirrors-and-hosts
+: 1687765855:0;mkdir gtk-tcet-welcome
+: 1687765894:0;cp gtk.py
+: 1687768088:0;cp ../gtk.py .
+: 1687768125:0;cp gtk.py gtk-trial.py
+: 1687768128:0;nv gtk-trial.py
+: 1687772707:0;cd gtk
+: 1687772714:0;nv Makefile
+: 1687772751:0;cd gtk-tcet-welcome
+: 1687772819:0;mkdir .git
+: 1687772822:0;nv pygtk.py
+: 1687772925:0;make
+: 1687772932:0;./start
+: 1687773199:0;awk
+: 1687773203:0;sed
+: 1687774394:0;nmtui
+: 1687774681:0;xmodmap
+: 1687774684:0;xmodmap -pke
+: 1687774709:0;nv xmod.sh
+: 1687774769:0;sh projects/xmod.sh
+: 1687774785:0;xmodmap -pke | grep 116
+: 1687774931:0;rm -rf xmod.sh
+: 1687775597:0;/usr/share/icons
+: 1687776635:0;cd Projects
+: 1687776644:0;rm -rf Projects
+: 1687777398:0;lllllllllllllllllllllllllllllllllllllllll
+: 1687777641:0;yad
+: 1687777649:0;yad --help
+: 1687793573:0;ya
+: 1687796128:0;yay flameshot
+: 1687838171:0;cd tcet
+: 1687846389:0;nv mirror.sh
+: 1687846497:0;yay -R tcet-welcome
+: 1687846541:0;nv packages.x86_64
+: 1687846585:0;yay yad
+: 1687846597:0;sudo mkarchiso -v .
+: 1687847708:0;nv scripts/update.sh
+: 1687848129:0;cat /etc/pacman.d/mirrorlist
+: 1687850455:0;sudo systemctl disable docker
+: 1687860047:0;python about.py
+: 1687860065:0;nv about.py
+: 1687860619:0;cd TCET/tcet-linux
+: 1687868975:0;Mujhe msg aabhi aaya iskeleye nhi aa paya
+: 1687868975:0;￼
+: 1687868975:0;Message #devops-team
+: 1687872366:0;mv gtk.py
+: 1687872373:0;nv gtk.py
+: 1687885354:0;cd welcome
+: 1687885396:0;nv scripts/about.py
+: 1687886645:0;#
+: 1687886654:0;s
+: 1687886659:0;cd sasa
+: 1687886668:0;ls --a
+: 1687886675:0;nvim --v
+: 1687886678:0;nvim -v
+: 1687886744:0;rs
+: 1687886746:0;rsss
+: 1687886830:0;cd other-stuff/mirrors-and-hosts
+: 1687886851:0;rss
+: 1687886872:0;nv rate-mirrors-arch.sh
+: 1687886890:0;nv /etc/hosts
+: 1687887580:0;mv tcet-linux-welcome TCET
+: 1687922797:0;lll
+: 1687923000:0;cd tcet-linux
+: 1687923017:0;cp welcome.sh ~/.config/autostart
+: 1687923026:0;cd ~/.config/autostart
+: 1687923083:0;rm -rf welcome.sh
+: 1687923143:0;ln -s ~/projects/TCET/tcet-linux-welcome/welcome.sh welcome.sh
+: 1687924808:0;mv tcet-linux-welcome ~/.local/share/tcet-linux-welcome
+: 1687924825:0;cd .config
+: 1687924828:0;cd systemd
+: 1687924849:0;nv fig-daemon.service
+: 1687925052:0;nv eos-update-notifier.service
+: 1687925196:0;journalctl --user
+: 1687925224:0;journalctl --user enable tcet-linux-welcome
+: 1687925232:0;journalctl --user enable tcet-linux-welcome.service
+: 1687925243:0;systemctl --user enable tcet-linux-welcome.service
+: 1687925728:0;cd ~/.config/systemd
+: 1687925732:0;cd user
+: 1687925733:0;;s
+: 1687925793:0;systemctl --user restart tcet-linux-welcome.service
+: 1687925937:0;cp ~/.config/systemd/user/tcet-linux-welcome.service ~/.local/share/tcet-linux-welcome
+: 1687925993:0;cd .local/share/
+: 1687926200:0;git push main origin
+: 1687926207:0;git push origin main
+: 1687926224:0;git push origin 4-create-welcome-app-based-on-yad
+: 1687926238:0;git push 4-create-welcome-app-based-on-yad main
+: 1687926244:0;git push 4-create-welcome-app-based-on-yad origin
+: 1687926270:0;rm -rf data LICENSE src
+: 1687926292:0;cp -r ~/.local/share/tcet-linux-welcome/* .
+: 1687926376:0;gh repo clone Rishabh672003/tcet-linux-welcome
+: 1687926396:0;rm -rf src data LICENSE
+: 1687926432:0;cp -r assets scripts LICENSE welcome.sh tcet-linux-welcome.service ~/projects/tcet-linux-welcome
+: 1687926439:0;cd ~/projects/tcet-linux-welcome
+: 1687927198:0;sudo sh welcome.sh
+: 1687927469:0;cp tcet-linux-welcome.service /etc/systemd/system
+: 1687927473:0;sudo cp tcet-linux-welcome.service /etc/systemd/system
+: 1687927483:0;rm -rf ~/.config/systemd/user/tcet-linux-welcome.service
+: 1687927499:0;sudo systemctl enable tcet-linux-welcome.service
+: 1687929366:0;sudo systemctl restart tcet-linux-welcome.service
+: 1687929369:0;sudo systemctl status tcet-linux-welcome.service
+: 1687929382:0;sudo systemctl disable tcet-linux-welcome.service
+: 1687929399:0;cp tcet-linux-welcome/tcet-linux-welcome.service ~/.config/systemd/user
+: 1687929668:0;systemctl --user status tcet-linux-welcome.service
+: 1687929685:0;nvim ~/.config/systemd/user/tcet-linux-welcome.service
+: 1687929715:0;systemctl --user daemon-reload
+: 1687929719:0;systemctl --user enable --now tcet-linux-welcome.service
+: 1687929726:0;reboot
+: 1687930046:0;cd projects/TCET/tcet-linux
+: 1687930471:0;cp /usr/share/applications/yad-settings.desktop .
+: 1687930483:0;mv yad-settings.desktop projects/tcet-linux-welcome
+: 1687930496:0;nv yad-settings.desktop
+: 1687930643:0;nv /usr/share/applications/tcet-welcome.desktop
+: 1687930658:0;vs /usr/share/applications/tcet-welcome.desktop
+: 1687933285:0;~/.local/share/tcet-linux-welcome
+: 1687933321:0;cp ~/projects/tcet-linux-welcome/tcet-linux-welcome.service .
+: 1687933340:0;nv tcet-linux-welcome.service
+: 1687933815:0;mv tcet-linux-welcome tcet-welcome
+: 1687934116:0;sudo mv tcet-welcome /usr/share
+: 1687934124:0;cd /usr/share
+: 1687934634:0;mv tcet-welcome tcet-linux-welcome
+: 1687934639:0;sudo mv tcet-welcome tcet-linux-welcome
+: 1687934750:0;exit
+: 1687934780:0;sudo git clone https://github.com/tcet-opensource/tcet-linux-welcome.git
+: 1687934820:0;git checkout -b 4-create-welcome-app-based-on-yad
+: 1687934850:0;git clone
+: 1687934854:0;git pull
+: 1687935135:0;sudo mv tcet-linux-welcome ~/projects/TCET
+: 1687935140:0;cd pro
+: 1687935164:0;sudo rm -rf tcet-linux-welcome
+: 1687935169:0;git clone https://github.com/tcet-opensource/tcet-linux-welcome.git
+: 1687936259:0;cd tcet-welcome
+: 1687936365:0;man yad
+: 1687937872:0;cd projects/tcet-linux-welcome/
+: 1687937893:0;cd TCET/tcet-linux-welcome
+: 1687938066:0;bool
+: 1687939057:0;cp -r tcet-linux-welcome ~/.local/share
+: 1687944936:0;cd .config/systemd/user
+: 1687944943:0;cd default.target.wants
+: 1687944956:0;rm -rf fig-daemon.service tcet-linux-welcome.service
+: 1687944965:0;rm -rf eos-update-notifier.service eos-update-notifier.timer
+: 1687944970:0;rm -rf tcet-linux-welcome.service
+: 1687944976:0;rm -rf fig-daemon.service
+: 1687947710:0;nr
+: 1687949822:0;rm -rf tcet-linux-welcome
+: 1687949833:0;rm -rf Tcet-OS
+: 1687949835:0;cd c
+: 1687949848:0;cd TCET
+: 1687949860:0;nv note.txt
+: 1687950435:0;nv scripts/autostart.sh
+: 1687951071:0;killall -9 Discord
+: 1687951379:0;cd nvim
+: 1687951383:0;nv install.sh
+: 1687951995:0;cp tcet-welcome.desktop /usr/share/applications
+: 1687952001:0;sudo cp tcet-welcome.desktop /usr/share/applications
+: 1687952120:0;nv tcet-welcome.desktop
+: 1687952181:0;~/.local/share/tcet-linux-welcome/welcome.sh
+: 1687952237:0;killall -9 rofi
+: 1687952324:0;sudo cp tcet-welcome.desktop /usr/share/applications/
+: 1687953928:0;cd projects
+: 1687953945:0;git clone https://github.com/Rishabh672003/tcet-linux-welcome
+: 1687953993:0;cp -r assets scripts LICENSE welcome.sh tcet-welcome.desktop note.txt ~/projects/tcet-linux-welcome
+: 1687953998:0;cd projects/tcet-linux-welcome
+: 1687960367:0;cd nvim-
+: 1687960368:0;nbi
+: 1687960797:0;nvim
+: 1687974076:0;yay dictionary
+: 1687974109:0;yay gnome-dictionary
+: 1688007864:0;ys
+: 1688007998:0;cd video
+: 1688008008:0;cd Downloads
+: 1688008033:0;rm -rf Koe\ no\ Katachi\ a.k.a\ A\ Silent\ Voice\ 2016\ \(1080p\ Dual\ Audio\ BluRay\ x265\ HEVC\ 10bit\ DDP\ 5.1\ theincognito\)\ \[UTR\].mkv \[35mm\]\ Koe\ no\ Katachi\ -\ A\ Silent\ Voice\ \[1080p\]\ \[B9471AD7\].mkv
+: 1688008565:0;pacnew
+: 1688008570:0;pacdiff
+: 1688008653:0;sudo pacdiff
+: 1688009609:0;cd ~/.config/hypr
+: 1688009617:0;nv keybinds.conf
+: 1688014412:0;sudo systemctl stop docker\
+sudo systemctl restart iptables
+: 1688014423:0;we
+: 1688014426:0;wr
+: 1688014428:0;ws
+: 1688020730:0;ps aux | grep waybar
+: 1688020744:0;cd hypr
+: 1688020747:0;l
+: 1688020751:0;nv wf-recorder.sh
+: 1688021539:0;waybar.sh
+: 1688021577:0;./wa
+: 1688021580:0;./waybar.sh
+: 1688021585:0;nv waybar.sh
+: 1688021618:0;ps waybar
+: 1688021675:0;waybar
+: 1688021756:0;ps PID
+: 1688021762:0;man ps
+: 1688022292:0;cd ~/.local/share
+: 1688022298:0;cd tcet-linux-welcome
+: 1688022302:0;lg
+: 1688022324:0;cd
+: 1688022329:0;cd ~/.local/share/tcet-linux-welcome
+: 1688022362:0;cd screen-resolution.sh
+: 1688022382:0;nv autostart.sh
+: 1688022731:0;cd scripts
+: 1688022734:0;./autostart.sh
+: 1688024560:0;cd ..
+: 1688024592:0;cd assets
+: 1688024594:0;ll
+: 1688024599:0;xo tcetlinux-logo.png
+: 1688024612:0;cdp
+: 1688024805:0;ls
+: 1688024808:0;nv welcome.sh
+: 1688033098:0;./welcome.sh
+: 1688037416:0;killall -9 waybar
+: 1688037423:0;nv
+: 1688037436:0;exec waybar
+: 1688037631:0;pgrep waybar
+: 1688037687:0;./scripts/waybar.sh
+: 1688037699:0;c
+: 1688037700:0;e
+: 1688037714:0;cd hypr
+: 1688037714:0;ll
+: 1688037716:0;yel
+: 1688037728:0;nv hyprland.conf
+: 1688037850:0;yl
