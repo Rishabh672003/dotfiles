@@ -1,7 +1,7 @@
 theme = "rose_pine"
 # theme = "Catppuccin Mocha"
 [editor]
-line-number = "relative"
+#line-number = "relative"
 cursorline = true
 color-modes = true
 gutters = ["diagnostics", "line-numbers"]

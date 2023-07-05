@@ -6,7 +6,6 @@
 : 1685431583:0;cd lua
 : 1685431587:0;cd rj/plugins
 : 1685431594:0;nv dropdown.lua
-: 1685432083:0;cd .local/share
 : 1685432098:0;yay grimblast
 : 1685432109:0;which grimblast
 : 1685432124:0;cd .local/share/bin
@@ -64,7 +63,6 @@
 : 1685634345:0;nv cal.py
 : 1685634406:0;cd python-study
 : 1685634409:0;nv 11.py
-: 1685727690:0;hx
 : 1685762818:0;hyprctl activewindow
 : 1685762844:0;hyprctl help
 : 1685763283:0;tldr hyprctl
@@ -86,7 +84,6 @@
 : 1685795555:0;nautilus .
 : 1685796948:0;mkdir other-configs
 : 1685796968:0;mv hyprland3.conf hyprland4.conf hyprland5.conf other-configs
-: 1685796976:0;nv hyprland.conf
 : 1685800191:0;cd wall
 : 1685801661:0;chmod +x Cosmic-Dodge.jar
 : 1685801698:0;javac Cosmic-Dodge.jar
@@ -112,7 +109,6 @@
 : 1685873456:0;cd river
 : 1685873462:0;chmod +x init
 : 1685873744:0;river
-: 1685874009:0;Hyprland
 : 1685874042:0;foot
 : 1685874341:0;alacritty
 : 1685874379:0;cd .config/river
@@ -194,9 +190,7 @@
 : 1686157963:0;bob use 0.9.1
 : 1686226345:0;cargo install --git https://github.com/MordechaiHadad/bob --branch appimages
 : 1686226967:0;bob
-: 1686226976:0;which bob
 : 1686227021:0;which nvim
-: 1686228249:0;cargo install --git https://github.com/MordechaiHadad/bob
 : 1686228518:0;bob install stable
 : 1686237736:0;cd lua/rj/usefull-stuff
 : 1686237742:0;nerdfix fix *
@@ -216,7 +210,6 @@
 : 1686313954:0;yay -S swaylock
 : 1686322648:0;pacman -Qi spotify
 : 1686322659:0;yay spotify
-: 1686325011:0;yay spicetify
 : 1686332717:0;mpv --help
 : 1686332722:0;tldr mpv
 : 1686332741:0;man mpv
@@ -241,7 +234,6 @@
 : 1686371170:0;typst compile a.typ
 : 1686371179:0;xo a.pdf
 : 1686378498:0;fd hyprland.log
-: 1686378501:0;fd hyprland
 : 1686378555:0;fd hypr
 : 1686389140:0;mkdir no-cargo
 : 1686389155:0;nv types.rs
@@ -249,7 +241,6 @@
 : 1686395284:0;journalctl | head
 : 1686395289:0;journalctl
 : 1686395512:0;fd fig-daemon
-: 1686395538:0;fzf
 : 1686396752:0;nv a.qsql
 : 1686396755:0;nv a.sql
 : 1686399983:0;yay swayidle
@@ -299,7 +290,6 @@ mdbook serve
 : 1686571113:0;./calc 2
 : 1686571116:0;./calc 1000
 : 1686592263:0;cd random
-: 1686592307:0;exec zsh
 : 1686592336:0;cd guessing_game
 : 1686625749:0;cd src
 : 1686625759:0;./cmp.rs.out
@@ -309,7 +299,6 @@ mdbook serve
 : 1686655072:0;pip3 install -r requirements.txt
 : 1686655108:0;rm -rf AniPy
 : 1686655126:0;gh repo clone Jacekun/AniPy
-: 1686655134:0;cd AniPy
 : 1686655141:0;mkvenv
 : 1686655218:0;nv .venv
 : 1686655223:0;rm .venv
@@ -318,8 +307,6 @@ mdbook serve
 : 1686655243:0;python3 -m pip install -r requirements.txt
 : 1686655444:0;python anipy.py --a -user RJ69420
 : 1686655592:0;cd ani
-: 1686655615:0;python main.py
-: 1686655693:0;cd output
 : 1686658895:0;nv anilistConfig.json
 : 1686660656:0;yay comicku
 : 1686660660:0;yay comick
@@ -336,8 +323,6 @@ mdbook serve
 : 1686763473:0;lspblk
 : 1686763489:0;duf
 : 1686763509:0;du
-: 1686763530:0;llll
-: 1686767132:0;one
 : 1686828417:0;cd .config/waybar
 : 1686828421:0;nv style.css
 : 1686841673:0;kwe
@@ -365,7 +350,6 @@ mdbook serve
 : 1687014159:0;nv .
 : 1687016204:0;nvim .
 : 1687059184:0;bob ls
-: 1687059191:0;bob update --all
 : 1687063735:0;rustup docs --book
 : 1687064049:0;cd rust
 : 1687064055:0;cd references
@@ -379,7 +363,6 @@ mdbook serve
 : 1687157636:0;swaybg -i ~/Pictures/Wallpapers/staring-into-the-woods-3840Ã�2160.jpg
 : 1687185513:0;cd java
 : 1687185522:0;nv a.java
-: 1687185780:0;uneo
 : 1687186159:0;kk
 : 1687186165:0;nv cc-contest-2023-03-29/budget.cpp
 : 1687189499:0;mkdir cpp-from-scratch
@@ -470,7 +453,6 @@ mdbook serve
 : 1687256131:0;git switch -c rishabh
 : 1687256215:0;mkdir I_am_awesome
 : 1687256652:0;cd Rishabh_Jha
-: 1687256686:0;nv Arch.md
 : 1687257088:0;cp Arch.md ..
 : 1687257093:0;rm -rf learn-git-1
 : 1687257105:0;git clone https://github.com/Rishabh672003/learn-git-1.git
@@ -481,7 +463,6 @@ mdbook serve
 : 1687257318:0;mv Arch.md Rishabh_Jha
 : 1687257355:0;nv Rishabh_Jha/Arch.md
 : 1687257855:0;git push
-: 1687258038:0;git config pull.rebase false
 : 1687258042:0;git pull origin main
 : 1687258490:0;Rishabh_Jha
 : 1687258494:0;..
@@ -503,8 +484,6 @@ mdbook serve
 : 1687327726:0;nm-connection-editor
 : 1687327791:0;speedtest
 : 1687329141:0;Mc
-: 1687329523:0;n
-: 1687329654:0;cali
 : 1687329718:0;nemo
 : 1687329817:0;nv AniPy
 : 1687333547:0;sudo pacman -Qtdq
@@ -545,10 +524,8 @@ mdbook serve
 : 1687343609:0;cd .config/Thunar
 : 1687343614:0;nv uca.xml
 : 1687343999:0;htop
-: 1687344022:0;f
 : 1687344340:0;nv cleanup.sh
 : 1687344541:0;fd mirrorlist
-: 1687344637:0;cd airootfs/etc/skel
 : 1687344678:0;nv .p10k.zsh
 : 1687344786:0;mkarchiso
 : 1687345285:0;yay
@@ -569,17 +546,10 @@ mdbook serve
 : 1687405625:0;cd Programming-Notes
 : 1687406212:0;lazygit
 : 1687446108:0;cd tc
-: 1687446113:0;cd tcet-linux-pkgbuild
-: 1687446170:0;nv PKGBUILD
-: 1687446215:0;makepkg -s
-: 1687446220:0;makepkg -si
 : 1687446263:0;sh cleanup.sh
 : 1687502361:0;cd tce
 : 1687502380:0;cd airootfs/etc/skel/.zshrc
-: 1687502383:0;cd airootfs/etc/skel/
 : 1687502385:0;nv .zshrc
-: 1687507819:0;ping 9.9.9.9
-: 1687507845:0;x
 : 1687509059:0;yay --devel --save
 : 1687509568:0;rm .bardcli.yaml
 : 1687510723:0;waydroid upgrade
@@ -587,7 +557,6 @@ mdbook serve
 : 1687510775:0;sudo rm -rf /var/lib/waydroid /home/.waydroid
 : 1687510784:0;rm -rf ~/waydroid ~/.share/waydroid ~/.local/share/applications/*aydroid* ~/.local/share/waydroid
 : 1687510902:0;cd Pictures
-: 1687510908:0;xo .
 : 1687527135:0;yay -R waydroid
 : 1687527147:0;sudo rm -rf /var/lib/waydroid
 : 1687527185:0;cd /
@@ -600,7 +569,6 @@ mdbook serve
 : 1687541116:0;gh pr checkout 5
 : 1687542311:0;mv GIt/commands.md Git
 : 1687542318:0;rm -rf GIt
-: 1687542467:0;nv README.md
 : 1687542901:0;prettier PHP/*
 : 1687542912:0;nvim time-complexity.md
 : 1687542951:0;prettier time-complexity.md
@@ -624,13 +592,11 @@ ip link delete docker0
 : 1687581645:0;fd *.apk
 : 1687581649:0;fd apk
 : 1687581665:0;waydroid app install firefox-111-0.apk
-: 1687581669:0;waydroid app install tachiyomi-x86_64-v0.14.5.apk
 : 1687581685:0;waydroid app install Telegram.apk
 : 1687581785:0;waydroid app install fenix-113.0b9-x86_64.apk
 : 1687616440:0;cd progr
 : 1687624857:0;trash-empty
 : 1687627908:0;yay gnome-builder
-: 1687628085:0;clear
 : 1687628884:0;fd xed
 : 1687665250:0;yay libgtk-3-dev
 : 1687665254:0;yay libgtk
@@ -697,21 +663,15 @@ systemctl restart iptables
 : 1687690199:0;xdg-open
 : 1687690211:0;xdg-open https://github.com
 : 1687695550:0;nv LICENSE
-: 1687696083:0;bob use nightly
 : 1687697897:0;xfce4-terminal --help
 : 1687697920:0;xfce4-terminal -x scripts/discord.sh
 : 1687698195:0;xfce4-terminal -x ./scripts/mirror.sh
-: 1687699549:0;cd apks
 : 1687699565:0;waydroid app install x86_SystemWebView.apk
-: 1687706556:0;bob use stable
-: 1687710776:0;yel
-: 1687710833:0;yl
 : 1687753820:0;cz
 : 1687754193:0;cd js
 : 1687754202:0;cd js-course
 : 1687754209:0;nv dynamic.js
 : 1687755053:0;nv gtk-app
-: 1687755057:0;nv gtk-app.c
 : 1687755073:0;make clean
 : 1687755117:0;fd gtk.py
 : 1687757829:0;ccd
@@ -720,7 +680,6 @@ systemctl restart iptables
 : 1687757923:0;xfce4-terminal -e "sudo pacman --noconfirm -Syyu"
 : 1687758171:0;nv scripts
 : 1687758182:0;pkexec
-: 1687758253:0;nv update.sh
 : 1687758409:0;yay xfce
 : 1687758421:0;yay xfce4-desktop
 : 1687759978:0;notify-send "TBD"
@@ -728,7 +687,6 @@ systemctl restart iptables
 : 1687761676:0;cd no-cargo
 : 1687761684:0;cd functions
 : 1687761688:0;nv src/main.rs
-: 1687762628:0;./cleanup.sh
 : 1687763122:0;cdpp
 : 1687763128:0;python gtk.py
 : 1687763965:0;nv scripts/screen-resolution.sh
@@ -753,7 +711,6 @@ systemctl restart iptables
 : 1687772932:0;./start
 : 1687773199:0;awk
 : 1687773203:0;sed
-: 1687774394:0;nmtui
 : 1687774681:0;xmodmap
 : 1687774684:0;xmodmap -pke
 : 1687774709:0;nv xmod.sh
@@ -768,18 +725,13 @@ systemctl restart iptables
 : 1687777649:0;yad --help
 : 1687793573:0;ya
 : 1687796128:0;yay flameshot
-: 1687838171:0;cd tcet
 : 1687846389:0;nv mirror.sh
 : 1687846497:0;yay -R tcet-welcome
-: 1687846541:0;nv packages.x86_64
 : 1687846585:0;yay yad
-: 1687846597:0;sudo mkarchiso -v .
 : 1687847708:0;nv scripts/update.sh
 : 1687848129:0;cat /etc/pacman.d/mirrorlist
 : 1687850455:0;sudo systemctl disable docker
 : 1687860047:0;python about.py
-: 1687860065:0;nv about.py
-: 1687860619:0;cd TCET/tcet-linux
 : 1687868975:0;Mujhe msg aabhi aaya iskeleye nhi aa paya
 : 1687868975:0;￼
 : 1687868975:0;Message #devops-team
@@ -793,15 +745,9 @@ systemctl restart iptables
 : 1687886668:0;ls --a
 : 1687886675:0;nvim --v
 : 1687886678:0;nvim -v
-: 1687886744:0;rs
-: 1687886746:0;rsss
-: 1687886830:0;cd other-stuff/mirrors-and-hosts
-: 1687886851:0;rss
 : 1687886872:0;nv rate-mirrors-arch.sh
 : 1687886890:0;nv /etc/hosts
 : 1687887580:0;mv tcet-linux-welcome TCET
-: 1687922797:0;lll
-: 1687923000:0;cd tcet-linux
 : 1687923017:0;cp welcome.sh ~/.config/autostart
 : 1687923026:0;cd ~/.config/autostart
 : 1687923083:0;rm -rf welcome.sh
@@ -820,7 +766,6 @@ systemctl restart iptables
 : 1687925733:0;;s
 : 1687925793:0;systemctl --user restart tcet-linux-welcome.service
 : 1687925937:0;cp ~/.config/systemd/user/tcet-linux-welcome.service ~/.local/share/tcet-linux-welcome
-: 1687925993:0;cd .local/share/
 : 1687926200:0;git push main origin
 : 1687926207:0;git push origin main
 : 1687926224:0;git push origin 4-create-welcome-app-based-on-yad
@@ -845,9 +790,6 @@ systemctl restart iptables
 : 1687929685:0;nvim ~/.config/systemd/user/tcet-linux-welcome.service
 : 1687929715:0;systemctl --user daemon-reload
 : 1687929719:0;systemctl --user enable --now tcet-linux-welcome.service
-: 1687929726:0;reboot
-: 1687930046:0;cd projects/TCET/tcet-linux
-: 1687930471:0;cp /usr/share/applications/yad-settings.desktop .
 : 1687930483:0;mv yad-settings.desktop projects/tcet-linux-welcome
 : 1687930496:0;nv yad-settings.desktop
 : 1687930643:0;nv /usr/share/applications/tcet-welcome.desktop
@@ -860,17 +802,12 @@ systemctl restart iptables
 : 1687934124:0;cd /usr/share
 : 1687934634:0;mv tcet-welcome tcet-linux-welcome
 : 1687934639:0;sudo mv tcet-welcome tcet-linux-welcome
-: 1687934750:0;exit
 : 1687934780:0;sudo git clone https://github.com/tcet-opensource/tcet-linux-welcome.git
 : 1687934820:0;git checkout -b 4-create-welcome-app-based-on-yad
 : 1687934850:0;git clone
-: 1687934854:0;git pull
 : 1687935135:0;sudo mv tcet-linux-welcome ~/projects/TCET
-: 1687935140:0;cd pro
 : 1687935164:0;sudo rm -rf tcet-linux-welcome
 : 1687935169:0;git clone https://github.com/tcet-opensource/tcet-linux-welcome.git
-: 1687936259:0;cd tcet-welcome
-: 1687936365:0;man yad
 : 1687937872:0;cd projects/tcet-linux-welcome/
 : 1687937893:0;cd TCET/tcet-linux-welcome
 : 1687938066:0;bool
@@ -881,48 +818,31 @@ systemctl restart iptables
 : 1687944965:0;rm -rf eos-update-notifier.service eos-update-notifier.timer
 : 1687944970:0;rm -rf tcet-linux-welcome.service
 : 1687944976:0;rm -rf fig-daemon.service
-: 1687947710:0;nr
 : 1687949822:0;rm -rf tcet-linux-welcome
 : 1687949833:0;rm -rf Tcet-OS
 : 1687949835:0;cd c
-: 1687949848:0;cd TCET
 : 1687949860:0;nv note.txt
 : 1687950435:0;nv scripts/autostart.sh
 : 1687951071:0;killall -9 Discord
-: 1687951379:0;cd nvim
 : 1687951383:0;nv install.sh
 : 1687951995:0;cp tcet-welcome.desktop /usr/share/applications
-: 1687952001:0;sudo cp tcet-welcome.desktop /usr/share/applications
-: 1687952120:0;nv tcet-welcome.desktop
 : 1687952181:0;~/.local/share/tcet-linux-welcome/welcome.sh
 : 1687952237:0;killall -9 rofi
 : 1687952324:0;sudo cp tcet-welcome.desktop /usr/share/applications/
-: 1687953928:0;cd projects
 : 1687953945:0;git clone https://github.com/Rishabh672003/tcet-linux-welcome
 : 1687953993:0;cp -r assets scripts LICENSE welcome.sh tcet-welcome.desktop note.txt ~/projects/tcet-linux-welcome
-: 1687953998:0;cd projects/tcet-linux-welcome
 : 1687960367:0;cd nvim-
 : 1687960368:0;nbi
-: 1687960797:0;nvim
 : 1687974076:0;yay dictionary
 : 1687974109:0;yay gnome-dictionary
-: 1688007864:0;ys
 : 1688007998:0;cd video
-: 1688008008:0;cd Downloads
 : 1688008033:0;rm -rf Koe\ no\ Katachi\ a.k.a\ A\ Silent\ Voice\ 2016\ \(1080p\ Dual\ Audio\ BluRay\ x265\ HEVC\ 10bit\ DDP\ 5.1\ theincognito\)\ \[UTR\].mkv \[35mm\]\ Koe\ no\ Katachi\ -\ A\ Silent\ Voice\ \[1080p\]\ \[B9471AD7\].mkv
 : 1688008565:0;pacnew
 : 1688008570:0;pacdiff
 : 1688008653:0;sudo pacdiff
 : 1688009609:0;cd ~/.config/hypr
 : 1688009617:0;nv keybinds.conf
-: 1688014412:0;sudo systemctl stop docker\
-sudo systemctl restart iptables
-: 1688014423:0;we
-: 1688014426:0;wr
-: 1688014428:0;ws
 : 1688020730:0;ps aux | grep waybar
-: 1688020744:0;cd hypr
-: 1688020747:0;l
 : 1688020751:0;nv wf-recorder.sh
 : 1688021539:0;waybar.sh
 : 1688021577:0;./wa
@@ -933,31 +853,322 @@ sudo systemctl restart iptables
 : 1688021756:0;ps PID
 : 1688021762:0;man ps
 : 1688022292:0;cd ~/.local/share
-: 1688022298:0;cd tcet-linux-welcome
-: 1688022302:0;lg
-: 1688022324:0;cd
-: 1688022329:0;cd ~/.local/share/tcet-linux-welcome
 : 1688022362:0;cd screen-resolution.sh
-: 1688022382:0;nv autostart.sh
-: 1688022731:0;cd scripts
 : 1688022734:0;./autostart.sh
 : 1688024560:0;cd ..
 : 1688024592:0;cd assets
-: 1688024594:0;ll
 : 1688024599:0;xo tcetlinux-logo.png
-: 1688024612:0;cdp
-: 1688024805:0;ls
-: 1688024808:0;nv welcome.sh
-: 1688033098:0;./welcome.sh
 : 1688037416:0;killall -9 waybar
-: 1688037423:0;nv
-: 1688037436:0;exec waybar
 : 1688037631:0;pgrep waybar
 : 1688037687:0;./scripts/waybar.sh
-: 1688037699:0;c
-: 1688037700:0;e
 : 1688037714:0;cd hypr
-: 1688037714:0;ll
 : 1688037716:0;yel
 : 1688037728:0;nv hyprland.conf
 : 1688037850:0;yl
+: 1688038263:0;nv /usr/share/applications/spotify.desktop
+: 1688038326:0;nv screen-resolution.sh
+: 1688045724:0;rsss
+: 1688052575:0;cd airootfs/etc/skel/
+: 1688052590:0;mkdir -p .local/share/
+: 1688052603:0;cp -r ~/.local/share/tcet-linux-welcome .local/share
+: 1688053423:0;cd airootfs/etc/skel
+: 1688053431:0;cd skel
+: 1688053476:0;cd out
+: 1688053524:0;git clone -b 4-create-welcome-app-based-on-yad https://github.com/tcet-opensource/tcet-linux-welcome.git ~/.local/share/tcet-linux-welcome
+: 1688053615:0;cd airootfs/etc/
+: 1688053619:0;cd xdg
+: 1688053628:0;mkdir autostart
+: 1688053647:0;cp ~/.local/share/tcet-linux-welcome/tcet-welcome.desktop autostart
+: 1688061144:0;nvv
+: 1688094635:0;cat /proc/acpi/wakeup
+: 1688096108:0;spicetify update
+: 1688096117:0;cd .spicetify
+: 1688096128:0;yay spicetify
+: 1688099898:0;waydroid app install tachiyomi-x86_64-v0.14.5.apk
+: 1688104993:0;vs /etc/default/grub
+: 1688119921:0;mkdir deployement
+: 1688119923:0;cd deployement
+: 1688119925:0;gh repo clone VedantPol/Testing-deployment
+: 1688119962:0;npm run
+: 1688120050:0;npm start
+: 1688120072:0;cd projects/deployement
+: 1688120079:0;nv src/App.js
+: 1688120265:0;gh repo clone Rishabh672003/learn-deployment
+: 1688120283:0;cd Testing-deployment
+: 1688120307:0;cp -r public src .gitignore README.md package.json package-lock.json ../learn-deployment
+: 1688120314:0;cd learn-deployment
+: 1688120324:0;npm install
+: 1688123835:0;cd projects/tcet-linux-welcome
+: 1688124337:0;yay noto-sans-devanagari
+: 1688124354:0;yay Noto-Sans-Devanagari
+: 1688124394:0;mkdir .fonts
+: 1688124405:0;cp Martian_Mono.zip .fonts
+: 1688124409:0;cd .fonts
+: 1688124413:0;unzip Martian_Mono.zip
+: 1688124445:0;cd static
+: 1688124485:0;unzip Noto_Sans_Devanagari.zip
+: 1688124498:0;fc-cache -f -v
+: 1688124912:0;dc
+: 1688125068:0;./we
+: 1688133407:0;wlan0
+: 1688134059:0;mv README.txt README.md
+: 1688145985:0;exec waybar
+: 1688147012:0;rs
+: 1688147014:0;rss
+: 1688147187:0;nv scripts/mirror.sh
+: 1688147266:0;cd other-stuff/mirrors-and-hosts
+: 1688147279:0;cd /etc/pacman.d
+: 1688147286:0;cat mirrorlist
+: 1688147289:0;cat mirrorlist-backup
+: 1688148741:0;cd lua/rj/plugins
+: 1688148777:0;nvim alpha.lua
+: 1688184707:0;which bob
+: 1688184718:0;cargo install --git https://github.com/MordechaiHadad/bob
+: 1688185648:0;rm -rf Martian_Mono.zip
+: 1688185767:0;trash photo_2023-06-18_20-54-03.jpg
+: 1688190794:0;cd apks
+: 1688209372:0;yay -R firewalld
+: 1688209388:0;sudo systemctl stop docker\
+sudo systemctl restart iptables
+: 1688209403:0;sudo systemctl disable firewalld
+: 1688209679:0;wf
+: 1688223943:0;gh repo clone tcet-opensource/documentation
+: 1688224111:0;git push origin .
+: 1688224118:0;git push origin origin/32-document-tcet-linux
+: 1688224574:0;git rm docs/about-tcetopensource.md
+: 1688224642:0;gh repo clone Rishabh672003/documentation
+: 1688224737:0;cd documentation
+: 1688228094:0;cd AniPy
+: 1688228106:0;python main.py
+: 1688228148:0;cd output
+: 1688232889:0;nv anime_2023-07-01_NotInMAL.json
+: 1688232901:0;nv manga_2023-07-01_NotInMAL.json
+: 1688235498:0;rm -rf documentation
+: 1688235537:0;exa --tree
+: 1688235544:0;cali
+: 1688235584:0;\tree
+: 1688235588:0;tree
+: 1688235610:0;\ls
+: 1688235614:0;\ll
+: 1688235617:0;\ls -la
+: 1688269487:0;gtnv
+: 1688276286:0;nnv
+: 1688280467:0;cd TCET/tcet-linux
+: 1688280513:0;nv packages.x86_64
+: 1688280683:0;yay qogir
+: 1688280800:0;rm -rf tcet-linux
+: 1688280853:0;sudo rm -rf tcet-linux
+: 1688280857:0;gh repo clone tcet-opensource/tcet-linux
+: 1688280958:0;yay qogir-gtk-theme-git
+: 1688288676:0;nv about.py
+: 1688297298:0;spotify
+: 1688299265:0;nv welcome.sh
+: 1688301526:0;git status
+: 1688301537:0;git config pull.rebase false
+: 1688301587:0;./welcome.sh
+: 1688307442:0;nv autostart.sh
+: 1688307702:0;rm -rf tcet-welcome.desktop
+: 1688310945:0;makepkg -si
+: 1688311006:0;sudo clear
+: 1688311015:0;sudo ./cleanup.sh
+: 1688311392:0;cd tcet-linux-pkgbuild
+: 1688311422:0;cd pkg
+: 1688311433:0;cd tcet-linux-apps
+: 1688311455:0;sudo rm -rf tcet-linux-pkgbuild
+: 1688311708:0;gh repo clone tcet-opensource/tcet-linux-applications
+: 1688311790:0;mv tcet-linux-welcome-23.07-1-x86_64.pkg.tar.zst ~/projects/TCET
+: 1688311802:0;tar -xvf tcet-linux-welcome-23.07-1-x86_64.pkg.tar.zst
+: 1688311857:0;rm -rf /usr/share/applications/tcet-welcome.desktop
+: 1688311866:0;sudo pacman -U tcet-linux-welcome-23.07-1-x86_64.pkg.tar.zst
+: 1688311908:0;yay -Rns tcet-linux-welcome
+: 1688311923:0;welcome.sh
+: 1688311939:0;linux
+: 1688319056:0;cd .local/share/
+: 1688319100:0;git clone https://github.com/tcet-opensource/tcet-linux-welcome.git ~/.local/share/tcet-linux-welcome
+: 1688319433:0;nv welcome
+: 1688319703:0;rm -rf ./etc ./usr .BUILDINFO .MTREE .PKGINFO tcet-linux-welcome-23.07-1-x86_64.pkg.tar.zst
+: 1688319713:0;pacman -U tcet-linux-welcome-23.07-2-x86_64.pkg.tar.zst
+: 1688319738:0;sudo rm -rf /usr/share/applications/tcet-welcome.desktop
+: 1688319741:0;sudo pacman -U tcet-linux-welcome-23.07-2-x86_64.pkg.tar.zst
+: 1688319745:0;welcome
+: 1688319787:0;tar -xvf tcet-linux-welcome-23.07-1-x86_64.pkg.tar.zst tcet-linux-welcome-2
+: 1688319804:0;man tar
+: 1688319884:0;mkdir pkgbuild
+: 1688319891:0;mv tcet-linux-welcome-23.07-2-x86_64.pkg.tar.zst pkgbuild
+: 1688320307:0;mkdir /bin
+: 1688320313:0;mkdir ./bin
+: 1688320354:0;cd etc/skel/.local/share/tcet-welcome
+: 1688320425:0;cd usr/share
+: 1688320429:0;cd applications
+: 1688320468:0;cd ll
+: 1688320572:0;cd tcet-welcome
+: 1688320590:0;cp ../welcome .
+: 1688320609:0;nv tcet-welcome.desktop
+: 1688320648:0;sudo cp tcet-welcome.desktop /usr/share/applications
+: 1688320776:0;cd TCET/pkgbuild
+: 1688320781:0;llll
+: 1688320794:0;rm -rf ./etc ./usr .BUILDINFO .MTREE .PKGINFO
+: 1688320798:0;rm -rf bin
+: 1688320804:0;tar -xvf tcet-linux-welcome-23.07-2-x86_64.pkg.tar.zst
+: 1688321430:0;cd /usr/bin
+: 1688321445:0;cd /bin
+: 1688321793:0;cd tcet-welcome/
+: 1688321982:0;./welcome
+: 1688324241:0;man yad
+: 1688355807:0;cd projects/TCET/pkgbuild
+: 1688356403:0;cp /usr/share/applications/yad-settings.desktop .
+: 1688356408:0;rm -rf yad-settings.desktop
+: 1688356417:0;cd /usr/share/applications
+: 1688356977:0;sudo systemctl restart libvirtd.service
+: 1688358932:0;one
+: 1688362439:0;man unzip
+: 1688362451:0;mkdir logos
+: 1688362461:0;unzip Tcet_Linux1.zip -d logos
+: 1688362465:0;cd logos
+: 1688362471:0;xo 1.png
+: 1688362479:0;xo
+: 1688362481:0;xo .
+: 1688362813:0;cd tcet
+: 1688362819:0;cd projects/TCET/tcet-linux
+: 1688375382:0;fd hyprland
+: 1688375417:0;cd .cache/hyprland
+: 1688375423:0;nv hyprlandCrashReport3685.txt
+: 1688381553:0;cd projects/TCET/
+: 1688381560:0;rm -rf tcet-linux-welcome-23.07-3-x86_64.pkg.tar.zst
+: 1688389381:0;cd tcet-linux
+: 1688389423:0;cd airootfs/etc
+: 1688389430:0;cd pacman.d
+: 1688389772:0;This commit does not belong to any branch on this repository, and may belong to a fork outside of the repository.
+: 1688390545:0;sudo mkarchiso -v .
+: 1688391029:0;sudo downgrade
+: 1688391043:0;sudo downgrade linux-zen
+: 1688391836:0;./cleanup.sh
+: 1688391927:0;lslsnv profiledef.sh
+: 1688391929:0;nv profiledef.sh
+: 1688393799:0;cd pro
+: 1688394672:0;nv gtk-app.c
+: 1688394799:0;nv build
+: 1688398136:0;cat .
+: 1688398138:0;cat ..
+: 1688398144:0;\cat .
+: 1688398151:0;ls .
+: 1688400569:0;Hyprland
+: 1688400589:0;rm -rf nvim-linux64.tar.gz
+: 1688400593:0;rm -rf nvim-linux64
+: 1688400627:0;nr
+: 1688400674:0;bob update --all
+: 1688400684:0;bob use nightly
+: 1688400701:0;bob use stable
+: 1688406448:0;cd scripts
+: 1688406452:0;nv update.sh
+: 1688407952:0;fzf --help
+: 1688407992:0;man fzf
+: 1688408051:0;fzf -e
+: 1688408066:0;fzf -e | nvim $0
+: 1688408073:0;ce
+: 1688408081:0;fzf -e | nvim
+: 1688408091:0;nvim
+: 1688408100:0;ls | cat
+: 1688408113:0;fzf
+: 1688442169:0;yay -R qalculate-qt
+: 1688442659:0;uneo
+: 1688445405:0;f
+: 1688445417:0;neofetc
+: 1688445418:0;n
+: 1688445424:0;n --help
+: 1688445450:0;n --ascii_distro endeavour
+: 1688445453:0;n --ascii_distro endeavour_os
+: 1688445460:0;n --ascii_distro arch
+: 1688445477:0;n --ascii_distro EndeavourOS
+: 1688445492:0;n --ascii_distro fedora
+: 1688446456:0;yay -R tcet-linux-welcome
+: 1688448378:0;hx
+: 1688455879:0;cd .local/share
+: 1688455886:0;git pull
+: 1688455896:0;cp -r tcet-welcome ..
+: 1688455921:0;cd TCET
+: 1688455926:0;cd pkgbuild
+: 1688455931:0;rm -rf *
+: 1688456036:0;nv PKGBUILD
+: 1688456043:0;makepkg -s
+: 1688456053:0;l
+: 1688456060:0;sudo pacman -U tcet-linux-welcome-23.07-3-x86_64.pkg.tar.zst
+: 1688462604:0;chmod +x neofetch
+: 1688462767:0;sudo pacman -U tcet-linux-qogir-theme-2023.05.24-1-any.pkg.tar.zst
+: 1688462815:0;cd Downloads
+: 1688462896:0;./neofetch --ascii_distro tcet
+: 1688463564:0;cd ~/.config/xfce4/terminal/terminalrc
+: 1688463566:0;cd ~/.config/xfce4/terminal
+: 1688463569:0;nv terminalrc
+: 1688464156:0;cd .config/kitty/
+: 1688464165:0;cd .con
+: 1688464168:0;cd fish
+: 1688464182:0;nv config.fish
+: 1688464201:0;fish
+: 1688473325:0;nmtui
+: 1688477510:0;clear
+: 1688477544:0;cc
+: 1688477555:0;cd projects/DSA-notes
+: 1688477558:0;cd Data-Structures
+: 1688477561:0;cd Strings
+: 1688477566:0;cc reverse.cpp
+: 1688477593:0;cc gtk-app.c
+: 1688477601:0;gcc gtk-app.c
+: 1688477613:0;man cc
+: 1688477619:0;info cc
+: 1688477659:0;nv Arch.md
+: 1688492715:0;curl -sS https://starship.rs/install.sh | sh
+: 1688492756:0;exit
+: 1688492860:0;x
+: 1688492896:0;starship preset nerd-font-symbols -o ~/.config/starship.toml\
+
+: 1688492920:0;time
+: 1688492928:0;time exec zsh
+: 1688492934:0;cd nvim
+: 1688495524:0;starship
+: 1688495671:0;exec zsh
+: 1688529286:0;ys
+: 1688532040:0;we
+: 1688532041:0;wr
+: 1688532076:0;yay -Rns tcet-linux-qogir-theme tcet-linux-welcome
+: 1688532081:0;reboot
+: 1688532172:0;ws
+: 1688543353:0;ping 8.8.8.8
+: 1688543361:0;ping 9.9.9.9
+: 1688543404:0;cd projects
+: 1688543407:0;cd ~/.local/share/tcet-linux-welcome
+: 1688543409:0;lg
+: 1688543882:0;git clone https://github.com/tcet-opensource/tcet-linux-welcome.git ~/.local/share/tcet-linux-welcome && cd ~/.local/share/tcet-linux-welcome && cp -r tcet-welcome ~/.local/share/ && sudo cp welcome /usr/bin\
+
+: 1688543919:0;rm -rf ~/.local/share/tcet-linux-welcome
+: 1688543923:0;git clone https://github.com/tcet-opensource/tcet-linux-welcome.git ~/.local/share/tcet-linux-welcome -b 4-create-welcome-app-based-on-yad && cd ~/.local/share/tcet-linux-welcome && cp -r tcet-welcome ~/.local/share/ && sudo cp welcome /usr/bin
+: 1688543965:0;cd tcet-linux-welcome
+: 1688543972:0;nv README.md
+: 1688555667:0;lll
+: 1688564038:0;c
+: 1688564043:0;cd komikku
+: 1688564043:0;ll
+: 1688564200:0;cdp
+: 1688564201:0;ls
+: 1688564202:0;cd
+: 1688564885:0;nv
+: 1688569054:0;e
+: 1688569056:0;c
+: 1688569062:0;ys
+: 1688577809:0;c
+: 1688577943:0;ls
+: 1688577944:0;ll
+: 1688577945:0;c
+: 1688577947:0;clear
+: 1688578138:0;nv
+: 1688578487:0;cd ~/.config/spicetify
+: 1688578488:0;ll
+: 1688578494:0;cd Themes
+: 1688578494:0;ls
+: 1688578496:0;ll
+: 1688578497:0;cd
+: 1688578504:0;cd ~/.config/spicetify/Themes
+: 1688578504:0;ll
+: 1688578507:0;nv README.md
+: 1688578526:0;yel
+: 1688578530:0;yl
