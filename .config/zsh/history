@@ -1329,3 +1329,38 @@ npm i -g vscode-langservers-extracted;
 : 1688644454:0;git config --global user.email "jharishabh2k3@gmail.com"
 : 1688644466:0;git config --global user.name "Rishabh"
 : 1688644468:0;yl
+: 1688644473:0;ls
+: 1688644474:0;ll
+: 1688644536:0;mkdir ~/.config/dunst
+: 1688644544:0;nv ~/.config/dunst/dunstrc
+: 1688644550:0;dunst
+: 1688644607:0;yay playerctl
+: 1688644622:0;ls
+: 1688644630:0;cd ~/.config/waybar
+: 1688644630:0;ll
+: 1688644636:0;nv config.jsonc
+: 1688644654:0;yay lua-language-server
+: 1688644666:0;yay pyright
+: 1688644800:0;dunstify "hello"
+: 1688644830:0;nv ~/.config/dunst/dunstrc
+: 1688644875:0;dunstify "hello"
+: 1688644889:0;dunst
+: 1688644894:0;dunstify "hello"
+: 1688644913:0;killall -9 dunst && dunst
+: 1688644923:0;dunstify "hello"
+: 1688644995:0;killall -9 dunst && dunst
+: 1688644999:0;dunst
+: 1688645001:0;dunstify "hello"
+: 1688645010:0;dunstify "hello world"
+: 1688645046:0;dunst
+: 1688645047:0;dunstify "hello world"
+: 1688645099:0;fc-cache -f -v
+: 1688645110:0;yay jet
+: 1688645204:0;dunst
+: 1688645207:0;dunstify "hello world"
+: 1688645237:0;c
+: 1688645245:0;pfetch --help
+: 1688645285:0;nv ~/.config/yadm/yadm.sh
+: 1688645290:0;yay taplo
+: 1688645335:0;nv ~/.config/nvim/install.sh
+: 1688645346:0;yay npm

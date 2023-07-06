@@ -3,6 +3,7 @@
 yadm add ~/README.md \
     ~/.config/alacritty \
     ~/.config/btop \
+    ~/.config/dunst \
     ~/.config/fish \
     ~/.config/contour \
     ~/.config/helix \
