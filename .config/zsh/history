@@ -113,7 +113,6 @@
 : 1685874341:0;alacritty
 : 1685874379:0;cd .config/river
 : 1685874381:0;./init
-: 1685874391:0;rofi
 : 1685874415:0;rofi show -drun
 : 1685874460:0;nv init
 : 1685874487:0;riverctl map normal Super+Shift Return spawn alacritty
@@ -125,7 +124,6 @@
 : 1685890800:0;nv qbit.sh
 : 1685894935:0;./qbit.sh
 : 1685898122:0;p
-: 1685898152:0;pf
 : 1685898314:0;yay newm
 : 1685898964:0;cd .config/newm
 : 1685898971:0;nv config.py
@@ -137,7 +135,6 @@
 : 1685899345:0;wob -a bottom -M 100
 : 1685899383:0;wob
 : 1685899764:0;killall -9 newm
-: 1685899785:0;rofi -show drun
 : 1685942861:0;killall -9 sway
 : 1685942863:0;killall -9 swaybg
 : 1685943517:0;mpvpaper '*' ~/Videos/video-wallpapers/the-eclipse-berserker-armor-moewalls.com.mp4
@@ -209,7 +206,6 @@
 : 1686313220:0;wtr
 : 1686313954:0;yay -S swaylock
 : 1686322648:0;pacman -Qi spotify
-: 1686322659:0;yay spotify
 : 1686332717:0;mpv --help
 : 1686332722:0;tldr mpv
 : 1686332741:0;man mpv
@@ -385,7 +381,6 @@ mdbook serve
 : 1687225898:0;swaylock
 : 1687225925:0;./sleep.sh
 : 1687225934:0;nv sleep.sh
-: 1687225982:0;nv startup.conf
 : 1687226056:0;wlogout
 : 1687226076:0;swayidle -w timeout 6000 "temp=$(brightnessctl g); brightnessctl set $((temp / 2))" resume "temp=$(brightnessctl g); brightnessctl set $((temp * 2))" timeout 150 "$HOME/.config/hypr/scripts/lock.sh & sleep 1 && hyprctl dispatch dpms off" resume 'hyprctl dispatch dpms on' timeout 200 'systemctl suspend'\
 
@@ -489,7 +484,6 @@ mdbook serve
 : 1687333547:0;sudo pacman -Qtdq
 : 1687334478:0;cd notes
 : 1687334487:0;nv day-3.md
-: 1687334852:0;lsblk
 : 1687334938:0;cd boot
 : 1687335058:0;gh
 : 1687335070:0;cd usr
@@ -534,7 +528,6 @@ mdbook serve
 : 1687354184:0;mkdir TCET
 : 1687354198:0;mv tcet* TCET
 : 1687358243:0;sudo rm -rf work
-: 1687358423:0;spicetify backup restore apply
 : 1687358730:0;cd Tcet
 : 1687358734:0;nv pacman.conf
 : 1687359738:0;gh repo clone tcet-opensource/tcet-linux-settings
@@ -556,13 +549,10 @@ mdbook serve
 : 1687510727:0;sudo waydroid upgrade
 : 1687510775:0;sudo rm -rf /var/lib/waydroid /home/.waydroid
 : 1687510784:0;rm -rf ~/waydroid ~/.share/waydroid ~/.local/share/applications/*aydroid* ~/.local/share/waydroid
-: 1687510902:0;cd Pictures
 : 1687527135:0;yay -R waydroid
 : 1687527147:0;sudo rm -rf /var/lib/waydroid
 : 1687527185:0;cd /
 : 1687527187:0;fd waydroid
-: 1687527276:0;yay waydroid
-: 1687527295:0;sudo waydroid init -f
 : 1687533548:0;vdir
 : 1687533552:0;dir
 : 1687541113:0;cd progra
@@ -675,7 +665,6 @@ systemctl restart iptables
 : 1687755073:0;make clean
 : 1687755117:0;fd gtk.py
 : 1687757829:0;ccd
-: 1687757845:0;cd mirrors-and-hosts
 : 1687757892:0;xfce4-terminal -e "pkexec pacman --noconfirm -Syyu"
 : 1687757923:0;xfce4-terminal -e "sudo pacman --noconfirm -Syyu"
 : 1687758171:0;nv scripts
@@ -695,7 +684,6 @@ systemctl restart iptables
 : 1687764282:0;ll /etc/pacman.d/mirrorlist
 : 1687764561:0;rm tcet-linux-welcome
 : 1687765029:0;reflector --list-countries
-: 1687765132:0;cd other-stuff
 : 1687765142:0;nv mirrors-and-hosts
 : 1687765855:0;mkdir gtk-tcet-welcome
 : 1687765894:0;cp gtk.py
@@ -745,7 +733,6 @@ systemctl restart iptables
 : 1687886668:0;ls --a
 : 1687886675:0;nvim --v
 : 1687886678:0;nvim -v
-: 1687886872:0;nv rate-mirrors-arch.sh
 : 1687886890:0;nv /etc/hosts
 : 1687887580:0;mv tcet-linux-welcome TCET
 : 1687923017:0;cp welcome.sh ~/.config/autostart
@@ -823,7 +810,6 @@ systemctl restart iptables
 : 1687949835:0;cd c
 : 1687949860:0;nv note.txt
 : 1687950435:0;nv scripts/autostart.sh
-: 1687951071:0;killall -9 Discord
 : 1687951383:0;nv install.sh
 : 1687951995:0;cp tcet-welcome.desktop /usr/share/applications
 : 1687952181:0;~/.local/share/tcet-linux-welcome/welcome.sh
@@ -840,7 +826,6 @@ systemctl restart iptables
 : 1688008565:0;pacnew
 : 1688008570:0;pacdiff
 : 1688008653:0;sudo pacdiff
-: 1688009609:0;cd ~/.config/hypr
 : 1688009617:0;nv keybinds.conf
 : 1688020730:0;ps aux | grep waybar
 : 1688020751:0;nv wf-recorder.sh
@@ -849,7 +834,6 @@ systemctl restart iptables
 : 1688021580:0;./waybar.sh
 : 1688021585:0;nv waybar.sh
 : 1688021618:0;ps waybar
-: 1688021675:0;waybar
 : 1688021756:0;ps PID
 : 1688021762:0;man ps
 : 1688022292:0;cd ~/.local/share
@@ -862,9 +846,7 @@ systemctl restart iptables
 : 1688037631:0;pgrep waybar
 : 1688037687:0;./scripts/waybar.sh
 : 1688037714:0;cd hypr
-: 1688037716:0;yel
 : 1688037728:0;nv hyprland.conf
-: 1688037850:0;yl
 : 1688038263:0;nv /usr/share/applications/spotify.desktop
 : 1688038326:0;nv screen-resolution.sh
 : 1688045724:0;rsss
@@ -907,7 +889,6 @@ systemctl restart iptables
 : 1688124413:0;unzip Martian_Mono.zip
 : 1688124445:0;cd static
 : 1688124485:0;unzip Noto_Sans_Devanagari.zip
-: 1688124498:0;fc-cache -f -v
 : 1688124912:0;dc
 : 1688125068:0;./we
 : 1688133407:0;wlan0
@@ -958,7 +939,6 @@ sudo systemctl restart iptables
 : 1688280683:0;yay qogir
 : 1688280800:0;rm -rf tcet-linux
 : 1688280853:0;sudo rm -rf tcet-linux
-: 1688280857:0;gh repo clone tcet-opensource/tcet-linux
 : 1688280958:0;yay qogir-gtk-theme-git
 : 1688288676:0;nv about.py
 : 1688297298:0;spotify
@@ -1028,14 +1008,12 @@ sudo systemctl restart iptables
 : 1688362471:0;xo 1.png
 : 1688362479:0;xo
 : 1688362481:0;xo .
-: 1688362813:0;cd tcet
 : 1688362819:0;cd projects/TCET/tcet-linux
 : 1688375382:0;fd hyprland
 : 1688375417:0;cd .cache/hyprland
 : 1688375423:0;nv hyprlandCrashReport3685.txt
 : 1688381553:0;cd projects/TCET/
 : 1688381560:0;rm -rf tcet-linux-welcome-23.07-3-x86_64.pkg.tar.zst
-: 1688389381:0;cd tcet-linux
 : 1688389423:0;cd airootfs/etc
 : 1688389430:0;cd pacman.d
 : 1688389772:0;This commit does not belong to any branch on this repository, and may belong to a fork outside of the repository.
@@ -1055,7 +1033,6 @@ sudo systemctl restart iptables
 : 1688400569:0;Hyprland
 : 1688400589:0;rm -rf nvim-linux64.tar.gz
 : 1688400593:0;rm -rf nvim-linux64
-: 1688400627:0;nr
 : 1688400674:0;bob update --all
 : 1688400684:0;bob use nightly
 : 1688400701:0;bob use stable
@@ -1067,14 +1044,11 @@ sudo systemctl restart iptables
 : 1688408066:0;fzf -e | nvim $0
 : 1688408073:0;ce
 : 1688408081:0;fzf -e | nvim
-: 1688408091:0;nvim
 : 1688408100:0;ls | cat
 : 1688408113:0;fzf
 : 1688442169:0;yay -R qalculate-qt
 : 1688442659:0;uneo
-: 1688445405:0;f
 : 1688445417:0;neofetc
-: 1688445418:0;n
 : 1688445424:0;n --help
 : 1688445450:0;n --ascii_distro endeavour
 : 1688445453:0;n --ascii_distro endeavour_os
@@ -1091,11 +1065,9 @@ sudo systemctl restart iptables
 : 1688455931:0;rm -rf *
 : 1688456036:0;nv PKGBUILD
 : 1688456043:0;makepkg -s
-: 1688456053:0;l
 : 1688456060:0;sudo pacman -U tcet-linux-welcome-23.07-3-x86_64.pkg.tar.zst
 : 1688462604:0;chmod +x neofetch
 : 1688462767:0;sudo pacman -U tcet-linux-qogir-theme-2023.05.24-1-any.pkg.tar.zst
-: 1688462815:0;cd Downloads
 : 1688462896:0;./neofetch --ascii_distro tcet
 : 1688463564:0;cd ~/.config/xfce4/terminal/terminalrc
 : 1688463566:0;cd ~/.config/xfce4/terminal
@@ -1106,7 +1078,6 @@ sudo systemctl restart iptables
 : 1688464182:0;nv config.fish
 : 1688464201:0;fish
 : 1688473325:0;nmtui
-: 1688477510:0;clear
 : 1688477544:0;cc
 : 1688477555:0;cd projects/DSA-notes
 : 1688477558:0;cd Data-Structures
@@ -1119,7 +1090,6 @@ sudo systemctl restart iptables
 : 1688477659:0;nv Arch.md
 : 1688492715:0;curl -sS https://starship.rs/install.sh | sh
 : 1688492756:0;exit
-: 1688492860:0;x
 : 1688492896:0;starship preset nerd-font-symbols -o ~/.config/starship.toml\
 
 : 1688492920:0;time
@@ -1127,48 +1097,235 @@ sudo systemctl restart iptables
 : 1688492934:0;cd nvim
 : 1688495524:0;starship
 : 1688495671:0;exec zsh
-: 1688529286:0;ys
 : 1688532040:0;we
 : 1688532041:0;wr
 : 1688532076:0;yay -Rns tcet-linux-qogir-theme tcet-linux-welcome
-: 1688532081:0;reboot
 : 1688532172:0;ws
 : 1688543353:0;ping 8.8.8.8
 : 1688543361:0;ping 9.9.9.9
-: 1688543404:0;cd projects
 : 1688543407:0;cd ~/.local/share/tcet-linux-welcome
-: 1688543409:0;lg
 : 1688543882:0;git clone https://github.com/tcet-opensource/tcet-linux-welcome.git ~/.local/share/tcet-linux-welcome && cd ~/.local/share/tcet-linux-welcome && cp -r tcet-welcome ~/.local/share/ && sudo cp welcome /usr/bin\
 
 : 1688543919:0;rm -rf ~/.local/share/tcet-linux-welcome
 : 1688543923:0;git clone https://github.com/tcet-opensource/tcet-linux-welcome.git ~/.local/share/tcet-linux-welcome -b 4-create-welcome-app-based-on-yad && cd ~/.local/share/tcet-linux-welcome && cp -r tcet-welcome ~/.local/share/ && sudo cp welcome /usr/bin
 : 1688543965:0;cd tcet-linux-welcome
-: 1688543972:0;nv README.md
 : 1688555667:0;lll
-: 1688564038:0;c
 : 1688564043:0;cd komikku
-: 1688564043:0;ll
-: 1688564200:0;cdp
-: 1688564201:0;ls
-: 1688564202:0;cd
-: 1688564885:0;nv
-: 1688569054:0;e
-: 1688569056:0;c
 : 1688569062:0;ys
-: 1688577809:0;c
-: 1688577943:0;ls
-: 1688577944:0;ll
-: 1688577945:0;c
 : 1688577947:0;clear
-: 1688578138:0;nv
 : 1688578487:0;cd ~/.config/spicetify
-: 1688578488:0;ll
 : 1688578494:0;cd Themes
-: 1688578494:0;ls
-: 1688578496:0;ll
-: 1688578497:0;cd
 : 1688578504:0;cd ~/.config/spicetify/Themes
-: 1688578504:0;ll
 : 1688578507:0;nv README.md
 : 1688578526:0;yel
 : 1688578530:0;yl
+: 1688628225:0;yay zoxide
+: 1688628249:0;yay pfetch
+: 1688628285:0;pf
+: 1688628309:0;yay wlogout
+: 1688628331:0;vs /etc/pacman.conf
+: 1688628363:0;yay neovim
+: 1688628376:0;firefox
+: 1688628430:0;git clone https://github.com/Rishabh672003/Neovim ~/.config/nvim && nvim
+: 1688628462:0;yay yarn
+: 1688628544:0;reboot
+: 1688628587:0;yay -R xdg-desktop-portal-wlr
+: 1688628601:0;yay discord
+: 1688628623:0;cd mirrors-and-hosts
+: 1688628676:0;./rate-mirrors-arch.sh
+: 1688628726:0;cd pictures
+: 1688628729:0;cd Pictures
+: 1688628731:0;gh repo clone Rishabh672003/Wallpapers
+: 1688628736:0;yay github-cli
+: 1688628753:0;nv rate-mirrors-arch.sh
+: 1688628781:0;gh auth login
+: 1688628957:0;yay rate-mirrors
+: 1688629244:0;yay nwg
+: 1688629265:0;yay rofi
+: 1688629465:0;cd ~/.config/rofi
+: 1688629472:0;rofi
+: 1688629486:0;nv catppuccin-mocha.rasi
+: 1688629497:0;rofi -show drun
+: 1688629661:0;yay spotify
+: 1688629753:0;yay -S catppuccin-gtk-theme-mocha
+: 1688629792:0;yay -S spicetify-cli
+: 1688629850:0;cd spicetify
+: 1688629865:0;yay -R lxappearance
+: 1688629871:0;yay -Rns thunar
+: 1688629892:0;yay nemo
+: 1688629980:0;yay gnome-disk-manager
+: 1688630062:0;yay virt-manager
+: 1688630079:0;yay gparted
+: 1688630186:0;gparted
+: 1688630203:0;cdp
+: 1688630208:0;yay boabab
+: 1688630234:0;yay gnome-disk
+: 1688630253:0;yay disk-analyzer
+: 1688630278:0;yay baobab
+: 1688630328:0;cd ~/.config/hypr
+: 1688630331:0;nv startup.conf
+: 1688630338:0;yay polkit
+: 1688630375:0;/usr/lib/polkit-kde-authentication-agent-1
+: 1688630381:0;sudo gparted
+: 1688630445:0;cd Pictures && gh repo clone Rishabh672003/Wallpapers
+: 1688630470:0;lsblk
+: 1688633907:0;yay waydroid
+: 1688633938:0;sudo waydroid init -f
+: 1688634450:0;cd other-stuff
+: 1688634461:0;cp grimblast ~/.local/bin
+: 1688634689:0;spicetify backup restore apply
+: 1688637932:0;gh repo clone tcet-opensource/tcet-linux
+: 1688637958:0;yay libvirtd
+: 1688637976:0;sudo systemctl enable --now libvirtd.service
+: 1688638314:0;yay kvm
+: 1688638555:0;nr
+: 1688638677:0;cd Downloads/adwaita-icon-theme-44.0
+: 1688638679:0;./configure --prefix=/usr &&\
+make
+: 1688638690:0;sudo make install
+: 1688638756:0;gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+: 1688638802:0;yay -Rns evince
+: 1688638806:0;yay evince
+: 1688638851:0;sudo waydroid init
+: 1688638883:0;nv ~/.config/gtk-4.0/settings.ini
+: 1688639123:0;xed
+: 1688639142:0;cd ~/.config/xfce4/xfconf/
+: 1688639147:0;cd xfce-perchannel-xml
+: 1688639151:0;nv thunar-volman.xml
+: 1688639482:0;x
+: 1688639859:0;yay gnome-settings
+: 1688639890:0;yay -S gnome
+: 1688639991:0;waybar
+: 1688640035:0;yay downgrade
+: 1688640073:0;cd Downloads
+: 1688640153:0;yay gnome
+: 1688640162:0;yay libgnome
+: 1688640182:0;sudo downgrade evince
+: 1688640207:0;cd ~/.config/xed
+: 1688640211:0;nv accels
+: 1688640290:0;evince
+: 1688640816:0;yay brave
+: 1688641076:0;yay noto-sans-emoji
+: 1688641082:0;yay emoji
+: 1688641115:0;fc-cache -f -v
+: 1688641129:0;killall -9 Discord
+: 1688641379:0;cd projects
+: 1688641382:0;cd tcet-linux
+: 1688641383:0;ll
+: 1688641384:0;cd
+: 1688641390:0;cd tcet
+: 1688641391:0;lg
+: 1688641395:0;yay lazygit
+: 1688641402:0;f
+: 1688641403:0;c
+: 1688641408:0;n
+: 1688641441:0;sudo pacman -Sy --needed --noconfirm lua-language-server rust-analyzer;\
+yay -S jdtls lemminx;\
+cargo install --features lsp --locked taplo-cli;\
+cargo install prosemd-lsp;\
+npm i -g vscode-langservers-extracted;
+: 1688641471:0;\
+\
+if command -v pacman &> /dev/null ; then\
+ sudo pacman -Sy --needed --noconfirm git base-devel unzip curl lua cargo;\
+\
+ \
+ sudo pacman -Sy --needed --noconfirm npm python-pip stylua prettier astyle ripgrep unzip npm zsh autopep8 lua-language-server bash-language-server pyright lemminx typescript-language-server ;\
+else\
+ echo "This script is only supported for Arch Linux"\
+ exit 1;\
+fi\
+\
+if command -v yay &> /dev/null ; then\
+\
+ \
+ yay -S --needed --noconfirm shellcheck-bin beautysh jdtls lemminx marksman-bin;\
+else\
+ echo "yay not installed";\
+fi\
+\
+if command -v cargo &> /dev/null ; then\
+\
+ \
+ cargo install --features lsp --locked taplo-cli;\
+else\
+ echo "cargo not installed";\
+fi\
+\
+if command -v npm &> /dev/null ; then\
+\
+ \
+ npm i -g vscode-langservers-extracted;\
+else\
+ echo "npm not installed";\
+fi\
+\
+rm -rf ~/nvim-linux64 > /dev/null 2>&1 ; curl --output-dir "$HOME" -LO https://github.com/neovim/neovim/releases/download/nightly/nvim-linux64.tar.gz && tar -xvf ~/nvim-linux64.tar.gz;\
+\
+if [ ! -d ~/.config/nvim ]; then\
+ mkdir -p ~/.config/nvim;\
+fi\
+\
+git clone https://github.com/Rishabh672003/Neovim ~/.config/nvim;\
+\
+echo "alias nvim='~/nvim-linux64/bin/nvim'" >> ~/.bashrc ;\
+echo "alias nvim='~/nvim-linux64/bin/nvim'" >> ~/.zshrc ;\
+echo "alias nvim='~/nvim-linux64/bin/nvim'" >> ~/.config/fish/config.fish ;\
+\
+touch "$HOME"/.bashrc && source "$HOME"/.bashrc;\
+touch "$HOME"/.zshrc && source "$HOME"/.zshrc;\
+\
+~/nvim-linux64/bin/nvim
+: 1688642626:0;nv ~/.config/xed/accels
+: 1688643154:0;sudo chmod a+wr /opt/spotify\
+sudo chmod a+wr /opt/spotify/Apps -R
+: 1688643165:0;nv
+: 1688643170:0;l
+: 1688643179:0;rm -rf nvim-linux64 nvim-linux64.tar.gz
+: 1688643180:0;ls
+: 1688643185:0;nvim
+: 1688643194:0;e
+: 1688643196:0;nv
+: 1688643207:0;yay clangd
+: 1688643227:0;yay clang
+: 1688643320:0;yay cockpit
+: 1688643363:0;cd .config/xed
+: 1688643364:0;ls
+: 1688643370:0;nv accels.save
+: 1688643378:0;nv
+: 1688643410:0;ls
+: 1688643411:0;ll
+: 1688643412:0;ls
+: 1688643413:0;ll
+: 1688643469:0;cd .config/hypr
+: 1688643470:0;ls
+: 1688643472:0;nv
+: 1688643523:0;sudo pacman -Sy --needed --noconfirm lua-language-server rust-analyzer;\
+yay -S jdtls lemminx;\
+cargo install --features lsp --locked taplo-cli;\
+cargo install prosemd-lsp;\
+npm i -g vscode-langservers-extracted;
+: 1688643575:0;rustup default stable
+: 1688643713:0;sudo waydroid init
+: 1688643797:0;c
+: 1688643799:0;spicetify backup restore apply
+: 1688644068:0;curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-marketplace/main/resources/install.sh | sh
+: 1688644117:0;yay -R mako
+: 1688644127:0;cd ~/.config/xed
+: 1688644128:0;cdp
+: 1688644128:0;ll
+: 1688644173:0;dunst
+: 1688644178:0;yay -S dunst
+: 1688644183:0;dunst
+: 1688644190:0;killall -9 mako
+: 1688644192:0;dunst
+: 1688644375:0;ls
+: 1688644375:0;cd
+: 1688644379:0;yel
+: 1688644406:0;yl
+: 1688644423:0;gh auth login
+: 1688644430:0;ls
+: 1688644432:0;yl
+: 1688644454:0;git config --global user.email "jharishabh2k3@gmail.com"
+: 1688644466:0;git config --global user.name "Rishabh"
+: 1688644468:0;yl

@@ -96,3 +96,4 @@ alias nrandom='tr -dc "A-Za-z 0-9" < /dev/urandom | fold -w100 | head -n 1000000
 alias yl='sh ~/.config/yadm/yadm.sh'
 alias yel='yadm enter lazygit'
 alias yt="youtube-dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4'"
+alias nvim='~/nvim-linux64/bin/nvim'
