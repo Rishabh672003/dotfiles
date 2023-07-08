@@ -1,1029 +1,4 @@
-: 1685377413:0;playerctl pause
-: 1685377418:0;playerctl play-pause
-: 1685381289:0;nv -d a.hs a.lua
-: 1685381317:0;nv -d .android apks
-: 1685381466:0;nv apks
-: 1685431583:0;cd lua
-: 1685431587:0;cd rj/plugins
-: 1685431594:0;nv dropdown.lua
-: 1685432098:0;yay grimblast
-: 1685432109:0;which grimblast
-: 1685432124:0;cd .local/share/bin
-: 1685432141:0;nv grimblast
-: 1685445289:0;cd zsh
-: 1685445294:0;nv .zprofile
-: 1685463521:0;mkdir VIVA.txt
-: 1685463525:0;rm VIVA.txt
-: 1685463528:0;rm -rf VIVA.txt
-: 1685463532:0;nv viva.txt
-: 1685463684:0;nv viva-answers.txt
-: 1685463706:0;nv viva-answers.md
-: 1685464129:0;pandoc viva-answers.md -o viva-answers.pdf
-: 1685464139:0;xo viva-answers.pdf
-: 1685464168:0;nv viva-answers.tex
-: 1685464196:0;rm viva-answers.pdf viva-answers.tex
-: 1685464361:0;rm viva-answers.md viva-answers.tex
-: 1685464524:0;pandoc viva-answers.md -o viva-answers.tex
-: 1685464552:0;pandoc viva-answer.md -o viva-answer.tex
-: 1685464750:0;nv viva-answer.pdf
-: 1685465288:0;nv viva-answer.tex
-: 1685465329:0;pdflatex viva-answer.tex
-: 1685465408:0;pandoc viva-answer.tex -o viva-answer.pdf
-: 1685465471:0;nv viva-answer.md
-: 1685465547:0;Ωnv
-: 1685465586:0;pandoc viva-answer.md -o viva-answer.pdf
-: 1685465591:0;xo viva-answer.pdf
-: 1685470228:0;gh pr checkout 134
-: 1685526311:0;rm -rf viva-answer.*
-: 1685529912:0;tpg
-: 1685541418:0;cargo install --git https://github.com/ErikReider/SwayOSD
-: 1685541719:0;swayosd
-: 1685542916:0;cargo update
-: 1685554373:0;hyprctl reload
-: 1685554406:0;hyprctl splash
-: 1685555587:0;swayosd --output-volume raise
-: 1685555681:0;nv /etc/zsh/zshenv
-: 1685621938:0;bob update
-: 1685631489:0;gh repo clone FlareSolverr/FlareSolverr
-: 1685631497:0;cd FlareSolverr
-: 1685631516:0;yay docker-compose
-: 1685631544:0;docker-compose up -d
-: 1685632074:0;netstat
-: 1685632101:0;yay netstat
-: 1685632133:0;netctl
-: 1685632136:0;netctl list
-: 1685632143:0;netstat-nat
-: 1685632150:0;netstat-nat --help
-: 1685632250:0;sudo netstat -ntulp | grep 443
-: 1685632332:0;nv docker-compose.yml
-: 1685632907:0;yay -S flaresolverr-bin
-: 1685633540:0;cd lua/rj
-: 1685633544:0;cd lsp
-: 1685633551:0;nv lsp-conf.lua
-: 1685634345:0;nv cal.py
-: 1685634406:0;cd python-study
-: 1685634409:0;nv 11.py
-: 1685762818:0;hyprctl activewindow
-: 1685762844:0;hyprctl help
-: 1685763283:0;tldr hyprctl
-: 1685763296:0;man hyprctl
-: 1685763321:0;hyprctl dispatch
-: 1685763467:0;yay -Rns flaresolverr-bin
-: 1685763475:0;yay flaresolverr
-: 1685768432:0;sudo paccache -rk0 --aur
-: 1685768468:0;rm -rf ~/.cache/yay
-: 1685768733:0;docker run -d --name=flaresolverr -p 8191:8191 -e LOG_LEVEL=info --restart unless-stopped ghcr.io/flaresolverr/flaresolverr:latest
-: 1685768736:0;sudo docker run -d --name=flaresolverr -p 8191:8191 -e LOG_LEVEL=info --restart unless-stopped ghcr.io/flaresolverr/flaresolverr:latest
-: 1685768748:0;cd projects/FlareSolverr
-: 1685768759:0;sudo docker-compose up -d
-: 1685768873:0;cd \ 
-: 1685768882:0;fd flaresolverr
-: 1685768923:0;cd /etc/systemd/system/multi-user.target.wants
-: 1685768933:0;nv jackett.service
-: 1685768988:0;nv flaresolverr.service
-: 1685795555:0;nautilus .
-: 1685796948:0;mkdir other-configs
-: 1685796968:0;mv hyprland3.conf hyprland4.conf hyprland5.conf other-configs
-: 1685800191:0;cd wall
-: 1685801661:0;chmod +x Cosmic-Dodge.jar
-: 1685801698:0;javac Cosmic-Dodge.jar
-: 1685801703:0;java Cosmic-Dodge.jar
-: 1685801842:0;nv Cosmic-Dodge.jar
-: 1685801858:0;./Cosmic-Dodge.jar
-: 1685802036:0;java
-: 1685802084:0;sdkman
-: 1685802096:0;sdk current
-: 1685802101:0;sdk
-: 1685802111:0;sdk install
-: 1685802118:0;sdk list
-: 1685802143:0;sdk install java
-: 1685802171:0;sdk install java 20.0.1-oracle
-: 1685802385:0;java -jar Cosmic-Dodge.jar
-: 1685802449:0;ani-cli Hunter X Hunter
-: 1685848658:0;nv init.lua
-: 1685853335:0;nv phy.md
-: 1685872899:0;yay river
-: 1685873170:0;man river
-: 1685873190:0;mkdir river
-: 1685873449:0;nv river/init
-: 1685873456:0;cd river
-: 1685873462:0;chmod +x init
-: 1685873744:0;river
-: 1685874042:0;foot
-: 1685874341:0;alacritty
-: 1685874379:0;cd .config/river
-: 1685874381:0;./init
-: 1685874415:0;rofi show -drun
-: 1685874460:0;nv init
-: 1685874487:0;riverctl map normal Super+Shift Return spawn alacritty
-: 1685875957:0;man riverctl
-: 1685885462:0;xo mpv-shot0001.jpg
-: 1685890354:0;yay qt6ct
-: 1685890534:0;qbittorrent
-: 1685890713:0;yay qbittorrent
-: 1685890800:0;nv qbit.sh
-: 1685894935:0;./qbit.sh
-: 1685898122:0;p
-: 1685898314:0;yay newm
-: 1685898964:0;cd .config/newm
-: 1685898971:0;nv config.py
-: 1685899081:0;newm
-: 1685899085:0;newm-cmd
-: 1685899096:0;start-newm -d
-: 1685899122:0;nv ~/.cache/newm/newm_log
-: 1685899321:0;yay wob
-: 1685899345:0;wob -a bottom -M 100
-: 1685899383:0;wob
-: 1685899764:0;killall -9 newm
-: 1685942861:0;killall -9 sway
-: 1685942863:0;killall -9 swaybg
-: 1685943517:0;mpvpaper '*' ~/Videos/video-wallpapers/the-eclipse-berserker-armor-moewalls.com.mp4
-: 1685943524:0;mpvpaper -vs -o "no-audio loop" eDP-1 ~/Videos/video-wallpapers/the-eclipse-berserker-armor-moewalls.com.mp4
-: 1685943708:0;swaybg -i ~/Pictures/Wallpapers/river-reflectting-the-woods.jpg
-: 1685944715:0;cd .config/yadm
-: 1685944716:0;./yadm.sh
-: 1685950423:0;sdp
-: 1685955091:0;rm -rf ~/.local/share/nvim/lazy/nvim-treesitter/parser/*
-: 1685955369:0;nv .gtkrc-2.0
-: 1685955616:0;nv a.txt
-: 1685955651:0;nv a.lua
-: 1685958132:0;nv yadm/yadm.sh
-: 1685958748:0;cd dowm
-: 1685958801:0;cd vide
-: 1685962314:0;cd Videos
-: 1685962317:0;cd John.Wick.Chapter.4.2023.1080p.WEBRip.x264-RARBG
-: 1685962327:0;cp Subs/2_English.srt Subs/3_English.srt .
-: 1685962331:0;mpv John.Wick.Chapter.4.2023.1080p.WEBRip.x264-RARBG.mp4 --sub-files=Subs/2_English.srt,Subs/3_English.srt
-: 1685962346:0;mpv John.Wick.Chapter.4.2023.1080p.WEBRip.x264-RARBG.mp4 --sub-files=2_English.srt,3_English.srt
-: 1685962361:0;mpv John.Wick.Chapter.4.2023.1080p.WEBRip.x264-RARBG.mp4 --sub-files=2_English.srt
-: 1686053413:0;
-: 1685984330:0;wlsunset
-: 1685984342:0;btop
-: 1685984348:0;ps
-: 1685984360:0;top
-: 1685984371:0;top | grep "wlsunset"
-: 1685985080:0;yay -Rns ttf-firacode-nerd
-: 1685985263:0;nv ~/.local/bin/getnf
-: 1686052998:0;ppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
-: 1686062540:0;mkdir js-course
-: 1686063161:0;node index.js
-: 1686063802:0;live-server
-: 1686063824:0;nv index.js
-: 1686063858:0;npm install -g live-server
-: 1686068870:0;rm Rishabh\'s\ Resume-hackerresume-*
-: 1686068875:0;rm Rishabh\'s\ Resume-hackerresume.pdf
-: 1686068930:0;xo Resume.pdf
-: 1686068934:0;rm Resume.pdf
-: 1686069302:0;rm -rf Rishabh-*
-: 1686069305:0;rm -rf Rishabh*
-: 1686069316:0;mv Rishabh\'s\ Resume-hackerresume.pdf Rishabh-Resume.pdf
-: 1686069318:0;xo Rishabh-Resume.pdf
-: 1686071694:0;rm Cosmic-Dodge.jar
-: 1686071745:0;rm Need\ For\ Speed\ Most\ Wanted\ Black\ Edition\ repack\ Mr\ DJ
-: 1686071754:0;rm -rf Need\ For\ Speed\ Most\ Wanted\ Black\ Edition\ repack\ Mr\ DJ
-: 1686119432:0;nvim --clean
-: 1686129504:0;getnf
-: 1686157960:0;bob use 0.9.2
-: 1686157963:0;bob use 0.9.1
-: 1686226345:0;cargo install --git https://github.com/MordechaiHadad/bob --branch appimages
-: 1686226967:0;bob
-: 1686227021:0;which nvim
-: 1686228518:0;bob install stable
-: 1686237736:0;cd lua/rj/usefull-stuff
-: 1686237742:0;nerdfix fix *
-: 1686237753:0;nerdfix lualine-themes/lualine5.lua
-: 1686237761:0;nerdfix fix lualine-themes/lualine5.lua
-: 1686304600:0;sudo systemctl disable fig-daemon
-: 1686313056:0;yay -S hyprland
-: 1686313078:0;tmux -a
-: 1686313082:0;tmux a
-: 1686313188:0;r
-: 1686313195:0;alias r
-: 1686313199:0;alias "r"
-: 1686313201:0;alias
-: 1686313210:0;alias | grep "r"
-: 1686313214:0;alias | grep "r="
-: 1686313220:0;wtr
-: 1686313954:0;yay -S swaylock
-: 1686322648:0;pacman -Qi spotify
-: 1686332717:0;mpv --help
-: 1686332722:0;tldr mpv
-: 1686332741:0;man mpv
-: 1686332903:0;mkdir mpv-ss
-: 1686332916:0;mv mpv-shot* ~/Pictures/mpv-ss
-: 1686332942:0;mpv --screenshot-directory=/home/rishabh/Pictures/mpv-ss
-: 1686333033:0;mpv Videos/John.Wick.Chapter.4.2023.1080p.WEBRip.x264-RARBG
-: 1686333049:0;cd Pictures/mpv-ss
-: 1686333478:0;tmux detach
-: 1686333488:0;tmux attach
-: 1686333975:0;cargo new rust-by-example
-: 1686366798:0;wikicurses
-: 1686366834:0;wikicurses --help
-: 1686366844:0;wikicurses -f
-: 1686366862:0;wikicurses search circular buffer
-: 1686366870:0;wikicurses search -w circular buffer
-: 1686368743:0;yay waybar-hyprland
-: 1686371008:0;cargo install --git https://github.com/typst/typst
-: 1686371027:0;yay typst
-: 1686371151:0;nv a.typ
-: 1686371164:0;typst a.typ
-: 1686371170:0;typst compile a.typ
-: 1686371179:0;xo a.pdf
-: 1686378498:0;fd hyprland.log
-: 1686378555:0;fd hypr
-: 1686389140:0;mkdir no-cargo
-: 1686389155:0;nv types.rs
-: 1686389647:0;cd rust-cp
-: 1686395284:0;journalctl | head
-: 1686395289:0;journalctl
-: 1686395512:0;fd fig-daemon
-: 1686396752:0;nv a.qsql
-: 1686396755:0;nv a.sql
-: 1686399983:0;yay swayidle
-: 1686401412:0;git clone https://github.com/rust-lang/rust-by-example\
-cd rust-by-example\
-cargo install mdbook\
-mdbook build\
-mdbook serve
-: 1686402684:0;tmux
-: 1686413718:0;nv a.c
-: 1686413759:0;rm a.c
-: 1686418019:0;cargo new random
-: 1686449296:0;cd dow
-: 1686449316:0;cd docu
-: 1686449320:0;fd rav
-: 1686449336:0;cd Sem_1_books_TCET
-: 1686449345:0;cd Basic\ Electrical\ Engineering\ BEE
-: 1686449356:0;xo Ravish\ singh.pdf
-: 1686462378:0;nvim -c
-: 1686485125:0;python anipy.py
-: 1686485135:0;grep ani
-: 1686485145:0;ls | grep ls
-: 1686485148:0;ls | grep ani
-: 1686485151:0;ls | grep py
-: 1686566304:0;nv Data-Structures
-: 1686566442:0;cd Example-Code
-: 1686566448:0;./find.out
-: 1686566523:0;cd rand
-: 1686566729:0;mdbb
-: 1686567176:0;mdbook serve
-: 1686569132:0;cd kitty
-: 1686569135:0;nv kitty.conf
-: 1686569158:0;hyprctl clients
-: 1686569898:0;cd rust-by-example
-: 1686569902:0;cd rust-projects
-: 1686569910:0;cargo new calc
-: 1686569915:0;cd calc
-: 1686570513:0;cargo run please
-: 1686570572:0;cargo run 32
-: 1686571023:0;cargo run 32 42 32
-: 1686571048:0;cd target/debug
-: 1686571054:0;./calc 23 32 42
-: 1686571094:0;./calc
-: 1686571104:0;cargo build
-: 1686571108:0;./calc 23
-: 1686571110:0;./calc 23 32
-: 1686571113:0;./calc 2
-: 1686571116:0;./calc 1000
-: 1686592263:0;cd random
-: 1686592336:0;cd guessing_game
-: 1686625749:0;cd src
-: 1686625759:0;./cmp.rs.out
-: 1686627723:0;cargo run
-: 1686655007:0;rm -rf ~/.virtualenvs/AniPy-tvku
-: 1686655030:0;rmvenv
-: 1686655072:0;pip3 install -r requirements.txt
-: 1686655108:0;rm -rf AniPy
-: 1686655126:0;gh repo clone Jacekun/AniPy
-: 1686655141:0;mkvenv
-: 1686655218:0;nv .venv
-: 1686655223:0;rm .venv
-: 1686655225:0;python3 -m venv .venv
-: 1686655233:0;source .venv/bin/activate
-: 1686655243:0;python3 -m pip install -r requirements.txt
-: 1686655444:0;python anipy.py --a -user RJ69420
-: 1686655592:0;cd ani
-: 1686658895:0;nv anilistConfig.json
-: 1686660656:0;yay comicku
-: 1686660660:0;yay comick
-: 1686660697:0;yay komikku
-: 1686671055:0;yay football-cli
-: 1686671067:0;npm install -g footballcli
-: 1686671159:0;football config
-: 1686671174:0;football scores
-: 1686671200:0;football scores -l
-: 1686671224:0;npm uninstall footballcli
-: 1686740656:0;killall -9 waybar && waybar
-: 1686743389:0;cd ownership
-: 1686745398:0;cargo new references
-: 1686763473:0;lspblk
-: 1686763489:0;duf
-: 1686763509:0;du
-: 1686828417:0;cd .config/waybar
-: 1686828421:0;nv style.css
-: 1686841673:0;kwe
-: 1686843054:0;sdr
-: 1686843291:0;gnome-control-center
-: 1686843301:0;gnome-extensions
-: 1686843304:0;gnome-extensions-app
-: 1686844264:0;nbi a.ts
-: 1686844379:0;rm a.ts
-: 1686849063:0;yay whatsapp
-: 1686924933:0;killall -9 firefox
-: 1686925948:0;pip install --upgrade pip
-: 1686939278:0;cargo new vectors
-: 1686939282:0;cd vectors
-: 1686975938:0;nano .clang-format
-: 1686980601:0;nap
-: 1686980611:0;sudo tune2fs -l /dev/nvme0n1p1 | grep 'Filesystem created:'\
-
-: 1686980626:0;sudo tune2fs -l /dev/nvme0n1p2 | grep 'Filesystem created:'
-: 1686980631:0;sudo tune2fs -l /dev/nvme0n1p3 | grep 'Filesystem created:'
-: 1686980652:0;sudo tune2fs -l /dev/nvme0n1 | grep 'Filesystem created:'
-: 1686983040:0;cd Tim-E-Scape
-: 1686983044:0;nv index.html
-: 1686995752:0;nv notes/devops.md
-: 1687014159:0;nv .
-: 1687016204:0;nvim .
-: 1687059184:0;bob ls
-: 1687063735:0;rustup docs --book
-: 1687064049:0;cd rust
-: 1687064055:0;cd references
-: 1687064559:0;cargo new fixes
-: 1687064782:0;cd fixes
-: 1687085645:0;yay linux-zen
-: 1687096865:0;sudo trash-empty
-: 1687101143:0;nv github-recovery-codes.txt
-: 1687152271:0;wpaperd
-: 1687157360:0;killall -9 wpaperd
-: 1687157636:0;swaybg -i ~/Pictures/Wallpapers/staring-into-the-woods-3840Ã�2160.jpg
-: 1687185513:0;cd java
-: 1687185522:0;nv a.java
-: 1687186159:0;kk
-: 1687186165:0;nv cc-contest-2023-03-29/budget.cpp
-: 1687189499:0;mkdir cpp-from-scratch
-: 1687189502:0;cd cpp-from-scratch
-: 1687189504:0;nv a.cpp
-: 1687189711:0;nv namespaces.cpp
-: 1687190849:0;nv typedef.cpp
-: 1687190894:0;nv type-conv.cpp
-: 1687191365:0;node "/home/rishabh/projects/js-course/index.js"
-: 1687191413:0;cd "/home/rishabh/projects/cpp-from-scratch/" && g++ typedef.cpp -o typedef && "/home/rishabh/projects/cpp-from-scratch/"typedef
-: 1687191593:0;nv input.cpp
-: 1687195594:0;nv hypotenuse.cpp
-: 1687225033:0;cdd cpp
-: 1687225046:0;touch ternary.cpp
-: 1687225049:0;nv ternary.cpp
-: 1687225852:0;pacman -Qi swaylock
-: 1687225860:0;pacman -Qi swayidle
-: 1687225866:0;swayidle
-: 1687225881:0;swayidle before-sleep swaylock
-: 1687225898:0;swaylock
-: 1687225925:0;./sleep.sh
-: 1687225934:0;nv sleep.sh
-: 1687226056:0;wlogout
-: 1687226076:0;swayidle -w timeout 6000 "temp=$(brightnessctl g); brightnessctl set $((temp / 2))" resume "temp=$(brightnessctl g); brightnessctl set $((temp * 2))" timeout 150 "$HOME/.config/hypr/scripts/lock.sh & sleep 1 && hyprctl dispatch dpms off" resume 'hyprctl dispatch dpms on' timeout 200 'systemctl suspend'\
-
-: 1687226388:0;nv temp-conv.cpp
-: 1687237454:0;git
-: 1687237562:0;cd nv
-: 1687238895:0;hollywood
-: 1687250917:0;/usr/bin/hollywood 
-: 1687240096:0;cd .gnome
-: 1687240128:0;help
-: 1687240181:0;cd --help
-: 1687240183:0;cd -h
-: 1687240192:0;man cd
-: 1687240709:0;mkdir test
-: 1687240712:0;mkdir test2
-: 1687240733:0;cd test2
-: 1687240960:0;mkdir basid-git
-: 1687240978:0;cd rishabh/basid-git
-: 1687241015:0;cd /home/rishabh/notes
-: 1687241722:0;mkdir -p hello/a/b
-: 1687241728:0;cd hello
-: 1687242007:0;cd projects/Programming-Notes
-: 1687243402:0;nv test.md
-: 1687249647:0;cd Applications
-: 1687249650:0;./Cool-Retro-Term-1.1.1-x86_64.AppImage
-: 1687250002:0;cd cpp
-: 1687250007:0;nv bubble.cpp
-: 1687250400:0;man git
-: 1687250609:0;mkdir tcet-test
-: 1687250611:0;cd tcet-test
-: 1687250615:0;git init
-: 1687250664:0;git branch -m main
-: 1687250915:0;git commit-tree
-: 1687251147:0;nv merge.cpp
-: 1687251210:0;go install github.com/mosajjal/bard-cli@latest
-: 1687251395:0;touch /home/rishabh/.bardcli.yaml
-: 1687251411:0;bard-cli --defaultconfig
-: 1687251426:0;bard-cli
-: 1687251590:0;tldr git
-: 1687252751:0;cd .config/git
-: 1687252790:0;nv .gitignore
-: 1687252795:0;nv .gitattributes
-: 1687252834:0;nv config
-: 1687252870:0;git config --list
-: 1687253339:0;cd Rishabh672003.github.io
-: 1687253368:0;git clone https://github.com/Rishabh672003/Rishabh672003.git
-: 1687253375:0;nv Rishabh672003
-: 1687253382:0;cd Rishabh672003
-: 1687253988:0;mkdir Tcet-OS
-: 1687253992:0;cd Tcet-OS
-: 1687254009:0;bard-cli what is the meaning of life
-: 1687254018:0;bard-cli "what is the meaning of life"
-: 1687254037:0;cd projects/Tcet-OS
-: 1687254400:0;git clone https://github.com/tcet-opensource/learn-git
-: 1687254451:0;nv a.md
-: 1687254520:0;git clone https://github.com/Rishabh672003/learn-git.git
-: 1687254548:0;nv ARCH_BTW.md
-: 1687254621:0;gh repo clone himanshu-03/learn-git
-: 1687254652:0;cd learn-git
-: 1687255062:0;cp README.md ..
-: 1687255104:0;rm -rf learn-git
-: 1687255105:0;https://github.com/Rishabh672003/learn-git-1.git
-: 1687255123:0;cp ../README.md .
-: 1687256125:0;git switch -b rishabh
-: 1687256131:0;git switch -c rishabh
-: 1687256215:0;mkdir I_am_awesome
-: 1687256652:0;cd Rishabh_Jha
-: 1687257088:0;cp Arch.md ..
-: 1687257093:0;rm -rf learn-git-1
-: 1687257105:0;git clone https://github.com/Rishabh672003/learn-git-1.git
-: 1687257109:0;cd learn-git-1
-: 1687257136:0;mkdir Rishabh_Jha
-: 1687257143:0;cp ../Arch.md .
-: 1687257250:0;git add Rishabh_Jha
-: 1687257318:0;mv Arch.md Rishabh_Jha
-: 1687257355:0;nv Rishabh_Jha/Arch.md
-: 1687257855:0;git push
-: 1687258042:0;git pull origin main
-: 1687258490:0;Rishabh_Jha
-: 1687258494:0;..
-: 1687258508:0;nvim README.md
-: 1687282102:0;nv .bardcli.yaml
-: 1687282111:0;rm -rf basid-git
-: 1687282126:0;rm -fr .bardcli.yaml
-: 1687282151:0;cd .local/share/go/bin/
-: 1687282165:0;./bard-cli --default
-: 1687282172:0;./bard-cli --defaultconfig
-: 1687282175:0;./bard-cli
-: 1687282188:0;./bard-cli what is the meaning of life
-: 1687282197:0;rm -rf bard-cli
-: 1687326313:0;sudo paccache -rk0 --help
-: 1687326317:0;sudo paccache -rk0
-: 1687326567:0;ip link show
-: 1687326672:0;yay nm-connection-editor
-: 1687327619:0;q
-: 1687327726:0;nm-connection-editor
-: 1687327791:0;speedtest
-: 1687329141:0;Mc
-: 1687329718:0;nemo
-: 1687329817:0;nv AniPy
-: 1687333547:0;sudo pacman -Qtdq
-: 1687334478:0;cd notes
-: 1687334487:0;nv day-3.md
-: 1687334938:0;cd boot
-: 1687335058:0;gh
-: 1687335070:0;cd usr
-: 1687335175:0;cd dev
-: 1687335185:0;cd run
-: 1687335196:0;cd proc
-: 1687335550:0;nv /etc/pacman.conf
-: 1687335615:0;sudo pacman -S firefox
-: 1687335795:0;nv /etc/pacman.d/mirrorlist
-: 1687340514:0;git clone https://github.com/tcet-opensource/tcet-linux
-: 1687340546:0;git checkout -b xfce-de
-: 1687340984:0;cd airootfs
-: 1687340994:0;nv bootableusb.sh
-: 1687341094:0;pacman -Qi discord
-: 1687341744:0;tar -xvf discord_arch_electron.tar.gz
-: 1687341746:0;cd discord_arch_electron
-: 1687342386:0;cd airootfs/usr/local
-: 1687342390:0;cd share
-: 1687342398:0;cd bin
-: 1687342410:0;nv tl-finalisation
-: 1687342546:0;cd /etc/
-: 1687342631:0;firewalld
-: 1687342637:0;yay firewalld
-: 1687342666:0;sudo systemctl enable firewalld.service
-: 1687342945:0;yay xed
-: 1687342984:0;yay -R xed
-: 1687343013:0;yay archiso
-: 1687343172:0;cd /usr/share/pacman/
-: 1687343278:0;nv /etc/skel/.bashrc
-: 1687343306:0;cd .config/zsh
-: 1687343404:0;yay mcfly
-: 1687343609:0;cd .config/Thunar
-: 1687343614:0;nv uca.xml
-: 1687343999:0;htop
-: 1687344340:0;nv cleanup.sh
-: 1687344541:0;fd mirrorlist
-: 1687344678:0;nv .p10k.zsh
-: 1687344786:0;mkarchiso
-: 1687345285:0;yay
-: 1687345912:0;gh repo clone tcet-opensource/tcet-linux-pkgbuild
-: 1687345975:0;yay tela-circle-icon
-: 1687354184:0;mkdir TCET
-: 1687354198:0;mv tcet* TCET
-: 1687358243:0;sudo rm -rf work
-: 1687358730:0;cd Tcet
-: 1687358734:0;nv pacman.conf
-: 1687359738:0;gh repo clone tcet-opensource/tcet-linux-settings
-: 1687359753:0;cd tcet-linux-settings
-: 1687359764:0;nv etc/skel/.config/xfce4/desktop/icons.screen0-1350x724.rc
-: 1687360973:0;cd etc/skel/.config/xfce4/desktop
-: 1687361002:0;nv icons.screen0-1264x757.rc
-: 1687361320:0;cd settings/tcet-linux-settings
-: 1687405625:0;cd Programming-Notes
-: 1687406212:0;lazygit
-: 1687446108:0;cd tc
-: 1687446263:0;sh cleanup.sh
-: 1687502361:0;cd tce
-: 1687502380:0;cd airootfs/etc/skel/.zshrc
-: 1687502385:0;nv .zshrc
-: 1687509059:0;yay --devel --save
-: 1687509568:0;rm .bardcli.yaml
-: 1687510723:0;waydroid upgrade
-: 1687510727:0;sudo waydroid upgrade
-: 1687510775:0;sudo rm -rf /var/lib/waydroid /home/.waydroid
-: 1687510784:0;rm -rf ~/waydroid ~/.share/waydroid ~/.local/share/applications/*aydroid* ~/.local/share/waydroid
-: 1687527135:0;yay -R waydroid
-: 1687527147:0;sudo rm -rf /var/lib/waydroid
-: 1687527185:0;cd /
-: 1687527187:0;fd waydroid
-: 1687533548:0;vdir
-: 1687533552:0;dir
-: 1687541113:0;cd progra
-: 1687541116:0;gh pr checkout 5
-: 1687542311:0;mv GIt/commands.md Git
-: 1687542318:0;rm -rf GIt
-: 1687542901:0;prettier PHP/*
-: 1687542912:0;nvim time-complexity.md
-: 1687542951:0;prettier time-complexity.md
-: 1687542958:0;nv time-complexity.md
-: 1687542965:0;prettier help
-: 1687542970:0;prettier --help
-: 1687543002:0;prettier -w time-complexity.md
-: 1687543012:0;prettier -w *
-: 1687543470:0;npm run format
-: 1687572510:0;yay hyprland
-: 1687580820:0;sudo waydroid logcat
-: 1687581101:0;nv /var/lib/waydroid/waydroid.log
-: 1687581165:0;/usr/lib/waydroid/data/scripts/waydroid-net.sh start
-: 1687581265:0;systemctl stop docker\
-systemctl restart iptables\
-ip link delete docker0
-: 1687581297:0;wl
-: 1687581371:0;cd tachiyomi
-: 1687581376:0;cd waydroid
-: 1687581385:0;cd wayland-dot-files
-: 1687581645:0;fd *.apk
-: 1687581649:0;fd apk
-: 1687581665:0;waydroid app install firefox-111-0.apk
-: 1687581685:0;waydroid app install Telegram.apk
-: 1687581785:0;waydroid app install fenix-113.0b9-x86_64.apk
-: 1687616440:0;cd progr
-: 1687624857:0;trash-empty
-: 1687627908:0;yay gnome-builder
-: 1687628884:0;fd xed
-: 1687665250:0;yay libgtk-3-dev
-: 1687665254:0;yay libgtk
-: 1687665344:0;mkdir gtk
-: 1687665352:0;nv first.c
-: 1687665376:0;gcc -o hello_world $(pkg-config --cflags --libs gtk+-3.0) first.c
-: 1687665381:0;./hello_world
-: 1687669127:0;nv second.c
-: 1687669359:0;pkgconfig --cflags --libs gtk+-3.0
-: 1687669517:0;gcc -o first $(pkg-config --cflags --libs gtk+-3.0) second.c
-: 1687669521:0;./first
-: 1687669613:0;touch gtk-app.c
-: 1687670184:0;gcc -o gtk-app $(pkg-config --cflags --libs gtk+-3.0) gtk-app.c
-: 1687670340:0;rm -rf first.c second.c
-: 1687670345:0;rm -rf *.out
-: 1687670348:0;rmbin
-: 1687670356:0;binrm
-: 1687670371:0;rm -rf hello_world first gtk-app
-: 1687670381:0;nvim Makefile
-: 1687670794:0;pkgconf --cflags harfbuzz
-: 1687670904:0;gcc -o gtk-app.out $(pkg-config --cflags --libs gtk+-3.0) gtk-app.c
-: 1687671017:0;pkgconf --cflags
-: 1687671028:0;pkgconf --cflags gtk+-3.0
-: 1687671235:0;pkg-config --cflags --libs gtk+-3.0
-: 1687671448:0;cd /usr/include/gtk-3.0/gdk
-: 1687671461:0;nv gdkpixbuf.h
-: 1687671485:0;cd gdk
-: 1687672024:0;cp gtk-app.c ..
-: 1687672031:0;./gtk-app.out
-: 1687672094:0;cp ../gtk-app.c .
-: 1687672140:0;gcc -o gtk-app.out $(pkg-config --cflags --libs harbfuzz gtk+-3.0) gtk-app.c
-: 1687672151:0;gcc -o gtk-app.out $(pkg-config --cflags --libs harfbuzz gtk+-3.0) gtk-app.c
-: 1687672262:0;yay gdk
-: 1687673107:0;rm gtk-app.out
-: 1687674002:0;nv start.c\  
-: 1687674010:0;rm start.c\  
-: 1687674014:0;nv start.c
-: 1687674531:0;./gtk-app
-: 1687675523:0;ks
-: 1687678068:0;mkdir yad
-: 1687678069:0;cd yad
-: 1687678076:0;nv sysinfo.sh
-: 1687683487:0;gh repo clone TechXero/XeroNemesis
-: 1687683642:0;alacritty help
-: 1687683668:0;alacritty -e yay
-: 1687684419:0;./xero-nemesis
-: 1687684444:0;yad xero-nemesis
-: 1687684476:0;nv arch
-: 1687685008:0;systemctl stop docker\
-systemctl restart iptables
-: 1687686732:0;cd XeroNemesis
-: 1687686736:0;nv xero-nemesis
-: 1687687627:0;cd down
-: 1687687643:0;cd wel
-: 1687687661:0;cd Documents
-: 1687687993:0;xfce4-terminal help
-: 1687689497:0;man reflector
-: 1687689834:0;rm -rf data src
-: 1687689861:0;cp -r ~/Documents/welcome/* .
-: 1687689874:0;mkdir assets
-: 1687689881:0;mv tcetlinux-logo.png
-: 1687689884:0;mv tcetlinux-logo.png assets
-: 1687690179:0;nv scripts/discord.sh
-: 1687690199:0;xdg-open
-: 1687690211:0;xdg-open https://github.com
-: 1687695550:0;nv LICENSE
-: 1687697897:0;xfce4-terminal --help
-: 1687697920:0;xfce4-terminal -x scripts/discord.sh
-: 1687698195:0;xfce4-terminal -x ./scripts/mirror.sh
-: 1687699565:0;waydroid app install x86_SystemWebView.apk
-: 1687753820:0;cz
-: 1687754193:0;cd js
-: 1687754202:0;cd js-course
-: 1687754209:0;nv dynamic.js
-: 1687755053:0;nv gtk-app
-: 1687755073:0;make clean
-: 1687755117:0;fd gtk.py
-: 1687757829:0;ccd
-: 1687757892:0;xfce4-terminal -e "pkexec pacman --noconfirm -Syyu"
-: 1687757923:0;xfce4-terminal -e "sudo pacman --noconfirm -Syyu"
-: 1687758171:0;nv scripts
-: 1687758182:0;pkexec
-: 1687758409:0;yay xfce
-: 1687758421:0;yay xfce4-desktop
-: 1687759978:0;notify-send "TBD"
-: 1687761673:0;cd ru
-: 1687761676:0;cd no-cargo
-: 1687761684:0;cd functions
-: 1687761688:0;nv src/main.rs
-: 1687763122:0;cdpp
-: 1687763128:0;python gtk.py
-: 1687763965:0;nv scripts/screen-resolution.sh
-: 1687764074:0;reflector --help
-: 1687764278:0;ls /etc/pacman.d/mirrorlist
-: 1687764282:0;ll /etc/pacman.d/mirrorlist
-: 1687764561:0;rm tcet-linux-welcome
-: 1687765029:0;reflector --list-countries
-: 1687765142:0;nv mirrors-and-hosts
-: 1687765855:0;mkdir gtk-tcet-welcome
-: 1687765894:0;cp gtk.py
-: 1687768088:0;cp ../gtk.py .
-: 1687768125:0;cp gtk.py gtk-trial.py
-: 1687768128:0;nv gtk-trial.py
-: 1687772707:0;cd gtk
-: 1687772714:0;nv Makefile
-: 1687772751:0;cd gtk-tcet-welcome
-: 1687772819:0;mkdir .git
-: 1687772822:0;nv pygtk.py
-: 1687772925:0;make
-: 1687772932:0;./start
-: 1687773199:0;awk
-: 1687773203:0;sed
-: 1687774681:0;xmodmap
-: 1687774684:0;xmodmap -pke
-: 1687774709:0;nv xmod.sh
-: 1687774769:0;sh projects/xmod.sh
-: 1687774785:0;xmodmap -pke | grep 116
-: 1687774931:0;rm -rf xmod.sh
-: 1687775597:0;/usr/share/icons
-: 1687776635:0;cd Projects
-: 1687776644:0;rm -rf Projects
-: 1687777398:0;lllllllllllllllllllllllllllllllllllllllll
-: 1687777641:0;yad
-: 1687777649:0;yad --help
-: 1687793573:0;ya
-: 1687796128:0;yay flameshot
-: 1687846389:0;nv mirror.sh
-: 1687846497:0;yay -R tcet-welcome
-: 1687846585:0;yay yad
-: 1687847708:0;nv scripts/update.sh
-: 1687848129:0;cat /etc/pacman.d/mirrorlist
-: 1687850455:0;sudo systemctl disable docker
-: 1687860047:0;python about.py
-: 1687868975:0;Mujhe msg aabhi aaya iskeleye nhi aa paya
-: 1687868975:0;￼
-: 1687868975:0;Message #devops-team
-: 1687872366:0;mv gtk.py
-: 1687872373:0;nv gtk.py
-: 1687885354:0;cd welcome
-: 1687885396:0;nv scripts/about.py
-: 1687886645:0;#
-: 1687886654:0;s
-: 1687886659:0;cd sasa
-: 1687886668:0;ls --a
-: 1687886675:0;nvim --v
-: 1687886678:0;nvim -v
-: 1687886890:0;nv /etc/hosts
-: 1687887580:0;mv tcet-linux-welcome TCET
-: 1687923017:0;cp welcome.sh ~/.config/autostart
-: 1687923026:0;cd ~/.config/autostart
-: 1687923083:0;rm -rf welcome.sh
-: 1687923143:0;ln -s ~/projects/TCET/tcet-linux-welcome/welcome.sh welcome.sh
-: 1687924808:0;mv tcet-linux-welcome ~/.local/share/tcet-linux-welcome
-: 1687924825:0;cd .config
-: 1687924828:0;cd systemd
-: 1687924849:0;nv fig-daemon.service
-: 1687925052:0;nv eos-update-notifier.service
-: 1687925196:0;journalctl --user
-: 1687925224:0;journalctl --user enable tcet-linux-welcome
-: 1687925232:0;journalctl --user enable tcet-linux-welcome.service
-: 1687925243:0;systemctl --user enable tcet-linux-welcome.service
-: 1687925728:0;cd ~/.config/systemd
-: 1687925732:0;cd user
-: 1687925733:0;;s
-: 1687925793:0;systemctl --user restart tcet-linux-welcome.service
-: 1687925937:0;cp ~/.config/systemd/user/tcet-linux-welcome.service ~/.local/share/tcet-linux-welcome
-: 1687926200:0;git push main origin
-: 1687926207:0;git push origin main
-: 1687926224:0;git push origin 4-create-welcome-app-based-on-yad
-: 1687926238:0;git push 4-create-welcome-app-based-on-yad main
-: 1687926244:0;git push 4-create-welcome-app-based-on-yad origin
-: 1687926270:0;rm -rf data LICENSE src
-: 1687926292:0;cp -r ~/.local/share/tcet-linux-welcome/* .
-: 1687926376:0;gh repo clone Rishabh672003/tcet-linux-welcome
-: 1687926396:0;rm -rf src data LICENSE
-: 1687926432:0;cp -r assets scripts LICENSE welcome.sh tcet-linux-welcome.service ~/projects/tcet-linux-welcome
-: 1687926439:0;cd ~/projects/tcet-linux-welcome
-: 1687927198:0;sudo sh welcome.sh
-: 1687927469:0;cp tcet-linux-welcome.service /etc/systemd/system
-: 1687927473:0;sudo cp tcet-linux-welcome.service /etc/systemd/system
-: 1687927483:0;rm -rf ~/.config/systemd/user/tcet-linux-welcome.service
-: 1687927499:0;sudo systemctl enable tcet-linux-welcome.service
-: 1687929366:0;sudo systemctl restart tcet-linux-welcome.service
-: 1687929369:0;sudo systemctl status tcet-linux-welcome.service
-: 1687929382:0;sudo systemctl disable tcet-linux-welcome.service
-: 1687929399:0;cp tcet-linux-welcome/tcet-linux-welcome.service ~/.config/systemd/user
-: 1687929668:0;systemctl --user status tcet-linux-welcome.service
-: 1687929685:0;nvim ~/.config/systemd/user/tcet-linux-welcome.service
-: 1687929715:0;systemctl --user daemon-reload
-: 1687929719:0;systemctl --user enable --now tcet-linux-welcome.service
-: 1687930483:0;mv yad-settings.desktop projects/tcet-linux-welcome
-: 1687930496:0;nv yad-settings.desktop
-: 1687930643:0;nv /usr/share/applications/tcet-welcome.desktop
-: 1687930658:0;vs /usr/share/applications/tcet-welcome.desktop
-: 1687933285:0;~/.local/share/tcet-linux-welcome
-: 1687933321:0;cp ~/projects/tcet-linux-welcome/tcet-linux-welcome.service .
-: 1687933340:0;nv tcet-linux-welcome.service
-: 1687933815:0;mv tcet-linux-welcome tcet-welcome
-: 1687934116:0;sudo mv tcet-welcome /usr/share
-: 1687934124:0;cd /usr/share
-: 1687934634:0;mv tcet-welcome tcet-linux-welcome
-: 1687934639:0;sudo mv tcet-welcome tcet-linux-welcome
-: 1687934780:0;sudo git clone https://github.com/tcet-opensource/tcet-linux-welcome.git
-: 1687934820:0;git checkout -b 4-create-welcome-app-based-on-yad
-: 1687934850:0;git clone
-: 1687935135:0;sudo mv tcet-linux-welcome ~/projects/TCET
-: 1687935164:0;sudo rm -rf tcet-linux-welcome
-: 1687935169:0;git clone https://github.com/tcet-opensource/tcet-linux-welcome.git
-: 1687937872:0;cd projects/tcet-linux-welcome/
-: 1687937893:0;cd TCET/tcet-linux-welcome
-: 1687938066:0;bool
-: 1687939057:0;cp -r tcet-linux-welcome ~/.local/share
-: 1687944936:0;cd .config/systemd/user
-: 1687944943:0;cd default.target.wants
-: 1687944956:0;rm -rf fig-daemon.service tcet-linux-welcome.service
-: 1687944965:0;rm -rf eos-update-notifier.service eos-update-notifier.timer
-: 1687944970:0;rm -rf tcet-linux-welcome.service
-: 1687944976:0;rm -rf fig-daemon.service
-: 1687949822:0;rm -rf tcet-linux-welcome
-: 1687949833:0;rm -rf Tcet-OS
-: 1687949835:0;cd c
-: 1687949860:0;nv note.txt
-: 1687950435:0;nv scripts/autostart.sh
-: 1687951383:0;nv install.sh
-: 1687951995:0;cp tcet-welcome.desktop /usr/share/applications
-: 1687952181:0;~/.local/share/tcet-linux-welcome/welcome.sh
-: 1687952237:0;killall -9 rofi
-: 1687952324:0;sudo cp tcet-welcome.desktop /usr/share/applications/
-: 1687953945:0;git clone https://github.com/Rishabh672003/tcet-linux-welcome
-: 1687953993:0;cp -r assets scripts LICENSE welcome.sh tcet-welcome.desktop note.txt ~/projects/tcet-linux-welcome
-: 1687960367:0;cd nvim-
-: 1687960368:0;nbi
-: 1687974076:0;yay dictionary
-: 1687974109:0;yay gnome-dictionary
-: 1688007998:0;cd video
-: 1688008033:0;rm -rf Koe\ no\ Katachi\ a.k.a\ A\ Silent\ Voice\ 2016\ \(1080p\ Dual\ Audio\ BluRay\ x265\ HEVC\ 10bit\ DDP\ 5.1\ theincognito\)\ \[UTR\].mkv \[35mm\]\ Koe\ no\ Katachi\ -\ A\ Silent\ Voice\ \[1080p\]\ \[B9471AD7\].mkv
-: 1688008565:0;pacnew
-: 1688008570:0;pacdiff
-: 1688008653:0;sudo pacdiff
-: 1688009617:0;nv keybinds.conf
-: 1688020730:0;ps aux | grep waybar
-: 1688020751:0;nv wf-recorder.sh
-: 1688021539:0;waybar.sh
-: 1688021577:0;./wa
-: 1688021580:0;./waybar.sh
-: 1688021585:0;nv waybar.sh
-: 1688021618:0;ps waybar
-: 1688021756:0;ps PID
-: 1688021762:0;man ps
-: 1688022292:0;cd ~/.local/share
-: 1688022362:0;cd screen-resolution.sh
-: 1688022734:0;./autostart.sh
-: 1688024560:0;cd ..
-: 1688024592:0;cd assets
-: 1688024599:0;xo tcetlinux-logo.png
-: 1688037416:0;killall -9 waybar
-: 1688037631:0;pgrep waybar
-: 1688037687:0;./scripts/waybar.sh
-: 1688037714:0;cd hypr
-: 1688037728:0;nv hyprland.conf
-: 1688038263:0;nv /usr/share/applications/spotify.desktop
-: 1688038326:0;nv screen-resolution.sh
-: 1688045724:0;rsss
-: 1688052575:0;cd airootfs/etc/skel/
-: 1688052590:0;mkdir -p .local/share/
-: 1688052603:0;cp -r ~/.local/share/tcet-linux-welcome .local/share
-: 1688053423:0;cd airootfs/etc/skel
-: 1688053431:0;cd skel
-: 1688053476:0;cd out
-: 1688053524:0;git clone -b 4-create-welcome-app-based-on-yad https://github.com/tcet-opensource/tcet-linux-welcome.git ~/.local/share/tcet-linux-welcome
-: 1688053615:0;cd airootfs/etc/
-: 1688053619:0;cd xdg
-: 1688053628:0;mkdir autostart
-: 1688053647:0;cp ~/.local/share/tcet-linux-welcome/tcet-welcome.desktop autostart
-: 1688061144:0;nvv
-: 1688094635:0;cat /proc/acpi/wakeup
-: 1688096108:0;spicetify update
-: 1688096117:0;cd .spicetify
-: 1688096128:0;yay spicetify
-: 1688099898:0;waydroid app install tachiyomi-x86_64-v0.14.5.apk
-: 1688104993:0;vs /etc/default/grub
-: 1688119921:0;mkdir deployement
-: 1688119923:0;cd deployement
-: 1688119925:0;gh repo clone VedantPol/Testing-deployment
-: 1688119962:0;npm run
-: 1688120050:0;npm start
-: 1688120072:0;cd projects/deployement
-: 1688120079:0;nv src/App.js
-: 1688120265:0;gh repo clone Rishabh672003/learn-deployment
-: 1688120283:0;cd Testing-deployment
-: 1688120307:0;cp -r public src .gitignore README.md package.json package-lock.json ../learn-deployment
-: 1688120314:0;cd learn-deployment
-: 1688120324:0;npm install
-: 1688123835:0;cd projects/tcet-linux-welcome
-: 1688124337:0;yay noto-sans-devanagari
-: 1688124354:0;yay Noto-Sans-Devanagari
-: 1688124394:0;mkdir .fonts
-: 1688124405:0;cp Martian_Mono.zip .fonts
-: 1688124409:0;cd .fonts
-: 1688124413:0;unzip Martian_Mono.zip
-: 1688124445:0;cd static
-: 1688124485:0;unzip Noto_Sans_Devanagari.zip
-: 1688124912:0;dc
-: 1688125068:0;./we
-: 1688133407:0;wlan0
-: 1688134059:0;mv README.txt README.md
-: 1688145985:0;exec waybar
-: 1688147012:0;rs
-: 1688147014:0;rss
-: 1688147187:0;nv scripts/mirror.sh
-: 1688147266:0;cd other-stuff/mirrors-and-hosts
-: 1688147279:0;cd /etc/pacman.d
-: 1688147286:0;cat mirrorlist
-: 1688147289:0;cat mirrorlist-backup
-: 1688148741:0;cd lua/rj/plugins
-: 1688148777:0;nvim alpha.lua
-: 1688184707:0;which bob
-: 1688184718:0;cargo install --git https://github.com/MordechaiHadad/bob
-: 1688185648:0;rm -rf Martian_Mono.zip
-: 1688185767:0;trash photo_2023-06-18_20-54-03.jpg
-: 1688190794:0;cd apks
-: 1688209372:0;yay -R firewalld
-: 1688209388:0;sudo systemctl stop docker\
-sudo systemctl restart iptables
-: 1688209403:0;sudo systemctl disable firewalld
-: 1688209679:0;wf
-: 1688223943:0;gh repo clone tcet-opensource/documentation
-: 1688224111:0;git push origin .
-: 1688224118:0;git push origin origin/32-document-tcet-linux
-: 1688224574:0;git rm docs/about-tcetopensource.md
-: 1688224642:0;gh repo clone Rishabh672003/documentation
-: 1688224737:0;cd documentation
-: 1688228094:0;cd AniPy
-: 1688228106:0;python main.py
-: 1688228148:0;cd output
-: 1688232889:0;nv anime_2023-07-01_NotInMAL.json
-: 1688232901:0;nv manga_2023-07-01_NotInMAL.json
-: 1688235498:0;rm -rf documentation
-: 1688235537:0;exa --tree
-: 1688235544:0;cali
-: 1688235584:0;\tree
-: 1688235588:0;tree
-: 1688235610:0;\ls
-: 1688235614:0;\ll
-: 1688235617:0;\ls -la
-: 1688269487:0;gtnv
-: 1688276286:0;nnv
-: 1688280467:0;cd TCET/tcet-linux
-: 1688280513:0;nv packages.x86_64
-: 1688280683:0;yay qogir
-: 1688280800:0;rm -rf tcet-linux
-: 1688280853:0;sudo rm -rf tcet-linux
-: 1688280958:0;yay qogir-gtk-theme-git
-: 1688288676:0;nv about.py
-: 1688297298:0;spotify
-: 1688299265:0;nv welcome.sh
-: 1688301526:0;git status
-: 1688301537:0;git config pull.rebase false
-: 1688301587:0;./welcome.sh
-: 1688307442:0;nv autostart.sh
-: 1688307702:0;rm -rf tcet-welcome.desktop
-: 1688310945:0;makepkg -si
-: 1688311006:0;sudo clear
-: 1688311015:0;sudo ./cleanup.sh
-: 1688311392:0;cd tcet-linux-pkgbuild
-: 1688311422:0;cd pkg
-: 1688311433:0;cd tcet-linux-apps
-: 1688311455:0;sudo rm -rf tcet-linux-pkgbuild
-: 1688311708:0;gh repo clone tcet-opensource/tcet-linux-applications
-: 1688311790:0;mv tcet-linux-welcome-23.07-1-x86_64.pkg.tar.zst ~/projects/TCET
-: 1688311802:0;tar -xvf tcet-linux-welcome-23.07-1-x86_64.pkg.tar.zst
-: 1688311857:0;rm -rf /usr/share/applications/tcet-welcome.desktop
-: 1688311866:0;sudo pacman -U tcet-linux-welcome-23.07-1-x86_64.pkg.tar.zst
-: 1688311908:0;yay -Rns tcet-linux-welcome
-: 1688311923:0;welcome.sh
-: 1688311939:0;linux
-: 1688319056:0;cd .local/share/
-: 1688319100:0;git clone https://github.com/tcet-opensource/tcet-linux-welcome.git ~/.local/share/tcet-linux-welcome
-: 1688319433:0;nv welcome
-: 1688319703:0;rm -rf ./etc ./usr .BUILDINFO .MTREE .PKGINFO tcet-linux-welcome-23.07-1-x86_64.pkg.tar.zst
-: 1688319713:0;pacman -U tcet-linux-welcome-23.07-2-x86_64.pkg.tar.zst
-: 1688319738:0;sudo rm -rf /usr/share/applications/tcet-welcome.desktop
-: 1688319741:0;sudo pacman -U tcet-linux-welcome-23.07-2-x86_64.pkg.tar.zst
-: 1688319745:0;welcome
-: 1688319787:0;tar -xvf tcet-linux-welcome-23.07-1-x86_64.pkg.tar.zst tcet-linux-welcome-2
-: 1688319804:0;man tar
-: 1688319884:0;mkdir pkgbuild
-: 1688319891:0;mv tcet-linux-welcome-23.07-2-x86_64.pkg.tar.zst pkgbuild
-: 1688320307:0;mkdir /bin
-: 1688320313:0;mkdir ./bin
-: 1688320354:0;cd etc/skel/.local/share/tcet-welcome
-: 1688320425:0;cd usr/share
-: 1688320429:0;cd applications
-: 1688320468:0;cd ll
-: 1688320572:0;cd tcet-welcome
-: 1688320590:0;cp ../welcome .
-: 1688320609:0;nv tcet-welcome.desktop
-: 1688320648:0;sudo cp tcet-welcome.desktop /usr/share/applications
-: 1688320776:0;cd TCET/pkgbuild
-: 1688320781:0;llll
-: 1688320794:0;rm -rf ./etc ./usr .BUILDINFO .MTREE .PKGINFO
-: 1688320798:0;rm -rf bin
-: 1688320804:0;tar -xvf tcet-linux-welcome-23.07-2-x86_64.pkg.tar.zst
-: 1688321430:0;cd /usr/bin
-: 1688321445:0;cd /bin
-: 1688321793:0;cd tcet-welcome/
-: 1688321982:0;./welcome
-: 1688324241:0;man yad
-: 1688355807:0;cd projects/TCET/pkgbuild
-: 1688356403:0;cp /usr/share/applications/yad-settings.desktop .
-: 1688356408:0;rm -rf yad-settings.desktop
-: 1688356417:0;cd /usr/share/applications
-: 1688356977:0;sudo systemctl restart libvirtd.service
-: 1688358932:0;one
-: 1688362439:0;man unzip
-: 1688362451:0;mkdir logos
-: 1688362461:0;unzip Tcet_Linux1.zip -d logos
-: 1688362465:0;cd logos
-: 1688362471:0;xo 1.png
-: 1688362479:0;xo
-: 1688362481:0;xo .
-: 1688362819:0;cd projects/TCET/tcet-linux
-: 1688375382:0;fd hyprland
-: 1688375417:0;cd .cache/hyprland
-: 1688375423:0;nv hyprlandCrashReport3685.txt
-: 1688381553:0;cd projects/TCET/
-: 1688381560:0;rm -rf tcet-linux-welcome-23.07-3-x86_64.pkg.tar.zst
-: 1688389423:0;cd airootfs/etc
-: 1688389430:0;cd pacman.d
-: 1688389772:0;This commit does not belong to any branch on this repository, and may belong to a fork outside of the repository.
-: 1688390545:0;sudo mkarchiso -v .
-: 1688391029:0;sudo downgrade
-: 1688391043:0;sudo downgrade linux-zen
-: 1688391836:0;./cleanup.sh
-: 1688391927:0;lslsnv profiledef.sh
 : 1688391929:0;nv profiledef.sh
-: 1688393799:0;cd pro
 : 1688394672:0;nv gtk-app.c
 : 1688394799:0;nv build
 : 1688398136:0;cat .
@@ -1042,7 +17,6 @@ sudo systemctl restart iptables
 : 1688407992:0;man fzf
 : 1688408051:0;fzf -e
 : 1688408066:0;fzf -e | nvim $0
-: 1688408073:0;ce
 : 1688408081:0;fzf -e | nvim
 : 1688408100:0;ls | cat
 : 1688408113:0;fzf
@@ -1059,7 +33,6 @@ sudo systemctl restart iptables
 : 1688448378:0;hx
 : 1688455879:0;cd .local/share
 : 1688455886:0;git pull
-: 1688455896:0;cp -r tcet-welcome ..
 : 1688455921:0;cd TCET
 : 1688455926:0;cd pkgbuild
 : 1688455931:0;rm -rf *
@@ -1077,7 +50,6 @@ sudo systemctl restart iptables
 : 1688464168:0;cd fish
 : 1688464182:0;nv config.fish
 : 1688464201:0;fish
-: 1688473325:0;nmtui
 : 1688477544:0;cc
 : 1688477555:0;cd projects/DSA-notes
 : 1688477558:0;cd Data-Structures
@@ -1089,57 +61,37 @@ sudo systemctl restart iptables
 : 1688477619:0;info cc
 : 1688477659:0;nv Arch.md
 : 1688492715:0;curl -sS https://starship.rs/install.sh | sh
-: 1688492756:0;exit
 : 1688492896:0;starship preset nerd-font-symbols -o ~/.config/starship.toml\
 
 : 1688492920:0;time
 : 1688492928:0;time exec zsh
-: 1688492934:0;cd nvim
 : 1688495524:0;starship
 : 1688495671:0;exec zsh
-: 1688532040:0;we
-: 1688532041:0;wr
 : 1688532076:0;yay -Rns tcet-linux-qogir-theme tcet-linux-welcome
-: 1688532172:0;ws
 : 1688543353:0;ping 8.8.8.8
-: 1688543361:0;ping 9.9.9.9
 : 1688543407:0;cd ~/.local/share/tcet-linux-welcome
 : 1688543882:0;git clone https://github.com/tcet-opensource/tcet-linux-welcome.git ~/.local/share/tcet-linux-welcome && cd ~/.local/share/tcet-linux-welcome && cp -r tcet-welcome ~/.local/share/ && sudo cp welcome /usr/bin\
 
 : 1688543919:0;rm -rf ~/.local/share/tcet-linux-welcome
 : 1688543923:0;git clone https://github.com/tcet-opensource/tcet-linux-welcome.git ~/.local/share/tcet-linux-welcome -b 4-create-welcome-app-based-on-yad && cd ~/.local/share/tcet-linux-welcome && cp -r tcet-welcome ~/.local/share/ && sudo cp welcome /usr/bin
-: 1688543965:0;cd tcet-linux-welcome
-: 1688555667:0;lll
 : 1688564043:0;cd komikku
-: 1688569062:0;ys
-: 1688577947:0;clear
 : 1688578487:0;cd ~/.config/spicetify
 : 1688578494:0;cd Themes
 : 1688578504:0;cd ~/.config/spicetify/Themes
 : 1688578507:0;nv README.md
-: 1688578526:0;yel
-: 1688578530:0;yl
 : 1688628225:0;yay zoxide
 : 1688628249:0;yay pfetch
-: 1688628285:0;pf
 : 1688628309:0;yay wlogout
-: 1688628331:0;vs /etc/pacman.conf
 : 1688628363:0;yay neovim
 : 1688628376:0;firefox
 : 1688628430:0;git clone https://github.com/Rishabh672003/Neovim ~/.config/nvim && nvim
 : 1688628462:0;yay yarn
-: 1688628544:0;reboot
 : 1688628587:0;yay -R xdg-desktop-portal-wlr
 : 1688628601:0;yay discord
-: 1688628623:0;cd mirrors-and-hosts
-: 1688628676:0;./rate-mirrors-arch.sh
 : 1688628726:0;cd pictures
 : 1688628729:0;cd Pictures
 : 1688628731:0;gh repo clone Rishabh672003/Wallpapers
 : 1688628736:0;yay github-cli
-: 1688628753:0;nv rate-mirrors-arch.sh
-: 1688628781:0;gh auth login
-: 1688628957:0;yay rate-mirrors
 : 1688629244:0;yay nwg
 : 1688629265:0;yay rofi
 : 1688629465:0;cd ~/.config/rofi
@@ -1157,36 +109,28 @@ sudo systemctl restart iptables
 : 1688630062:0;yay virt-manager
 : 1688630079:0;yay gparted
 : 1688630186:0;gparted
-: 1688630203:0;cdp
 : 1688630208:0;yay boabab
 : 1688630234:0;yay gnome-disk
 : 1688630253:0;yay disk-analyzer
 : 1688630278:0;yay baobab
 : 1688630328:0;cd ~/.config/hypr
-: 1688630331:0;nv startup.conf
 : 1688630338:0;yay polkit
 : 1688630375:0;/usr/lib/polkit-kde-authentication-agent-1
 : 1688630381:0;sudo gparted
 : 1688630445:0;cd Pictures && gh repo clone Rishabh672003/Wallpapers
-: 1688630470:0;lsblk
 : 1688633907:0;yay waydroid
 : 1688633938:0;sudo waydroid init -f
-: 1688634450:0;cd other-stuff
 : 1688634461:0;cp grimblast ~/.local/bin
-: 1688634689:0;spicetify backup restore apply
 : 1688637932:0;gh repo clone tcet-opensource/tcet-linux
 : 1688637958:0;yay libvirtd
 : 1688637976:0;sudo systemctl enable --now libvirtd.service
 : 1688638314:0;yay kvm
-: 1688638555:0;nr
 : 1688638677:0;cd Downloads/adwaita-icon-theme-44.0
 : 1688638679:0;./configure --prefix=/usr &&\
 make
 : 1688638690:0;sudo make install
 : 1688638756:0;gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 : 1688638802:0;yay -Rns evince
-: 1688638806:0;yay evince
-: 1688638851:0;sudo waydroid init
 : 1688638883:0;nv ~/.config/gtk-4.0/settings.ini
 : 1688639123:0;xed
 : 1688639142:0;cd ~/.config/xfce4/xfconf/
@@ -1198,32 +142,15 @@ make
 : 1688639991:0;waybar
 : 1688640035:0;yay downgrade
 : 1688640073:0;cd Downloads
-: 1688640153:0;yay gnome
 : 1688640162:0;yay libgnome
 : 1688640182:0;sudo downgrade evince
-: 1688640207:0;cd ~/.config/xed
 : 1688640211:0;nv accels
-: 1688640290:0;evince
 : 1688640816:0;yay brave
 : 1688641076:0;yay noto-sans-emoji
 : 1688641082:0;yay emoji
-: 1688641115:0;fc-cache -f -v
 : 1688641129:0;killall -9 Discord
-: 1688641379:0;cd projects
-: 1688641382:0;cd tcet-linux
-: 1688641383:0;ll
-: 1688641384:0;cd
-: 1688641390:0;cd tcet
 : 1688641391:0;lg
 : 1688641395:0;yay lazygit
-: 1688641402:0;f
-: 1688641403:0;c
-: 1688641408:0;n
-: 1688641441:0;sudo pacman -Sy --needed --noconfirm lua-language-server rust-analyzer;\
-yay -S jdtls lemminx;\
-cargo install --features lsp --locked taplo-cli;\
-cargo install prosemd-lsp;\
-npm i -g vscode-langservers-extracted;
 : 1688641471:0;\
 \
 if command -v pacman &> /dev/null ; then\
@@ -1279,27 +206,14 @@ touch "$HOME"/.zshrc && source "$HOME"/.zshrc;\
 : 1688642626:0;nv ~/.config/xed/accels
 : 1688643154:0;sudo chmod a+wr /opt/spotify\
 sudo chmod a+wr /opt/spotify/Apps -R
-: 1688643165:0;nv
 : 1688643170:0;l
 : 1688643179:0;rm -rf nvim-linux64 nvim-linux64.tar.gz
-: 1688643180:0;ls
 : 1688643185:0;nvim
-: 1688643194:0;e
-: 1688643196:0;nv
 : 1688643207:0;yay clangd
 : 1688643227:0;yay clang
 : 1688643320:0;yay cockpit
 : 1688643363:0;cd .config/xed
-: 1688643364:0;ls
 : 1688643370:0;nv accels.save
-: 1688643378:0;nv
-: 1688643410:0;ls
-: 1688643411:0;ll
-: 1688643412:0;ls
-: 1688643413:0;ll
-: 1688643469:0;cd .config/hypr
-: 1688643470:0;ls
-: 1688643472:0;nv
 : 1688643523:0;sudo pacman -Sy --needed --noconfirm lua-language-server rust-analyzer;\
 yay -S jdtls lemminx;\
 cargo install --features lsp --locked taplo-cli;\
@@ -1307,60 +221,332 @@ cargo install prosemd-lsp;\
 npm i -g vscode-langservers-extracted;
 : 1688643575:0;rustup default stable
 : 1688643713:0;sudo waydroid init
-: 1688643797:0;c
 : 1688643799:0;spicetify backup restore apply
 : 1688644068:0;curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-marketplace/main/resources/install.sh | sh
 : 1688644117:0;yay -R mako
 : 1688644127:0;cd ~/.config/xed
-: 1688644128:0;cdp
-: 1688644128:0;ll
-: 1688644173:0;dunst
 : 1688644178:0;yay -S dunst
-: 1688644183:0;dunst
 : 1688644190:0;killall -9 mako
-: 1688644192:0;dunst
-: 1688644375:0;ls
-: 1688644375:0;cd
 : 1688644379:0;yel
-: 1688644406:0;yl
 : 1688644423:0;gh auth login
-: 1688644430:0;ls
-: 1688644432:0;yl
 : 1688644454:0;git config --global user.email "jharishabh2k3@gmail.com"
 : 1688644466:0;git config --global user.name "Rishabh"
 : 1688644468:0;yl
-: 1688644473:0;ls
-: 1688644474:0;ll
 : 1688644536:0;mkdir ~/.config/dunst
-: 1688644544:0;nv ~/.config/dunst/dunstrc
-: 1688644550:0;dunst
 : 1688644607:0;yay playerctl
-: 1688644622:0;ls
 : 1688644630:0;cd ~/.config/waybar
-: 1688644630:0;ll
 : 1688644636:0;nv config.jsonc
 : 1688644654:0;yay lua-language-server
 : 1688644666:0;yay pyright
-: 1688644800:0;dunstify "hello"
 : 1688644830:0;nv ~/.config/dunst/dunstrc
-: 1688644875:0;dunstify "hello"
-: 1688644889:0;dunst
-: 1688644894:0;dunstify "hello"
-: 1688644913:0;killall -9 dunst && dunst
-: 1688644923:0;dunstify "hello"
-: 1688644995:0;killall -9 dunst && dunst
-: 1688644999:0;dunst
 : 1688645001:0;dunstify "hello"
-: 1688645010:0;dunstify "hello world"
-: 1688645046:0;dunst
-: 1688645047:0;dunstify "hello world"
 : 1688645099:0;fc-cache -f -v
 : 1688645110:0;yay jet
-: 1688645204:0;dunst
 : 1688645207:0;dunstify "hello world"
-: 1688645237:0;c
 : 1688645245:0;pfetch --help
 : 1688645285:0;nv ~/.config/yadm/yadm.sh
 : 1688645290:0;yay taplo
 : 1688645335:0;nv ~/.config/nvim/install.sh
 : 1688645346:0;yay npm
+: 1688645994:0;cd nvim
+: 1688646000:0;cd ~/.config/nvim
+: 1688646005:0;yay onefetch
+: 1688646953:0;yay telegram
+: 1688647082:0;dunst
+: 1688647248:0;killall -9 dunst && dunst
+: 1688647291:0;yay -Rns gnome-shell
+: 1688647355:0;getnf
+: 1688647625:0;npm i vscode-langservers-extracted
+: 1688647659:0;yay fd
+: 1688647672:0;bat
+: 1688647673:0;yay bat
+: 1688647757:0;cd .lo
+: 1688647787:0;echo $PATH
+: 1688647801:0;ce
+: 1688647810:0;npm i -g vscode-langservers-extracted
+: 1688647817:0;sudo npm i -g vscode-langservers-extracted
+: 1688647851:0;yay bash-language-server
+: 1688647868:0;yay tsserver
+: 1688649090:0;wr
+: 1688649104:0;sudo systemctl enable --now waydroid-container.service
+: 1688649126:0;wl
+: 1688649174:0;yay python-pyclip
+: 1688649656:0;cd apks
+: 1688649664:0;waydroid app install tachiyomi-x86_64-v0.14.5.apk
+: 1688649669:0;waydroid app install fenix-113.0b9-x86_64.apk
+: 1688649672:0;waydroid app install Telegram.apk
+: 1688649678:0;waydroid app install aniyomi-arm64-v8a-r6145.apk
+: 1688649858:0;wf
+: 1688650061:0;yay dnsmasq
+: 1688650153:0;yay nftables
+: 1688650166:0;ip addr show
+: 1688650178:0;yay -R firewalld
+: 1688650237:0;yay -Rns gnome-shell gnome-shell-extensions
+: 1688650254:0;yay -Rns xdg-desktop-portal-gtk xdg-desktop-portal-gnome
+: 1688650273:0;ws
+: 1688652111:0;yay firewalld
+: 1688654684:0;yay kde-settings
+: 1688654705:0;yay kde-connect
+: 1688654711:0;yay kde
+: 1688655254:0;yay zram-generator
+: 1688655307:0;yay qalculate-gtk
+: 1688655407:0;sudo systemctl start systemd-zram-setup@zram0.service
+: 1688655411:0;sudo systemctl enable systemd-zram-setup@zram0.service
+: 1688655438:0;zramctl
+: 1688655491:0;vs /etc/sysctl.d/99-vm-zram-parameters.conf
+: 1688655651:0;vs /etc/systemd/zram-generator.conf
+: 1688655660:0;sudo systemctl daemon-reload
+: 1688656327:0;yay fastfetch
+: 1688656439:0;cd .config/zsh
+: 1688656457:0;nv .zprofile
+: 1688656744:0;cz
+: 1688660105:0;cd tcet
+: 1688660129:0;sudo mkarchiso -v .
+: 1688660170:0;gh repo clone tcet-opensource/tcet-linux-welcome
+: 1688660184:0;cd tcet-welcome
+: 1688660195:0;cp -r tcet-welcome ..
+: 1688660199:0;./welcome
+: 1688660410:0;yay speedtest
+: 1688660428:0;speedtest
+: 1688661218:0;cd tcet-linux
+: 1688661258:0;llll
+: 1688661309:0;pf
+: 1688667493:0;yay -S wlsunset
+: 1688667543:0;cd hypr
+: 1688668063:0;yay okular
+: 1688668227:0;yay gtk-engine-murrine
+: 1688668361:0;mkdir .themes
+: 1688668363:0;cd .themes
+: 1688668371:0;cp -r ../Catppuccin-Mocha-BL .
+: 1688668382:0;wlsunset -S 7:00 -s 21:00
+: 1688668437:0;git clone https://github.com/odziom91/libadwaita-theme-changer.git
+: 1688668446:0;cd libadwaita-theme-changer
+: 1688668447:0;chmod +x libadwaita-tc.py
+: 1688668473:0;mkdir ~/.config/gtk-4.0
+: 1688668474:0;./libadwaita-tc.py
+: 1688668572:0;yay nautilus
+: 1688668627:0;yay -Rns nautilus
+: 1688668631:0;yay -Cc
+: 1688668932:0;yay -S lxappearence
+: 1688668943:0;yay lx
+: 1688668968:0;yay -S lxappearance-gtk3
+: 1688669128:0;mv projects/.gtkrc-2.0 ..
+: 1688669192:0;lxappearance
+: 1688669198:0;yay -Rns lxappearance-gtk3
+: 1688669383:0;cd .config/gtk-3.0
+: 1688669386:0;nv settings.ini
+: 1688669408:0;cd gtk-4.0
+: 1688669576:0;yay hyprland-git
+: 1688669931:0;evince
+: 1688701218:0;cd projects
+: 1688701225:0;mkdir rust-project
+: 1688701229:0;mkdir rust-projects
+: 1688701233:0;rm -rf rust-project
+: 1688701236:0;cd rust-projects
+: 1688701246:0;cargo new guessing-game
+: 1688701250:0;cd guessing-game
+: 1688701326:0;cargo install
+: 1688701353:0;nv Cargo.toml
+: 1688701367:0;cargo build
+: 1688701385:0;cargo run
+: 1688705278:0;yay shotwell
+: 1688705910:0;cd tcet-linux-welcome
+: 1688705912:0;one
+: 1688715851:0;rm -rf Catppuccin-Mocha-BL Catppuccin-Mocha-BL.zip
+: 1688715915:0;n
+: 1688730467:0;nv ~/.config/discord/settings.json
+: 1688730950:0;yay postscript
+: 1688730970:0;yay cinnnamon
+: 1688730973:0;yay cinnamon
+: 1688731084:0;cd /
+: 1688731085:0;fd evince
+: 1688732796:0;mv .gtkrc-2.0 projects
+: 1688732882:0;cd .config/gtk-4.0
+: 1688732966:0;nv .nanorc
+: 1688733696:0;mv projects/.gtkrc-2.0 .
+: 1688733699:0;nv .gtkrc-2.0
+: 1688734237:0;gsettings set org.gnome.desktop.interface gtk-theme Catppuccin-Mocha-Standard-Blue-dark
+: 1688734248:0;yay evince
+: 1688734419:0;cat ~/.config/gtk-3.0/settings.ini
+: 1688734425:0;gsettings set org.gnome.Evince gtk-theme = Catppuccin-Mocha-Standard-Blue-dark
+: 1688734457:0;gsettings set org.gnome.Evince gtk-theme=Catppuccin-Mocha-Standard-Blue-dark
+: 1688734664:0;yay gnome-tweaks
+: 1688734722:0;yay bash-completions
+: 1688734729:0;yay gnome
+: 1688734763:0;yay -S gnome-control-center
+: 1688735002:0;rm -rf .gtkrc-2.0 ~/.config/gtk-3.0 ~/.config/gtk-4.0
+: 1688735200:0;yay -Rns catppuccin-gtk-theme-mocha
+: 1688735356:0;cd ~/.themes
+: 1688735364:0;unzip Catppuccin-Mocha-Standard-Blue-dark.zip
+: 1688735845:0;nmtui
+: 1688738929:0;yay catppuccin
+: 1688741475:0;cd pro
+: 1688741477:0;gh repo clone catppuccin/qt5ct
+: 1688741489:0;cd qt5ct
+: 1688741510:0;mkdir -p ~/.config/qt5ct/colors
+: 1688741526:0;cp themes/Catppuccin-Mocha.conf ~/.config/qt5ct/colors
+: 1688741610:0;sudo pacman -Syyu lightly-qt
+: 1688742114:0;cd Documents
+: 1688742120:0;mkdir PhilRel
+: 1688742421:0;yay -Rns brave
+: 1688742426:0;yay -Rns brave-bin
+: 1688742444:0;yay -Rns gnome-shell gnome-shell-extensions gnome-desktop gnome-desktop-4
+: 1688742450:0;yay -Rns gnome-shell gnome-desktop gnome-desktop-4
+: 1688742471:0;yay -Rns gnome-shell gnome-control-center
+: 1688742482:0;yay -Rns gnome-settings-daemon
+: 1688742490:0;yay -Rns gnome-settings-daemon gnome-tweaks
+: 1688742493:0;yay c
+: 1688742497:0;yay -c
+: 1688742502:0;yay -Yc
+: 1688742508:0;f
+: 1688742653:0;cd PhilRel
+: 1688742662:0;mv Graham\ Oppy,\ N.\ N.\ Trakakis\ -\ Nineteenth-Century\ Philosophy\ of\ Religion_\ The\ History\ of\ Western\ Philosophy\ of\ Religion,\ Volume\ 4-Routledge\ \(2014\).pdf History-of-religion
+: 1688742665:0;cd History-of-religion
+: 1688742673:0;xo Graham\ Oppy,\ N.\ N.\ Trakakis\ -\ Ancient\ Philosophy\ of\ Religion_\ The\ History\ of\ Western\ Philosophy\ of\ Religion,\ Volume\ 1-Routledge\ \(2014\).pdf
+: 1688742708:0;xo Graham\ Oppy,\ N.\ N.\ Trakakis\ -\ Medieval\ Philosophy\ of\ Religion_\ The\ History\ of\ Western\ Philosophy\ of\ Religion,\ Volume\ 2-Routledge\ \(2014\).pdf
+: 1688742718:0;xo Graham\ Oppy,\ N.\ N.\ Trakakis\ -\ Nineteenth-Century\ Philosophy\ of\ Religion_\ The\ History\ of\ Western\ Philosophy\ of\ Religion,\ Volume\ 4-Routledge\ \(2014\).pdf
+: 1688742726:0;xo Graham\ Oppy,\ N.\ N.\ Trakakis\ -\ Twentieth-Century\ Philosophy\ of\ Religion_\ The\ History\ of\ Western\ Philosophy\ of\ Religion,\ Volume\ 5-Routledge\ \(2014\).pdf
+: 1688742771:0;mv Graham\ Oppy,\ N.\ N.\ Trakakis\ -\ Ancient\ Philosophy\ of\ Religion_\ The\ History\ of\ Western\ Philosophy\ of\ Religion,\ Volume\ 1-Routledge\ \(2014\).pdf 1.Graham\ Oppy,\ N.\ N.\ Trakakis\ -\ Ancient\ Philosophy\ of\ Religion_\ The\ History\ of\ Western\ Philosophy\ of\ Religion,\ Volume\ 1-Routledge\ \(2014\).pdf
+: 1688742791:0;mv Graham\ Oppy,\ N.\ N.\ Trakakis\ -\ Medieval\ Philosophy\ of\ Religion_\ The\ History\ of\ Western\ Philosophy\ of\ Religion,\ Volume\ 2-Routledge\ \(2014\).pdf 2.Graham\ Oppy,\ N.\ N.\ Trakakis\ -\ Medieval\ Philosophy\ of\ Religion_\ The\ History\ of\ Western\ Philosophy\ of\ Religion,\ Volume\ 2-Routledge\ \(2014\).pdf
+: 1688742806:0;mv Graham\ Oppy,\ N.\ N.\ Trakakis\ -\ Early\ Modern\ Philosophy\ of\ Religion_\ The\ History\ of\ Western\ Philosophy\ of\ Religion\ 3-Routledge\ \(2013\).pdf 3.Graham\ Oppy,\ N.\ N.\ Trakakis\ -\ Early\ Modern\ Philosophy\ of\ Religion_\ The\ History\ of\ Western\ Philosophy\ of\ Religion\ 3-Routledge\ \(2013\).pdf
+: 1688742819:0;mv Graham\ Oppy,\ N.\ N.\ Trakakis\ -\ Nineteenth-Century\ Philosophy\ of\ Religion_\ The\ History\ of\ Western\ Philosophy\ of\ Religion,\ Volume\ 4-Routledge\ \(2014\).pdf 4.Graham\ Oppy,\ N.\ N.\ Trakakis\ -\ Nineteenth-Century\ Philosophy\ of\ Religion_\ The\ History\ of\ Western\ Philosophy\ of\ Religion,\ Volume\ 4-Routledge\ \(2014\).pdf
+: 1688742833:0;mv Graham\ Oppy,\ N.\ N.\ Trakakis\ -\ Twentieth-Century\ Philosophy\ of\ Religion_\ The\ History\ of\ Western\ Philosophy\ of\ Religion,\ Volume\ 5-Routledge\ \(2014\).pdf 5.Graham\ Oppy,\ N.\ N.\ Trakakis\ -\ Twentieth-Century\ Philosophy\ of\ Religion_\ The\ History\ of\ Western\ Philosophy\ of\ Religion,\ Volume\ 5-Routledge\ \(2014\).pdf
+: 1688743926:0;rm -rf node_modules package.json package-lock.json
+: 1688743940:0;nv .bashrc
+: 1688743964:0;nv .zshrc
+: 1688743969:0;rm -rf .zshrc
+: 1688743976:0;./.bashrc
+: 1688743984:0;bash
+: 1688744886:0;clear
+: 1688744886:0;exit
+: 1688744164:0;lll
+: 1688744628:0;nr
+: 1688744632:0;yay onlyoffice
+: 1688744758:0;cd .config/hypr
+: 1688744764:0;nv startup.conf
+: 1688744805:0;cd other-stuff
+: 1688744807:0;cd mirrors-and-hosts
+: 1688744835:0;nv rate-mirrors-arch.sh
+: 1688745232:0;sudo mv mirrorlist-backup mirrorlist
+: 1688745687:0;./rate-mirrors-arch.sh
+: 1688745842:0;ls /etc/hosts
+: 1688745846:0;ll /etc/hosts
+: 1688745914:0;sudo chmod 644 /etc/hosts
+: 1688746013:0;yay rate-mirrors
+: 1688746029:0;yay -Rns rate-mirrors
+: 1688746057:0;cargo install --git https://github.com/westandskif/rate-mirrors
+: 1688746220:0;rate-mirrors
+: 1688746233:0;rate_mirrors
+: 1688746413:0;yay clipman
+: 1688746432:0;pkill rofi || clipman pick -t rofi
+: 1688746444:0;wl-paste -t text --watch clipman store
+: 1688746644:0;we
+: 1688746672:0;yay pacman
+: 1688746690:0;yay hooks
+: 1688746754:0;yay pacman-cleanup-hook
+: 1688746804:0;sudo paccache -rk0
+: 1688746811:0;yay libreoffice
+: 1688746908:0;cd /etc/pacman.d
+: 1688746973:0;sudo chgrp root mirrorlist mirrorlist-backup
+: 1688746986:0;sudo chgrp root mirrorlist
+: 1688747058:0;sudo chown root mirrorlist
+: 1688747068:0;sudo chown root mirrorlist-backup
+: 1688747080:0;sudo chown rishabh mirrorlist-backup
+: 1688747114:0;cd .local/bin
+: 1688747121:0;cd .local/share/cargo/bin
+: 1688747129:0;mv rate_mirrors rate-mirrors
+: 1688747138:0;cd other-stuff/mirrors-and-hosts
+: 1688747592:0;yay -Syyu
+: 1688747669:0;cd /etc
+: 1688747674:0;cd pacman.d
+: 1688747756:0;cd .local/share/nvim/lazy/nvim-treesitter/parser/
+: 1688747762:0;pwd
+: 1688750280:0;yay -S deluge hyprland
+: 1688750315:0;deluge
+: 1688750332:0;yay -S deluge-gtk hyprland
+: 1688750349:0;deluge-gtk
+: 1688750552:0;unzip endeavouros-1080p.zip
+: 1688750569:0;sudo cp -r dark-matter /boot/grub/themes/
+: 1688750579:0;sudo cp -r darkmatter /boot/grub/themes/
+: 1688750713:0;cd /boot/grub/themes/darkmatter
+: 1688750846:0;vs /etc/fstab
+: 1688751018:0;sudo pacdiff
+: 1688751030:0;pacdiff
+: 1688751052:0;cd /etc/default
+: 1688751065:0;sudo mv grub.pacsave grub
+: 1688751070:0;nv grub
+: 1688751083:0;vs grub
+: 1688751324:0;cd /boot
+: 1688751334:0;nv grub.cfg.new
+: 1688751351:0;cd starfield
+: 1688751362:0;yay -S grub
+: 1688751443:0;lsblk
+: 1688751458:0;grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUB
+: 1688751461:0;sudo grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUB
+: 1688751478:0;grub-mkconfig -o /boot/grub/grub.cfg
+: 1688751517:0;vs /etc/default/grub.pacsave
+: 1688751739:0;echo $0
+: 1688751751:0;echo $?
+: 1688751792:0;cd /boot/efi
+: 1688751796:0;cd BOOT
+: 1688751799:0;cdp
+: 1688751804:0;cd grub
+: 1688751807:0;cd themes
+: 1688751810:0;cd darkmatter
+: 1688751880:0;sudo rm -rf /boot/grub/themes/darkmatter
+: 1688751888:0;cd projects/grub
+: 1688751919:0;sudo python3 darkmatter-theme.py --install
+: 1688751938:0;cd /boot/grub/themes
+: 1688751939:0;ll
+: 1688752066:0;vs /etc/default/grub
+: 1688752099:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
+: 1688752106:0;reboot
+: 1688752832:0;nano .bashrc
+: 1688752917:0;firewall-cmd --zone=trusted --add-interface=waydroid0
+: 1688785458:0;vs /etc/pacman.conf
+: 1688785478:0;yay
+: 1688785722:0;sudo grub-fix-initrd-generation
+: 1688785779:0;cd /etc/pacman.d/
+: 1688785823:0;ys
+: 1688786119:0;ping 9.9.9.9
+: 1688787480:0;yay jdeconnect
+: 1688787483:0;yay kdeconnect
+: 1688787677:0;yay kdeconnect-indicator\
+
+: 1688787681:0;yay kdeconnect-indicator
+: 1688787691:0;yay indicator-kdeconnect
+: 1688789744:0;nv
+: 1688789918:0;ls
+: 1688789919:0;cd
+: 1688789920:0;c
+: 1688789941:0;yay qemu
+: 1688790086:0;sudo pacman -S qemu virt-manager virt-viewer dnsmasq vde2 bridge-utils openbsd-netcat dmidecode
+: 1688790100:0;sudo pacman -S ebtables iptables
+: 1688790120:0;sudo pacman -S libguestfs
+: 1688790126:0;e
+: 1688790161:0;sudo systemctl status libvirtd
+: 1688790178:0;vs /etc/libvirt/libvirtd.conf
+: 1688790238:0;sudo usermod -a -G libvirt $(whoami)
+: 1688790244:0;newgrp libvirt
+: 1688790252:0;sudo systemctl restart libvirtd.service
+: 1688790274:0;sudo modprobe -r kvm_amd\
+sudo modprobe kvm_amd nested=1
+: 1688790577:0;f
+: 1688794033:0;wl
+: 1688794060:0;we
+: 1688794061:0;wr
+: 1688794062:0;ws
+: 1688794073:0;/usr/lib/waydroid/data/scripts/waydroid-net.sh start
+: 1688794204:0;c
+: 1688794206:0;ping 9.9.9.9
+: 1688794208:0;c
+: 1688794209:0;ws
+: 1688795518:0;time zsh --interactive -c exit
+: 1688795730:0;nap
+: 1688795811:0;yay go
+: 1688795843:0;go install github.com/maaslalani/nap@main
+: 1688796215:0;nap
+: 1688796230:0;time zsh --interactive -c exit
+: 1688796299:0;cd ~/.config/zsh
+: 1688796301:0;nv
+: 1688796360:0;yl

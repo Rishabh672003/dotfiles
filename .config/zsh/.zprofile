@@ -34,7 +34,7 @@ export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 export LESSHISTFILE="$XDG_CACHE_HOME"/less/history
 export LESSOPEN='|~/.config/zsh/lessfilter.sh %s'
 export LESS=' -R '
-
+export PF_ASCII="arch linux"
 export CPATH=$CPATH:/usr/include/gtk-3.0
 export CPATH=$CPATH:/usr/include/gtk-3.0/gdk/
 export CPATH=$CPATH:/usr/include/harfbuzz/

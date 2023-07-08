@@ -1,7 +1,6 @@
 #!/bin/sh
 
-#script that applies the energized ultimate hosts
-cd /home/rishabh/projects/hosts/ &&
-rm -f /home/rishabh/projects/hosts/hosts&&
+cd /home/rishabh/other-stuff/mirrors-and-hosts/ &&
+sudo rm -f /home/rishabh/other-stuff/mirrors-and-hosts/hosts &&
 curl -C - --output hosts https://raw.githubusercontent.com/hagezi/dns-blocklists/main/hosts/pro.txt &&
-sudo cp hosts /etc/hosts
+sudo cp hosts /etc/hosts && sudo chmod 644 /etc/hosts
