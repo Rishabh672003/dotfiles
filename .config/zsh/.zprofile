@@ -20,6 +20,7 @@ export _JAVA_OPTIONS=-Djava.util.prefs.userRoot="$XDG_CONFIG_HOME"/java
 export TERMINFO="$XDG_DATA_HOME"/terminfo
 export TERMINFO_DIRS="$XDG_DATA_HOME"/terminfo:/usr/share/terminfo
 export HISTFILE="${XDG_CONFIG_HOME}"/zsh/history
+export HISTFILE="${XDG_STATE_HOME}"/bash/history
 export HISTCONTROL=ignoredups:erasedups
 export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME"/npm/npmrc
 export XDG_SESSION_TYPE=wayland
@@ -35,6 +36,9 @@ export LESSHISTFILE="$XDG_CACHE_HOME"/less/history
 export LESSOPEN='|~/.config/zsh/lessfilter.sh %s'
 export LESS=' -R '
 export PF_ASCII="arch linux"
+export WLR_NO_HARDWARE_CURSORS=1
+export WLR_RENDERER_ALLOW_SOFTWARE=1
+
 export CPATH=$CPATH:/usr/include/gtk-3.0
 export CPATH=$CPATH:/usr/include/gtk-3.0/gdk/
 export CPATH=$CPATH:/usr/include/harfbuzz/

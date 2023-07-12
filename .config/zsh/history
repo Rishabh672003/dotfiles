@@ -66,7 +66,6 @@
 : 1688492920:0;time
 : 1688492928:0;time exec zsh
 : 1688495524:0;starship
-: 1688495671:0;exec zsh
 : 1688532076:0;yay -Rns tcet-linux-qogir-theme tcet-linux-welcome
 : 1688543353:0;ping 8.8.8.8
 : 1688543407:0;cd ~/.local/share/tcet-linux-welcome
@@ -78,7 +77,6 @@
 : 1688578487:0;cd ~/.config/spicetify
 : 1688578494:0;cd Themes
 : 1688578504:0;cd ~/.config/spicetify/Themes
-: 1688578507:0;nv README.md
 : 1688628225:0;yay zoxide
 : 1688628249:0;yay pfetch
 : 1688628309:0;yay wlogout
@@ -231,7 +229,6 @@ npm i -g vscode-langservers-extracted;
 : 1688644423:0;gh auth login
 : 1688644454:0;git config --global user.email "jharishabh2k3@gmail.com"
 : 1688644466:0;git config --global user.name "Rishabh"
-: 1688644468:0;yl
 : 1688644536:0;mkdir ~/.config/dunst
 : 1688644607:0;yay playerctl
 : 1688644630:0;cd ~/.config/waybar
@@ -261,15 +258,12 @@ npm i -g vscode-langservers-extracted;
 : 1688647672:0;bat
 : 1688647673:0;yay bat
 : 1688647757:0;cd .lo
-: 1688647787:0;echo $PATH
 : 1688647801:0;ce
 : 1688647810:0;npm i -g vscode-langservers-extracted
 : 1688647817:0;sudo npm i -g vscode-langservers-extracted
 : 1688647851:0;yay bash-language-server
 : 1688647868:0;yay tsserver
-: 1688649090:0;wr
 : 1688649104:0;sudo systemctl enable --now waydroid-container.service
-: 1688649126:0;wl
 : 1688649174:0;yay python-pyclip
 : 1688649656:0;cd apks
 : 1688649664:0;waydroid app install tachiyomi-x86_64-v0.14.5.apk
@@ -283,8 +277,6 @@ npm i -g vscode-langservers-extracted;
 : 1688650178:0;yay -R firewalld
 : 1688650237:0;yay -Rns gnome-shell gnome-shell-extensions
 : 1688650254:0;yay -Rns xdg-desktop-portal-gtk xdg-desktop-portal-gnome
-: 1688650273:0;ws
-: 1688652111:0;yay firewalld
 : 1688654684:0;yay kde-settings
 : 1688654705:0;yay kde-connect
 : 1688654711:0;yay kde
@@ -338,7 +330,6 @@ npm i -g vscode-langservers-extracted;
 : 1688669408:0;cd gtk-4.0
 : 1688669576:0;yay hyprland-git
 : 1688669931:0;evince
-: 1688701218:0;cd projects
 : 1688701225:0;mkdir rust-project
 : 1688701229:0;mkdir rust-projects
 : 1688701233:0;rm -rf rust-project
@@ -353,7 +344,6 @@ npm i -g vscode-langservers-extracted;
 : 1688705910:0;cd tcet-linux-welcome
 : 1688705912:0;one
 : 1688715851:0;rm -rf Catppuccin-Mocha-BL Catppuccin-Mocha-BL.zip
-: 1688715915:0;n
 : 1688730467:0;nv ~/.config/discord/settings.json
 : 1688730950:0;yay postscript
 : 1688730970:0;yay cinnnamon
@@ -378,7 +368,6 @@ npm i -g vscode-langservers-extracted;
 : 1688735200:0;yay -Rns catppuccin-gtk-theme-mocha
 : 1688735356:0;cd ~/.themes
 : 1688735364:0;unzip Catppuccin-Mocha-Standard-Blue-dark.zip
-: 1688735845:0;nmtui
 : 1688738929:0;yay catppuccin
 : 1688741475:0;cd pro
 : 1688741477:0;gh repo clone catppuccin/qt5ct
@@ -397,8 +386,6 @@ npm i -g vscode-langservers-extracted;
 : 1688742490:0;yay -Rns gnome-settings-daemon gnome-tweaks
 : 1688742493:0;yay c
 : 1688742497:0;yay -c
-: 1688742502:0;yay -Yc
-: 1688742508:0;f
 : 1688742653:0;cd PhilRel
 : 1688742662:0;mv Graham\ Oppy,\ N.\ N.\ Trakakis\ -\ Nineteenth-Century\ Philosophy\ of\ Religion_\ The\ History\ of\ Western\ Philosophy\ of\ Religion,\ Volume\ 4-Routledge\ \(2014\).pdf History-of-religion
 : 1688742665:0;cd History-of-religion
@@ -412,15 +399,12 @@ npm i -g vscode-langservers-extracted;
 : 1688742819:0;mv Graham\ Oppy,\ N.\ N.\ Trakakis\ -\ Nineteenth-Century\ Philosophy\ of\ Religion_\ The\ History\ of\ Western\ Philosophy\ of\ Religion,\ Volume\ 4-Routledge\ \(2014\).pdf 4.Graham\ Oppy,\ N.\ N.\ Trakakis\ -\ Nineteenth-Century\ Philosophy\ of\ Religion_\ The\ History\ of\ Western\ Philosophy\ of\ Religion,\ Volume\ 4-Routledge\ \(2014\).pdf
 : 1688742833:0;mv Graham\ Oppy,\ N.\ N.\ Trakakis\ -\ Twentieth-Century\ Philosophy\ of\ Religion_\ The\ History\ of\ Western\ Philosophy\ of\ Religion,\ Volume\ 5-Routledge\ \(2014\).pdf 5.Graham\ Oppy,\ N.\ N.\ Trakakis\ -\ Twentieth-Century\ Philosophy\ of\ Religion_\ The\ History\ of\ Western\ Philosophy\ of\ Religion,\ Volume\ 5-Routledge\ \(2014\).pdf
 : 1688743926:0;rm -rf node_modules package.json package-lock.json
-: 1688743940:0;nv .bashrc
 : 1688743964:0;nv .zshrc
 : 1688743969:0;rm -rf .zshrc
 : 1688743976:0;./.bashrc
 : 1688743984:0;bash
 : 1688744886:0;clear
 : 1688744886:0;exit
-: 1688744164:0;lll
-: 1688744628:0;nr
 : 1688744632:0;yay onlyoffice
 : 1688744758:0;cd .config/hypr
 : 1688744764:0;nv startup.conf
@@ -440,19 +424,16 @@ npm i -g vscode-langservers-extracted;
 : 1688746413:0;yay clipman
 : 1688746432:0;pkill rofi || clipman pick -t rofi
 : 1688746444:0;wl-paste -t text --watch clipman store
-: 1688746644:0;we
 : 1688746672:0;yay pacman
 : 1688746690:0;yay hooks
 : 1688746754:0;yay pacman-cleanup-hook
 : 1688746804:0;sudo paccache -rk0
 : 1688746811:0;yay libreoffice
-: 1688746908:0;cd /etc/pacman.d
 : 1688746973:0;sudo chgrp root mirrorlist mirrorlist-backup
 : 1688746986:0;sudo chgrp root mirrorlist
 : 1688747058:0;sudo chown root mirrorlist
 : 1688747068:0;sudo chown root mirrorlist-backup
 : 1688747080:0;sudo chown rishabh mirrorlist-backup
-: 1688747114:0;cd .local/bin
 : 1688747121:0;cd .local/share/cargo/bin
 : 1688747129:0;mv rate_mirrors rate-mirrors
 : 1688747138:0;cd other-stuff/mirrors-and-hosts
@@ -472,8 +453,6 @@ npm i -g vscode-langservers-extracted;
 : 1688750846:0;vs /etc/fstab
 : 1688751018:0;sudo pacdiff
 : 1688751030:0;pacdiff
-: 1688751052:0;cd /etc/default
-: 1688751065:0;sudo mv grub.pacsave grub
 : 1688751070:0;nv grub
 : 1688751083:0;vs grub
 : 1688751324:0;cd /boot
@@ -482,48 +461,32 @@ npm i -g vscode-langservers-extracted;
 : 1688751362:0;yay -S grub
 : 1688751443:0;lsblk
 : 1688751458:0;grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUB
-: 1688751461:0;sudo grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUB
 : 1688751478:0;grub-mkconfig -o /boot/grub/grub.cfg
 : 1688751517:0;vs /etc/default/grub.pacsave
 : 1688751739:0;echo $0
 : 1688751751:0;echo $?
 : 1688751792:0;cd /boot/efi
 : 1688751796:0;cd BOOT
-: 1688751799:0;cdp
-: 1688751804:0;cd grub
 : 1688751807:0;cd themes
 : 1688751810:0;cd darkmatter
-: 1688751880:0;sudo rm -rf /boot/grub/themes/darkmatter
 : 1688751888:0;cd projects/grub
-: 1688751919:0;sudo python3 darkmatter-theme.py --install
 : 1688751938:0;cd /boot/grub/themes
-: 1688751939:0;ll
 : 1688752066:0;vs /etc/default/grub
 : 1688752099:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
-: 1688752106:0;reboot
 : 1688752832:0;nano .bashrc
-: 1688752917:0;firewall-cmd --zone=trusted --add-interface=waydroid0
-: 1688785458:0;vs /etc/pacman.conf
 : 1688785478:0;yay
 : 1688785722:0;sudo grub-fix-initrd-generation
 : 1688785779:0;cd /etc/pacman.d/
-: 1688785823:0;ys
-: 1688786119:0;ping 9.9.9.9
 : 1688787480:0;yay jdeconnect
 : 1688787483:0;yay kdeconnect
 : 1688787677:0;yay kdeconnect-indicator\
 
 : 1688787681:0;yay kdeconnect-indicator
 : 1688787691:0;yay indicator-kdeconnect
-: 1688789744:0;nv
-: 1688789918:0;ls
-: 1688789919:0;cd
-: 1688789920:0;c
 : 1688789941:0;yay qemu
 : 1688790086:0;sudo pacman -S qemu virt-manager virt-viewer dnsmasq vde2 bridge-utils openbsd-netcat dmidecode
 : 1688790100:0;sudo pacman -S ebtables iptables
 : 1688790120:0;sudo pacman -S libguestfs
-: 1688790126:0;e
 : 1688790161:0;sudo systemctl status libvirtd
 : 1688790178:0;vs /etc/libvirt/libvirtd.conf
 : 1688790238:0;sudo usermod -a -G libvirt $(whoami)
@@ -531,22 +494,124 @@ npm i -g vscode-langservers-extracted;
 : 1688790252:0;sudo systemctl restart libvirtd.service
 : 1688790274:0;sudo modprobe -r kvm_amd\
 sudo modprobe kvm_amd nested=1
-: 1688790577:0;f
-: 1688794033:0;wl
-: 1688794060:0;we
-: 1688794061:0;wr
-: 1688794062:0;ws
 : 1688794073:0;/usr/lib/waydroid/data/scripts/waydroid-net.sh start
-: 1688794204:0;c
-: 1688794206:0;ping 9.9.9.9
-: 1688794208:0;c
-: 1688794209:0;ws
-: 1688795518:0;time zsh --interactive -c exit
-: 1688795730:0;nap
 : 1688795811:0;yay go
 : 1688795843:0;go install github.com/maaslalani/nap@main
 : 1688796215:0;nap
 : 1688796230:0;time zsh --interactive -c exit
 : 1688796299:0;cd ~/.config/zsh
-: 1688796301:0;nv
 : 1688796360:0;yl
+: 1688804828:0;yay grub
+: 1688804848:0;sudo grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUB
+: 1688804861:0;cd grub
+: 1688804878:0;sudo rm -rf /boot/grub/themes/darkmatter
+: 1688804879:0;sudo python3 darkmatter-theme.py --install
+: 1688804892:0;cd /etc/default
+: 1688804901:0;cat grub
+: 1688804907:0;cat grub.pacsave
+: 1688804913:0;cat grub.pacsave.1
+: 1688804937:0;sudo rm -rf grub grub.pacsave.1
+: 1688804944:0;sudo mv grub.pacsave grub
+: 1688804965:0;nv /etc/pacman.d
+: 1688804972:0;nv /etc/pacman.conf
+: 1688804989:0;vs /etc/pacman.conf
+: 1688805090:0;yay -Yc
+: 1688806284:0;cd /etc/pacman.d
+: 1688806289:0;cd gnupg
+: 1688806389:0;nv pacman.conf
+: 1688808495:0;firewall-cmd --zone=trusted --add-interface=waydroid0
+: 1688808533:0;wr
+: 1688809857:0;sudo firewall-cmd --state
+: 1688810042:0;yay firewalld
+: 1688810062:0;sudo firewall-cmd --zone=trusted --add-interface=waydroid0 --permanent
+: 1688810079:0;firewall-cmd --zone=trusted --add-interface=waydroid0 --permanent
+: 1688810103:0;yay -Rns firewalld
+: 1688838252:0;pacman -Qq | fzf
+: 1688875855:0;rustup component add rust-src\
+
+: 1688875878:0;rustup component add rust-analyzer
+: 1688875940:0;rust-analyzer
+: 1688878954:0;sudo
+: 1688878994:0;reboot
+: 1688882008:0;nv .bash_history
+: 1688882032:0;nv .bash_logout
+: 1688882043:0;nv .bash_profile
+: 1688882052:0;nv .bashrc
+: 1688882077:0;eos-pacdiff
+: 1688884077:0;killall -9 firefox
+: 1688894607:0;gh repo clone Jacekun/AniPy
+: 1688894620:0;cd AniPy
+: 1688894640:0;yay python-pip
+: 1688894663:0;pip install virtualenv
+: 1688894680:0;yay virtualvenv
+: 1688894686:0;yay virtualenv
+: 1688894709:0;mkvenv
+: 1688894759:0;python main.py
+: 1688894820:0;cd output
+: 1688895352:0;cd ..
+: 1688895371:0;nv ISSUE.md
+: 1688895642:0;nmtui
+: 1688898905:0;gh repo clone LunarVim/nvim-basic-ide
+: 1688898931:0;cd nvim-basic-ide
+: 1688898937:0;cd lua/user
+: 1688898940:0;nv colorscheme.lua
+: 1688900925:0;nr
+: 1688901248:0;ping 9.9.9.9
+: 1688901643:0;we
+: 1688901822:0;nv README.md
+: 1688903322:0;kitty
+: 1688903324:0;yay kitty
+: 1688903347:0;lll
+: 1688903368:0;cat .bashrc
+: 1688904008:0;yay stylua
+: 1688904020:0;nv ~/.config/kitty/kitty.conf
+: 1688906553:0;nvim a.py
+: 1688906633:0;mv nvim-basic-ide ~/.config
+: 1688906685:0;cd .config/nvim-basic-ide
+: 1688906692:0;nvim lua/utils/init.lua
+: 1688906844:0;cd ~/projects/rust-projects/guessing-game
+: 1688906849:0;nbi src/main.rs
+: 1688906877:0;nbi
+: 1688907006:0;e
+: 1688915113:0;cd nvim-
+: 1688918727:0;/usr/local/bin
+: 1688918742:0;echo $PATH
+: 1688918987:0;cd
+: 1688918993:0;cd .local/bin
+: 1688919062:0;nv grimblast
+: 1688921737:0;ys
+: 1688921955:0;wl
+: 1688922044:0;sudo downgrade hyprland
+: 1688922110:0;Hyprland -v
+: 1688922120:0;Hyprland -h
+: 1688922221:0;ws
+: 1688922257:0;f
+: 1688922259:0;n
+: 1688922260:0;ls
+: 1688922359:0;nv
+: 1688922369:0;rm -rf ~/.local/share/nvim-basic-ide
+: 1688922371:0;c
+: 1688922379:0;du
+: 1688922382:0;duf
+: 1688922596:0;cd .npm
+: 1688922598:0;cdp
+: 1688922601:0;rm -rf .npm
+: 1688922646:0;cd projects
+: 1688922647:0;gh repo clone b3nj5m1n/xdg-ninja
+: 1688922658:0;cd xdg-ninja
+: 1688922659:0;ll
+: 1688922662:0;./xdg-ninja.sh
+: 1688922694:0;nv ~/.config/zsh/.zprofile
+: 1688922719:0;exec zsh
+: 1688924108:0;sudo mount /dev/nvme0n1p3 /mnt/windows
+: 1688924122:0;mkdir /mnt/windows
+: 1688924125:0;sudo mkdir /mnt/windows
+: 1688924130:0;sudo mount /dev/nvme0n1p3 /mnt/windows
+: 1688924135:0;cd /mnt/windows
+: 1688924135:0;ll
+: 1688924138:0;cd
+: 1688924145:0;lsblk -f
+: 1688924221:0;vs /etc/fstab
+: 1688924397:0;cat /etc/fstab
+: 1688924409:0;vs /etc/fstab
+: 1688924441:0;sudo blkid /dev/nvme0n1p3
