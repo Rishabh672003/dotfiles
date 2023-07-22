@@ -22,6 +22,7 @@ setopt hist_expire_dups_first
 setopt hist_ignore_dups
 setopt hist_ignore_space
 setopt share_history
+export HISTCONTROL=ignoredups:erasedups
 
 # completions
 zstyle ':completion:*' menu select

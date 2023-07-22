@@ -36,5 +36,5 @@ plug "romkatv/powerlevel10k"
 [[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="$HOME/.sdkman"
-[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+export SDKMAN_DIR="/home/rishabh/.sdkman"
+[[ -s "/home/rishabh/.sdkman/bin/sdkman-init.sh" ]] && source "/home/rishabh/.sdkman/bin/sdkman-init.sh"

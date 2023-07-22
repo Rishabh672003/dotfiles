@@ -210,7 +210,7 @@ return {
     use_resize_increments = true,
     -- right_status = {
     --     { Background = { Color = bg } },
-    --     { Text = '[ ײַ ] [ ﬠ ]' },
+    --     { Text = '[ 󰘠 ] [ 󰘡 ]' },
     -- }
     custom_block_glyphs = true,
 }
