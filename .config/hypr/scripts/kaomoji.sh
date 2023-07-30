@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#!/usr/bin/env bash
 
 ROFI_PATH=$(which rofi 2>/dev/null)
 WOFI_PATH=$(which wofi 2>/dev/null)
@@ -12,13 +12,13 @@ else
 fi
 
 
-if [ -z $WAYLAND_DISPLAY ]; then
+if [ -z "$WAYLAND_DISPLAY" ]; then
     current_wid=$(xdo id)
-    selection=$($ROFI_COMMAND $@ < $(dirname $0)/kaomoji.txt)
-    kaomoji=$(echo $selection | sed "s|$(echo -e "\ufeff").*||")
+    selection=$($ROFI_COMMAND "$@" < "$(dirname "$0")"/kaomoji.txt)
+    kaomoji=$(echo "$selection" | sed "s|$(echo -e "\ufeff").*||")
     echo -n "$kaomoji" | xclip -selection clipboard
-    xdotool key --window $current_wid --clearmodifiers ctrl+v
+    xdotool key --window "$current_wid" --clearmodifiers ctrl+v
 else
-    kaomoji=$($ROFI_COMMAND -p kaomoji $@ < $(dirname $0)/kaomoji.txt | sed "s|$(echo -e "\ufeff").*||")
+    kaomoji=$($ROFI_COMMAND -p kaomoji "$@" < "$(dirname "$0")"/kaomoji.txt | sed "s|$(echo -e "\ufeff").*||")
     wtype "$kaomoji"
 fi
