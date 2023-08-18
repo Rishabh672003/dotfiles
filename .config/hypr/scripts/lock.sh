@@ -22,4 +22,4 @@ swaylock \
     --inside-wrong-color f38ba8 \
     --inside-clear-color a6e3a1 \
     --indicator-caps-lock \
-    --image ~/Pictures/Wallpapers/cat_fish.png
+    --image ~/Pictures/Wallpapers/staring-into-the-woods-3840×2160.jpg

@@ -5,12 +5,11 @@ bat_status=$(cat "$bat_loc"/status)
 bat_cap=$(cat "$bat_loc"/capacity)
 
 checkBatteryInfo(){
-    echo "charge"
     if [ "$bat_cap" = 15 ] && [ "$bat_status" == Discharging ]; then
-        notify-send "Battery Low";
+        notify-send -u critical "Battery Low";
 
     elif [ "$bat_cap" == 8 ] && [ "$bat_status" == Discharging ] ; then
-        notify-send "Battery Insanely Low"
+        notify-send -u critical "Battery Insanely Low"
     fi
 }
 

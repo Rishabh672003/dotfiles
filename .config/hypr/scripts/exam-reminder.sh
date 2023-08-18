@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set the exam date (in yyyy-mm-dd format)
-exam_date="2023-05-22"
+exam_date="2023-08-8"
 
 # Convert the exam date to Unix timestamp
 exam_timestamp=$(date -d "$exam_date" +%s)
