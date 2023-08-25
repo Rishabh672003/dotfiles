@@ -99,7 +99,7 @@ alias sep="pacman -Slq | fzf --multi --preview 'pacman -Si {1}' \
 alias srp="pacman -Qq | fzf --multi --preview 'pacman -Qi {1}' \
     | xargs -ro sudo pacman -Rns"
 
-alias binrm="rm -rf *.out; rm -rf */*.out; rm -rf */*/*.out; rm -rf */*/*/*.out"
+alias rmbin="rm -rf *.out; rm -rf */*.out; rm -rf */*/*.out; rm -rf */*/*/*.out"
 
 export ssep (){
     pacman -Slq | fzf --multi --preview 'cat <(pacman -Si {1}) <(pacman -Fl {1} | awk "{print \$2}")' | xargs -ro sudo pacman -S

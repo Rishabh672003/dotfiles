@@ -38,13 +38,3 @@ export PF_ASCII="arch linux"
 export WLR_NO_HARDWARE_CURSORS=1
 export WLR_RENDERER_ALLOW_SOFTWARE=1
 export PYTHONSTARTUP="/etc/python/pythonrc"
-
-export CPATH=$CPATH:/usr/include/gtk-3.0
-export CPATH=$CPATH:/usr/include/gtk-3.0/gdk/
-export CPATH=$CPATH:/usr/include/harfbuzz/
-export CPATH=$CPATH:/usr/include/glib-2.0/
-export CPATH=$CPATH:/lib64/glib-2.0/include/
-export CPATH=$CPATH:/usr/include/pango-1.0/
-export CPATH=$CPATH:/usr/lib64/gtk-3.0/3.0.0/
-export CPATH=$CPATH:/usr/include/atk-1.0/
-export CPATH=$CPATH:/usr/include/cairo/
