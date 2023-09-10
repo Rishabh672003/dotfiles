@@ -4,7 +4,7 @@
   "height": 38,
   "modules-left": [
     "custom/launcher",
-    "wlr/workspaces",
+    "hyprland/workspaces",
     "custom/spotify"
   ],
   "modules-center": [],
@@ -116,12 +116,9 @@
     "format-plugged": " {capacity}%",
     "format-alt": "{time} {icon}",
     "format-icons": [
-      // "CHARGE-IMMEDIATELY-NOW 󰂎",
-      // "Charge-Immediately 󰁺",
-      // "Charge-quickly 󰁻",
-      "󰂎",
-      "󰁺",
-      "󰁻",
+      "CHARGE-IMMEDIATELY-NOW 󰂎",
+      "Charge-Immediately 󰁺",
+      "Charge-quickly 󰁻",
       "󰁼",
       "󰁽",
       "󰁾",
@@ -161,7 +158,7 @@
   "pulseaudio": {
     "format": "{icon} {volume}%",
     "format-muted": "󰝟 Muted",
-    "on-click": "~/.config/hypr/scripts/volume_ctl.sh",
+    "on-click": "pavucontrol",
     "scroll-step": 1,
     "format-icons": {
       "headphone": "",

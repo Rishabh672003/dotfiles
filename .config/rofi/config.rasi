@@ -1,4 +1,4 @@
-configuration{
+configuration {
     modi: "run,drun";
     icon-theme: "Oranchelo";
     show-icons: true;
