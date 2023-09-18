@@ -71,6 +71,16 @@ tooltip {
   margin: 3px 0px;
 }
 
+#battery.critical:not(.charging) {
+  background-color: #f53c3c;
+  color: #eeeeee;
+  animation-name: blink;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
 #tray {
   border-radius: 10px;
   margin-right: 4px;
