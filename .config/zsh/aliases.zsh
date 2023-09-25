@@ -94,7 +94,7 @@ alias hyp='cp -r ~/.config/hypr ~/projects/hyprland-configs/ \
 alias nrandom='tr -dc "A-Za-z 0-9" < /dev/urandom | fold -w100 | head -n 1000000 > bigfile.txt'
 alias yl='sh ~/.config/yadm/yadm.sh'
 alias yel='yadm enter lazygit'
-alias yt="youtube-dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4'"
+alias yt="yt-dlp -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4'"
 alias sep="pacman -Slq | fzf --multi --preview 'pacman -Si {1}' \
     | xargs -ro sudo pacman -S"
 alias srp="pacman -Qq | fzf --multi --preview 'pacman -Qi {1}' \
