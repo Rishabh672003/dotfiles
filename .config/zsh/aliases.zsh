@@ -23,7 +23,7 @@ alias cnp='c;n;p'
 alias cny='c;n;y'
 alias cdpp='cd ../../'
 alias py='python'
-alias g++='g++ -std=c++20'
+alias g++='g++ -g -std=c++20'
 alias cali='nvim ~/.config/zsh/aliases.zsh'
 alias nr='sudo systemctl restart NetworkManager'
 alias sp='speedtest'
@@ -109,7 +109,7 @@ alias ssep=ssep
 
 export gtnv(){
     if command -v aria2c &> /dev/null; then
-        cd ~/Applications/ &&
+        /usr/bin/ls ~/Applications/ &&
         rm -rf ~/Applications/nvim-linux64 ~/Applications/nvim-linux64.tar.gz > /dev/null 2>&1 ;
         aria2c "https://github.com/neovim/neovim/releases/download/nightly/nvim-linux64.tar.gz"
         tar -xvf ~/Applications/nvim-linux64.tar.gz > /dev/null 2>&1
@@ -121,4 +121,15 @@ export gtnv(){
             tar -xvf ~/Applications/nvim-linux64.tar.gz > /dev/null 2>&1
     fi
 }
-alias gtnv=gtnv
+# alias gtnv=gtnv
+
+function gpgkey() {
+    gpg --output "$1.sig" \
+        --default-key 86D63A086746385BAE60E505421FFABA41F36DA5 \
+        --detach-sign \
+        --sign "$1"
+}
+
+function makesign(){
+    updpkgsums && ./cleanup.sh && makepkg -s && gpgkey *.tar.zst
+}

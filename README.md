@@ -1,6 +1,6 @@
 # dotfiles
 
-all of my dotfiles,
+All of my dotfiles,
 these are managed by [yadm](https://github.com/TheLocehiliosan/yadm)
 At first this repo contained my wallpapers also but that would just make it very big in size so now they are in a different repo and they are at https://github.com/Rishabh672003/Wallpapers
 
@@ -22,17 +22,19 @@ sudo pacman -Sy yadm
 yadm clone https://github.com/Rishabh672003/dotfiles
 ```
 
-#### Explaination of yadm
+#### Explanation of yadm
 
-let me explain how yadm works because i couldnt figure it out for the first few
+let me explain how yadm works because i couldn't figure it out for the first few
+
 days that I used it
 what yadm does is use your home directory as a git repo but doesnt adds anything to the git repo where the .git directory stays is in `~/.local/share/yadm/repo.git/`
+
 #### Get started
 
 easiest way to get started is make a bare git repo in github or gitlab and do a
-`yadm clone "link of your repo"` 
+`yadm clone "link of your repo"`
 that will clone the repo in the repo. git that I mentioned above
-aftet that using yadm is just like using git you can do any git command with yadm like `yadm add` or `yadm clone` and all 
+aftet that using yadm is just like using git you can do any git command with yadm like `yadm add` or `yadm clone` and all
 so just add the dotfiles you need to save by doing `yadm add "path of file"`
 than commit by using `yadm commit -am "your message"` and push by using `yadm push`
-one extra yadm command which i recommend you learn is `yadm enter` using that will put you in a shell where you can just manipulate the yadm repo by just using git commands and you can also use apps like lazygit for the dotfiles repo which you cant do by default
+one extra yadm command which i recommend you learn is `yadm enter` using that will put you in a shell where you can just manipulate the yadm repo by just using git commands and you can also use apps like lazygit for the dotfiles repo which you can't do by default

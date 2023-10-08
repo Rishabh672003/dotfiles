@@ -5,6 +5,9 @@ for dump in "${ZDOTDIR:-$HOME}/.zcompdump"(N.mh+24); do
 done
 compinit -C
 
+# add fnm autocomplete
+fpath+=~/.config/zsh/completions/_fnm
+
 # Execute code in the background to not affect the current session
 {
     # Compile zcompdump, if modified, to increase startup speed.
