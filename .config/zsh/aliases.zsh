@@ -107,7 +107,7 @@ export ssep (){
 }
 alias ssep=ssep
 
-export gtnv(){
+function gtnv(){
     if command -v aria2c &> /dev/null; then
         /usr/bin/ls ~/Applications/ &&
         rm -rf ~/Applications/nvim-linux64 ~/Applications/nvim-linux64.tar.gz > /dev/null 2>&1 ;
@@ -131,5 +131,5 @@ function gpgkey() {
 }
 
 function makesign(){
-    updpkgsums && ./cleanup.sh && makepkg -s && gpgkey *.tar.zst
+    ./cleanup.sh && makepkg -s && gpgkey *.tar.zst
 }
