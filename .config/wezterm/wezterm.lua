@@ -12,7 +12,7 @@ return {
 	-- color_scheme = "nightfox",
 	color_scheme = "tokyonight",
 	window_decorations = "NONE",
-	enable_wayland = false,
+	enable_wayland = true,
 	enable_tab_bar = false,
 	automatically_reload_config = true,
 	window_background_opacity = 0.4,
