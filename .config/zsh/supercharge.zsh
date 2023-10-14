@@ -6,7 +6,7 @@ done
 compinit -C
 
 # add fnm autocomplete
-fpath+=~/.config/zsh/completions/_fnm
+fpath+=~/.local/share/zap/_fnm
 
 # Execute code in the background to not affect the current session
 {
