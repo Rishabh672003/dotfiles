@@ -3,7 +3,7 @@
 # if argument is passed, use it as csv, otherwise, look for file relative to dir
 [ $# -eq 0 ] && {
     # get location of chars.csv relative to script
-    chars_csv="$(dirname $0)/nerd.csv"
+    chars_csv="$(dirname "$0")/nerd.csv"
 } || {
     chars_csv="${1}"
 }
@@ -25,7 +25,5 @@ char_entry=$(
 
 # get char from line
 char="${char_entry% *}"
-# get codepoint from char (needed for xdotool)
-codepoint=U$(printf %x\\n \'"${char}")
-# use xdotool to enter character
-xdotool key "${codepoint}"
+# use wtype to enter character
+wtype "${char}"
