@@ -14,6 +14,7 @@ autoload -Uz plug
 # all the good stuff
 plug ~/.config/zsh/aliases.zsh
 plug ~/.config/zsh/supercharge.zsh
+plug ~/projects/test.zsh
 
 # evals needed for apps
 eval "$(zoxide init zsh)"
@@ -39,5 +40,3 @@ plug "romkatv/powerlevel10k"
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/home/rishabh/.local/share/sdkman"
 [[ -s "/home/rishabh/.local/share/sdkman/bin/sdkman-init.sh" ]] && source "/home/rishabh/.local/share/sdkman/bin/sdkman-init.sh"
-
-export GPG_TTY=$(tty)
