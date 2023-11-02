@@ -159,7 +159,9 @@
     "format": "{icon} {volume}%",
     "format-muted": "󰝟 Muted",
     "on-click": "pavucontrol",
-    "scroll-step": 1,
+    "on-scroll-up": "pactl set-sink-volume @DEFAULT_SINK@ +1%",
+    "on-scroll-down": "pactl set-sink-volume @DEFAULT_SINK@ -1%",
+    // "scroll-step": 1,
     "format-icons": {
       "headphone": "",
       "hands-free": "",

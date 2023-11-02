@@ -19,6 +19,7 @@ plug ~/projects/test.zsh
 # evals needed for apps
 eval "$(zoxide init zsh)"
 eval "$(fnm env)"
+eval "$(ssh-agent -s)" >> /dev/null
 
 # Installing and sourcing all the plugins
 # The order is important so dont change it if you dont know what you are doing
