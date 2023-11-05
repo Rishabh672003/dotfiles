@@ -77,21 +77,10 @@ alias ua-update-all='export TMPFILE="$(mktemp)"; \
     sudo mv $TMPFILE /etc/pacman.d/mirrorlist && \
     ua-drop-caches && \
     yay -Syyu --noconfirm'
-alias ngit='cp -r /home/rishabh/.config/nvim/* ~/projects/Neovim/ && \
-    cd ~/projects/Neovim'
-alias zshc='cp ~/.config/zsh/* ~/projects/zsh-configs/ ; \
-    cd ~/projects/zsh-configs
-# git add * && \
-    # sh ~/git-repos/gc.sh && \
-    # git push'
-alias pgit='cp ~/python-study/* ~/projects/python-studies/ ; cd ~/projects/python-studies/'
 alias sdr='sudo docker run -it archlinux:base-devel'
 alias sdp='sudo docker system prune -a'
 alias uneo='bob install nightly'
 alias ngt='git clone https://github.com/rishabh672003/neovim ~/.config/nvim'
-alias hyp='cp -r ~/.config/hypr ~/projects/hyprland-configs/ \
-    cp -r ~/.config/waybar ~/projects/hyprland-configs/ \
-    cd ~/projects/hyprland-configs/'
 alias nrandom='tr -dc "A-Za-z 0-9" < /dev/urandom | fold -w100 | head -n 1000000 > bigfile.txt'
 alias yl='sh ~/.config/yadm/yadm.sh'
 alias yel='yadm enter lazygit'
@@ -103,11 +92,11 @@ alias srp="pacman -Qq | fzf --multi --preview 'pacman -Qi {1}' \
 
 alias rmbin="rm -rf *.out; rm -rf */*.out; rm -rf */*/*.out; rm -rf */*/*/*.out"
 
-export ssep (){
+alias adb='HOME="$XDG_DATA_HOME"/android adb'
+
+function ssep (){
     pacman -Slq | fzf --multi --preview 'cat <(pacman -Si {1}) <(pacman -Fl {1} | awk "{print \$2}")' | xargs -ro sudo pacman -S
 }
-alias ssep=ssep
-alias adb='HOME="$XDG_DATA_HOME"/android adb'
 
 function gtnv(){
     if command -v aria2c &> /dev/null; then
@@ -123,7 +112,6 @@ function gtnv(){
             tar -xvf ~/Applications/nvim-linux64.tar.gz > /dev/null 2>&1
     fi
 }
-# alias gtnv=gtnv
 
 function gpgkey() {
     gpg --output "$1.sig" \
@@ -135,3 +123,5 @@ function gpgkey() {
 function makesign(){
     ./cleanup.sh && makepkg -s && gpgkey *.tar.zst
 }
+
+
