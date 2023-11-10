@@ -1,3 +1,4 @@
+if [ "$TMUX" = "" ]; then exec tmux new-session; fi
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.config/zsh/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -14,12 +15,11 @@ autoload -Uz plug
 # all the good stuff
 plug ~/.config/zsh/aliases.zsh
 plug ~/.config/zsh/supercharge.zsh
-plug ~/projects/test.zsh
 
 # evals needed for apps
 eval "$(zoxide init zsh)"
 eval "$(fnm env)"
-eval "$(ssh-agent -s)" >> /dev/null
+eval "$(ssh-agent -s >> /dev/null)"
 
 # Installing and sourcing all the plugins
 # The order is important so dont change it if you dont know what you are doing
