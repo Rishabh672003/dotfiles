@@ -1,6 +1,10 @@
+<center>
+
 # Dotfiles
 
 ![image](https://user-images.githubusercontent.com/53911515/235317064-720dd2e0-cfa3-43b8-b773-34350b4dd357.png)
+
+</center>
 
 All of my dotfiles, these are managed by [yadm](https://github.com/TheLocehiliosan/yadm) At first this repo contained my wallpapers also but that would just make it very big in size so now they are in a different repo and they are at https://github.com/Rishabh672003/Wallpapers
 
