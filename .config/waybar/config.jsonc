@@ -24,10 +24,9 @@
   ],
   "custom/launcher": {
     "format": "<span color='#F38BA8'></span>",
-    // "on-click": "wofi --show drun --insensitive --allow-images"
     "on-click": "pkill rofi || rofi -show drun --insensitive --allow-images"
   },
-  "wlr/workspaces": {
+  "hyprland/workspaces": {
     "disable-scroll": false,
     "all-outputs": true,
     "on-click": "activate",
@@ -35,31 +34,20 @@
     "on-scroll-down": "hyprctl dispatch workspace e+1",
     "on-scroll-up": "hyprctl dispatch workspace e-1",
     "persistent_workspaces": {
-      "01": [],
-      "02": [],
-      "03": [],
-      "04": [],
-      "05": [],
-      "06": [],
-      "07": [],
-      "08": [],
-      "09": [],
-      "10": []
+      "1": [],
+      "2": [],
+      "3": []
+    },
+    "format-icons": {
+      "1": "",
+      "2": "",
+      "3": "󰙯",
+      "4": "",
+      "5": "",
+      "6": "󰯆",
+      "default": ""
+      // "active": ""
     }
-    // "format-icons": {
-    //   "1": "",
-    //   "2": "",
-    //   "3": "󰙯",
-    //   "4": "",
-    //   "5": "",
-    //   "6": "",
-    //   "7": "7.",
-    //   "8": "8.",
-    //   "9": "9.",
-    //   "10": "10.",
-    //   // "default": "",
-    //   // "active": ""
-    // }
   },
   "inhibitor": {
     "on-click": "",

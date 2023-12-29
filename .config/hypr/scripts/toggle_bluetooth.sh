@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 state=$(bluetoothctl -- show | grep Powered | awk '{ print $2 }')
 

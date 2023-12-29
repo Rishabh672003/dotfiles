@@ -1,4 +1,4 @@
-if [ "$TMUX" = "" ]; then exec tmux new-session; fi
+# if [ "$TMUX" = "" ]; then exec tmux new-session; fi
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.config/zsh/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -30,6 +30,7 @@ plug "Aloxaf/fzf-tab"
 plug "zap-zsh/vim"
 plug "Rishabh672003/zsh-autoswitch-virtualenv"
 plug "zap-zsh/fzf"
+plug "Freed-Wu/fzf-tab-source"
 
 # theme
 plug "romkatv/powerlevel10k"

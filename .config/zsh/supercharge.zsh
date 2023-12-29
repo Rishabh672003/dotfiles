@@ -7,7 +7,7 @@ compinit -C
 
 # add fnm autocomplete
 fpath+=~/.local/share/zsh/_fnm
-source ~/.local/share/zsh/_bob
+plug ~/.local/share/zsh/_bob
 
 # Execute code in the background to not affect the current session
 {
@@ -22,12 +22,6 @@ source ~/.local/share/zsh/_bob
 HISTSIZE=1000000000
 SAVEHIST=1000000000
 
-setopt hist_expire_dups_first
-setopt hist_ignore_dups
-setopt hist_ignore_space
-setopt share_history
-export HISTCONTROL=ignoredups:erasedups
-
 # completions
 zstyle ':completion:*' menu select
 zstyle ':completion:*:git-checkout:*' sort false
@@ -35,10 +29,9 @@ zstyle ':completion:*:descriptions' format '[%d]'
 zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
 zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}' 'r:|=*' 'l:|=* r:|=*'
 zstyle ':fzf-tab:*' switch-group ',' '.'
-# # zstyle ':fzf-tab:complete:systemctl-*:*' fzf-preview 'SYSTEMD_COLORS=1 systemctl status $word'
-# zstyle ':fzf-tab:complete:*:*' fzf-preview 'less ${(Q)realpath}'
-# zstyle -d ':completion:*' format
-# zstyle ':completion:*:descriptions' format '[%d]'
+zstyle ':fzf-tab:complete:systemctl-*:*' fzf-preview 'SYSTEMD_COLORS=1 systemctl status $word'
+zstyle -d ':completion:*' format
+zstyle ':completion:*:descriptions' format '[%d]'
 
 # zmodload zsh/complist
 _comp_options+=(globdots)		# Include hidden files.
@@ -62,7 +55,6 @@ setopt HIST_IGNORE_DUPS          # Don't record an entry that was just recorded 
 setopt HIST_IGNORE_ALL_DUPS      # Delete old recorded entry if new entry is a duplicate.
 setopt HIST_FIND_NO_DUPS         # Do not display a line previously found.
 setopt HIST_IGNORE_SPACE         # Don't record an entry starting with a space.
-setopt HIST_SAVE_NO_DUPS         # Don't write duplicate entries in the history file.
 setopt HIST_REDUCE_BLANKS        # Remove superfluous blanks before recording entry.
 setopt HIST_VERIFY               # Don't execute immediately upon histo
 

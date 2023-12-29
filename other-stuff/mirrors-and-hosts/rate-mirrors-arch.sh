@@ -3,7 +3,7 @@
 TMPFILE="$(mktemp)"
 export TMPFILE
 
-rate-mirrors --allow-root --disable-comments-in-file --save="$TMPFILE" arch &&
+rate-mirrors --disable-comments-in-file --save="$TMPFILE" arch &&
 	sudo mv /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist-backup &&
 	sudo mv "$TMPFILE" /etc/pacman.d/mirrorlist &&
 	sudo chmod 644 /etc/pacman.d/mirrorlist &&
