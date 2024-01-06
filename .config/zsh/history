@@ -1131,3 +1131,49 @@ sudo make install
 : 1704563007:0;yel
 : 1704563014:0;nv
 : 1704563104:0;yl
+: 1704563133:0;nv
+: 1704563620:0;cd
+: 1704563622:0;cd projects
+: 1704563637:0;cd tcet-opensource/tcet-linux-pkgbuild
+: 1704563638:0;ll
+: 1704563642:0;cd apps/tcet-linux-multilang-compiler
+: 1704563644:0;ll
+: 1704563647:0;./cleanup.sh
+: 1704563648:0;ll
+: 1704563652:0;makepkg -s
+: 1704563661:0;cd pkg
+: 1704563662:0;ll
+: 1704563664:0;cd tcet-linux-multilang-compiler
+: 1704563665:0;ll
+: 1704563670:0;nv .PKGINFO
+: 1704563701:0;ll
+: 1704563704:0;cd ..
+: 1704563704:0;ll
+: 1704563706:0;cd ..
+: 1704563706:0;ll
+: 1704563713:0;pacman -Qlp tcet-linux-multilang-compiler-24.01-1-x86_64.pkg.tar.zst
+: 1704563723:0;tar -xvf tcet-linux-multilang-compiler-24.01-1-x86_64.pkg.tar.zst
+: 1704563734:0;ll
+: 1704563771:0;tar --zstd -cf files.tar.zst files/
+: 1704563780:0;tar --zstd -cf files.tar.zst tcet-linux-multilang-compiler.tar.gz
+: 1704563780:0;ll
+: 1704564209:0;./cleanup.sh
+: 1704564210:0;ll
+: 1704564217:0;rm usr .*
+: 1704564219:0;ll
+: 1704564223:0;rm files.tar.zst
+: 1704564224:0;ll
+: 1704564224:0;cd
+: 1704564225:0;c
+: 1704564226:0;ll
+: 1704564227:0;nv
+: 1704564597:0;ssh
+: 1704564904:0;nv
+: 1704564950:0;ll
+: 1704564952:0;cd hypr
+: 1704564953:0;ll
+: 1704564955:0;rm other-configs
+: 1704564956:0;ll
+: 1704564957:0;lg
+: 1704564960:0;yel
+: 1704564967:0;yl
