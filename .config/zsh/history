@@ -72,7 +72,6 @@
 : 1688628249:0;yay pfetch
 : 1688628309:0;yay wlogout
 : 1688628363:0;yay neovim
-: 1688628376:0;firefox
 : 1688628430:0;git clone https://github.com/Rishabh672003/Neovim ~/.config/nvim && nvim
 : 1688628462:0;yay yarn
 : 1688628587:0;yay -R xdg-desktop-portal-wlr
@@ -129,7 +128,6 @@ make
 : 1688639890:0;yay -S gnome
 : 1688639991:0;waybar
 : 1688640035:0;yay downgrade
-: 1688640073:0;cd Downloads
 : 1688640162:0;yay libgnome
 : 1688640182:0;sudo downgrade evince
 : 1688640211:0;nv accels
@@ -217,12 +215,11 @@ npm i -g vscode-langservers-extracted;
 : 1688644607:0;yay playerctl
 : 1688644630:0;cd ~/.config/waybar
 : 1688644636:0;nv config.jsonc
+: 1688644654:0;yay lua-language-server
 : 1688644666:0;yay pyright
 : 1688644830:0;nv ~/.config/dunst/dunstrc
 : 1688645001:0;dunstify "hello"
-: 1688645099:0;fc-cache -f -v
 : 1688645110:0;yay jet
-: 1688645207:0;dunstify "hello world"
 : 1688645245:0;pfetch --help
 : 1688645285:0;nv ~/.config/yadm/yadm.sh
 : 1688645290:0;yay taplo
@@ -239,12 +236,14 @@ npm i -g vscode-langservers-extracted;
 : 1688647659:0;yay fd
 : 1688647672:0;bat
 : 1688647673:0;yay bat
+: 1688647757:0;cd .lo
 : 1688647801:0;ce
 : 1688647810:0;npm i -g vscode-langservers-extracted
 : 1688647817:0;sudo npm i -g vscode-langservers-extracted
 : 1688647851:0;yay bash-language-server
 : 1688647868:0;yay tsserver
 : 1688649104:0;sudo systemctl enable --now waydroid-container.service
+: 1688649174:0;yay python-pyclip
 : 1688649656:0;cd apks
 : 1688649664:0;waydroid app install tachiyomi-x86_64-v0.14.5.apk
 : 1688649669:0;waydroid app install fenix-113.0b9-x86_64.apk
@@ -270,15 +269,13 @@ npm i -g vscode-langservers-extracted;
 : 1688655660:0;sudo systemctl daemon-reload
 : 1688656327:0;yay fastfetch
 : 1688656457:0;nv .zprofile
-: 1688660105:0;cd tcet
 : 1688660129:0;sudo mkarchiso -v .
 : 1688660170:0;gh repo clone tcet-opensource/tcet-linux-welcome
 : 1688660184:0;cd tcet-welcome
 : 1688660195:0;cp -r tcet-welcome ..
 : 1688660199:0;./welcome
 : 1688660410:0;yay speedtest
-: 1688660428:0;speedtest
-: 1688661218:0;cd tcet-linux
+: 1688661258:0;llll
 : 1688661309:0;pf
 : 1688667493:0;yay -S wlsunset
 : 1688668063:0;yay okular
@@ -292,6 +289,7 @@ npm i -g vscode-langservers-extracted;
 : 1688668447:0;chmod +x libadwaita-tc.py
 : 1688668473:0;mkdir ~/.config/gtk-4.0
 : 1688668474:0;./libadwaita-tc.py
+: 1688668572:0;yay nautilus
 : 1688668627:0;yay -Rns nautilus
 : 1688668631:0;yay -Cc
 : 1688668932:0;yay -S lxappearence
@@ -357,7 +355,6 @@ npm i -g vscode-langservers-extracted;
 : 1688742482:0;yay -Rns gnome-settings-daemon
 : 1688742490:0;yay -Rns gnome-settings-daemon gnome-tweaks
 : 1688742493:0;yay c
-: 1688742497:0;yay -c
 : 1688742653:0;cd PhilRel
 : 1688742662:0;mv Graham\ Oppy,\ N.\ N.\ Trakakis\ -\ Nineteenth-Century\ Philosophy\ of\ Religion_\ The\ History\ of\ Western\ Philosophy\ of\ Religion,\ Volume\ 4-Routledge\ \(2014\).pdf History-of-religion
 : 1688742665:0;cd History-of-religion
@@ -479,7 +476,6 @@ sudo modprobe kvm_amd nested=1
 : 1688804944:0;sudo mv grub.pacsave grub
 : 1688804965:0;nv /etc/pacman.d
 : 1688804972:0;nv /etc/pacman.conf
-: 1688805090:0;yay -Yc
 : 1688806284:0;cd /etc/pacman.d
 : 1688806289:0;cd gnupg
 : 1688806389:0;nv pacman.conf
@@ -501,13 +497,13 @@ sudo modprobe kvm_amd nested=1
 : 1688882043:0;nv .bash_profile
 : 1688882052:0;nv .bashrc
 : 1688882077:0;eos-pacdiff
-: 1688884077:0;killall -9 firefox
 : 1688894607:0;gh repo clone Jacekun/AniPy
 : 1688894620:0;cd AniPy
 : 1688894640:0;yay python-pip
 : 1688894663:0;pip install virtualenv
 : 1688894680:0;yay virtualvenv
 : 1688894686:0;yay virtualenv
+: 1688894709:0;mkvenv
 : 1688894759:0;python main.py
 : 1688894820:0;cd output
 : 1688895371:0;nv ISSUE.md
@@ -523,11 +519,13 @@ sudo modprobe kvm_amd nested=1
 : 1688904020:0;nv ~/.config/kitty/kitty.conf
 : 1688906553:0;nvim a.py
 : 1688906633:0;mv nvim-basic-ide ~/.config
+: 1688906685:0;cd .config/nvim-basic-ide
 : 1688906692:0;nvim lua/utils/init.lua
 : 1688906844:0;cd ~/projects/rust-projects/guessing-game
 : 1688906849:0;nbi src/main.rs
 : 1688915113:0;cd nvim-
 : 1688918727:0;/usr/local/bin
+: 1688918742:0;echo $PATH
 : 1688919062:0;nv grimblast
 : 1688921955:0;wl
 : 1688922110:0;Hyprland -v
@@ -562,6 +560,7 @@ sudo modprobe kvm_amd nested=1
 : 1701886912:0;mv lessfilter.sh lessfilter
 : 1701886932:0;mv lessfilter ~/.local/bin
 : 1701887269:0;build-fzf-tab-module
+: 1701887384:0;ld
 : 1701887389:0;cd .android
 : 1701887480:0;rm -rf ~/.local/share/zap/plugins/fzf-tab
 : 1701888070:0;cd ~/.local/bin/lessfilter ~/.lessfilter
@@ -583,6 +582,7 @@ sudo modprobe kvm_amd nested=1
 : 1701888924:0;yay -Ss hr
 : 1701925252:0;zap list
 : 1701925268:0;bob list
+: 1701926234:0;cd cherno
 : 1701929394:0;cd gtk-app
 : 1701929420:0;cmake-language-server
 : 1701947313:0;mkdir random-number
@@ -599,12 +599,14 @@ sudo modprobe kvm_amd nested=1
 : 1701957927:0;mv random
 : 1701957930:0;mv random rand
 : 1701958005:0;ln -s build/random ~/.local/bin/random
+: 1701958024:0;random
 : 1701958027:0;random 12
 : 1701958064:0;ln -s ~/projects/random-number/build/random ~/.local/bin/random
 : 1701958080:0;rm ~/.local/bin/random
 : 1701958082:0;rm ~/.local/bin/rand
 : 1701958087:0;ln -s ~/projects/random-number/build/random ~/.local/bin/rand
 : 1701966792:0;rand 12
+: 1701966842:0;nv .gitignore
 : 1701966976:0;git clone https://github.com/Rishabh672003/random-number-generator.git
 : 1701966987:0;cp -r random-number-generator/.git random-number
 : 1701966992:0;rm -rf random-number-generator
@@ -620,7 +622,7 @@ sudo modprobe kvm_amd nested=1
 : 1701972549:0;ws
 : 1701972782:0;cd hyprland
 : 1701972801:0;nv hyprlandCrashReport697.txt
-: 1702009626:0;vs /etc/pacman.conf
+: 1701972821:0;cd .cache
 : 1702010541:0;yay lesspipe
 : 1702010560:0;cd Music
 : 1702010569:0;nv main.py
@@ -638,8 +640,9 @@ sudo modprobe kvm_amd nested=1
 : 1702013325:0;nv CHANGELOG.rst
 : 1702013485:0;nv .git
 : 1702013915:0;cd .con
-: 1702013917:0;cd hypr
 : 1702013919:0;nv hyprland.conf
+: 1702015302:0;cd lua
+: 1702015480:0;ls
 : 1702015520:0;cp lsp.lua ~/.config/nvim/lua/rj/plugins/
 : 1702015602:0;cp alpha.lua ../fortune.lua ~/.config/nvim/lua/rj/plugins
 : 1702015642:0;mv lua/rj/plugins/fortune.lua lua/rj
@@ -654,6 +657,7 @@ sudo modprobe kvm_amd nested=1
 : 1702016312:0;nv autocommands.lua
 : 1702016476:0;cp plugins/neo-tree.lua ~/.config/nvim/lua/rj/plugins
 : 1702016665:0;cp plugins/dap.lua plugins/dapui.lua ~/.config/nvim/lua/rj/plugins
+: 1702016698:0;nvim init.lua
 : 1702016744:0;cp treesitter.lua ~/.config/nvim/lua/rj/plugins
 : 1702016792:0;cp noice.lua ~/.config/nvim/lua/rj/plugins
 : 1702016905:0;cp nvim-toggleterm.lua ~/.config/nvim/lua/rj/plugins
@@ -662,9 +666,13 @@ sudo modprobe kvm_amd nested=1
 : 1702017049:0;cp indentline.lua ~/.config/nvim/lua/rj/plugins
 : 1702017162:0;cd rj
 : 1702017165:0;nv keymaps.lua
+: 1702017232:0;cd plugins
 : 1702017244:0;cp jaq.lua ~/.config/nvim/lua/rj/plugins
 : 1702017276:0;cp auto-save.lua autopairs.lua ~/.config/nvim/lua/rj/plugins
+: 1702017532:0;cdpp
 : 1702017538:0;nv rj/keymaps.lua
+: 1702017740:0;cd .config
+: 1702017825:0;nv init.lua
 : 1702019973:0;animedl
 : 1702019976:0;yay anime
 : 1702019991:0;ani-cli zom100
@@ -680,10 +688,12 @@ sudo modprobe kvm_amd nested=1
 : 1702023758:0;rand -121313
 : 1702023834:0;./build/random 12122221212
 : 1702023838:0;./build/random 121222212
+: 1702024332:0;cd random
 : 1702024334:0;cd[]
 : 1702026877:0;yay boost
 : 1702027572:0;ldconfig
 : 1702027578:0;sudo ldconfig
+: 1702028784:0;clear
 : 1702029011:0;rm -rf ~/.cache/CPM/boost-cmake
 : 1702029384:0;\rm -rf ~/Videos/Movies/Doctor\ Sleep\ \(2019\)\ \[1080p\]\ \[WEBRip\]\ \[5.1\]\ \[YTS.LT\]
 : 1702032177:0;./build/cherno 12
@@ -712,6 +722,8 @@ sudo modprobe kvm_amd nested=1
 : 1702035669:0;cd CPM_modules/FindBoost.cmake
 : 1702035677:0;nv CPM_modules/FindBoost.cmake
 : 1702035696:0;dcp
+: 1702035738:0;cd projects/tcet-opensource/xfce-xpytile-panel-plugin
+: 1702037812:0;cd projects/cherno-cpp
 : 1702053123:0;cd xfce4-sample-plugin
 : 1702053159:0;cd tcet-opensource/xfce-xpytile-panel-plugin
 : 1702057150:0;webcord
@@ -723,6 +735,7 @@ sudo modprobe kvm_amd nested=1
 : 1702059296:0;cd nvim-r
 : 1702060306:0;cp build/cherno ~/.local/bin/rand
 : 1702060311:0;ll ~/.local/bin
+: 1702060320:0;lvim
 : 1702060668:0;rand 5
 : 1702060689:0;rand 10
 : 1702091790:0;g++ ternery.cpp
@@ -743,9 +756,11 @@ sudo modprobe kvm_amd nested=1
 : 1702118644:0;cd movie
 : 1702118645:0;cd The\ Shining\ \(1980\)\ \[BluRay\]\ \[1080p\]\ \[YTS.AM\]
 : 1702118649:0;unzip layakww.zip
+: 1702143015:0;
 : 1702118684:0;mpv The.Shining.1980.1080p.BluRay.x264-\[YTS.AM\].mp4
 : 1702129567:0;yay -Rnsdd brltty
 : 1702129574:0;yay -S brltty
+: 1702135895:0;trash-empty
 : 1702143204:0;rand 1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
 : 1702143700:0;cd lear
 : 1702143704:0;nv Cargo.toml
@@ -753,6 +768,7 @@ sudo modprobe kvm_amd nested=1
 : 1702144677:0;xo m2-res_360p.mp4
 : 1702144715:0;mpv m2-res_360p.mp4
 : 1702145012:0;rad
+: 1702145016:0;rand
 : 1702145324:0;wpaperd&
 : 1702189937:0;cd projects/rock-paper-scissors
 : 1702190127:0;rm .cache bin CMakeCache.txt CMakeFiles compile_commands.json
@@ -774,11 +790,11 @@ sudo modprobe kvm_amd nested=1
 : 1702202994:0;jobs
 : 1702202996:0;fg
 : 1702205746:0;mpv Doctor.Sleep.2019.1080p.WEBRip.x264.AAC5.1-\[YTS.LT\].mp4
-: 1702210117:0;killall -9 wpaperd
+: 1702218244:0;nbi
+: 1702219124:0;\rm -rf *
 : 1702219133:0;cd Anime
 : 1702219136:0;cd one-piece
 : 1702219141:0;ncdu
-: 1702270085:0;yay hyprland
 : 1702272541:0;source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 : 1702272549:0;[ -f "$HOME/.local/share/zap/zap.zsh" ] && source "$HOME/.local/share/zap/zap.zsh"\
 
@@ -792,15 +808,20 @@ plug ~/.config/zsh/supercharge.zsh\
 : 1702272640:0;cd .local/share/zap
 : 1702272646:0;cd plugins/fzf-tab-source
 : 1702272653:0;nv fzf-tab-source.plugin.zsh
+: 1702288310:0;nvim $(fzf)
 : 1702289780:0;kg
 : 1702289894:0;git rebase main
+: 1702289899:0;git rebase dev
 : 1702294061:0;cd rand
 : 1702294142:0;nv conan_provider.cmake
 : 1702294185:0;cmake -B build -S . -DCMAKE_PROJECT_TOP_LEVEL_INCLUDES=./conan_provider.cmake -DCMAKE_BUILD_TYPE=RelWithDebInfo
 : 1702294213:0;rm test
 : 1702294220:0;g++ test.cpp -o test -g3
+: 1702306002:0;cd projects/random-number
+: 1702314696:0;make
 : 1702314788:0;g++ test.cpp -o test -g3 -std=c++23 -fmodules-ts
 : 1702315838:0;lv
+: 1702316044:0;cd Programming-Notes
 : 1702316046:0;cd CPP
 : 1702316074:0;nv 30.type-casting.cpp
 : 1702317116:0;gdb
@@ -822,6 +843,7 @@ plug ~/.config/zsh/supercharge.zsh\
 : 1702444105:0;cal
 : 1702444158:0;nv test.md
 : 1702444343:0;rand 22
+: 1702445642:0;killall -9 electron
 : 1702453248:0;cd Videos
 : 1702453252:0;cd Movies
 : 1702453255:0;cd Night.of.the.Living.Dead.1968.REMASTERED.1080p.BluRay.x265-RARBG
@@ -830,7 +852,6 @@ plug ~/.config/zsh/supercharge.zsh\
 : 1702463394:0;mpv Night.of.the.Living.Dead.1968.REMASTERED.1080p.BluRay.x265-RARBG.mp4 --sub-file=Subs/5_English.srt
 : 1702468721:0;hx time.cpp
 : 1702472170:0;nv stl.cpp
-: 1702474071:0;nap
 : 1702474095:0;cd usefull-stuff
 : 1702474099:0;nv indentline2.lua
 : 1702474238:0;cd ~/projects/usefull-stuff
@@ -842,8 +863,11 @@ plug ~/.config/zsh/supercharge.zsh\
 : 1702482594:0;yay clangd
 : 1702482649:0;yay llvm
 : 1702482788:0;clangd
+: 1702482820:0;cd projects/random
 : 1702482832:0;nv cpp/variadic.cpp
+: 1702488523:0;nv ~/projects/.clang-format
 : 1702488634:0;time g++ variadic.cpp -O3 -o var
+: 1702489027:0;install-grub
 : 1702489042:0;cz
 : 1702489170:0;sudo paccache -rk0
 : 1702489426:0;cd progra
@@ -857,6 +881,7 @@ plug ~/.config/zsh/supercharge.zsh\
 : 1702530284:0;cd problems
 : 1702530292:0;g++ symmetric-bt.cpp
 : 1702530298:0;./a.out
+: 1702531727:0;nvim --clean
 : 1702533231:0;rand 21
 : 1702534132:0;bob rollback
 : 1702534156:0;yay bob
@@ -864,25 +889,43 @@ plug ~/.config/zsh/supercharge.zsh\
 : 1702536911:0;nv namespace.cpp
 : 1702537473:0;cd .local/share/bob
 : 1702537481:0;rm -rf nvim-bin
+: 1702537491:0;rm -rf *
+: 1702537519:0;nvim
 : 1702537531:0;bob use e527842211188a5c069ef4f4759aa291353b707f
 : 1702537936:0;bob ls
 : 1702553080:0;cd .local/bin
+: 1702553115:0;cd pro
 : 1702553117:0;cd random-number
+: 1702553122:0;cd cherno-cpp
 : 1702554610:0;git init
 : 1702554646:0;cp ../random-number/LICENSE.
 : 1702554709:0;touch src/main.cpp
 : 1702556473:0;./build/random
 : 1702556526:0;./build/hash-function
+: 1702556530:0;echo $?
 : 1702556646:0;make build
 : 1702564403:0;bob use e527842
+: 1702564404:0;n
+: 1702569056:0;nv test.cpp
 : 1702569091:0;g++ test.cpp -o test -O3
 : 1702569105:0;time ./test
+: 1702575515:0;bob use stable
+: 1702575593:0;bob use nightly
 : 1702617618:0;yay -Rnsdd python-websockets
 : 1702617629:0;yay python-websockets
 : 1702622406:0;rm -rf hash-table
 : 1702622412:0;mkdir hash-table
+: 1702622414:0;cd hash-table
+: 1702622420:0;cp ../random-number/LICENSE .
+: 1702622425:0;cp ../random-number/Makefile .
+: 1702622433:0;cp ../random-number/CMakeLists.txt .
+: 1702622443:0;make prepare
 : 1702622449:0;mkdir src build
+: 1702622452:0;cd src
+: 1702622456:0;nv main.cpp
+: 1702622528:0;nv CMakeLists.txt
 : 1702622692:0;./hash-table
+: 1702627478:0;make builddeps
 : 1702631930:0;rand 25
 : 1702631944:0;rand 2
 : 1702631964:0;rand 20
@@ -890,799 +933,201 @@ plug ~/.config/zsh/supercharge.zsh\
 : 1702635183:0;nv .p10k.zsh
 : 1702642320:0;nv -d src/hash_table.cpp src/hash_table.hpp
 : 1702642328:0;nv -d --clean src/hash_table.cpp src/hash_table.hpp
+: 1702642352:0;cd nvim
+: 1702642357:0;cd lua/rj/plugins
 : 1702642367:0;nvim --clean -d alpha.lua autopairs.lua
 : 1702642508:0;git add .
 : 1702642514:0;git commit
 : 1702642542:0;nv smoothie.lua
 : 1702642825:0;nvim -d alpha.lua autopairs.lua
 : 1702644541:0;pacman -Qi
+: 1702644548:0;pacman -Qi debuginfod
 : 1702645359:0;make rum
+: 1702645809:0;make run
 : 1702655029:0;nv history
-: 1702656879:0;cd projects/Competetive-programming/leetcode
-: 1702656889:0;nv valid-paren.cpp
-: 1702721641:0;git clone https://github.com/Rishabh672003/Hash-Table-in-CPP.git
-: 1702721658:0;mv Hash-Table-in-CPP/.git Hash-Table-in-CPP/README.md .
-: 1702721664:0;rm -rf Hash-Table-in-CPP
-: 1702725164:0;rand
-: 1702725245:0;random
-: 1702735698:0;mkdir game-programming-with-sdl
-: 1702735700:0;cd game-programming-with-sdl
-: 1702735710:0;cp ../random-number/CMakeLists.txt .
-: 1702735713:0;cp ../random-number/Makefile .
-: 1702735720:0;cp ../random-number/.gitignore .
-: 1702735727:0;mkdir src
-: 1702735732:0;make prepare
-: 1702735748:0;pacman -Qi debuginfod
-: 1702737965:0;cd .builds
-: 1702737977:0;nv binary-addition.s1
-: 1702738189:0;mkdir JIT-compiler_CPP
-: 1702738199:0;mv JIT-compiler_CPP JIT-compiler-CPP
-: 1702738201:0;cd JIT-compiler-CPP
-: 1702738224:0;touch stuff.s
-: 1702738226:0;nv stuff.s
-: 1702738235:0;mv stuff.s stuff.S
-: 1702738237:0;nv stuff.S
-: 1702738395:0;as stuff.S -o stuff.o
-: 1702738414:0;objdump -M intel -D stuff.o
-: 1702738535:0;nv jit.cpp
-: 1702739407:0;as stuff.S
-: 1702739417:0;./stuff.o
-: 1702739472:0;ld -s -o stuff.o stuff
-: 1702739486:0;ld -s -o stuff.S
-: 1702739516:0;as stuff.S -o program.o
-: 1702739521:0;ld -s -o program program.o
-: 1702739529:0;./program
-: 1702745877:0;xo .&
-: 1702747129:0;cd .lo
-: 1702747136:0;cd share/nvim/lazy/harpoon
-: 1702747148:0;nv lua/harpoon/init.lua
-: 1702748723:0;git add -p lua/rj/plugins/whichkey.lua
-: 1702788144:0;git rebase dev
-: 1702790787:0;nv /var/log/pacman.log
-: 1702790809:0;yay -Rnsdd python-sympy
-: 1702790816:0;yay -S python-sympy
-: 1702795876:0;vim
-: 1702795884:0;nvim --cleam
-: 1702795888:0;nvim -c
-: 1702798990:0;cd projects/random
-: 1702799067:0;nv array.cpp
-: 1702799086:0;cp .jaq.json cpp
-: 1702799095:0;cp .jaq.json ..
-: 1702799907:0;cp .jaq.json Competetive-programming
-: 1702799915:0;cd leetcode
-: 1702799917:0;nv anagram.cpp
-: 1702799930:0;cp .jaq.json POTD
-: 1702799934:0;cp .jaq.json codechef
-: 1702799937:0;cp .jaq.json codeforces
-: 1702799942:0;cp .jaq.json gfg
-: 1702799945:0;cp .jaq.json hackerrank
-: 1702800003:0;mv .jaq.json ..
-: 1702800054:0;mv ../.jaq.json .
-: 1702800080:0;cd cpp
-: 1702800087:0;cd Competetive-programming
-: 1702800090:0;rm -rf .jaq.json
-: 1702800106:0;rm -rf POTD/.jaq.json
-: 1702800136:0;cp codeforces/.jaq.json ~/projects
-: 1702800142:0;cp ~/projects/.jaq.json .
-: 1702801849:0;cd pro
-: 1702801860:0;cp .jaq.json random
-: 1702801863:0;cp .jaq.json random/cpp
-: 1702801865:0;cd random
-: 1702801888:0;rmbin
-: 1702801894:0;rm abs
-: 1702807833:0;cd game-pro
-: 1702807841:0;unzip 02_getting_an_image_on_the_screen.zip
-: 1702807844:0;cd 02_getting_an_image_on_the_screen
-: 1702807850:0;nv 02_getting_an_image_on_the_screen.cpp
-: 1702809624:0;cp ~/projects/hash-table/src/.jaq.json src
-: 1702809631:0;nv .jaq.json
-: 1702809859:0;cp ../random-number/LICENSE .
-: 1702809887:0;git cone https://github.com/Rishabh672003/learning-SDL.git
-: 1702809893:0;git clone https://github.com/Rishabh672003/learning-SDL.git
-: 1702809903:0;mv learning-SDL/.git .
-: 1702809908:0;mv learning-SDL/README.md .
-: 1702809914:0;rm -rf learning-SDL
-: 1702822033:0;mv main.cpp First-Image.cpp
-: 1702822036:0;nv main.cpp
-: 1702822356:0;curl -LO https://lazyfoo.net/tutorials/SDL/03_event_driven_programming/03_event_driven_programming.zip
-: 1702822361:0;unzip 03_event_driven_programming.zip
-: 1702822365:0;cd 03_event_driven_programming
-: 1702822370:0;nv readme.txt
-: 1702822660:0;nv 03_event_driven_programming.cpp
-: 1702822904:0;cd projects/game-programming-with-sdl
-: 1702822911:0;mkdir lessons
-: 1702822928:0;mv src/Hello-SDL.cpp src/First-Image.cpp lessons
-: 1702822931:0;cd lessons
-: 1702822942:0;mv Hello-SDL.cpp 01-Hello-SDL.cpp
-: 1702822952:0;mv First-Image.cpp 02-First-Image.cpp
-: 1702823794:0;cd .config/clangd/nv
-: 1702824755:0;mkdir xfce-plugin
-: 1702824764:0;cd xfce-plugin
-: 1702824773:0;nv main.c
-: 1702824855:0;gcc -o my_plugin main.c `pkg-config --cflags --libs xfce4-panel-1.0`
-: 1702824863:0;gcc -o my_plugin main.c `pkg-config --cflags --libs xfce4-panel-1.0 gtk-3.0`
-: 1702824872:0;gcc -o my_plugin main.c `pkg-config --cflags --libs xfce4-panel-1.0 gtk+3.0`
-: 1702824910:0;gcc -o my_plugin main.c `pkg-config --cflags --libs xfce4-panel-1.0 gtk+-3.0`
-: 1702824921:0;yay xfce-panel
-: 1702824925:0;yay xfce4-panel
-: 1702825776:0;git clone https://github.com/Rishabh672003/neovim
-: 1702825813:0;cd neovim
-: 1702825869:0;rm -rf neovim
-: 1702832330:0;vn
-: 1702834216:0;bob use stable
-: 1702834235:0;cd hash-
-: 1702834512:0;wget
-: 1702834882:0;cd .config/nvim-basic-ide
-: 1702834885:0;nbi init.lua
-: 1702835442:0;killall -9 wpaperd && wpaperd&
-: 1702835475:0;yay neovim-nightly-bin
-: 1702836898:0;cd dsa-in-java
-: 1702836903:0;nv NaiveStringMatch.java
-: 1702837049:0;bob use nightly
-: 1702837707:0;rm -rf ftplugin/java.lua
-: 1702876114:0;cd .config/clangd/config.yaml
-: 1702876301:0;nv .clang-format
-: 1702876379:0;nv ~/projects/.clang-format
-: 1702876390:0;nv ~/.config/clangd/config.yaml
-: 1702879377:0;nv compile
-: 1702882431:0;cd .config/clangd/
-: 1702882433:0;nv config.yaml
-: 1702891262:0;nv plugin-notes
-: 1702896648:0;nr
-: 1702900402:0;cd tcet-opensource
-: 1702900406:0;cd xfce-xpytile-panel-plugin
-: 1702900458:0;nv .gitignore
-: 1702901209:0;cd projects/cherno-cpp
-: 1702901212:0;nv CMakeLists.txt
-: 1702908225:0;grep -rm
-: 1702908231:0;grep -rm "hello"
-: 1702910683:0;rm -rf xfce-xpytile-panel-plugin
-: 1702910730:0;git clone https://github.com/tcet-opensource/tcet-linux-xpytile-panel-plugin.git
-: 1702911117:0;cd .cache
-: 1702911796:0;cd tooling
-: 1702912713:0;nv README
-: 1702912716:0;rm README
-: 1702922504:0;cd cherno
-: 1702922741:0;lllllll
-: 1702922758:0;nvim ~/.config/kitty/kitty.conf
-: 1702960314:0;cd projects/tcet-opensource/xfce-xpytile-panel-plugin
-: 1702960318:0;cd projects/tcet-opensource/
-: 1702976278:0;pacman -Qq | fzf
-: 1702977377:0;cd Videos/Movies
-: 1702977380:0;cd Nightmare\ Sisters\ \(1988\)\ \[BluRay\]\ \[1080p\]\ \[YTS.AM\]/
-: 1702977384:0;unzip nightmare-sisters-1988_english-2005180.zip
-: 1702977399:0;mpv Nightmare.Sisters.1988.1080p.BluRay.x264-\[YTS.AM\].mp4 --sub-file=Nightmare.Sisters.1988.720p.BluRay.x264-\[YTS.AM\].srt
-: 1702979408:0;rm -rf Videos/Movies/*
-: 1702979422:0;sudo trash-empty
-: 1702979439:0;cd /home/rishabh/.local/share/Trash/files/
-: 1702979452:0;\rm -rf *
-: 1702979462:0;sudo rm -rf xfce-xpytile-panel-plugin
-: 1702987218:0;rm -rf cherno-cpp
-: 1702987282:0;git clone https://github.com/Rishabh672003/cpp-project.git
-: 1702987294:0;mv cpp-project cherno-cpp
-: 1702987409:0;cp ../hash-table/src/.jaq.json src
-: 1702995033:0;l
-: 1702995045:0;cd projects/tcet-opensource/tcet-linux-xpytile-panel-plugin
-: 1702995344:0;make compilr
-: 1702999249:0;cd sdl
-: 1702999279:0;curl -LO https://lazyfoo.net/tutorials/SDL/04_key_presses/04_key_presses.zip
-: 1702999287:0;unzip 04_key_presses.zip
-: 1702999417:0;cd 04_key_presses
-: 1702999437:0;cp *.bmp ../../assets
-: 1703001271:0;mv game-programming-with-sdl graphics-programming-with-sdl
-: 1703001274:0;cd graphics-programming-with-sdl
-: 1703001397:0;nvim -d src/main.cpp zips/04_key_presses/04_key_presses.cpp
-: 1703008280:0;cd zips
-: 1703008311:0;curl -LO https://lazyfoo.net/tutorials/SDL/05_optimized_surface_loading_and_soft_stretching/05_optimized_surface_loading_and_soft_stretching.zip
-: 1703008320:0;unzip *
-: 1703008324:0;cd 05_optimized_surface_loading_and_soft_stretching
-: 1703008329:0;nv 05_optimized_surface_loading_and_soft_stretching.cpp
-: 1703008678:0;cp stretch.bmp ../../assets
-: 1703008939:0;make compile && make run
-: 1703009842:0;cc
-: 1703009851:0;llllllllllllllll
-: 1703009853:0;exa
-: 1703009857:0;exa -l
-: 1703009861:0;llll
-: 1703009864:0;tree
-: 1703009888:0;tree | wc -l
-: 1703067685:0;nvkim
-: 1703068176:0;nc
-: 1703068351:0;cat
-: 1703068472:0;nvim --clean
-: 1703069054:0;lll
-: 1703069227:0;cd projects/graphics-programming-with-sdl
-: 1703069246:0;pacman -Q | fzf
-: 1703069655:0;cd .cache/CPM
-: 1703069675:0;rm -rf sdl2 sdl2-image
-: 1703069749:0;rm -rf ~/.cache/CPM/sdl_image
-: 1703069980:0;nvim $(fzf)
-: 1703070152:0;rm a.json
-: 1703078955:0;lvim
-: 1703080175:0;yay -Rns clang
-: 1703080214:0;cd nvim-basic
-: 1703080508:0;vim init.lua
-: 1703082880:0;cd tcet-linux-xpytile-panel-plugin
-: 1703083009:0;cd panel-plugin
-: 1703083012:0;make clean
-: 1703083034:0;cp sample-dialogs.c sample-dialogs.h sample.c sample.h ../../
-: 1703083054:0;cp ../*.c ../*.h src
-: 1703083077:0;rm hello-plugin.c hello-plugin.h
-: 1703083083:0;rm register-plugin.c
-: 1703083088:0;nv sample.c
-: 1703083300:0;make
-: 1703092964:0;yay -R lua-language-server
-: 1703093043:0;which lua-language-server
-: 1703093101:0;sdr
-: 1703093577:0;nv /etc/pacman.d/mirrorlist
-: 1703094189:0;yay -Rns gopls
-: 1703094227:0;cd ~/.local/share/nvim/mason/bin
-: 1703094237:0;echo $PATH
-: 1703094433:0;yay gopls
-: 1703094468:0;yay lua-language-server
-: 1703143285:0;mkdir numpy
-: 1703143301:0;pip install numpy
-: 1703148083:0;pip install matplotlib
-: 1703148191:0;pip install matplotlib.pyplot
-: 1703149242:0;cp $(fzf) .
-: 1703149248:0;cp $(fzf)
-: 1703149256:0;cp $(fzf $HOME) .
-: 1703149298:0;cp projects/python-study/data.csv ~/projects/numpy
-: 1703149303:0;cd projects/numpy/
-: 1703149486:0;nv pandas.py
-: 1703149544:0;pandas
-: 1703149699:0;nbi
-: 1703150057:0;yay python-pandas
-: 1703150067:0;rm -rf __pycache__
-: 1703150098:0;pip install pandas
-: 1703150102:0;pip install scipy
-: 1703151743:0;fzf
-: 1703151757:0;cd projects/python-study/PPCA
-: 1703151763:0;nv ffd.py
-: 1703161566:0;cdpp
-: 1703161569:0;cd numpy
-: 1703170833:0;git clone https://github.com/LazyVim/starter lazyvim
-: 1703170840:0;nl
-: 1703170846:0;alias nl
-: 1703170853:0;man nl
-: 1703170865:0;nl zoom.conf
-: 1703170892:0;NVIM-APPNAME=lazyvim nvim
-: 1703170899:0;cali
-: 1703174420:0;nvim .
-: 1703174546:0;nvimm
-: 1703176058:0;cd .local/share/nvim/lazy/lazy.nvim/lua/lazy/core/handler/event.lua
-: 1703176061:0;cd .local/share/nvim/lazy/lazy.nvim/lua/lazy/core/handler/
-: 1703176063:0;nv event.lua
-: 1703176108:0;nvim init.lua
-: 1703176385:0;cp ~/.config/nvim/lua/rj/plugins/* ~/.config/lazyvim/lua/plugins
-: 1703176498:0;cp ~/.config/nvim/lua/* ~/.config/lazyvim/lua
-: 1703179151:0;cd kitty
-: 1703179162:0;rm -rf .git
-: 1703179277:0;cd lua
-: 1703179280:0;cd plugins
-: 1703179284:0;cd config
-: 1703179288:0;nv lazy.lua
-: 1703179383:0;vim .
-: 1703179930:0;cd lua/rj/plugins
-: 1703180021:0;nv ~/.config/nvim/lua/rj/plugins/init.lua
-: 1703180163:0;nv init.lua
-: 1703180899:0;nv src/main.cpp
-: 1703181056:0;cd projects/numpy
-: 1703181060:0;nv np.py
-: 1703181092:0;nvim np.py
-: 1703181107:0;nv data.csv
-: 1703181152:0;cd go
-: 1703181157:0;nv hello-world/main.go
-: 1703181703:0;nv a.txt
-: 1703181757:0;nv ini
-: 1703181763:0;nv bmi/main.go
-: 1703181855:0;nv a.ini
-: 1703182877:0;lua-language-server
-: 1703182887:0;cd .local/share/nvim/lazy
-: 1703182890:0;cd mason.nvim
-: 1703183790:0;yay -Rns lua-language-server
-: 1703183893:0;n
-: 1703183895:0;vnvnv
-: 1703184275:0;yay -S lua-language-server
-: 1703251493:0;install-grub
-: 1703267525:0;yay -Rnsdd python-pyclip
-: 1703267531:0;yay python-pyclip
-: 1703267548:0;ws&
-: 1703267558:0;clear
-: 1703314138:0;mkdir ML-notebooks
-: 1703314145:0;cd ML-notebooks
-: 1703314153:0;unzip drive-download-20231223T064915Z-001.zip
-: 1703314158:0;rm drive-download-20231223T064915Z-001.zip
-: 1703314291:0;gh repo clone Rishabh672003/Learning-machine-learning
-: 1703314303:0;mv Learning-machine-learning/* .
-: 1703314307:0;rm -rf Learning-machine-learning
-: 1703315007:0;mkvenv
-: 1703326065:0;ping 9.9.9.9
-: 1703327258:0;cd hash
-: 1703327262:0;valgrind ./hash-table
-: 1703327546:0;make compile -fsanitize=address
-: 1703328550:0;valgrind ./build/hash-table
-: 1703328772:0;valgrind ./build/hash-table --leak-check=full
-: 1703328786:0;valgrind ./build/hash-table --leak-check=full -s
-: 1703329903:0;lf
-: 1703341596:0;cd projects/random-number
-: 1703341601:0;cd cherno-cpp
-: 1703341614:0;cp Dockerfile .dockerignore ../hash-table
-: 1703341626:0;cd hash-table
-: 1703341635:0;nv Makefile
-: 1703341638:0;nv Dockerfile
-: 1703341799:0;
-: 1703341732:0;mkdir -p .github/workflows
-: 1703341750:0;cp ../cherno-cpp/.github/workflows/cmake-single-platform.yml ./.github/workflows
-: 1703343994:0;yay nautilus
-: 1703344207:0;cd .config
-: 1703344218:0;cd lazyvim
-: 1703344229:0;cd lua/plugins
-: 1703344234:0;rm -rf *
-: 1703344253:0;cp ~/.config/nvim/lua/rj/lsp/clangd.lua ~/.config/lazyvim/lua/plugins
-: 1703344452:0;cd .config/lazyvim
-: 1703344475:0;cd projects/hash-table
-: 1703344477:0;NVIM_APPNAME=lazyvim nvim
-: 1703344572:0;nvim
-: 1703346183:0;cd ml
-: 1703346195:0;rm -rf *.ipynb
-: 1703346199:0;unzip drive-download-20231223T154327Z-001.zip
-: 1703346203:0;rm -rf drive-download-20231223T154327Z-001.zip
-: 1703347321:0;pip install tensorflow
-: 1703352235:0;echo $?
-: 1703353354:0;yay mdbook
-: 1703353390:0;mdbook init Programming-Notes-book
-: 1703353494:0;cp ~/projects/Programming-Notes/CPP/* .
-: 1703353495:0;kk
-: 1703353511:0;cd Programming-Notes-book
-: 1703353523:0;cd src
-: 1703353536:0;rm chapter_1.md
-: 1703353541:0;\ls | wl-copy
-: 1703353846:0;cd book
-: 1703353868:0;firefox 01-intro.html
-: 1703353991:0;tmux a
-: 1703354477:0;nv index.html
-: 1703354760:0;rm -rf OOP Algorithms Data-Structures JavaScript TypeScript CPP CPP-html
-: 1703354775:0;cp -r ../Programming-Notes-book/* .
-: 1703354785:0;mdbook build
-: 1703354790:0;mdbook serve --open
-: 1703355062:0;git push
-: 1703355068:0;git push origin HEAD:website
-: 1703355626:0;rm .github/workflows/deploy.yml
-: 1703355686:0;nv .github/workflows/deploy.yml
-: 1703356118:0;nv src/SUMMARY.md
-: 1703357502:0;mv ML-notebooks Learning-machine-learning
-: 1703357506:0;cd Learning-machine-learning
-: 1703396190:0;cd Programming-Notes
-: 1703396193:0;nv README.md
-: 1703402755:0;cd projects/Rishabh672003
-: 1703402771:0;git pull
-: 1703402779:0;cd ..
-: 1703402782:0;cd .githu
-: 1703402785:0;cd .
-: 1703402832:0;gh repo clone Rishabh672003/.github /tmp/github
-: 1703402848:0;cd /tmp/github
-: 1703402852:0;rm ANN_for_regression.ipynb
-: 1703412009:0;cdp
-: 1703413747:0;cd .vim
-: 1703413751:0;nv .netrwhist .netrwhist
-: 1703436391:0;tmux
-: 1703438104:0;yay emacs
-: 1703440276:0;emacs
-: 1703440296:0;yay -Rnsdd emacs-wayland
-: 1703440307:0;nv projects/test.cpp
-: 1703481548:0;rm -rf .emacs.d
-: 1703481555:0;s
-: 1703481556:0;ld
-: 1703481922:0;yay wave
-: 1703482252:0;yay -Rnsdd waveterm
-: 1703499969:0;make builddeps
-: 1703500827:0;make run
-: 1703501199:0;mv
-: 1703501291:0;cd build
-: 1703507662:0;curl https://deeplearningcourses.com/notebooks/Gzq2dDVMqQhrp0RGPK4i1Q/bD5TD_phcL-6ake6w7lEug >> a.ipynb
-: 1703507686:0;curl -L https://deeplearningcourses.com/notebooks/Gzq2dDVMqQhrp0RGPK4i1Q/bD5TD_phcL-6ake6w7lEug >> a.ipynb
-: 1703507697:0;nv a.ipynb
-: 1703515132:0;cd nvim
-: 1703515151:0;lsattr .stylua.toml
-: 1703515159:0;chattr -w .stylua.toml
-: 1703515174:0;man attr
-: 1703515180:0;man chattr
-: 1703519553:0;nv ~/projects/test.cpp
-: 1703519723:0;cd projects
-: 1703519742:0;gh repo clone programming-notes
-: 1703519752:0;gh repo clone programming-notes Website
-: 1703519802:0;nv exa.zsh
-: 1703524650:0;wtr
-: 1703525821:0;cll
-: 1703525823:0;c\n
-: 1703525826:0;\n
-: 1703525835:0;ls
-: 1703525839:0;sl
-: 1703525841:0;la
-: 1703525942:0;man geoclue
-: 1703526151:0;nv test.cpp
-: 1703529318:0;cd
-: 1703575723:0;killall -9 electron
-: 1703683435:0;valgrind --leak-check=full -s ./build/hash-table
-: 1703683512:0;./build/hash-table
-: 1703683630:0;make -S
-: 1703683917:0;make compile
-: 1703683987:0;make builddeps mode=Release
-: 1703683992:0;make compile mode=Release
-: 1703683998:0;time ./build/hash-table
-: 1703690518:0;uneo
-: 1703690694:0;yay -S neovim-nightly-bin
-: 1703690721:0;which nvim
-: 1703690730:0;/usr/bin/nvim
-: 1703691117:0;/usr/bin/nvim --version
-: 1703692132:0;lg
-: 1703693972:0;echo "\
-    alejandra - The Uncompromising Nix Code Formatter.\
-    asmfmt - Go Assembler Formatter\
-    ast-grep - A CLI tool for code structural search, lint and rewriting. Written in Rust.\
-    astyle - A Free, Fast, and Small Automatic Formatter for C, C++, C++/CLI, Objective-C, C#, and Java Source Code.\
-    auto_optional - Adds the Optional type-hint to arguments where the default value is None.\
-    autocorrect - A linter and formatter to help you to improve copywriting, correct spaces, words, and punctuations between CJK.\
-    autoflake - Removes unused imports and unused variables as reported by pyflakes.\
-    autopep8 - A tool that automatically formats Python code to conform to the PEP 8 style guide.\
-    bean-format - Reformat Beancount files to right-align all the numbers at the same, minimal column.\
-    beautysh - A Bash beautifier for the masses.\
-    bibtex-tidy - Cleaner and Formatter for BibTeX files.\
-    biome - A toolchain for web projects, aimed to provide functionalities to maintain them.\
-    black - The uncompromising Python code formatter.\
-    blade-formatter - An opinionated blade template formatter for Laravel that respects readability.\
-    blue - The slightly less uncompromising Python code formatter.\
-    buf - A new way of working with Protocol Buffers.\
-    buildifier - buildifier is a tool for formatting bazel BUILD and .bzl files with a standard convention.\
-    cbfmt - A tool to format codeblocks inside markdown and org documents.\
-    clang_format - Tool to format C/C++/… code according to a set of rules and heuristics.\
-    cljstyle - Formatter for Clojure code.\
-    cmake_format - Parse cmake listfiles and format them nicely.\
-    codespell - Check code for common misspellings.\
-    csharpier - The opinionated C# code formatter.\
-    darker - Run black only on changed lines.\
-    dart_format - Replace the whitespace in your program with formatting that follows Dart guidelines.\
-    deno_fmt - Use Deno to format TypeScript, JavaScript/JSON and markdown.\
-    dfmt - Formatter for D source code.\
-    djlint - ⃼� HTML Template Linter and Formatter. Django - Jinja - Nunjucks - Handlebars - GoLang.\
-    dprint - Pluggable and configurable code formatting platform written in Rust.\
-    easy-coding-standard - ecs - Use Coding Standard with 0-knowledge of PHP-CS-Fixer and PHP_CodeSniffer.\
-    elm_format - elm-format formats Elm source code according to a standard set of rules based on the official Elm Style Guide.\
-    erb_format - Format ERB files with speed and precision.\
-    eslint_d - Like ESLint, but faster.\
-    fish_indent - Indent or otherwise prettify a piece of fish code.\
-    fixjson - JSON Fixer for Humans using (relaxed) JSON5.\
-    fnlfmt - A formatter for Fennel code.\
-    fourmolu - Fourmolu is a formatter for Haskell source code.\
-    gci - GCI, a tool that controls Go package import order and makes it always deterministic.\
-    gdformat - A formatter for Godot's gdscript.\
-    gn - gn build system.\
-    gofmt - Formats go programs.\
-    gofumpt - Enforce a stricter format than gofmt, while being backwards compatible. That is, gofumpt is happy with a subset of the formats that gofmt is happy with.\
-    goimports - Updates your Go import lines, adding missing ones and removing unreferenced ones.\
-    goimports-reviser - Right imports sorting & code formatting tool (goimports alternative).\
-    golines - A golang formatter that fixes long lines.\
-    google-java-format - Reformats Java source code according to Google Java Style.\
-    htmlbeautifier - A normaliser/beautifier for HTML that also understands embedded Ruby. Ideal for tidying up Rails templates.\
-    indent - GNU Indent.\
-    injected - Format treesitter injected languages.\
-    isort - Python utility / library to sort imports alphabetically and automatically separate them into sections and by type.\
-    joker - Small Clojure interpreter, linter and formatter.\
-    jq - Command-line JSON processor.\
-    jsonnetfmt - jsonnetfmt is a command line tool to format jsonnet files.\
-    just - Format Justfile.\
-    ktlint - An anti-bikeshedding Kotlin linter with built-in formatter.\
-    latexindent - A perl script for formatting LaTeX files that is generally included in major TeX distributions.\
-    markdown-toc - API and CLI for generating a markdown TOC (table of contents) for a README or any markdown files.\
-    markdownlint - A Node.js style checker and lint tool for Markdown/CommonMark files.\
-    markdownlint-cli2 - A fast, flexible, configuration-based command-line interface for linting Markdown/CommonMark files with the markdownlint library.\
-    mdformat - An opinionated Markdown formatter.\
-    mdslw - Prepare your markdown for easy diff'ing by adding line breaks after every sentence.\
-    mix - Format Elixir files using the mix format command.\
-    nixfmt - nixfmt is a formatter for Nix code, intended to apply a uniform style.\
-    nixpkgs_fmt - nixpkgs-fmt is a Nix code formatter for nixpkgs.\
-    ocamlformat - Auto-formatter for OCaml code.\
-    packer_fmt - The packer fmt Packer command is used to format HCL2 configuration files to a canonical format and style.\
-    pangu - Insert whitespace between CJK and half-width characters.\
-    perlimports - Make implicit Perl imports explicit.\
-    perltidy - Perl::Tidy, a source code formatter for Perl.\
-    pg_format - PostgreSQL SQL syntax beautifier.\
-    php_cs_fixer - The PHP Coding Standards Fixer.\
-    phpcbf - PHP Code Beautifier and Fixer fixes violations of a defined coding standard.\
-    phpinsights - The perfect starting point to analyze the code quality of your PHP projects.\
-    pint - Laravel Pint is an opinionated PHP code style fixer for minimalists.\
-    prettier - Prettier is an opinionated code formatter. It enforces a consistent style by parsing your code and re-printing it with its own rules that take the maximum line length into account, wrapping code when necessary.\
-    prettierd - prettier, as a daemon, for ludicrous formatting speed.\
-    pretty-php - The opinionated PHP code formatter.\
-    puppet-lint - Check that your Puppet manifests conform to the style guide.\
-    rubocop - Ruby static code analyzer and formatter, based on the community Ruby style guide.\
-    rubyfmt - Ruby Autoformatter! (Written in Rust)\
-    ruff_fix - An extremely fast Python linter, written in Rust. Fix lint errors.\
-    ruff_format - An extremely fast Python linter, written in Rust. Formatter subcommand.\
-    rufo - Rufo is an opinionated ruby formatter.\
-    rustfmt - A tool for formatting rust code according to style guidelines.\
-    rustywind - A tool for formatting Tailwind CSS classes.\
-    scalafmt - Code formatter for Scala.\
-    shellcheck - A static analysis tool for shell scripts.\
-    shellharden - The corrective bash syntax highlighter.\
-    shfmt - A shell parser, formatter, and interpreter with bash support.\
-    sql_formatter - A whitespace formatter for different query languages.\
-    sqlfluff - A modular SQL linter and auto-formatter with support for multiple dialects and templated code.\
-    squeeze_blanks - Squeeze repeated blank lines into a single blank line via cat -s.\
-    standardjs - JavaScript Standard style guide, linter, and formatter.\
-    standardrb - Ruby's bikeshed-proof linter and formatter.\
-    stylelint - A mighty CSS linter that helps you avoid errors and enforce conventions.\
-    styler - R formatter and linter.\
-    stylua - An opinionated code formatter for Lua.\
-    swift_format - Swift formatter from apple. Requires building from source with swift build.\
-    swiftformat - SwiftFormat is a code library and command-line tool for reformatting swift code on macOS or Linux.\
-    taplo - A TOML toolkit written in Rust.\
-    templ - Formats templ template files.\
-    terraform_fmt - The terraform-fmt command rewrites terraform configuration files to a canonical format and style.\
-    tlint - Tighten linter for Laravel conventions with support for auto-formatting.\
-    trim_newlines - Trim new lines with awk.\
-    trim_whitespace - Trim whitespaces with awk.\
-    typos - Source code spell checker\
-    typstfmt - Basic formatter for the Typst language with a future!\
-    uncrustify - A source code beautifier for C, C++, C#, ObjectiveC, D, Java, Pawn and Vala.\
-    usort - Safe, minimal import sorting for Python projects.\
-    xmlformat - xmlformatter is an Open Source Python package, which provides formatting of XML documents.\
-    yamlfix - A configurable YAML formatter that keeps comments.\
-    yamlfmt - yamlfmt is an extensible command line tool or library to format yaml files.\
-    yapf - Yet Another Python Formatter.\
-    zigfmt - Reformat Zig source into canonical form.\
-    zprint - Formatter for Clojure and EDN.\
-" | wc -l
-: 1703699681:0;we
-: 1703700126:0;nv lazy-lock.json
-: 1703700573:0;nvim ~/.lessfilter
-: 1703700598:0;jupyter
-: 1703700605:0;jupyter nbconvert
-: 1703738793:0;nv .conan2/settings.yml
-: 1703740622:0;btop
-: 1703740824:0;\rm -rf .conan2
-: 1703740833:0;trash-empty
-: 1703740888:0;cd .local/share/Trash
-: 1703740891:0;cd files
-: 1703741089:0;free -m
-: 1703741179:0;htop
-: 1703743246:0;c
-: 1703743938:0;cd .config/alacritty/alacritty.toml
-: 1703743941:0;cd .config/alacritty/
-: 1703743946:0;nv alacritty.toml
-: 1703744107:0;rm -rf ~/.config/alacritty/alacritty.toml
-: 1703744438:0;ys
-: 1703744517:0;alacritty migrate
-: 1703744537:0;ll
-: 1703744538:0;nv
-: 1703744684:0;e
-: 1703744686:0;nv
-: 1703744878:0;ll
-: 1703744880:0;nv
-: 1703744883:0;sudo pacman -S xf86-video-qxl
-: 1703744917:0;ll
-: 1703744917:0;nv
-: 1703744919:0;ll
-: 1703744921:0;sudo pacman -S xf86-video-qxl
-: 1703744939:0;ll
-: 1703744940:0;nv
-: 1703745053:0;sudo pacman -S hyprland
-: 1703745131:0;nv
-: 1703745247:0;c
-: 1703745259:0;sudo downgrade qemu
-: 1703745385:0;sudo paccache -rk0
-: 1703745387:0;sudo downgrade qemu
-: 1703745427:0;yay -Rnsdd qemu
-: 1703745431:0;yay -Rnsdd qemu-base
-: 1703745439:0;yay -Rnsdd qemu-full
-: 1703745446:0;yay -S qemu
-: 1703745558:0;yay -Rnsdd virt-manager
-: 1703745570:0;yay -S virt-manager
-: 1703746074:0;c
-: 1703746079:0;virt-manager
-: 1703746087:0;c
-: 1703746103:0;virt-manager
-: 1703746326:0;yay gnome-boxes
-: 1703746588:0;ll
-: 1703746740:0;yay spice-web
-: 1703746790:0;nv /var/log/pacman.log
-: 1703746858:0;c
-: 1703746882:0;yay linux-firmware
-: 1703746900:0;yay qemu-git
-: 1703746999:0;yay awesome
-: 1703747098:0;yay virtualbox
-: 1703747181:0;gnomeboxes
-: 1703747184:0;gnome-boxes
-: 1703748007:0;yay -Rnsdd virtualbox
-: 1703748788:0;cd projects
-: 1703748792:0;nv xpytile.sh
-: 1703748906:0;nv
-: 1703748915:0;./xpytile.sh
-: 1703748920:0;bash xpytile.sh
-: 1703749025:0;ps aux | grep -c Hyprland
-: 1703749030:0;btop
-: 1703757137:0;nv test.c
-: 1703757183:0;gcc -o main test.c
-: 1703757187:0;./main python
-: 1703757195:0;./main xpytile
-: 1703757201:0;./main hyprland
-: 1703757205:0;./main Hyprland
-: 1703757218:0;./main "python /usr/bin/xpytile"
-: 1703757243:0;./main "/bin/zsh"
-: 1703757247:0;./main "zsh"
-: 1703770394:0;ping 9.9.9.9
-: 1703775127:0;yay xdg-desktop-portal
-: 1703775134:0;nv
-: 1703775141:0;cd hypr
-: 1703775142:0;ll
-: 1703775144:0;cd scripts
-: 1703775146:0;ll
-: 1703775150:0;./launch.sh
-: 1703775194:0;c
-: 1703775195:0;ll
-: 1703775201:0;nv launch.sh
-: 1703775251:0;/usr/lib/xdg-desktop-portal &
-: 1703775639:0;c
-: 1703775640:0;ys
-: 1703775692:0;yay hyprland-git
-: 1703775765:0;c
-: 1703775811:0;ll
-: 1703775813:0;btop
-: 1703775875:0;ll
-: 1703775876:0;c
-: 1703775876:0;ll
-: 1703775926:0;nv
-: 1703776198:0;c
-: 1703776199:0;ll
-: 1703776200:0;c
-: 1703776200:0;ll
-: 1703776272:0;yay hyprland
-: 1703776395:0;yay sway
-: 1703776406:0;sway
-: 1703776417:0;c
-: 1703776420:0;ll
-: 1703776458:0;c
-: 1703776465:0;nv ~/.config/sway/config
-: 1703776756:0;cd projects
-: 1703776765:0;cd
-: 1703776767:0;fzf
-: 1703776778:0;cd projects/libadwaita-theme-changer/
-: 1703776780:0;nv libadwaita-tc.py
-: 1703777298:0;sway
-: 1703777332:0;c
-: 1703777334:0;clear
-: 1703777335:0;ll
-: 1703777367:0;sudo downgrade hyprland
-: 1703777577:0;c
-: 1703777605:0;nv
-: 1703778160:0;c
-: 1703778358:0;sudo downgrade xdg-desktop-portal-hyprland
-: 1703778375:0;pacman -Q | fzf
-: 1703778396:0;nv /etc/pacman.conf
-: 1703778481:0;yay hyprland
-: 1703778496:0;sudo pac
-: 1703778498:0;sudo paccache -rk0
-: 1703778503:0;vs /etc/pacman.conf
-: 1703778510:0;yay hyprland
-: 1703778526:0;yay hyprlandgit
-: 1703778530:0;yay hyprland-git
-: 1703778823:0;yay xdg-desktop-portal
-: 1703778894:0;reboot
-: 1703778940:0;nv
-: 1703779920:0;c
-: 1703779921:0;ll
-: 1703779938:0;yay -Rns hyprland-git
-: 1703779953:0;yay hyprland
-: 1703780062:0;c
-: 1703780062:0;]c
-: 1703780062:0;c
-: 1703780067:0;ll
-: 1703780203:0;nv
-: 1703780250:0;c
-: 1703780252:0;yay hyprland
-: 1703780301:0;hyprctl --version
-: 1703780307:0;hyprctl version
-: 1703781247:0;ll
-: 1703781257:0;c
-: 1703781257:0;ll
-: 1703781292:0;cd Sync
-: 1703781293:0;ll
-: 1703781296:0;cd st
-: 1703783855:0;nv
-: 1703783857:0;c
-: 1703783858:0;ll
-: 1703784088:0;man 5 sway
-: 1703784479:0;cd
-: 1703784481:0;cd projects
-: 1703784492:0;mkdir tcp-ip-CPP
-: 1703784495:0;cd tcp-ip-CPP
-: 1703784499:0;wpaperd
-: 1703784722:0;killall -9 wpaperd
-: 1703784727:0;swaybg -i anime-girl-beautiful.jpeg
-: 1703784739:0;swaybg -i ~/Picture/anime-girl-beautiful.jpeg
-: 1703784769:0;swaybg -i ~/Pictures/Wallpapers/wallpapers/Milky_Way.jpg
-: 1703784787:0;cd projects/tcp-ip-CPP
-: 1703784788:0;ll
-: 1703784793:0;mkdir src
-: 1703784798:0;nv src/main.cpp
-: 1703785404:0;swaybg -i ~/Pictures/Wallpapers/wallpapers/Milky_Way.jpg&
-: 1703785406:0;c
-: 1703785414:0;date
-: 1703785420:0;date --iso-8601
-: 1703785432:0;date --utc
-: 1703785523:0;date | sed -n 's/.* \([0-9]*:[0-9]*:[0-9]*\).*/\1/p'
-: 1703785529:0;cd
-: 1703785530:0;cd projects
-: 1703785540:0;nv time.sh
-: 1703785622:0;date | sed -n 's/.* \([0-9]*\).*/\1/p'
-: 1703785663:0;date +%H
-: 1703785708:0;nv time.sh
-: 1703785789:0;nv
-: 1703786093:0;cp wallp.sh ~/.config/hypr/scripts
-: 1703786127:0;ll
-: 1703786127:0;cd
-: 1703786130:0;cd hype
-: 1703786132:0;cd hypr
-: 1703786134:0;cd scripts
-: 1703786134:0;ll
-: 1703786141:0;chmod +x wallp.sh
-: 1703786279:0;cd hypr
-: 1703786284:0;cd scripts
-: 1703786286:0;./wallp.sh
-: 1703786289:0;nv
-: 1703786304:0;./wallp.sh
-: 1703786374:0;date +%H
-: 1703786741:0;c
-: 1703786768:0;nv
-: 1703787788:0;yay glfw
-: 1703787805:0;cd projects
-: 1703787812:0;mkdir opengl-DPP
-: 1703787821:0;mv opengl-DPP opengl-CPP
-: 1703787824:0;cd opengl-CPP
-: 1703787825:0;c
-: 1703787829:0;nv src/main.cpp
-: 1703787943:0;ll
-: 1703787951:0;mkdir build
-: 1703787959:0;cp ../hash-table/src/.jaq.json src
-: 1703787979:0;cp ../hash-table/CMakeLists.txt ../hash-table/Makefile .
-: 1703787979:0;ll
-: 1703787986:0;cdp
-: 1703787987:0;cd hash-table
-: 1703787988:0;ll
-: 1703787995:0;cdp
-: 1703787997:0;cd opengl-CPP
-: 1703787998:0;ll
-: 1703788000:0;nv CMakeLists.txt
-: 1703788219:0;ll
-: 1703788224:0;make builddeps
-: 1703788240:0;make compile
-: 1703788305:0;nv
-: 1703788313:0;ll
-: 1703788317:0;cd .cache
-: 1703788318:0;ll
-: 1703788321:0;cd clangd
-: 1703788321:0;ll
-: 1703788324:0;cd index
-: 1703788325:0;ll
-: 1703788327:0;cdpp
-: 1703788328:0;cdp
-: 1703788329:0;ll
-: 1703823662:0;nv
-: 1703823705:0;c
-: 1703823706:0;ll
-: 1703823707:0;c
-: 1703851888:0;ys
-: 1703852011:0;cd projects
-: 1703852011:0;ll
-: 1703852023:0;ll | grep -n "cpp"
-: 1703852028:0;ll | grep -n "CPP"
-: 1703852125:0;vs /etc/makepkg.conf
-: 1703852180:0;c
-: 1703852185:0;yay xdg-desktop
-: 1703852792:0;btop
-: 1703852814:0;nv
-: 1703852869:0;btop
-: 1703853228:0;lg
-: 1703853232:0;yel
-: 1703853243:0;yl
+: 1704107671:0;mkarchiso --help
+: 1704107698:0;sudo mkarchiso -v . -w . -o ~/projects/tcet-opensource/tcet-isos
+: 1704107791:0;killall -9 firefox
+: 1704107814:0;tor-browser
+: 1704108843:0;cd tcet-open
+: 1704108846:0;cd tcet-linux
+: 1704109631:0;./cleanup.sh
+: 1704113409:0;cd tcet
+: 1704113416:0;cd tcet-linux-pkgbuild
+: 1704116526:0;hyprctl version
+: 1704130098:0;killall -9 wpaperd
+: 1704130586:0;swaybg -i ~/Pictures/Wallpapers/wallpapers/Milky_Way.jpg &
+: 1704132624:0;make compile
+: 1704132642:0;objdump hash-table >> assembly
+: 1704132669:0;objdump hash-table
+: 1704132764:0;objdump -d -M intel -S hash-table
+: 1704132922:0;lll
+: 1704132926:0;:noh
+: 1704132971:0;objdump -d -M intel -S hash-table >> hash
+: 1704132974:0;nv hash
+: 1704133782:0;make clean
+: 1704133785:0;make builddeps mode=Release
+: 1704133791:0;make compile mode=Release
+: 1704133815:0;cd build
+: 1704133818:0;cd ..
+: 1704133832:0;btop
+: 1704134042:0;pacman -Qq | fzf
+: 1704134048:0;pacman -Q | fzf
+: 1704134070:0;yay xdg-desktop
+: 1704134161:0;sudo downgrade xdg-desktop-portal-hyprland
+: 1704134318:0;yay hyprland
+: 1704167991:0;wifi-status
+: 1704168013:0;wihotspot-gui
+: 1704168110:0;sudo downgrade linux-wifi-hotspot
+: 1704168149:0;yay linux-wifi
+: 1704168304:0;yay -Rns linux-wifi-hotspot
+: 1704168309:0;git clone https://github.com/lakinduakash/linux-wifi-hotspot\
+cd linux-wifi-hotspot\
+\
+#\
+make\
+\
+#\
+sudo make install
+: 1704168367:0;yay hostapd
+: 1704168401:0;nv Makefile
+: 1704168450:0;which wihotspot
+: 1704168452:0;which wihotspot-gui
+: 1704168652:0;wihotspot
+: 1704191980:0;ping 9.9.9.9
+: 1704191982:0;nr
+: 1704192067:0;unzip notmonolisa.zip
+: 1704192069:0;cd monolisa
+: 1704192086:0;cp monolisa ~/.local/share/fonts
+: 1704192090:0;cp -r monolisa ~/.local/share/fonts
+: 1704192093:0;fc-cache -f -v
+: 1704192145:0;yay xfce4-terminal
+: 1704192234:0;speedtest
+: 1704215726:0;kk
+: 1704215927:0;g++-12 -std=c++20 -fmodules-ts main.cpp -x c++-system-header iostream
+: 1704217203:0;ldd ls
+: 1704217211:0;ldd /bin/ls
+: 1704219279:0;yay zoom
+: 1704219662:0;nv ~/.config/zoomus.conf
+: 1704219703:0;XDG_CURRENT_DESKTOP=gnome zoom
+: 1704219850:0;echo $XDG_CURRENT_DESKTOP
+: 1704254638:0;cc
+: 1704256448:0;zoom --help
+: 1704263484:0;cd learini
+: 1704263490:0;cd projects/Learning-machine-learning
+: 1704293589:0;cd Rishabh672003
+: 1704294319:0;nap github
+: 1704294327:0;nap
+: 1704298425:0;cd hash
+: 1704302528:0;cd projects/Rishabh672003
+: 1704302530:0;nv README.md
+: 1704306036:0;cd projects
+: 1704306044:0;nv test.html
+: 1704347740:0;nv ~/.config/kitty
+: 1704347800:0;killall -9 wezterm-gui
+: 1704348310:0;cat
+: 1704356659:0;cd Downloads
+: 1704356661:0;cd internship-data
+: 1704356668:0;unzip archive.zip
+: 1704369094:0;cp ~/Downloads/internship-data/Placement_Data_Full_Class.csv ~/projects/Learning-machine-learning
+: 1704369101:0;cd learning
+: 1704369102:0;cdp
+: 1704369105:0;cd Learning-machine-learning
+: 1704369134:0;git config pull.rebase false
+: 1704369136:0;git pull
+: 1704373683:0;nv test
+: 1704389224:0;yay -c
+: 1704389232:0;yay -Yc
+: 1704393684:0;cd hypr
+: 1704393967:0;floorp
+: 1704393974:0;firefox
+: 1704427734:0;killall -9 floorp
+: 1704429465:0;dunst --is-disabled
+: 1704429470:0;dunst --help
+: 1704429476:0;dunstify "hello world"
+: 1704430107:0;dunstctl --help
+: 1704430114:0;dunstctl is-paused
+: 1704435338:0;cd
+: 1704435370:0;cd learning-machine
+: 1704435393:0;vscodium regression.ipynb
+: 1704435973:0;fzf
+: 1704456079:0;hyprctl clients
+: 1704462468:0;l
+: 1704462471:0;cd sdl
+: 1704462475:0;nv src/main.cpp
+: 1704464145:0;meld
+: 1704464155:0;yay -Rnsdd meld
+: 1704464161:0;yay meld
+: 1704474285:0;unei
+: 1704474288:0;uneo
+: 1704474296:0;ll
+: 1704476589:0;lg
+: 1704478224:0;we
+: 1704478229:0;c
+: 1704515109:0;nv
+: 1704515773:0;ys
+: 1704515910:0;vs /etc/pacman.conf
+: 1704515917:0;e
+: 1704515919:0;ys
+: 1704516018:0;c
+: 1704516019:0;ll
+: 1704516020:0;nv
+: 1704517780:0;ll
+: 1704517781:0;nv
+: 1704517788:0;cd .floorp
+: 1704517789:0;ll
+: 1704519348:0;nv
+: 1704526301:0;ll
+: 1704526301:0;c
+: 1704526303:0;cd learning-machine
+: 1704526304:0;ll
+: 1704526304:0;lg
+: 1704526332:0;ll
+: 1704526344:0;rm Perceptron-SciKit-Learn.ipynb
+: 1704526370:0;mv perceptron_trick.ipynb Campus-placement-predictor.ipynb
+: 1704526371:0;ll
+: 1704526372:0;lg
+: 1704526410:0;ll
+: 1704526412:0;rm 04LWqBq.png
+: 1704526413:0;ll
+: 1704526414:0;lg
+: 1704526548:0;ping 9.9.9.9
+: 1704529253:0;curl https://github.com/sungsujaing/NeuralStyleTransfer_custom/blob/master/StyleTransfer.ipynb
+: 1704529260:0;curl -LO https://github.com/sungsujaing/NeuralStyleTransfer_custom/blob/master/StyleTransfer.ipynb
+: 1704529269:0;vscodium StyleTransfer.ipynb
+: 1704529677:0;lg
+: 1704529873:0;cdp
+: 1704529875:0;gh repo clone sungsujaing/NeuralStyleTransfer_custom
+: 1704543773:0;we
+: 1704543783:0;ys
+: 1704545812:0;cd lea
+: 1704545812:0;ll
+: 1704545820:0;lg
+: 1704545840:0;ll
+: 1704545893:0;we
+: 1704545927:0;yay python-dbus
+: 1704545936:0;yay -Rnsdd python-dbus
+: 1704545957:0;yay python-dbus
+: 1704546002:0;yay -Rnsdd dbus-python
+: 1704546010:0;yay dbus-python
+: 1704546015:0;we
+: 1704546029:0;sudo systemctl restart waydroid-container.service
+: 1704546032:0;ws
+: 1704546078:0;ws&
+: 1704546144:0;c
+: 1704546271:0;bg
+: 1704546277:0;jobs
+: 1704553448:0;ll
+: 1704553449:0;c
+: 1704553450:0;ll
+: 1704553451:0;nv
+: 1704562873:0;we
+: 1704562876:0;c
+: 1704562880:0;pacman --help
+: 1704562897:0;cd
+: 1704562909:0;man pacman
+: 1704562994:0;cd
+: 1704563005:0;c
+: 1704563007:0;yel
+: 1704563014:0;nv
+: 1704563104:0;yl

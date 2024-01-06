@@ -2,7 +2,7 @@ local wezterm = require("wezterm")
 
 return {
 	font = wezterm.font_with_fallback({
-		{ family = "JetBrainsMono Nerd Font", weight = "Regular" },
+		{ family = "JetBrainsMono NF", weight = "Regular" },
 		{ family = "MesloLGM Nerd Font" },
 		"Noto Color Emoji",
 	}),
