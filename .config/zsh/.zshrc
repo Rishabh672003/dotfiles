@@ -41,3 +41,6 @@ plug "romkatv/powerlevel10k"
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/home/rishabh/.local/share/sdkman"
 [[ -s "/home/rishabh/.local/share/sdkman/bin/sdkman-init.sh" ]] && source "/home/rishabh/.local/share/sdkman/bin/sdkman-init.sh"
+
+# bun completions
+[ -s "/home/rishabh/.local/share/bun/_bun" ] && source "/home/rishabh/.local/share/bun/_bun"

@@ -103,7 +103,6 @@ lvim.plugins = {
     "catppuccin/nvim",
     name = "catppuccin",
     lazy = false,
-    build = ":CatppuccinCompile",
     priority = 1000,
   }
   --     {

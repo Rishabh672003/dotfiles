@@ -1,11 +1,9 @@
 #!/bin/env bash
 
-export pid
-pid=$(pgrep waybar)
-status=$?
+if ! pgrep -x waybar >/dev/null; then status=$?; fi
 
-if [ $status != 0 ]; then
-    exec waybar;
+if [ "$status" -eq 0 ]; then
+	exec waybar
 else
-    killall -9 waybar && waybar
+	killall -9 waybar && exec waybar
 fi

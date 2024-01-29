@@ -1,1182 +1,670 @@
-: 1688391929:0;nv profiledef.sh
-: 1688394672:0;nv gtk-app.c
-: 1688394799:0;nv build
-: 1688398136:0;cat .
-: 1688398138:0;cat ..
-: 1688398144:0;\cat .
-: 1688398151:0;ls .
-: 1688400569:0;Hyprland
-: 1688400589:0;rm -rf nvim-linux64.tar.gz
-: 1688400593:0;rm -rf nvim-linux64
-: 1688400674:0;bob update --all
-: 1688406448:0;cd scripts
-: 1688406452:0;nv update.sh
-: 1688407952:0;fzf --help
-: 1688407992:0;man fzf
-: 1688408051:0;fzf -e
-: 1688408066:0;fzf -e | nvim $0
-: 1688408081:0;fzf -e | nvim
-: 1688408100:0;ls | cat
-: 1688442169:0;yay -R qalculate-qt
-: 1688445417:0;neofetc
-: 1688445424:0;n --help
-: 1688445450:0;n --ascii_distro endeavour
-: 1688445453:0;n --ascii_distro endeavour_os
-: 1688445460:0;n --ascii_distro arch
-: 1688445477:0;n --ascii_distro EndeavourOS
-: 1688445492:0;n --ascii_distro fedora
-: 1688446456:0;yay -R tcet-linux-welcome
-: 1688448378:0;hx
-: 1688455879:0;cd .local/share
-: 1688455921:0;cd TCET
-: 1688455926:0;cd pkgbuild
-: 1688456036:0;nv PKGBUILD
-: 1688456043:0;makepkg -s
-: 1688456060:0;sudo pacman -U tcet-linux-welcome-23.07-3-x86_64.pkg.tar.zst
-: 1688462604:0;chmod +x neofetch
-: 1688462767:0;sudo pacman -U tcet-linux-qogir-theme-2023.05.24-1-any.pkg.tar.zst
-: 1688462896:0;./neofetch --ascii_distro tcet
-: 1688463564:0;cd ~/.config/xfce4/terminal/terminalrc
-: 1688463566:0;cd ~/.config/xfce4/terminal
-: 1688463569:0;nv terminalrc
-: 1688464156:0;cd .config/kitty/
-: 1688464168:0;cd fish
-: 1688464182:0;nv config.fish
-: 1688464201:0;fish
-: 1688477555:0;cd projects/DSA-notes
-: 1688477558:0;cd Data-Structures
-: 1688477561:0;cd Strings
-: 1688477566:0;cc reverse.cpp
-: 1688477593:0;cc gtk-app.c
-: 1688477601:0;gcc gtk-app.c
-: 1688477613:0;man cc
-: 1688477619:0;info cc
-: 1688477659:0;nv Arch.md
-: 1688492715:0;curl -sS https://starship.rs/install.sh | sh
-: 1688492896:0;starship preset nerd-font-symbols -o ~/.config/starship.toml\
+: 1704792802:0;rm calamares-3.2.62-11-x86_64.pkg.tar.zst calamares-3.2.62-11-x86_64.pkg.tar.zst.sig
+: 1704792865:0;rm calamares-3.2.62-12-x86_64.pkg.tar.zst calamares-3.2.62-12-x86_64.pkg.tar.zst.sig
+: 1704795862:0;cd tcet-opensource
+: 1704795952:0;sudo mkarchiso -v . -o ~/projects/tcet-opensource/tcet-isos/
+: 1704796184:0;mkdir -p ML-fastapi
+: 1704796267:0;mkdir -p .git
+: 1704796328:0;pip install fastapi
+: 1704796456:0;pip install uvicorn
+: 1704796758:0;pip install pillow
+: 1704797120:0;pip install numpy
+: 1704805591:0;code
+: 1704805595:0;run
+: 1704805797:0;cd apps/tcet-linux-multilang-compiler
+: 1704806419:0;git pull
+: 1704806428:0;cd tvet
+: 1704806617:0;gh repo clone tcet-opensource/tcet-linux-code-runner
+: 1704806642:0;nv update_config.sh
+: 1704807104:0;cd tcet-linux-pkgbuild
+: 1704807111:0;cd apps
+: 1704807122:0;mv tcet-linux-multilang-compiler tcet-linux-code-runner
+: 1704807126:0;cd tcet-linux-code-runner
+: 1704807215:0;pacman -Qlp tcet-linux-code-runner-24.01-1-x86_64.pkg.tar.zst
+: 1704807233:0;rm tcet-linux-code-runner-24.01-1-x86_64.pkg.tar.zst tcet-linux-code-runner.tar.gz
+: 1704807235:0;nv cleanup.sh
+: 1704807246:0;makepkg
+: 1704807312:0;makesign
+: 1704807337:0;cp tcet-linux-code-runner-24.01-1-x86_64.pkg.tar.zst tcet-linux-code-runner-24.01-1-x86_64.pkg.tar.zst.sig ../../../tcet-linux-applications/x86_64
+: 1704807344:0;cp tcet-linux-code-runner-24.01-1-x86_64.pkg.tar.zst tcet-linux-code-runner-24.01-1-x86_64.pkg.tar.zst.sig ../../../tcet-linux-repo/x86_64
+: 1704807354:0;cd tcet-linux-applications
+: 1704807472:0;cd tcet-linux-repo
+: 1704807475:0;cd x86_64
+: 1704807482:0;rm tcet-linux-multilang-compiler-24.01-1-x86_64.pkg.tar.zst tcet-linux-multilang-compiler-24.01-1-x86_64.pkg.tar.zst.sig
+: 1704807485:0;./update_repo.sh
+: 1704807528:0;cdpp
+: 1704807531:0;cd tcet-linux
+: 1704807534:0;nv packages.x86_64
+: 1704808002:0;which nvim
+: 1704814870:0;cp out/tcetlinux-2024.01.09-x86_64.iso ../tcet-isos
+: 1704814877:0;./cleanup.sh
+: 1704815448:0;\cat /etc/pacman.d/mirrorlist | wl-copy
+: 1704816447:0;sdp
+: 1704818614:0;cd tcet
+: 1704818618:0;cd tcet-linux-code-runner/
+: 1704818622:0;cd usr/local/bin
+: 1704818635:0;cp code-runner ~/projects
+: 1704818657:0;./code-runner test.cpp
+: 1704818790:0;nv code-runner
+: 1704818858:0;./code-runner test.c
+: 1704818863:0;nv test.c
+: 1704818877:0;mv test.c test.caa
+: 1704818887:0;./code-runner test.caa
+: 1704819014:0;cmatrix
+: 1704819145:0;/usr/bin/hollywood 
+: 1704826660:0;nv /etc/hosts
+: 1704826717:0;nv mirrors-and-hosts
+: 1704865084:0;cd projects/ML-fastapi
+: 1704865089:0;nv pred_img.py
+: 1704865305:0;mv Saved\ ml\ model ml-model
+: 1704867006:0;clea
+: 1704867033:0;pip install tensorflow.keras
+: 1704867040:0;pip install keras
+: 1704867069:0;cd ml-model
+: 1704867073:0;unzip saved_models.zip
+: 1704875754:0;cd ..
+: 1704875766:0;zip ml-model.zip ML-fastapi
+: 1704875777:0;unzip --help
+: 1704875796:0;unzip ml-model.zip
+: 1704875810:0;rm ml-model.zip
+: 1704885414:0;mkdir tasks
+: 1704885416:0;cd tasks
+: 1704885424:0;nv DL-tensorflow.txt
+: 1704887460:0;ccdp
+: 1704887464:0;rm main
+: 1704887469:0;rm code-runner
+: 1704891587:0;cd .cache
+: 1704891592:0;cd pip
+: 1704898546:0;nv projects/dsa-in-java/AllPairShortestPath.java
+: 1704899007:0;cd ml
+: 1704904175:0;nv /tmp/rand
+: 1704909851:0;cat
+: 1704909862:0;bat .bashrc
+: 1704909869:0;bat --help
+: 1704909881:0;bat -p .bashrc
+: 1704909901:0;bat -p /etc/pacman.d/mirrorlist|wl-copy
+: 1704909919:0;bat /etc/pacman.d/mirrorlist| wl-copy
+: 1704910035:0;sdr
+: 1704910776:0;lf
+: 1704910878:0;sudo pacman -Sy
+: 1704911584:0;cd .keras
+: 1704911587:0;nv keras.json
+: 1704949388:0;nv binary_search.java
+: 1704953588:0;yay yxdg-desktop-portal
+: 1704953593:0;yay xdg-desktop-portal
+: 1704968690:0;mv
+: 1704977427:0;cd hypr
+: 1704977430:0;nv hyprland.conf
+: 1704985376:0;yay vencord
+: 1704988930:0;yay xwayland-video
+: 1704989034:0;xwaylandvideobridge
+: 1704989300:0;xwaylandvideobridge&
+: 1704989304:0;discord
+: 1704989844:0;yay xwaylandvideo
+: 1704994469:0;cd projects/tasks
+: 1704994476:0;nv reminder
+: 1705068074:0;nnv
+: 1705069403:0;man pacman
+: 1705072008:0;nivm --clean
+: 1705072012:0;nvim --clean
+: 1705073042:0;jv
+: 1705073931:0;n
+: 1705077391:0;cd .local/share/nvim/lazy/mini.statusline
+: 1705077397:0;nv lua/mini/statusline.lua
+: 1705078710:0;yay neophyte
+: 1705078718:0;cargo install neophyte
+: 1705079005:0;neophyte
+: 1705080263:0;dc projects
+: 1705080883:0;rm test
+: 1705080890:0;nvim -u repro.lua
+: 1705081033:0;nv -u repro.lua
+: 1705081082:0;nv -u repro.lua test.cpp
+: 1705081765:0;nvim -v1
+: 1705081827:0;nvim -u repro.lua repro.lua
+: 1705081844:0;nvim -nu repro.lua repro.lua
+: 1705149332:0;cd dsa-in-java
+: 1705149338:0;nv AllPairShortestPath.java
+: 1705149961:0;cd p
+: 1705149971:0;nv -u repro.lua repro.lua
+: 1705154472:0;cc
+: 1705158251:0;v
+: 1705169916:0;cp repro.lua 2-repro.lua
+: 1705170664:0;cd tcet-opensource/tcet-isos
+: 1705170667:0;rm *
+: 1705170671:0;trash-empty
+: 1705170743:0;\rm -rf ~/.local/share/bob/*
+: 1705207404:0;nv 33-name-mangling.md
+: 1705207541:0;nv test.cpp
+: 1705207589:0;g++ test.cpp test.o
+: 1705207626:0;nm test.o | c++filt
+: 1705207657:0;c++filt main.o
+: 1705207766:0;cd CPP
+: 1705207780:0;mv 33-name-mangling.md 35-name-mangling.md
+: 1705208854:0;cd other-stuff
+: 1705208857:0;cd mirrors-and-hosts
+: 1705208860:0;./rate-mirrors-arch.sh
+: 1705210446:0;cd tcet-opensource/tcet-linux-pkgbuild/installer/calamares-3.2.62
+: 1705210449:0;nv PKGBUILD
+: 1705210540:0;yay -Rns kconfig5 kcoreaddons5 kiconthemes5 ki18n5 kio5 solid5 yaml-cpp kpmcore mkinitcpio-openswap boost-libs ckbcomp hwinfo qt5-svg polkit-qt5 gtk-update-icon-cache plasma-framework5 qt5-xmlpatterns squashfs-tools libpwquality boost
+: 1705210571:0;yay -Rns kconfig5 kcoreaddons5 kiconthemes5 kio5 solid5 yaml-cpp kpmcore mkinitcpio-openswap ckbcomp hwinfo qt5-svg polkit-qt5 gtk-update-icon-cache plasma-framework5 qt5-xmlpatterns squashfs-tools libpwquality
+: 1705210576:0;cfc
+: 1705210580:0;cpc
+: 1705247004:0;gh repo clone JonSeijo/text-editor
+: 1705247060:0;./editor
+: 1705247161:0;yay bear
+: 1705247178:0;bear -- make
+: 1705247325:0;rm compile_commands.json
+: 1705254464:0;yay poac
+: 1705254600:0;mkdir reference-projects
+: 1705254609:0;mv text-editor reference-projects
+: 1705254621:0;poac new text-editor
+: 1705254907:0;poac --version
+: 1705254928:0;rm poac-out
+: 1705255047:0;nv src
+: 1705255059:0;poac init
+: 1705255073:0;poac fmt
+: 1705255118:0;poac lint
+: 1705255326:0;mv main.cpp main.cc
+: 1705255343:0;nv poac.toml
+: 1705256021:0;mv main.cc main.cpp
+: 1705256033:0;poac clean
+: 1705256041:0;poac --help
+: 1705256064:0;poac build help
+: 1705256076:0;poac search
+: 1705256079:0;poac search fmt
+: 1705323341:0;poac build
+: 1705323353:0;cp ../hash-table/* .
+: 1705323358:0;cp -r ../hash-table/* .
+: 1705323376:0;rm -rf .git .cache
+: 1705323384:0;make clean
+: 1705323464:0;nv .dockerignore
+: 1705323544:0;mkdir CPP-cmake-reference
+: 1705323547:0;cd CPP-cmake-reference
+: 1705323558:0;cp -r ../text-editor/* .
+: 1705323717:0;make build
+: 1705323818:0;git clone https://github.com/Rishabh672003/text-editorCPP.git
+: 1705323829:0;cd text-editorCPP
+: 1705323848:0;cp -r .git ../text-editor
+: 1705323860:0;rm -rf text-editorCPP
+: 1705323863:0;cd text-editor
+: 1705323904:0;cd src
+: 1705323917:0;rm -rf hash_table.cpp hash_table.hpp
+: 1705323919:0;nv main.cpp
+: 1705325724:0;lsblk
+: 1705325734:0;cd /boot
+: 1705325742:0;duf
+: 1705325750:0;ncdu
+: 1705325805:0;sudo rm initramfs-linux-zen-fallback.img
+: 1705325814:0;sudo rm initramfs-linux-zen.img
+: 1705326276:0;bob rollback --help
+: 1705326279:0;bob rollback
+: 1705326664:0;cd build
+: 1705327203:0;cd .config/
+: 1705327211:0;ls | grep lazy
+: 1705327254:0;NVIM_APPNAME=lazyvim nvim src/main.cpp
+: 1705327920:0;nv lua/user
+: 1705327973:0;wget
+: 1705328178:0;cd nvim-basic-ide
+: 1705328181:0;nv init.lua
+: 1705328266:0;cd lsp
+: 1705328269:0;nv clangd.lua
+: 1705328449:0;NVIM_APPNAME=nvim-basic-ide nvim
+: 1705328734:0;NVIM_APPNAME=nvim-basic-ide nvim projects/text-editor/src/main.cpp
+: 1705329040:0;cd lua/rj
+: 1705330602:0;cd nvim
+: 1705330698:0;cd lua/rj/plugins
+: 1705332783:0;nv nvim-cmp.lua
+: 1705332823:0;nvim nvim-cmp.lua
+: 1705332867:0;nvim src/main.cpp
+: 1705337272:0;/home/rishabh/projects/text-editor/build/text-editor
+: 1705341209:0;cdnvim-
+: 1705341212:0;cd nvim-
+: 1705341828:0;NVIM_APPNAME=nvim-basic-ide nvim src/main.cpp
+: 1705343090:0;nv catpuuccin.mocha.pallete.lua
+: 1705412455:0;sudo nvim /etc/mkinitcpio.d/linux-zen.preset
+: 1705412490:0;su
+: 1705412569:0;yay mkinitcpio-firmware
+: 1705412613:0;install-grub
+: 1705412651:0;reboot
+: 1705412659:0;rm initramfs-linux-zen-fallback.img initramfs-linux-zen.img
+: 1705412659:0;sudo mkinitcpio -P
+: 1705412659:0;su rishabh
+: 1705412659:0;exit
+: 1705412958:0;cp -r /mnt/windows/Users/jhari/Transcend-D/* /run/media/rishabh/TRANSCEND\ D
+: 1705416127:0;uneo
+: 1705416150:0;cd cat-bug
+: 1705416153:0;nvim -u 2-repro.lua repro.lua
+: 1705416162:0;nvim -u 2-repro.lua 2-repro.lua
+: 1705416200:0;nvim -v
+: 1705416251:0;nv -nu 2-repro.lua 2-repro.lua
+: 1705416407:0;nvim -u 2-repro.lua
+: 1705417520:0;nvim -nu 2-repro.lua 2-repro.lua
+: 1705417528:0;nvim -nu 2-repro.lua
+: 1705417539:0;nv 2-repro.lua
+: 1705417622:0;nvim 2-repro.lua
+: 1705421283:0;rm -rf .repro
+: 1705425534:0;mkdir prev-bugs
+: 1705425547:0;cp repro.lua prev-bugs
+: 1705425554:0;mv 2-repro.lua prev-bugs
+: 1705425994:0;nvim -nu repro.lua
+: 1705426116:0;nv -nu 2-repro.lua
+: 1705426155:0;nvim repro.lua
+: 1705426434:0;nv repro.lua
+: 1705426462:0;nv -nu repro.lua test.cpp
+: 1705426986:0;bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh)
+: 1705427005:0;nvim ~/.local/bin/lvim
+: 1705427131:0;cd ~/.config/lvim
+: 1705427135:0;nv config.lua
+: 1705427149:0;lv
+: 1705427197:0;cd projects/text-editor
+: 1705427199:0;lvim
+: 1705462173:0;btop
+: 1705462746:0;dos2unix romeo.txt
+: 1705462750:0;nv romeo.txt
+: 1705492738:0;webcord
+: 1705492751:0;webcord&
+: 1705494753:0;unzip stack_overflow_16k.tar.gz
+: 1705495336:0;mkdir stack_overflow_16k
+: 1705495349:0;mv train test README.md stack_overflow_16k
+: 1705495373:0;tar -czf stack_overflow_16k stack_overflow_16k.tar.gz
+: 1705497355:0;mv Stock_Overflow_label_predict.ipynb NLP-Internship-Project/Stack_Overflow_label_predict.ipynb
+: 1705498963:0;mv Stack_Overflow_label_predict.ipynb NLP-Internship-Project
+: 1705503947:0;cd ML-fastapi
+: 1705505015:0;pip install jinja2
+: 1705505171:0;cp -r NLP-Internship-Project ..
+: 1705505195:0;cp -r requirements.txt ../NLP-Internship-Project
+: 1705505204:0;mkdir .git/
+: 1705505341:0;mv index.html templates
+: 1705506296:0;pip install tensorrt
+: 1705507501:0;mkdir nlp
+: 1705507569:0;cp ../NLP-Internship-Project/requirements.txt .
+: 1705507727:0;pip install matplotlib.pyplot
+: 1705507763:0;pip install matplotlib
+: 1705507902:0;\
+pip install scikit-learn
+: 1705508087:0;pip install seaborn
+: 1705508169:0;cp ../NLP-Internship-Project/NLP-model.tar.gz .
+: 1705508402:0;nvim
+: 1705508447:0;py stack_overflow_label_predict.py
+: 1705508513:0;cp NLP-model ../NLP-Internship-Project
+: 1705508517:0;cp -r NLP-model ../NLP-Internship-Project
+: 1705508547:0;rm NLP-model.tar.gz
+: 1705508556:0;cp -r ../nlp/NLP-model .
+: 1705508611:0;cd nlp
+: 1705508616:0;nv stack_overflow_label_predict.py
+: 1705510203:0;llll
+: 1705510261:0;git clone https://github.com/Rishabh672003/stack-overflow-label-predictor.git
+: 1705510269:0;rm -rf NLP-Internship-Project/.git
+: 1705510295:0;mv stack-overflow-label-predictor/.git stack-overflow-label-predictor/.gitignore stack-overflow-label-predictor/LICENSE stack-overflow-label-predictor/README.md NLP-Internship-Project
+: 1705510403:0;py main.py
+: 1705510557:0;rm -rf *
+: 1705510631:0;rm -rf javascript
+: 1705510635:0;nv README.md
+: 1705510650:0;rm -rf stack_overflow_16k.tar.gz
+: 1705512733:0;rm -rf stack_overflow_16k/train/javascript
+: 1705512739:0;rm -rf stack_overflow_16k/test/javascript
+: 1705512744:0;rm stack_overflow_16k.tar.gz
+: 1705512750:0;tar -czf stack_overflow_16k.tar.gz stack_overflow_16k
+: 1705514948:0;nv vercel.json
+: 1705515009:0;vercel build
+: 1705515013:0;yay vercel
+: 1705515114:0;vercel login
+: 1705515133:0;vercel .
+: 1705548033:0;cdp]
+: 1705548877:0;tar -xvf stack_overflow_16k.tar.gz
+: 1705548886:0;cd stack_overflow_16k
+: 1705548938:0;lll
+: 1705548960:0;cd train/csharp
+: 1705548976:0;cat 1.txt
+: 1705560433:0;cd Downloads
+: 1705560446:0;cd archive.zip
+: 1705568774:0;cf
+: 1705571409:0;cp
+: 1705571413:0;cfp
+: 1705571420:0;clear && pfetch
+: 1705585916:0;cd process-of-critical-section-in-os.webp
+: 1705585918:0;cd pro
+: 1705585920:0;cd Named-entity-recognition
+: 1705585925:0;unzip archive.zip
+: 1705585949:0;mkdir conell-2003
+: 1705585958:0;mv *.txt conell-2003
+: 1705585962:0;rm metadata
+: 1705585978:0;zip conell-2003.zip conell-2003
+: 1705585985:0;rm -rf archive.zip
+: 1705587912:0;rm stack_overflow_16k
+: 1705588049:0;tar --help
+: 1705588067:0;tar -tvf stack_overflow_16k-full.tar.gz
+: 1705588107:0;tar -tvf stack_overflow_16k-full.tar.gz | cat
+: 1705588223:0;l
+: 1705588236:0;tar -tvf stack_overflow_16k.tar.gz| cat
+: 1705588289:0;mkdir stack_overflow_16k-full
+: 1705588296:0;mv train test README.md stack_overflow_16k-full
+: 1705588301:0;rm stack_overflow_16k-full.tar.gz
+: 1705588318:0;tar -czf stack_overflow_16k-full.tar.gz stack_overflow_16k-full
+: 1705592769:0;tar -xvf stack_overflow_16k-full.tar.gz
+: 1705592772:0;cd stack_overflow_16k-full
+: 1705592776:0;cd train
+: 1705592807:0;cd csharp
+: 1705592809:0;ll | wc -l
+: 1705592886:0;cd test
+: 1705592889:0;cd javascript
+: 1705595492:0;cd NLP-model
+: 1705595502:0;rm stack_overflow_16k-full
+: 1705595667:0;rm NLP-model-full.tar.gz
+: 1705595674:0;tar -xvf NLP-model.tar.gz
+: 1705603138:0;yay python-jupytext
+: 1705636904:0;python main.py
+: 1705638349:0;git prune
+: 1705643386:0;hollywood
+: 1705646102:0;cd projects/NLP-Internship-Project
+: 1705651444:0;x
+: 1705651450:0;speedtest
+: 1705654677:0;rm NLP-model
+: 1705656898:0;rm -rf NLP-model
+: 1705656902:0;tar -xvf NLP-model-full.tar.gz
+: 1705672758:0;rm -rf NLP-Internship-Project
+: 1705672769:0;mkdir Jupyter-Notebooks
+: 1705672778:0;mv *.ipynb Jupyter-Notebooks
+: 1705672787:0;mkdir datasets
+: 1705672793:0;mv Placement_Data_Full_Class.csv datasets
+: 1705672800:0;mkdir assets
+: 1705672805:0;mv stylized-image.png assets
+: 1705672890:0;mkdir notes
+: 1705672901:0;mv Jupyter-Notebooks jupyter-notebooks
+: 1705672916:0;nv 01-regression.md
+: 1705677870:0;ws
+: 1705682300:0;cd NLP-Internship-Project
+: 1705682327:0;nv main.py
+: 1705733444:0;code .
+: 1705733515:0;vscodium .
+: 1705744708:0;nv .zprofile
+: 1705744737:0;g++ test.cpp -o test.o
+: 1705744744:0;nv test.caa
+: 1705744755:0;alias g++
+: 1705744766:0;cz
+: 1705744781:0;exec zsh
+: 1705744784:0;g++
+: 1705747629:0;cd hash-table
+: 1705747633:0;nv CMakeLists.txt
+: 1705747646:0;make builddeps
+: 1705748436:0;nv src/main.cpp
+: 1705748474:0;make
+: 1705748706:0;make run
+: 1705755743:0;cd projects/Learning-Rust
+: 1705755750:0;cd notes
+: 1705755763:0;fd per
+: 1705755844:0;mv Campus-placement-predictor.ipynb jupyter-notebooks
+: 1705816152:0;cd jupyter-notebooks
+: 1705818460:0;cd ju
+: 1705818469:0;rm Facial-emoion-recognition-2013.ipynb
+: 1705818524:0;ome
+: 1705819065:0;ls | wc -l
+: 1705819093:0;bob use stable
+: 1705819100:0;nv TASK_2_Next_Word_Prediction.ipynb
+: 1705824999:0;yay fluent-reader
+: 1705830796:0;yay conda
+: 1705830808:0;yay anaconda
+: 1705831806:0;killall -9 discord
+: 1705832017:0;yay spotube
+: 1705832069:0;spotube
+: 1705833536:0;yay unrar
+: 1705834169:0;mkdir past
+: 1705834220:0;mv rps python-reference-book OOP jpg-png random PPCA equation-calculator-def.py equation-calculator.py main-rps.py calculator-complete.py test.py data.csv graph.py past
+: 1705834250:0;cd python-study
+: 1705834255:0;nv .venv
+: 1705834274:0;bob use ni
+: 1705834295:0;nv numpy-stack.py
+: 1705834463:0;bob use nightly
+: 1705846500:0;gh repo clone greyhatguy007/Machine-Learning-Specialization-Coursera
+: 1705850024:0;pip install jupyter-notebooks
+: 1705850026:0;pip install jupyter-notebook
+: 1705850319:0;jupyter
+: 1705850408:0;pip install jupyter
+: 1705850442:0;jupyter-notebook
+: 1705850535:0;pip install matplotlib numpy
+: 1705850561:0;pip install ipympl
+: 1705850594:0;pip install jupyter-matplotlib
+: 1705850699:0;pip install ipywidgets==7.7.0
+: 1705852866:0;killall -9 Discord
+: 1705858145:0;pip install -r requirements.txt
+: 1705858249:0;\rm -rf ~/.virtualenvs
+: 1705858274:0;cd Programming-Notes
+: 1705900790:0;cd projects/Learning-machine-learning
+: 1705900795:0;pip install ipywidgets
+: 1705905546:0;cd projects/python-study
+: 1705905575:0;nv dot-product.py
+: 1705906336:0;pip install --upgrade ipympl
+: 1705906356:0;nv requirements.txt
+: 1705906553:0;cd Learning-machine-learning
+: 1705911093:0;rmvenv
+: 1705911105:0;git get-remote-url
+: 1705911109:0;git set-remote-url
+: 1705911168:0;git remote -v
+: 1705911560:0;git config --global http.postBuffer 157286400
+: 1705911771:0;git config --global http.postBuffer 15728640000
+: 1705911777:0;git config --global http.postBuffer 157286400000
+: 1705911793:0;git config --global http.postBuffer 1572864000
+: 1705911795:0;gh repo clone Rishabh672003/Machine-Learning-Specialization-Coursera ML-Andrew-Ng
+: 1705912416:0;tar -xvf ML-Andrew-Ng.tar.gz
+: 1705912422:0;cd content/ML-Andrew-Ng/Machine-Learning-Specialization-Coursera
+: 1705912453:0;mv Machine-Learning-Specialization-Coursera ../../../projects/ML-Andrew-Ng
+: 1705912460:0;rm -rf content
+: 1705912466:0;rm ML-Andrew-Ng.tar.gz
+: 1705912469:0;cd ML-Andrew-Ng
+: 1705912565:0;rm -rf Machine-Learning-Specialization-Coursera/.git
+: 1705912575:0;mv ML-Andrew-Ng/.git Machine-Learning-Specialization-Coursera
+: 1705912579:0;rm -rf ML-Andrew-Ng
+: 1705912583:0;cd Machine-Learning-Specialization-Coursera
+: 1705912585:0;lg
+: 1705933243:0;tpg
+: 1706024782:0;cd projects/Hyprland
+: 1706024789:0;cd .config/hypr
+: 1706024791:0;cd scripts
+: 1706024795:0;nv pause.py
+: 1706024911:0;nb
+: 1706024924:0;python pause.py
+: 1706024997:0;playerctl -a pause
+: 1706025001:0;playerctl -a play
+: 1706025309:0;yay evtest
+: 1706025327:0;evtest
+: 1706025337:0;sudo evtest
+: 1706025628:0;sudo showkey --keycodes
+: 1706025692:0;xev
+: 1706025694:0;yay wev
+: 1706026025:0;yay -Rns evtest
+: 1706026631:0;wev | grep 'wl_keyboard'
+: 1706026668:0;wev | grep 'sym'
+: 1706031767:0;pkexec systemctl restart NetworkManager
+: 1706031900:0;hyprctl clients
+: 1706031945:0;pkexec
+: 1706032732:0;yay amixer
+: 1706032749:0;amixer
+: 1706032936:0;dunstify "asdads"
+: 1706033659:0;ls scripts
+: 1706065900:0;killall -9 electron
+: 1706083098:0;killall -9 spotify
+: 1706097529:0;yt https://www.youtube.com/watch?v=dQw4w9WgXcQ
+: 1706097535:0;yt "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+: 1706098388:0;mkdir Hackenova-24
+: 1706098405:0;mv pro.py Rick\ Astley\ -\ Never\ Gonna\ Give\ You\ Up\ \(Official\ Music\ Video\)\ \[dQw4w9WgXcQ\].mp4 projects/Hackenova-24
+: 1706098417:0;mkvenv
+: 1706098432:0;pip install moviepy
+: 1706098677:0;pip install SpeechRecognition
+: 1706099624:0;pip install SpeechRecognition moviepy
+: 1706100551:0;pip install pydub
+: 1706100984:0;rm -rf temp*
+: 1706100993:0;rm -rf output.mp3
+: 1706100995:0;ffmpeg -i output.wav -vn output.mp3
+: 1706102349:0;pip3 install vosk
+: 1706106959:0;mkdir shastra-6b
+: 1706106962:0;cd shastra-6b
+: 1706106972:0;nv doubles.cpp
+: 1706107978:0;nv maths.cpp
+: 1706108668:0;nr
+: 1706109077:0;wev
+: 1706109296:0;nv largest-subarray.cpp
+: 1706116719:0;sudo downgrade foliate
+: 1706118363:0;ls -a
+: 1706118393:0;freshfetch
+: 1706118410:0;neofetch
+: 1706118419:0;keras
+: 1706118437:0;nv .yarnrc
+: 1706153572:0;nmtui
+: 1706183268:0;yay -Rns floorp
+: 1706183272:0;yay -S floorp
+: 1706183378:0;yay libxul
+: 1706183389:0;cd /usr/lib
+: 1706183441:0;cd floorp
+: 1706183452:0;grep lib
+: 1706183469:0;ll | grep -rn "lib"
+: 1706183483:0;ll | grep -rn "libxul"
+: 1706183501:0;grep "lib"
+: 1706183549:0;sudo floorp
+: 1706183580:0;yay -S libdbus-glib
+: 1706183586:0;yay -S libdbus
+: 1706183687:0;yay libvpx
+: 1706183823:0;nc
+: 1706242505:0;NVIM_APPNAME=lazyvim nvim
+: 1706274064:0;ping 9.9.9.9
+: 1706281227:0;man grep | grep -e -r
+: 1706281233:0;man grep | grep -e -n
+: 1706281242:0;cd zsh
+: 1706281253:0;grep alias aliases.zsh
+: 1706281257:0;grep -rn alias aliases.zsh
+: 1706281273:0;grep -rn grep aliases.zsh
+: 1706281473:0;nv aliases.zsh
+: 1706285015:0;cd projects
+: 1706285018:0;cd Hackenova-24
+: 1706285033:0;yay vosk
+: 1706285051:0;pip install vosk
+: 1706285063:0;vosk-transcriber -i Rick.mp4 -o test.txt
+: 1706286909:0;yt "https://youtu.be/Y9Zw6xOGly0"
+: 1706286949:0;mv *.mp4 ~/Videos
+: 1706287112:0;yt "https://www.youtube.com/watch?v=DxXFR4whfRY"
+: 1706287226:0;mv A\ Cruel\ Angel\'s\ Thesis\ but\ it\'s\ CALCULATOR\ \[DxXFR4whfRY\].mp4 cruel-angel.mp4
+: 1706287279:0;cd Videos
+: 1706287281:0;ffmpeg -i cruel-angel.mp4 -vcodec libx264 -acodec aac cruel-angel2.mp4
+: 1706291419:0;ls | grep ash
+: 1706291431:0;ls | grep cr
+: 1706327174:0;yay
+: 1706328843:0;ls
+: 1706339761:0;cunning
+: 1706339765:0;clear
+: 1706339771:0;close
+: 1706339777:0;clamp
+: 1706339782:0;one
+: 1706339787:0;two
+: 1706339789:0;three
+: 1706339794:0;four
+: 1706339806:0;five
+: 1706339812:0;six
+: 1706339817:0;seven
+: 1706339821:0;eight
+: 1706339823:0;nine
+: 1706339826:0;ten
+: 1706339832:0;eleven
+: 1706339835:0;twelve
+: 1706339850:0;thirteen
+: 1706339857:0;fourteen
+: 1706339861:0;fifteen
+: 1706339870:0;sixteen
+: 1706339890:0;seventeen
+: 1706339902:0;eighteen
+: 1706339906:0;nineteen
+: 1706339914:0;twentu
+: 1706339938:0;twenty
+: 1706339971:0;twenty onw
+: 1706339989:0;twenty one
+: 1706340009:0;twenty two
+: 1706340015:0;twenty three
+: 1706340024:0;twenty four
+: 1706340075:0;twenty five
+: 1706340081:0;twenty siz
+: 1706340085:0;twenty six
+: 1706340090:0;twenty seven
+: 1706340101:0;twenty eight
+: 1706340107:0;twenty nine
+: 1706340124:0;thirty
+: 1706340130:0;thirty one
+: 1706340135:0;thirty two
+: 1706340142:0;thirty three
+: 1706340148:0;thirty four
+: 1706340154:0;thirty five
+: 1706343652:0;thirty six
+: 1706343841:0;thirty seven
+: 1706343852:0;thirty eight
+: 1706343858:0;thirty nine
+: 1706343867:0;fourty
+: 1706343901:0;fourty onw
+: 1706343913:0;fourty one
+: 1706352227:0;rm -rf *.mp4
+: 1706352231:0;rm -rf *.wav
+: 1706352235:0;rm -rf *.mp3
+: 1706352256:0;pip install youtube_transcript_api\
 
-: 1688492928:0;time exec zsh
-: 1688495524:0;starship
-: 1688532076:0;yay -Rns tcet-linux-qogir-theme tcet-linux-welcome
-: 1688543353:0;ping 8.8.8.8
-: 1688543407:0;cd ~/.local/share/tcet-linux-welcome
-: 1688543882:0;git clone https://github.com/tcet-opensource/tcet-linux-welcome.git ~/.local/share/tcet-linux-welcome && cd ~/.local/share/tcet-linux-welcome && cp -r tcet-welcome ~/.local/share/ && sudo cp welcome /usr/bin\
-
-: 1688543919:0;rm -rf ~/.local/share/tcet-linux-welcome
-: 1688543923:0;git clone https://github.com/tcet-opensource/tcet-linux-welcome.git ~/.local/share/tcet-linux-welcome -b 4-create-welcome-app-based-on-yad && cd ~/.local/share/tcet-linux-welcome && cp -r tcet-welcome ~/.local/share/ && sudo cp welcome /usr/bin
-: 1688564043:0;cd komikku
-: 1688578487:0;cd ~/.config/spicetify
-: 1688578494:0;cd Themes
-: 1688578504:0;cd ~/.config/spicetify/Themes
-: 1688628225:0;yay zoxide
-: 1688628249:0;yay pfetch
-: 1688628309:0;yay wlogout
-: 1688628363:0;yay neovim
-: 1688628430:0;git clone https://github.com/Rishabh672003/Neovim ~/.config/nvim && nvim
-: 1688628462:0;yay yarn
-: 1688628587:0;yay -R xdg-desktop-portal-wlr
-: 1688628601:0;yay discord
-: 1688628726:0;cd pictures
-: 1688628731:0;gh repo clone Rishabh672003/Wallpapers
-: 1688628736:0;yay github-cli
-: 1688629244:0;yay nwg
-: 1688629265:0;yay rofi
-: 1688629465:0;cd ~/.config/rofi
-: 1688629472:0;rofi
-: 1688629486:0;nv catppuccin-mocha.rasi
-: 1688629497:0;rofi -show drun
-: 1688629661:0;yay spotify
-: 1688629753:0;yay -S catppuccin-gtk-theme-mocha
-: 1688629792:0;yay -S spicetify-cli
-: 1688629850:0;cd spicetify
-: 1688629865:0;yay -R lxappearance
-: 1688629871:0;yay -Rns thunar
-: 1688629892:0;yay nemo
-: 1688629980:0;yay gnome-disk-manager
-: 1688630062:0;yay virt-manager
-: 1688630079:0;yay gparted
-: 1688630186:0;gparted
-: 1688630208:0;yay boabab
-: 1688630234:0;yay gnome-disk
-: 1688630253:0;yay disk-analyzer
-: 1688630278:0;yay baobab
-: 1688630328:0;cd ~/.config/hypr
-: 1688630338:0;yay polkit
-: 1688630375:0;/usr/lib/polkit-kde-authentication-agent-1
-: 1688630381:0;sudo gparted
-: 1688630445:0;cd Pictures && gh repo clone Rishabh672003/Wallpapers
-: 1688633907:0;yay waydroid
-: 1688633938:0;sudo waydroid init -f
-: 1688634461:0;cp grimblast ~/.local/bin
-: 1688637932:0;gh repo clone tcet-opensource/tcet-linux
-: 1688637958:0;yay libvirtd
-: 1688637976:0;sudo systemctl enable --now libvirtd.service
-: 1688638314:0;yay kvm
-: 1688638677:0;cd Downloads/adwaita-icon-theme-44.0
-: 1688638679:0;./configure --prefix=/usr &&\
-make
-: 1688638690:0;sudo make install
-: 1688638756:0;gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
-: 1688638802:0;yay -Rns evince
-: 1688638883:0;nv ~/.config/gtk-4.0/settings.ini
-: 1688639123:0;xed
-: 1688639142:0;cd ~/.config/xfce4/xfconf/
-: 1688639147:0;cd xfce-perchannel-xml
-: 1688639151:0;nv thunar-volman.xml
-: 1688639482:0;x
-: 1688639859:0;yay gnome-settings
-: 1688639890:0;yay -S gnome
-: 1688639991:0;waybar
-: 1688640035:0;yay downgrade
-: 1688640162:0;yay libgnome
-: 1688640182:0;sudo downgrade evince
-: 1688640211:0;nv accels
-: 1688640816:0;yay brave
-: 1688641076:0;yay noto-sans-emoji
-: 1688641082:0;yay emoji
-: 1688641129:0;killall -9 Discord
-: 1688641395:0;yay lazygit
-: 1688641471:0;\
-\
-if command -v pacman &> /dev/null ; then\
- sudo pacman -Sy --needed --noconfirm git base-devel unzip curl lua cargo;\
-\
- \
- sudo pacman -Sy --needed --noconfirm npm python-pip stylua prettier astyle ripgrep unzip npm zsh autopep8 lua-language-server bash-language-server pyright lemminx typescript-language-server ;\
-else\
- echo "This script is only supported for Arch Linux"\
- exit 1;\
-fi\
-\
-if command -v yay &> /dev/null ; then\
-\
- \
- yay -S --needed --noconfirm shellcheck-bin beautysh jdtls lemminx marksman-bin;\
-else\
- echo "yay not installed";\
-fi\
-\
-if command -v cargo &> /dev/null ; then\
-\
- \
- cargo install --features lsp --locked taplo-cli;\
-else\
- echo "cargo not installed";\
-fi\
-\
-if command -v npm &> /dev/null ; then\
-\
- \
- npm i -g vscode-langservers-extracted;\
-else\
- echo "npm not installed";\
-fi\
-\
-rm -rf ~/nvim-linux64 > /dev/null 2>&1 ; curl --output-dir "$HOME" -LO https://github.com/neovim/neovim/releases/download/nightly/nvim-linux64.tar.gz && tar -xvf ~/nvim-linux64.tar.gz;\
-\
-if [ ! -d ~/.config/nvim ]; then\
- mkdir -p ~/.config/nvim;\
-fi\
-\
-git clone https://github.com/Rishabh672003/Neovim ~/.config/nvim;\
-\
-echo "alias nvim='~/nvim-linux64/bin/nvim'" >> ~/.bashrc ;\
-echo "alias nvim='~/nvim-linux64/bin/nvim'" >> ~/.zshrc ;\
-echo "alias nvim='~/nvim-linux64/bin/nvim'" >> ~/.config/fish/config.fish ;\
-\
-touch "$HOME"/.bashrc && source "$HOME"/.bashrc;\
-touch "$HOME"/.zshrc && source "$HOME"/.zshrc;\
-\
-~/nvim-linux64/bin/nvim
-: 1688642626:0;nv ~/.config/xed/accels
-: 1688643154:0;sudo chmod a+wr /opt/spotify\
-sudo chmod a+wr /opt/spotify/Apps -R
-: 1688643179:0;rm -rf nvim-linux64 nvim-linux64.tar.gz
-: 1688643320:0;yay cockpit
-: 1688643363:0;cd .config/xed
-: 1688643370:0;nv accels.save
-: 1688643523:0;sudo pacman -Sy --needed --noconfirm lua-language-server rust-analyzer;\
-yay -S jdtls lemminx;\
-cargo install --features lsp --locked taplo-cli;\
-cargo install prosemd-lsp;\
-npm i -g vscode-langservers-extracted;
-: 1688643575:0;rustup default stable
-: 1688643713:0;sudo waydroid init
-: 1688644068:0;curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-marketplace/main/resources/install.sh | sh
-: 1688644117:0;yay -R mako
-: 1688644127:0;cd ~/.config/xed
-: 1688644178:0;yay -S dunst
-: 1688644190:0;killall -9 mako
-: 1688644379:0;yel
-: 1688644423:0;gh auth login
-: 1688644454:0;git config --global user.email "jharishabh2k3@gmail.com"
-: 1688644466:0;git config --global user.name "Rishabh"
-: 1688644536:0;mkdir ~/.config/dunst
-: 1688644607:0;yay playerctl
-: 1688644630:0;cd ~/.config/waybar
-: 1688644636:0;nv config.jsonc
-: 1688644654:0;yay lua-language-server
-: 1688644666:0;yay pyright
-: 1688644830:0;nv ~/.config/dunst/dunstrc
-: 1688645001:0;dunstify "hello"
-: 1688645110:0;yay jet
-: 1688645245:0;pfetch --help
-: 1688645285:0;nv ~/.config/yadm/yadm.sh
-: 1688645290:0;yay taplo
-: 1688645335:0;nv ~/.config/nvim/install.sh
-: 1688645346:0;yay npm
-: 1688646000:0;cd ~/.config/nvim
-: 1688646005:0;yay onefetch
-: 1688646953:0;yay telegram
-: 1688647082:0;dunst
-: 1688647248:0;killall -9 dunst && dunst
-: 1688647291:0;yay -Rns gnome-shell
-: 1688647355:0;getnf
-: 1688647625:0;npm i vscode-langservers-extracted
-: 1688647659:0;yay fd
-: 1688647672:0;bat
-: 1688647673:0;yay bat
-: 1688647757:0;cd .lo
-: 1688647801:0;ce
-: 1688647810:0;npm i -g vscode-langservers-extracted
-: 1688647817:0;sudo npm i -g vscode-langservers-extracted
-: 1688647851:0;yay bash-language-server
-: 1688647868:0;yay tsserver
-: 1688649104:0;sudo systemctl enable --now waydroid-container.service
-: 1688649174:0;yay python-pyclip
-: 1688649656:0;cd apks
-: 1688649664:0;waydroid app install tachiyomi-x86_64-v0.14.5.apk
-: 1688649669:0;waydroid app install fenix-113.0b9-x86_64.apk
-: 1688649672:0;waydroid app install Telegram.apk
-: 1688649678:0;waydroid app install aniyomi-arm64-v8a-r6145.apk
-: 1688649858:0;wf
-: 1688650061:0;yay dnsmasq
-: 1688650153:0;yay nftables
-: 1688650166:0;ip addr show
-: 1688650178:0;yay -R firewalld
-: 1688650237:0;yay -Rns gnome-shell gnome-shell-extensions
-: 1688650254:0;yay -Rns xdg-desktop-portal-gtk xdg-desktop-portal-gnome
-: 1688654684:0;yay kde-settings
-: 1688654705:0;yay kde-connect
-: 1688654711:0;yay kde
-: 1688655254:0;yay zram-generator
-: 1688655307:0;yay qalculate-gtk
-: 1688655407:0;sudo systemctl start systemd-zram-setup@zram0.service
-: 1688655411:0;sudo systemctl enable systemd-zram-setup@zram0.service
-: 1688655438:0;zramctl
-: 1688655491:0;vs /etc/sysctl.d/99-vm-zram-parameters.conf
-: 1688655651:0;vs /etc/systemd/zram-generator.conf
-: 1688655660:0;sudo systemctl daemon-reload
-: 1688656327:0;yay fastfetch
-: 1688656457:0;nv .zprofile
-: 1688660129:0;sudo mkarchiso -v .
-: 1688660170:0;gh repo clone tcet-opensource/tcet-linux-welcome
-: 1688660184:0;cd tcet-welcome
-: 1688660195:0;cp -r tcet-welcome ..
-: 1688660199:0;./welcome
-: 1688660410:0;yay speedtest
-: 1688661258:0;llll
-: 1688661309:0;pf
-: 1688667493:0;yay -S wlsunset
-: 1688668063:0;yay okular
-: 1688668227:0;yay gtk-engine-murrine
-: 1688668361:0;mkdir .themes
-: 1688668363:0;cd .themes
-: 1688668371:0;cp -r ../Catppuccin-Mocha-BL .
-: 1688668382:0;wlsunset -S 7:00 -s 21:00
-: 1688668437:0;git clone https://github.com/odziom91/libadwaita-theme-changer.git
-: 1688668446:0;cd libadwaita-theme-changer
-: 1688668447:0;chmod +x libadwaita-tc.py
-: 1688668473:0;mkdir ~/.config/gtk-4.0
-: 1688668474:0;./libadwaita-tc.py
-: 1688668572:0;yay nautilus
-: 1688668627:0;yay -Rns nautilus
-: 1688668631:0;yay -Cc
-: 1688668932:0;yay -S lxappearence
-: 1688668943:0;yay lx
-: 1688668968:0;yay -S lxappearance-gtk3
-: 1688669128:0;mv projects/.gtkrc-2.0 ..
-: 1688669192:0;lxappearance
-: 1688669198:0;yay -Rns lxappearance-gtk3
-: 1688669383:0;cd .config/gtk-3.0
-: 1688669386:0;nv settings.ini
-: 1688669408:0;cd gtk-4.0
-: 1688669931:0;evince
-: 1688701225:0;mkdir rust-project
-: 1688701229:0;mkdir rust-projects
-: 1688701233:0;rm -rf rust-project
-: 1688701236:0;cd rust-projects
-: 1688701246:0;cargo new guessing-game
-: 1688701250:0;cd guessing-game
-: 1688701326:0;cargo install
-: 1688701367:0;cargo build
-: 1688701385:0;cargo run
-: 1688705278:0;yay shotwell
-: 1688705910:0;cd tcet-linux-welcome
-: 1688705912:0;one
-: 1688715851:0;rm -rf Catppuccin-Mocha-BL Catppuccin-Mocha-BL.zip
-: 1688730467:0;nv ~/.config/discord/settings.json
-: 1688730950:0;yay postscript
-: 1688730970:0;yay cinnnamon
-: 1688730973:0;yay cinnamon
-: 1688731084:0;cd /
-: 1688731085:0;fd evince
-: 1688732796:0;mv .gtkrc-2.0 projects
-: 1688732882:0;cd .config/gtk-4.0
-: 1688732966:0;nv .nanorc
-: 1688733696:0;mv projects/.gtkrc-2.0 .
-: 1688733699:0;nv .gtkrc-2.0
-: 1688734237:0;gsettings set org.gnome.desktop.interface gtk-theme Catppuccin-Mocha-Standard-Blue-dark
-: 1688734248:0;yay evince
-: 1688734419:0;cat ~/.config/gtk-3.0/settings.ini
-: 1688734425:0;gsettings set org.gnome.Evince gtk-theme = Catppuccin-Mocha-Standard-Blue-dark
-: 1688734457:0;gsettings set org.gnome.Evince gtk-theme=Catppuccin-Mocha-Standard-Blue-dark
-: 1688734664:0;yay gnome-tweaks
-: 1688734722:0;yay bash-completions
-: 1688734729:0;yay gnome
-: 1688734763:0;yay -S gnome-control-center
-: 1688735002:0;rm -rf .gtkrc-2.0 ~/.config/gtk-3.0 ~/.config/gtk-4.0
-: 1688735200:0;yay -Rns catppuccin-gtk-theme-mocha
-: 1688735356:0;cd ~/.themes
-: 1688735364:0;unzip Catppuccin-Mocha-Standard-Blue-dark.zip
-: 1688738929:0;yay catppuccin
-: 1688741477:0;gh repo clone catppuccin/qt5ct
-: 1688741489:0;cd qt5ct
-: 1688741510:0;mkdir -p ~/.config/qt5ct/colors
-: 1688741526:0;cp themes/Catppuccin-Mocha.conf ~/.config/qt5ct/colors
-: 1688741610:0;sudo pacman -Syyu lightly-qt
-: 1688742114:0;cd Documents
-: 1688742120:0;mkdir PhilRel
-: 1688742421:0;yay -Rns brave
-: 1688742426:0;yay -Rns brave-bin
-: 1688742444:0;yay -Rns gnome-shell gnome-shell-extensions gnome-desktop gnome-desktop-4
-: 1688742450:0;yay -Rns gnome-shell gnome-desktop gnome-desktop-4
-: 1688742471:0;yay -Rns gnome-shell gnome-control-center
-: 1688742482:0;yay -Rns gnome-settings-daemon
-: 1688742490:0;yay -Rns gnome-settings-daemon gnome-tweaks
-: 1688742493:0;yay c
-: 1688742653:0;cd PhilRel
-: 1688742662:0;mv Graham\ Oppy,\ N.\ N.\ Trakakis\ -\ Nineteenth-Century\ Philosophy\ of\ Religion_\ The\ History\ of\ Western\ Philosophy\ of\ Religion,\ Volume\ 4-Routledge\ \(2014\).pdf History-of-religion
-: 1688742665:0;cd History-of-religion
-: 1688742673:0;xo Graham\ Oppy,\ N.\ N.\ Trakakis\ -\ Ancient\ Philosophy\ of\ Religion_\ The\ History\ of\ Western\ Philosophy\ of\ Religion,\ Volume\ 1-Routledge\ \(2014\).pdf
-: 1688742708:0;xo Graham\ Oppy,\ N.\ N.\ Trakakis\ -\ Medieval\ Philosophy\ of\ Religion_\ The\ History\ of\ Western\ Philosophy\ of\ Religion,\ Volume\ 2-Routledge\ \(2014\).pdf
-: 1688742718:0;xo Graham\ Oppy,\ N.\ N.\ Trakakis\ -\ Nineteenth-Century\ Philosophy\ of\ Religion_\ The\ History\ of\ Western\ Philosophy\ of\ Religion,\ Volume\ 4-Routledge\ \(2014\).pdf
-: 1688742726:0;xo Graham\ Oppy,\ N.\ N.\ Trakakis\ -\ Twentieth-Century\ Philosophy\ of\ Religion_\ The\ History\ of\ Western\ Philosophy\ of\ Religion,\ Volume\ 5-Routledge\ \(2014\).pdf
-: 1688742771:0;mv Graham\ Oppy,\ N.\ N.\ Trakakis\ -\ Ancient\ Philosophy\ of\ Religion_\ The\ History\ of\ Western\ Philosophy\ of\ Religion,\ Volume\ 1-Routledge\ \(2014\).pdf 1.Graham\ Oppy,\ N.\ N.\ Trakakis\ -\ Ancient\ Philosophy\ of\ Religion_\ The\ History\ of\ Western\ Philosophy\ of\ Religion,\ Volume\ 1-Routledge\ \(2014\).pdf
-: 1688742791:0;mv Graham\ Oppy,\ N.\ N.\ Trakakis\ -\ Medieval\ Philosophy\ of\ Religion_\ The\ History\ of\ Western\ Philosophy\ of\ Religion,\ Volume\ 2-Routledge\ \(2014\).pdf 2.Graham\ Oppy,\ N.\ N.\ Trakakis\ -\ Medieval\ Philosophy\ of\ Religion_\ The\ History\ of\ Western\ Philosophy\ of\ Religion,\ Volume\ 2-Routledge\ \(2014\).pdf
-: 1688742806:0;mv Graham\ Oppy,\ N.\ N.\ Trakakis\ -\ Early\ Modern\ Philosophy\ of\ Religion_\ The\ History\ of\ Western\ Philosophy\ of\ Religion\ 3-Routledge\ \(2013\).pdf 3.Graham\ Oppy,\ N.\ N.\ Trakakis\ -\ Early\ Modern\ Philosophy\ of\ Religion_\ The\ History\ of\ Western\ Philosophy\ of\ Religion\ 3-Routledge\ \(2013\).pdf
-: 1688742819:0;mv Graham\ Oppy,\ N.\ N.\ Trakakis\ -\ Nineteenth-Century\ Philosophy\ of\ Religion_\ The\ History\ of\ Western\ Philosophy\ of\ Religion,\ Volume\ 4-Routledge\ \(2014\).pdf 4.Graham\ Oppy,\ N.\ N.\ Trakakis\ -\ Nineteenth-Century\ Philosophy\ of\ Religion_\ The\ History\ of\ Western\ Philosophy\ of\ Religion,\ Volume\ 4-Routledge\ \(2014\).pdf
-: 1688742833:0;mv Graham\ Oppy,\ N.\ N.\ Trakakis\ -\ Twentieth-Century\ Philosophy\ of\ Religion_\ The\ History\ of\ Western\ Philosophy\ of\ Religion,\ Volume\ 5-Routledge\ \(2014\).pdf 5.Graham\ Oppy,\ N.\ N.\ Trakakis\ -\ Twentieth-Century\ Philosophy\ of\ Religion_\ The\ History\ of\ Western\ Philosophy\ of\ Religion,\ Volume\ 5-Routledge\ \(2014\).pdf
-: 1688743926:0;rm -rf node_modules package.json package-lock.json
-: 1688743964:0;nv .zshrc
-: 1688743969:0;rm -rf .zshrc
-: 1688743976:0;./.bashrc
-: 1688743984:0;bash
-: 1688744886:0;exit
-: 1688744632:0;yay onlyoffice
-: 1688744764:0;nv startup.conf
-: 1688744805:0;cd other-stuff
-: 1688744807:0;cd mirrors-and-hosts
-: 1688744835:0;nv rate-mirrors-arch.sh
-: 1688745232:0;sudo mv mirrorlist-backup mirrorlist
-: 1688745687:0;./rate-mirrors-arch.sh
-: 1688745842:0;ls /etc/hosts
-: 1688745846:0;ll /etc/hosts
-: 1688745914:0;sudo chmod 644 /etc/hosts
-: 1688746013:0;yay rate-mirrors
-: 1688746029:0;yay -Rns rate-mirrors
-: 1688746057:0;cargo install --git https://github.com/westandskif/rate-mirrors
-: 1688746220:0;rate-mirrors
-: 1688746233:0;rate_mirrors
-: 1688746413:0;yay clipman
-: 1688746432:0;pkill rofi || clipman pick -t rofi
-: 1688746444:0;wl-paste -t text --watch clipman store
-: 1688746672:0;yay pacman
-: 1688746690:0;yay hooks
-: 1688746754:0;yay pacman-cleanup-hook
-: 1688746811:0;yay libreoffice
-: 1688746973:0;sudo chgrp root mirrorlist mirrorlist-backup
-: 1688746986:0;sudo chgrp root mirrorlist
-: 1688747058:0;sudo chown root mirrorlist
-: 1688747068:0;sudo chown root mirrorlist-backup
-: 1688747080:0;sudo chown rishabh mirrorlist-backup
-: 1688747121:0;cd .local/share/cargo/bin
-: 1688747129:0;mv rate_mirrors rate-mirrors
-: 1688747138:0;cd other-stuff/mirrors-and-hosts
-: 1688747592:0;yay -Syyu
-: 1688747669:0;cd /etc
-: 1688747674:0;cd pacman.d
-: 1688747756:0;cd .local/share/nvim/lazy/nvim-treesitter/parser/
-: 1688747762:0;pwd
-: 1688750280:0;yay -S deluge hyprland
-: 1688750315:0;deluge
-: 1688750332:0;yay -S deluge-gtk hyprland
-: 1688750349:0;deluge-gtk
-: 1688750552:0;unzip endeavouros-1080p.zip
-: 1688750569:0;sudo cp -r dark-matter /boot/grub/themes/
-: 1688750579:0;sudo cp -r darkmatter /boot/grub/themes/
-: 1688750713:0;cd /boot/grub/themes/darkmatter
-: 1688751018:0;sudo pacdiff
-: 1688751030:0;pacdiff
-: 1688751070:0;nv grub
-: 1688751083:0;vs grub
-: 1688751324:0;cd /boot
-: 1688751334:0;nv grub.cfg.new
-: 1688751351:0;cd starfield
-: 1688751362:0;yay -S grub
-: 1688751458:0;grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUB
-: 1688751478:0;grub-mkconfig -o /boot/grub/grub.cfg
-: 1688751517:0;vs /etc/default/grub.pacsave
-: 1688751739:0;echo $0
-: 1688751792:0;cd /boot/efi
-: 1688751796:0;cd BOOT
-: 1688751807:0;cd themes
-: 1688751810:0;cd darkmatter
-: 1688751888:0;cd projects/grub
-: 1688751938:0;cd /boot/grub/themes
-: 1688752066:0;vs /etc/default/grub
-: 1688752099:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
-: 1688752832:0;nano .bashrc
-: 1688785478:0;yay
-: 1688785722:0;sudo grub-fix-initrd-generation
-: 1688785779:0;cd /etc/pacman.d/
-: 1688787480:0;yay jdeconnect
-: 1688787483:0;yay kdeconnect
-: 1688787677:0;yay kdeconnect-indicator\
-
-: 1688787681:0;yay kdeconnect-indicator
-: 1688787691:0;yay indicator-kdeconnect
-: 1688789941:0;yay qemu
-: 1688790086:0;sudo pacman -S qemu virt-manager virt-viewer dnsmasq vde2 bridge-utils openbsd-netcat dmidecode
-: 1688790100:0;sudo pacman -S ebtables iptables
-: 1688790120:0;sudo pacman -S libguestfs
-: 1688790161:0;sudo systemctl status libvirtd
-: 1688790178:0;vs /etc/libvirt/libvirtd.conf
-: 1688790238:0;sudo usermod -a -G libvirt $(whoami)
-: 1688790244:0;newgrp libvirt
-: 1688790252:0;sudo systemctl restart libvirtd.service
-: 1688790274:0;sudo modprobe -r kvm_amd\
-sudo modprobe kvm_amd nested=1
-: 1688794073:0;/usr/lib/waydroid/data/scripts/waydroid-net.sh start
-: 1688795811:0;yay go
-: 1688795843:0;go install github.com/maaslalani/nap@main
-: 1688796230:0;time zsh --interactive -c exit
-: 1688796299:0;cd ~/.config/zsh
-: 1688796360:0;yl
-: 1688804828:0;yay grub
-: 1688804848:0;sudo grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUB
-: 1688804861:0;cd grub
-: 1688804878:0;sudo rm -rf /boot/grub/themes/darkmatter
-: 1688804879:0;sudo python3 darkmatter-theme.py --install
-: 1688804892:0;cd /etc/default
-: 1688804901:0;cat grub
-: 1688804907:0;cat grub.pacsave
-: 1688804913:0;cat grub.pacsave.1
-: 1688804937:0;sudo rm -rf grub grub.pacsave.1
-: 1688804944:0;sudo mv grub.pacsave grub
-: 1688804965:0;nv /etc/pacman.d
-: 1688804972:0;nv /etc/pacman.conf
-: 1688806284:0;cd /etc/pacman.d
-: 1688806289:0;cd gnupg
-: 1688806389:0;nv pacman.conf
-: 1688808495:0;firewall-cmd --zone=trusted --add-interface=waydroid0
-: 1688808533:0;wr
-: 1688809857:0;sudo firewall-cmd --state
-: 1688810042:0;yay firewalld
-: 1688810062:0;sudo firewall-cmd --zone=trusted --add-interface=waydroid0 --permanent
-: 1688810079:0;firewall-cmd --zone=trusted --add-interface=waydroid0 --permanent
-: 1688810103:0;yay -Rns firewalld
-: 1688875855:0;rustup component add rust-src\
-
-: 1688875878:0;rustup component add rust-analyzer
-: 1688875940:0;rust-analyzer
-: 1688878954:0;sudo
-: 1688878994:0;reboot
-: 1688882008:0;nv .bash_history
-: 1688882032:0;nv .bash_logout
-: 1688882043:0;nv .bash_profile
-: 1688882052:0;nv .bashrc
-: 1688882077:0;eos-pacdiff
-: 1688894607:0;gh repo clone Jacekun/AniPy
-: 1688894620:0;cd AniPy
-: 1688894640:0;yay python-pip
-: 1688894663:0;pip install virtualenv
-: 1688894680:0;yay virtualvenv
-: 1688894686:0;yay virtualenv
-: 1688894709:0;mkvenv
-: 1688894759:0;python main.py
-: 1688894820:0;cd output
-: 1688895371:0;nv ISSUE.md
-: 1688895642:0;nmtui
-: 1688898905:0;gh repo clone LunarVim/nvim-basic-ide
-: 1688898931:0;cd nvim-basic-ide
-: 1688898937:0;cd lua/user
-: 1688898940:0;nv colorscheme.lua
-: 1688903322:0;kitty
-: 1688903324:0;yay kitty
-: 1688903368:0;cat .bashrc
-: 1688904008:0;yay stylua
-: 1688904020:0;nv ~/.config/kitty/kitty.conf
-: 1688906553:0;nvim a.py
-: 1688906633:0;mv nvim-basic-ide ~/.config
-: 1688906685:0;cd .config/nvim-basic-ide
-: 1688906692:0;nvim lua/utils/init.lua
-: 1688906844:0;cd ~/projects/rust-projects/guessing-game
-: 1688906849:0;nbi src/main.rs
-: 1688915113:0;cd nvim-
-: 1688918727:0;/usr/local/bin
-: 1688918742:0;echo $PATH
-: 1688919062:0;nv grimblast
-: 1688921955:0;wl
-: 1688922110:0;Hyprland -v
-: 1688922120:0;Hyprland -h
-: 1688922257:0;f
-: 1688922369:0;rm -rf ~/.local/share/nvim-basic-ide
-: 1688922379:0;du
-: 1688922382:0;duf
-: 1688922596:0;cd .npm
-: 1688922601:0;rm -rf .npm
-: 1688922647:0;gh repo clone b3nj5m1n/xdg-ninja
-: 1688922658:0;cd xdg-ninja
-: 1688922662:0;./xdg-ninja.sh
-: 1688922694:0;nv ~/.config/zsh/.zprofile
-: 1688924122:0;mkdir /mnt/windows
-: 1688924125:0;sudo mkdir /mnt/windows
-: 1688924130:0;sudo mount /dev/nvme0n1p3 /mnt/windows
-: 1688924135:0;cd /mnt/windows
-: 1688924145:0;lsblk -f
-: 1688924397:0;cat /etc/fstab
-: 1688924409:0;vs /etc/fstab
-: 1688924441:0;sudo blkid /dev/nvme0n1p3
-: 1701886202:0;cd /etc/zsh/zshenv
-: 1701886222:0;nv /etc/zsh/zshenv
-: 1701886234:0;echo $ZDOTDIR
-: 1701886803:0;nap less
-: 1701886821:0;nv lessfilter.sh
-: 1701886866:0;chmod +x lessfilter.sh
-: 1701886875:0;./lessfilter.sh cherno-cpp
-: 1701886884:0;./lessfilter.sh .
-: 1701886896:0;./lessfilter.sh test.c
-: 1701886912:0;mv lessfilter.sh lessfilter
-: 1701886932:0;mv lessfilter ~/.local/bin
-: 1701887269:0;build-fzf-tab-module
-: 1701887384:0;ld
-: 1701887389:0;cd .android
-: 1701887480:0;rm -rf ~/.local/share/zap/plugins/fzf-tab
-: 1701888070:0;cd ~/.local/bin/lessfilter ~/.lessfilter
-: 1701888075:0;cp ~/.local/bin/lessfilter ~/.lessfilter
-: 1701888200:0;cd Pictures
-: 1701888207:0;cd Anime-Wallpaper
-: 1701888224:0;yay chafa
-: 1701888233:0;yay exiftool
-: 1701888304:0;ls -la
-: 1701888356:0;nv .lessfilter
-: 1701888525:0;jq
-: 1701888534:0;fzf json
-: 1701888550:0;cd projects/xdg-ninja/json-schema/
-: 1701888564:0;touch a
-: 1701888668:0;rm a
-: 1701888676:0;cd projects/xdg-ninja
-: 1701888683:0;cd programs
-: 1701888724:0;yay hr
-: 1701888924:0;yay -Ss hr
-: 1701925252:0;zap list
-: 1701925268:0;bob list
-: 1701926234:0;cd cherno
-: 1701929394:0;cd gtk-app
-: 1701929420:0;cmake-language-server
-: 1701947313:0;mkdir random-number
-: 1701948551:0;spicetify backup restore apply
-: 1701952325:0;./random
-: 1701952336:0;./random 2
-: 1701952521:0;./build/random 2
-: 1701952699:0;make run 12
-: 1701956513:0;./build/random 12
-: 1701956693:0;./build/random 25
-: 1701956878:0;cp build/random ~/.local/bin
-: 1701957911:0;cp build/random ~/.local/bin/
-: 1701957918:0;random 25
-: 1701957927:0;mv random
-: 1701957930:0;mv random rand
-: 1701958005:0;ln -s build/random ~/.local/bin/random
-: 1701958024:0;random
-: 1701958027:0;random 12
-: 1701958064:0;ln -s ~/projects/random-number/build/random ~/.local/bin/random
-: 1701958080:0;rm ~/.local/bin/random
-: 1701958082:0;rm ~/.local/bin/rand
-: 1701958087:0;ln -s ~/projects/random-number/build/random ~/.local/bin/rand
-: 1701966792:0;rand 12
-: 1701966842:0;nv .gitignore
-: 1701966976:0;git clone https://github.com/Rishabh672003/random-number-generator.git
-: 1701966987:0;cp -r random-number-generator/.git random-number
-: 1701966992:0;rm -rf random-number-generator
-: 1701967207:0;./build/random 13
-: 1701967211:0;./build/random 1331
-: 1701967213:0;./build/random 112
-: 1701967428:0;./build/random 1
-: 1701967744:0;./build/random 0
-: 1701969914:0;./build/random -1
-: 1701969917:0;./build/random -1212
-: 1701969920:0;./build/random 123
-: 1701972548:0;ed
-: 1701972549:0;ws
-: 1701972782:0;cd hyprland
-: 1701972801:0;nv hyprlandCrashReport697.txt
-: 1701972821:0;cd .cache
-: 1702010541:0;yay lesspipe
-: 1702010560:0;cd Music
-: 1702010569:0;nv main.py
-: 1702010600:0;nv .venv
-: 1702010662:0;rm -rf *.mp3
-: 1702010731:0;spotdl https://open.spotify.com/playlist/37i9dQZF1Fa1IIVtEpGUcU?si=1a71ec5ea59941d0
-: 1702010747:0;spotdl "https://open.spotify.com/playlist/37i9dQZF1Fa1IIVtEpGUcU"
-: 1702010819:0;spotdl https://open.spotify.com/playlist/37i9dQZF1Fa1IIVtEpGUcU
-: 1702010847:0;spotdl https://open.spotify.com/playlist/6NQVllFjqelJymiIxBuL5b
-: 1702013163:0;git clone https://github.com/Rishabh672003/zsh-autoswitch-virtualenv.git
-: 1702013167:0;cd zsh-autoswitch-virtualenv
-: 1702013217:0;cd vim
-: 1702013232:0;mv autoswitch_virtualenv.plugin.zsh zsh-autoswitch-virtualvenv.plugin.zsh
-: 1702013256:0;zap update
-: 1702013325:0;nv CHANGELOG.rst
-: 1702013485:0;nv .git
-: 1702013915:0;cd .con
-: 1702013919:0;nv hyprland.conf
-: 1702015302:0;cd lua
-: 1702015480:0;ls
-: 1702015520:0;cp lsp.lua ~/.config/nvim/lua/rj/plugins/
-: 1702015602:0;cp alpha.lua ../fortune.lua ~/.config/nvim/lua/rj/plugins
-: 1702015642:0;mv lua/rj/plugins/fortune.lua lua/rj
-: 1702015705:0;cp nvim-cmp.lua ~/.config/nvim/lua/rj/plugins
-: 1702015774:0;cp barbecue.lua ~/.config/nvim/lua/rj/plugins
-: 1702015935:0;cp whichkey.lua ~/.config/nvim/lua/rj/plugins
-: 1702016106:0;nv measure.sh
-: 1702016115:0;./measure.sh
-: 1702016119:0;bash measure.sh
-: 1702016207:0;cd .config/nvim-rocks
-: 1702016240:0;cp nvim-telescope.lua ~/.config/nvim/lua/rj/plugins
-: 1702016312:0;nv autocommands.lua
-: 1702016476:0;cp plugins/neo-tree.lua ~/.config/nvim/lua/rj/plugins
-: 1702016665:0;cp plugins/dap.lua plugins/dapui.lua ~/.config/nvim/lua/rj/plugins
-: 1702016698:0;nvim init.lua
-: 1702016744:0;cp treesitter.lua ~/.config/nvim/lua/rj/plugins
-: 1702016792:0;cp noice.lua ~/.config/nvim/lua/rj/plugins
-: 1702016905:0;cp nvim-toggleterm.lua ~/.config/nvim/lua/rj/plugins
-: 1702016983:0;cp nvim-luasnip.lua ~/.config/nvim/lua/rj/plugins
-: 1702016993:0;cp lualine.lua ~/.config/nvim/lua/rj/plugins
-: 1702017049:0;cp indentline.lua ~/.config/nvim/lua/rj/plugins
-: 1702017162:0;cd rj
-: 1702017165:0;nv keymaps.lua
-: 1702017232:0;cd plugins
-: 1702017244:0;cp jaq.lua ~/.config/nvim/lua/rj/plugins
-: 1702017276:0;cp auto-save.lua autopairs.lua ~/.config/nvim/lua/rj/plugins
-: 1702017532:0;cdpp
-: 1702017538:0;nv rj/keymaps.lua
-: 1702017740:0;cd .config
-: 1702017825:0;nv init.lua
-: 1702019973:0;animedl
-: 1702019976:0;yay anime
-: 1702019991:0;ani-cli zom100
-: 1702019995:0;ani-cli zom
-: 1702020363:0;lsblk
-: 1702020373:0;ani-cli zom 100
-: 1702023335:0;cd random-stuff
-: 1702023336:0;vfp
-: 1702023654:0;./build/random -11
-: 1702023746:0;\rm -rf ~/.local/bin/rand
-: 1702023749:0;cp build/random ~/.local/bin/rand
-: 1702023753:0;rand -12
-: 1702023758:0;rand -121313
-: 1702023834:0;./build/random 12122221212
-: 1702023838:0;./build/random 121222212
-: 1702024332:0;cd random
-: 1702024334:0;cd[]
-: 1702026877:0;yay boost
-: 1702027572:0;ldconfig
-: 1702027578:0;sudo ldconfig
-: 1702028784:0;clear
-: 1702029011:0;rm -rf ~/.cache/CPM/boost-cmake
-: 1702029384:0;\rm -rf ~/Videos/Movies/Doctor\ Sleep\ \(2019\)\ \[1080p\]\ \[WEBRip\]\ \[5.1\]\ \[YTS.LT\]
-: 1702032177:0;./build/cherno 12
-: 1702032184:0;./build/cherno 1111111
-: 1702032326:0;./build/cherno 11111111111111111
-: 1702032331:0;./build/cherno 11111111111111
-: 1702032514:0;./build/cherno 111111
-: 1702032516:0;./build/cherno 111111111
-: 1702032518:0;./build/cherno 111111111111
-: 1702032520:0;./build/cherno 111111111111111
-: 1702032521:0;./build/cherno 111111111111111111
-: 1702032523:0;./build/cherno 111111111111111111111
-: 1702032524:0;./build/cherno 111111111111111111111111
-: 1702032525:0;./build/cherno 111111111111111111111111111
-: 1702032948:0;./build/cherno 111111111111111111111111111111
-: 1702032950:0;./build/cherno 111111111111111111111111111111111
-: 1702032951:0;./build/cherno 111111111111111111111111111111111111
-: 1702032953:0;./build/cherno 111111111111111111111111111111111111111
-: 1702032954:0;./build/cherno 111111111111111111111111111111111111111111
-: 1702032956:0;./build/cherno 111111111111111111111111111111111111111111111
-: 1702033076:0;rm -rf ~/.cache/CPM/boost
-: 1702034717:0;rand 111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
-: 1702034721:0;rand 11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
-: 1702034723:0;rand 11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
-: 1702034853:0;./build/cherno 25
-: 1702035669:0;cd CPM_modules/FindBoost.cmake
-: 1702035677:0;nv CPM_modules/FindBoost.cmake
-: 1702035696:0;dcp
-: 1702035738:0;cd projects/tcet-opensource/xfce-xpytile-panel-plugin
-: 1702037812:0;cd projects/cherno-cpp
-: 1702053123:0;cd xfce4-sample-plugin
-: 1702053159:0;cd tcet-opensource/xfce-xpytile-panel-plugin
-: 1702057150:0;webcord
-: 1702057355:0;yay gh-dash
-: 1702057425:0;gh extension install dlvhdr/gh-dash
-: 1702057675:0;rand 111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111V
-: 1702057683:0;rand 111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
-: 1702057899:0;./build/cherno
-: 1702059296:0;cd nvim-r
-: 1702060306:0;cp build/cherno ~/.local/bin/rand
-: 1702060311:0;ll ~/.local/bin
-: 1702060320:0;lvim
-: 1702060668:0;rand 5
-: 1702060689:0;rand 10
-: 1702091790:0;g++ ternery.cpp
-: 1702091792:0;./ternery.out
-: 1702092108:0;yd
-: 1702092110:0;yys
-: 1702093328:0;yay -S hyprland
-: 1702093569:0;yay hyprland-git
-: 1702104377:0;cd .config/hypr
-: 1702105953:0;cd test
-: 1702105988:0;g++ ternery.cpp -o ter
-: 1702105990:0;./ter
-: 1702107141:0;sudo downgrade hyprland
-: 1702117139:0;mpv The.Shining.1980.1080p.BluRay.x264-\[YTS.AM\].mp4 --sub-file=The.Shining.English-WWW.MY-SUBS.CO.srt
-: 1702117276:0;unzip SUBDL.com\ the.shining1634942.zip
-: 1702117288:0;mpv The.Shining.1980.1080p.BluRay.x264-\[YTS.AM\].mp4 --sub-file=SUBDL.com\ the.shining1634942.zip
-: 1702117299:0;mpv The.Shining.1980.1080p.BluRay.x264-\[YTS.AM\].mp4 --sub-file=EN-SDH\ Ori.srt
-: 1702118644:0;cd movie
-: 1702118645:0;cd The\ Shining\ \(1980\)\ \[BluRay\]\ \[1080p\]\ \[YTS.AM\]
-: 1702118649:0;unzip layakww.zip
-: 1702143015:0;
-: 1702118684:0;mpv The.Shining.1980.1080p.BluRay.x264-\[YTS.AM\].mp4
-: 1702129567:0;yay -Rnsdd brltty
-: 1702129574:0;yay -S brltty
-: 1702135895:0;trash-empty
-: 1702143204:0;rand 1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
-: 1702143700:0;cd lear
-: 1702143704:0;nv Cargo.toml
-: 1702144666:0;curl -LO https://packaged-media.redd.it/82o61i46d95c1/pb/m2-res_360p.mp4
-: 1702144677:0;xo m2-res_360p.mp4
-: 1702144715:0;mpv m2-res_360p.mp4
-: 1702145012:0;rad
-: 1702145016:0;rand
-: 1702145324:0;wpaperd&
-: 1702189937:0;cd projects/rock-paper-scissors
-: 1702190127:0;rm .cache bin CMakeCache.txt CMakeFiles compile_commands.json
-: 1702190169:0;mv rps2.cpp ..
-: 1702190172:0;rm rps2.out
-: 1702190770:0;time test
-: 1702190827:0;time
-: 1702190998:0;g++ -S test.cpp
-: 1702191005:0;nv test.s
-: 1702191172:0;/etc/profile.d/lesspipe.sh
-: 1702191198:0;nv /etc/profile.d/lesspipe.sh
-: 1702191515:0;./test
-: 1702191529:0;g++ test.cpp -o test
-: 1702191930:0;time make run
-: 1702191955:0;make compile mode=Debug
-: 1702201050:0;cd Doctor\ Sleep\ \(2019\)\ \[1080p\]\ \[WEBRip\]\ \[5.1\]\ \[YTS.LT\]
-: 1702202947:0;nv Doctor.Sleep.2019.1080p.WEBRip.x264.AAC5.1-\[YTS.LT\].srt
-: 1702202992:0;bg
-: 1702202994:0;jobs
-: 1702202996:0;fg
-: 1702205746:0;mpv Doctor.Sleep.2019.1080p.WEBRip.x264.AAC5.1-\[YTS.LT\].mp4
-: 1702218244:0;nbi
-: 1702219124:0;\rm -rf *
-: 1702219133:0;cd Anime
-: 1702219136:0;cd one-piece
-: 1702219141:0;ncdu
-: 1702272541:0;source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-: 1702272549:0;[ -f "$HOME/.local/share/zap/zap.zsh" ] && source "$HOME/.local/share/zap/zap.zsh"\
-
-: 1702272559:0;autoload -Uz plug
-: 1702272566:0;plug ~/.config/zsh/aliases.zsh\
-plug ~/.config/zsh/supercharge.zsh\
-
-: 1702272576:0;eval "$(zoxide init zsh)"
-: 1702272585:0;eval "$(fnm env)"
-: 1702272598:0;exec zsh
-: 1702272640:0;cd .local/share/zap
-: 1702272646:0;cd plugins/fzf-tab-source
-: 1702272653:0;nv fzf-tab-source.plugin.zsh
-: 1702288310:0;nvim $(fzf)
-: 1702289780:0;kg
-: 1702289894:0;git rebase main
-: 1702289899:0;git rebase dev
-: 1702294061:0;cd rand
-: 1702294142:0;nv conan_provider.cmake
-: 1702294185:0;cmake -B build -S . -DCMAKE_PROJECT_TOP_LEVEL_INCLUDES=./conan_provider.cmake -DCMAKE_BUILD_TYPE=RelWithDebInfo
-: 1702294213:0;rm test
-: 1702294220:0;g++ test.cpp -o test -g3
-: 1702306002:0;cd projects/random-number
-: 1702314696:0;make
-: 1702314788:0;g++ test.cpp -o test -g3 -std=c++23 -fmodules-ts
-: 1702315838:0;lv
-: 1702316044:0;cd Programming-Notes
-: 1702316046:0;cd CPP
-: 1702316074:0;nv 30.type-casting.cpp
-: 1702317116:0;gdb
-: 1702318376:0;g++ test.cpp -o test -g3 -std=c++23
-: 1702319494:0;gdb test
-: 1702319644:0;cd Screencasts
-: 1702319651:0;cd Pictures/Screenshots
-: 1702319673:0;cd Wallpapers/wallpapers
-: 1702319689:0;mpv -i anime-girl-beautiful.jpeg
-: 1702319696:0;swaybg -i anime-girl-beautiful.jpeg
-: 1702357632:0;ascii -d
-: 1702401495:0;v
-: 1702402084:0;ls ~/.local/share
-: 1702402305:0;rm -rf ~/.local/share/bob/nightly-5294986
-: 1702403969:0;cd nvi,
-: 1702403970:0;cd nvi
-: 1702403980:0;rm spell/en.utf-8.add.spl
-: 1702444103:0;date
-: 1702444105:0;cal
-: 1702444158:0;nv test.md
-: 1702444343:0;rand 22
-: 1702445642:0;killall -9 electron
-: 1702453248:0;cd Videos
-: 1702453252:0;cd Movies
-: 1702453255:0;cd Night.of.the.Living.Dead.1968.REMASTERED.1080p.BluRay.x265-RARBG
-: 1702453258:0;cd Subs
-: 1702462507:0;nv time.cpp
-: 1702463394:0;mpv Night.of.the.Living.Dead.1968.REMASTERED.1080p.BluRay.x265-RARBG.mp4 --sub-file=Subs/5_English.srt
-: 1702468721:0;hx time.cpp
-: 1702472170:0;nv stl.cpp
-: 1702474095:0;cd usefull-stuff
-: 1702474099:0;nv indentline2.lua
-: 1702474238:0;cd ~/projects/usefull-stuff
-: 1702475150:0;yay gcc
-: 1702481377:0;clang --version
-: 1702481394:0;clang++ stl.cpp
-: 1702481419:0;yay -Rnsdd clang-git
-: 1702481422:0;yay clang
-: 1702482594:0;yay clangd
-: 1702482649:0;yay llvm
-: 1702482788:0;clangd
-: 1702482820:0;cd projects/random
-: 1702482832:0;nv cpp/variadic.cpp
-: 1702488523:0;nv ~/projects/.clang-format
-: 1702488634:0;time g++ variadic.cpp -O3 -o var
-: 1702489027:0;install-grub
-: 1702489042:0;cz
-: 1702489170:0;sudo paccache -rk0
-: 1702489426:0;cd progra
-: 1702489433:0;nv CPP/34-templates.md
-: 1702490340:0;wpaperd --help
-: 1702490906:0;
-: 1702490908:0;
-: 1702529553:0;cppcheck
-: 1702529591:0;cppcheck test.cpp
-: 1702530280:0;cd Data-Structures/Trees
-: 1702530284:0;cd problems
-: 1702530292:0;g++ symmetric-bt.cpp
-: 1702530298:0;./a.out
-: 1702531727:0;nvim --clean
-: 1702533231:0;rand 21
-: 1702534132:0;bob rollback
-: 1702534156:0;yay bob
-: 1702536906:0;cd projects/random/cpp
-: 1702536911:0;nv namespace.cpp
-: 1702537473:0;cd .local/share/bob
-: 1702537481:0;rm -rf nvim-bin
-: 1702537491:0;rm -rf *
-: 1702537519:0;nvim
-: 1702537531:0;bob use e527842211188a5c069ef4f4759aa291353b707f
-: 1702537936:0;bob ls
-: 1702553080:0;cd .local/bin
-: 1702553115:0;cd pro
-: 1702553117:0;cd random-number
-: 1702553122:0;cd cherno-cpp
-: 1702554610:0;git init
-: 1702554646:0;cp ../random-number/LICENSE.
-: 1702554709:0;touch src/main.cpp
-: 1702556473:0;./build/random
-: 1702556526:0;./build/hash-function
-: 1702556530:0;echo $?
-: 1702556646:0;make build
-: 1702564403:0;bob use e527842
-: 1702564404:0;n
-: 1702569056:0;nv test.cpp
-: 1702569091:0;g++ test.cpp -o test -O3
-: 1702569105:0;time ./test
-: 1702575515:0;bob use stable
-: 1702575593:0;bob use nightly
-: 1702617618:0;yay -Rnsdd python-websockets
-: 1702617629:0;yay python-websockets
-: 1702622406:0;rm -rf hash-table
-: 1702622412:0;mkdir hash-table
-: 1702622414:0;cd hash-table
-: 1702622420:0;cp ../random-number/LICENSE .
-: 1702622425:0;cp ../random-number/Makefile .
-: 1702622433:0;cp ../random-number/CMakeLists.txt .
-: 1702622443:0;make prepare
-: 1702622449:0;mkdir src build
-: 1702622452:0;cd src
-: 1702622456:0;nv main.cpp
-: 1702622528:0;nv CMakeLists.txt
-: 1702622692:0;./hash-table
-: 1702627478:0;make builddeps
-: 1702631930:0;rand 25
-: 1702631944:0;rand 2
-: 1702631964:0;rand 20
-: 1702635176:0;cd .config/zsh
-: 1702635183:0;nv .p10k.zsh
-: 1702642320:0;nv -d src/hash_table.cpp src/hash_table.hpp
-: 1702642328:0;nv -d --clean src/hash_table.cpp src/hash_table.hpp
-: 1702642352:0;cd nvim
-: 1702642357:0;cd lua/rj/plugins
-: 1702642367:0;nvim --clean -d alpha.lua autopairs.lua
-: 1702642508:0;git add .
-: 1702642514:0;git commit
-: 1702642542:0;nv smoothie.lua
-: 1702642825:0;nvim -d alpha.lua autopairs.lua
-: 1702644541:0;pacman -Qi
-: 1702644548:0;pacman -Qi debuginfod
-: 1702645359:0;make rum
-: 1702645809:0;make run
-: 1702655029:0;nv history
-: 1704107671:0;mkarchiso --help
-: 1704107698:0;sudo mkarchiso -v . -w . -o ~/projects/tcet-opensource/tcet-isos
-: 1704107791:0;killall -9 firefox
-: 1704107814:0;tor-browser
-: 1704108843:0;cd tcet-open
-: 1704108846:0;cd tcet-linux
-: 1704109631:0;./cleanup.sh
-: 1704113409:0;cd tcet
-: 1704113416:0;cd tcet-linux-pkgbuild
-: 1704116526:0;hyprctl version
-: 1704130098:0;killall -9 wpaperd
-: 1704130586:0;swaybg -i ~/Pictures/Wallpapers/wallpapers/Milky_Way.jpg &
-: 1704132624:0;make compile
-: 1704132642:0;objdump hash-table >> assembly
-: 1704132669:0;objdump hash-table
-: 1704132764:0;objdump -d -M intel -S hash-table
-: 1704132922:0;lll
-: 1704132926:0;:noh
-: 1704132971:0;objdump -d -M intel -S hash-table >> hash
-: 1704132974:0;nv hash
-: 1704133782:0;make clean
-: 1704133785:0;make builddeps mode=Release
-: 1704133791:0;make compile mode=Release
-: 1704133815:0;cd build
-: 1704133818:0;cd ..
-: 1704133832:0;btop
-: 1704134042:0;pacman -Qq | fzf
-: 1704134048:0;pacman -Q | fzf
-: 1704134070:0;yay xdg-desktop
-: 1704134161:0;sudo downgrade xdg-desktop-portal-hyprland
-: 1704134318:0;yay hyprland
-: 1704167991:0;wifi-status
-: 1704168013:0;wihotspot-gui
-: 1704168110:0;sudo downgrade linux-wifi-hotspot
-: 1704168149:0;yay linux-wifi
-: 1704168304:0;yay -Rns linux-wifi-hotspot
-: 1704168309:0;git clone https://github.com/lakinduakash/linux-wifi-hotspot\
-cd linux-wifi-hotspot\
-\
-#\
-make\
-\
-#\
-sudo make install
-: 1704168367:0;yay hostapd
-: 1704168401:0;nv Makefile
-: 1704168450:0;which wihotspot
-: 1704168452:0;which wihotspot-gui
-: 1704168652:0;wihotspot
-: 1704191980:0;ping 9.9.9.9
-: 1704191982:0;nr
-: 1704192067:0;unzip notmonolisa.zip
-: 1704192069:0;cd monolisa
-: 1704192086:0;cp monolisa ~/.local/share/fonts
-: 1704192090:0;cp -r monolisa ~/.local/share/fonts
-: 1704192093:0;fc-cache -f -v
-: 1704192145:0;yay xfce4-terminal
-: 1704192234:0;speedtest
-: 1704215726:0;kk
-: 1704215927:0;g++-12 -std=c++20 -fmodules-ts main.cpp -x c++-system-header iostream
-: 1704217203:0;ldd ls
-: 1704217211:0;ldd /bin/ls
-: 1704219279:0;yay zoom
-: 1704219662:0;nv ~/.config/zoomus.conf
-: 1704219703:0;XDG_CURRENT_DESKTOP=gnome zoom
-: 1704219850:0;echo $XDG_CURRENT_DESKTOP
-: 1704254638:0;cc
-: 1704256448:0;zoom --help
-: 1704263484:0;cd learini
-: 1704263490:0;cd projects/Learning-machine-learning
-: 1704293589:0;cd Rishabh672003
-: 1704294319:0;nap github
-: 1704294327:0;nap
-: 1704298425:0;cd hash
-: 1704302528:0;cd projects/Rishabh672003
-: 1704302530:0;nv README.md
-: 1704306036:0;cd projects
-: 1704306044:0;nv test.html
-: 1704347740:0;nv ~/.config/kitty
-: 1704347800:0;killall -9 wezterm-gui
-: 1704348310:0;cat
-: 1704356659:0;cd Downloads
-: 1704356661:0;cd internship-data
-: 1704356668:0;unzip archive.zip
-: 1704369094:0;cp ~/Downloads/internship-data/Placement_Data_Full_Class.csv ~/projects/Learning-machine-learning
-: 1704369101:0;cd learning
-: 1704369102:0;cdp
-: 1704369105:0;cd Learning-machine-learning
-: 1704369134:0;git config pull.rebase false
-: 1704369136:0;git pull
-: 1704373683:0;nv test
-: 1704389224:0;yay -c
-: 1704389232:0;yay -Yc
-: 1704393684:0;cd hypr
-: 1704393967:0;floorp
-: 1704393974:0;firefox
-: 1704427734:0;killall -9 floorp
-: 1704429465:0;dunst --is-disabled
-: 1704429470:0;dunst --help
-: 1704429476:0;dunstify "hello world"
-: 1704430107:0;dunstctl --help
-: 1704430114:0;dunstctl is-paused
-: 1704435338:0;cd
-: 1704435370:0;cd learning-machine
-: 1704435393:0;vscodium regression.ipynb
-: 1704435973:0;fzf
-: 1704456079:0;hyprctl clients
-: 1704462468:0;l
-: 1704462471:0;cd sdl
-: 1704462475:0;nv src/main.cpp
-: 1704464145:0;meld
-: 1704464155:0;yay -Rnsdd meld
-: 1704464161:0;yay meld
-: 1704474285:0;unei
-: 1704474288:0;uneo
-: 1704474296:0;ll
-: 1704476589:0;lg
-: 1704478224:0;we
-: 1704478229:0;c
-: 1704515109:0;nv
-: 1704515773:0;ys
-: 1704515910:0;vs /etc/pacman.conf
-: 1704515917:0;e
-: 1704515919:0;ys
-: 1704516018:0;c
-: 1704516019:0;ll
-: 1704516020:0;nv
-: 1704517780:0;ll
-: 1704517781:0;nv
-: 1704517788:0;cd .floorp
-: 1704517789:0;ll
-: 1704519348:0;nv
-: 1704526301:0;ll
-: 1704526301:0;c
-: 1704526303:0;cd learning-machine
-: 1704526304:0;ll
-: 1704526304:0;lg
-: 1704526332:0;ll
-: 1704526344:0;rm Perceptron-SciKit-Learn.ipynb
-: 1704526370:0;mv perceptron_trick.ipynb Campus-placement-predictor.ipynb
-: 1704526371:0;ll
-: 1704526372:0;lg
-: 1704526410:0;ll
-: 1704526412:0;rm 04LWqBq.png
-: 1704526413:0;ll
-: 1704526414:0;lg
-: 1704526548:0;ping 9.9.9.9
-: 1704529253:0;curl https://github.com/sungsujaing/NeuralStyleTransfer_custom/blob/master/StyleTransfer.ipynb
-: 1704529260:0;curl -LO https://github.com/sungsujaing/NeuralStyleTransfer_custom/blob/master/StyleTransfer.ipynb
-: 1704529269:0;vscodium StyleTransfer.ipynb
-: 1704529677:0;lg
-: 1704529873:0;cdp
-: 1704529875:0;gh repo clone sungsujaing/NeuralStyleTransfer_custom
-: 1704543773:0;we
-: 1704543783:0;ys
-: 1704545812:0;cd lea
-: 1704545812:0;ll
-: 1704545820:0;lg
-: 1704545840:0;ll
-: 1704545893:0;we
-: 1704545927:0;yay python-dbus
-: 1704545936:0;yay -Rnsdd python-dbus
-: 1704545957:0;yay python-dbus
-: 1704546002:0;yay -Rnsdd dbus-python
-: 1704546010:0;yay dbus-python
-: 1704546015:0;we
-: 1704546029:0;sudo systemctl restart waydroid-container.service
-: 1704546032:0;ws
-: 1704546078:0;ws&
-: 1704546144:0;c
-: 1704546271:0;bg
-: 1704546277:0;jobs
-: 1704553448:0;ll
-: 1704553449:0;c
-: 1704553450:0;ll
-: 1704553451:0;nv
-: 1704562873:0;we
-: 1704562876:0;c
-: 1704562880:0;pacman --help
-: 1704562897:0;cd
-: 1704562909:0;man pacman
-: 1704562994:0;cd
-: 1704563005:0;c
-: 1704563007:0;yel
-: 1704563014:0;nv
-: 1704563104:0;yl
-: 1704563133:0;nv
-: 1704563620:0;cd
-: 1704563622:0;cd projects
-: 1704563637:0;cd tcet-opensource/tcet-linux-pkgbuild
-: 1704563638:0;ll
-: 1704563642:0;cd apps/tcet-linux-multilang-compiler
-: 1704563644:0;ll
-: 1704563647:0;./cleanup.sh
-: 1704563648:0;ll
-: 1704563652:0;makepkg -s
-: 1704563661:0;cd pkg
-: 1704563662:0;ll
-: 1704563664:0;cd tcet-linux-multilang-compiler
-: 1704563665:0;ll
-: 1704563670:0;nv .PKGINFO
-: 1704563701:0;ll
-: 1704563704:0;cd ..
-: 1704563704:0;ll
-: 1704563706:0;cd ..
-: 1704563706:0;ll
-: 1704563713:0;pacman -Qlp tcet-linux-multilang-compiler-24.01-1-x86_64.pkg.tar.zst
-: 1704563723:0;tar -xvf tcet-linux-multilang-compiler-24.01-1-x86_64.pkg.tar.zst
-: 1704563734:0;ll
-: 1704563771:0;tar --zstd -cf files.tar.zst files/
-: 1704563780:0;tar --zstd -cf files.tar.zst tcet-linux-multilang-compiler.tar.gz
-: 1704563780:0;ll
-: 1704564209:0;./cleanup.sh
-: 1704564210:0;ll
-: 1704564217:0;rm usr .*
-: 1704564219:0;ll
-: 1704564223:0;rm files.tar.zst
-: 1704564224:0;ll
-: 1704564224:0;cd
-: 1704564225:0;c
-: 1704564226:0;ll
-: 1704564227:0;nv
-: 1704564597:0;ssh
-: 1704564904:0;nv
-: 1704564950:0;ll
-: 1704564952:0;cd hypr
-: 1704564953:0;ll
-: 1704564955:0;rm other-configs
-: 1704564956:0;ll
-: 1704564957:0;lg
-: 1704564960:0;yel
-: 1704564967:0;yl
-: 1704565024:0;yadm enter
-: 1704565058:0;lg
-: 1704565062:0;yl
+: 1706352279:0;nv yt.py
+: 1706356232:0;unzip b5cb639e0c035876e0dd3c46e5a380fd-b59e3dca8457cf3db5364c50989383ae742ec43e.zip
+: 1706356237:0;cd b5cb639e0c035876e0dd3c46e5a380fd-b59e3dca8457cf3db5364c50989383ae742ec43e
+: 1706356244:0;mv * ..
+: 1706356246:0;cdp
+: 1706356258:0;rm -rf b5cb639e0c035876e0dd3c46e5a380fd-b59e3dca8457cf3db5364c50989383ae742ec43e
+: 1706356261:0;rm b5cb639e0c035876e0dd3c46e5a380fd-b59e3dca8457cf3db5364c50989383ae742ec43e.zip
+: 1706365785:0;cd
+: 1706365793:0;cali
+: 1706366134:0;rm -rf ~/.cache/nvim-rocks
+: 1706366178:0;rm -rf ~/.local/share/nvim-rocks
+: 1706366184:0;rm -rf ~/.local/state/nvim-rocks
+: 1706366188:0;nro
+: 1706368067:0;yay luarocks
+: 1706370185:0;we
+: 1706414543:0;c
+: 1706414703:0;ys
+: 1706415163:0;floorp
+: 1706415465:0;man tr
+: 1706429133:0;time
+: 1706429528:0;cd projects/Hackenova-24
+: 1706429531:0;nv pro.py
+: 1706448707:0;firefox
+: 1706452310:0;nv
+: 1706452429:0;cd projects/Competetive-programming
+: 1706452433:0;cd hackerrank
+: 1706452442:0;mkdir COC2
+: 1706452444:0;cd COC2
+: 1706452451:0;cp ../.jaq.json .
+: 1706452452:0;kk
+: 1706452693:0;ll
+: 1706452696:0;nv test-art.cpp
+: 1706457116:0;yay proton
+: 1706457166:0;e
+: 1706457173:0;protonvpn
+: 1706457183:0;yay python-xdg
+: 1706457193:0;yay -Rnsdd python-xdg
+: 1706457200:0;yay -Rnsdd python-pyxdg
+: 1706457204:0;yay -S python-pyxdg
+: 1706457208:0;protonvpn
+: 1706457395:0;yay kwallet-pam
+: 1706457413:0;kwallet-query
+: 1706457417:0;kwalletd5
+: 1706457434:0;nv /etc/pam.d/login
+: 1706457464:0;nv /etc/pam.d/sddm
+: 1706457858:0;cd projects/ML-fastapi
+: 1706457858:0;ll
+: 1706457862:0;rmvenv
+: 1706457865:0;mkvenv
+: 1706457914:0;ll
+: 1706457918:0;nv DOCKERFILE
+: 1706457923:0;ll
+: 1706457925:0;cdp
+: 1706457929:0;cd Tim-E-Scape
+: 1706457930:0;ll
+: 1706457933:0;cdp
+: 1706457934:0;ll
+: 1706457937:0;cd ML-fastapi
+: 1706457937:0;ll
+: 1706457944:0;mv DOCKERFILE Dockerfile
+: 1706457945:0;ll
+: 1706457947:0;nv Dockerfile
+: 1706457976:0;docker build -t ml-docker-app .
+: 1706458109:0;ll
+: 1706458237:0;yay kwallet
+: 1706529720:0;nv
+: 1706529808:0;yl
