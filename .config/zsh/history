@@ -668,3 +668,338 @@ pip install scikit-learn
 : 1706458237:0;yay kwallet
 : 1706529720:0;nv
 : 1706529808:0;yl
+: 1706530805:0;nv
+: 1706530814:0;ys
+: 1706533739:0;cd projects/Hackenova-24
+: 1706533740:0;ll
+: 1706533748:0;tar -xvf my_model.tar.gz
+: 1706533756:0;ll
+: 1706535951:0;cd projects/ML-fastapi
+: 1706535952:0;ll
+: 1706535963:0;nv .gitignore
+: 1706535977:0;ll
+: 1706535983:0;lg
+: 1706535991:0;ll
+: 1706535993:0;nv main.py
+: 1706536074:0;cdp
+: 1706536075:0;ll
+: 1706536101:0;tree | fzf
+: 1706536112:0;ll
+: 1706536116:0;ls
+: 1706536137:0;cd ML-fastapi
+: 1706536138:0;ll
+: 1706536144:0;nv
+: 1706536156:0;cdp
+: 1706536160:0;cd stack-overflow-label-predictor
+: 1706536160:0;ll
+: 1706536164:0;cdp
+: 1706536165:0;ll
+: 1706536203:0;cd NLP-Internship-Project
+: 1706536204:0;ll
+: 1706536206:0;rmvenv
+: 1706536208:0;mkvenv
+: 1706536360:0;ll
+: 1706536553:0;lll
+: 1706536554:0;ll
+: 1706536561:0;py main.py
+: 1706536659:0;git pull
+: 1706537487:0;ll
+: 1706537492:0;pip install streamlit
+: 1706537601:0;nv main.py
+: 1706537705:0;nv requirements.txt
+: 1706537993:0;nv main.py
+: 1706538008:0;ll
+: 1706538010:0;py main.py
+: 1706538025:0;streamlit run main.py
+: 1706538089:0;nv main.py
+: 1706538098:0;streamlit run main.py
+: 1706538133:0;ll
+: 1706538136:0;lg
+: 1706538146:0;nv main.py
+: 1706538166:0;ll
+: 1706538189:0;nv fastapi.py
+: 1706538194:0;nv main.py
+: 1706538227:0;streamlit run main.py
+: 1706538246:0;lg
+: 1706538354:0;nv main.py
+: 1706540052:0;streamlit run main.py
+: 1706540274:0;nv main.py
+: 1706540521:0;pip install --upgrade fastapi
+: 1706540536:0;nv main.py
+: 1706540545:0;pip install -r requirements.txt
+: 1706540548:0;nv main.py
+: 1706540569:0;pip install -r requirements.txt
+: 1706540574:0;py main.py
+: 1706540618:0;nv
+: 1706540636:0;lg
+: 1706540639:0;nv main.py
+: 1706540914:0;py main.py
+: 1706540919:0;nv
+: 1706540933:0;pip install flask
+: 1706540938:0;nv main.py
+: 1706540960:0;streamlit run main.py
+: 1706541001:0;nv main.py
+: 1706541007:0;streamlit run main.py
+: 1706541565:0;nv main.py
+: 1706541974:0;streamlit run main.py
+: 1706542023:0;yay postman
+: 1706542161:0;cdp
+: 1706542183:0;nv main.py
+: 1706542210:0;streamlit run main.py
+: 1706544280:0;nv main.py
+: 1706544287:0;streamlit run main.py
+: 1706544302:0;nv
+: 1706544338:0;streamlit run main.py
+: 1706544431:0;pip install flask
+: 1706544435:0;nv
+: 1706616458:0;c
+: 1706616460:0;ys
+: 1706616629:0;c
+: 1706616749:0;nv
+: 1706616762:0;c
+: 1706616772:0;nv
+: 1706619541:0;c
+: 1706619549:0;uneo
+: 1706701373:0;cd
+: 1706701373:0;c
+: 1706701375:0;ll
+: 1706701645:0;nv
+: 1706702319:0;cd projects/ML-fastapi
+: 1706702320:0;ll
+: 1706702329:0;streamlit run main.py
+: 1706702332:0;ll
+: 1706702337:0;pip install streamlit
+: 1706702357:0;streamlit run main.py
+: 1706702395:0;nv
+: 1706702426:0;lg
+: 1706702431:0;ll
+: 1706702433:0;git
+: 1706702436:0;ll
+: 1706702445:0;nv main.py
+: 1706702453:0;cdp
+: 1706702454:0;ll
+: 1706702461:0;cd stack-overflow-label-predictor
+: 1706702462:0;ll
+: 1706702465:0;cdp
+: 1706702604:0;fzf
+: 1706702617:0;cd NLP-Internship-Project
+: 1706702618:0;ll
+: 1706702621:0;lg
+: 1706702629:0;nv main.py
+: 1706702639:0;streamlit run main.py
+: 1706702674:0;ll
+: 1706702688:0;mkdir datasets
+: 1706702689:0;ll
+: 1706702701:0;mv stack_overflow_16k-full.tar.gz stack_overflow_16k.tar.gz datasets
+: 1706702703:0;ll
+: 1706702707:0;cd NLP-model
+: 1706702708:0;ll
+: 1706702710:0;cdp
+: 1706702710:0;ll
+: 1706702718:0;nv fastapi.py
+: 1706702729:0;ll
+: 1706702739:0;mkdir notebooks
+: 1706702745:0;mv Stack_Overflow_label_predict.ipynb notebooks
+: 1706702745:0;ll
+: 1706702753:0;mkdir models
+: 1706702761:0;mv NLP-model models
+: 1706702761:0;ll
+: 1706702767:0;mv *.gz models
+: 1706702768:0;ll
+: 1706702784:0;mkdir src
+: 1706702785:0;ll
+: 1706702794:0;mv *.py src
+: 1706702795:0;ll
+: 1706702797:0;nv
+: 1706702803:0;nv src/main.py
+: 1706702806:0;ll
+: 1706702814:0;rm vercel.json
+: 1706702814:0;ll
+: 1706702815:0;lg
+: 1706702825:0;pip install -r requirements.txt
+: 1706702830:0;ll
+: 1706702844:0;rm .vercel
+: 1706702845:0;ll
+: 1706702897:0;lg
+: 1706702921:0;nv src/main.py
+: 1706702949:0;ll
+: 1706702955:0;streamlit run src/main.py
+: 1706702980:0;nv src/main.py
+: 1706703069:0;streamlit run src/main.py
+: 1706703130:0;ll
+: 1706703133:0;cdp
+: 1706703136:0;cd ML-fastapi
+: 1706703136:0;ll
+: 1706703138:0;cd ml-model
+: 1706703139:0;ll
+: 1706703142:0;cdp
+: 1706703142:0;ll
+: 1706703171:0;cdp
+: 1706703172:0;ll
+: 1706703175:0;cd NLP-Internship-Project
+: 1706703176:0;ll
+: 1706703179:0;streamlit run src/main.py
+: 1706703189:0;cd src
+: 1706703193:0;streamlit run main.py
+: 1706703225:0;ll
+: 1706703228:0;nv main.py
+: 1706703254:0;cdp
+: 1706703254:0;ll
+: 1706703261:0;py src/main.py
+: 1706703265:0;ll
+: 1706703272:0;mv src/main.py .
+: 1706703273:0;ll
+: 1706703275:0;nv main.py
+: 1706703282:0;streamlit run main.py
+: 1706703302:0;lg
+: 1706703468:0;streamlit run main.py
+: 1706703866:0;nv main.py
+: 1706703916:0;streamlit run main.py
+: 1706704046:0;lg
+: 1706708317:0;cdp
+: 1706708319:0;cd Rishabh672003
+: 1706708320:0;ll
+: 1706708322:0;nv README.md
+: 1706709613:0;ll
+: 1706709615:0;lg
+: 1706720117:0;c
+: 1706720118:0;cd
+: 1706720119:0;c
+: 1706720120:0;nv
+: 1706721455:0;lv
+: 1706721457:0;nv
+: 1706721500:0;pip install -r requirements.txt
+: 1706721505:0;ll
+: 1706721519:0;cd NLP
+: 1706721520:0;ll
+: 1706721522:0;nv main.py
+: 1706721564:0;cd
+: 1706721565:0;c
+: 1706721669:0;cd projects
+: 1706721670:0;ll
+: 1706721872:0;c
+: 1706721874:0;nv
+: 1706721878:0;cd c
+: 1706721880:0;c
+: 1706721880:0;nv
+: 1706722031:0;c
+: 1706792961:0;ys
+: 1706793545:0;cd projects/hash-table
+: 1706793549:0;nv
+: 1706793583:0;nv CMakeLists.txt
+: 1706793591:0;nv
+: 1706793599:0;make builddeps
+: 1706793604:0;nv
+: 1706800464:0;c
+: 1706800465:0;ll
+: 1706800466:0;nv
+: 1706802564:0;c
+: 1706802566:0;ll
+: 1706802567:0;c
+: 1706802592:0;ll
+: 1706802593:0;c
+: 1706802638:0;uneo
+: 1706802742:0;ll
+: 1706802775:0;c
+: 1706802776:0;ll
+: 1706802784:0;nv .archlinux.draft.txt
+: 1706810018:0;ll
+: 1706810023:0;nv CMakeLists.txt
+: 1706810177:0;c
+: 1706810203:0;ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccecececdedcedcedcedcedcdcdcdcc
+: 1706810204:0;c
+: 1706810207:0;dc
+: 1706810215:0;man dc
+: 1706810231:0;dc
+: 1706810249:0;tldr dccc
+: 1706810259:0;tldr dc
+: 1706810352:0;dc
+: 1706810371:0;ls
+: 1706810372:0;c
+: 1706810373:0;ls
+: 1706810386:0;print "sfdsf"
+: 1706810394:0;echo "sfsfd"
+: 1706810400:0;echo "echo "
+: 1706864966:0;ys
+: 1706865108:0;ll
+: 1706865109:0;nc
+: 1706865110:0;nv
+: 1706865844:0;c
+: 1706865845:0;ll
+: 1706865847:0;cc
+: 1706865848:0;c
+: 1706865848:0;ll
+: 1706865849:0;c
+: 1706865901:0;nv
+: 1706876977:0;ping 9.9.9.9
+: 1706878075:0;we
+: 1706885506:0;ys
+: 1706888991:0;c
+: 1706889296:0;nv
+: 1706889322:0;c
+: 1706889322:0;nv
+: 1706890129:0;hyperfine
+: 1706890137:0;yay hyperfine
+: 1706890166:0;hyperfine -w 3 "nvim +q"
+: 1706890188:0;hyperfine -w 3 --prepare "nvim +q"
+: 1706890216:0;hyperfine -w 3 --warmup 2 --prepare "nvim" "nvim +q"
+: 1706890228:0;hyperfine -w 3 --warmup "2" --prepare "nvim" "nvim +q"
+: 1706890237:0;hyperfine -w 3 --prepare "nvim" "nvim +q"
+: 1706890250:0;hyperfine -w 3 --prepare "nvim +q" "nvim +q"
+: 1706890266:0;lnv
+: 1706890266:0;nv
+: 1706890294:0;nv +q
+: 1706890303:0;time nv +q
+: 1706890322:0;nvim
+: 1706890383:0;uneo
+: 1706890402:0;bob ls
+: 1706895427:0;we
+: 1706895672:0;nv
+: 1706895687:0;hyperfine -w 3 --prepare "nvim +q" "nvim +q"
+: 1706895714:0;hyperfine -w 3 "neofetch"
+: 1706895726:0;hyperfine -w 3 "fastfetch"
+: 1706895743:0;hyperfine -w 3 "pfetch"
+: 1706895765:0;hyperfine -w 3 "pfetch" -N
+: 1706895779:0;ls
+: 1706895783:0;hyperfine -w 3 "ls" -N
+: 1706895792:0;ls
+: 1706895801:0;hyperfine -w 3 "exa" -N
+: 1706895807:0;exa
+: 1706895808:0;ls
+: 1706895810:0;\ls
+: 1706895815:0;vim
+: 1706895819:0;vim +q
+: 1706895834:0;hyperfine -w 3 --prepare "vim" "vim +q"
+: 1706895850:0;hyperfine -w 3 --prepare "vim" "vim +q || true"
+: 1706895861:0;hyperfine -w 3 --prepare "vim" "vim +q" || true
+: 1706895871:0;hyperfine -w 3 "vim +q"
+: 1706895925:0;vim +q
+: 1706895928:0;vim
+: 1706895941:0;hyperfine -w 3 "nvim --clean +q"
+: 1706895950:0;hyperfine -w 3 "nvim +q"
+: 1706895959:0;ls
+: 1706895969:0;car
+: 1706895974:0;cat
+: 1706896000:0;ls
+: 1706896001:0;c
+: 1706896015:0;cat .bashrc
+: 1706896027:0;cali
+: 1706896063:0;cat --help
+: 1706896073:0;tldr bat
+: 1706896123:0;cat -n /etc/pacman.conf
+: 1706896129:0;cd
+: 1706896208:0;cd projects
+: 1706896211:0;gh repo clone catppuccin/bat
+: 1706896225:0;cd bat
+: 1706896226:0;ls
+: 1706896237:0;mkdir -p "$(bat --config-dir)/themes"
+: 1706896243:0;cp *.tmTheme "$(bat --config-dir)/themes"
+: 1706896246:0;bat cache --build
+: 1706896262:0;bat --list-themes
+: 1706896271:0;bat --list-themes | bat
+: 1706896340:0;yk
+: 1706896347:0;ls
+: 1706896349:0;cdp
+: 1706896350:0;ll
+: 1706896369:0;nv ~/.config/yadm/yadm.sh
+: 1706896426:0;yl
