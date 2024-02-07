@@ -15,7 +15,6 @@ alias cpc='clear;pfetch'
 alias cz='nvim ~/.config/zsh/.zshrc'
 alias e='exit'
 alias f='fastfetch'
-alias g++='g++ -g -std=c++20'
 alias grep='grep -n --color'
 alias hosts='sh ~/projects/hosts/hosts-maker.sh'
 alias hx='helix'
@@ -125,5 +124,3 @@ function gpgkey() {
 function makesign(){
     ./cleanup.sh && makepkg -s && gpgkey *.tar.zst
 }
-
-
