@@ -1,839 +1,428 @@
-: 1704792802:0;rm calamares-3.2.62-11-x86_64.pkg.tar.zst calamares-3.2.62-11-x86_64.pkg.tar.zst.sig
-: 1704792865:0;rm calamares-3.2.62-12-x86_64.pkg.tar.zst calamares-3.2.62-12-x86_64.pkg.tar.zst.sig
-: 1704795862:0;cd tcet-opensource
-: 1704795952:0;sudo mkarchiso -v . -o ~/projects/tcet-opensource/tcet-isos/
-: 1704796184:0;mkdir -p ML-fastapi
-: 1704796267:0;mkdir -p .git
-: 1704796328:0;pip install fastapi
-: 1704796456:0;pip install uvicorn
-: 1704796758:0;pip install pillow
-: 1704797120:0;pip install numpy
-: 1704805591:0;code
-: 1704805595:0;run
-: 1704805797:0;cd apps/tcet-linux-multilang-compiler
-: 1704806428:0;cd tvet
-: 1704806617:0;gh repo clone tcet-opensource/tcet-linux-code-runner
-: 1704806642:0;nv update_config.sh
-: 1704807104:0;cd tcet-linux-pkgbuild
-: 1704807111:0;cd apps
-: 1704807122:0;mv tcet-linux-multilang-compiler tcet-linux-code-runner
-: 1704807126:0;cd tcet-linux-code-runner
-: 1704807215:0;pacman -Qlp tcet-linux-code-runner-24.01-1-x86_64.pkg.tar.zst
-: 1704807233:0;rm tcet-linux-code-runner-24.01-1-x86_64.pkg.tar.zst tcet-linux-code-runner.tar.gz
-: 1704807235:0;nv cleanup.sh
-: 1704807246:0;makepkg
-: 1704807312:0;makesign
-: 1704807337:0;cp tcet-linux-code-runner-24.01-1-x86_64.pkg.tar.zst tcet-linux-code-runner-24.01-1-x86_64.pkg.tar.zst.sig ../../../tcet-linux-applications/x86_64
-: 1704807344:0;cp tcet-linux-code-runner-24.01-1-x86_64.pkg.tar.zst tcet-linux-code-runner-24.01-1-x86_64.pkg.tar.zst.sig ../../../tcet-linux-repo/x86_64
-: 1704807354:0;cd tcet-linux-applications
-: 1704807472:0;cd tcet-linux-repo
-: 1704807475:0;cd x86_64
-: 1704807482:0;rm tcet-linux-multilang-compiler-24.01-1-x86_64.pkg.tar.zst tcet-linux-multilang-compiler-24.01-1-x86_64.pkg.tar.zst.sig
-: 1704807485:0;./update_repo.sh
-: 1704807528:0;cdpp
-: 1704807531:0;cd tcet-linux
-: 1704807534:0;nv packages.x86_64
-: 1704808002:0;which nvim
-: 1704814870:0;cp out/tcetlinux-2024.01.09-x86_64.iso ../tcet-isos
-: 1704814877:0;./cleanup.sh
-: 1704815448:0;\cat /etc/pacman.d/mirrorlist | wl-copy
-: 1704816447:0;sdp
-: 1704818614:0;cd tcet
-: 1704818618:0;cd tcet-linux-code-runner/
-: 1704818622:0;cd usr/local/bin
-: 1704818635:0;cp code-runner ~/projects
-: 1704818657:0;./code-runner test.cpp
-: 1704818790:0;nv code-runner
-: 1704818858:0;./code-runner test.c
-: 1704818863:0;nv test.c
-: 1704818877:0;mv test.c test.caa
-: 1704818887:0;./code-runner test.caa
-: 1704819014:0;cmatrix
-: 1704819145:0;/usr/bin/hollywood 
-: 1704826660:0;nv /etc/hosts
-: 1704826717:0;nv mirrors-and-hosts
-: 1704865089:0;nv pred_img.py
-: 1704865305:0;mv Saved\ ml\ model ml-model
-: 1704867006:0;clea
-: 1704867033:0;pip install tensorflow.keras
-: 1704867040:0;pip install keras
-: 1704867073:0;unzip saved_models.zip
-: 1704875754:0;cd ..
-: 1704875766:0;zip ml-model.zip ML-fastapi
-: 1704875777:0;unzip --help
-: 1704875796:0;unzip ml-model.zip
-: 1704875810:0;rm ml-model.zip
-: 1704885414:0;mkdir tasks
-: 1704885416:0;cd tasks
-: 1704885424:0;nv DL-tensorflow.txt
-: 1704887460:0;ccdp
-: 1704887464:0;rm main
-: 1704887469:0;rm code-runner
-: 1704891587:0;cd .cache
-: 1704891592:0;cd pip
-: 1704898546:0;nv projects/dsa-in-java/AllPairShortestPath.java
-: 1704899007:0;cd ml
-: 1704904175:0;nv /tmp/rand
-: 1704909862:0;bat .bashrc
-: 1704909869:0;bat --help
-: 1704909881:0;bat -p .bashrc
-: 1704909901:0;bat -p /etc/pacman.d/mirrorlist|wl-copy
-: 1704909919:0;bat /etc/pacman.d/mirrorlist| wl-copy
-: 1704910035:0;sdr
-: 1704910776:0;lf
-: 1704910878:0;sudo pacman -Sy
-: 1704911584:0;cd .keras
-: 1704911587:0;nv keras.json
-: 1704949388:0;nv binary_search.java
-: 1704953588:0;yay yxdg-desktop-portal
-: 1704953593:0;yay xdg-desktop-portal
-: 1704968690:0;mv
-: 1704977427:0;cd hypr
-: 1704977430:0;nv hyprland.conf
-: 1704985376:0;yay vencord
-: 1704988930:0;yay xwayland-video
-: 1704989300:0;xwaylandvideobridge&
-: 1704989304:0;discord
-: 1704989844:0;yay xwaylandvideo
-: 1704994469:0;cd projects/tasks
-: 1704994476:0;nv reminder
-: 1705068074:0;nnv
-: 1705069403:0;man pacman
-: 1705072008:0;nivm --clean
-: 1705072012:0;nvim --clean
-: 1705073042:0;jv
-: 1705073931:0;n
-: 1705077391:0;cd .local/share/nvim/lazy/mini.statusline
-: 1705077397:0;nv lua/mini/statusline.lua
-: 1705078710:0;yay neophyte
-: 1705078718:0;cargo install neophyte
-: 1705079005:0;neophyte
-: 1705080263:0;dc projects
-: 1705080883:0;rm test
-: 1705080890:0;nvim -u repro.lua
-: 1705081033:0;nv -u repro.lua
-: 1705081082:0;nv -u repro.lua test.cpp
-: 1705081765:0;nvim -v1
-: 1705081827:0;nvim -u repro.lua repro.lua
-: 1705081844:0;nvim -nu repro.lua repro.lua
-: 1705149332:0;cd dsa-in-java
-: 1705149338:0;nv AllPairShortestPath.java
-: 1705149961:0;cd p
-: 1705149971:0;nv -u repro.lua repro.lua
-: 1705158251:0;v
-: 1705169916:0;cp repro.lua 2-repro.lua
-: 1705170664:0;cd tcet-opensource/tcet-isos
-: 1705170667:0;rm *
-: 1705170743:0;\rm -rf ~/.local/share/bob/*
-: 1705207404:0;nv 33-name-mangling.md
-: 1705207541:0;nv test.cpp
-: 1705207589:0;g++ test.cpp test.o
-: 1705207626:0;nm test.o | c++filt
-: 1705207657:0;c++filt main.o
-: 1705207766:0;cd CPP
-: 1705207780:0;mv 33-name-mangling.md 35-name-mangling.md
-: 1705208854:0;cd other-stuff
-: 1705208857:0;cd mirrors-and-hosts
-: 1705208860:0;./rate-mirrors-arch.sh
-: 1705210446:0;cd tcet-opensource/tcet-linux-pkgbuild/installer/calamares-3.2.62
-: 1705210449:0;nv PKGBUILD
-: 1705210540:0;yay -Rns kconfig5 kcoreaddons5 kiconthemes5 ki18n5 kio5 solid5 yaml-cpp kpmcore mkinitcpio-openswap boost-libs ckbcomp hwinfo qt5-svg polkit-qt5 gtk-update-icon-cache plasma-framework5 qt5-xmlpatterns squashfs-tools libpwquality boost
-: 1705210571:0;yay -Rns kconfig5 kcoreaddons5 kiconthemes5 kio5 solid5 yaml-cpp kpmcore mkinitcpio-openswap ckbcomp hwinfo qt5-svg polkit-qt5 gtk-update-icon-cache plasma-framework5 qt5-xmlpatterns squashfs-tools libpwquality
-: 1705210576:0;cfc
-: 1705210580:0;cpc
-: 1705247004:0;gh repo clone JonSeijo/text-editor
-: 1705247060:0;./editor
-: 1705247161:0;yay bear
-: 1705247178:0;bear -- make
-: 1705247325:0;rm compile_commands.json
-: 1705254464:0;yay poac
-: 1705254600:0;mkdir reference-projects
-: 1705254609:0;mv text-editor reference-projects
-: 1705254907:0;poac --version
-: 1705254928:0;rm poac-out
-: 1705255047:0;nv src
-: 1705255059:0;poac init
-: 1705255073:0;poac fmt
-: 1705255118:0;poac lint
-: 1705255326:0;mv main.cpp main.cc
-: 1705256033:0;poac clean
-: 1705256041:0;poac --help
-: 1705256064:0;poac build help
-: 1705256076:0;poac search
-: 1705256079:0;poac search fmt
-: 1705323353:0;cp ../hash-table/* .
-: 1705323358:0;cp -r ../hash-table/* .
-: 1705323376:0;rm -rf .git .cache
-: 1705323464:0;nv .dockerignore
-: 1705323544:0;mkdir CPP-cmake-reference
-: 1705323547:0;cd CPP-cmake-reference
-: 1705323558:0;cp -r ../text-editor/* .
-: 1705323717:0;make build
-: 1705323818:0;git clone https://github.com/Rishabh672003/text-editorCPP.git
-: 1705323829:0;cd text-editorCPP
-: 1705323848:0;cp -r .git ../text-editor
-: 1705323860:0;rm -rf text-editorCPP
-: 1705323917:0;rm -rf hash_table.cpp hash_table.hpp
-: 1705323919:0;nv main.cpp
-: 1705325805:0;sudo rm initramfs-linux-zen-fallback.img
-: 1705325814:0;sudo rm initramfs-linux-zen.img
-: 1705326276:0;bob rollback --help
-: 1705326279:0;bob rollback
-: 1705326664:0;cd build
-: 1705327203:0;cd .config/
-: 1705327211:0;ls | grep lazy
-: 1705327254:0;NVIM_APPNAME=lazyvim nvim src/main.cpp
-: 1705327920:0;nv lua/user
-: 1705327973:0;wget
-: 1705328178:0;cd nvim-basic-ide
-: 1705328181:0;nv init.lua
-: 1705328266:0;cd lsp
-: 1705328269:0;nv clangd.lua
-: 1705328449:0;NVIM_APPNAME=nvim-basic-ide nvim
-: 1705328734:0;NVIM_APPNAME=nvim-basic-ide nvim projects/text-editor/src/main.cpp
-: 1705329040:0;cd lua/rj
-: 1705330602:0;cd nvim
-: 1705330698:0;cd lua/rj/plugins
-: 1705332783:0;nv nvim-cmp.lua
-: 1705332823:0;nvim nvim-cmp.lua
-: 1705332867:0;nvim src/main.cpp
-: 1705337272:0;/home/rishabh/projects/text-editor/build/text-editor
-: 1705341209:0;cdnvim-
-: 1705341212:0;cd nvim-
-: 1705341828:0;NVIM_APPNAME=nvim-basic-ide nvim src/main.cpp
-: 1705343090:0;nv catpuuccin.mocha.pallete.lua
-: 1705412455:0;sudo nvim /etc/mkinitcpio.d/linux-zen.preset
-: 1705412490:0;su
-: 1705412569:0;yay mkinitcpio-firmware
-: 1705412613:0;install-grub
-: 1705412651:0;reboot
-: 1705412659:0;rm initramfs-linux-zen-fallback.img initramfs-linux-zen.img
-: 1705412659:0;sudo mkinitcpio -P
-: 1705412659:0;su rishabh
-: 1705412659:0;exit
-: 1705412958:0;cp -r /mnt/windows/Users/jhari/Transcend-D/* /run/media/rishabh/TRANSCEND\ D
-: 1705416150:0;cd cat-bug
-: 1705416153:0;nvim -u 2-repro.lua repro.lua
-: 1705416162:0;nvim -u 2-repro.lua 2-repro.lua
-: 1705416200:0;nvim -v
-: 1705416251:0;nv -nu 2-repro.lua 2-repro.lua
-: 1705416407:0;nvim -u 2-repro.lua
-: 1705417520:0;nvim -nu 2-repro.lua 2-repro.lua
-: 1705417528:0;nvim -nu 2-repro.lua
-: 1705417539:0;nv 2-repro.lua
-: 1705417622:0;nvim 2-repro.lua
-: 1705421283:0;rm -rf .repro
-: 1705425534:0;mkdir prev-bugs
-: 1705425547:0;cp repro.lua prev-bugs
-: 1705425554:0;mv 2-repro.lua prev-bugs
-: 1705425994:0;nvim -nu repro.lua
-: 1705426116:0;nv -nu 2-repro.lua
-: 1705426155:0;nvim repro.lua
-: 1705426434:0;nv repro.lua
-: 1705426462:0;nv -nu repro.lua test.cpp
-: 1705426986:0;bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh)
-: 1705427005:0;nvim ~/.local/bin/lvim
-: 1705427131:0;cd ~/.config/lvim
-: 1705427135:0;nv config.lua
-: 1705427197:0;cd projects/text-editor
-: 1705427199:0;lvim
-: 1705462173:0;btop
-: 1705462746:0;dos2unix romeo.txt
-: 1705462750:0;nv romeo.txt
-: 1705492738:0;webcord
-: 1705492751:0;webcord&
-: 1705494753:0;unzip stack_overflow_16k.tar.gz
-: 1705495336:0;mkdir stack_overflow_16k
-: 1705495349:0;mv train test README.md stack_overflow_16k
-: 1705495373:0;tar -czf stack_overflow_16k stack_overflow_16k.tar.gz
-: 1705497355:0;mv Stock_Overflow_label_predict.ipynb NLP-Internship-Project/Stack_Overflow_label_predict.ipynb
-: 1705498963:0;mv Stack_Overflow_label_predict.ipynb NLP-Internship-Project
-: 1705505015:0;pip install jinja2
-: 1705505171:0;cp -r NLP-Internship-Project ..
-: 1705505195:0;cp -r requirements.txt ../NLP-Internship-Project
-: 1705505204:0;mkdir .git/
-: 1705505341:0;mv index.html templates
-: 1705506296:0;pip install tensorrt
-: 1705507501:0;mkdir nlp
-: 1705507569:0;cp ../NLP-Internship-Project/requirements.txt .
-: 1705507727:0;pip install matplotlib.pyplot
-: 1705507763:0;pip install matplotlib
-: 1705508087:0;pip install seaborn
-: 1705508169:0;cp ../NLP-Internship-Project/NLP-model.tar.gz .
-: 1705508447:0;py stack_overflow_label_predict.py
-: 1705508513:0;cp NLP-model ../NLP-Internship-Project
-: 1705508517:0;cp -r NLP-model ../NLP-Internship-Project
-: 1705508547:0;rm NLP-model.tar.gz
-: 1705508556:0;cp -r ../nlp/NLP-model .
-: 1705508611:0;cd nlp
-: 1705508616:0;nv stack_overflow_label_predict.py
-: 1705510203:0;llll
-: 1705510261:0;git clone https://github.com/Rishabh672003/stack-overflow-label-predictor.git
-: 1705510269:0;rm -rf NLP-Internship-Project/.git
-: 1705510295:0;mv stack-overflow-label-predictor/.git stack-overflow-label-predictor/.gitignore stack-overflow-label-predictor/LICENSE stack-overflow-label-predictor/README.md NLP-Internship-Project
-: 1705510557:0;rm -rf *
-: 1705510631:0;rm -rf javascript
-: 1705510650:0;rm -rf stack_overflow_16k.tar.gz
-: 1705512733:0;rm -rf stack_overflow_16k/train/javascript
-: 1705512739:0;rm -rf stack_overflow_16k/test/javascript
-: 1705512744:0;rm stack_overflow_16k.tar.gz
-: 1705512750:0;tar -czf stack_overflow_16k.tar.gz stack_overflow_16k
-: 1705514948:0;nv vercel.json
-: 1705515009:0;vercel build
-: 1705515013:0;yay vercel
-: 1705515114:0;vercel login
-: 1705515133:0;vercel .
-: 1705548033:0;cdp]
-: 1705548877:0;tar -xvf stack_overflow_16k.tar.gz
-: 1705548886:0;cd stack_overflow_16k
-: 1705548960:0;cd train/csharp
-: 1705548976:0;cat 1.txt
-: 1705560433:0;cd Downloads
-: 1705560446:0;cd archive.zip
-: 1705568774:0;cf
-: 1705571409:0;cp
-: 1705571413:0;cfp
-: 1705571420:0;clear && pfetch
-: 1705585916:0;cd process-of-critical-section-in-os.webp
-: 1705585918:0;cd pro
-: 1705585920:0;cd Named-entity-recognition
-: 1705585925:0;unzip archive.zip
-: 1705585949:0;mkdir conell-2003
-: 1705585958:0;mv *.txt conell-2003
-: 1705585962:0;rm metadata
-: 1705585978:0;zip conell-2003.zip conell-2003
-: 1705585985:0;rm -rf archive.zip
-: 1705587912:0;rm stack_overflow_16k
-: 1705588049:0;tar --help
-: 1705588067:0;tar -tvf stack_overflow_16k-full.tar.gz
-: 1705588107:0;tar -tvf stack_overflow_16k-full.tar.gz | cat
-: 1705588223:0;l
-: 1705588236:0;tar -tvf stack_overflow_16k.tar.gz| cat
-: 1705588289:0;mkdir stack_overflow_16k-full
-: 1705588296:0;mv train test README.md stack_overflow_16k-full
-: 1705588301:0;rm stack_overflow_16k-full.tar.gz
-: 1705588318:0;tar -czf stack_overflow_16k-full.tar.gz stack_overflow_16k-full
-: 1705592769:0;tar -xvf stack_overflow_16k-full.tar.gz
-: 1705592772:0;cd stack_overflow_16k-full
-: 1705592776:0;cd train
-: 1705592807:0;cd csharp
-: 1705592809:0;ll | wc -l
-: 1705592886:0;cd test
-: 1705592889:0;cd javascript
-: 1705595502:0;rm stack_overflow_16k-full
-: 1705595667:0;rm NLP-model-full.tar.gz
-: 1705595674:0;tar -xvf NLP-model.tar.gz
-: 1705603138:0;yay python-jupytext
-: 1705636904:0;python main.py
-: 1705638349:0;git prune
-: 1705643386:0;hollywood
-: 1705646102:0;cd projects/NLP-Internship-Project
-: 1705651444:0;x
-: 1705654677:0;rm NLP-model
-: 1705656898:0;rm -rf NLP-model
-: 1705656902:0;tar -xvf NLP-model-full.tar.gz
-: 1705672758:0;rm -rf NLP-Internship-Project
-: 1705672769:0;mkdir Jupyter-Notebooks
-: 1705672778:0;mv *.ipynb Jupyter-Notebooks
-: 1705672793:0;mv Placement_Data_Full_Class.csv datasets
-: 1705672800:0;mkdir assets
-: 1705672805:0;mv stylized-image.png assets
-: 1705672890:0;mkdir notes
-: 1705672901:0;mv Jupyter-Notebooks jupyter-notebooks
-: 1705672916:0;nv 01-regression.md
-: 1705677870:0;ws
-: 1705733444:0;code .
-: 1705733515:0;vscodium .
-: 1705744708:0;nv .zprofile
-: 1705744737:0;g++ test.cpp -o test.o
-: 1705744744:0;nv test.caa
-: 1705744755:0;alias g++
-: 1705747629:0;cd hash-table
-: 1705748436:0;nv src/main.cpp
-: 1705748474:0;make
-: 1705748706:0;make run
-: 1705755750:0;cd notes
-: 1705755763:0;fd per
-: 1705755844:0;mv Campus-placement-predictor.ipynb jupyter-notebooks
-: 1705816152:0;cd jupyter-notebooks
-: 1705818460:0;cd ju
-: 1705818469:0;rm Facial-emoion-recognition-2013.ipynb
-: 1705818524:0;ome
-: 1705819065:0;ls | wc -l
-: 1705819093:0;bob use stable
-: 1705819100:0;nv TASK_2_Next_Word_Prediction.ipynb
-: 1705824999:0;yay fluent-reader
-: 1705830796:0;yay conda
-: 1705830808:0;yay anaconda
-: 1705832017:0;yay spotube
-: 1705832069:0;spotube
-: 1705833536:0;yay unrar
-: 1705834169:0;mkdir past
-: 1705834220:0;mv rps python-reference-book OOP jpg-png random PPCA equation-calculator-def.py equation-calculator.py main-rps.py calculator-complete.py test.py data.csv graph.py past
-: 1705834250:0;cd python-study
-: 1705834255:0;nv .venv
-: 1705834274:0;bob use ni
-: 1705834295:0;nv numpy-stack.py
-: 1705834463:0;bob use nightly
-: 1705846500:0;gh repo clone greyhatguy007/Machine-Learning-Specialization-Coursera
-: 1705850024:0;pip install jupyter-notebooks
-: 1705850026:0;pip install jupyter-notebook
-: 1705850319:0;jupyter
-: 1705850408:0;pip install jupyter
-: 1705850442:0;jupyter-notebook
-: 1705850535:0;pip install matplotlib numpy
-: 1705850561:0;pip install ipympl
-: 1705850594:0;pip install jupyter-matplotlib
-: 1705850699:0;pip install ipywidgets==7.7.0
-: 1705852866:0;killall -9 Discord
-: 1705858249:0;\rm -rf ~/.virtualenvs
-: 1705858274:0;cd Programming-Notes
-: 1705900790:0;cd projects/Learning-machine-learning
-: 1705900795:0;pip install ipywidgets
-: 1705905546:0;cd projects/python-study
-: 1705905575:0;nv dot-product.py
-: 1705906336:0;pip install --upgrade ipympl
-: 1705911105:0;git get-remote-url
-: 1705911109:0;git set-remote-url
-: 1705911168:0;git remote -v
-: 1705911560:0;git config --global http.postBuffer 157286400
-: 1705911771:0;git config --global http.postBuffer 15728640000
-: 1705911777:0;git config --global http.postBuffer 157286400000
-: 1705911793:0;git config --global http.postBuffer 1572864000
-: 1705911795:0;gh repo clone Rishabh672003/Machine-Learning-Specialization-Coursera ML-Andrew-Ng
-: 1705912416:0;tar -xvf ML-Andrew-Ng.tar.gz
-: 1705912422:0;cd content/ML-Andrew-Ng/Machine-Learning-Specialization-Coursera
-: 1705912453:0;mv Machine-Learning-Specialization-Coursera ../../../projects/ML-Andrew-Ng
-: 1705912460:0;rm -rf content
-: 1705912466:0;rm ML-Andrew-Ng.tar.gz
-: 1705912469:0;cd ML-Andrew-Ng
-: 1705912565:0;rm -rf Machine-Learning-Specialization-Coursera/.git
-: 1705912575:0;mv ML-Andrew-Ng/.git Machine-Learning-Specialization-Coursera
-: 1705912579:0;rm -rf ML-Andrew-Ng
-: 1705912583:0;cd Machine-Learning-Specialization-Coursera
-: 1705933243:0;tpg
-: 1706024782:0;cd projects/Hyprland
-: 1706024789:0;cd .config/hypr
-: 1706024791:0;cd scripts
-: 1706024795:0;nv pause.py
-: 1706024911:0;nb
-: 1706024924:0;python pause.py
-: 1706024997:0;playerctl -a pause
-: 1706025001:0;playerctl -a play
-: 1706025309:0;yay evtest
-: 1706025327:0;evtest
-: 1706025337:0;sudo evtest
-: 1706025628:0;sudo showkey --keycodes
-: 1706025692:0;xev
-: 1706025694:0;yay wev
-: 1706026025:0;yay -Rns evtest
-: 1706026631:0;wev | grep 'wl_keyboard'
-: 1706026668:0;wev | grep 'sym'
-: 1706031767:0;pkexec systemctl restart NetworkManager
-: 1706031945:0;pkexec
-: 1706032732:0;yay amixer
-: 1706032749:0;amixer
-: 1706033659:0;ls scripts
-: 1706083098:0;killall -9 spotify
-: 1706097529:0;yt https://www.youtube.com/watch?v=dQw4w9WgXcQ
-: 1706097535:0;yt "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-: 1706098388:0;mkdir Hackenova-24
-: 1706098405:0;mv pro.py Rick\ Astley\ -\ Never\ Gonna\ Give\ You\ Up\ \(Official\ Music\ Video\)\ \[dQw4w9WgXcQ\].mp4 projects/Hackenova-24
-: 1706098432:0;pip install moviepy
-: 1706098677:0;pip install SpeechRecognition
-: 1706099624:0;pip install SpeechRecognition moviepy
-: 1706100551:0;pip install pydub
-: 1706100984:0;rm -rf temp*
-: 1706100993:0;rm -rf output.mp3
-: 1706100995:0;ffmpeg -i output.wav -vn output.mp3
-: 1706102349:0;pip3 install vosk
-: 1706106959:0;mkdir shastra-6b
-: 1706106962:0;cd shastra-6b
-: 1706106972:0;nv doubles.cpp
-: 1706107978:0;nv maths.cpp
-: 1706108668:0;nr
-: 1706109077:0;wev
-: 1706109296:0;nv largest-subarray.cpp
-: 1706116719:0;sudo downgrade foliate
-: 1706118363:0;ls -a
-: 1706118393:0;freshfetch
-: 1706118410:0;neofetch
-: 1706118419:0;keras
-: 1706118437:0;nv .yarnrc
-: 1706153572:0;nmtui
-: 1706183268:0;yay -Rns floorp
-: 1706183272:0;yay -S floorp
-: 1706183378:0;yay libxul
-: 1706183389:0;cd /usr/lib
-: 1706183441:0;cd floorp
-: 1706183452:0;grep lib
-: 1706183469:0;ll | grep -rn "lib"
-: 1706183483:0;ll | grep -rn "libxul"
-: 1706183501:0;grep "lib"
-: 1706183549:0;sudo floorp
-: 1706183580:0;yay -S libdbus-glib
-: 1706183586:0;yay -S libdbus
-: 1706183687:0;yay libvpx
-: 1706242505:0;NVIM_APPNAME=lazyvim nvim
-: 1706281227:0;man grep | grep -e -r
-: 1706281233:0;man grep | grep -e -n
-: 1706281242:0;cd zsh
-: 1706281253:0;grep alias aliases.zsh
-: 1706281257:0;grep -rn alias aliases.zsh
-: 1706281273:0;grep -rn grep aliases.zsh
-: 1706281473:0;nv aliases.zsh
-: 1706285018:0;cd Hackenova-24
-: 1706285033:0;yay vosk
-: 1706285051:0;pip install vosk
-: 1706285063:0;vosk-transcriber -i Rick.mp4 -o test.txt
-: 1706286909:0;yt "https://youtu.be/Y9Zw6xOGly0"
-: 1706286949:0;mv *.mp4 ~/Videos
-: 1706287112:0;yt "https://www.youtube.com/watch?v=DxXFR4whfRY"
-: 1706287226:0;mv A\ Cruel\ Angel\'s\ Thesis\ but\ it\'s\ CALCULATOR\ \[DxXFR4whfRY\].mp4 cruel-angel.mp4
-: 1706287281:0;ffmpeg -i cruel-angel.mp4 -vcodec libx264 -acodec aac cruel-angel2.mp4
-: 1706291419:0;ls | grep ash
-: 1706291431:0;ls | grep cr
-: 1706327174:0;yay
-: 1706339761:0;cunning
-: 1706339771:0;close
-: 1706339777:0;clamp
-: 1706339782:0;one
-: 1706339787:0;two
-: 1706339789:0;three
-: 1706339794:0;four
-: 1706339806:0;five
-: 1706339812:0;six
-: 1706339817:0;seven
-: 1706339821:0;eight
-: 1706339823:0;nine
-: 1706339826:0;ten
-: 1706339832:0;eleven
-: 1706339835:0;twelve
-: 1706339850:0;thirteen
-: 1706339857:0;fourteen
-: 1706339861:0;fifteen
-: 1706339870:0;sixteen
-: 1706339890:0;seventeen
-: 1706339902:0;eighteen
-: 1706339906:0;nineteen
-: 1706339914:0;twentu
-: 1706339938:0;twenty
-: 1706339971:0;twenty onw
-: 1706339989:0;twenty one
-: 1706340009:0;twenty two
-: 1706340015:0;twenty three
-: 1706340024:0;twenty four
-: 1706340075:0;twenty five
-: 1706340081:0;twenty siz
-: 1706340085:0;twenty six
-: 1706340090:0;twenty seven
-: 1706340101:0;twenty eight
-: 1706340107:0;twenty nine
-: 1706340124:0;thirty
-: 1706340130:0;thirty one
-: 1706340135:0;thirty two
-: 1706340142:0;thirty three
-: 1706340148:0;thirty four
-: 1706340154:0;thirty five
-: 1706343652:0;thirty six
-: 1706343841:0;thirty seven
-: 1706343852:0;thirty eight
-: 1706343858:0;thirty nine
-: 1706343867:0;fourty
-: 1706343901:0;fourty onw
-: 1706343913:0;fourty one
-: 1706352227:0;rm -rf *.mp4
-: 1706352231:0;rm -rf *.wav
-: 1706352235:0;rm -rf *.mp3
-: 1706352256:0;pip install youtube_transcript_api\
-
-: 1706352279:0;nv yt.py
-: 1706356232:0;unzip b5cb639e0c035876e0dd3c46e5a380fd-b59e3dca8457cf3db5364c50989383ae742ec43e.zip
-: 1706356237:0;cd b5cb639e0c035876e0dd3c46e5a380fd-b59e3dca8457cf3db5364c50989383ae742ec43e
-: 1706356244:0;mv * ..
-: 1706356258:0;rm -rf b5cb639e0c035876e0dd3c46e5a380fd-b59e3dca8457cf3db5364c50989383ae742ec43e
-: 1706356261:0;rm b5cb639e0c035876e0dd3c46e5a380fd-b59e3dca8457cf3db5364c50989383ae742ec43e.zip
-: 1706366134:0;rm -rf ~/.cache/nvim-rocks
-: 1706366178:0;rm -rf ~/.local/share/nvim-rocks
-: 1706366184:0;rm -rf ~/.local/state/nvim-rocks
-: 1706366188:0;nro
-: 1706368067:0;yay luarocks
-: 1706415465:0;man tr
-: 1706429133:0;time
-: 1706429531:0;nv pro.py
-: 1706448707:0;firefox
-: 1706452433:0;cd hackerrank
-: 1706452442:0;mkdir COC2
-: 1706452444:0;cd COC2
-: 1706452451:0;cp ../.jaq.json .
-: 1706452452:0;kk
-: 1706452696:0;nv test-art.cpp
-: 1706457116:0;yay proton
-: 1706457183:0;yay python-xdg
-: 1706457193:0;yay -Rnsdd python-xdg
-: 1706457200:0;yay -Rnsdd python-pyxdg
-: 1706457204:0;yay -S python-pyxdg
-: 1706457208:0;protonvpn
-: 1706457395:0;yay kwallet-pam
-: 1706457413:0;kwallet-query
-: 1706457417:0;kwalletd5
-: 1706457434:0;nv /etc/pam.d/login
-: 1706457464:0;nv /etc/pam.d/sddm
-: 1706457918:0;nv DOCKERFILE
-: 1706457929:0;cd Tim-E-Scape
-: 1706457944:0;mv DOCKERFILE Dockerfile
-: 1706457947:0;nv Dockerfile
-: 1706457976:0;docker build -t ml-docker-app .
-: 1706458237:0;yay kwallet
-: 1706533739:0;cd projects/Hackenova-24
-: 1706533748:0;tar -xvf my_model.tar.gz
-: 1706535963:0;nv .gitignore
-: 1706536101:0;tree | fzf
-: 1706537705:0;nv requirements.txt
-: 1706540521:0;pip install --upgrade fastapi
-: 1706542023:0;yay postman
-: 1706544431:0;pip install flask
-: 1706702319:0;cd projects/ML-fastapi
-: 1706702337:0;pip install streamlit
-: 1706702433:0;git
-: 1706702461:0;cd stack-overflow-label-predictor
-: 1706702604:0;fzf
-: 1706702688:0;mkdir datasets
-: 1706702701:0;mv stack_overflow_16k-full.tar.gz stack_overflow_16k.tar.gz datasets
-: 1706702707:0;cd NLP-model
-: 1706702718:0;nv fastapi.py
-: 1706702739:0;mkdir notebooks
-: 1706702745:0;mv Stack_Overflow_label_predict.ipynb notebooks
-: 1706702753:0;mkdir models
-: 1706702761:0;mv NLP-model models
-: 1706702767:0;mv *.gz models
-: 1706702794:0;mv *.py src
-: 1706702814:0;rm vercel.json
-: 1706702844:0;rm .vercel
-: 1706702980:0;nv src/main.py
-: 1706703136:0;cd ML-fastapi
-: 1706703138:0;cd ml-model
-: 1706703175:0;cd NLP-Internship-Project
-: 1706703179:0;streamlit run src/main.py
-: 1706703261:0;py src/main.py
-: 1706703272:0;mv src/main.py .
-: 1706703916:0;streamlit run main.py
-: 1706708319:0;cd Rishabh672003
-: 1706721455:0;lv
-: 1706721500:0;pip install -r requirements.txt
-: 1706721519:0;cd NLP
-: 1706721522:0;nv main.py
-: 1706721878:0;cd c
-: 1706793545:0;cd projects/hash-table
-: 1706802784:0;nv .archlinux.draft.txt
-: 1706810023:0;nv CMakeLists.txt
-: 1706810203:0;ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccecececdedcedcedcedcedcdcdcdcc
-: 1706810215:0;man dc
-: 1706810249:0;tldr dccc
-: 1706810259:0;tldr dc
-: 1706810352:0;dc
-: 1706810386:0;print "sfdsf"
-: 1706810394:0;echo "sfsfd"
-: 1706810400:0;echo "echo "
-: 1706865109:0;nc
-: 1706890129:0;hyperfine
-: 1706890137:0;yay hyperfine
-: 1706890188:0;hyperfine -w 3 --prepare "nvim +q"
-: 1706890216:0;hyperfine -w 3 --warmup 2 --prepare "nvim" "nvim +q"
-: 1706890228:0;hyperfine -w 3 --warmup "2" --prepare "nvim" "nvim +q"
-: 1706890237:0;hyperfine -w 3 --prepare "nvim" "nvim +q"
-: 1706890266:0;lnv
-: 1706890303:0;time nv +q
-: 1706890322:0;nvim
-: 1706890402:0;bob ls
-: 1706895427:0;we
-: 1706895687:0;hyperfine -w 3 --prepare "nvim +q" "nvim +q"
-: 1706895714:0;hyperfine -w 3 "neofetch"
-: 1706895726:0;hyperfine -w 3 "fastfetch"
-: 1706895743:0;hyperfine -w 3 "pfetch"
-: 1706895765:0;hyperfine -w 3 "pfetch" -N
-: 1706895783:0;hyperfine -w 3 "ls" -N
-: 1706895801:0;hyperfine -w 3 "exa" -N
-: 1706895807:0;exa
-: 1706895810:0;\ls
-: 1706895834:0;hyperfine -w 3 --prepare "vim" "vim +q"
-: 1706895850:0;hyperfine -w 3 --prepare "vim" "vim +q || true"
-: 1706895861:0;hyperfine -w 3 --prepare "vim" "vim +q" || true
-: 1706895871:0;hyperfine -w 3 "vim +q"
-: 1706895925:0;vim +q
-: 1706895928:0;vim
-: 1706895969:0;car
-: 1706896015:0;cat .bashrc
-: 1706896063:0;cat --help
-: 1706896073:0;tldr bat
-: 1706896123:0;cat -n /etc/pacman.conf
-: 1706896211:0;gh repo clone catppuccin/bat
-: 1706896225:0;cd bat
-: 1706896237:0;mkdir -p "$(bat --config-dir)/themes"
-: 1706896243:0;cp *.tmTheme "$(bat --config-dir)/themes"
-: 1706896246:0;bat cache --build
-: 1706896262:0;bat --list-themes
-: 1706896271:0;bat --list-themes | bat
-: 1706896340:0;yk
-: 1706896369:0;nv ~/.config/yadm/yadm.sh
-: 1706896448:0;man bat
-: 1706896496:0;cd .config/bat
-: 1706896504:0;bat --generate-config-file
-: 1706896509:0;nv config
-: 1706896540:0;bat
-: 1706896554:0;bat config
-: 1706896571:0;cd projects/Competetive-programming
-: 1706896582:0;bat test.cpp
-: 1706930889:0;lll
-: 1706930894:0;tree
-: 1706931329:0;gcc
-: 1706931362:0;cc
-: 1706931872:0;spicetify restore backup
-: 1706931909:0;spicetify backup restore apply
-: 1706933680:0;clear
-: 1706939397:0;dunstify "asdads"
-: 1706941928:0;cd projects/Rishabh672003
-: 1706942014:0;nv README.md
-: 1706942094:0;lg
-: 1706942603:0;mkdir BAI
-: 1706942605:0;cd BAI
-: 1706942610:0;nv 1.txt
-: 1706945937:0;killall -9 electron
-: 1706946072:0;xwaylandvideobridge
-: 1706957200:0;yl
-: 1706957300:0;uneo
-: 1706957569:0;cd projects/AniPy
-: 1706957586:0;nv anipy.py
-: 1706957592:0;py anipy.py
-: 1706957618:0;py main.py
-: 1707019848:0;nv +q
-: 1707021541:0;ls | cat
-: 1707021548:0;ls | cat -np
-: 1707021553:0;ls | bat
-: 1707021609:0;floorp
-: 1707025863:0;hyperfine -w 3 "nvim -q"
-: 1707026003:0;hyperfine -w 3 "nvim --clean +q"
-: 1707026008:0;hyperfine -w 3 "nvim +q"
-: 1707026074:0;hyperfine -w 10 "nvim +q"
-: 1707026088:0;hyperfine --help
-: 1707026096:0;man hyperfine
-: 1707026143:0;hyperfine -w 2 -r 21 "nvim +q"
-: 1707026156:0;hyperfine -w 10 -r 21 "nvim +q"
-: 1707026190:0;hyperfine -w 10 -r 21 "nvim a.c +q"
-: 1707026200:0;hyperfine -w 10 -r 21 "nvim a.cpp +q"
-: 1707026220:0;hyperfine -w 10 -r 21 "nvim --clean a.cpp +q"
-: 1707026229:0;hyperfine -w 10 -r 21 "nvim a.lua +q"
-: 1707026457:0;rm -rf .virtualenvs
-: 1707026465:0;trash-empty
-: 1707026668:0;poac new
-: 1707026678:0;rm -rf text-editor
-: 1707026679:0;poac new text-editor
-: 1707026696:0;mv main.cc main.cc
-: 1707026700:0;mv main.cc main.cpp
-: 1707026711:0;nv poac.toml
-: 1707026742:0;cali
-: 1707026764:0;poac build
-: 1707026781:0;g++-20
-: 1707026783:0;g++
-: 1707026857:0;ping
-: 1707026998:0;killall -9 floorp
-: 1707030640:0;nap
-: 1707031035:0;test
-: 1707031037:0;test -e
-: 1707050379:0;rmvrnc
-: 1707050383:0;rmvenv
-: 1707050385:0;mkvenv
-: 1707050464:0;nv roadmap.md
-: 1707051562:0;hyprctl clients
-: 1707051814:0;hyprctl --batch "dispatch float ; dispatch pin"
-: 1707051823:0;hyprctl dispatch float
-: 1707051828:0;hyprctl --help
-: 1707051860:0;hyprctl float
-: 1707051866:0;hyprctl float 0
-: 1707051916:0;hyprctl dispatch togglefloating
-: 1707051947:0;hyprctl --batch "togglefloating; dispatch pin"\
-
-: 1707060644:0;cd projects/xdg-ninja
-: 1707060650:0;git pull
-: 1707060679:0;./xdg-ninja.sh
-: 1707068228:0;qbittorrent
-: 1707138387:0;cd projects/Learning-Rust
-: 1707138391:0;cd Learning-machine-learning
-: 1707138397:0;mkdir src
-: 1707138407:0;nv linear-regression.py
-: 1707138630:0;cd src
-: 1707138632:0;py linear-regression.py
-: 1707146016:0;mpv
-: 1707146025:0;cd Videos
-: 1707146027:0;mpv .
-: 1707146122:0;cd \[\ DevCourseWeb.com\ \]\ Coursera\ -\ Machine\ Learning\ Specialization\ by\ DeepLearning.AI
-: 1707150342:0;cat
-: 1707154630:0;cd Sem-4
-: 1707154642:0;nv dmm-ise3.md
-: 1707200305:0;speedtest
-: 1707203697:0;cd Documents
-: 1707203705:0;cd Clg-stuff
-: 1707203706:0;;s
-: 1707203714:0;mkdir dmm
-: 1707203716:0;cd dmm
-: 1707203721:0;nv 3.md
-: 1707203788:0;mariadb
-: 1707203793:0;mariadb -p
-: 1707228965:0;sushma jha
-: 1707233210:0;pip install scikit-learn
-: 1707233294:0;cd random
-: 1707233299:0;nv pipeline.py
-: 1707233429:0;touch column-transfer.py
-: 1707233434:0;wl-paste
-: 1707233441:0;wl-paste >> column-transfer.py
-: 1707233446:0;cat column-transfer.py
-: 1707234281:0;bg
-: 1707234291:0;fg
-: 1707234295:0;jobs
-: 1707306675:0;ys
-: 1707307824:0;yay tt
-: 1707307856:0;sudo curl -L https://github.com/lemnos/tt/releases/download/v0.4.2/tt-linux -o /usr/local/bin/tt && sudo chmod +x /usr/local/bin/tt\
-sudo curl -o /usr/share/man/man1/tt.1.gz -L https://github.com/lemnos/tt/releases/download/v0.4.2/tt.1.gz
-: 1707307909:0;tt
-: 1707308548:0;ping 9.9.9.9
-: 1707311603:0;lsblk
-: 1707311618:0;duf
-: 1707311628:0;uname -r
-: 1707311793:0;cd /boot
-: 1707311804:0;ncdu
-: 1707314886:0;cd
-: 1707314888:0;ls
-: 1707314892:0;nv
-: 1707315418:0;c
-: 1707318302:0;killall -9 discord
-: 1707319646:0;cd projects
-: 1707319648:0;cd text-editor
-: 1707319652:0;cdp
-: 1707319674:0;cp -r CPP-cmake-reference juce-cpp
-: 1707319675:0;cd juce-cpp
-: 1707319677:0;nv Makefile
-: 1707319869:0;make clean
-: 1707319889:0;cz
-: 1707319900:0;e
-: 1707319904:0;cd projects/juce-cpp
-: 1707319905:0;ll
-: 1707319907:0;make builddeps
-: 1707319915:0;exec zsh
-: 1707319917:0;nv
-: 1707319937:0;make builddeps
-: 1707319948:0;nv CMakeLists.txt
-: 1707319960:0;make builddeps
-: 1707319984:0;cdp
-: 1707319984:0;ll
-: 1707321888:0;c
-: 1707321889:0;ll
-: 1707327644:0;hyprctl --version
-: 1707327648:0;hyprctl version
-: 1707327650:0;ls
-: 1707327654:0;ll
-: 1707327655:0;c
-: 1707327769:0;ys
-: 1707327775:0;cc
-: 1707327776:0;c
-: 1707327781:0;yel
-: 1707327808:0;yl
+: 1707915880:0;pdf2text
+: 1707915885:0;yay pdf2text
+: 1707915932:0;pdftotext
+: 1707915941:0;time pdftotext test.pdf >> p2t.txt
+: 1707915992:0;hyperfine --runs 1 --warmup 0 -i 'pdftotext test.pdf >> p2t.txt'
+: 1707916020:0;nv js.txt
+: 1707916040:0;pdftotext test.pdf >> p2t.txt
+: 1707916044:0;nv p2t.txt
+: 1707916048:0;pdftotext test.pdf
+: 1707916053:0;nv test.txt
+: 1707916098:0;hyperfine --runs 1 --warmup 0 -i 'pdftotext test.pdf'
+: 1707916111:0;hyperfine --runs 1 --warmup 0 -i 'node pdf.js >> js.txt'
+: 1707916187:0;nv pdf.js
+: 1707916242:0;hyperfine --runs 3 --warmup 3 -i 'node pdf.js'
+: 1707916311:0;hyperfine --runs 3 --warmup 3 -i 'pdftotext test.pdf'
+: 1707916743:0;nv main.go
+: 1707916814:0;go init
+: 1707916821:0;go mod init
+: 1707916827:0;go mod init test
+: 1707916837:0;go mod tidy
+: 1707916882:0;go run main.go
+: 1707917083:0;go run main.gouneo
+: 1707917200:0;cargo init pdf
+: 1707917204:0;cd pdf
+: 1707917240:0;cargo add pdf-extract
+: 1707917262:0;cp ../test.pdf .
+: 1707917401:0;cargo build release
+: 1707917411:0;cargo release build
+: 1707917721:0;./pdf >> a.txt
+: 1707917944:0;rm a.txt
+: 1707917949:0;rm pdf
+: 1707918074:0;cargo clean
+: 1707918225:0;nv src
+: 1707918452:0;cp target/release/pdf .
+: 1707918455:0;./pdf
+: 1707918468:0;hyperfine --runs 3 --warmup 3 -i './pdf'
+: 1707918859:0;cargo add
+: 1707919260:0;yay python-pypdf
+: 1707919517:0;yay pypdf
+: 1707919541:0;nv main.py
+: 1707978735:0;mkdir NS-2
+: 1707978738:0;cd NS-2
+: 1707978740:0;curl -L -O https://github.com/namanlp/ns-2-install/archive/refs/heads/main.zip
+: 1707978744:0;unzip main.zip
+: 1707978756:0;cd ns-2-install-main
+: 1707978760:0;sh ./ns.sh
+: 1707978791:0;ns
+: 1707978958:0;yay ns
+: 1707979362:0;yay -S ns
+: 1708003052:0;rm -rf ns-2-install-main
+: 1708003058:0;rm -rf main.zip
+: 1708003543:0;rm NS-2
+: 1708003557:0;rm test.o
+: 1708017593:0;rm PDF_Reader.ipynb
+: 1708058443:0;cd pr]
+: 1708058450:0;mkdir HACKANOVA
+: 1708063200:0;pip install kaggle
+: 1708063218:0;kaggle datasets download -d saurabhshahane/fake-news-classification
+: 1708063525:0;unzip fake-news-classification.zip
+: 1708063535:0;cp WELFake_Dataset.csv jupyter-notebooks
+: 1708063570:0;pip install pyarrow
+: 1708063583:0;pip install seaborn
+: 1708079044:0;cd jupyter-notebooks
+: 1708079348:0;npm install
+: 1708080153:0;cd projects/HACKANOVA/news-inspector
+: 1708080914:0;astro build
+: 1708080948:0;npm build
+: 1708080955:0;npm run build
+: 1708080982:0;nv astro.config.mjs
+: 1708082331:0;nv env
+: 1708082363:0;nv .gitignore
+: 1708082720:0;pkill node
+: 1708082723:0;pkill npm
+: 1708083646:0;npm install --save-dev concurrently
+: 1708083717:0;npm run start
+: 1708084042:0;cd .vercel
+: 1708084047:0;cd output
+: 1708084052:0;cd functions
+: 1708085453:0;gh repo clone Rishabh672003/news-inspector nw-rj
+: 1708085493:0;npm i astro@latest
+: 1708086042:0;cd nw-rj
+: 1708086045:0;nv package.json
+: 1708086081:0;cd client
+: 1708086134:0;npm start
+: 1708092766:0;nv PROBLEM-STATEMENT.md
+: 1708094741:0;hasnmtui
+: 1708098273:0;gh repo clone BitBrigade/news-models
+: 1708098534:0;cp API.md news-models
+: 1708098538:0;nv solution.md
+: 1708104059:0;pip install generative-ai
+: 1708104089:0;pip install generative_ai
+: 1708104108:0;pip install google-generativeai
+: 1708105406:0;cd HACKANOVA/ll
+: 1708105407:0;cd HACKANOVA/
+: 1708105428:0;gh repo clone BitBrigade/news-inspector-server
+: 1708105438:0;cd news-inspector-server
+: 1708105453:0;npm i -g vercel
+: 1708105457:0;sudo npm i -g vercel
+: 1708105465:0;vercel init
+: 1708105515:0;vercel init .
+: 1708105630:0;nv vercel.json
+: 1708108857:0;mkdir News-inspector-extension
+: 1708109256:0;cd rishabh
+: 1708109392:0;cd News-inspector-extension
+: 1708109395:0;nv manifest.json
+: 1708114090:0;cd news-models
+: 1708114266:0;nv API.md
+: 1708124728:0;cc
+: 1708169180:0;nmtui
+: 1708175750:0;cd projects/HACKANOVA
+: 1708175765:0;git pull
+: 1708175781:0;rm -rf news-inspector
+: 1708175832:0;cd HACKANOVA
+: 1708175840:0;rm -rf News-inspector-extension
+: 1708175852:0;rm -rf news-inspector-server
+: 1708175854:0;gh repo clone BitBrigade/news-inspector
+: 1708176018:0;npm i
+: 1708176345:0;nv .env
+: 1708179197:0;cd news-inspector
+: 1708242438:0;cnv
+: 1708243210:0;pkexec
+: 1708250425:0;mathematics
+: 1708250431:0;rand
+: 1708250509:0;cd frontend
+: 1708250512:0;npm run dev
+: 1708271712:0;y
+: 1708276429:0;alias -p
+: 1708276432:0;alias -P
+: 1708276436:0;alias --help
+: 1708278478:0;mkdir rust
+: 1708278520:0;mkdir .git
+: 1708321323:0;nv new.rs
+: 1708323373:0;cargo new guessing-game
+: 1708323379:0;cd guessing-game
+: 1708323595:0;cargo add rand
+: 1708324203:0;cargo update
+: 1708324216:0;cargo builf
+: 1708327600:0;cp ../../Competetive-programming/.jaq.json src
+: 1708327602:0;cd src
+: 1708327607:0;nv .jaq.json
+: 1708327630:0;nv sr
+: 1708335774:0;cargo new functions
+: 1708335777:0;nv functions
+: 1708336573:0;cd .config/kitty
+: 1708336620:0;cat
+: 1708336627:0;cat .android
+: 1708336630:0;cat .android/adbkey
+: 1708341332:0;cargo new rest
+: 1708341334:0;cd rest
+: 1708341406:0;cargo add rocket
+: 1708341415:0;cargo add rocket_contrib
+: 1708401071:0;rustup use nightly
+: 1708401083:0;tldr rustup
+: 1708403092:0;cd projects/rust/rest
+: 1708403113:0;bob rollback
+: 1708403140:0;bob use stable
+: 1708403159:0;bob use nightly
+: 1708403455:0;nb
+: 1708405108:0;rustup default nightly
+: 1708405131:0;cat Cargo.toml
+: 1708406182:0;rustup default stable
+: 1708406197:0;cd .local/bin/
+: 1708406206:0;bun
+: 1708406211:0;bun updat
+: 1708406223:0;bun update
+: 1708406241:0;bun upgrade
+: 1708406291:0;yay bun
+: 1708414761:0;cargo new ownership
+: 1708414766:0;cd ownership
+: 1708422628:0;nr
+: 1708424499:0;yay pypy
+: 1708424599:0;cd other-stuff/mirrors-and-hosts
+: 1708424603:0;./rate-mirrors-arch.sh
+: 1708424781:0;yay pypy3
+: 1708424809:0;cd pdf-test
+: 1708424845:0;rm -rf *.txt
+: 1708424852:0;rm go.mod
+: 1708424858:0;hyperfine --runs 3 --warmup 3 -i 'main.py'
+: 1708424866:0;py main.py
+: 1708424870:0;l
+: 1708424897:0;rmvrnv
+: 1708424909:0;pip install pypdf
+: 1708425114:0;/usr/bin/pypy3 -m ensurepip
+: 1708425129:0;pypy3 -m pip install pypdf2
+: 1708425138:0;pypy3 -m pip install pypdf
+: 1708425149:0;pypy3 main.py
+: 1708425155:0;nv output.txt
+: 1708425159:0;rm output.txt
+: 1708425165:0;time pypy3 main.py
+: 1708425175:0;rm *.txt
+: 1708425180:0;time py main.py
+: 1708433643:0;yay -Scc
+: 1708435631:0;duf
+: 1708435763:0;cd Downloads
+: 1708435767:0;nv SDNM-430.torrent
+: 1708436940:0;exa ls
+: 1708436943:0;exa
+: 1708436969:0;nv username.csv
+: 1708446693:0;we
+: 1708452278:0;cd projects/xdg-ninja
+: 1708452369:0;./xdg-ninja.sh
+: 1708488990:0;nv ownership/src/main.rs
+: 1708490010:0;man eval
+: 1708500815:0;spicetify backup
+: 1708500827:0;spicetify restore backup
+: 1708502955:0;cd hash-table
+: 1708503454:0;cd CPP-cmake-reference
+: 1708503470:0;cd juce-cpp
+: 1708505461:0;cd projects/rust/ownership
+: 1708514474:0;yay cheese
+: 1708537795:0;cargo new calculator
+: 1708537798:0;cd calculator
+: 1708585142:0;killall -9 electron
+: 1708585199:0;cd ~/.local/share/nap
+: 1708585215:0;touch rust-multiple-lines.rs
+: 1708585273:0;rm rust-multiple-lines.rs
+: 1708585274:0;kk
+: 1708585289:0;nap
+: 1708585393:0;nap multiple
+: 1708585398:0;nap multiple | wl-copy
+: 1708608027:0;cd Videos/Movies/Aftersun.2022.1080p.WEBRip.x264-RARBG
+: 1708608032:0;unzip SUBDL\ aftersun-english-3034153.zip
+: 1708608051:0;mpv Aftersun.2022.1080p.WEBRip.x264-RARBG.mp4 --sub-file=Aftersun\ \(2022\)\ REMUX.eng.srt
+: 1708608088:0;unzip SUBDL\ aftersun-english-2952472.zip
+: 1708608097:0;mpv Aftersun.2022.1080p.WEBRip.x264-RARBG.mp4 --sub-file=Aftersun.2022.1080p.WEB-DL.DD5.1.H.264\ \(SDH\).srt
+: 1708608134:0;unzip SUBDL\ aftersun-english-3280325.zip
+: 1708608144:0;mpv Aftersun.2022.1080p.WEBRip.x264-RARBG.mp4 --sub-file=aftersun.2022.720p.bluray.x264-scare.srt
+: 1708608218:0;unzip SUBDL\ aftersun-english-2957764.zip
+: 1708608230:0;mpv Aftersun.2022.1080p.WEBRip.x264-RARBG.mp4 --sub-file=Aftersun.2022.1080p_English.srt
+: 1708608288:0;unzip Subtitlist.com-aftersun_english_2957764.zip
+: 1708608850:0;cd Aftersun.2022.1080p.WEBRip.x264-RARBG
+: 1708608867:0;rm -rf Aftersun.2022.1080p.WEBRip.x264-RARBG
+: 1708614581:0;yay warp
+: 1708665185:0;$((3+4))
+: 1708665193:0;echo $((3+4))
+: 1708665390:0;bc 3+4
+: 1708665404:0;man bc
+: 1708665413:0;bc -l "3+4"
+: 1708665423:0;read input\
+printf "%.3f\n" `echo "$input" | bc -l`
+: 1708665435:0;bc -l 3+4
+: 1708665594:0;expr 2+3
+: 1708665653:0;expr 2*3
+: 1708665711:0;echo 2+2 | bc
+: 1708665820:0;echo 2+2/3 | bc -l
+: 1708668939:0;ip a
+: 1708669798:0;cd projects/rust/
+: 1708669810:0;cargo new borrow-checker
+: 1708681539:0;cdo
+: 1708681542:0;gh repo clone MordechaiHadad/bob
+: 1708681552:0;cd bob
+: 1708684545:0;cd projects/Rishabh672003
+: 1708689672:0;bc
+: 1708696052:0;cargo new actix
+: 1708696057:0;nv Cargo.toml
+: 1708696411:0;rustup update
+: 1708696585:0;cali
+: 1708702656:0;rm -rf ~/.local/share/bob/nightly-9bb046d
+: 1708702769:0;ping 9.9.9.9
+: 1708702816:0;tpg
+: 1708704850:0;spicetify backup restore apply
+: 1708704965:0;nv ownership
+: 1708704977:0;cd borrow-checker
+: 1708708207:0;btop
+: 1708708216:0;cd /
+: 1708708502:0;killall -9 spotify
+: 1708786085:0;rate-mirrors chaotic-aur
+: 1708786128:0;vs /etc/pacman.d/chaotic-mirrorlist
+: 1708790925:0;nv borrow-checker
+: 1708796816:0;lll
+: 1708832369:0;cd Documents
+: 1708832379:0;cd SEM-3
+: 1708832393:0;rm -rf SEM-3
+: 1708832400:0;cd Clg-stuff
+: 1708832412:0;mkdir CNN
+: 1708832415:0;cd CNN
+: 1708832424:0;nv FA-1.md
+: 1708841088:0;cd projects
+: 1708841093:0;nv juce-cpp
+: 1708841122:0;mkdir cpp
+: 1708841143:0;mv *cpp* cpp
+: 1708841177:0;mv CPP-cmake-reference Modern-CPP-Programming opengl-CPP tcp-ip-CPP JIT-compiler-CPP cpp
+: 1708841202:0;cp test.cpp ..
+: 1708841212:0;mv juce-cpp random-cpp
+: 1708841295:0;make buildeps
+: 1708841344:0;cd rust
+: 1708842771:0;nv src/main.cpp
+: 1708842863:0;mv pms cpp
+: 1708842871:0;nv CPP-cmake-reference/CMakeLists.txt
+: 1708842930:0;cd pms
+: 1708842933:0;nv CMakeLists.txt
+: 1708842999:0;make clean
+: 1708843004:0;make prepare
+: 1708843008:0;make bui
+: 1708844603:0;yay poac
+: 1708844651:0;poac create
+: 1708844684:0;rm -rf text-editor
+: 1708844700:0;poac create text-editor
+: 1708844711:0;poac new text-editor
+: 1708844715:0;cd text-editor
+: 1708844718:0;nv src/main.cc
+: 1708844802:0;poac init
+: 1708844814:0;poac run
+: 1708844819:0;cd src/main.cpp
+: 1708844846:0;poac tidy
+: 1708845469:0;cargo doc
+: 1708845473:0;cargo doc --open
+: 1708845485:0;rustup doc
+: 1708845739:0;yay pyhon-uv
+: 1708845745:0;yay uv
+: 1708845792:0;cd Learning-Rust
+: 1708845797:0;mv Learning-Rust rust
+: 1708845808:0;pp
+: 1708845817:0;rm -rf .virtualenvs
+: 1708845832:0;rm venv
+: 1708845836:0;lg
+: 1708845869:0;uv venv
+: 1708845884:0;\
+source .venv/bin/activate
+: 1708845907:0;uv pip install -r requirements.tx
+: 1708846054:0;cd ~/.local/share/zap/plugins
+: 1708846062:0;cd zsh-autoswitch-virtualenv
+: 1708846406:0;cd actix
+: 1708846526:0;rm -rf ~/.virtualenvs
+: 1708846541:0;ls
+: 1708846905:0;cd .venv
+: 1708846911:0;ncdu
+: 1708846918:0;nv requirements.txt
+: 1708846925:0;uv pip install -r requirements.txt
+: 1708847099:0;uv pip install tensorflow
+: 1708847154:0;cz
+: 1708847468:0;HTTP_TIMEOUT=600 UV_HTTP_TIMEOUT=600 uv pip install tensorflow
+: 1708847876:0;rm -rf .venv
+: 1708847881:0;cd Learning-machine-learning
+: 1708848056:0;cd cpp/random-cpp
+: 1708861231:0;trash-empty
+: 1708863356:0;yay easytag
+: 1708870794:0;nv poac.toml
+: 1708877139:0;ys
+: 1708930492:0;cd projects/Learning-machine-learning
+: 1708930503:0;nv minimax.py
+: 1708931123:0;speedtest
+: 1708931811:0;rmvenv
+: 1708931813:0;mkvenv
+: 1708931830:0;python -u "/home/rishabh/projects/Learning-machine-learning/minimax.py"
+: 1708951862:0;cd projects/rust
+: 1708951869:0;cargo new string
+: 1708951871:0;cd string
+: 1708951873:0;nv src/main.rs
+: 1708952295:0;hyperfine --runs 3 --warmup 3 -i 'cargo run'
+: 1708952381:0;hyperfine --runs 5 --warmup 3 -i 'cargo run'
+: 1708952466:0;cargo build
+: 1708952472:0;cargo run
+: 1708953256:0;cd cpp
+: 1708953258:0;cd random-cpp
+: 1708956024:0;cdp
+: 1708956025:0;cd
+: 1708956031:0;unro
+: 1708956033:0;uneo
+: 1708956155:0;nvim +q
+: 1708956165:0;nvim
+: 1708956171:0;hyperfine --runs 5 --warmup 3 -i 'nvim +q'
+: 1708958136:0;cd projects/cpp/random-cpp
+: 1708958631:0;make builddeps
+: 1708958634:0;make build
+: 1708958688:0;make compile
+: 1708958691:0;hyperfine --runs 5 --warmup 3 -i 'make run'
+: 1708958792:0;./target/release/string
+: 1708958798:0;hyperfine --runs 10 --warmup 3 -i './target/release/string'
+: 1708958858:0;make run
+: 1708958881:0;make compile mode=release
+: 1708958886:0;nv Makefile
+: 1708958901:0;ll
+: 1708958967:0;./build/random
+: 1708959190:0;hyperfine --runs 10 --warmup 3 -i 'make run'
+: 1708960529:0;pwd
+: 1708960529:0;hyperfine --runs 10 --warmup 3 -i './build/random'
+: 1708960529:0;echo $SHELL
+: 1708960529:0;echo $0
+: 1708960202:0;nv
+: 1708960395:0;make compile mode=Release
+: 1708960432:0;cargo build --release
+: 1708960457:0;sh
+: 1708960469:0;hyperfine --runs 10 --warmup 3 -N -i './build/random'
+: 1708960482:0;hyperfine --runs 10 --warmup 5 -N -i './build/random'
+: 1708960529:0;hyperfine --runs 10 --warmup 5 -i './target/release/string'
+: 1708960529:0;exit
+: 1708960493:0;c
+: 1708960529:0;e
+: 1708960531:0;c
+: 1708960531:0;cd
+: 1708960532:0;c
+: 1708960654:0;cargo build --release
+: 1708960659:0;hyperfine --runs 10 --warmup 5 -i './target/release/string'
+: 1708960664:0;sh
+: 1708960933:0;nv
+: 1708963490:0;docker run -it --rm svenstaro/genact -m botnet
+: 1708963563:0;ll
+: 1708963582:0;cali
+: 1708963601:0;sdp
+: 1708963822:0;c
+: 1708964112:0;ys
+: 1708967697:0;c
+hyperfine --runs 10 --warmup 5 -i './target/release/string'
+: 1709035472:0;nv
+: 1709035792:0;c
+: 1709035804:0;nv
+: 1709037039:0;yay gccgo
+: 1709038082:0;nv
+: 1709122622:0;ll
+: 1709122623:0;c
+: 1709122624:0;ll
+: 1709122625:0;c
+: 1709122628:0;yay plasma
+: 1709122652:0;yay plasma6
+: 1709122706:0;c
+: 1709122713:0;ll
+: 1709129597:0;nv
+: 1709134922:0;ping 9.9.9.9
+: 1709141923:0;c
+: 1709142182:0;pacman -Q
+: 1709142185:0;pacman -q
+: 1709142189:0;pacman -Qq
+: 1709142196:0;pacman -Q | fzf
+: 1709142274:0;c
+: 1709142278:0;yel
+: 1709142333:0;yk
+: 1709142336:0;yl
