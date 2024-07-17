@@ -1,47 +1,47 @@
 theme = "rose_pine"
 # theme = "Catppuccin Mocha"
-[editor]
-#line-number = "relative"
-cursorline = true
-color-modes = true
-gutters = ["diagnostics", "line-numbers"]
-auto-completion = true
-# bufferline = always # wait until 22.10 release to enable it
-
-[editor.statusline]
-left = ["mode", "spinner", "file-name"]
-# center = ["file-name"]
-right = ["diagnostics", "selections", "position", "position-percentage", "file-encoding", "file-line-ending", "file-type"]
-separator = "│"
-[editor.lsp]
-display-messages = true
-
-[editor.whitespace.render]
-space = "all"
-tab = "all"
-# newline = "all"
-
-[editor.whitespace.characters]
-space = "·"
-nbsp = "⍽"
-tab = "→"
-newline = "⏎"
-
-[editor.cursor-shape]
-insert = "bar"
-normal = "block"
-select = "underline"
-
-[editor.indent-guides]
-render = true
-
-[editor.file-picker]
-hidden = false
-
-[keys.normal.space]
-"x" = ":buffer-close"
-"w" = { "r" = ":config-reload" }
-# "." = ":file_picker_in_buffer_directory"
-
-[keys.insert]
-j = { k = "normal_mode" }
+# [editor]
+# #line-number = "relative"
+# cursorline = true
+# color-modes = true
+# gutters = ["diagnostics", "line-numbers"]
+# auto-completion = true
+# # bufferline = always # wait until 22.10 release to enable it
+#
+# [editor.statusline]
+# left = ["mode", "spinner", "file-name"]
+# # center = ["file-name"]
+# right = ["diagnostics", "selections", "position", "position-percentage", "file-encoding", "file-line-ending", "file-type"]
+# separator = "│"
+# [editor.lsp]
+# display-messages = true
+#
+# [editor.whitespace.render]
+# space = "all"
+# tab = "all"
+# # newline = "all"
+#
+# [editor.whitespace.characters]
+# space = "·"
+# nbsp = "⍽"
+# tab = "→"
+# newline = "⏎"
+#
+# [editor.cursor-shape]
+# insert = "bar"
+# normal = "block"
+# select = "underline"
+#
+# [editor.indent-guides]
+# render = true
+#
+# [editor.file-picker]
+# hidden = false
+#
+# [keys.normal.space]
+# "x" = ":buffer-close"
+# "w" = { "r" = ":config-reload" }
+# # "." = ":file_picker_in_buffer_directory"
+#
+# [keys.insert]
+# j = { k = "normal_mode" }

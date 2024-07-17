@@ -1,428 +1,5056 @@
-: 1707915880:0;pdf2text
-: 1707915885:0;yay pdf2text
-: 1707915932:0;pdftotext
-: 1707915941:0;time pdftotext test.pdf >> p2t.txt
-: 1707915992:0;hyperfine --runs 1 --warmup 0 -i 'pdftotext test.pdf >> p2t.txt'
-: 1707916020:0;nv js.txt
-: 1707916040:0;pdftotext test.pdf >> p2t.txt
-: 1707916044:0;nv p2t.txt
-: 1707916048:0;pdftotext test.pdf
-: 1707916053:0;nv test.txt
-: 1707916098:0;hyperfine --runs 1 --warmup 0 -i 'pdftotext test.pdf'
-: 1707916111:0;hyperfine --runs 1 --warmup 0 -i 'node pdf.js >> js.txt'
-: 1707916187:0;nv pdf.js
-: 1707916242:0;hyperfine --runs 3 --warmup 3 -i 'node pdf.js'
-: 1707916311:0;hyperfine --runs 3 --warmup 3 -i 'pdftotext test.pdf'
-: 1707916743:0;nv main.go
-: 1707916814:0;go init
-: 1707916821:0;go mod init
-: 1707916827:0;go mod init test
-: 1707916837:0;go mod tidy
-: 1707916882:0;go run main.go
-: 1707917083:0;go run main.gouneo
-: 1707917200:0;cargo init pdf
-: 1707917204:0;cd pdf
-: 1707917240:0;cargo add pdf-extract
-: 1707917262:0;cp ../test.pdf .
-: 1707917401:0;cargo build release
-: 1707917411:0;cargo release build
-: 1707917721:0;./pdf >> a.txt
-: 1707917944:0;rm a.txt
-: 1707917949:0;rm pdf
-: 1707918074:0;cargo clean
-: 1707918225:0;nv src
-: 1707918452:0;cp target/release/pdf .
-: 1707918455:0;./pdf
-: 1707918468:0;hyperfine --runs 3 --warmup 3 -i './pdf'
-: 1707918859:0;cargo add
-: 1707919260:0;yay python-pypdf
-: 1707919517:0;yay pypdf
-: 1707919541:0;nv main.py
-: 1707978735:0;mkdir NS-2
-: 1707978738:0;cd NS-2
-: 1707978740:0;curl -L -O https://github.com/namanlp/ns-2-install/archive/refs/heads/main.zip
-: 1707978744:0;unzip main.zip
-: 1707978756:0;cd ns-2-install-main
-: 1707978760:0;sh ./ns.sh
-: 1707978791:0;ns
-: 1707978958:0;yay ns
-: 1707979362:0;yay -S ns
-: 1708003052:0;rm -rf ns-2-install-main
-: 1708003058:0;rm -rf main.zip
-: 1708003543:0;rm NS-2
-: 1708003557:0;rm test.o
-: 1708017593:0;rm PDF_Reader.ipynb
-: 1708058443:0;cd pr]
-: 1708058450:0;mkdir HACKANOVA
-: 1708063200:0;pip install kaggle
-: 1708063218:0;kaggle datasets download -d saurabhshahane/fake-news-classification
-: 1708063525:0;unzip fake-news-classification.zip
-: 1708063535:0;cp WELFake_Dataset.csv jupyter-notebooks
-: 1708063570:0;pip install pyarrow
-: 1708063583:0;pip install seaborn
-: 1708079044:0;cd jupyter-notebooks
-: 1708079348:0;npm install
-: 1708080153:0;cd projects/HACKANOVA/news-inspector
-: 1708080914:0;astro build
-: 1708080948:0;npm build
-: 1708080955:0;npm run build
-: 1708080982:0;nv astro.config.mjs
-: 1708082331:0;nv env
-: 1708082363:0;nv .gitignore
-: 1708082720:0;pkill node
-: 1708082723:0;pkill npm
-: 1708083646:0;npm install --save-dev concurrently
-: 1708083717:0;npm run start
-: 1708084042:0;cd .vercel
-: 1708084047:0;cd output
-: 1708084052:0;cd functions
-: 1708085453:0;gh repo clone Rishabh672003/news-inspector nw-rj
-: 1708085493:0;npm i astro@latest
-: 1708086042:0;cd nw-rj
-: 1708086045:0;nv package.json
-: 1708086081:0;cd client
-: 1708086134:0;npm start
-: 1708092766:0;nv PROBLEM-STATEMENT.md
-: 1708094741:0;hasnmtui
-: 1708098273:0;gh repo clone BitBrigade/news-models
-: 1708098534:0;cp API.md news-models
-: 1708098538:0;nv solution.md
-: 1708104059:0;pip install generative-ai
-: 1708104089:0;pip install generative_ai
-: 1708104108:0;pip install google-generativeai
-: 1708105406:0;cd HACKANOVA/ll
-: 1708105407:0;cd HACKANOVA/
-: 1708105428:0;gh repo clone BitBrigade/news-inspector-server
-: 1708105438:0;cd news-inspector-server
-: 1708105453:0;npm i -g vercel
-: 1708105457:0;sudo npm i -g vercel
-: 1708105465:0;vercel init
-: 1708105515:0;vercel init .
-: 1708105630:0;nv vercel.json
-: 1708108857:0;mkdir News-inspector-extension
-: 1708109256:0;cd rishabh
-: 1708109392:0;cd News-inspector-extension
-: 1708109395:0;nv manifest.json
-: 1708114090:0;cd news-models
-: 1708114266:0;nv API.md
-: 1708124728:0;cc
-: 1708169180:0;nmtui
-: 1708175750:0;cd projects/HACKANOVA
-: 1708175765:0;git pull
-: 1708175781:0;rm -rf news-inspector
-: 1708175832:0;cd HACKANOVA
-: 1708175840:0;rm -rf News-inspector-extension
-: 1708175852:0;rm -rf news-inspector-server
-: 1708175854:0;gh repo clone BitBrigade/news-inspector
-: 1708176018:0;npm i
-: 1708176345:0;nv .env
-: 1708179197:0;cd news-inspector
-: 1708242438:0;cnv
-: 1708243210:0;pkexec
-: 1708250425:0;mathematics
-: 1708250431:0;rand
-: 1708250509:0;cd frontend
-: 1708250512:0;npm run dev
-: 1708271712:0;y
-: 1708276429:0;alias -p
-: 1708276432:0;alias -P
-: 1708276436:0;alias --help
-: 1708278478:0;mkdir rust
-: 1708278520:0;mkdir .git
-: 1708321323:0;nv new.rs
-: 1708323373:0;cargo new guessing-game
-: 1708323379:0;cd guessing-game
-: 1708323595:0;cargo add rand
-: 1708324203:0;cargo update
-: 1708324216:0;cargo builf
-: 1708327600:0;cp ../../Competetive-programming/.jaq.json src
-: 1708327602:0;cd src
-: 1708327607:0;nv .jaq.json
-: 1708327630:0;nv sr
-: 1708335774:0;cargo new functions
-: 1708335777:0;nv functions
-: 1708336573:0;cd .config/kitty
-: 1708336620:0;cat
-: 1708336627:0;cat .android
-: 1708336630:0;cat .android/adbkey
-: 1708341332:0;cargo new rest
-: 1708341334:0;cd rest
-: 1708341406:0;cargo add rocket
-: 1708341415:0;cargo add rocket_contrib
-: 1708401071:0;rustup use nightly
-: 1708401083:0;tldr rustup
-: 1708403092:0;cd projects/rust/rest
-: 1708403113:0;bob rollback
-: 1708403140:0;bob use stable
-: 1708403159:0;bob use nightly
-: 1708403455:0;nb
-: 1708405108:0;rustup default nightly
-: 1708405131:0;cat Cargo.toml
-: 1708406182:0;rustup default stable
-: 1708406197:0;cd .local/bin/
-: 1708406206:0;bun
-: 1708406211:0;bun updat
-: 1708406223:0;bun update
-: 1708406241:0;bun upgrade
-: 1708406291:0;yay bun
-: 1708414761:0;cargo new ownership
-: 1708414766:0;cd ownership
-: 1708422628:0;nr
-: 1708424499:0;yay pypy
-: 1708424599:0;cd other-stuff/mirrors-and-hosts
-: 1708424603:0;./rate-mirrors-arch.sh
-: 1708424781:0;yay pypy3
-: 1708424809:0;cd pdf-test
-: 1708424845:0;rm -rf *.txt
-: 1708424852:0;rm go.mod
-: 1708424858:0;hyperfine --runs 3 --warmup 3 -i 'main.py'
-: 1708424866:0;py main.py
-: 1708424870:0;l
-: 1708424897:0;rmvrnv
-: 1708424909:0;pip install pypdf
-: 1708425114:0;/usr/bin/pypy3 -m ensurepip
-: 1708425129:0;pypy3 -m pip install pypdf2
-: 1708425138:0;pypy3 -m pip install pypdf
-: 1708425149:0;pypy3 main.py
-: 1708425155:0;nv output.txt
-: 1708425159:0;rm output.txt
-: 1708425165:0;time pypy3 main.py
-: 1708425175:0;rm *.txt
-: 1708425180:0;time py main.py
-: 1708433643:0;yay -Scc
-: 1708435631:0;duf
-: 1708435763:0;cd Downloads
-: 1708435767:0;nv SDNM-430.torrent
-: 1708436940:0;exa ls
-: 1708436943:0;exa
-: 1708436969:0;nv username.csv
-: 1708446693:0;we
-: 1708452278:0;cd projects/xdg-ninja
-: 1708452369:0;./xdg-ninja.sh
-: 1708488990:0;nv ownership/src/main.rs
-: 1708490010:0;man eval
-: 1708500815:0;spicetify backup
-: 1708500827:0;spicetify restore backup
-: 1708502955:0;cd hash-table
-: 1708503454:0;cd CPP-cmake-reference
-: 1708503470:0;cd juce-cpp
-: 1708505461:0;cd projects/rust/ownership
-: 1708514474:0;yay cheese
-: 1708537795:0;cargo new calculator
-: 1708537798:0;cd calculator
-: 1708585142:0;killall -9 electron
-: 1708585199:0;cd ~/.local/share/nap
-: 1708585215:0;touch rust-multiple-lines.rs
-: 1708585273:0;rm rust-multiple-lines.rs
-: 1708585274:0;kk
-: 1708585289:0;nap
-: 1708585393:0;nap multiple
-: 1708585398:0;nap multiple | wl-copy
-: 1708608027:0;cd Videos/Movies/Aftersun.2022.1080p.WEBRip.x264-RARBG
-: 1708608032:0;unzip SUBDL\ aftersun-english-3034153.zip
-: 1708608051:0;mpv Aftersun.2022.1080p.WEBRip.x264-RARBG.mp4 --sub-file=Aftersun\ \(2022\)\ REMUX.eng.srt
-: 1708608088:0;unzip SUBDL\ aftersun-english-2952472.zip
-: 1708608097:0;mpv Aftersun.2022.1080p.WEBRip.x264-RARBG.mp4 --sub-file=Aftersun.2022.1080p.WEB-DL.DD5.1.H.264\ \(SDH\).srt
-: 1708608134:0;unzip SUBDL\ aftersun-english-3280325.zip
-: 1708608144:0;mpv Aftersun.2022.1080p.WEBRip.x264-RARBG.mp4 --sub-file=aftersun.2022.720p.bluray.x264-scare.srt
-: 1708608218:0;unzip SUBDL\ aftersun-english-2957764.zip
-: 1708608230:0;mpv Aftersun.2022.1080p.WEBRip.x264-RARBG.mp4 --sub-file=Aftersun.2022.1080p_English.srt
-: 1708608288:0;unzip Subtitlist.com-aftersun_english_2957764.zip
-: 1708608850:0;cd Aftersun.2022.1080p.WEBRip.x264-RARBG
-: 1708608867:0;rm -rf Aftersun.2022.1080p.WEBRip.x264-RARBG
-: 1708614581:0;yay warp
-: 1708665185:0;$((3+4))
-: 1708665193:0;echo $((3+4))
-: 1708665390:0;bc 3+4
-: 1708665404:0;man bc
-: 1708665413:0;bc -l "3+4"
-: 1708665423:0;read input\
-printf "%.3f\n" `echo "$input" | bc -l`
-: 1708665435:0;bc -l 3+4
-: 1708665594:0;expr 2+3
-: 1708665653:0;expr 2*3
-: 1708665711:0;echo 2+2 | bc
-: 1708665820:0;echo 2+2/3 | bc -l
-: 1708668939:0;ip a
-: 1708669798:0;cd projects/rust/
-: 1708669810:0;cargo new borrow-checker
-: 1708681539:0;cdo
-: 1708681542:0;gh repo clone MordechaiHadad/bob
-: 1708681552:0;cd bob
-: 1708684545:0;cd projects/Rishabh672003
-: 1708689672:0;bc
-: 1708696052:0;cargo new actix
-: 1708696057:0;nv Cargo.toml
-: 1708696411:0;rustup update
-: 1708696585:0;cali
-: 1708702656:0;rm -rf ~/.local/share/bob/nightly-9bb046d
-: 1708702769:0;ping 9.9.9.9
-: 1708702816:0;tpg
-: 1708704850:0;spicetify backup restore apply
-: 1708704965:0;nv ownership
-: 1708704977:0;cd borrow-checker
-: 1708708207:0;btop
-: 1708708216:0;cd /
-: 1708708502:0;killall -9 spotify
-: 1708786085:0;rate-mirrors chaotic-aur
-: 1708786128:0;vs /etc/pacman.d/chaotic-mirrorlist
-: 1708790925:0;nv borrow-checker
-: 1708796816:0;lll
-: 1708832369:0;cd Documents
-: 1708832379:0;cd SEM-3
-: 1708832393:0;rm -rf SEM-3
-: 1708832400:0;cd Clg-stuff
-: 1708832412:0;mkdir CNN
-: 1708832415:0;cd CNN
-: 1708832424:0;nv FA-1.md
-: 1708841088:0;cd projects
-: 1708841093:0;nv juce-cpp
-: 1708841122:0;mkdir cpp
-: 1708841143:0;mv *cpp* cpp
-: 1708841177:0;mv CPP-cmake-reference Modern-CPP-Programming opengl-CPP tcp-ip-CPP JIT-compiler-CPP cpp
-: 1708841202:0;cp test.cpp ..
-: 1708841212:0;mv juce-cpp random-cpp
-: 1708841295:0;make buildeps
-: 1708841344:0;cd rust
-: 1708842771:0;nv src/main.cpp
-: 1708842863:0;mv pms cpp
-: 1708842871:0;nv CPP-cmake-reference/CMakeLists.txt
-: 1708842930:0;cd pms
-: 1708842933:0;nv CMakeLists.txt
-: 1708842999:0;make clean
-: 1708843004:0;make prepare
-: 1708843008:0;make bui
-: 1708844603:0;yay poac
-: 1708844651:0;poac create
-: 1708844684:0;rm -rf text-editor
-: 1708844700:0;poac create text-editor
-: 1708844711:0;poac new text-editor
-: 1708844715:0;cd text-editor
-: 1708844718:0;nv src/main.cc
-: 1708844802:0;poac init
-: 1708844814:0;poac run
-: 1708844819:0;cd src/main.cpp
-: 1708844846:0;poac tidy
-: 1708845469:0;cargo doc
-: 1708845473:0;cargo doc --open
-: 1708845485:0;rustup doc
-: 1708845739:0;yay pyhon-uv
-: 1708845745:0;yay uv
-: 1708845792:0;cd Learning-Rust
-: 1708845797:0;mv Learning-Rust rust
-: 1708845808:0;pp
-: 1708845817:0;rm -rf .virtualenvs
-: 1708845832:0;rm venv
-: 1708845836:0;lg
-: 1708845869:0;uv venv
-: 1708845884:0;\
-source .venv/bin/activate
-: 1708845907:0;uv pip install -r requirements.tx
-: 1708846054:0;cd ~/.local/share/zap/plugins
-: 1708846062:0;cd zsh-autoswitch-virtualenv
-: 1708846406:0;cd actix
-: 1708846526:0;rm -rf ~/.virtualenvs
-: 1708846541:0;ls
-: 1708846905:0;cd .venv
-: 1708846911:0;ncdu
-: 1708846918:0;nv requirements.txt
-: 1708846925:0;uv pip install -r requirements.txt
-: 1708847099:0;uv pip install tensorflow
-: 1708847154:0;cz
-: 1708847468:0;HTTP_TIMEOUT=600 UV_HTTP_TIMEOUT=600 uv pip install tensorflow
-: 1708847876:0;rm -rf .venv
-: 1708847881:0;cd Learning-machine-learning
-: 1708848056:0;cd cpp/random-cpp
-: 1708861231:0;trash-empty
-: 1708863356:0;yay easytag
-: 1708870794:0;nv poac.toml
-: 1708877139:0;ys
-: 1708930492:0;cd projects/Learning-machine-learning
-: 1708930503:0;nv minimax.py
-: 1708931123:0;speedtest
-: 1708931811:0;rmvenv
-: 1708931813:0;mkvenv
-: 1708931830:0;python -u "/home/rishabh/projects/Learning-machine-learning/minimax.py"
-: 1708951862:0;cd projects/rust
-: 1708951869:0;cargo new string
-: 1708951871:0;cd string
-: 1708951873:0;nv src/main.rs
-: 1708952295:0;hyperfine --runs 3 --warmup 3 -i 'cargo run'
-: 1708952381:0;hyperfine --runs 5 --warmup 3 -i 'cargo run'
-: 1708952466:0;cargo build
-: 1708952472:0;cargo run
-: 1708953256:0;cd cpp
-: 1708953258:0;cd random-cpp
-: 1708956024:0;cdp
-: 1708956025:0;cd
-: 1708956031:0;unro
-: 1708956033:0;uneo
-: 1708956155:0;nvim +q
-: 1708956165:0;nvim
-: 1708956171:0;hyperfine --runs 5 --warmup 3 -i 'nvim +q'
-: 1708958136:0;cd projects/cpp/random-cpp
-: 1708958631:0;make builddeps
-: 1708958634:0;make build
-: 1708958688:0;make compile
-: 1708958691:0;hyperfine --runs 5 --warmup 3 -i 'make run'
-: 1708958792:0;./target/release/string
-: 1708958798:0;hyperfine --runs 10 --warmup 3 -i './target/release/string'
-: 1708958858:0;make run
-: 1708958881:0;make compile mode=release
-: 1708958886:0;nv Makefile
-: 1708958901:0;ll
-: 1708958967:0;./build/random
-: 1708959190:0;hyperfine --runs 10 --warmup 3 -i 'make run'
-: 1708960529:0;pwd
-: 1708960529:0;hyperfine --runs 10 --warmup 3 -i './build/random'
-: 1708960529:0;echo $SHELL
-: 1708960529:0;echo $0
-: 1708960202:0;nv
-: 1708960395:0;make compile mode=Release
-: 1708960432:0;cargo build --release
-: 1708960457:0;sh
-: 1708960469:0;hyperfine --runs 10 --warmup 3 -N -i './build/random'
-: 1708960482:0;hyperfine --runs 10 --warmup 5 -N -i './build/random'
-: 1708960529:0;hyperfine --runs 10 --warmup 5 -i './target/release/string'
-: 1708960529:0;exit
-: 1708960493:0;c
-: 1708960529:0;e
-: 1708960531:0;c
-: 1708960531:0;cd
-: 1708960532:0;c
-: 1708960654:0;cargo build --release
-: 1708960659:0;hyperfine --runs 10 --warmup 5 -i './target/release/string'
-: 1708960664:0;sh
-: 1708960933:0;nv
-: 1708963490:0;docker run -it --rm svenstaro/genact -m botnet
-: 1708963563:0;ll
-: 1708963582:0;cali
-: 1708963601:0;sdp
-: 1708963822:0;c
-: 1708964112:0;ys
-: 1708967697:0;c
-hyperfine --runs 10 --warmup 5 -i './target/release/string'
-: 1709035472:0;nv
-: 1709035792:0;c
-: 1709035804:0;nv
-: 1709037039:0;yay gccgo
-: 1709038082:0;nv
-: 1709122622:0;ll
-: 1709122623:0;c
-: 1709122624:0;ll
-: 1709122625:0;c
-: 1709122628:0;yay plasma
-: 1709122652:0;yay plasma6
-: 1709122706:0;c
-: 1709122713:0;ll
-: 1709129597:0;nv
-: 1709134922:0;ping 9.9.9.9
-: 1709141923:0;c
-: 1709142182:0;pacman -Q
-: 1709142185:0;pacman -q
-: 1709142189:0;pacman -Qq
-: 1709142196:0;pacman -Q | fzf
-: 1709142274:0;c
-: 1709142278:0;yel
-: 1709142333:0;yk
-: 1709142336:0;yl
+: 1718371514:0;nv
+: 1718371559:0;npm run dev
+: 1718371575:0;npm run build
+: 1718371584:0;npm run dev
+: 1718371669:0;npm install -D tailwindcss postcss autoprefixer\
+npx tailwindcss init
+: 1718371688:0;nv
+: 1718371721:0;npm install -D tailwindcss postcss autoprefixer\
+\
+npx tailwindcss init -p
+: 1718371735:0;nv tailwind.config.js
+: 1718371756:0;npm run dev
+: 1718371953:0;cdp
+: 1718371959:0;mv EventPulse Web-dev
+: 1718371960:0;ll
+: 1718371962:0;cd Web-dev
+: 1718371963:0;ll
+: 1718371965:0;git clone https://github.com/Mohebullah98/Countdown-Timer-App.git
+: 1718371978:0;cd Countdown-Timer-App
+: 1718371979:0;ll
+: 1718371982:0;npm i
+: 1718372138:0;npm start
+: 1718372156:0;cdp
+: 1718372156:0;ll
+: 1718372619:0;cd EventPulse
+: 1718372619:0;ll
+: 1718372624:0;nv src/App.jsx
+: 1718372710:0;ll
+: 1718372711:0;cdp
+: 1718372712:0;ll
+: 1718372720:0;cd EventPulse
+: 1718372721:0;ll
+: 1718372725:0;npm run dev
+: 1718372955:0;npm install react-countdown --save
+: 1718372959:0;ll
+: 1718373082:0;cdp
+: 1718373083:0;gh repo clone AnyWayA/timer-app
+: 1718373105:0;cd timer-app
+: 1718373106:0;ll
+: 1718373109:0;npm i
+: 1718373190:0;npm start
+: 1718373225:0;cdp
+: 1718373228:0;cd timer-app
+: 1718373228:0;ll
+: 1718373263:0;nv src/index.tsx
+: 1718373754:0;cdp
+: 1718373756:0;cd EventPulse
+: 1718373756:0;ll
+: 1718373762:0;npm i moment
+: 1718373774:0;npm i react-datepicker
+: 1718373889:0;mv src/assets/components src
+: 1718373890:0;ll
+: 1718374582:0;npm i date-fns
+: 1718375649:0;time
+: 1718375653:0;date
+: 1718375861:0;killall -9 node
+: 1718375866:0;nv
+: 1718375880:0;cdp
+: 1718375884:0;cd EventPulse
+: 1718375884:0;ll
+: 1718375891:0;npm run start
+: 1718375900:0;npm run build
+: 1718375909:0;npm run dev
+: 1718375975:0;npm i react-datepicker
+: 1718378738:0;ll
+: 1718378797:0;git clone https://github.com/Rishabh672003/EventPulse.git
+: 1718378806:0;mv EventPulse/.git .
+: 1718378811:0;mv EventPulse/LICENSE .
+: 1718378816:0;mv EventPulse/README.md .
+: 1718378819:0;rm -rf EventPulse
+: 1718378820:0;ll
+: 1718378821:0;lg
+: 1718378922:0;lg
+: 1718378974:0;ll
+: 1718378975:0;nv
+: 1718382142:0;nv
+: 1718383025:0;ll
+: 1718383027:0;nv
+: 1718386561:0;yay -Q
+: 1718386565:0;yay -Q | fzf
+: 1718387677:0;cd
+: 1718387679:0;cd Pictures
+: 1718387680:0;ll
+: 1718387685:0;cdp
+: 1718387686:0;cd Screencasts
+: 1718387687:0;ll
+: 1718387700:0;cali
+: 1718387723:0;convert_video recording_2024-06-14-232417.mp4
+: 1718387728:0;ll
+: 1718388375:0;nv
+: 1718389087:0;cdp
+: 1718389089:0;cd scree
+: 1718389090:0;ll
+: 1718389103:0;convert_video recording_2024-06-14-234759.mp4
+: 1718421675:0;e
+: 1718422240:0;c
+: 1718423379:0;nmtui
+: 1718423959:0;nv
+: 1718424049:0;npm run
+: 1718424052:0;npm run dev
+: 1718427777:0;nv
+: 1718431755:0;ll
+: 1718431756:0;ll
+: 1718431761:0;lg
+: 1718431766:0;ll
+: 1718431766:0;nv
+: 1718431798:0;nmtui
+: 1718431841:0;c
+: 1718431842:0;d
+: 1718431843:0;c
+: 1718431845:0;tt -bold -t 10 -showwpm -oneshot
+: 1718431863:0;tt -bold -t 30 -showwpm -oneshot
+: 1718432643:0;ll
+: 1718432643:0;c
+: 1718432643:0;c
+: 1718432644:0;c
+: 1718432644:0;c
+: 1718435484:0;c
+: 1718435484:0;c
+: 1718435485:0;c
+: 1718435485:0;c
+: 1718435485:0;c
+: 1718435486:0;c
+: 1718435486:0;c
+: 1718435486:0;c
+: 1718435487:0;c
+: 1718435487:0;c
+: 1718435487:0;c
+: 1718435488:0;c
+: 1718447273:0;e
+: 1718447275:0;e
+: 1718447276:0;c
+: 1718447277:0;cd
+: 1718447278:0;c
+: 1718450725:0;nv
+: 1718455233:0;ys
+: 1718458313:0;c
+: 1718461392:0;c
+: 1718461396:0;nv
+: 1718467852:0;c
+: 1718467958:0;c
+: 1718467958:0;c
+: 1718467958:0;c
+: 1718467959:0;c
+: 1718467960:0;ll
+: 1718467960:0;c
+: 1718467961:0;nv
+: 1718467972:0;tmux
+: 1718467973:0;nv
+: 1718467990:0;cd event
+: 1718467991:0;ll
+: 1718467997:0;npm run dev
+: 1718473823:0;we
+: 1718473825:0;ws
+: 1718473858:0;sudo downgrade
+: 1718473870:0;sudo downgrade hyprland
+: 1718474056:0;we
+: 1718474403:0;hyprctl version
+: 1718474410:0;x
+: 1718474742:0;nv
+: 1718474931:0;we
+: 1718474937:0;sudo downgrade hyprland
+: 1718475399:0;wew
+: 1718475401:0;we
+: 1718475406:0;sudo downgrade hyprland
+: 1718475471:0;sudo downgrade hyprland
+: 1718475484:0;we
+: 1718475501:0;hyprctl version
+: 1718475522:0;we
+: 1718475525:0;sudo downgrade hyprland
+: 1718475754:0;waydroid
+: 1718475758:0;ws
+: 1718475772:0;wl
+: 1718475793:0;bat /var/lib/waydroid/waydroid.log
+: 1718475812:0;we
+: 1718509231:0;nv
+: 1718512945:0;btop
+: 1718515012:0;cd
+: 1718515012:0;c
+: 1718515017:0;cd projects/PYTHON-ML
+: 1718515017:0;ll
+: 1718515019:0;nv main
+: 1718515024:0;nv main.py --noplugin
+: 1718515119:0;ll
+: 1718515123:0;python main.py
+: 1718515136:0;nv main.py
+: 1718517681:0;nv
+: 1718517766:0;cd even
+: 1718517766:0;ll
+: 1718517767:0;npm install react-slick slick-carousel\
+
+: 1718517787:0;nv
+: 1718517821:0;ll
+: 1718517823:0;npm run dev
+: 1718518549:0;npm run lint
+: 1718518568:0;nv
+: 1718518591:0;nv
+: 1718518615:0;nv
+: 1718518627:0;nv
+: 1718526591:0;ys
+: 1718526915:0;cdp
+: 1718526916:0;cdp
+: 1718526916:0;ll
+: 1718526922:0;cd PYTHON-ML
+: 1718526923:0;ll
+: 1718526927:0;ll
+: 1718526930:0;cd
+: 1718526931:0;c
+: 1718526932:0;c
+: 1718526933:0;ll
+: 1718526941:0;e
+: 1718527133:0;rmvenv
+: 1718527136:0;mkvenv
+: 1718527145:0;ls
+: 1718527146:0;cd ..
+: 1718527155:0;rmvenv
+: 1718527158:0;mkvenv
+: 1718527557:0;nv rm -rf .node_repl_history
+: 1718527563:0;ll
+: 1718527566:0;rm .node_repl_history
+: 1718527567:0;ll
+: 1718534014:0;killall -9 electron
+: 1718535784:0;lightning
+: 1718540107:0;cdp
+: 1718540109:0;cd DSA-prep
+: 1718540110:0;ll
+: 1718540118:0;nv fibo-memo.py
+: 1718540147:0;nv
+: 1718540551:0;ping 8.8.8.8
+: 1718544249:0;nv
+: 1718544845:0;ping 8.8.8.8
+: 1718544846:0;ping 8.8.8.8
+: 1718549406:0;killall -9 python
+: 1718549416:0;nv
+: 1718557041:0;c
+: 1718557041:0;c
+: 1718557042:0;c
+: 1718557043:0;cys
+: 1718557046:0;ys
+: 1718557103:0;byobu
+: 1718557115:0;clear
+: 1718557116:0;ll
+: 1718557117:0;c
+: 1718557118:0;nv
+: 1718557172:0;byobu
+: 1718557176:0;byobu --help
+: 1718557224:0;ll
+: 1718557225:0;c
+: 1718557225:0;c
+: 1718557226:0;c
+: 1718557226:0;c
+: 1718557227:0;c
+: 1718557227:0;c
+: 1718557228:0;ccdp
+: 1718557235:0;e
+: 1718557242:0;byobu-tmux
+: 1718557281:0;byobu config
+: 1718557284:0;byobu-config
+: 1718557320:0;ls
+: 1718557321:0;c
+: 1718557328:0;e
+: 1718557356:0;e
+: 1718557392:0;w
+: 1718557395:0;e
+: 1718557423:0;c
+: 1718557423:0;c
+: 1718557423:0;c
+: 1718557424:0;c
+: 1718557805:0;e
+: 1718557806:0;c
+: 1718557807:0;c
+: 1718557807:0;c
+: 1718557807:0;c
+: 1718558019:0;nv
+: 1718558559:0;cd ds
+: 1718558564:0;mkvenv
+: 1718558635:0;nv
+: 1718559899:0;nap
+: 1718560020:0;c
+: 1718594086:0;ys
+: 1718594616:0;nv
+: 1718595369:0;nv
+: 1718601790:0;oldold
+: 1718601791:0;old
+: 1718601805:0;lookes
+: 1718606114:0;ani-cli
+: 1718606188:0;ani-cli
+: 1718606193:0;ani-cli
+: 1718607858:0;cdd dsa
+: 1718607869:0;cd gfg
+: 1718607887:0;nv two-lines-intersect.py
+: 1718608029:0;nv
+: 1718617574:0;cdd dsa
+: 1718617575:0;ll
+: 1718617581:0;nv tree.py
+: 1718627670:0;c
+: 1718637665:0;cdp
+: 1718637674:0;cd CPP/random2
+: 1718637675:0;nc
+: 1718637676:0;nv
+: 1718646971:0;cd
+: 1718646972:0;c
+: 1718646976:0;fzf
+: 1718646995:0;nvim $(fzf)
+: 1718647123:0;cd projects/xdg-ninja
+: 1718647123:0;ll
+: 1718647128:0;git pull
+: 1718647153:0;./xdg-ninja.sh
+: 1718647328:0;nv
+: 1718691491:0;rofi -show run
+: 1718693425:0;cd nvim
+: 1718693426:0;ll
+: 1718693427:0;lg
+: 1718693566:0;python
+: 1718696149:0;nv
+: 1718696151:0;nv
+: 1718699973:0;cdp
+: 1718699974:0;ll
+: 1718699974:0;cd
+: 1718699976:0;cd projects
+: 1718699982:0;cd Web-dev
+: 1718699984:0;cd EventPulse
+: 1718699984:0;ll
+: 1718699987:0;cdp
+: 1718700032:0;cd EventPulse
+: 1718700032:0;ll
+: 1718700033:0;lg
+: 1718700049:0;mv .git ..
+: 1718700050:0;ll
+: 1718700054:0;cdp
+: 1718700055:0;ll
+: 1718700079:0;zip EventPulse eventpulse
+: 1718700084:0;zip EventPulse
+: 1718700091:0;zip EventPulse eventpulse.zip
+: 1718700099:0;tldr zip
+: 1718700131:0;zip EventPulse.zip EventPulse
+: 1718700133:0;ll
+: 1718700138:0;mv .git EventPulse
+: 1718700139:0;ll
+: 1718700141:0;cd EventPulse
+: 1718700141:0;ll
+: 1718700253:0;cdp
+: 1718700254:0;ll
+: 1718700259:0;rm -rf EventPulse.zip
+: 1718700260:0;ll
+: 1718700268:0;zip -r EventPulse.zip EventPulse
+: 1718700274:0;ll
+: 1718700276:0;cd EventPulse
+: 1718700277:0;ll
+: 1718700281:0;rm -rf node_modules
+: 1718700282:0;ll
+: 1718700288:0;npm run clean
+: 1718700291:0;cdp
+: 1718700291:0;ll
+: 1718700296:0;zip -r EventPulse.zip EventPulse
+: 1718700298:0;ll
+: 1718700303:0;ncdu
+: 1718702373:0;nc
+: 1718702374:0;nv
+: 1718702385:0;cdp
+: 1718702387:0;cd PYTHON-ML
+: 1718702388:0;ll
+: 1718702393:0;nv main2.py
+: 1718704952:0;ping 8.8.8.8
+: 1718706996:0;c
+: 1718706998:0;cd
+: 1718707011:0;cdd ds
+: 1718707016:0;ll
+: 1718707028:0;nv graph.py
+: 1718708727:0;cdp
+: 1718708729:0;nro
+: 1718709124:0;nro
+: 1718709154:0;nro
+: 1718709166:0;nro
+: 1718709384:0;nv
+: 1718709388:0;nro
+: 1718709437:0;nro a.neorg
+: 1718709515:0;rm -rf ~/.local/share/nvim-rocks
+: 1718709518:0;nro
+: 1718709552:0;nvim -u NORC -c "source https://raw.githubusercontent.com/nvim-neorocks/rocks.nvim/master/installer.lua"
+: 1718709565:0;nro -u NORC -c "source https://raw.githubusercontent.com/nvim-neorocks/rocks.nvim/master/installer.lua"
+: 1718709608:0;yay hyprland
+: 1718709638:0;sudo downgrade hyprland
+: 1718709663:0;nro
+: 1718718228:0;nv
+: 1718718233:0;cdd dsa
+: 1718718235:0;ll
+: 1718718240:0;nv prime.py
+: 1718725181:0;ys
+: 1718727174:0;ys
+: 1718731160:0;ll
+: 1718731166:0;npm i sympy
+: 1718731240:0;pip install sympy
+: 1718731301:0;nv
+: 1718773230:0;nv
+: 1718775355:0;nv
+: 1718792134:0;nv
+: 1718792252:0;nv
+: 1718792462:0;nv
+: 1718792473:0;nv
+: 1718792692:0;nv
+: 1718792791:0;nv
+: 1718792886:0;nv
+: 1718792910:0;nv
+: 1718792923:0;nv
+: 1718792979:0;nv
+: 1718794972:0;ll
+: 1718794977:0;pip install numpy
+: 1718795822:0;nv
+: 1718795933:0;nv
+: 1718796038:0;nv
+: 1718796260:0;killall -9 electron
+: 1718796276:0;e
+: 1718796290:0;nv
+: 1718796491:0;pipx install pynvim
+: 1718796597:0;nv
+: 1718796606:0;pipx install pynvim
+: 1718796618:0;yay pynvim
+: 1718796651:0;e
+: 1718796654:0;nv
+: 1718796771:0;nv
+: 1718796945:0;nv
+: 1718797018:0;nv
+: 1718797048:0;nv
+: 1718797125:0;nv
+: 1718797158:0;pipx install autoimport
+: 1718797215:0;autoimport prime.py
+: 1718797229:0;cd dsa
+: 1718797230:0;ll
+: 1718797238:0;autoimport prime.py
+: 1718797242:0;nv prime.py
+: 1718797285:0;pip install autoimport
+: 1718797295:0;autoimport prime.py
+: 1718797299:0;nv prime.py
+: 1718797316:0;pipx uninstall autoimport
+: 1718797320:0;cdp
+: 1718797325:0;cd DSA-prep
+: 1718797326:0;ll
+: 1718797329:0;nv prime.py
+: 1718797337:0;autoimport prime.py
+: 1718797347:0;autoimport -r .
+: 1718797354:0;autoimport --help
+: 1718797571:0;autoimport prime.py
+: 1718797578:0;autoimport prime.py
+: 1718797587:0;cdd dsa
+: 1718797607:0;autoimport prime.py
+: 1718797613:0;bat prime.py
+: 1718797651:0;autoimport prime.py
+: 1718797662:0;autoimport prime.py
+: 1718797664:0;ll
+: 1718797666:0;nv prime.py
+: 1718797681:0;nv prime.py
+: 1718797687:0;autoimport prime.py
+: 1718797708:0;autoimport prime.py
+: 1718797714:0;autoimport prime.py
+: 1718797717:0;nv prime.py
+: 1718797761:0;autoimport prime.py
+: 1718797935:0;cd
+: 1718797941:0;pipx install pyflyby
+: 1718797983:0;py
+: 1718797989:0;cali
+: 1718797995:0;exec zsh
+: 1718797997:0;py
+: 1718798011:0;pipx uninstall pyflyby
+: 1718798018:0;yay pyflyby
+: 1718798037:0;yay pyflyby
+: 1718798047:0;pip install pyflyby\
+
+: 1718798055:0;yay python-pyflyby
+: 1718798061:0;yay python-pyfl
+: 1718798135:0;pipx uninstall pyflyby
+: 1718798139:0;pipx install pyflyby
+: 1718798146:0;py
+: 1718798156:0;pipx uninstall pyflyby
+: 1718798205:0;bat prime.py
+: 1718798213:0;nv
+: 1718798393:0;pip install pyflyby\
+
+: 1718798403:0;py
+: 1718798412:0;pip install IPython\
+
+: 1718798425:0;py
+: 1718798464:0;pip install readline
+: 1718798530:0;nv ~/.pyflyby
+: 1718798709:0;c
+: 1718798710:0;ll
+: 1718798747:0;e
+: 1718798749:0;cdp
+: 1718798751:0;cd dsA-
+: 1718798752:0;ll
+: 1718798758:0;tidy-imports prime.py
+: 1718798778:0;nv prime.py
+: 1718798803:0;tidy-imports prime.py
+: 1718798824:0;tidy-imports --black --quiet --replace-star-imports --action projects
+: 1718800904:0;su
+: 1718802422:0;cd
+: 1718802422:0;cd roo
+: 1718802422:0;nv p.txt 
+: 1718802422:0;nvim p.txt 
+: 1718802422:0;exit
+: 1718802355:0;nv
+: 1718802376:0;pipx install autoimport
+: 1718802387:0;autoimport
+: 1718802389:0;nv
+: 1718802405:0;autoimport prime.py
+: 1718802422:0;e
+: 1718802426:0;nv
+: 1718802443:0;autoimport prime.py
+: 1718803518:0;yt "https://www.youtube.com/watch?v=4cYe3d31PrU"
+: 1718804749:0;nv
+: 1718804822:0;sudo pacman -S python-lsp-server
+: 1718804846:0;sudo pacman -S python-rope
+: 1718804852:0;nv
+: 1718804977:0;nv
+: 1718805103:0;cd nvim
+: 1718805104:0;lg
+: 1718805110:0;nv
+: 1718805132:0;nv
+: 1718805171:0;nv
+: 1718805249:0;nv
+: 1718805321:0;yay -Rns python-lsp-server
+: 1718805332:0;hx
+: 1718805338:0;cd
+: 1718805340:0;cd dsa
+: 1718805346:0;hx prime.py
+: 1718805366:0;yay -S python-lsp-server
+: 1718805375:0;hx
+: 1718805378:0;hx prime.py
+: 1718818687:0;sudo downgrade linux
+: 1718818784:0;tt -bold -t 30 -showwpm -oneshot
+: 1718819599:0;nv
+: 1718819669:0;autoimport
+: 1718819672:0;cd
+: 1718819679:0;cd dsa
+: 1718819680:0;ll
+: 1718819686:0;autoimport prime.py
+: 1718819689:0;nv prime.py
+: 1718820014:0;nv
+: 1718820454:0;nv
+: 1718820656:0;ping 8.8.8.8
+: 1718820682:0;nmtui
+: 1718852793:0;nmtu
+: 1718852795:0;nmtuo
+: 1718852798:0;nmtui
+: 1718852935:0;nv
+: 1718861597:0;11ys
+: 1718862159:0;ys
+: 1718862419:0;nv
+: 1718864099:0;ys
+: 1718868842:0;systemctl status --user pipewire.service
+: 1718868851:0;systemctl status --user pipewire-pulse.service
+: 1718869537:0;ping 8.8.8.8
+: 1718876673:0;cd
+: 1718876673:0;cd
+: 1718876675:0;cd dsa
+: 1718876676:0;ll
+: 1718876682:0;pip install mpmath
+: 1718876694:0;nv float.py
+: 1718881592:0;run0
+: 1718881602:0;run0 pacman -S
+: 1718881613:0;run0 --help
+: 1718881628:0;run0 --no-ask-passord
+: 1718881630:0;run0 --no-ask-password
+: 1718881672:0;c
+: 1718881673:0;c
+: 1718881673:0;c
+: 1718881673:0;c
+: 1718881674:0;c
+: 1718881674:0;c
+: 1718885182:0;cd nvim
+: 1718885183:0;nv
+: 1718904030:0;nv
+: 1718904324:0;nv
+: 1718904422:0;nap
+: 1718904681:0;nv
+: 1718904865:0;nv
+: 1718904872:0;nv
+: 1718904895:0;nv
+: 1718904953:0;nv
+: 1718904963:0;nv
+: 1718904968:0;nv
+: 1718905061:0;nv
+: 1718905107:0;nv
+: 1718905135:0;nv
+: 1718905362:0;nv
+: 1718905518:0;nv
+: 1718905543:0;nv
+: 1718905560:0;nv
+: 1718905657:0;nv
+: 1718905684:0;nv
+: 1718905768:0;nv
+: 1718905785:0;nv
+: 1718905967:0;nv
+: 1718906070:0;nv
+: 1718906086:0;nv
+: 1718906116:0;nv
+: 1718906329:0;nv
+: 1718906547:0;nv
+: 1718906575:0;nv
+: 1718906590:0;nv
+: 1718906633:0;nv
+: 1718906655:0;nv
+: 1718906705:0;nv
+: 1718906755:0;nv
+: 1718906845:0;nv
+: 1718906896:0;n
+: 1718906898:0;nv
+: 1718906912:0;nv
+: 1718906920:0;nv
+: 1718906938:0;nv
+: 1718907025:0;c
+: 1718907028:0;e
+: 1718939022:0;wpaperctl next
+: 1718939117:0;nv
+: 1718939308:0;nv
+: 1718939762:0;ys
+: 1718944859:0;e
+: 1718952601:0;cd projects
+: 1718952604:0;nv gum.sh
+: 1718963161:0;nv ~/.config/hypr/keybinds.conf
+: 1718963641:0;rofi
+: 1718964228:0;e
+: 1718964405:0;nv
+: 1718964426:0;nv
+: 1718964455:0;nv
+: 1718964952:0;ll
+: 1718964961:0;cd Downloads
+: 1718964961:0;ll
+: 1718964962:0;cdp
+: 1718964964:0;ping 8.8.8.8
+: 1718969119:0;nv
+: 1718969162:0;nv
+: 1718972164:0;nmtui
+: 1718973534:0;c
+: 1718973535:0;ll
+: 1718973536:0;ll
+: 1718973537:0;ll
+: 1718973538:0;ll
+: 1718973539:0;ll
+: 1718973539:0;ll
+: 1718973540:0;ll
+: 1718973545:0;nv gum.sh
+: 1718973564:0;nv
+: 1718973583:0;bob use stable
+: 1718973589:0;nv
+: 1718973617:0;nv
+: 1718973646:0;nv
+: 1718973651:0;sh gum.sh
+: 1718975133:0;ping 8.8.8.8
+: 1718981510:0;c
+: 1718981510:0;c
+: 1718981510:0;c
+: 1718981510:0;c
+: 1718981511:0;c
+: 1718981511:0;c
+: 1718981511:0;c
+: 1718981512:0;c
+: 1718984926:0;c
+: 1718984926:0;c
+: 1718984926:0;c
+: 1718984927:0;f
+: 1718984927:0;f
+: 1718984928:0;f
+: 1718984928:0;f
+: 1718984928:0;f
+: 1718984929:0;f
+: 1718984929:0;f
+: 1718984932:0;f
+: 1718984933:0;f
+: 1718984933:0;f
+: 1718984933:0;f
+: 1718984935:0;v
+: 1718986473:0;ping 8.8.8.8
+: 1718991256:0;nv
+: 1718991290:0;nv
+: 1718991370:0;nv
+: 1718991583:0;nv
+: 1718992077:0;nv
+: 1718992126:0;nv
+: 1718992150:0;nv
+: 1718992294:0;ll
+: 1718992296:0;cd dsa
+: 1718992297:0;ll
+: 1718992302:0;pip install autoimport
+: 1718992307:0;nv prime.py
+: 1718992347:0;nv
+: 1718992369:0;nv
+: 1718992407:0;pip uninstall autoimport
+: 1718992417:0;nv
+: 1718992430:0;nv
+: 1718992453:0;cd dsa
+: 1718992454:0;ll
+: 1718992455:0;nv
+: 1718992480:0;cd[]
+: 1718992481:0;cdp
+: 1718992482:0;nv
+: 1718992564:0;cd dsa
+: 1718992566:0;nv
+: 1718992839:0;nv
+: 1718992857:0;cdp
+: 1718992859:0;nv dsA-
+: 1718992864:0;nv
+: 1718992888:0;pip uninstall pandas
+: 1718992894:0;pip uninstall numpy
+: 1718992898:0;e
+: 1718992902:0;nv
+: 1718993013:0;nv
+: 1718993121:0;nv
+: 1718993195:0;nv
+: 1718993205:0;cd
+: 1718993206:0;ll
+: 1718993211:0;cd .virtualenvs
+: 1718993211:0;nv
+: 1718993237:0;nv
+: 1718993280:0;nv
+: 1718993429:0;pip install numpy
+: 1718993494:0;nv
+: 1718993601:0;ll
+: 1718993602:0;cd
+: 1718993602:0;nv
+: 1718993682:0;nv
+: 1718993689:0;cd
+: 1718993690:0;nv
+: 1718993703:0;nv
+: 1718993712:0;nv
+: 1718993715:0;nv
+: 1718993794:0;nv
+: 1718994175:0;nv
+: 1718994234:0;cd .local/share/nvim/lazy/swenv.nvim
+: 1718994235:0;nv
+: 1718994388:0;nv
+: 1718994407:0;c
+: 1718994427:0;cd
+: 1718994427:0;c
+: 1718994428:0;py
+: 1718994434:0;pipx install autoimport
+: 1718994442:0;autoimport
+: 1718994444:0;nv
+: 1718994448:0;cd dsa
+: 1718994449:0;ll
+: 1718994451:0;nv prime.py
+: 1718994472:0;autoimport prime.py
+: 1718994473:0;nv
+: 1718994520:0;pipx uninstall autoimport
+: 1718994522:0;nv
+: 1718994567:0;pip uninstall numpy
+: 1718994574:0;nv
+: 1718994609:0;pip install numpy
+: 1718994622:0;nv
+: 1718994633:0;pip install autoimport
+: 1718994640:0;autoimport prime.py
+: 1718994652:0;autoimport prime.py
+: 1718994663:0;cd ds
+: 1718994664:0;ll
+: 1718994665:0;autoimport prime.py
+: 1718994670:0;nv prime.py
+: 1718994679:0;autoimport --help
+: 1718994699:0;autoimport float.py
+: 1718994709:0;autoimport float.py
+: 1718994731:0;autoimport prime.py
+: 1718994833:0;nv ~/.config/autoimport/config.toml
+: 1718994923:0;nv ~/.config/autoimport/config.toml
+: 1718995021:0;nv ~/.config/autoimport/config.toml
+: 1718995134:0;nv
+: 1718995256:0;nv
+: 1718995285:0;clear
+: 1718995286:0;e
+: 1718995321:0;nv
+: 1718995325:0;nv ~/.config/autoimport/config.toml
+: 1718995351:0;e
+: 1719027303:0;nv
+: 1719027540:0;nv
+: 1719027557:0;nv
+: 1719027596:0;nv
+: 1719027598:0;nv
+: 1719027616:0;nv
+: 1719027650:0;nv
+: 1719027694:0;nv
+: 1719027705:0;nv
+: 1719027714:0;nv
+: 1719027741:0;nv
+: 1719027854:0;nv
+: 1719027962:0;ys
+: 1719028034:0;nv
+: 1719028037:0;cdp
+: 1719028037:0;cd
+: 1719028040:0;cd pyth
+: 1719028041:0;ll
+: 1719028046:0;cd ML-fastapi
+: 1719028047:0;ll
+: 1719028050:0;rmvenv
+: 1719028052:0;mkvenv
+: 1719028185:0;nv
+: 1719028286:0;cdp
+: 1719028286:0;ll
+: 1719028290:0;cd numpy
+: 1719028292:0;ll
+: 1719028296:0;rmvenv
+: 1719028298:0;mkvenv
+: 1719028301:0;nv
+: 1719028392:0;pipx install autoimport
+: 1719028398:0;nv
+: 1719028419:0;pip install -r requirements.txt
+: 1719028434:0;nv
+: 1719029619:0;nv
+: 1719029747:0;nv
+: 1719029920:0;nv
+: 1719029961:0;nv
+: 1719029964:0;nv
+: 1719030052:0;nv
+: 1719030067:0;e
+: 1719030078:0;cd projects
+: 1719030079:0;ll
+: 1719030097:0;nv catppuccin-themes
+: 1719030106:0;cd catppuccin-themes
+: 1719030107:0;ll
+: 1719030170:0;cp ~/.local/share/nvim/lazy/catppuccin/lua/catppuccin/palettes/mocha.lua .
+: 1719030171:0;ll
+: 1719030172:0;nv mocha.lua
+: 1719030205:0;nv
+: 1719030241:0;nv mocha.lua
+: 1719030258:0;nv
+: 1719030285:0;nv
+: 1719030298:0;nv
+: 1719030502:0;nv
+: 1719030554:0;nv
+: 1719030650:0;nv
+: 1719030692:0;nv
+: 1719030726:0;pip install numpy
+: 1719030736:0;nv
+: 1719030780:0;nv ~/.config/autoimport/config.toml
+: 1719030815:0;nv
+: 1719030932:0;cdp
+: 1719030935:0;cd PYTHON-ML
+: 1719030942:0;cd Learning-machine-learning
+: 1719030953:0;nv src/linear-regression.py
+: 1719030986:0;e
+: 1719033270:0;nv
+: 1719033278:0;cdp
+: 1719033280:0;nv
+: 1719033287:0;cd Learning-machine-learning
+: 1719033293:0;nv src/linear-regression.py
+: 1719033612:0;nv
+: 1719033703:0;nv
+: 1719033708:0;nv
+: 1719033730:0;nv
+: 1719033775:0;nv
+: 1719033833:0;nc
+: 1719033834:0;nv
+: 1719033873:0;nc
+: 1719033874:0;nv
+: 1719033985:0;cd
+: 1719034122:0;c
+: 1719034126:0;cd
+: 1719034729:0;cmake --help
+: 1719034810:0;c
+: 1719034813:0;cd random2
+: 1719034814:0;ll
+: 1719034818:0;nv src/main.cpp
+: 1719035332:0;ll
+: 1719035337:0;make builddeps
+: 1719035339:0;ll
+: 1719035344:0;make build
+: 1719035348:0;make compiles
+: 1719035349:0;make compile
+: 1719036904:0;nv Makefile
+: 1719040921:0;cargo --help
+: 1719043075:0;nv
+: 1719052702:0;nv ~/.config/kwalletrc
+: 1719055347:0;nv
+: 1719055353:0;cd hypr
+: 1719055356:0;nv keybinds.conf
+: 1719056524:0;duf
+: 1719057359:0;nv
+: 1719057592:0;nv
+: 1719057628:0;nv
+: 1719057676:0;nv
+: 1719057746:0;nv
+: 1719057817:0;nv
+: 1719057831:0;nv
+: 1719057977:0;nv
+: 1719057984:0;nv
+: 1719058009:0;nv
+: 1719058061:0;nv
+: 1719058121:0;nv
+: 1719059720:0;nv
+: 1719059775:0;nv
+: 1719059866:0;nv
+: 1719059908:0;nv
+: 1719060786:0;cd nvim
+: 1719060787:0;lg
+: 1719060797:0;git rebase main dev
+: 1719060801:0;lg
+: 1719060813:0;git rebase --abort
+: 1719060814:0;lg
+: 1719060821:0;git rebase dev
+: 1719060824:0;lg
+: 1719060854:0;nv
+: 1719060869:0;lvim
+: 1719060872:0;nro
+: 1719060888:0;nv
+: 1719060893:0;lg
+: 1719060957:0;git push --force
+: 1719060965:0;lg
+: 1719060977:0;nv
+: 1719061078:0;nv
+: 1719061113:0;nv
+: 1719061175:0;nv
+: 1719061975:0;nv
+: 1719061981:0;nv
+: 1719061997:0;nv
+: 1719062040:0;nv
+: 1719062067:0;nv
+: 1719062136:0;nv
+: 1719062154:0;nv
+: 1719062177:0;nv
+: 1719062236:0;nv
+: 1719062243:0;nv
+: 1719062339:0;n
+: 1719062341:0;nv
+: 1719062344:0;nv
+: 1719062372:0;lg
+: 1719062403:0;lg
+: 1719062475:0;cd dsa
+: 1719062476:0;ll
+: 1719062479:0;cd gfg
+: 1719062486:0;cp extract-number-from-string.py extract-number-from-string.cpp
+: 1719062488:0;nv extract-number-from-string.
+: 1719062493:0;nv extract-number-from-string.cpp
+: 1719062682:0;ll
+: 1719062710:0;cd
+: 1719062711:0;nv
+: 1719068555:0;nv
+: 1719068589:0;nv
+: 1719072155:0;x(xwâƒ¨ƒ²y+b)
+: 1719072344:0;nv
+: 1719074407:0;nv
+: 1719076685:0;nv
+: 1719076914:0;nv
+: 1719077615:0;nv
+: 1719077687:0;nv
+: 1719078126:0;luacheck
+: 1719078133:0;luacheck init.lua
+: 1719078489:0;nv
+: 1719078557:0;nv
+: 1719078661:0;nv
+: 1719078749:0;nv
+: 1719078783:0;luacheck --globals vim - init.lua
+: 1719078788:0;luacheck --globals vim init.lua
+: 1719078795:0;luacheck --globals init.lua
+: 1719078804:0;luacheck init.lua
+: 1719078812:0;luacheck ftplugin/python.lua
+: 1719078826:0;luacheck ftplugin/python.lua --globals vim
+: 1719078860:0;nv
+: 1719078923:0;touch ~/.luacheckrc
+: 1719078926:0;nv ~/.luacheckrc
+: 1719078957:0;nv
+: 1719079157:0;nv
+: 1719079186:0;nvim ~/.config/autoimport/config.toml
+: 1719111204:0;cd ds
+: 1719111206:0;cdp
+: 1719111210:0;cd dsa-in-java
+: 1719111215:0;astyle AllPairShortestPath.java
+: 1719111362:0;ll
+: 1719111386:0;cd ~/.local/share/nvim/lazy/conform.nvim
+: 1719111389:0;ll
+: 1719111393:0;cd lua/conform
+: 1719111393:0;ll
+: 1719111395:0;cd formatters
+: 1719111396:0;ll
+: 1719111405:0;ll | head
+: 1719111414:0;nv astyle.lua
+: 1719111504:0;cd dsa
+: 1719111504:0;ll
+: 1719111511:0;autoimport --help
+: 1719111529:0;autoimport --ignore-init-modules prime.py
+: 1719111541:0;autoimport --ignore-init-modules - prime.py
+: 1719111553:0;autoimport --ignore-init-modules prime.py
+: 1719111656:0;nv
+: 1719111689:0;nv
+: 1719111722:0;nv
+: 1719113133:0;nb
+: 1719113134:0;nv
+: 1719113147:0;ll
+: 1719113152:0;cdp
+: 1719113153:0;cdp
+: 1719113154:0;cdp
+: 1719113155:0;cdp
+: 1719113155:0;nv
+: 1719113174:0;nv
+: 1719113288:0;nv
+: 1719113779:0;nv
+: 1719113814:0;c
+: 1719123207:0;c
+: 1719123208:0;c
+: 1719123208:0;c
+: 1719123243:0;ys
+: 1719123295:0;nv
+: 1719123307:0;vs /etc/pacman.conf
+: 1719123315:0;ys
+: 1719126889:0;nv
+: 1719126909:0;nv
+: 1719137295:0;cd pyt
+: 1719137295:0;ll
+: 1719137321:0;cd
+: 1719137321:0;cd
+: 1719137324:0;cd
+: 1719137324:0;cd
+: 1719137327:0;cd pyt
+: 1719137328:0;ll
+: 1719137378:0;pip install -r requirements.txt
+: 1719137489:0;mkdir duf
+: 1719137492:0;rm duf
+: 1719137494:0;ll
+: 1719137496:0;duf
+: 1719137507:0;cd
+: 1719137509:0;ncdu
+: 1719138010:0;ncdu
+: 1719138426:0;rm -rf ~/.cache/*
+: 1719138427:0;ll
+: 1719138432:0;trash-empty
+: 1719138443:0;nv
+: 1719138447:0;ncdu
+: 1719138459:0;ncdu
+: 1719138462:0;duf
+: 1719138477:0;c
+: 1719155938:0;nv
+: 1719155955:0;ys
+: 1719156045:0;gh repo clone lyz-code/autoimport
+: 1719156059:0;wpaperctl next
+: 1719156061:0;nv
+: 1719156066:0;cd autoimport
+: 1719156066:0;ll
+: 1719156068:0;nv
+: 1719156108:0;ll
+: 1719156114:0;pip install -r requirements.txt
+: 1719156120:0;ll
+: 1719156122:0;nv
+: 1719156163:0;yay pdm
+: 1719156190:0;make install
+: 1719156341:0;nv
+: 1719156519:0;ll
+: 1719156524:0;make all
+: 1719156549:0;make release
+: 1719156574:0;make build-package
+: 1719156588:0;ll
+: 1719156592:0;cd dist
+: 1719156593:0;ll
+: 1719156600:0;cdp
+: 1719156601:0;ll
+: 1719156606:0;nv
+: 1719156868:0;cd python
+: 1719156869:0;ll
+: 1719156877:0;mkdir my-project && cd my-project
+: 1719156882:0;pdm init
+: 1719156926:0;ll
+: 1719156928:0;nv pyproject.toml
+: 1719156969:0;pdm add numpy
+: 1719156993:0;nv pyproject.toml
+: 1719157099:0;ll
+: 1719157103:0;nv README.md
+: 1719157195:0;vz
+: 1719157196:0;cz
+: 1719157202:0;pdm completion zsh > ~/.zfunc/_pdm
+: 1719157212:0;cz
+: 1719157307:0;pdm completion zsh > ~/.local/share/zsh/_pdm
+: 1719157325:0;exec zsh
+: 1719157335:0;pdm build
+: 1719157348:0;pdm config
+: 1719157361:0;pdm venv
+: 1719159759:0;cdp
+: 1719159760:0;ll
+: 1719159764:0;cd autoimport
+: 1719159764:0;ll
+: 1719159767:0;nv .venv
+: 1719159775:0;nv
+: 1719159790:0;nv
+: 1719159807:0;cdpnv pyproject.toml
+: 1719159809:0;nv pyproject.toml
+: 1719159840:0;cdp
+: 1719159841:0;cdp
+: 1719159849:0;cd Web-dev
+: 1719159851:0;ll
+: 1719159854:0;cd IP
+: 1719159855:0;ll
+: 1719159860:0;biome ds.js
+: 1719159864:0;biome --help ds.js
+: 1719159878:0;biome format ds.js
+: 1719159894:0;nv ds.js
+: 1719159907:0;biome format ds.js
+: 1719159918:0;biome --help
+: 1719159932:0;biome lint ds.js
+: 1719159955:0;prettier ds.js
+: 1719159967:0;cdp
+: 1719159968:0;ll
+: 1719159970:0;cdp
+: 1719159971:0;ll
+: 1719159974:0;cd PYTHON-ML
+: 1719159974:0;ll
+: 1719159976:0;cd my-project
+: 1719159977:0;ll
+: 1719159980:0;cdp
+: 1719159988:0;cd my-project
+: 1719159990:0;rmvenv
+: 1719159993:0;cdp
+: 1719159997:0;rm -rf my-project
+: 1719160019:0;mkdir autoimport-python && cd autoimport-python
+: 1719160023:0;pdm init
+: 1719160230:0;ll
+: 1719160237:0;nv src/autoimport_python/__init__.py
+: 1719160508:0;pdm build
+: 1719160514:0;ll
+: 1719160518:0;cd dist
+: 1719160519:0;ll
+: 1719160523:0;cdp
+: 1719160523:0;ll
+: 1719160705:0;ll
+: 1719160736:0;python -m autoimport_python
+: 1719160744:0;pdm install
+: 1719160747:0;python -m autoimport_python
+: 1719163110:0;nv
+: 1719163143:0;ll
+: 1719163148:0;cdp
+: 1719163150:0;cd autoimport
+: 1719163154:0;cdp
+: 1719163160:0;cd autoimport-python
+: 1719163161:0;ll
+: 1719163163:0;nv
+: 1719163170:0;ll
+: 1719163171:0;cdp
+: 1719163172:0;nv
+: 1719163193:0;ll
+: 1719163196:0;cd autoimport-python
+: 1719163197:0;ll
+: 1719163207:0;rm -rf .venv
+: 1719163208:0;ll
+: 1719163209:0;cdp
+: 1719163213:0;cd autoimport-python
+: 1719163214:0;ll
+: 1719163216:0;mkvenv
+: 1719163222:0;pdm
+: 1719163226:0;pdm install
+: 1719163235:0;python -m autoimport_python
+: 1719163238:0;nv
+: 1719163352:0;ll
+: 1719163656:0;ll
+: 1719163658:0;nv
+: 1719163671:0;cdp
+: 1719163675:0;nv
+: 1719163731:0;cd
+: 1719163732:0;c
+: 1719163733:0;nv
+: 1719163767:0;cd
+: 1719163768:0;nv
+: 1719163781:0;cd
+: 1719163785:0;cd py
+: 1719163806:0;cd autoimport
+: 1719163808:0;cdo
+: 1719163811:0;cdp
+: 1719163812:0;ll
+: 1719163823:0;rm -rf autoimport-python/*
+: 1719163826:0;cd autoimport-python
+: 1719163828:0;ll
+: 1719163837:0;cdp
+: 1719163841:0;rm -rf autoimport
+: 1719163843:0;ll
+: 1719163846:0;gh repo clone lyz-code/autoimport
+: 1719163885:0;mkdir fix-imports
+: 1719163887:0;cd fix-imports
+: 1719163888:0;ll
+: 1719163892:0;pdm init
+: 1719163964:0;ll
+: 1719163971:0;nv src/fix_imports/__init__.py
+: 1719164060:0;cdp
+: 1719164062:0;cdp
+: 1719164068:0;gh repo clone Rishabh672003/fix-imports
+: 1719164091:0;mv fix-imports/.git fix-imports/LICENSE ~/projects/PYTHON-ML/fix-imports
+: 1719164098:0;rm -rf fix-imports
+: 1719164106:0;cd PYTHON-ML/fix-imports
+: 1719164107:0;ll
+: 1719164110:0;lg
+: 1719164127:0;cdp
+: 1719164129:0;nv
+: 1719164165:0;ll
+: 1719164252:0;pdm add click
+: 1719164280:0;nv
+: 1719164636:0;ll
+: 1719164712:0;python src/fix_imports/cli/__init__.py
+: 1719164718:0;python src/fix_imports/cli/__init__.py a
+: 1719164857:0;nv
+: 1719164859:0;cz
+: 1719164890:0;exec zsh
+: 1719164906:0;e
+: 1719164908:0;ll
+: 1719164949:0;ls
+: 1719164993:0;pdm add ./src/fix_imports/cli
+: 1719165009:0;nv
+: 1719165121:0;ll
+: 1719165342:0;pdm build
+: 1719165349:0;pdm install
+: 1719165363:0;python -m autoimport_python 12
+: 1719165374:0;python -m fix-imports
+: 1719165396:0;python -m fix_imports
+: 1719165399:0;python -m fix_imports 1212
+: 1719165414:0;pipx install .
+: 1719165435:0;fix-imports
+: 1719165503:0;pdm install
+: 1719165512:0;python -m fix_imports 1212
+: 1719165529:0;python -m fix_imports ~/projects/PYTHON-ML
+: 1719165772:0;c
+: 1719165774:0;e
+: 1719165822:0;pdm install
+: 1719165827:0;python -m fix_imports ~/projects/PYTHON-ML
+: 1719165833:0;python -m fix_imports ~/projects/PYTHON-ML/autoimport
+: 1719166395:0;ll
+: 1719166399:0;cd fix-imports
+: 1719166400:0;ll
+: 1719166521:0;nv
+: 1719166585:0;cd auto
+: 1719166586:0;ll
+: 1719166588:0;cd[]
+: 1719166591:0;cdp
+: 1719166595:0;rm -rf autoimport-python
+: 1719166599:0;cd autoimport
+: 1719166602:0;nv
+: 1719166663:0;nv
+: 1719166761:0;nv
+: 1719166789:0;pipx install .
+: 1719166804:0;fix-imports ~/
+: 1719166854:0;nv
+: 1719167050:0;pdm install
+: 1719167055:0;ll
+: 1719167062:0;python -m fix_imports ~/projects/PYTHON-ML/autoimport
+: 1719167066:0;pipx install .
+: 1719167079:0;pipx install . --force
+: 1719167108:0;fix-imports ~/
+: 1719167371:0;pdm install
+: 1719167379:0;python -m fix_imports ~/projects/PYTHON-ML/autoimport
+: 1719167382:0;pipx install . --force
+: 1719167393:0;fix-imports ~/
+: 1719167434:0;pipx install . --force
+: 1719167445:0;fix-imports ~/
+: 1719167463:0;lg
+: 1719167573:0;pdm install
+: 1719167582:0;cd
+: 1719167583:0;cd cpp
+: 1719167584:0;ll
+: 1719167598:0;cp .jaq.json ~/projects/PYTHON-ML/fix-imports
+: 1719167623:0;nv
+: 1719167639:0;pdm install
+: 1719167651:0;nv .jaq.json
+: 1719167662:0;nv
+: 1719167743:0;ll
+: 1719167745:0;cd
+: 1719167748:0;e
+: 1719167755:0;cdp
+: 1719167756:0;cdp
+: 1719167758:0;cd cpp
+: 1719167759:0;ll
+: 1719167760:0;cdp
+: 1719167761:0;cdp
+: 1719167764:0;cd CPP
+: 1719167768:0;cd CPP-cmake-reference
+: 1719167774:0;nv Makefile
+: 1719167795:0;pdm update
+: 1719167803:0;pdm sync
+: 1719167876:0;make build
+: 1719167898:0;make install
+: 1719167905:0;make run
+: 1719167917:0;python -m fix_imports ~/projects/PYTHON-ML/autoimport
+: 1719167929:0;make run
+: 1719167996:0;nv
+: 1719168018:0;ll
+: 1719168030:0;cp .jaq.json src/fix_imports
+: 1719168034:0;nv
+: 1719168051:0;nv
+: 1719168128:0;cdpp
+: 1719168130:0;cd PYTHON-ML
+: 1719168131:0;ll
+: 1719168135:0;nv test.py
+: 1719168161:0;pwd
+: 1719168318:0;ll
+: 1719168318:0;lg
+: 1719168410:0;nv
+: 1719168416:0;pipx install . --force
+: 1719168427:0;fix-imports ~/
+: 1719195760:0;cd PYTHON-ML
+: 1719195763:0;cd fix-imports
+: 1719195764:0;ll
+: 1719195797:0;make
+: 1719195806:0;make run
+: 1719195809:0;nv
+: 1719195825:0;nv
+: 1719197156:0;vn
+: 1719197157:0;nv
+: 1719197184:0;pdm install
+: 1719197194:0;make run
+: 1719197237:0;pdm install
+: 1719197242:0;make run
+: 1719197275:0;pipx install . --force
+: 1719197297:0;fix-imports ~/
+: 1719197315:0;pipx install . --force
+: 1719197325:0;fix-imports ~/
+: 1719198983:0;pdm install
+: 1719198989:0;make run
+: 1719199016:0;pipx install . --force
+: 1719199028:0;fix-imports ~/
+: 1719199044:0;fix-imports /home/rishabh/projects/PYTHON-ML/test.py
+: 1719199070:0;fix-imports /home/rishabh/projects/PYTHON-ML/test.py
+: 1719199077:0;make
+: 1719199083:0;make run
+: 1719199119:0;make
+: 1719199124:0;make run
+: 1719199253:0;make
+: 1719199257:0;make run
+: 1719199276:0;make
+: 1719199281:0;make run
+: 1719199306:0;make
+: 1719199311:0;make run
+: 1719199347:0;nv
+: 1719199694:0;nv
+: 1719199725:0;make
+: 1719199731:0;make run
+: 1719199780:0;make
+: 1719199786:0;make run
+: 1719199812:0;cd src/fix_imports
+: 1719199813:0;ll
+: 1719199815:0;cd commandline
+: 1719199816:0;ll
+: 1719199821:0;python cli.py cli.py
+: 1719200034:0;make
+: 1719200037:0;cdpp
+: 1719200038:0;ll
+: 1719200039:0;cdp
+: 1719200040:0;make
+: 1719200049:0;make run
+: 1719200058:0;pipx install . --force
+: 1719200071:0;fix-imports /home/rishabh/projects/PYTHON-ML/test.py
+: 1719200118:0;pipx install . --force
+: 1719200148:0;make
+: 1719200154:0;make run
+: 1719200176:0;make
+: 1719200180:0;make run
+: 1719201071:0;nv
+: 1719201165:0;make
+: 1719201171:0;make run
+: 1719201182:0;make
+: 1719201186:0;make run
+: 1719201206:0;make run
+: 1719203122:0;ll
+: 1719203129:0;cp .jaq.json src/fix_imports/commandline
+: 1719203141:0;nv
+: 1719203171:0;make
+: 1719203174:0;make run
+: 1719203185:0;python -m fix_imports ~/projects/PYTHON-ML/autoimport
+: 1719203212:0;make
+: 1719203217:0;python -m fix_imports ~/projects/PYTHON-ML/autoimport
+: 1719203257:0;make
+: 1719203261:0;python -m fix_imports ~/projects/PYTHON-ML/autoimport
+: 1719203269:0;python -m fix_imports ~/projects/PYTHON-ML/test.py
+: 1719203287:0;pdm add pyflake
+: 1719203305:0;pdm add pyflakes
+: 1719203487:0;ncdu
+: 1719203927:0;nv
+: 1719204083:0;make
+: 1719204090:0;make run
+: 1719204112:0;make run
+: 1719204155:0;make
+: 1719204160:0;make run
+: 1719204168:0;make
+: 1719204172:0;make run
+: 1719204198:0;make
+: 1719204203:0;make run
+: 1719204217:0;python -m fix_imports ~/projects/PYTHON-ML/test.py
+: 1719204243:0;make run
+: 1719204246:0;make
+: 1719204252:0;python -m fix_imports ~/projects/PYTHON-ML/test.py
+: 1719204290:0;make
+: 1719204294:0;python -m fix_imports ~/projects/PYTHON-ML/test.py
+: 1719204572:0;make
+: 1719204577:0;python -m fix_imports ~/projects/PYTHON-ML/test.py
+: 1719204636:0;make
+: 1719204641:0;python -m fix_imports ~/projects/PYTHON-ML/test.py
+: 1719204677:0;make
+: 1719204681:0;python -m fix_imports ~/projects/PYTHON-ML/test.py
+: 1719205787:0;nv
+: 1719206605:0;make
+: 1719206612:0;python -m fix_imports ~/projects/PYTHON-ML/test.py
+: 1719206656:0;make
+: 1719206660:0;python -m fix_imports ~/projects/PYTHON-ML/test.py
+: 1719206721:0;make
+: 1719206725:0;python -m fix_imports ~/projects/PYTHON-ML/test.py
+: 1719206737:0;make
+: 1719206742:0;python -m fix_imports ~/projects/PYTHON-ML/test.py
+: 1719206886:0;make
+: 1719206891:0;python -m fix_imports ~/projects/PYTHON-ML/test.py
+: 1719206916:0;python -m fix_imports ~/projects/PYTHON-ML/test.py
+: 1719207001:0;make
+: 1719207006:0;python -m fix_imports ~/projects/PYTHON-ML/test.py
+: 1719207054:0;make
+: 1719207058:0;python -m fix_imports ~/projects/PYTHON-ML/test.py
+: 1719207068:0;python -m fix_imports ~/projects/PYTHON-ML/test.py
+: 1719207075:0;python -m fix_imports ~/projects/PYTHON-ML/test.py
+: 1719207093:0;nv
+: 1719207124:0;make
+: 1719207129:0;python -m fix_imports ~/projects/PYTHON-ML/test.py
+: 1719207170:0;make
+: 1719207175:0;python -m fix_imports ~/projects/PYTHON-ML/test.py
+: 1719207318:0;make
+: 1719207323:0;python -m fix_imports ~/projects/PYTHON-ML/test.py
+: 1719207408:0;pipx install . --force
+: 1719207423:0;fix-imports /home/rishabh/projects/PYTHON-ML/test.py
+: 1719207582:0;python -m fix_imports ~/projects/PYTHON-ML/test.py
+: 1719207588:0;fix-imports /home/rishabh/projects/PYTHON-ML/test.py
+: 1719207640:0;fix-imports /home/rishabh/projects/PYTHON-ML/test.py
+: 1719207889:0;nv
+: 1719208074:0;fix-imports /home/rishabh/projects/PYTHON-ML/test.py
+: 1719208138:0;make
+: 1719208144:0;fix-imports /home/rishabh/projects/PYTHON-ML/test.py
+: 1719208154:0;nv
+: 1719208231:0;make
+: 1719208236:0;make run
+: 1719208260:0;cd projects/PYTHON-ML
+: 1719208260:0;ll
+: 1719208271:0;cd numpy
+: 1719208272:0;ll
+: 1719208275:0;nv requirements.txt
+: 1719208279:0;cdp
+: 1719208288:0;mv test.py numpy
+: 1719208288:0;ll
+: 1719208293:0;cd numpy
+: 1719208294:0;ll
+: 1719208297:0;nv test.py
+: 1719208304:0;ll
+: 1719208311:0;pip install -r requirements.txt
+: 1719208355:0;make run
+: 1719208380:0;pip install numpy
+: 1719208427:0;pip install pandas
+: 1719208437:0;ll
+: 1719210538:0;nv
+: 1719212610:0;lsusb
+: 1719212663:0;yay thinkfinger
+: 1719213080:0;nv
+: 1719213219:0;fix-imports /home/rishabh/projects/PYTHON-ML/test.py
+: 1719213333:0;make
+: 1719213337:0;cd fix
+: 1719213337:0;ll
+: 1719213338:0;make
+: 1719213346:0;make run
+: 1719213353:0;make run
+: 1719213359:0;make run
+: 1719213387:0;make
+: 1719213392:0;make run
+: 1719213402:0;make run
+: 1719213404:0;make
+: 1719213408:0;make run
+: 1719213436:0;make
+: 1719213440:0;make run
+: 1719213644:0;cd
+: 1719213651:0;cd projects/DSA-prep
+: 1719213652:0;ll
+: 1719213664:0;nv importlib-test.py
+: 1719213930:0;make
+: 1719213936:0;make run
+: 1719214062:0;make
+: 1719214071:0;make
+: 1719214078:0;make run
+: 1719214108:0;pipx install . --force
+: 1719214158:0;fix-imports importlib-test.py
+: 1719214170:0;pip install pandas
+: 1719214174:0;pip install pandas
+: 1719214177:0;fix-imports importlib-test.py
+: 1719214220:0;pipx install . --force
+: 1719214234:0;fix-imports importlib-test.py
+: 1719214246:0;fix-imports importlib-test.py
+: 1719214268:0;cdp
+: 1719214280:0;fix-imports DSA-prep/importlib-test.py
+: 1719214285:0;nv
+: 1719214291:0;fix-imports DSA-prep/importlib-test.py
+: 1719214366:0;pdm add importlib
+: 1719214408:0;fix-imports src/fix_imports/package.py
+: 1719214560:0;make
+: 1719214566:0;make run
+: 1719215819:0;cd dsa
+: 1719215820:0;ll
+: 1719215824:0;nv named-tuple.py
+: 1719218248:0;make
+: 1719218254:0;make run
+: 1719221304:0;nv
+: 1719225225:0;cd pyth
+: 1719225232:0;cd numpy
+: 1719225234:0;nv test.py
+: 1719225253:0;fix-imports test.py
+: 1719225349:0;make
+: 1719225372:0;pipx install . --force
+: 1719225400:0;fix-imports src/fix_imports/package.py
+: 1719225409:0;fix-imports src/fix_imports/package.py
+: 1719226902:0;python import-fixeer.py ~/projects/PYTHON-ML/numpy/test.py
+: 1719226929:0;nv ~/projects/PYTHON-ML/numpy/test.py
+: 1719227377:0;cdp
+: 1719227379:0;cd PYTHON-ML
+: 1719227381:0;cd numpy
+: 1719227383:0;ll
+: 1719227389:0;pip install autoimport
+: 1719227429:0;cdp
+: 1719227434:0;cd PYTHON-ML/numpy
+: 1719227441:0;nv test.py
+: 1719228357:0;nv
+: 1719228440:0;make
+: 1719228446:0;make run
+: 1719228504:0;make
+: 1719228509:0;make run
+: 1719228539:0;make
+: 1719228544:0;make run
+: 1719228616:0;make
+: 1719228621:0;make run
+: 1719228672:0;make
+: 1719228677:0;make run
+: 1719228699:0;make
+: 1719228703:0;make run
+: 1719228710:0;e
+: 1719228736:0;nv test.py
+: 1719228752:0;make
+: 1719228758:0;make run
+: 1719229216:0;make
+: 1719229221:0;make run
+: 1719229305:0;make
+: 1719229309:0;make run
+: 1719229357:0;make
+: 1719229362:0;make run
+: 1719229378:0;pdm add numpy
+: 1719229389:0;make
+: 1719229394:0;make run
+: 1719229452:0;nv
+: 1719229477:0;pipx install . --force
+: 1719229526:0;duf
+: 1719229549:0;pipx uninstall fix-imports
+: 1719229553:0;pipx install .
+: 1719229627:0;cd fix
+: 1719229627:0;ll
+: 1719229629:0;lg
+: 1719229633:0;pipx install .
+: 1719229658:0;cd
+: 1719229677:0;fix-imports ~/projects/PYTHON-ML/numpy/autofix.py
+: 1719229687:0;fix-imports ~/projects/PYTHON-ML/numpy/test.py
+: 1719229694:0;nv
+: 1719229795:0;make
+: 1719229802:0;pdm sync
+: 1719229807:0;make
+: 1719229813:0;make run
+: 1719229926:0;make
+: 1719229932:0;pdm list
+: 1719229944:0;pdm --help
+: 1719229957:0;pdm remove numpy
+: 1719229966:0;pdm remove numpy
+: 1719229982:0;pdm install
+: 1719230081:0;e
+: 1719230085:0;nv
+: 1719230394:0;pdm list
+: 1719230409:0;make run
+: 1719230415:0;cdp
+: 1719230417:0;cdp
+: 1719230419:0;e
+: 1719230430:0;fix-imports test.py
+: 1719230440:0;pip install numpy
+: 1719230443:0;fix-imports test.py
+: 1719239729:0;nv
+: 1719240115:0;cd nvim
+: 1719240116:0;ll
+: 1719240116:0;lg
+: 1719240119:0;nv
+: 1719240161:0;nv
+: 1719240198:0;nv
+: 1719240613:0;nv
+: 1719240620:0;nv
+: 1719240692:0;ll
+: 1719240692:0;nv
+: 1719240761:0;nv
+: 1719242271:0;autoimport test.py
+: 1719242283:0;pip uninstall numpy
+: 1719242291:0;nv
+: 1719242299:0;autoimport test.py
+: 1719242321:0;autoimport test.py
+: 1719242341:0;autoimport test.py
+: 1719242352:0;pip install pandas
+: 1719242369:0;autoimport test.py
+: 1719242383:0;yay python-panda
+: 1719242399:0;autoimport test.py
+: 1719242410:0;pip install pandas
+: 1719242451:0;nvim ~/.config/autoimport/config.toml
+: 1719242458:0;nv
+: 1719242477:0;autoimport test.py
+: 1719242492:0;pip install numpy
+: 1719242526:0;autoimport test.py
+: 1719242541:0;autoimport test.py
+: 1719242774:0;make
+: 1719242778:0;cd fix
+: 1719242780:0;make
+: 1719242784:0;make run
+: 1719242820:0;make
+: 1719242823:0;make run
+: 1719242935:0;ll
+: 1719242937:0;cd src/fix_imports
+: 1719242938:0;ll
+: 1719242945:0;touch typing.py
+: 1719242948:0;nv typing.py
+: 1719243123:0;make
+: 1719243135:0;cdpp
+: 1719243136:0;make
+: 1719243140:0;make run
+: 1719243213:0;make run
+: 1719243215:0;make
+: 1719243218:0;make run
+: 1719243353:0;make
+: 1719243356:0;make run
+: 1719243396:0;make run
+: 1719243671:0;nv
+: 1719243766:0;x
+: 1719243767:0;ll
+: 1719243774:0;nv
+: 1719243790:0;fix-imports test.py
+: 1719243819:0;pipx install .
+: 1719243826:0;pipx install . --force
+: 1719243834:0;cd fix
+: 1719243835:0;pipx install . --force
+: 1719243913:0;cd
+: 1719243915:0;cd nvim
+: 1719243916:0;cdp
+: 1719243917:0;cd
+: 1719243919:0;cd .local/share/nvim/lazy/swenv.nvim
+: 1719243921:0;cdp
+: 1719243927:0;cd conform.nvim
+: 1719243928:0;nv
+: 1719244037:0;nv
+: 1719244106:0;nv
+: 1719244157:0;make
+: 1719244161:0;make run
+: 1719244171:0;e
+: 1719244187:0;make
+: 1719244193:0;make run
+: 1719244276:0;make
+: 1719244281:0;make run
+: 1719244283:0;make run
+: 1719244284:0;make run
+: 1719244285:0;make run
+: 1719244334:0;pipx install . --force
+: 1719244449:0;make
+: 1719244454:0;make run
+: 1719244476:0;make
+: 1719244481:0;make run
+: 1719244543:0;make
+: 1719244548:0;make run
+: 1719244553:0;pipx install . --force
+: 1719244601:0;nv
+: 1719244610:0;make
+: 1719244616:0;make run
+: 1719244624:0;make run
+: 1719244648:0;make
+: 1719244653:0;make run
+: 1719244717:0;make
+: 1719244722:0;make run
+: 1719244739:0;python -m fix_imports ~/projects/PYTHON-ML/numpy/test.py
+: 1719244752:0;pipx install . --force
+: 1719244785:0;make
+: 1719244790:0;python -m fix_imports ~/projects/PYTHON-ML/numpy/test.py
+: 1719244811:0;nv
+: 1719244824:0;pipx install . --force
+: 1719244873:0;cdp
+: 1719244873:0;ll
+: 1719244874:0;cd
+: 1719244876:0;cd test
+: 1719244876:0;ll
+: 1719244877:0;nv
+: 1719244946:0;nv
+: 1719244980:0;nv
+: 1719245223:0;make
+: 1719245228:0;make run
+: 1719245255:0;make
+: 1719245260:0;make run
+: 1719245273:0;pipx install . --force
+: 1719245290:0;nv
+: 1719245319:0;nv
+: 1719245389:0;cd
+: 1719245397:0;ll
+: 1719245400:0;cd
+: 1719245404:0;cd screenca
+: 1719245405:0;ll
+: 1719245441:0;convert_video recording_2024-06-24-213934.mp4
+: 1719245443:0;ll
+: 1719245470:0;pdm sync
+: 1719245474:0;cd fix
+: 1719245476:0;pdm sync
+: 1719245482:0;pdm update
+: 1719245488:0;ll
+: 1719245489:0;lg
+: 1719245719:0;one
+: 1719245740:0;nv
+: 1719245743:0;nv
+: 1719245746:0;cd dsa
+: 1719245747:0;ll
+: 1719245777:0;nv
+: 1719245883:0;nv
+: 1719245916:0;nv
+: 1719246182:0;nv
+: 1719246210:0;nv
+: 1719246225:0;cd .local/share/nvim/lazy/swenv.nvim
+: 1719246226:0;cdp
+: 1719246230:0;cd conform.nvim
+: 1719246230:0;ll
+: 1719246231:0;nv
+: 1719246234:0;lg
+: 1719246333:0;ll
+: 1719246333:0;lg
+: 1719246354:0;nv
+: 1719246516:0;nv
+: 1719246999:0;make
+: 1719247024:0;make run
+: 1719247126:0;make
+: 1719247158:0;make run
+: 1719247195:0;pipx install . --force
+: 1719247551:0;make
+: 1719247556:0;make run
+: 1719247599:0;ls ~/.local/bin
+: 1719247603:0;ll ~/.local/bin
+: 1719247725:0;btop
+: 1719247759:0;nv
+: 1719250260:0;cdp
+: 1719250265:0;cd PYTHON-ML/numpy
+: 1719250267:0;nv test.py
+: 1719250313:0;ll
+: 1719250445:0;make
+: 1719250451:0;make run
+: 1719250463:0;nv test.py
+: 1719251680:0;cd
+: 1719251694:0;nv .local/bin/fix-imports
+: 1719251711:0;ll
+: 1719285870:0;cd fix
+: 1719285871:0;ll
+: 1719285872:0;lg
+: 1719285917:0;nv
+: 1719286061:0;cd numpy
+: 1719286063:0;nv test.py
+: 1719286075:0;make
+: 1719286081:0;make run
+: 1719286346:0;make
+: 1719286350:0;make run
+: 1719286389:0;make
+: 1719286395:0;make run
+: 1719286502:0;nv
+: 1719286562:0;make
+: 1719286570:0;make run
+: 1719286693:0;pipx install . --force
+: 1719287013:0;one
+: 1719287094:0;nv
+: 1719287614:0;ys
+: 1719288188:0;cdp
+: 1719288190:0;cd autoimport
+: 1719288191:0;nv
+: 1719288228:0;nv
+: 1719288233:0;nv
+: 1719288351:0;make
+: 1719288375:0;make run
+: 1719288397:0;make
+: 1719288402:0;make run
+: 1719288536:0;make
+: 1719288540:0;make run
+: 1719288595:0;make
+: 1719288599:0;make run
+: 1719288631:0;make run
+: 1719288770:0;make
+: 1719288775:0;make run
+: 1719288980:0;make
+: 1719288984:0;make run
+: 1719289387:0;make
+: 1719289392:0;make run
+: 1719289407:0;make run
+: 1719289514:0;make
+: 1719289530:0;make run
+: 1719289567:0;make run
+: 1719289663:0;make run
+: 1719289669:0;make
+: 1719289673:0;make run
+: 1719289694:0;make run
+: 1719289759:0;make
+: 1719289763:0;make run
+: 1719289775:0;make
+: 1719289779:0;make run
+: 1719289893:0;make
+: 1719289897:0;make run
+: 1719289960:0;make
+: 1719289964:0;make run
+: 1719289979:0;make run
+: 1719290005:0;make run
+: 1719290122:0;make run
+: 1719290148:0;python -m fix_imports ~/projects/PYTHON-ML/autoimport/src/autoimport/model.py
+: 1719290188:0;python -m fix_imports ~/projects/PYTHON-ML/autoimport/src/autoimport/model.py
+: 1719290270:0;python -m fix_imports ~/projects/PYTHON-ML/autoimport/src/autoimport/model.py
+: 1719290411:0;python -m fix_imports ~/projects/PYTHON-ML/autoimport/src/autoimport/services.py
+: 1719290455:0;pip install _io
+: 1719290460:0;pip install io
+: 1719290498:0;python -m fix_imports ~/projects/PYTHON-ML/autoimport/src/autoimport/version.py
+: 1719290510:0;python -m fix_imports ~/projects/PYTHON-ML/autoimport/src/autoimport/version.py
+: 1719290577:0;python -m fix_imports ~/projects/PYTHON-ML/autoimport/src/autoimport/entrypoints/cli.py
+: 1719290627:0;python -m fix_imports ~/projects/PYTHON-ML/autoimport/src/autoimport/entrypoints/cli.py
+: 1719290825:0;nv
+: 1719293165:0;python -m fix_imports ~/projects/PYTHON-ML/autoimport/src/autoimport/version.py
+: 1719293184:0;make run
+: 1719293192:0;cali
+: 1719294905:0;cd
+: 1719294907:0;cd fix
+: 1719294908:0;e
+: 1719294915:0;make
+: 1719294924:0;make run
+: 1719294960:0;make run
+: 1719295003:0;make run
+: 1719295035:0;make run
+: 1719295051:0;make run
+: 1719295080:0;make run
+: 1719295088:0;make run
+: 1719295228:0;make run
+: 1719295256:0;make run
+: 1719295262:0;e
+: 1719295303:0;make run
+: 1719295315:0;make run
+: 1719295342:0;make run
+: 1719295365:0;make run
+: 1719295442:0;python -m fix_imports ~/projects/PYTHON-ML/autoimport/src/autoimport/version.py
+: 1719295563:0;python -m fix_imports ~/projects/PYTHON-ML/autoimport/src/autoimport/version.py
+: 1719295567:0;make run
+: 1719295637:0;make run
+: 1719295686:0;make run
+: 1719295697:0;make run
+: 1719295866:0;make
+: 1719295872:0;make run
+: 1719295879:0;python -m fix_imports ~/projects/PYTHON-ML/autoimport/src/autoimport/version.py
+: 1719295898:0;python -m fix_imports ~/projects/PYTHON-ML/autoimport/src/autoimport/model.py
+: 1719295929:0;python -m fix_imports ~/projects/PYTHON-ML/autoimport/src/autoimport/services.py
+: 1719296030:0;python -m fix_imports ~/projects/PYTHON-ML/autoimport/src/autoimport/services.py
+: 1719296040:0;python -m fix_imports ~/projects/PYTHON-ML/autoimport/src/autoimport/services.py
+: 1719296074:0;python -m fix_imports ~/projects/PYTHON-ML/autoimport/src/autoimport/services.py
+: 1719296089:0;python -m fix_imports ~/projects/PYTHON-ML/autoimport/src/autoimport/services.py
+: 1719296100:0;python -m fix_imports ~/projects/PYTHON-ML/autoimport/src/autoimport/services.py
+: 1719296112:0;python -m fix_imports ~/projects/PYTHON-ML/autoimport/src/autoimport/services.py
+: 1719296152:0;python -m fix_imports ~/projects/PYTHON-ML/autoimport/src/autoimport/services.py
+: 1719296173:0;python -m fix_imports ~/projects/PYTHON-ML/autoimport/src/autoimport/services.py
+: 1719296186:0;python -m fix_imports ~/projects/PYTHON-ML/autoimport/src/autoimport/services.py
+: 1719296216:0;make run
+: 1719296239:0;nv test.py
+: 1719296324:0;nv
+: 1719296352:0;make
+: 1719296358:0;make run
+: 1719296363:0;pipx install . --force
+: 1719296449:0;make
+: 1719296454:0;make run
+: 1719297933:0;ll
+: 1719297934:0;lg
+: 1719297942:0;lg
+: 1719298007:0;nv
+: 1719298017:0;python -m fix_imports ~/projects/PYTHON-ML/autoimport/src/autoimport/model.py
+: 1719298224:0;nv
+: 1719298235:0;python -m fix_imports ~/projects/PYTHON-ML/autoimport/src/autoimport/model.py
+: 1719298765:0;cd fix
+: 1719298766:0;ll
+: 1719298782:0;pdm --name "PyFixImports"
+: 1719298791:0;nv
+: 1719298843:0;pdm install
+: 1719298851:0;make run
+: 1719298860:0;nv
+: 1719298874:0;pdm install
+: 1719298891:0;nv pyproject.toml
+: 1719298913:0;cd src
+: 1719298913:0;ll
+: 1719298919:0;mv fix_imports PyFixImports
+: 1719298920:0;ll
+: 1719298925:0;cdp
+: 1719298926:0;ll
+: 1719298927:0;cdp
+: 1719298937:0;mv fix-imports PyFixImports
+: 1719298942:0;cdp
+: 1719298948:0;cd PyFixImports
+: 1719298949:0;ll
+: 1719298964:0;pdm init
+: 1719299004:0;pdm init
+: 1719299111:0;nv pyproject.toml
+: 1719299128:0;nv Makefile
+: 1719299148:0;make
+: 1719299156:0;make run
+: 1719299182:0;cd src/PyFixImports
+: 1719299183:0;ll
+: 1719299193:0;rm -rf __pycache__
+: 1719299194:0;ll
+: 1719299196:0;cd commandline
+: 1719299197:0;ll
+: 1719299201:0;rm -rf __pycache__
+: 1719299202:0;ll
+: 1719299204:0;cdp
+: 1719299205:0;cdp
+: 1719299205:0;ll
+: 1719299235:0;rm -rf pyfiximports
+: 1719299237:0;lg
+: 1719299247:0;cdp
+: 1719299248:0;cdp
+: 1719299249:0;ll
+: 1719299258:0;mv PyFixImports fix-imports
+: 1719299259:0;cd fix-imports
+: 1719299260:0;ll
+: 1719299268:0;pdm init
+: 1719299300:0;nv pyproject.toml
+: 1719299326:0;ll
+: 1719299330:0;make
+: 1719299336:0;make run
+: 1719299345:0;pdm install
+: 1719299350:0;nv Makefile
+: 1719299355:0;pdm install
+: 1719299360:0;make run
+: 1719299368:0;cd src/fix_imports
+: 1719299368:0;ll
+: 1719299372:0;cdp
+: 1719299372:0;ll
+: 1719299374:0;cdp
+: 1719299375:0;lg
+: 1719299381:0;nv
+: 1719299383:0;make
+: 1719299389:0;pipx install .
+: 1719299400:0;fix-imports test.py
+: 1719299405:0;fix-imports ~/projects/PYTHON-ML/numpy/test.py
+: 1719299413:0;make install
+: 1719299419:0;make run
+: 1719299433:0;rm -rf .venv
+: 1719299434:0;ll
+: 1719299436:0;cdp
+: 1719299439:0;cd fix-imports
+: 1719299441:0;ll
+: 1719299446:0;pdm init
+: 1719299464:0;lg
+: 1719299471:0;nv Makefile
+: 1719299473:0;cdp
+: 1719299475:0;cd fix-imports
+: 1719299476:0;ll
+: 1719299477:0;make
+: 1719299505:0;rm -rf .pdm-build dist pdm.lock
+: 1719299506:0;ll
+: 1719299507:0;lg
+: 1719299511:0;pdm sync
+: 1719299516:0;pdm install
+: 1719299522:0;ll
+: 1719299526:0;make
+: 1719299531:0;make run
+: 1719299541:0;pipx install . --force
+: 1719299572:0;fix-imports ~/projects/PYTHON-ML/numpy/test.py
+: 1719299592:0;fix-imports ~/projects/PYTHON-ML/autoimport/src/autoimport/model.py
+: 1719299610:0;lg
+: 1719299777:0;lg
+: 1719299790:0;cd num
+: 1719299790:0;ll
+: 1719299798:0;fix-imports test.py
+: 1719299807:0;nv test.py
+: 1719299813:0;fix-imports test.py
+: 1719299817:0;nv
+: 1719299894:0;cdp
+: 1719299900:0;fix-imports --help
+: 1719300081:0;cd fix-imports
+: 1719300081:0;ll
+: 1719300083:0;nv
+: 1719300566:0;cd
+: 1719300569:0;cd numpy
+: 1719300570:0;ll
+: 1719300575:0;cd test.py
+: 1719300577:0;nv test.py
+: 1719300589:0;make
+: 1719300595:0;pipx install . --force
+: 1719300610:0;fix-imports --help
+: 1719300636:0;fix-imports test.py
+: 1719300642:0;fix-imports --format test.py
+: 1719300648:0;nv
+: 1719300868:0;make
+: 1719300879:0;make run
+: 1719300910:0;pipx install . --force
+: 1719300929:0;fix-imports --help
+: 1719300940:0;fix-imports --format test.py
+: 1719300945:0;cat test.py
+: 1719300950:0;nv test.py
+: 1719300957:0;fix-imports --format test.py
+: 1719301017:0;nv test.py
+: 1719301022:0;fix-imports --format test.py
+: 1719301031:0;pipx install . --force
+: 1719301052:0;fix-imports --format test.py
+: 1719301074:0;c
+: 1719301112:0;one
+: 1719301564:0;ll
+: 1719301566:0;nv test.py
+: 1719301577:0;fix-imports --format test.py
+: 1719301595:0;make
+: 1719301606:0;fix-imports --format test.py
+: 1719301609:0;nv test.py
+: 1719301615:0;pipx install . --force
+: 1719301643:0;fix-imports --format test.py
+: 1719301671:0;lg
+: 1719301741:0;make
+: 1719301747:0;pipx install . --force
+: 1719301838:0;make
+: 1719301843:0;pipx install . --force
+: 1719301855:0;fix-imports --help
+: 1719301888:0;fix-imports -f
+: 1719301904:0;make
+: 1719301910:0;pipx install . --force
+: 1719301924:0;fix-imports --help
+: 1719301931:0;fix-imports -f test.py
+: 1719301935:0;nv test.py
+: 1719301943:0;fix-imports -f test.py
+: 1719301948:0;nv test.py
+: 1719301954:0;lg
+: 1719306422:0;nv
+: 1719306617:0;cd
+: 1719306620:0;cd .config
+: 1719306623:0;mkdir fix-imports
+: 1719306626:0;cd fix-imports
+: 1719306631:0;nv config.toml
+: 1719306662:0;nv
+: 1719307193:0;nv
+: 1719307779:0;pdm add xdg-base-dirs
+: 1719307822:0;nv
+: 1719307916:0;make
+: 1719307923:0;make run
+: 1719307940:0;make
+: 1719307944:0;make run
+: 1719307955:0;make run
+: 1719308020:0;make run
+: 1719308101:0;ll
+: 1719308110:0;pip install xdg_base-dirs
+: 1719308129:0;nv xdg.py
+: 1719308207:0;make run
+: 1719308234:0;make run
+: 1719309028:0;make
+: 1719309036:0;fix-imports --help
+: 1719309306:0;make
+: 1719309312:0;fix-imports --help
+: 1719309369:0;make
+: 1719309373:0;fix-imports --help
+: 1719309381:0;python -m fix_imports --help
+: 1719309397:0;python -m fix_imports -c ~
+: 1719309414:0;python -m fix_imports -c ~/.config/fix-imports/config.toml
+: 1719309441:0;python -m fix_imports -c ~/.config/fix-imports/config.toml ~/projects/PYTHON-ML/numpy/test.py
+: 1719309530:0;python -m fix_imports ~/projects/PYTHON-ML/numpy/test.py
+: 1719309613:0;nv ~/.config/fix-imports/config.toml
+: 1719309758:0;python -m fix_imports -c ~/.config/fix-imports/config.toml ~/projects/PYTHON-ML/numpy/test.py
+: 1719309772:0;python -m fix_imports ~/projects/PYTHON-ML/numpy/test.py
+: 1719309842:0;make
+: 1719309847:0;make run
+: 1719309861:0;make run
+: 1719309868:0;make
+: 1719309872:0;make run
+: 1719309910:0;make
+: 1719309914:0;make run
+: 1719311263:0;make
+: 1719311269:0;make run
+: 1719311324:0;make
+: 1719311328:0;pipx install . --force
+: 1719311378:0;cd
+: 1719311378:0;c
+: 1719311379:0;ll
+: 1719311379:0;c
+: 1719311381:0;lg
+: 1719311460:0;nv
+: 1719311520:0;fix-imports --help
+: 1719311596:0;c
+: 1719317892:0;nv
+: 1719317936:0;nv
+: 1719318417:0;nv
+: 1719318419:0;nv
+: 1719319650:0;cz
+: 1719319702:0;nv ~/.config/fix-imports/config.toml
+: 1719321672:0;pdm publish --repository testpypi
+: 1719322062:0;pdm publish
+: 1719322208:0;pdm init
+: 1719322215:0;nv
+: 1719322233:0;pdm publish
+: 1719322273:0;cd num
+: 1719322274:0;ll
+: 1719322276:0;pip install py-fix-imports==0.1.0
+: 1719322294:0;fix-imports --help
+: 1719322303:0;pipx uninstall fix-imports
+: 1719322308:0;fix-imports --help
+: 1719322308:0;e
+: 1719322313:0;cd numpy
+: 1719322314:0;ll
+: 1719322316:0;fix-imports --help
+: 1719322320:0;nv
+: 1719322350:0;ll
+: 1719322393:0;pdm init
+: 1719322451:0;nv pyproject.toml
+: 1719322464:0;cd src
+: 1719322465:0;ll
+: 1719322483:0;rm -rf py_fix_imports/*
+: 1719322491:0;mv fix_imports/* py_fix_imports
+: 1719322494:0;ll
+: 1719322497:0;rm fix_imports
+: 1719322499:0;nv py_fix_imports
+: 1719322559:0;lg
+: 1719322570:0;cd
+: 1719322571:0;cd
+: 1719322572:0;c
+: 1719322574:0;cd numpy
+: 1719322575:0;ll
+: 1719322580:0;fix-imports --help
+: 1719322590:0;which fix-imports
+: 1719322598:0;nv
+: 1719322601:0;nv
+: 1719322613:0;git pull
+: 1719323283:0;pip install sympy
+: 1719323303:0;nv
+: 1719323503:0;git remote set-url origin https://github.com/Rishabh672003/py-fix-imports.git
+: 1719323515:0;cdp
+: 1719323519:0;cd fix-imports
+: 1719323528:0;git remote set-url origin https://github.com/Rishabh672003/py-fix-imports.git
+: 1719323533:0;git pull
+: 1719323548:0;cdp
+: 1719323549:0;cdp
+: 1719323554:0;cd Rishabh672003
+: 1719323555:0;ll
+: 1719323557:0;nv README.md
+: 1719324497:0;c
+: 1719324498:0;nv
+: 1719324515:0;nvim ~/.config/fix-imports/config.toml
+: 1719330408:0;nv
+: 1719330594:0;nv ~/.config/fix-imports/config.toml
+: 1719335490:0;nm
+: 1719335492:0;nv
+: 1719335652:0;nv
+: 1719335963:0;nv
+: 1719335967:0;cdp
+: 1719335968:0;ll
+: 1719335971:0;cdp
+: 1719335974:0;fix-imports --help
+: 1719335975:0;c
+: 1719335976:0;c
+: 1719335976:0;c
+: 1719335976:0;c
+: 1719335977:0;c
+: 1719335977:0;c
+: 1719335980:0;cd dsa-
+: 1719335982:0;ll
+: 1719335989:0;pip install py-fix-imports
+: 1719335999:0;nv float.py
+: 1719336308:0;nv /etc/makepkg.conf
+: 1719336389:0;vs /etc/makepkg.conf
+: 1719336433:0;yay -Yc
+: 1719337003:0;nemo
+: 1719337033:0;pacman -Qq | fzf
+: 1719337069:0;pacman -Qqs
+: 1719337072:0;pacman -Q
+: 1719337076:0;pacman -s
+: 1719337084:0;cali
+: 1719337096:0;sep
+: 1719337173:0;sep
+: 1719367824:0;mv ~/.config/fix-imports/config.toml .
+: 1719367825:0;ll
+: 1719367834:0;cd numpy
+: 1719367836:0;fix-imports --help
+: 1719367842:0;fix-imports test.py
+: 1719367855:0;cdp
+: 1719367857:0;cdp
+: 1719367858:0;cdp
+: 1719367861:0;nv
+: 1719367915:0;make
+: 1719367924:0;make run
+: 1719367944:0;cdp
+: 1719367944:0;ll
+: 1719367958:0;make
+: 1719367963:0;make
+: 1719367967:0;cd fix-imports
+: 1719367968:0;ll
+: 1719367969:0;make
+: 1719367974:0;make run
+: 1719367997:0;pipx uninstall fix-imports
+: 1719368007:0;ll
+: 1719368057:0;e
+: 1719368061:0;cd fix
+: 1719368061:0;ll
+: 1719368077:0;rm -rf .venv/bin/fix-imports
+: 1719368079:0;make
+: 1719368094:0;make run
+: 1719368118:0;fix-imports /home/rishabh/projects/PYTHON-ML/numpy/test.py
+: 1719368127:0;which fix-imports
+: 1719368134:0;nv pyproject.toml
+: 1719368187:0;ll
+: 1719368329:0;lg
+: 1719368339:0;pipx install . --force
+: 1719368350:0;nv
+: 1719368434:0;make
+: 1719368441:0;make run
+: 1719368477:0;make
+: 1719368482:0;make run
+: 1719369220:0;make
+: 1719369225:0;make run
+: 1719369262:0;make run
+: 1719369283:0;make run
+: 1719369318:0;mv config.toml ~/.config/fix-imports
+: 1719369322:0;make run
+: 1719369510:0;nv
+: 1719370054:0;make
+: 1719370060:0;make run
+: 1719370104:0;make
+: 1719370111:0;make run
+: 1719370211:0;lg
+: 1719370264:0;lg
+: 1719370272:0;pdm init
+: 1719370374:0;lg
+: 1719370378:0;ll
+: 1719370453:0;rm -rf src/pyfix_imports/*
+: 1719370465:0;mv src/fix_imports/* src/pyfix_imports
+: 1719370467:0;cd src
+: 1719370467:0;ll
+: 1719370472:0;rm -rf fix_imports
+: 1719370475:0;cd pyfix_imports
+: 1719370476:0;ll
+: 1719370480:0;nv file.py
+: 1719370703:0;ll
+: 1719370710:0;rm -rf __pycache__/*
+: 1719370713:0;cd commandline
+: 1719370713:0;ll
+: 1719370717:0;rm -rf __pycache__/*
+: 1719370719:0;ll
+: 1719370720:0;cdp
+: 1719370721:0;cdp
+: 1719370721:0;ll
+: 1719370723:0;cdp
+: 1719370723:0;ll
+: 1719370736:0;rm -rf .venv pdm.lock
+: 1719370737:0;ll
+: 1719370739:0;cdp
+: 1719370741:0;cd fix-imports
+: 1719370742:0;ll
+: 1719370745:0;pdm install
+: 1719370754:0;ll
+: 1719370755:0;cdp
+: 1719370768:0;mv fix-imports pyfix-imports
+: 1719370769:0;ll
+: 1719370774:0;cd pyfix-imports
+: 1719370776:0;ll
+: 1719370783:0;nv pyproject.toml
+: 1719370796:0;rm -rf .venv
+: 1719370806:0;pdm --help
+: 1719370817:0;pdm venv
+: 1719370826:0;pdm venv remove
+: 1719370833:0;ll
+: 1719370835:0;cdp
+: 1719370840:0;cd pyfix-imports
+: 1719370841:0;ll
+: 1719370847:0;pdm venv create
+: 1719370852:0;cdp
+: 1719370856:0;cd pyfix-imports
+: 1719370856:0;ll
+: 1719370859:0;make
+: 1719370882:0;nv Makefile
+: 1719370887:0;make run
+: 1719370891:0;lg
+: 1719371334:0;pdm publish
+: 1719371382:0;pyfix-imports
+: 1719371389:0;pip install pyfix-imports==0.1.0
+: 1719371395:0;cdp
+: 1719371397:0;cd numpy
+: 1719371398:0;ll
+: 1719371404:0;pip uninstall fix-imports
+: 1719371412:0;pip install pyfix-imports
+: 1719371422:0;pyfix-imports
+: 1719371433:0;pyfix-imports
+: 1719371439:0;e
+: 1719371445:0;ll
+: 1719371454:0;cd numpy
+: 1719371456:0;ll
+: 1719371460:0;pyfix-imports
+: 1719371462:0;pip install pyfix-imports
+: 1719371478:0;fix-imports
+: 1719371480:0;which fix-imports
+: 1719371499:0;rm -rf ~/.virtualenvs/numpy-lwee/
+: 1719371504:0;rmvenv
+: 1719371507:0;mkvenv
+: 1719371512:0;pip install pyfix-imports
+: 1719371520:0;pyfix-imports
+: 1719371538:0;cd py
+: 1719371542:0;cd pyfix-imports
+: 1719371542:0;ll
+: 1719371547:0;pipx install .
+: 1719371573:0;pipx uninstall fix-imports
+: 1719371575:0;pipx install .
+: 1719371585:0;pyfix-imports
+: 1719371591:0;nv pyproject.toml
+: 1719371729:0;nv pyproject.toml
+: 1719371743:0;ll
+: 1719371769:0;fix-imports
+: 1719371774:0;fix-imports --help
+: 1719371795:0;cdp
+: 1719371798:0;cd pyfix-imports
+: 1719371800:0;ll
+: 1719371804:0;pdm sync
+: 1719371825:0;rm -rf .venv
+: 1719371826:0;ll
+: 1719371830:0;pdm sync
+: 1719371837:0;pdm sync
+: 1719371859:0;cdp
+: 1719371863:0;cd pyfix-imports
+: 1719371863:0;ll
+: 1719371866:0;rm -rf .venv
+: 1719371878:0;pdm create venv
+: 1719371886:0;pdm venv list
+: 1719371891:0;pdm venv create
+: 1719371897:0;cdp
+: 1719371901:0;cd pyfix-imports
+: 1719371901:0;ll
+: 1719371904:0;pdm sync
+: 1719371923:0;nv
+: 1719371962:0;ll
+: 1719371966:0;rm -rf dist
+: 1719371970:0;pdm sync
+: 1719371983:0;pdm build
+: 1719371990:0;pyfix-imports
+: 1719372005:0;ll
+: 1719372036:0;rm -rf .venv .pdm-build dist .pdm-python
+: 1719372038:0;ll
+: 1719372044:0;rm -rf pdm.lock
+: 1719372052:0;cdp
+: 1719372055:0;cd pyfix-imports
+: 1719372055:0;ll
+: 1719372062:0;pdm sync
+: 1719372068:0;pdm create venv
+: 1719372072:0;pdm venv create
+: 1719372076:0;cdp
+: 1719372079:0;cd pyfix-imports
+: 1719372080:0;ll
+: 1719372089:0;pdm sync
+: 1719372095:0;pdm install
+: 1719372147:0;ls .venv/bin/fix-imports
+: 1719372151:0;ll .venv/bin/fix-imports
+: 1719372162:0;cd .venv/bin
+: 1719372163:0;ll
+: 1719372172:0;cdp
+: 1719372172:0;ll
+: 1719372175:0;cdp
+: 1719372176:0;ll
+: 1719372196:0;ll
+: 1719372198:0;cd src
+: 1719372199:0;ll
+: 1719372202:0;cd pyfix_imports
+: 1719372202:0;ll
+: 1719372210:0;nv __init__.py
+: 1719372248:0;make
+: 1719372250:0;cdpp
+: 1719372251:0;make
+: 1719372260:0;cdp
+: 1719372263:0;cd pyfix-imports
+: 1719372264:0;ll
+: 1719372270:0;rm -rf .venv
+: 1719372271:0;ll
+: 1719372273:0;cdp
+: 1719372277:0;cd pyfix-imports
+: 1719372278:0;ll
+: 1719372282:0;pdm venv create
+: 1719372285:0;cdp
+: 1719372292:0;cd pyfix-imports
+: 1719372293:0;ll
+: 1719372304:0;pdm install
+: 1719372348:0;cdp
+: 1719372349:0;ll
+: 1719372352:0;cdp
+: 1719372362:0;mkdir pyfix-imports
+: 1719372368:0;cd pyfix-imports
+: 1719372372:0;pdm init
+: 1719372473:0;cp -r ~/projects/PYTHON-ML/pyfix-imports/src .
+: 1719372482:0;ll
+: 1719372485:0;cd src
+: 1719372486:0;ll
+: 1719372489:0;cd pyfix_imports
+: 1719372490:0;ll
+: 1719372493:0;nv predefined.py
+: 1719372496:0;cdp
+: 1719372496:0;ll
+: 1719372498:0;cdp
+: 1719372499:0;ll
+: 1719372502:0;make
+: 1719372514:0;cp -r ~/projects/PYTHON-ML/pyfix-imports/Makefile .
+: 1719372515:0;ll
+: 1719372519:0;make
+: 1719372541:0;make run
+: 1719372549:0;pdm sync
+: 1719372556:0;nv pyproject.toml
+: 1719372597:0;pdm add click pyflakes importlib xdg-base-dirs
+: 1719372614:0;make
+: 1719372622:0;cd .venv
+: 1719372622:0;ll
+: 1719372624:0;cd bin
+: 1719372625:0;ll
+: 1719372630:0;cdp
+: 1719372631:0;cdp
+: 1719372633:0;make run
+: 1719372642:0;ll
+: 1719372646:0;nv README.md
+: 1719372656:0;cp -r ~/projects/PYTHON-ML/pyfix-imports/README.md .
+: 1719372657:0;ll
+: 1719372661:0;nv README.md
+: 1719372664:0;ll
+: 1719372675:0;cp -r ~/projects/PYTHON-ML/pyfix-imports/.git .
+: 1719372676:0;cdp
+: 1719372683:0;cd pyfix-imports/
+: 1719372683:0;ll
+: 1719372684:0;lg
+: 1719372723:0;make
+: 1719372738:0;ll
+: 1719372744:0;ll
+: 1719372749:0;pdm install
+: 1719372766:0;nv pyproject.toml
+: 1719372793:0;ll
+: 1719372797:0;make install
+: 1719372805:0;ls .venv/bin/fix-imports
+: 1719372811:0;ls .venv/bin/
+: 1719372827:0;rm -rf .venv/bin/fix-imports
+: 1719372828:0;ll
+: 1719372829:0;make
+: 1719372833:0;ll
+: 1719372837:0;ls .venv/bin/
+: 1719372841:0;make run
+: 1719372866:0;ll
+: 1719372866:0;c
+: 1719372869:0;nv pyproject.toml
+: 1719372878:0;cdp
+: 1719372883:0;cd PYTHON-ML
+: 1719372884:0;ll
+: 1719372887:0;cd pyfix-imports
+: 1719372889:0;nv pyproject.toml
+: 1719372936:0;make
+: 1719372941:0;make run
+: 1719372952:0;pipx install .
+: 1719372964:0;pipx install . --force
+: 1719372977:0;nv
+: 1719372981:0;pyfix-imports
+: 1719372993:0;nv Makefile
+: 1719373050:0;mv ~/.config/fix-imports ~/.config/pyfix-imports
+: 1719373147:0;cdp
+: 1719373148:0;cdp
+: 1719373151:0;cd pyfix-imports
+: 1719373152:0;ll
+: 1719373153:0;lg
+: 1719373160:0;make
+: 1719373166:0;make run
+: 1719373177:0;cdp
+: 1719373178:0;ll
+: 1719373190:0;mv pyfix-imports PYTHON-ML
+: 1719373198:0;mv --force pyfix-imports PYTHON-ML
+: 1719373205:0;mv --overwrite pyfix-imports PYTHON-ML
+: 1719373212:0;mv --help
+: 1719373232:0;mv -f pyfix-imports PYTHON-ML/
+: 1719373236:0;cd PYTHON-ML
+: 1719373237:0;ll
+: 1719373244:0;cd pyfix-imports
+: 1719373245:0;ll
+: 1719373249:0;cdp
+: 1719373252:0;cdp
+: 1719373260:0;cd pyfix-imports
+: 1719373261:0;ll
+: 1719373275:0;cp -r ~/projects/PYTHON-ML/pyfix-imports/.jaq.json .
+: 1719373278:0;ll
+: 1719373283:0;cp .jaq.json src
+: 1719373287:0;cd src
+: 1719373287:0;ll
+: 1719373291:0;cp .jaq.json pyfix_imports
+: 1719373292:0;ll
+: 1719373295:0;rm .jaq.json
+: 1719373296:0;ll
+: 1719373297:0;cdp
+: 1719373297:0;ll
+: 1719373299:0;lg
+: 1719373301:0;cdp
+: 1719373310:0;rm -rf PYTHON-ML/pyfix-imports
+: 1719373317:0;mv pyfix-imports PYTHON-ML
+: 1719373324:0;cd PYTHON-ML/pyfix-imports
+: 1719373325:0;ll
+: 1719373328:0;pdm publish
+: 1719373340:0;cdp
+: 1719373344:0;cd pyfix-imports
+: 1719373345:0;ll
+: 1719373348:0;rm -rf .venv
+: 1719373350:0;cdp
+: 1719373353:0;cd pyfix-imports
+: 1719373354:0;ll
+: 1719373357:0;pdm venv create
+: 1719373361:0;cdp
+: 1719373364:0;cd pyfix-imports
+: 1719373364:0;ll
+: 1719373367:0;pdm install
+: 1719373374:0;pdm sync
+: 1719373382:0;pdm publish
+: 1719373436:0;cdp
+: 1719373437:0;cdp
+: 1719373441:0;cd PYTHON-ML/numpy
+: 1719373442:0;ll
+: 1719373447:0;rmvenv
+: 1719373450:0;mkvenv
+: 1719373505:0;pip install pyfix-imports
+: 1719373512:0;pyfix-imports
+: 1719373514:0;pyfix-imports test.py
+: 1719373517:0;nv test.py
+: 1719373550:0;nv
+: 1719373568:0;pip install pyfix-imports
+: 1719373576:0;pyfix-imports test.py
+: 1719373580:0;fix-imports --help
+: 1719373590:0;rm -rf ~/.virtualenvs/numpy-twmi
+: 1719373592:0;ll
+: 1719373594:0;rmvenv
+: 1719373598:0;nv requirements.txt
+: 1719373611:0;fix-imports --help
+: 1719373613:0;mkvenv
+: 1719373652:0;pyfix-imports test.py
+: 1719373654:0;nv test.py
+: 1719373668:0;nv
+: 1719375544:0;cdpp
+: 1719375550:0;nv Rishabh672003/README.md
+: 1719375668:0;cdp
+: 1719375669:0;ll
+: 1719375671:0;cd dsa
+: 1719375672:0;ll
+: 1719375675:0;nv requirements.txt
+: 1719375690:0;rm -rf ~/.virtualenvs/DSA-prep-ilop
+: 1719375692:0;rmvenv
+: 1719375694:0;mkvenv
+: 1719375755:0;nv
+: 1719376045:0;nv
+: 1719376055:0;cd .config/pyfix-imports
+: 1719376055:0;ll
+: 1719376057:0;nv config.toml
+: 1719377984:0;ll
+: 1719377987:0;cdp
+: 1719377988:0;ll
+: 1719377990:0;cdp
+: 1719377990:0;ll
+: 1719377995:0;cd py
+: 1719377996:0;ll
+: 1719378007:0;cd numpy/test.py
+: 1719378009:0;cd numpy/
+: 1719378011:0;nv test.py
+: 1719378035:0;pip install sympy
+: 1719378059:0;nv
+: 1719378139:0;nv
+: 1719378148:0;nv
+: 1719378427:0;make
+: 1719378434:0;make run
+: 1719378632:0;make
+: 1719378638:0;make run
+: 1719378651:0;nv test.py
+: 1719378657:0;make run
+: 1719378675:0;nv
+: 1719378740:0;cd pyfix
+: 1719378743:0;pdm publish
+: 1719378788:0;pip update
+: 1719378792:0;pip --help
+: 1719378839:0;pip install pyfix-imports --upgrade
+: 1719378848:0;cdp
+: 1719378850:0;cd numpy
+: 1719378852:0;pip install pyfix-imports --upgrade
+: 1719378867:0;pip install pyfix-imports==0.1.2
+: 1719378881:0;nv
+: 1719379095:0;c
+: 1719379095:0;c
+: 1719379095:0;c
+: 1719379096:0;c
+: 1719379096:0;c
+: 1719379096:0;c
+: 1719379098:0;ll
+: 1719379099:0;ll
+: 1719379335:0;cd screen
+: 1719379336:0;ll
+: 1719379362:0;convert_video recording_2024-06-25-175756.mp4
+: 1719379983:0;pdm build
+: 1719379994:0;ll
+: 1719379999:0;make run
+: 1719380006:0;make run
+: 1719380056:0;cd
+: 1719380057:0;cd auto
+: 1719380058:0;ll
+: 1719380062:0;pdm install
+: 1719380177:0;nv
+: 1719380221:0;python -m pyfix-imports ~/projects/PYTHON-ML
+: 1719380250:0;python -m pyfix_imports ~/projects/PYTHON-ML/autoimport/src/autoimport/model.py
+: 1719380264:0;c
+: 1719380416:0;nv
+: 1719380461:0;lg
+: 1719380498:0;c
+: 1719380499:0;ll
+: 1719380506:0;ls --git
+: 1719380513:0;ls --help
+: 1719380548:0;ll --git-ignore
+: 1719381206:0;rm -rf .venv
+: 1719381222:0;make build-package
+: 1719381241:0;make install
+: 1719381603:0;nv
+: 1719381637:0;rm -rf .venv
+: 1719381639:0;cdp
+: 1719381641:0;trash-empty
+: 1719381649:0;duf
+: 1719386576:0;cd
+: 1719386579:0;nv
+: 1719387096:0;ll --git-ignore -@
+: 1719387116:0;ll
+: 1719387120:0;lll
+: 1719387125:0;one
+: 1719387326:0;cd projects/CPP/random-cpp
+: 1719387326:0;ll
+: 1719387329:0;cdp
+: 1719387330:0;ll
+: 1719387333:0;cd hash-table
+: 1719387333:0;ll
+: 1719387344:0;ls
+: 1719387345:0;ll
+: 1719387347:0;cd nvim
+: 1719387348:0;one
+: 1719388572:0;nv
+: 1719389102:0;nv
+: 1719394472:0;cd num
+: 1719394474:0;nv test.py
+: 1719394522:0;hyperfine -L 1,2 -r 2 --show-output --setup 'echo setup n={n}' --prepare 'echo prepare={n}' --cleanup 'echo cleanup n={n}' 'command n={n}'
+: 1719394571:0;tldr hyperfine
+: 1719394579:0;tldr --update
+: 1719394618:0;tldr hyperfine
+: 1719394749:0;hyperfine --warmup 5 'pyfix-imports test.py'
+: 1719396749:0;hyperfine 'pyfix-imports -f test.py'
+: 1719396757:0;nv
+: 1719396766:0;hyperfine 'pyfix-imports -f test.py'
+: 1719396771:0;nv
+: 1719399283:0;spicetify backup restore apply
+: 1719399630:0;ls ~/.local/bin
+: 1719399638:0;cd music
+: 1719399639:0;ll
+: 1719399643:0;cd Random
+: 1719399643:0;ll
+: 1719399650:0;spotdl "https://open.spotify.com/track/44AyOl4qVkzS48vBsbNXaC?si=4e540dc40e734123"
+: 1719400658:0;nv
+: 1719400815:0;nv
+: 1719404477:0;paru
+: 1719404480:0;yay
+: 1719411638:0;lg
+: 1719411793:0;nv
+: 1719411901:0;nv
+: 1719411954:0;nv
+: 1719411957:0;nv
+: 1719411992:0;nv
+: 1719412314:0;cd
+: 1719412334:0;cd .local/share/nvim/lazy/nvim-lspconfig
+: 1719412335:0;ll
+: 1719412339:0;nv lua
+: 1719412425:0;cdp
+: 1719412426:0;cdp
+: 1719412426:0;cdp
+: 1719414310:0;ys
+: 1719422616:0;cd dsa
+: 1719422624:0;ll
+: 1719422628:0;nv
+: 1719422641:0;cd numpy
+: 1719422644:0;ll
+: 1719422651:0;nv tomllib.py
+: 1719422703:0;nv tomllib.py
+: 1719422874:0;ys
+: 1719423284:0;nv
+: 1719423529:0;nv
+: 1719423971:0;nv
+: 1719424305:0;nv ~/.config/pyfix-imports/config.toml
+: 1719424323:0;make
+: 1719424329:0;make run
+: 1719424346:0;make run
+: 1719424351:0;make
+: 1719424385:0;make run
+: 1719424428:0;make run
+: 1719424441:0;make run
+: 1719424639:0;nv ~/.config/pyfix-imports/config.toml
+: 1719424648:0;make
+: 1719424655:0;e
+: 1719424675:0;make run
+: 1719424705:0;make
+: 1719424710:0;make run
+: 1719424733:0;make
+: 1719424738:0;make run
+: 1719424805:0;make run
+: 1719425035:0;make
+: 1719425041:0;make run
+: 1719425055:0;make run
+: 1719425066:0;make run
+: 1719425087:0;make run
+: 1719425117:0;cd .config/pyfix-imports/
+: 1719425120:0;mv config.toml ..
+: 1719425121:0;ll
+: 1719425124:0;make run
+: 1719425132:0;make run
+: 1719425143:0;make run
+: 1719425413:0;python -m pyfix_imports -c ~/projects/PYTHON-ML/numpy/config.toml ~/projects/PYTHON-ML/numpy/test.py
+: 1719425634:0;pdm --help
+: 1719425822:0;cd
+: 1719425825:0;cd pyfix
+: 1719425826:0;ll
+: 1719425830:0;pdm publish
+: 1719425874:0;nv
+: 1719425888:0;pdm publish
+: 1719425905:0;lg
+: 1719425936:0;cd numpy
+: 1719425937:0;ll
+: 1719425944:0;which pyfix-imports
+: 1719425953:0;pip install pyfix-imports==0.2.0
+: 1719426056:0;pip install pyfix-imports --upgrade
+: 1719426065:0;pip install pyfix-imports --upgrade
+: 1719426076:0;pyfix-imports test.py
+: 1719426079:0;nv test.py
+: 1719426106:0;nv
+: 1719426110:0;ll
+: 1719426115:0;pyfix-imports test.py
+: 1719426134:0;time pyfix-imports test.py
+: 1719426139:0;time pyfix-imports test.py
+: 1719426142:0;time pyfix-imports test.py
+: 1719426174:0;nv
+: 1719426707:0;cd num
+: 1719426709:0;nv test.py
+: 1719426719:0;make
+: 1719426727:0;make run
+: 1719427007:0;make
+: 1719427023:0;make run
+: 1719427360:0;make run
+: 1719427403:0;python -m pyfix_imports -f ~/projects/PYTHON-ML/numpy/test.py
+: 1719427410:0;python -m pyfix_imports -f ~/projects/PYTHON-ML/numpy/test.py
+: 1719427485:0;make
+: 1719427491:0;make run
+: 1719427593:0;mv ~/.config/config.toml ~/.config/pyfix-imports
+: 1719427620:0;python -m pyfix_imports -f ~/projects/PYTHON-ML/numpy/test.py
+: 1719427638:0;nv ~/.config/pyfix-imports/config.toml
+: 1719427665:0;python -m pyfix_imports -f ~/projects/PYTHON-ML/numpy/test.py
+: 1719427681:0;lg
+: 1719427695:0;lg
+: 1719427818:0;cd py
+: 1719427822:0;cd pyfix-imports
+: 1719427823:0;ll
+: 1719427827:0;pdm publish
+: 1719427872:0;ll
+: 1719427876:0;pip install pyfix-imports --upgrade
+: 1719427880:0;pip install pyfix-imports --upgrade
+: 1719427889:0;nv
+: 1719427927:0;time pyfix-imports test.py
+: 1719427931:0;time pyfix-imports test.py
+: 1719427932:0;time pyfix-imports test.py
+: 1719427938:0;c
+: 1719427951:0;ll
+: 1719427959:0;c
+: 1719427960:0;cd
+: 1719427962:0;cd
+: 1719427962:0;c
+: 1719427971:0;which pyfix-imports
+: 1719427975:0;cd .local/bin
+: 1719427976:0;ll
+: 1719427989:0;pipx update pyfix-imports
+: 1719427996:0;pipx upgrade pyfix-imports
+: 1719428022:0;pyfix-imports --help
+: 1719428110:0;ll
+: 1719428113:0;cd
+: 1719428116:0;cd pyfix-imports
+: 1719428199:0;ll
+: 1719428208:0;pdm sync
+: 1719428216:0;lg
+: 1719428218:0;nv pyproject.toml
+: 1719428222:0;c
+: 1719428412:0;nv
+: 1719458720:0;nv
+: 1719458819:0;pacman -qQ | fzf
+: 1719458822:0;pacman -Q | fzf
+: 1719458830:0;we
+: 1719459452:0;ys
+: 1719460836:0;nv
+: 1719463973:0;cd numpy
+: 1719463974:0;ll
+: 1719463979:0;nv impp.py
+: 1719464027:0;nv
+: 1719464191:0;nv
+: 1719465788:0;yay pcmanfm
+: 1719465837:0;yay -Rns pcmanfm
+: 1719465842:0;yay pcmanfm
+: 1719466337:0;duf
+: 1719466976:0;pcmanfm
+: 1719471268:0;naje
+: 1719471270:0;make
+: 1719471276:0;make run
+: 1719471285:0;nv
+: 1719471303:0;make run
+: 1719471411:0;cd pyfix-imports
+: 1719471412:0;ll
+: 1719471413:0;gl
+: 1719471414:0;lg
+: 1719471433:0;pdm publish
+: 1719471481:0;pip install pyfix-imports --upgrade
+: 1719471484:0;pip install pyfix-imports --upgrade
+: 1719471492:0;nv
+: 1719471521:0;nv
+: 1719471601:0;make
+: 1719471609:0;make run
+: 1719471616:0;lg
+: 1719471641:0;nv pyproject.toml
+: 1719471662:0;pdm publish
+: 1719471697:0;pip install pyfix-imports --upgrade
+: 1719471699:0;pip install pyfix-imports --upgrade
+: 1719474776:0;nv
+: 1719474817:0;nv
+: 1719474819:0;nv
+: 1719474822:0;make
+: 1719474828:0;make run
+: 1719474939:0;make
+: 1719474944:0;make run
+: 1719474988:0;pdm publish
+: 1719475013:0;cd num
+: 1719475014:0;ll
+: 1719475017:0;pip install pyfix-imports --upgrade
+: 1719475019:0;pip install pyfix-imports --upgrade
+: 1719475024:0;nv
+: 1719488897:0;nv
+: 1719489005:0;nv
+: 1719489544:0;nv
+: 1719489587:0;e
+: 1719489710:0;ruff -c test.py
+: 1719489714:0;ruff test.py
+: 1719489721:0;ruff check test.py
+: 1719489723:0;nv
+: 1719489731:0;ruff check test.py
+: 1719489740:0;black test.py
+: 1719489749:0;ruff --help
+: 1719489758:0;ruff format test.py
+: 1719489763:0;nv test.py
+: 1719489779:0;nv
+: 1719489825:0;black test.py
+: 1719489830:0;nv
+: 1719489846:0;time black test.py
+: 1719489849:0;nv
+: 1719489864:0;time ruff format test.py
+: 1719489867:0;nv
+: 1719489901:0;nv
+: 1719490125:0;make
+: 1719490133:0;make run
+: 1719490213:0;make run
+: 1719490220:0;time make run
+: 1719490248:0;time make run
+: 1719490262:0;hyperfine 'make run'
+: 1719490279:0;wpaperctl next
+: 1719490282:0;cd num
+: 1719490284:0;which pyfix-imports
+: 1719490296:0;hyperfine 'pyfix-imports test.py'
+: 1719490302:0;hyperfine 'pyfix-imports test.py'
+: 1719490310:0;hyperfine 'make run'
+: 1719490345:0;nv test.py
+: 1719490356:0;nv
+: 1719490376:0;nv
+: 1719490409:0;nv
+: 1719490493:0;cdp
+: 1719490504:0;nv ruff.toml
+: 1719490593:0;nv
+: 1719490628:0;nv
+: 1719490648:0;nv con
+: 1719490656:0;nv ruff.toml
+: 1719490690:0;nv
+: 1719490791:0;nv
+: 1719492715:0;nv
+: 1719492892:0;pydoc
+: 1719492897:0;pydoc itertools
+: 1719492978:0;pydoc -b itertools
+: 1719493631:0;c
+: 1719493632:0;c
+: 1719493634:0;ll
+: 1719493635:0;c
+: 1719494593:0;c
+: 1719494593:0;c
+: 1719494593:0;c
+: 1719494593:0;c
+: 1719494594:0;c
+: 1719494594:0;c
+: 1719494594:0;c
+: 1719494596:0;nv
+: 1719497377:0;c
+: 1719497378:0;c
+: 1719497378:0;c
+: 1719497379:0;c
+: 1719497379:0;c
+: 1719497380:0;c
+: 1719497381:0;c
+: 1719497384:0;nv test.py
+: 1719497457:0;nv
+: 1719497470:0;nv test.py
+: 1719497497:0;nv
+: 1719497595:0;nv
+: 1719497716:0;nv
+: 1719497736:0;nv Templates
+: 1719497742:0;cd numpt
+: 1719497743:0;cd nump
+: 1719497746:0;nv test.py
+: 1719497759:0;cd random2
+: 1719497764:0;nv src/main.cpp
+: 1719497794:0;nv
+: 1719499127:0;nv
+: 1719499176:0;nv test.py
+: 1719499221:0;cp test.py DSA
+: 1719499223:0;cd DSA
+: 1719499223:0;ll
+: 1719499226:0;mkvenv
+: 1719499230:0;nv test.py
+: 1719499241:0;pip install random
+: 1719499246:0;nv
+: 1719499278:0;nv test.py
+: 1719499312:0;ll
+: 1719499329:0;ncdp
+: 1719499440:0;pip install pyfix-imports
+: 1719499477:0;nv test.py
+: 1719499486:0;ll
+: 1719499491:0;pip install pyfix-imports
+: 1719499495:0;nv
+: 1719500361:0;cdp
+: 1719500362:0;kk
+: 1719500362:0;cdp
+: 1719500363:0;ll
+: 1719500369:0;cd PYTHON-ML
+: 1719500369:0;ll
+: 1719500371:0;nv test.py
+: 1719500592:0;nv test.py
+: 1719501453:0;c
+: 1719501454:0;c
+: 1719501454:0;c
+: 1719501571:0;ys
+: 1719502335:0;ping 8.8.8.8
+: 1719502345:0;ys
+: 1719502654:0;ys
+: 1719502684:0;cd
+: 1719502685:0;ys
+: 1719502709:0;c
+: 1719502709:0;c
+: 1719502710:0;c
+: 1719502710:0;c
+: 1719504619:0;nv
+: 1719504640:0;nv
+: 1719510728:0;python
+: 1719510953:0;cd python
+: 1719510954:0;ll
+: 1719510981:0;mkdir learn-python
+: 1719510983:0;cd learn
+: 1719510986:0;cdp
+: 1719510989:0;cd learn-python
+: 1719510989:0;ll
+: 1719510994:0;mkvenv
+: 1719511013:0;nv builtin_func.py
+: 1719511352:0;nv
+: 1719511533:0;ll
+: 1719511537:0;cd learn-python
+: 1719511541:0;ll
+: 1719511568:0;nv
+: 1719511573:0;cd learn-python
+: 1719511576:0;nv builtin_func.py
+: 1719545495:0;nv
+: 1719549382:0;nv
+: 1719549444:0;nv
+: 1719549511:0;nv
+: 1719549818:0;ll
+: 1719549819:0;c
+: 1719551696:0;cd learn-python
+: 1719551697:0;ll
+: 1719551701:0;notebook .
+: 1719551722:0;jupyter .
+: 1719551958:0;source /home/rishabh/.virtualenvs/learn-python-oogj/bin/activate
+: 1719558750:0;kk
+: 1719558751:0;ll
+: 1719558751:0;c
+: 1719558752:0;c
+: 1719558752:0;c
+: 1719558753:0;c
+: 1719558753:0;c
+: 1719558753:0;c
+: 1719558753:0;c
+: 1719559193:0;nv builtin_func.py
+: 1719559427:0;nv
+: 1719559437:0;make
+: 1719559454:0;cat ~/projects/PYTHON-ML/numpy/test.py
+: 1719559467:0;nv ~/projects/PYTHON-ML/numpy/test.py
+: 1719559480:0;make run
+: 1719559486:0;make run
+: 1719559492:0;lg
+: 1719559548:0;time make run
+: 1719559550:0;time make run
+: 1719559551:0;time make run
+: 1719559552:0;time make run
+: 1719559552:0;time make run
+: 1719559553:0;time make run
+: 1719559554:0;time make run
+: 1719559555:0;time make run
+: 1719559555:0;time make run
+: 1719559556:0;time make run
+: 1719572042:0;n
+: 1719572043:0;vnv
+: 1719572044:0;nv
+: 1719572551:0;chattr --help
+: 1719572557:0;tldr chattr
+: 1719574428:0;ping 8.8.8.8
+: 1719579822:0;nv
+: 1719580056:0;tldr jupyter
+: 1719580081:0;jupyter nbconvert --to script builtin-func.ipynb
+: 1719580088:0;nv builtin
+: 1719580092:0;nv builtin-func.py
+: 1719580164:0;jupyter notebook
+: 1719580171:0;jupyter notebook .
+: 1719580178:0;cdp
+: 1719580180:0;jupyter notebook .
+: 1719580196:0;yay jupyter-notebook
+: 1719580242:0;cd learn-python
+: 1719580244:0;jupyter notebook .
+: 1719583160:0;nv a.txt
+: 1719583608:0;cd web
+: 1719583609:0;ll
+: 1719583612:0;cd timer-app
+: 1719583613:0;ll
+: 1719583615:0;cd src
+: 1719583616:0;ll
+: 1719583618:0;cdp
+: 1719583619:0;cdp
+: 1719583622:0;cd IP
+: 1719583627:0;touch a.txt
+: 1719583629:0;nv ds.js
+: 1719583989:0;cd IP
+: 1719583990:0;ll
+: 1719583995:0;nv promise.
+: 1719583997:0;nv promise.html
+: 1719590083:0;lg
+: 1719590130:0;cd numpy
+: 1719590132:0;nv test.py
+: 1719590226:0;nv
+: 1719590304:0;nv
+: 1719590929:0;ruff check test.py
+: 1719590977:0;pip install ruff
+: 1719590992:0;nv ruff.py
+: 1719591228:0;nv ruff.py
+: 1719591310:0;ruff check test.py
+: 1719592265:0;nv
+: 1719592417:0;nv
+: 1719592463:0;make
+: 1719592472:0;pdm add ruff
+: 1719592499:0;make
+: 1719592510:0;nv
+: 1719592521:0;make run
+: 1719592561:0;make
+: 1719592567:0;make
+: 1719592572:0;make run
+: 1719592619:0;make run
+: 1719592651:0;ruff check ~/projects/PYTHON-ML/numpy/test.py
+: 1719592663:0;make run
+: 1719592710:0;pdm clean
+: 1719592720:0;pdm remove ruff
+: 1719592729:0;cd
+: 1719592733:0;cd pyf
+: 1719592733:0;ll
+: 1719592734:0;lg
+: 1719592737:0;pdm remove ruff
+: 1719592743:0;nv pyproject.toml
+: 1719592754:0;rm pdm.lock
+: 1719592759:0;pdm install
+: 1719592767:0;nv pdm.lock
+: 1719595571:0;nv
+: 1719595586:0;cd num
+: 1719595592:0;ruff format test.py
+: 1719595594:0;nv test.py
+: 1719595600:0;ruff format test.py
+: 1719595601:0;nv
+: 1719595614:0;ruff format test.py
+: 1719595617:0;nv test.py
+: 1719595639:0;nv
+: 1719595762:0;nv
+: 1719595869:0;nv
+: 1719595935:0;nv
+: 1719596397:0;nv
+: 1719596605:0;cz
+: 1719596636:0;ruff generate-shell-completion zsh > ~/.local/share/zsh/_ruff
+: 1719596648:0;ll ~/.local/share/zsh
+: 1719596678:0;e
+: 1719596683:0;e
+: 1719596697:0;exec zsh
+: 1719596714:0;e
+: 1719596722:0;wpaperctl next
+: 1719596723:0;nv
+: 1719596744:0;nv
+: 1719596747:0;cz
+: 1719596772:0;e
+: 1719596796:0;pdm autoload -Uz compinit && compinit
+: 1719596799:0;autoload -Uz compinit && compinit
+: 1719596801:0;ll
+: 1719596817:0;e
+: 1719596834:0;nv
+: 1719596857:0;e
+: 1719596874:0;e
+: 1719597091:0;cd
+: 1719597095:0;cd auto
+: 1719597096:0;ll
+: 1719597097:0;nv
+: 1719597225:0;nv
+: 1719597713:0;make
+: 1719597727:0;nv
+: 1719597751:0;make run
+: 1719597879:0;nv
+: 1719597883:0;lg
+: 1719597888:0;cdp
+: 1719597889:0;ll
+: 1719597978:0;nv .ruff_cache
+: 1719635223:0;ll
+: 1719635225:0;nv
+: 1719635322:0;ys
+: 1719635670:0;nv
+: 1719638251:0;nv ~/.config/pyfix-imports/config.toml
+: 1719638264:0;nv
+: 1719638266:0;ys
+: 1719639099:0;make
+: 1719639132:0;make run
+: 1719639160:0;make run
+: 1719639177:0;nv
+: 1719639210:0;make run
+: 1719639239:0;python -m pyfix_imports -f ~/projects/PYTHON-ML/autoimport/src/autoimport/model.py
+: 1719639251:0;nv
+: 1719639273:0;python -m pyfix_imports -f ~/projects/PYTHON-ML/autoimport/src/autoimport/model.py
+: 1719639285:0;python -m pyfix_imports ~/projects/PYTHON-ML/autoimport/src/autoimport/model.py
+: 1719639304:0;python -m pyfix_imports ~/projects/PYTHON-ML/autoimport/src/autoimport/model.py
+: 1719639321:0;python -m pyfix_imports ~/projects/PYTHON-ML/autoimport/src/autoimport/model.py | head -n 10
+: 1719639357:0;python -m pyfix_imports ~/projects/PYTHON-ML/autoimport/src/autoimport/services.py | head -n 10
+: 1719639373:0;make run
+: 1719639447:0;python -m pyfix_imports -f ~/projects/PYTHON-ML/numpy/test.py
+: 1719639535:0;e
+: 1719639537:0;lg
+: 1719639605:0;nv
+: 1719639617:0;make run
+: 1719639629:0;python -m pyfix_imports -f ~/projects/PYTHON-ML/numpy/test.py
+: 1719639783:0;make run
+: 1719639992:0;cd pyfix
+: 1719639993:0;ll
+: 1719640013:0;pdm publish
+: 1719640040:0;ll
+: 1719640042:0;cd numpy
+: 1719640043:0;ll
+: 1719640050:0;pip install pyfix-imports --upgrade
+: 1719640062:0;nv
+: 1719644848:0;cdp
+: 1719644849:0;cdp
+: 1719644851:0;cd nump
+: 1719644856:0;nv autoflake.py
+: 1719644909:0;pip install pyfix-imports --upgrade
+: 1719645349:0;cd
+: 1719645349:0;c
+: 1719645396:0;nv
+: 1719645470:0;make
+: 1719645476:0;make run
+: 1719645490:0;python -m pyfix_imports --help
+: 1719645505:0;python -m pyfix_imports ~
+: 1719645557:0;python -m pyfix_imports --help
+: 1719645569:0;python -m pyfix_imports --help
+: 1719645575:0;python -m pyfix_imports --help
+: 1719645580:0;python -m pyfix_imports ~
+: 1719645584:0;python -m pyfix_imports .
+: 1719645600:0;python -m pyfix_imports ~/projects/PYTHON-ML/numpy/tete.ot
+: 1719645627:0;python -m pyfix_imports /etc/pacman.conf
+: 1719646249:0;nv
+: 1719646257:0;nv
+: 1719646692:0;python -m pyfix_imports ../test.py
+: 1719647885:0;nv
+: 1719651943:0;nv
+: 1719651966:0;pacman -Q | fzf
+: 1719651990:0;yay rofi
+: 1719652971:0;cd
+: 1719652978:0;cd dsa
+: 1719652982:0;cd gfg
+: 1719652983:0;ll
+: 1719652993:0;nv identincal-linked-list.py
+: 1719654687:0;nro
+: 1719654759:0;nro
+: 1719657092:0;nv
+: 1719657136:0;pip install pyfix-imports --upgrade
+: 1719657145:0;nv
+: 1719657159:0;pip install sympy
+: 1719658474:0;curl -s https://get.modular.com | sh -
+: 1719658481:0;yay mojo
+: 1719658635:0;nv
+: 1719658642:0;systemd-analyze plot > boot.svg
+: 1719658647:0;xo boot.svg
+: 1719658754:0;c
+: 1719660140:0;nv
+: 1719660276:0;nv
+: 1719660312:0;nv
+: 1719660378:0;nv
+: 1719660863:0;cdp
+: 1719660864:0;ll
+: 1719660866:0;rmvenv
+: 1719660873:0;pdm install numpy
+: 1719660894:0;mkvenv
+: 1719660902:0;pdm install
+: 1719660957:0;nv requirements.txt
+: 1719660961:0;pdm list
+: 1719660982:0;pdm uninstall click
+: 1719660989:0;nv
+: 1719660999:0;pdm install sympy
+: 1719661024:0;cdp
+: 1719661058:0;ll
+: 1719661062:0;cd dsa-
+: 1719661063:0;ll
+: 1719661068:0;rm -rf pdm.lock
+: 1719661071:0;pdm sync
+: 1719661080:0;pip install -r requirements.txt
+: 1719661141:0;uv
+: 1719661156:0;ll
+: 1719661250:0;nv
+: 1719661903:0;nv
+: 1719662057:0;cd pyf
+: 1719662058:0;ll
+: 1719662059:0;lg
+: 1719662076:0;ll
+: 1719662078:0;make
+: 1719662324:0;make
+: 1719662343:0;make run
+: 1719662374:0;make run
+: 1719662398:0;python -m pyfix_imports ~/projects/PYTHON-ML/numpy/test.py
+: 1719662408:0;python -m pyfix_imports -f ~/projects/PYTHON-ML/numpy/test.py
+: 1719662427:0;lg
+: 1719662482:0;cd pyf
+: 1719662483:0;ll
+: 1719662485:0;pdm publish
+: 1719662492:0;nv pyproject.toml
+: 1719662496:0;pdm publish
+: 1719662519:0;pdm publish
+: 1719662545:0;ll
+: 1719662546:0;cdp
+: 1719662548:0;cd nump
+: 1719662549:0;ll
+: 1719662555:0;pip install pyfix-imports --upgrade
+: 1719662557:0;pip install pyfix-imports --upgrade
+: 1719662564:0;nv pyfix
+: 1719662572:0;nv pyfix.py
+: 1719662606:0;pip install autoimport
+: 1719662623:0;nv pyfix.py
+: 1719662670:0;lg
+: 1719662756:0;nv
+: 1719662899:0;nv
+: 1719663012:0;pdm publish
+: 1719663039:0;ll
+: 1719663045:0;pip install pyfix-imports --upgrade
+: 1719663048:0;pip install pyfix-imports --upgrade
+: 1719663053:0;nv
+: 1719663131:0;nv
+: 1719663311:0;ll
+: 1719663311:0;lg
+: 1719663316:0;lg
+: 1719664140:0;c
+: 1719664140:0;c
+: 1719664141:0;c
+: 1719664141:0;c
+: 1719664142:0;c
+: 1719664143:0;ll
+: 1719665269:0;ll
+: 1719665270:0;ll
+: 1719665480:0;nv
+: 1719666617:0;cd
+: 1719666621:0;cd .config/
+: 1719666627:0;git clone https://github.com/berat-552/neovim
+: 1719666638:0;NVIM_APPNAME=neovim nvim
+: 1719666792:0;nv
+: 1719666839:0;exec zsh
+: 1719666841:0;NVIM_APPNAME=neovim nvim
+: 1719666858:0;nv neovim
+: 1719666878:0;NVIM_APPNAME=neovim nvim
+: 1719666888:0;NVIM_APPNAME=neovim nvim
+: 1719666933:0;NVIM_APPNAME=neovim nvim
+: 1719666973:0;NVIM_APPNAME=neovim nvim
+: 1719667002:0;NVIM_APPNAME=neovim nvim
+: 1719667229:0;nv
+: 1719667345:0;rm neovim ~/.local/share/neovim
+: 1719667353:0;rm ~/.cache/neovim
+: 1719667354:0;ll
+: 1719667356:0;cd
+: 1719667357:0;ncdu
+: 1719667796:0;cdp
+: 1719667797:0;ll
+: 1719667798:0;cdp
+: 1719667799:0;e
+: 1719667802:0;cd dsa
+: 1719667803:0;ll
+: 1719667808:0;nv dict-size.py
+: 1719671619:0;ncdu
+: 1719673289:0;nv
+: 1719673617:0;cd learn
+: 1719673619:0;ll
+: 1719673621:0;cdp
+: 1719673625:0;cd learn-python
+: 1719673633:0;nv
+: 1719682639:0;ll
+: 1719682650:0;pip install -r requirements.txt
+: 1719682702:0;nv
+: 1719682936:0;c
+: 1719682936:0;c
+: 1719682936:0;c
+: 1719682937:0;cc
+: 1719682938:0;c
+: 1719682939:0;ll
+: 1719682942:0;nv
+: 1719683210:0;nv
+: 1719683797:0;nv
+: 1719683802:0;nv
+: 1719683840:0;nv
+: 1719683898:0;nv
+: 1719684006:0;nv
+: 1719684283:0;nv
+: 1719684316:0;nv
+: 1719684408:0;nv
+: 1719685317:0;c
+: 1719685318:0;c
+: 1719685318:0;c
+: 1719685319:0;c
+: 1719685503:0;cdp
+: 1719685505:0;cd numpy
+: 1719685516:0;nv flake-test.pt
+: 1719685520:0;nv flake-test.py
+: 1719685754:0;make
+: 1719685805:0;python -m pyfix_imports /home/rishabh/projects/PYTHON-ML/numpy/flake-test.py
+: 1719685820:0;python -m pyfix_imports /home/rishabh/projects/PYTHON-ML/numpy/flake-test.py | head -n 10
+: 1719685869:0;python -m pyfix_imports /home/rishabh/projects/PYTHON-ML/numpy/flake-test.py | head -n 10
+: 1719685883:0;python -m pyfix_imports /home/rishabh/projects/PYTHON-ML/numpy/flake-test.py | head -n 10
+: 1719686533:0;cd pyf
+: 1719686535:0;ll
+: 1719686540:0;pdm publish
+: 1719686578:0;cd num
+: 1719686585:0;pip install pyfix-imports --upgrade
+: 1719686588:0;pip install pyfix-imports --upgrade
+: 1719686594:0;nv
+: 1719686689:0;nv
+: 1719718049:0;ys
+: 1719718135:0;cd py
+: 1719718136:0;ll
+: 1719718139:0;cd pyf
+: 1719718140:0;ll
+: 1719718141:0;lg
+: 1719719854:0;nv
+: 1719719891:0;nv
+: 1719720795:0;cd projects/PYTHON-ML
+: 1719720796:0;ll
+: 1719720798:0;cd learn
+: 1719720800:0;cdp
+: 1719720804:0;cd learn-python
+: 1719720808:0;nv classs.pu
+: 1719720811:0;nv classs.py
+: 1719721821:0;ll
+: 1719721827:0;make
+: 1719724926:0;nv pyproject.toml
+: 1719724948:0;pdm publish
+: 1719724983:0;lg
+: 1719725000:0;cd
+: 1719725002:0;cd numpy
+: 1719725006:0;pip install pyfix-imports --upgrade
+: 1719725010:0;pip install pyfix-imports --upgrade
+: 1719755649:0;cd nvim
+: 1719755653:0;one
+: 1719757990:0;c
+: 1719757990:0;c
+: 1719757990:0;c
+: 1719757991:0;c
+: 1719757991:0;c
+: 1719757992:0;c
+: 1719757993:0;nv
+: 1719760662:0;shotwell
+: 1719760761:0;yay gthumb
+: 1719760776:0;gthumb
+: 1719761707:0;cd
+: 1719761708:0;cd dsa
+: 1719761711:0;cd gfg
+: 1719761712:0;ll
+: 1719761747:0;nv delete-from-doubly-ll.py
+: 1719761787:0;ll
+: 1719761789:0;pip install pyfix-imports --upgrade
+: 1719761795:0;e
+: 1719761797:0;nv
+: 1719761879:0;nv
+: 1719764228:0;pip install pdm
+: 1719764508:0;cd pyf
+: 1719764508:0;ll
+: 1719764512:0;mkdir .github
+: 1719764515:0;cd .git
+: 1719764516:0;cdp
+: 1719764519:0;cd .github
+: 1719764520:0;ll
+: 1719764526:0;mkdir workflows
+: 1719764527:0;cd workflows
+: 1719764533:0;nv python-app.yml
+: 1719764587:0;nv
+: 1719764634:0;nv
+: 1719764684:0;act
+: 1719765298:0;act
+: 1719765636:0;pdm add -dG ruff
+: 1719765647:0;pdm self update
+: 1719765658:0;ll
+: 1719765719:0;pdm install -G
+: 1719765724:0;pdm install
+: 1719765771:0;pdm install -d
+: 1719765806:0;pdm add -dG lint ruff
+: 1719765822:0;pdm install -d
+: 1719765834:0;rm pdm.lock
+: 1719765838:0;pdm install
+: 1719765852:0;ll
+: 1719765866:0;rm -rf .venv/bin/*
+: 1719765868:0;cdp
+: 1719765869:0;ll
+: 1719765872:0;cd pyfix-imports
+: 1719765873:0;ll
+: 1719765876:0;pdm install
+: 1719765896:0;e
+: 1719765909:0;ll
+: 1719765911:0;nv python-app.yml
+: 1719765917:0;ll
+: 1719765918:0;cdp
+: 1719765921:0;cd workflows
+: 1719765922:0;ll
+: 1719765923:0;cdp
+: 1719765924:0;cdp
+: 1719765925:0;ll
+: 1719765929:0;lg
+: 1719765940:0;nv
+: 1719765945:0;act
+: 1719766067:0;act
+: 1719767673:0;kg
+: 1719767674:0;lg
+: 1719767799:0;ll
+: 1719767804:0;ruff check .
+: 1719767812:0;ruff check src/pyfix_imports/*
+: 1719767830:0;ruff check src/pyfix_imports/*
+: 1719767834:0;ruff check .
+: 1719767848:0;ll
+: 1719767860:0;act
+: 1719767943:0;act
+: 1719768022:0;act
+: 1719768100:0;act
+: 1719768181:0;act
+: 1719768287:0;act
+: 1719768527:0;make
+: 1719768535:0;make
+: 1719768541:0;ys
+: 1719768543:0;cd
+: 1719768546:0;cd
+: 1719768547:0;ys
+: 1719768689:0;ll
+: 1719768690:0;c
+: 1719768691:0;ll
+: 1719768699:0;cd py
+: 1719768702:0;cd pyfix-imports
+: 1719768703:0;ll
+: 1719768706:0;lg
+: 1719768711:0;lg
+: 1719768769:0;cp ~/projects/PYTHON-ML/numpy/test.py .github/workflows/
+: 1719768770:0;nv
+: 1719768900:0;act
+: 1719768996:0;ruff check ./src
+: 1719768999:0;ruff check .
+: 1719769001:0;ruff check ./src
+: 1719769014:0;act
+: 1719769112:0;act
+: 1719769248:0;act
+: 1719769438:0;act
+: 1719769685:0;cd
+: 1719769687:0;cd pyfix-imports
+: 1719769690:0;lg
+: 1719769697:0;pdm config pypi.url
+: 1719769726:0;pdm config pypi.url "https://pypi.org/project/pyfix-imports/"
+: 1719769730:0;nv pyproject.toml
+: 1719769741:0;pdm config pypi.url
+: 1719769754:0;pdm config check_update false
+: 1719769760:0;nv pyproject.toml
+: 1719769766:0;lg
+: 1719769834:0;lg
+: 1719770030:0;git pull
+: 1719770035:0;pdm install
+: 1719770053:0;nv /home/rishabh/.local/state/pdm/log/pdm-install-su2ghini.log
+: 1719770071:0;rm -rf pdm.lock
+: 1719770074:0;pdm install
+: 1719770084:0;ping 8.8.8.8
+: 1719770094:0;rm -rf .venv/bin/*
+: 1719770096:0;pdm install
+: 1719770116:0;pdm install -v
+: 1719770141:0;anv
+: 1719770142:0;nv
+: 1719770160:0;pdm install -v
+: 1719770179:0;clear
+: 1719770195:0;lg
+: 1719770229:0;lg
+: 1719770232:0;nv
+: 1719770241:0;lg
+: 1719770243:0;nv
+: 1719770250:0;pdm install -d
+: 1719770270:0;rm -rf pdm.lock
+: 1719770277:0;rm -rf __pycache__/*
+: 1719770281:0;ll
+: 1719770292:0;rm -rf .pdm-build dist
+: 1719770293:0;ll
+: 1719770299:0;cdp
+: 1719770303:0;cd pyfix-imports
+: 1719770305:0;ll
+: 1719770311:0;rm -rf .venv
+: 1719770312:0;ll
+: 1719770313:0;cdp
+: 1719770315:0;cd pyf
+: 1719770316:0;ll
+: 1719770319:0;pdm venv create
+: 1719770323:0;cdp
+: 1719770327:0;cd pyfix-imports
+: 1719770328:0;ll
+: 1719770332:0;pdm install -d
+: 1719770346:0;pdm install -v
+: 1719770446:0;pdm config --local pypi.verify_ssl false
+: 1719770449:0;lg
+: 1719770460:0;lg
+: 1719770473:0;pdm config pypi.url "https://test.pypi.org/simple"
+: 1719770479:0;rm -rf pdm.toml
+: 1719770481:0;lg
+: 1719770488:0;pdm install
+: 1719770503:0;pdm config pypi.url
+: 1719770511:0;pdm config pypi.url "https://pypi.org/simple"
+: 1719770516:0;pdm install
+: 1719770524:0;lg
+: 1719770526:0;nv
+: 1719770585:0;pdm add -dG tests pytest
+: 1719770592:0;pytest
+: 1719770605:0;nv
+: 1719770796:0;e
+: 1719770821:0;make
+: 1719770827:0;make run
+: 1719770869:0;nv
+: 1719770895:0;make run
+: 1719770928:0;python -m pyfix_imports -f ~/projects/PYTHON-ML/numpy/test.py
+: 1719770966:0;make run
+: 1719771049:0;pytest
+: 1719771117:0;pytest tests/test.py
+: 1719771133:0;python tests/test.py
+: 1719771502:0;pdm run pytest
+: 1719771509:0;lll
+: 1719771596:0;pdm run pytest
+: 1719771663:0;ll
+: 1719771665:0;pdm run pytest
+: 1719771682:0;pdm run pytest
+: 1719771691:0;nv pyproject.toml
+: 1719771826:0;pdm run pytest
+: 1719771838:0;pdm run pytest
+: 1719771849:0;pytest .
+: 1719771857:0;pytest tests/code_test.py
+: 1719805252:0;nv
+: 1719805344:0;cd pyf
+: 1719805346:0;pytest
+: 1719805362:0;pytest --help
+: 1719805382:0;tldr pytest
+: 1719805398:0;nv
+: 1719805408:0;pytest
+: 1719805441:0;pdm run pytest
+: 1719805450:0;ll
+: 1719805457:0;nv pyproject.toml
+: 1719805470:0;pytest
+: 1719805478:0;cd tests
+: 1719805480:0;pytest
+: 1719805487:0;cdp
+: 1719805544:0;pdm config install.cache on
+: 1719805652:0;pytest tests
+: 1719805656:0;pytest tests/code_test.py
+: 1719805665:0;pdm run pytest
+: 1719805726:0;pytest
+: 1719805770:0;pytest
+: 1719805773:0;pdm run pytest
+: 1719805787:0;pdm run pytest -vv
+: 1719805822:0;pdm run pytest -vv
+: 1719805855:0;pdm run pytest -vv
+: 1719805881:0;pdm run pytest -vv
+: 1719805960:0;pdm run pytest -vv
+: 1719806113:0;pdm run pytest
+: 1719806167:0;nv
+: 1719806249:0;nv
+: 1719806266:0;pdm run pytest
+: 1719809311:0;cd pyf
+: 1719809312:0;ll
+: 1719809313:0;lg
+: 1719809470:0;act
+: 1719809491:0;python -v
+: 1719809500:0;python ---version
+: 1719809504:0;python --version
+: 1719809531:0;act
+: 1719809635:0;act
+: 1719809705:0;nv
+: 1719809742:0;pdm run -v pytest
+: 1719809748:0;lg
+: 1719809836:0;pdm sync -d -G tests
+: 1719809852:0;pdm install
+: 1719809874:0;pdm list
+: 1719809881:0;lg
+: 1719810155:0;ll
+: 1719810156:0;lg
+: 1719810321:0;nv
+: 1719810489:0;cd pyfi
+: 1719810490:0;ll
+: 1719810491:0;lg
+: 1719810495:0;lg
+: 1719810502:0;pdm install
+: 1719810517:0;nv pyproject.toml
+: 1719810555:0;lg
+: 1719810565:0;nv pyproject.toml
+: 1719810571:0;nv
+: 1719810575:0;lg
+: 1719810643:0;nv
+: 1719810694:0;lg
+: 1719810864:0;nv
+: 1719811090:0;act
+: 1719811105:0;act
+: 1719811506:0;duf
+: 1719811511:0;ncdu
+: 1719811574:0;cd pyfi
+: 1719811575:0;ll
+: 1719811575:0;lg
+: 1719811968:0;lg
+: 1719811973:0;lg
+: 1719811989:0;git merge github-action main
+: 1719811992:0;lg
+: 1719812321:0;lg
+: 1719812327:0;git reset
+: 1719812330:0;git reset --hard
+: 1719812336:0;lg
+: 1719812348:0;lg
+: 1719812353:0;cdp
+: 1719812353:0;ll
+: 1719812360:0;rm -rf pyfix-imports
+: 1719812374:0;gh repo clone Rishabh672003/pyfix-imports
+: 1719812398:0;cd pyfix-imports
+: 1719812399:0;ll
+: 1719812402:0;pdm install
+: 1719812433:0;nv .github/workflows/python-app.yml
+: 1719812469:0;pytest
+: 1719812476:0;pytest .
+: 1719817366:0;act
+: 1719818027:0;act
+: 1719818032:0;act
+: 1719819223:0;act
+: 1719819714:0;exit
+: 1719819755:0;clear
+: 1719819786:0;act
+: 1719820068:0;act
+: 1719820193:0;c
+: 1719820197:0;act
+: 1719820270:0;pytest
+: 1719820316:0;pytest
+: 1719820318:0;act
+: 1719825164:0;cd
+: 1719825167:0;cd dsa
+: 1719825167:0;ll
+: 1719825171:0;cd leetcode
+: 1719825172:0;ll
+: 1719825178:0;nv 3-cons-odds.pu
+: 1719825180:0;nv 3-cons-odds.py
+: 1719827066:0;act
+: 1719827190:0;act
+: 1719827298:0;act
+: 1719827516:0;act
+: 1719827754:0;act
+: 1719827828:0;lg
+: 1719828196:0;act
+: 1719828236:0;act
+: 1719828248:0;act
+: 1719828261:0;act
+: 1719828279:0;act
+: 1719828359:0;act
+: 1719828443:0;act
+: 1719828553:0;pdm add tomllib
+: 1719828620:0;act
+: 1719828726:0;act
+: 1719828826:0;act
+: 1719828908:0;lg
+: 1719831206:0;nv
+: 1719833049:0;la
+: 1719833049:0;la
+: 1719833050:0;la
+: 1719833051:0;la
+: 1719833051:0;la
+: 1719833052:0;la
+: 1719833052:0;ll
+: 1719833053:0;ll
+: 1719833054:0;l
+: 1719833054:0;l
+: 1719833055:0;l
+: 1719833055:0;l
+: 1719833055:0;l
+: 1719833056:0;ll
+: 1719835334:0;duf
+: 1719835339:0;cd /
+: 1719835341:0;ncdu
+: 1719835419:0;tldr ncdu
+: 1719835437:0;ncdu --exclude /mnt
+: 1719835516:0;yay -Scc
+: 1719835527:0;ncdu --exclude /mnt
+: 1719835615:0;duf
+: 1719838389:0;qcd
+: 1719838391:0;cd
+: 1719838394:0;cd /
+: 1719838404:0;ncdu --exclude /mnt -o ~/disk
+: 1719838439:0;nv
+: 1719838440:0;cd
+: 1719838443:0;nv disk
+: 1719838611:0;cd
+: 1719838614:0;cd projects
+: 1719838614:0;ll
+: 1719838617:0;nv RUST
+: 1719838818:0;jq disk
+: 1719845346:0;nv
+: 1719845402:0;cd dsa
+: 1719845403:0;ll
+: 1719845404:0;cd gfg
+: 1719845422:0;ll
+: 1719845432:0;dos2unix make-bin-tree-from-ll.py
+: 1719845436:0;nv make-bin-tree-from-ll.py
+: 1719849064:0;nv
+: 1719854654:0;nv
+: 1719854658:0;cd
+: 1719854659:0;cd
+: 1719854663:0;cd projects/go-pro
+: 1719854664:0;ll
+: 1719854667:0;cdp
+: 1719854671:0;mv go-pro Go
+: 1719854674:0;cd Go
+: 1719854674:0;ll
+: 1719854677:0;nv a.txt
+: 1719854868:0;ll
+: 1719854871:0;cd greeting
+: 1719854872:0;ll
+: 1719854877:0;go mod init
+: 1719854888:0;go mod init greeting
+: 1719854891:0;ll
+: 1719854894:0;nv main.go
+: 1719855186:0;go --help
+: 1719855194:0;go build
+: 1719855201:0;cdp
+: 1719855202:0;ll
+: 1719855211:0;mkdir new-go-pro
+: 1719855213:0;cd new-go-pro
+: 1719855221:0;cd ll
+: 1719855224:0;cdp
+: 1719855225:0;cdp
+: 1719855225:0;cd
+: 1719855229:0;cdd gp
+: 1719855230:0;cdd go
+: 1719855239:0;go mod init test
+: 1719855240:0;ll
+: 1719855296:0;nv main.go
+: 1719855396:0;go build main.go
+: 1719855398:0;ll
+: 1719855401:0;./main
+: 1719855410:0;./main
+: 1719855440:0;go build main.go
+: 1719855442:0;./main
+: 1719855446:0;go run
+: 1719855453:0;go run main
+: 1719855455:0;go run main.go
+: 1719855469:0;tldr go
+: 1719856167:0;cdp
+: 1719856169:0;cdp
+: 1719856176:0;mv PYTHON-ML
+: 1719856178:0;cd PYTHON-ML
+: 1719856179:0;ll
+: 1719856199:0;cd DSA
+: 1719856200:0;ll
+: 1719856201:0;cdp
+: 1719856207:0;nv
+: 1719857134:0;e
+: 1719857138:0;cd pyf
+: 1719857140:0;ll
+: 1719857141:0;nv
+: 1719857329:0;nv
+: 1719857734:0;e
+: 1719857736:0;ll
+: 1719857737:0;lg
+: 1719857757:0;pdm run python -m tests/mod_test.py
+: 1719857798:0;pdm run python tests/mod_test.py
+: 1719857815:0;pdm run python -m tests tests/mod_test.py
+: 1719857830:0;pdm run python -m tests
+: 1719857865:0;nv
+: 1719857939:0;pdm run python -m tests
+: 1719857962:0;pdm run python -m tests
+: 1719857998:0;pdm run python -m tests
+: 1719858035:0;pdm run python -m tests
+: 1719858051:0;pdm run python -m tests
+: 1719858062:0;pdm run python -m tests
+: 1719858117:0;pytest
+: 1719858151:0;pytest
+: 1719858176:0;pytest
+: 1719858185:0;pytest -v
+: 1719858189:0;pytest -vv
+: 1719858802:0;pdm run python -m tests
+: 1719858820:0;pdm run python -m tests
+: 1719858866:0;pdm run python -m tests
+: 1719858876:0;pdm run python -m tests
+: 1719858909:0;pdm run python -m tests
+: 1719891875:0;ll
+: 1719891876:0;ll
+: 1719892714:0;ys
+: 1719893038:0;rm -rf .pyflyby
+: 1719893044:0;nv .luacheckrc
+: 1719896614:0;nv
+: 1719896784:0;ys
+: 1719896824:0;cd dsa
+: 1719896825:0;ll
+: 1719896833:0;cd gfg
+: 1719896834:0;ll
+: 1719896890:0;nv ll-forms-a-palindrom.py
+: 1719903457:0;nv
+: 1719904885:0;nv
+: 1719906499:0;nv
+: 1719906512:0;cdp
+: 1719906514:0;nv
+: 1719917900:0;cd
+: 1719917902:0;cd video
+: 1719917902:0;ll
+: 1719917906:0;cd p
+: 1719917909:0;cd screen
+: 1719917909:0;ll
+: 1719917925:0;convert recording_2024-07-02-162710.mp4
+: 1719917947:0;convert_video recording_2024-07-02-162710.mp4
+: 1719922946:0;cd
+: 1719922948:0;cd dsa
+: 1719922948:0;ll
+: 1719922951:0;nv
+: 1719926472:0;nv
+: 1719932918:0;cd leetcode
+: 1719932936:0;nv 225-implement-stack-using-queues.py
+: 1719933229:0;nv
+: 1719935821:0;nv
+: 1719941817:0;nv
+: 1719942246:0;mv leetcode/index-of-an-extra-element.py gfg
+: 1719942391:0;mv leetcode/nuts-and-bolts.py gfg
+: 1719942700:0;ll
+: 1719942702:0;cd dsa
+: 1719942703:0;ll
+: 1719942706:0;cd leetcode
+: 1719942707:0;ll
+: 1719942773:0;nv
+: 1719942894:0;ll
+: 1719942898:0;ll --sort name
+: 1719979569:0;ys
+: 1719979660:0;fnm
+: 1719979663:0;fnm ls
+: 1719979670:0;which node
+: 1719979683:0;which npm
+: 1719979702:0;ls /run/user/1000/fnm_multishells/14296_1719979659342
+: 1719979706:0;ls /run/user/1000/fnm_multishells/14296_1719979659342/bin
+: 1719979718:0;ll /run/user/1000/fnm_multishells/14296_1719979659342/bin
+: 1719979724:0;ll /run/user/1000/fnm_multishells/14296_1719979659342/bin
+: 1719980847:0;yay -Rns nodejs
+: 1719980968:0;nv
+: 1719983543:0;c
+: 1719983543:0;c
+: 1719983544:0;c
+: 1719983544:0;c
+: 1719983544:0;c
+: 1719983969:0;nv
+: 1719984025:0;nv
+: 1719984078:0;nv
+: 1719994842:0;nv
+: 1719994852:0;cd gfg
+: 1719994871:0;nv remove-all-occurence-of-duplicates.py
+: 1720001691:0;nv
+: 1720001905:0;cd
+: 1720001906:0;cd cpp
+: 1720001909:0;cd random
+: 1720001909:0;ll
+: 1720001911:0;cdp
+: 1720001921:0;cd CPP/random2
+: 1720001923:0;ll
+: 1720001926:0;cd build
+: 1720001927:0;ll
+: 1720001975:0;cd[]
+: 1720001977:0;cdp
+: 1720001977:0;ll
+: 1720002994:0;cdp
+: 1720002995:0;ll
+: 1720002996:0;lll
+: 1720007408:0;nv
+: 1720016605:0;c
+: 1720016606:0;cc
+: 1720016606:0;c
+: 1720016608:0;c
+: 1720016608:0;c
+: 1720016609:0;c
+: 1720016609:0;c
+: 1720016611:0;ll
+: 1720016611:0;c
+: 1720016612:0;c
+: 1720016612:0;c
+: 1720016613:0;ll
+: 1720016615:0;c
+: 1720016615:0;c
+: 1720016618:0;nv prime.py
+: 1720020933:0;nv
+: 1720021160:0;nv
+: 1720024350:0;cd
+: 1720024350:0;cd
+: 1720024351:0;nv
+: 1720024364:0;nv
+: 1720027665:0;c
+: 1720027667:0;btop
+: 1720028094:0;nv
+: 1720028656:0;nv
+: 1720028680:0;nv
+: 1720029037:0;nv
+: 1720030095:0;nv
+: 1720067037:0;nv
+: 1720068327:0;nv
+: 1720071170:0;nv
+: 1720080122:0;cdp
+: 1720080123:0;cd
+: 1720080124:0;cd go
+: 1720080125:0;ll
+: 1720080136:0;mkdir febo
+: 1720080138:0;cd febo
+: 1720080139:0;ll
+: 1720080146:0;go mod init fibo
+: 1720080150:0;nv main.go
+: 1720080325:0;nv main.go
+: 1720080633:0;cdp
+: 1720086407:0;ping 8.8.8.8
+: 1720086421:0;nmtui
+: 1720094749:0;cdp
+: 1720094750:0;cd C
+: 1720094751:0;ll
+: 1720094775:0;cp -r learning-c compiler-design
+: 1720094776:0;cd compiler-design
+: 1720094779:0;lll
+: 1720094780:0;nv Makefile
+: 1720094823:0;ll
+: 1720094826:0;rm -rf build/*
+: 1720094828:0;ll
+: 1720094831:0;nv src/main.c
+: 1720094924:0;ll
+: 1720094926:0;cd src
+: 1720094926:0;ll
+: 1720094931:0;cpp --help
+: 1720094942:0;clear
+: 1720094950:0;cpp main.c
+: 1720094956:0;ll
+: 1720095917:0;cpp main.c >> main_cpp
+: 1720095919:0;ll
+: 1720095928:0;cpp def.c >> def_cpp
+: 1720095929:0;ll
+: 1720095945:0;cc main_cpp
+: 1720095959:0;mv main_cpp main_cpp .c
+: 1720095963:0;mv main_cpp main_cpp.c
+: 1720095964:0;ll
+: 1720095968:0;cc main_cpp.c
+: 1720095969:0;ll
+: 1720095978:0;rm -rf a.out
+: 1720095979:0;ll
+: 1720095989:0;mv def_cpp def_cpp.c
+: 1720095989:0;ll
+: 1720095994:0;nv def_cpp.c
+: 1720096012:0;cc -S main_cpp.c
+: 1720096013:0;ll
+: 1720096023:0;cc -S def_cpp.c
+: 1720096024:0;ll
+: 1720096033:0;rm main.h
+: 1720096033:0;ll
+: 1720096055:0;as main_cpp.s
+: 1720096056:0;ll
+: 1720096061:0;rm a.out
+: 1720096061:0;ll
+: 1720096075:0;as main_cpp.s -O main_cpp.o
+: 1720096082:0;tldr as
+: 1720096086:0;as main_cpp.s -o main_cpp.o
+: 1720096087:0;ll
+: 1720096100:0;as def_cpp.s -o def_cpp.o
+: 1720096101:0;ll
+: 1720096113:0;tldr ln
+: 1720096117:0;tldr ld
+: 1720096161:0;ld main_cpp.o def_cpp.o --output output-executable
+: 1720096169:0;ll
+: 1720096285:0;nv
+: 1720096337:0;gcc main_cpp.o def_cpp.o --output output-executable
+: 1720096338:0;ll
+: 1720096342:0;./output-executable
+: 1720096344:0;nv
+: 1720096353:0;./output-executable
+: 1720096466:0;tldr gcc
+: 1720102193:0;moc
+: 1720102226:0;mocp
+: 1720102262:0;wpaperctl next
+: 1720102384:0;moc
+: 1720102386:0;mocp
+: 1720102745:0;mocp
+: 1720102752:0;c
+: 1720102752:0;c
+: 1720102752:0;c
+: 1720102753:0;c
+: 1720102756:0;btop
+: 1720102864:0;mocp
+: 1720102890:0;cd projects
+: 1720102891:0;ll
+: 1720102898:0;mkdir terminal-music-player
+: 1720102901:0;cd terminal-music-player
+: 1720102902:0;ll
+: 1720102906:0;nv README.md
+: 1720106210:0;go mod init
+: 1720106216:0;go mod init tmp
+: 1720106219:0;nv main.go
+: 1720106236:0;nv main.go
+: 1720106497:0;c
+: 1720106497:0;e
+: 1720106854:0;nv main.go
+: 1720106913:0;nv
+: 1720107063:0;nv
+: 1720107413:0;nv
+: 1720107415:0;ll
+: 1720107424:0;tldr go
+: 1720107435:0;nv main.go
+: 1720107470:0;nv
+: 1720107574:0;nv
+: 1720107634:0;nv
+: 1720107703:0;nv
+: 1720107828:0;nv
+: 1720107865:0;nv
+: 1720108068:0;nv
+: 1720108366:0;cdp
+: 1720108369:0;cd Go
+: 1720108370:0;ll
+: 1720108372:0;gh repo clone adonovan/gopl.io
+: 1720108626:0;mv ../terminal-music-player/.
+: 1720108629:0;mv ../terminal-music-player/ .
+: 1720108630:0;ll
+: 1720108640:0;mkdir learning-go
+: 1720108642:0;cd learning-go
+: 1720108648:0;go mod init learning-go
+: 1720108652:0;nv main.go
+: 1720109050:0;nv
+: 1720109072:0;yay -Rns gofmt
+: 1720109143:0;goimports main.go
+: 1720109155:0;tldr goimports
+: 1720109161:0;nv
+: 1720109438:0;go build main.go
+: 1720109444:0;./main hello world
+: 1720109453:0;go build main.go
+: 1720109454:0;./main hello world
+: 1720109463:0;go build main.go
+: 1720109465:0;./main hello world
+: 1720109492:0;go build main.go
+: 1720109494:0;./main hello world
+: 1720109502:0;go build main.go
+: 1720109504:0;./main hello world
+: 1720109535:0;go build main.go
+: 1720109540:0;./main hello world rishabh
+: 1720109559:0;go build main.go
+: 1720109560:0;./main hello world rishabh
+: 1720109585:0;./main hello world rishabh
+: 1720109588:0;go build main.go
+: 1720109589:0;./main hello world rishabh
+: 1720109660:0;./main hello world rishabh
+: 1720109662:0;go build main.go
+: 1720109663:0;./main hello world rishabh
+: 1720109811:0;go build main.go
+: 1720109813:0;./main hello world rishabh
+: 1720109890:0;go build main.go
+: 1720109892:0;./main hello world rishabh
+: 1720109903:0;go build main.go
+: 1720109906:0;go build main.go
+: 1720110224:0;go build main.go
+: 1720110227:0;./main hello world rishabh
+: 1720110614:0;go build main.go
+: 1720110615:0;./main hello world rishabh
+: 1720110763:0;go build main.go
+: 1720110770:0;go build main.go
+: 1720110792:0;go build main.go
+: 1720110795:0;./main hello world rishabh
+: 1720110805:0;./main hello world rishabh
+: 1720110810:0;go build main.go
+: 1720110811:0;./main hello world rishabh
+: 1720110825:0;go build main.go
+: 1720110826:0;./main hello world rishabh
+: 1720110947:0;go build main.go
+: 1720110948:0;./main hello world rishabh
+: 1720114539:0;nv
+: 1720114583:0;ll
+: 1720114591:0;rm -rf main
+: 1720114591:0;ll
+: 1720114593:0;nv dup.go
+: 1720114879:0;go run dup.go
+: 1720114920:0;go run dup.go
+: 1720114933:0;go run dup.go 12 12 12
+: 1720114950:0;cdp
+: 1720114954:0;cd gopl.io
+: 1720114964:0;nv
+: 1720114984:0;ll
+: 1720114989:0;cd ch1/dup1
+: 1720114991:0;ll
+: 1720114995:0;go run main.go
+: 1720115323:0;c
+: 1720115337:0;cd
+: 1720115338:0;cd
+: 1720115338:0;c
+: 1720115344:0;nv .config/bat/config
+: 1720115453:0;bat cache --build
+: 1720115464:0;bat --list-themes
+: 1720115501:0;cd
+: 1720115501:0;c
+: 1720115766:0;nv
+: 1720115787:0;cd Go
+: 1720115788:0;ll
+: 1720115790:0;cd learning-go
+: 1720115792:0;nv .
+: 1720115936:0;ll
+: 1720115939:0;nv main/main.go
+: 1720116082:0;nv
+: 1720116253:0;nv
+: 1720116281:0;ll
+: 1720116285:0;cd dup2
+: 1720116287:0;nv main.go
+: 1720116587:0;nv
+: 1720116592:0;nv
+: 1720116598:0;nv
+: 1720116603:0;nv
+: 1720116607:0;nv
+: 1720116616:0;nv
+: 1720116821:0;nv
+: 1720116826:0;nv
+: 1720116840:0;nv
+: 1720178316:0;nv
+: 1720178363:0;nv
+: 1720178373:0;nv
+: 1720178510:0;nv
+: 1720180363:0;cdp
+: 1720180364:0;ll
+: 1720180364:0;cd
+: 1720180365:0;cd projects
+: 1720180367:0;llll
+: 1720180373:0;cd
+: 1720180373:0;c
+: 1720180375:0;cd projects
+: 1720180378:0;cd Go
+: 1720180379:0;ll
+: 1720180386:0;mkdir random-number-generator
+: 1720180390:0;cd random-number-generator
+: 1720180390:0;ll
+: 1720180393:0;go mod init
+: 1720180397:0;go mod init rng
+: 1720180400:0;nv main.go
+: 1720180605:0;nv
+: 1720180614:0;cd projects/catppuccin-themes
+: 1720180615:0;ll
+: 1720180618:0;nv mocha.lua
+: 1720180624:0;cat mocha.lua
+: 1720180629:0;bat mocha.lua
+: 1720180647:0;nv
+: 1720180665:0;vn
+: 1720180665:0;nv
+: 1720180671:0;e
+: 1720184790:0;nv
+: 1720184838:0;nv
+: 1720185082:0;nv
+: 1720185159:0;nv
+: 1720185217:0;nv
+: 1720185224:0;nv
+: 1720185244:0;nv
+: 1720185260:0;nv
+: 1720195421:0;cd web
+: 1720195421:0;ll
+: 1720195424:0;cd vite-project
+: 1720195425:0;nv
+: 1720199761:0;nv
+: 1720199791:0;nv
+: 1720201477:0;nv
+: 1720201481:0;nv
+: 1720201482:0;cd
+: 1720201484:0;cd nvim
+: 1720201486:0;nv init.lua
+: 1720201535:0;nv
+: 1720201561:0;nv
+: 1720201606:0;nv
+: 1720201617:0;nv
+: 1720201656:0;nv
+: 1720201709:0;ll
+: 1720201710:0;nv
+: 1720202399:0;cd .local/share
+: 1720202406:0;cd zap/plugins
+: 1720202407:0;ll
+: 1720202413:0;cd zsh-autoswitch-virtualenv
+: 1720202414:0;nv
+: 1720202588:0;xs
+: 1720202589:0;cd
+: 1720202589:0;c
+: 1720202589:0;c
+: 1720202590:0;c
+: 1720202596:0;nv
+: 1720236485:0;c
+: 1720236485:0;c
+: 1720236486:0;c
+: 1720236487:0;ys
+: 1720236595:0;ll
+: 1720236596:0;c
+: 1720236597:0;c
+: 1720236600:0;ll
+: 1720236601:0;c
+: 1720238128:0;yay alternative
+: 1720238352:0;nv
+: 1720249516:0;python
+: 1720250275:0;cd
+: 1720250276:0;c
+: 1720250280:0;cd leet
+: 1720250281:0;ll
+: 1720250283:0;cdp
+: 1720250283:0;cdp
+: 1720250290:0;cd DSA-prep
+: 1720250454:0;cd leetcode
+: 1720250454:0;ll
+: 1720250534:0;nv 2582-pass-the-pillow.py
+: 1720285433:0;nv
+: 1720285598:0;nv
+: 1720285700:0;cd
+: 1720285701:0;cd
+: 1720285702:0;cd go
+: 1720285705:0;cd gopl.io
+: 1720285706:0;nv
+: 1720286082:0;nv ~/.config/alacritty/alacritty.toml
+: 1720286129:0;ll
+: 1720286130:0;ll
+: 1720287788:0;cd
+: 1720287791:0;cd go
+: 1720287793:0;ll
+: 1720287800:0;cd learning-go
+: 1720287801:0;ll
+: 1720287803:0;nv main/main.go
+: 1720287812:0;cdp
+: 1720287813:0;nv .
+: 1720321919:0;nv
+: 1720322358:0;cd
+: 1720322358:0;c
+: 1720322358:0;c
+: 1720322359:0;c
+: 1720322610:0;cd go
+: 1720322611:0;ll
+: 1720322615:0;nv learning-go
+: 1720335031:0;cd learning-go
+: 1720335032:0;ll
+: 1720335034:0;cd variables
+: 1720335035:0;nv main.go
+: 1720335562:0;nv
+: 1720335581:0;cdp
+: 1720335582:0;nv
+: 1720337437:0;alacritty --version
+: 1720337509:0;nv
+: 1720338694:0;nv
+: 1720348003:0;nv
+: 1720348159:0;nv
+: 1720354165:0;nv
+: 1720354431:0;ll
+: 1720354442:0;cd ch2/echo4
+: 1720354442:0;ll
+: 1720354446:0;go build main.go
+: 1720354455:0;./main -h
+: 1720356175:0;nv
+: 1720360198:0;nv
+: 1720361173:0;pwd
+: 1720363202:0;cd zsh
+: 1720363203:0;ll
+: 1720363494:0;nv
+: 1720364613:0;cd
+: 1720364616:0;cd go
+: 1720364621:0;cd learning-go
+: 1720364622:0;mv
+: 1720364624:0;nv
+: 1720366639:0;yay clang
+: 1720366671:0;which clangd
+: 1720366740:0;clangd --version
+: 1720366773:0;yay llvm
+: 1720366802:0;clangd --version
+: 1720368384:0;cdp
+: 1720368386:0;cd gopl.io
+: 1720368387:0;ll
+: 1720368388:0;nv
+: 1720372437:0;cd ch2/cf
+: 1720372438:0;ll
+: 1720372441:0;go build main.go
+: 1720372446:0;./main 12
+: 1720372535:0;cdp
+: 1720372536:0;ll
+: 1720372546:0;mkdir speed-conv
+: 1720372548:0;cd speed-conv
+: 1720372550:0;ll
+: 1720372556:0;go mod init speed_conv
+: 1720372561:0;nv go.mod
+: 1720372852:0;cd gp
+: 1720372853:0;go
+: 1720372856:0;cd go
+: 1720372859:0;cd gopl.io
+: 1720372860:0;ll
+: 1720372870:0;cd ch2/tempconv
+: 1720372873:0;nv tempconv.go
+: 1720372892:0;nv
+: 1720373409:0;nv
+: 1720373452:0;nv
+: 1720373603:0;nv
+: 1720374247:0;nv
+: 1720374273:0;cd dir
+: 1720374274:0;ll
+: 1720374280:0;go build main.go
+: 1720374285:0;./main 10
+: 1720410615:0;ping 8.8.8.8
+: 1720410800:0;c
+: 1720411080:0;cd gopl
+: 1720411081:0;ll
+: 1720411089:0;cd ch2/popcount
+: 1720411091:0;nv main.go
+: 1720411158:0;nv
+: 1720411161:0;cd
+: 1720411162:0;cd go
+: 1720411163:0;ll
+: 1720411165:0;cd learning-go
+: 1720411165:0;ll
+: 1720411169:0;mkdir popcount
+: 1720411171:0;cd popcount
+: 1720411189:0;go mod init popcount
+: 1720411193:0;nv main.go
+: 1720411441:0;nmtui
+: 1720411449:0;ping 8.8.8.8
+: 1720411493:0;nmtui
+: 1720411583:0;nv
+: 1720412388:0;go test -bench=.
+: 1720412393:0;go -bench=.
+: 1720412625:0;nmtui
+: 1720412685:0;nmtui
+: 1720413135:0;nmtui
+: 1720413513:0;go buildmode --help
+: 1720413516:0;go buildmode
+: 1720413524:0;go help buildmode
+: 1720413888:0;nmtui
+: 1720420797:0;nv
+: 1720432484:0;nv
+: 1720432497:0;nv
+: 1720432731:0;nv
+: 1720432821:0;nv
+: 1720434911:0;cd
+: 1720434912:0;c
+: 1720434913:0;nv
+: 1720434933:0;cd learning-go
+: 1720434934:0;ll
+: 1720434935:0;nv
+: 1720435081:0;ll
+: 1720443818:0;nv
+: 1720445256:0;nv
+: 1720445275:0;cd numpy
+: 1720445277:0;nv test.py
+: 1720445669:0;nv
+: 1720452863:0;c
+: 1720452864:0;cd
+: 1720453000:0;cdd
+: 1720453136:0;cd
+: 1720453136:0;c
+: 1720453137:0;c
+: 1720453137:0;c
+: 1720453137:0;c
+: 1720453137:0;c
+: 1720459016:0;tree-sitter-cli
+: 1720459023:0;yay neovim
+: 1720459041:0;ssep
+: 1720459063:0;yay tree-sitter
+: 1720459077:0;tree-sitter-cli
+: 1720459088:0;tree
+: 1720459239:0;c
+: 1720459239:0;c
+: 1720459240:0;c
+: 1720459240:0;c
+: 1720459329:0;cd projects/Go
+: 1720459330:0;ll
+: 1720459338:0;mkdir stack
+: 1720459340:0;cd stack
+: 1720459346:0;go mod init stack
+: 1720459349:0;nv main.go
+: 1720460065:0;cd[]
+: 1720460070:0;cdp
+: 1720460073:0;cd datatypes
+: 1720460082:0;pwd
+: 1720460090:0;dir
+: 1720460161:0;printf '%s\n' "${PWD##*/}"
+: 1720460175:0;go mod init $(printf '%s\n' "${PWD##*/}")
+: 1720460193:0;cali
+: 1720460219:0;exec zsh
+: 1720460222:0;gmi
+: 1720460226:0;cdp
+: 1720460230:0;cd stack
+: 1720460234:0;rm go.mod
+: 1720460236:0;gmi
+: 1720460243:0;go mod tidy
+: 1720460244:0;ll
+: 1720460327:0;cdp
+: 1720460331:0;cd datatypes
+: 1720460332:0;nv ma
+: 1720460341:0;nv main.go
+: 1720518971:0;nv
+: 1720519053:0;nv
+: 1720526833:0;nv
+: 1720526843:0;cd learning-go
+: 1720526844:0;ll
+: 1720526849:0;mkdir .git/
+: 1720526850:0;nv
+: 1720526857:0;nv
+: 1720531674:0;cd rune
+: 1720531693:0;gmi
+: 1720531698:0;ll
+: 1720531700:0;nv go.mod
+: 1720539924:0;wpaperctl next
+: 1720544967:0;cd
+: 1720544967:0;c
+: 1720544967:0;c
+: 1720544967:0;c
+: 1720544968:0;c
+: 1720544969:0;c
+: 1720545366:0;nv
+: 1720546225:0;c
+: 1720546519:0;nv
+: 1720616878:0;nv
+: 1720616937:0;nv
+: 1720616986:0;nv
+: 1720620017:0;cd string/
+: 1720620019:0;go mod init
+: 1720620022:0;gmi
+: 1720620048:0;nv
+: 1720621350:0;nv
+: 1720625462:0;nv
+: 1720625638:0;nv
+: 1720625643:0;nv
+: 1720625690:0;nv
+: 1720625721:0;nv
+: 1720625737:0;nv
+: 1720626116:0;nv
+: 1720626131:0;nv
+: 1720626207:0;nv
+: 1720626374:0;nv
+: 1720626411:0;nv
+: 1720626418:0;nv
+: 1720626429:0;nv
+: 1720626885:0;nv
+: 1720626918:0;nv
+: 1720626972:0;lg
+: 1720626985:0;nv
+: 1720634205:0;c
+: 1720634205:0;c
+: 1720634205:0;c
+: 1720634291:0;c
+: 1720634291:0;c
+: 1720634292:0;nv
+: 1720634726:0;e
+: 1720634738:0;yay zed
+: 1720634812:0;zed
+: 1720634814:0;zeditor
+: 1720634836:0;zeditor
+: 1720634849:0;which zeditor
+: 1720634855:0;/usr/bin/zeditor
+: 1720635602:0;nv
+: 1720701919:0;nv
+: 1720702121:0;ys
+: 1720706902:0;ys
+: 1720706939:0;git clone https://git.codecrafters.io/cec671dd73873e27 codecrafters-http-server-go\
+cd codecrafters-http-server-go
+: 1720706950:0;cd go
+: 1720706951:0;git clone https://git.codecrafters.io/cec671dd73873e27 codecrafters-http-server-go\
+cd codecrafters-http-server-go
+: 1720706960:0;ll
+: 1720706962:0;nv
+: 1720706996:0;\
+\
+git commit --allow-empty -m 'test'\
+git push origin master\
+\
+
+: 1720707269:0;ll
+: 1720707332:0;ll
+: 1720707334:0;./your_server.sh
+: 1720707846:0;./your_server.sh
+: 1720707921:0;./your_server.sh
+: 1720707931:0;curl -v http://localhost:4221
+: 1720708002:0;\
+\
+git add .\
+git commit --allow-empty -m "pass stage" \
+git push origin master\
+\
+
+: 1720713384:0;cd
+: 1720713385:0;cd
+: 1720713385:0;c
+: 1720713386:0;c
+: 1720713386:0;nv
+: 1720713416:0;nv
+: 1720713455:0;nv
+: 1720713485:0;nv
+: 1720713523:0;nv
+: 1720713931:0;nv
+: 1720717775:0;c
+: 1720717776:0;c
+: 1720717776:0;c
+: 1720717776:0;c
+: 1720717777:0;c
+: 1720717777:0;c
+: 1720717778:0;d
+: 1720717778:0;c
+: 1720717783:0;cd go
+: 1720717784:0;ll
+: 1720717787:0;cd fibo
+: 1720717789:0;nv main.go
+: 1720717831:0;nv
+: 1720719058:0;ll
+: 1720719059:0;cdp
+: 1720719060:0;ll
+: 1720719062:0;cd learning-go
+: 1720719063:0;ll
+: 1720719067:0;ll
+: 1720719071:0;rm -rf .git
+: 1720719072:0;ll
+: 1720719138:0;cdp
+: 1720719140:0;gh repo clone Rishabh672003/learning-go
+: 1720719146:0;cdp
+: 1720719147:0;gh repo clone Rishabh672003/learning-go
+: 1720719158:0;cp learning-go/* Go/learning-go
+: 1720719164:0;cp -r learning-go/* Go/learning-go
+: 1720719175:0;rm -rf learning-go
+: 1720719179:0;cd Go/learning-go
+: 1720719179:0;ll
+: 1720719180:0;lg
+: 1720719196:0;nv .gitignore
+: 1720719304:0;cdp
+: 1720719306:0;cd fibo
+: 1720719307:0;ll
+: 1720719314:0;rm -rf .git
+: 1720719315:0;ll
+: 1720719317:0;cdp
+: 1720719323:0;mv fibo learning-go
+: 1720719327:0;cd learning-go
+: 1720719328:0;nv
+: 1720792940:0;nv
+: 1720793689:0;ys
+: 1720794858:0;ys
+: 1720800749:0;cd go
+: 1720800752:0;cd learning
+: 1720800753:0;ll
+: 1720800760:0;mkdir constant/
+: 1720800762:0;cd constant
+: 1720800763:0;ll
+: 1720800768:0;nv main.go
+: 1720800795:0;nv
+: 1720838494:0;nv
+: 1720839465:0;cd dsa-prep
+: 1720839466:0;cd
+: 1720839469:0;cd dsa-prep
+: 1720839471:0;cd neetcode
+: 1720839482:0;nv search-2d-matrix.py
+: 1720839726:0;ys
+: 1720839784:0;zeditor
+: 1720840836:0;nv
+: 1720841207:0;nv
+: 1720841282:0;nv
+: 1720841530:0;nv
+: 1720841608:0;nv
+: 1720841675:0;nv
+: 1720842075:0;nv
+: 1720842447:0;nv
+: 1720843348:0;nv
+: 1720843673:0;nv
+: 1720843706:0;nv
+: 1720843756:0;nv
+: 1720843801:0;nv
+: 1720843899:0;nv
+: 1720843990:0;nv
+: 1720844142:0;nv
+: 1720844192:0;nv
+: 1720846417:0;cd nvim
+: 1720846417:0;ll
+: 1720846418:0;lg
+: 1720846423:0;nv
+: 1720846434:0;nv
+: 1720846458:0;nv
+: 1720846515:0;lg
+: 1720846632:0;nv
+: 1720846679:0;nv
+: 1720846735:0;nv lazy-lock.json
+: 1720846758:0;lg
+: 1720846813:0;nv
+: 1720846836:0;nv
+: 1720846846:0;nv
+: 1720847060:0;nv
+: 1720847069:0;nv
+: 1720847387:0;nv
+: 1720847517:0;nv
+: 1720847537:0;nv
+: 1720847580:0;nv
+: 1720847680:0;nv
+: 1720847804:0;nv
+: 1720848164:0;nv
+: 1720848207:0;nv
+: 1720848292:0;nv
+: 1720848388:0;nv
+: 1720848572:0;nv
+: 1720848590:0;nv
+: 1720857644:0;nv
+: 1720862800:0;nv
+: 1720862907:0;nv
+: 1720863134:0;nv
+: 1720863150:0;nv
+: 1720863350:0;nv
+: 1720864110:0;nv
+: 1720864138:0;nv
+: 1720864887:0;nv
+: 1720864895:0;nv
+: 1720868232:0;nv
+: 1720868372:0;nv
+: 1720868390:0;nv
+: 1720868465:0;nv
+: 1720868714:0;nv
+: 1720868777:0;nv
+: 1720868806:0;nv
+: 1720868824:0;nv
+: 1720871257:0;nv
+: 1720871436:0;nv
+: 1720871540:0;nv
+: 1720873067:0;nv
+: 1720873076:0;nv
+: 1720873224:0;nv
+: 1720873236:0;nv
+: 1720873248:0;nv
+: 1720873258:0;nv
+: 1720873275:0;nv
+: 1720873308:0;nv
+: 1720873448:0;nv
+: 1720873478:0;nv
+: 1720873500:0;nv
+: 1720873524:0;nv
+: 1720876103:0;lg
+: 1720876113:0;nv ftplugin/python.lua
+: 1720876139:0;nv
+: 1720876349:0;nv
+: 1720876403:0;nv
+: 1720876437:0;nv
+: 1720876541:0;nv
+: 1720880591:0;cdp
+: 1720880591:0;cdp
+: 1720880592:0;ll
+: 1720880595:0;cd go
+: 1720880596:0;cd learning-go
+: 1720880597:0;ll
+: 1720880599:0;nv array/main.go
+: 1720882060:0;nv
+: 1720882077:0;nv
+: 1720885049:0;nv
+: 1720892633:0;nv
+: 1720892835:0;nv slice2/main.go
+: 1720892924:0;nv
+: 1720894532:0;nv
+: 1720924127:0;nv
+: 1720924175:0;nv
+: 1720924191:0;nv
+: 1720924247:0;cd dsa
+: 1720924248:0;ll
+: 1720924251:0;cd gfg
+: 1720924251:0;ll
+: 1720924262:0;nv segregate-0s-and-1s.py
+: 1720926651:0;ys
+: 1720926678:0;ys
+: 1720928072:0;nv
+: 1720942830:0;yay zeditor
+: 1720942833:0;yay zed
+: 1720942865:0;zed
+: 1720942866:0;zeditor
+: 1720942871:0;zeditor
+: 1720942918:0;zeditor
+: 1720942922:0;which zeditor
+: 1720942928:0;zeditor
+: 1720942953:0;yay -Rns zed
+: 1720943012:0;curl https://zed.dev/install.sh | sh
+: 1720943106:0;which zed
+: 1720943109:0;zed
+: 1720943157:0;zeditor
+: 1720943159:0;e
+: 1720943161:0;cd
+: 1720943164:0;zeditor
+: 1720943165:0;zed
+: 1720943167:0;zed
+: 1720943331:0;zed &
+: 1720943404:0;RUST_BACKTRACE=full zed
+: 1720943414:0;sudo zed
+: 1720943432:0;rm ~/.cache\
+mkdir -p ~/.cache\
+mkdir -p ~/.cache/zed\
+chmod 700 ~/.cache/zed
+: 1720943443:0;zed
+: 1720943455:0;cd
+: 1720943456:0;cd
+: 1720943456:0;c
+: 1720943460:0;cd .cache
+: 1720943461:0;ll
+: 1720943466:0;cd zed
+: 1720943466:0;ll
+: 1720943467:0;cd
+: 1720949152:0;ani-cli mob psycho
+: 1720949485:0;duf
+: 1720949490:0;ncdu
+: 1720949782:0;ani-cli mob psycho
+: 1720951445:0;trash-empty
+: 1720951461:0;ncdu
+: 1720954984:0;nv
+: 1720955068:0;ssh pr.pico.sh help
+: 1720955106:0;nv .config/git/config
+: 1720955123:0;fzf
+: 1720955138:0;cd .ssh
+: 1720955139:0;ll
+: 1720955142:0;nv known_hosts
+: 1720956471:0;nv
+: 1720965484:0;ani-cli --help
+: 1720965540:0;ani-cli -q 1080p -e 3 mob psycho
+: 1720968021:0;cd
+: 1720968068:0;nv
+: 1720971423:0;cd
+: 1720971425:0;wpaperctl next
+: 1720971428:0;cd learning-go
+: 1720971453:0;swaybg -i ~/Pictures/Wallpapers/wallpapers/Milky_Way.jpg
+: 1720971461:0;swaybg -i ~/Pictures/Wallpapers/wallpapers/Milky_Way.jpg&!
+: 1720971467:0;ll
+: 1720971469:0;nv
+: 1720971475:0;cd learnin
+: 1720971476:0;ll
+: 1720971484:0;fzf
+: 1720971494:0;mv math/httpget .
+: 1720971497:0;nv httpget/main.go
+: 1720971876:0;curl -X GET "https://httpbin.org/get" -H "accept: application/json"
+: 1720973091:0;curl -X GET "https://dummy.restapiexample.com/api/v1/employees"
+: 1720973123:0;curl -X GET "https://dummy.restapiexample.com/employees"
+: 1720973181:0;curl -X GET "https://dummy.restapiexample.com/api/v1/employee/1"
+: 1720973194:0;curl -X GET "https://dummy.restapiexample.com/api/v1/employee/1"
+: 1720973244:0;curl -X GET "https://dummyjson.com/test"
+: 1720973295:0;curl -X GET "https://jsonplaceholder.typicode.com/todos/1"
+: 1720977303:0;cd cpp
+: 1720977308:0;cd
+: 1720977311:0;cdp
+: 1720977312:0;cd
+: 1720977319:0;cd projects/CPP
+: 1720977320:0;ll
+: 1720977328:0;cd graphics-programming-with-sdl
+: 1720977329:0;nv
+: 1720977355:0;ll
+: 1720977359:0;make clean
+: 1720977360:0;ll
+: 1720977365:0;rm -rf .cache
+: 1720977366:0;ll
+: 1720977369:0;make prepare
+: 1720977376:0;make compile
+: 1720977382:0;ll
+: 1720977386:0;make builddeps
+: 1720977667:0;openssl sha256 ~/Downloads/CPM.cmake
+: 1720977686:0;make clean
+: 1720977691:0;make builddeps
+: 1720977821:0;make clean
+: 1720977823:0;make builddeps
+: 1720977902:0;make builddeps -Wno-dev
+: 1720978225:0;make builddeps
+: 1720978266:0;make builddeps
+: 1720978284:0;make builddeps
+: 1720978349:0;make builddeps
+: 1720978583:0;make builddeps
+: 1720978673:0;nv CMakeLists.txt
+: 1720978711:0;make clean
+: 1720978716:0;make buid
+: 1720978719:0;make buiddeps
+: 1720978722:0;make builddeps
+: 1720978731:0;make builddeps
+: 1720978761:0;make clean
+: 1720978819:0;nv
+: 1720978830:0;make clean
+: 1720978836:0;ll
+: 1720978852:0;mkdir -p build/cmake/CPM.cmake
+: 1720978856:0;cd build/cmake
+: 1720978857:0;ll
+: 1720978860:0;rm -rf CPM.cmake
+: 1720978869:0;touch CPM.cmake
+: 1720978873:0;nv CPM.cmake
+: 1720978885:0;make buiddeps
+: 1720978888:0;make builddeps
+: 1720978895:0;cdpp
+: 1720978897:0;make builddeps
+: 1720979018:0;cdp
+: 1720979019:0;ll
+: 1720979024:0;nv CPP-cmake-reference
+: 1720979064:0;make clean
+: 1720979068:0;make builddeps
+: 1720979087:0;ping 8.8.8.8
+: 1720979130:0;nmtui
+: 1720979412:0;ping 8.8.8.8
+: 1720979425:0;nv tcp-ip-CPP/src/main.cpp
+: 1720979465:0;cd
+: 1720979465:0;c
+: 1721048508:0;nv
+: 1721048567:0;cd ~/.local/share/nvim/lazy/which-key.nvim/lua/which-key/icons.lua
+: 1721048577:0;nvim ~/.local/share/nvim/lazy/which-key.nvim/lua/which-key/icons.lua
+: 1721048815:0;ll
+: 1721048816:0;ll
+: 1721048817:0;c
+: 1721048822:0;rm -rf disk
+: 1721048823:0;ll
+: 1721048828:0;rm boot.svg
+: 1721048829:0;ll
+: 1721048833:0;c
+: 1721048834:0;ys
+: 1721050614:0;ys
+: 1721051413:0;c
+: 1721051413:0;c
+: 1721051414:0;c
+: 1721051415:0;c
+: 1721051415:0;c
+: 1721051415:0;c
+: 1721051416:0;c
+: 1721051416:0;c
+: 1721051416:0;c
+: 1721051417:0;c
+: 1721051417:0;c
+: 1721053040:0;cd
+: 1721053040:0;c
+: 1721053044:0;cd nvim
+: 1721053045:0;ll
+: 1721053045:0;lg
+: 1721053093:0;nv
+: 1721053105:0;nv
+: 1721053118:0;nv
+: 1721053155:0;cd
+: 1721053157:0;cd learning
+: 1721053158:0;ll
+: 1721053159:0;nv
+: 1721062025:0;nv
+: 1721062054:0;nv
+: 1721062071:0;nv
+: 1721062088:0;cd nvim
+: 1721062089:0;lg
+: 1721062113:0;nv
+: 1721062118:0;nv
+: 1721064484:0;ll
+: 1721064485:0;nv
+: 1721064490:0;lg
+: 1721064646:0;ll
+: 1721064647:0;nv
+: 1721064653:0;cd
+: 1721064654:0;c
+: 1721064657:0;cd learning-go
+: 1721064658:0;ll
+: 1721064659:0;lg
+: 1721064662:0;nv
+: 1721064995:0;c
+: 1721064995:0;c
+: 1721064996:0;c
+: 1721064996:0;c
+: 1721064997:0;cnv
+: 1721064998:0;nv
+: 1721065004:0;nv
+: 1721065421:0;nv
+: 1721065637:0;nv
+: 1721065833:0;nv
+: 1721065933:0;nv
+: 1721066038:0;nv
+: 1721066157:0;nv
+: 1721066208:0;nv
+: 1721066560:0;ll
+: 1721066561:0;nv
+: 1721066791:0;nv
+: 1721066845:0;nv
+: 1721066865:0;e
+: 1721136037:0;ani-cli -q 1080p -e 4 mob psycho
+: 1721136043:0;ani-cli -q 1080p -e 4 mob psycho 100
+: 1721136050:0;tldr ani-cli
+: 1721136056:0;tldr --update
+: 1721136083:0;nv
+: 1721136329:0;nv
+: 1721136343:0;nv
+: 1721136397:0;nv
+: 1721140205:0;nv
+: 1721142189:0;e
+: 1721143047:0;nvim --startuptime a.lua
+: 1721143051:0;nv a.lua
+: 1721143096:0;nv
+: 1721143212:0;nv
+: 1721143344:0;nv
+: 1721143373:0;echo "" >> a.lua
+: 1721143376:0;nv a.lua
+: 1721143382:0;echo "" > a.lua
+: 1721143384:0;nv a.lua
+: 1721143388:0;nvim --startuptime a.lua
+: 1721143391:0;nv a.lua
+: 1721143479:0;nv
+: 1721143508:0;nv a.hs
+: 1721143553:0;nv projects
+: 1721143595:0;nv
+: 1721143851:0;nv
+: 1721143891:0;nvn
+: 1721143892:0;nv
+: 1721143898:0;nv
+: 1721143909:0;nv
+: 1721143973:0;nv
+: 1721144081:0;nv
+: 1721144216:0;nv
+: 1721144300:0;nv
+: 1721144309:0;nv
+: 1721144376:0;nv
+: 1721144410:0;nv
+: 1721144458:0;nb
+: 1721144459:0;nv
+: 1721144505:0;nv
+: 1721144511:0;nv
+: 1721144600:0;nv
+: 1721144635:0;nv
+: 1721144698:0;nv
+: 1721144720:0;nv
+: 1721144760:0;e
+: 1721144761:0;nv
+: 1721144780:0;make
+: 1721144783:0;make prepare
+: 1721144785:0;ll
+: 1721144792:0;cd cpp
+: 1721144792:0;ll
+: 1721144794:0;cdp
+: 1721144794:0;cdp
+: 1721144797:0;cd CPP
+: 1721144798:0;nv
+: 1721144813:0;make
+: 1721144847:0;ll
+: 1721144849:0;cd build
+: 1721144850:0;ll
+: 1721144895:0;ll
+: 1721144896:0;c
+: 1721144899:0;nv
+: 1721145120:0;cd dsa
+: 1721145122:0;kk
+: 1721145123:0;nv
+: 1721145542:0;nv
+: 1721145728:0;nv
+: 1721145851:0;nv
+: 1721149692:0;c
+: 1721149693:0;c
+: 1721149693:0;c
+: 1721149693:0;c
+: 1721150208:0;mocp
+: 1721150223:0;mocp
+: 1721150245:0;mocp
+: 1721150249:0;ll
+: 1721150254:0;killall -9 mocp
+: 1721150803:0;c
+: 1721150803:0;c
+: 1721150804:0;c
+: 1721150804:0;c
+: 1721150806:0;ll
+: 1721150806:0;c
+: 1721150807:0;c
+: 1721150807:0;c
+: 1721150808:0;ll
+: 1721150819:0;rm -rf a.hs a.lua
+: 1721150820:0;ll
+: 1721151138:0;cd go
+: 1721151139:0;ll
+: 1721151144:0;mkdir dbus
+: 1721151147:0;cd dbus
+: 1721151149:0;cali
+: 1721151171:0;gmi
+: 1721151173:0;ll
+: 1721151174:0;nv
+: 1721151177:0;ll
+: 1721151179:0;nv main.go
+: 1721151204:0;go get github.com/godbus/dbus/v5
+: 1721151216:0;nv
+: 1721151248:0;ll
+: 1721151253:0;go build .
+: 1721151256:0;ll
+: 1721151261:0;./dbusn
+: 1721151303:0;nv
+: 1721151319:0;go build .
+: 1721151323:0;./dbusn
+: 1721151339:0;go build .
+: 1721151340:0;./dbusn
+: 1721151366:0;go build .
+: 1721151367:0;./dbusn
+: 1721151447:0;go build .
+: 1721151448:0;./dbusn
+: 1721151929:0;tldr pip
+: 1721152473:0;tt
+: 1721152533:0;c
+: 1721152547:0;nv
+: 1721152927:0;nv go.mod
+: 1721152934:0;ll
+: 1721152939:0;rm -rff dbusn
+: 1721152941:0;ll
+: 1721152945:0;go build .
+: 1721152946:0;ll
+: 1721152949:0;./dbus
+: 1721152954:0;nv main.go
+: 1721153021:0;go build .
+: 1721153023:0;./dbus
+: 1721153789:0;c
+: 1721153789:0;c
+: 1721153789:0;c
+: 1721153790:0;c
+: 1721153790:0;c
+: 1721153790:0;c
+: 1721153790:0;c
+: 1721153791:0;c
+: 1721153791:0;c
+: 1721153792:0;c
+: 1721153792:0;c
+: 1721153792:0;c
+: 1721153793:0;ll
+: 1721153794:0;ys
+: 1721196754:0;rand 12
+: 1721196756:0;rand 112222222222222
+: 1721196783:0;nv
+: 1721196799:0;nv
+: 1721196832:0;nv
+: 1721196839:0;cd lea
+: 1721196840:0;ll
+: 1721196851:0;ll
+: 1721196853:0;lll
+: 1721196854:0;fzf
+: 1721196859:0;fzf
+: 1721196862:0;cdo
+: 1721196864:0;cdp
+: 1721196866:0;fzf
+: 1721196875:0;mv dbus learning-go
+: 1721196879:0;cd learning-go
+: 1721196883:0;nv dbus
+: 1721199346:0;cdp
+: 1721199355:0;cd random-number-generator
+: 1721199356:0;ll
+: 1721199358:0;nv main.go
+: 1721199563:0;ll
+: 1721199567:0;go build .
+: 1721199572:0;./rng 12
+: 1721199574:0;./rng 121212
+: 1721199604:0;go build .
+: 1721199606:0;./rng 121212
+: 1721199747:0;go build .
+: 1721199752:0;./rng 10
+: 1721199754:0;./rng 10
+: 1721199754:0;./rng 10
+: 1721199755:0;./rng 10
+: 1721199755:0;./rng 10
+: 1721199756:0;./rng 10
+: 1721199756:0;./rng 10
+: 1721199758:0;./rng 10111111111111
+: 1721199760:0;./rng 1011111111111111111111
+: 1721199761:0;./rng 10111111111111111111111111111111111111
+: 1721199764:0;./rng 10111111111111111111111111111111111111111111111111
+: 1721199766:0;./rng 1011111111111111111111111111111111111111111111111111111111111111111111
+: 1721199767:0;./rng 101111111111111111111111111111111111111111111111111111111111111111111111111111111111
+: 1721199769:0;./rng 10111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+: 1721199844:0;go build .
+: 1721199850:0;./rng 1011
+: 1721199859:0;./rng 10111111111
+: 1721199862:0;./rng 101111111111111111111111111111111111111
+: 1721199865:0;./rng 10111111111111111111111111111111111111111111111111
+: 1721200343:0;cd
+: 1721200343:0;c
+: 1721200353:0;~/.config/yadm/yadm.sh

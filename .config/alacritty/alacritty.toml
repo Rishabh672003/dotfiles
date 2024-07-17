@@ -35,25 +35,19 @@ foreground = "0xc0caf5"
 
 [font]
 size = 14
-
-[font.bold]
-family = "JetBrainsMono NF"
-style = "Bold"
-
-[font.bold_italic]
-family = "JetBrainsMono NF"
-style = "Italic"
-
-[font.italic]
-family = "JetBrainsMono NF"
-style = "Italic"
-
-[font.normal]
-family = "JetBrainsMono NF"
-style = "Regular"
+normal.family = "JetBrainsMono NF"
+normal.style = "Regular"
+bold.family = "JetBrainsMono NF"
+bold.style = "Bold"
+bold_italic.family = "JetBrainsMono NF"
+bold_italic.style = "Italic"
+italic.family = "JetBrainsMono NF"
+italic.style = "Italic"
 
 [shell]
 program = "/bin/zsh"
+# args = ["new-session"]
+# program = "/bin/tmux"
 
 [window]
 decorations = "none"

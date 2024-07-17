@@ -1,3 +1,6 @@
+# add autocompletions
+fpath+=~/.local/share/zsh/
+
 # Comp stuff and autoloading them
 autoload -Uz compinit
 for dump in "${ZDOTDIR:-$HOME}/.zcompdump"(N.mh+24); do
@@ -5,9 +8,6 @@ for dump in "${ZDOTDIR:-$HOME}/.zcompdump"(N.mh+24); do
 done
 compinit -C
 
-# add fnm autocomplete
-fpath+=~/.local/share/zsh/_fnm
-plug ~/.local/share/zsh/_bob
 
 # Execute code in the background to not affect the current session
 {
@@ -50,9 +50,6 @@ setopt BANG_HIST                 # Treat the '!' character specially during expa
 setopt EXTENDED_HISTORY          # Write the history file in the ":start:elapsed;command" format.
 setopt INC_APPEND_HISTORY        # Write to the history file immediately, not when the shell exits.
 setopt SHARE_HISTORY             # Share history between all sessions.
-setopt HIST_EXPIRE_DUPS_FIRST    # Expire duplicate entries first when trimming history.
-setopt HIST_IGNORE_DUPS          # Don't record an entry that was just recorded again.
-setopt HIST_IGNORE_ALL_DUPS      # Delete old recorded entry if new entry is a duplicate.
 setopt HIST_FIND_NO_DUPS         # Do not display a line previously found.
 setopt HIST_IGNORE_SPACE         # Don't record an entry starting with a space.
 setopt HIST_REDUCE_BLANKS        # Remove superfluous blanks before recording entry.

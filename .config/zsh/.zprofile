@@ -32,6 +32,7 @@ export RUSTUP_HOME="$XDG_DATA_HOME"/rustup
 export ANDROID_HOME="$XDG_DATA_HOME"/android
 export GTK2_RC_FILES="$XDG_CONFIG_HOME"/gtk-2.0/gtkrc
 export XCURSOR_PATH=/usr/share/icons:${XDG_DATA_HOME}/icons
+export XCURSOR_THEME=Adwaita
 export PARALLEL_HOME="$XDG_CONFIG_HOME"/parallel
 export GPG_TTY=$(tty)
 export MANPAGER="nvim +Man!"
