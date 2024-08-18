@@ -21,6 +21,7 @@ alias grep='grep -n --color'
 alias hosts='sh ~/projects/hosts/hosts-maker.sh'
 alias hx='helix'
 alias install-grub='sudo grub-install --target=x86_64-efi --efi-directory=/boot/ --bootloader-id=GRUB'
+alias jn="jupyter notebook --no-browser ."
 alias lg='lazygit'
 alias ll='exa --color always --icons -1albh -s name --git --sort date --group-directories-first'
 alias lll='exa --color always --icons -1albhT -L 2 -s name -I .git --git --group-directories-first'
