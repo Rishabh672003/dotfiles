@@ -1,0 +1,9 @@
+theme = "mocha"
+font-family = "JetBrainsMono NF"
+font-size = 14
+window-decoration = false
+window-padding-y = 0
+window-padding-x = 0
+background-opacity = 0.4
+confirm-close-surface = false
+keybind = alt+c=close_surface
