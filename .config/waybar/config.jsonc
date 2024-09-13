@@ -99,7 +99,8 @@
 	},
 	"clock": {
 		"on-click": "",
-		"format": "{:%H:%M   %d/%m}",
+		"format": " {:%H:%M   %d/%m}",
+		"timezones": "Asia/Kolkata",
 		"interval": 60,
 		"tooltip": true,
 		// "format": "{:%H.%M}",

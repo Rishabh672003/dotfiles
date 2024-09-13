@@ -18,16 +18,11 @@
 : 1722862388:0;nv
 : 1722862399:0;nv
 : 1722862428:0;nv
-: 1722872581:0;c
-: 1722872581:0;c
-: 1722872581:0;c
-: 1722872582:0;c
 : 1722872583:0;ll
 : 1722872584:0;nv
 : 1722872626:0;nv
 : 1722872655:0;nv
 : 1722872733:0;nv
-: 1722874272:0;c
 : 1722874274:0;ll
 : 1722874276:0;nv
 : 1722874453:0;ll
@@ -45,7 +40,6 @@
 : 1722874762:0;lg
 : 1722874813:0;nv pyproject.toml
 : 1722874818:0;lg
-: 1722874833:0;pdm sync
 : 1722874839:0;ll
 : 1722874843:0;pdm update
 : 1722874875:0;lg
@@ -58,21 +52,16 @@
 : 1722875086:0;pip install --upgrade pyfix-imports
 : 1722875093:0;nv
 : 1722878211:0;ll
-: 1722878213:0;c
 : 1722878216:0;ll
 : 1722878222:0;pipx upgrade pyfix-imports
 : 1722878249:0;nv
 : 1722949274:0;ys
-: 1722949962:0;c
-: 1722949962:0;c
-: 1722949963:0;c
 : 1722953141:0;nv
 : 1722959270:0;killall -9 waydroid
 : 1722959272:0;we
 : 1722959285:0;we
 : 1722959626:0;ping 8.8.8.8
 : 1722961164:0;firefox --version
-: 1722965082:0;c
 : 1722965082:0;nv
 : 1722965126:0;nv
 : 1722966502:0;btop
@@ -110,12 +99,10 @@
 : 1723048989:0;hyperfine "python -m pyfix_imports ~/projects/PYTHON-ML/numpy/autoflake.py"
 : 1723048993:0;hyperfine "python -m pyfix_imports ~/projects/PYTHON-ML/numpy/autoflake.py"
 : 1723049003:0;hyperfine "python -m pyfix_imports ~/projects/PYTHON-ML/numpy/autoflake.py"
-: 1723051050:0;c
 : 1723052706:0;btop
 : 1723052770:0;nv
 : 1723053442:0;python -m pyfix_imports -c a.txt ~/projects/PYTHON-ML/numpy/test.py
 : 1723053454:0;ll
-: 1723053457:0;cd
 : 1723053461:0;exit
 : 1723053464:0;cdp
 : 1723053472:0;nv
@@ -172,13 +159,11 @@
 : 1723120701:0;sudo powertop
 : 1723122978:0;nv
 : 1723127176:0;nv
-: 1723127182:0;cd
 : 1723127192:0;mkdir SIH
 : 1723127194:0;cd SIH
 : 1723127195:0;ll
 : 1723127202:0;nv problem-statements.md
 : 1723137599:0;nv
-: 1723137616:0;c
 : 1723137617:0;nv
 : 1723137658:0;ll
 : 1723137660:0;cd py
@@ -191,14 +176,10 @@
 : 1723180494:0;nv
 : 1723180610:0;nv
 : 1723180626:0;nv
-: 1723180823:0;c
 : 1723180824:0;clear
 : 1723180825:0;nv
 : 1723180831:0;cd pyfix
 : 1723180834:0;ll
-: 1723180834:0;c
-: 1723180946:0;cd
-: 1723180955:0;cd
 : 1723180957:0;cd projects
 : 1723180971:0;cd Web-dev/
 : 1723180972:0;ll
@@ -234,9 +215,6 @@
 : 1723182381:0;npm i express
 : 1723182425:0;ll
 : 1723182428:0;ll
-: 1723182430:0;cd
-: 1723182435:0;cd
-: 1723182436:0;c
 : 1723182436:0;ll
 : 1723182450:0;fzf
 : 1723182463:0;cd .virtualenvs
@@ -270,26 +248,10 @@
 : 1723209474:0;clear
 : 1723209475:0;e
 : 1723209479:0;wpaperctl next
-: 1723210210:0;cd
-: 1723210210:0;c
 : 1723210211:0;ll
-: 1723210237:0;cd
-: 1723210237:0;c
-: 1723210238:0;c
 : 1723213702:0;ex
 : 1723264297:0;nmtui
-: 1723264337:0;c
-: 1723264338:0;c
-: 1723264338:0;c
-: 1723264338:0;c
-: 1723264339:0;c
 : 1723264842:0;nv
-: 1723264847:0;c
-: 1723264847:0;c
-: 1723264847:0;c
-: 1723264848:0;c
-: 1723264848:0;c
-: 1723264849:0;c
 : 1723264931:0;nv
 : 1723265378:0;sudo hwclock --show
 : 1723265491:0;ntp
@@ -314,11 +276,9 @@
 : 1723275241:0;wpaperctl next
 : 1723276173:0;pyfix-imports --help
 : 1723276894:0;nv
-: 1723277121:0;c
 : 1723282907:0;nmtui
 : 1723282920:0;yay firefox-nightly
 : 1723282956:0;nv
-: 1723283014:0;c
 : 1723283020:0;cd projects
 : 1723283021:0;ll
 : 1723283028:0;cd PYTHON-ML
@@ -337,27 +297,16 @@
 : 1723301442:0;pdm publish
 : 1723301818:0;ll
 : 1723301819:0;nv
-: 1723301827:0;pdm sync
 : 1723301832:0;ll
-: 1723303373:0;cd
 : 1723303375:0;ncdu
 : 1723303423:0;yay -Rns firefox-nightly
-: 1723303434:0;yay -Scc
 : 1723303448:0;duf
 : 1723303855:0;pip -help
-: 1723310965:0;c
 : 1723310966:0;ll
 : 1723310967:0;nv
 : 1723310986:0;pip --require-virtualenv
-: 1723312607:0;c
-: 1723312608:0;c
-: 1723312608:0;c
-: 1723312608:0;c
-: 1723312608:0;c
 : 1723312769:0;python
 : 1723349390:0;ys
-: 1723350581:0;c
-: 1723350582:0;c
 : 1723352261:0;nv
 : 1723354981:0;nv
 : 1723363183:0;which ls
@@ -401,14 +350,12 @@ wget -P "$(bat --config-dir)/themes" https://github.com/catppuccin/bat/raw/main/
 : 1723371253:0;ll
 : 1723371259:0;bat cache --build
 : 1723371264:0;bat --list-themes
-: 1723371272:0;cd
 : 1723373233:0;cz
 : 1723374454:0;ll
 : 1723374456:0;clear
 : 1723375168:0;clear
 : 1723375175:0;fish
 : 1723375874:0;zsh -q
-: 1723375879:0;zsh -C
 : 1723375891:0;zsh -
 : 1723375894:0;e
 : 1723375895:0;e
@@ -418,9 +365,6 @@ wget -P "$(bat --config-dir)/themes" https://github.com/catppuccin/bat/raw/main/
 : 1723375977:0;time zsh -i -c exit
 : 1723375979:0;time zsh -i -c exit
 : 1723375980:0;time zsh -i -c exit
-: 1723375982:0;c
-: 1723375982:0;c
-: 1723375983:0;c
 : 1723375985:0;time zsh -i -c exit
 : 1723375999:0;zprof
 : 1723376006:0;zprof | head 10
@@ -433,9 +377,7 @@ wget -P "$(bat --config-dir)/themes" https://github.com/catppuccin/bat/raw/main/
 : 1723376049:0;time zsh -i -c exit
 : 1723376051:0;nv
 : 1723376056:0;e
-: 1723376062:0;c
 : 1723376384:0;nv
-: 1723376394:0;nv a.c
 : 1723376477:0;ll
 : 1723376489:0;gcc a.c -o a
 : 1723376492:0;./a --
@@ -486,15 +428,11 @@ wget -P "$(bat --config-dir)/themes" https://github.com/catppuccin/bat/raw/main/
 : 1723459109:0;nv
 : 1723460505:0;ys
 : 1723472603:0;su
-: 1723475408:0;c
 : 1723475409:0;ll
-: 1723475409:0;c
 : 1723475410:0;f
-: 1723475414:0;c
 : 1723475431:0;cd /
 : 1723475432:0;fzf
 : 1723475468:0;grep -rn "swappines"
-: 1723829953:0;cd
 : 1723829953:0;cd roo
 : 1723829953:0;ls
 : 1723829953:0;nvim p.txt 
@@ -503,20 +441,12 @@ wget -P "$(bat --config-dir)/themes" https://github.com/catppuccin/bat/raw/main/
 : 1723480324:0;yay metadata
 : 1723480336:0;yay metadata-cleaner
 : 1723480497:0;ll
-: 1723480497:0;c
 : 1723480500:0;wpaperctl next
 : 1723480503:0;clear
 : 1723480504:0;ll
-: 1723480506:0;c
 : 1723480508:0;ll
-: 1723480509:0;c
 : 1723483078:0;ping 8.8.8.8
-: 1723483086:0;c
-: 1723483086:0;c
-: 1723483086:0;c
-: 1723483087:0;c
 : 1723483088:0;ll
-: 1723483090:0;c
 : 1723483090:0;nv
 : 1723483327:0;cd projects
 : 1723483328:0;ll
@@ -527,7 +457,6 @@ wget -P "$(bat --config-dir)/themes" https://github.com/catppuccin/bat/raw/main/
 : 1723483347:0;nv temp.py
 : 1723483391:0;nv
 : 1723555653:0;nv
-: 1723556642:0;c
 : 1723556643:0;ys
 : 1723557522:0;ys
 : 1723565035:0;nv
@@ -557,8 +486,6 @@ wget -P "$(bat --config-dir)/themes" https://github.com/catppuccin/bat/raw/main/
 : 1723650376:0;nv
 : 1723650384:0;nv
 : 1723650425:0;n
-: 1723650426:0;cnc
-: 1723650427:0;nc
 : 1723650429:0;nv
 : 1723650477:0;nv
 : 1723650505:0;nv
@@ -568,8 +495,6 @@ wget -P "$(bat --config-dir)/themes" https://github.com/catppuccin/bat/raw/main/
 : 1723650630:0;nv
 : 1723655320:0;clear
 : 1723655320:0;ll
-: 1723655321:0;c
-: 1723656655:0;c
 : 1723693607:0;ys
 : 1723693719:0;nvim
 : 1723694112:0;nv
@@ -580,17 +505,11 @@ wget -P "$(bat --config-dir)/themes" https://github.com/catppuccin/bat/raw/main/
 : 1723697894:0;ll
 : 1723697897:0;cd numpy
 : 1723697902:0;nv impp.py
-: 1723706412:0;c
-: 1723706412:0;c
-: 1723706412:0;c
-: 1723706413:0;c
 : 1723706659:0;cnv
 : 1723706662:0;cdp
-: 1723706662:0;cd
 : 1723706666:0;cd dsa
 : 1723706667:0;ll
 : 1723706672:0;nv tree.py
-: 1723707359:0;c
 : 1723717658:0;nv
 : 1723717766:0;nv
 : 1723718016:0;nv
@@ -623,8 +542,6 @@ wget -P "$(bat --config-dir)/themes" https://github.com/catppuccin/bat/raw/main/
 : 1723720761:0;hx
 : 1723720766:0;hx
 : 1723720801:0;nv
-: 1723720802:0;cd
-: 1723720802:0;c
 : 1723720804:0;ll
 : 1723720808:0;cd pyf
 : 1723720811:0;hx README.md
@@ -683,7 +600,6 @@ wget -P "$(bat --config-dir)/themes" https://github.com/catppuccin/bat/raw/main/
 : 1723728452:0;cd python
 : 1723728453:0;ll
 : 1723728462:0;nv 1.txt
-: 1723728799:0;cd
 : 1723728802:0;curl https://api.stackexchange.com/2.2/questions?site=stackoverflow&filter=withbody&order=desc&sort=activity&limit=100
 : 1723728810:0;curl "https://api.stackexchange.com/2.2/questions?site=stackoverflow&filter=withbody&order=desc&sort=activity&limit=100"
 : 1723728819:0;curl "https://api.stackexchange.com/2.2/questions?site=stackoverflow&filter=withbody&order=desc&sort=activity&limit=100" | jq
@@ -718,7 +634,6 @@ wget -P "$(bat --config-dir)/themes" https://github.com/catppuccin/bat/raw/main/
 : 1723743761:0;llll
 : 1723743794:0;tree
 : 1723743805:0;tree | head -n 50
-: 1723744085:0;c
 : 1723744086:0;ls
 : 1723744088:0;lll
 : 1723744090:0;cdp
@@ -846,14 +761,12 @@ wget -P "$(bat --config-dir)/themes" https://github.com/catppuccin/bat/raw/main/
 : 1723785447:0;nmtui
 : 1723785459:0;lg
 : 1723785462:0;ll
-: 1723785469:0;cd
 : 1723785470:0;ll
 : 1723785474:0;cd python
 : 1723785476:0;ls
 : 1723785482:0;rm -rf NLP-Internship-Project
 : 1723785483:0;ll
 : 1723785588:0;rm -rf ~/.virtualenvs/NLP-Internship-Project-ptga
-: 1723785593:0;cd
 : 1723785595:0;ncdu
 : 1723785617:0;trash-empty
 : 1723785643:0;ncdu
@@ -886,11 +799,9 @@ wget -P "$(bat --config-dir)/themes" https://github.com/catppuccin/bat/raw/main/
 : 1723787317:0;ll
 : 1723787319:0;clear
 : 1723787320:0;ll
-: 1723787321:0;c
 : 1723787323:0;npm init
 : 1723787636:0;npm i express
 : 1723787815:0;ping 8.8.8.8
-: 1723788066:0;c
 : 1723788862:0;nv
 : 1723789986:0;wpaperctl next
 : 1723789991:0;wpaperctl next
@@ -935,18 +846,15 @@ wget -P "$(bat --config-dir)/themes" https://github.com/catppuccin/bat/raw/main/
 : 1723803211:0;nv
 : 1723803292:0;yay fastfetch
 : 1723803297:0;nv
-: 1723803309:0;c
 : 1723803309:0;ll
 : 1723803316:0;cd nvim
 : 1723803321:0;grep -rn wife
 : 1723805855:0;pacman -Qi prison
-: 1723808746:0;c
 : 1723808749:0;cd pyfis
 : 1723808751:0;cd pyfix
 : 1723808753:0;ll
 : 1723808753:0;nv
 : 1723808778:0;ll
-: 1723808779:0;c
 : 1723808782:0;grep
 : 1723808788:0;grep --help
 : 1723808806:0;grep --exclude-dir=.git/
@@ -972,7 +880,6 @@ wget -P "$(bat --config-dir)/themes" https://github.com/catppuccin/bat/raw/main/
 : 1723826542:0;cd sta
 : 1723826542:0;ll
 : 1723826544:0;cdp
-: 1723826545:0;cd
 : 1723826547:0;cd python
 : 1723826548:0;ll
 : 1723826551:0;cd stack-overflow-label-predictor
@@ -1009,11 +916,8 @@ wget -P "$(bat --config-dir)/themes" https://github.com/catppuccin/bat/raw/main/
 : 1723871240:0;ll
 : 1723871241:0;nv
 : 1723871565:0;clear
-: 1723871602:0;c
 : 1723871676:0;clear
 : 1723871677:0;ll
-: 1723871677:0;cd
-: 1723871678:0;c
 : 1723871681:0;cd tnp
 : 1723871682:0;ll
 : 1723871685:0;cd oops
@@ -1021,22 +925,12 @@ wget -P "$(bat --config-dir)/themes" https://github.com/catppuccin/bat/raw/main/
 : 1723871688:0;nv graph.py
 : 1723871756:0;typer
 : 1723871796:0;clear
-: 1723871796:0;c
-: 1723871797:0;c
-: 1723871797:0;c
-: 1723871797:0;c
-: 1723871798:0;c
-: 1723871799:0;c
 : 1723871799:0;ll
 : 1723871801:0;lg
 : 1723872351:0;nv
 : 1723874830:0;nv
 : 1723875830:0;clear
 : 1723875831:0;ll
-: 1723875832:0;c
-: 1723875832:0;c
-: 1723875832:0;c
-: 1723875833:0;c
 : 1723875834:0;cll
 : 1723875835:0;ll
 : 1723880459:0;nmtui
@@ -1053,18 +947,11 @@ wget -P "$(bat --config-dir)/themes" https://github.com/catppuccin/bat/raw/main/
 : 1723882693:0;cd ~/.virtualenvs/DSA-prep-vdgg/bin
 : 1723882696:0;nv pyfix-imports
 : 1723884228:0;nv
-: 1723888550:0;c
 : 1723888551:0;ll
-: 1723888552:0;c
 : 1723888552:0;ll
 : 1723888559:0;nv dotenv
 : 1723888575:0;nv pyflakes
-: 1723888582:0;c
-: 1723888582:0;c
-: 1723888583:0;c
 : 1723888585:0;ll
-: 1723888585:0;c
-: 1723888586:0;c
 : 1723888586:0;ll
 : 1723888599:0;cdp
 : 1723888599:0;ll
@@ -1076,35 +963,14 @@ wget -P "$(bat --config-dir)/themes" https://github.com/catppuccin/bat/raw/main/
 : 1723888635:0;ll
 : 1723888641:0;cd pyfix_imports
 : 1723888642:0;ll
-: 1723888677:0;c
 : 1723888678:0;ll
-: 1723888678:0;c
-: 1723888678:0;c
-: 1723888679:0;c
-: 1723888679:0;c
-: 1723888680:0;cd
-: 1723888681:0;c
-: 1723888681:0;c
-: 1723888681:0;c
-: 1723888681:0;c
-: 1723888682:0;c
-: 1723888683:0;c
 : 1723888683:0;nv
 : 1723888763:0;clear
 : 1723888764:0;ll
-: 1723888765:0;c
-: 1723888765:0;c
-: 1723888765:0;c
-: 1723888767:0;c
-: 1723888774:0;c
-: 1723888774:0;c
-: 1723888775:0;c
-: 1723888775:0;c
 : 1723889614:0;wl-copy
 : 1723889617:0;wl-copy adsad
 : 1723889622:0;wlpaste
 : 1723889624:0;wl-paste
-: 1723891159:0;cd
 : 1723891161:0;cd other-stuff
 : 1723891162:0;ll
 : 1723891164:0;cd auto-move-windows
@@ -1127,9 +993,6 @@ wget -P "$(bat --config-dir)/themes" https://github.com/catppuccin/bat/raw/main/
 : 1723891503:0;cdp
 : 1723891503:0;ll
 : 1723891532:0;tree
-: 1723900001:0;c
-: 1723902034:0;cd
-: 1723902035:0;c
 : 1723902036:0;nv
 : 1723902094:0;nv
 : 1723902123:0;nv
@@ -1181,3 +1044,2165 @@ wget -P "$(bat --config-dir)/themes" https://github.com/catppuccin/bat/raw/main/
 : 1723991958:0;yl
 : 1723991962:0;yel
 : 1723991996:0;yl
+: 1723998479:0;nv
+: 1723998497:0;nv
+: 1723998503:0;nv
+: 1723998513:0;nv
+: 1724003553:0;cd dsa-pre
+: 1724003554:0;ll
+: 1724003556:0;nv padovan-seq.py
+: 1724003626:0;nv
+: 1724036004:0;ys
+: 1724036882:0;ys
+: 1724038731:0;nv
+: 1724047742:0;nv
+: 1724049167:0;cd ~/.local/share/nvim/leetcode
+: 1724049168:0;ll
+: 1724049172:0;nv 230.kth-smallest-element-in-a-bst.py
+: 1724087988:0;ll
+: 1724087989:0;nv
+: 1724088027:0;nv
+: 1724161011:0;ys
+: 1724308264:0;ll
+: 1724308265:0;hx
+: 1724308274:0;cd nvim
+: 1724308276:0;hx init.lua
+: 1724308339:0;hx
+: 1724308569:0;cd lua/rj/lsp/lsp.lua
+: 1724308571:0;cd lua/rj/lsp/
+: 1724308578:0;nv lsp.lua
+: 1724309753:0;nv
+: 1724309758:0;nv
+: 1724309796:0;nv
+: 1724309807:0;cd nvim
+: 1724309809:0;cd lsp
+: 1724309811:0;ll
+: 1724309819:0;mv lsp.lua init.lua
+: 1724309830:0;nv
+: 1724309845:0;nv
+: 1724310005:0;nv
+: 1724310033:0;nv
+: 1724310061:0;nv
+: 1724310935:0;nv
+: 1724311092:0;ys
+: 1724311111:0;:q
+: 1724311129:0;ls
+: 1724311131:0;clear
+: 1724311132:0;clear
+: 1724311133:0;e
+: 1724311350:0;nv
+: 1724311356:0;ls
+: 1724311358:0;clear
+: 1724311364:0;nv
+: 1724311744:0;nv
+: 1724311763:0;ping 8.8.8.8
+: 1724347343:0;ys
+: 1724347777:0;nv
+: 1724349301:0;nv
+: 1724349617:0;nv
+: 1724349653:0;nv
+: 1724349656:0;cd docu
+: 1724349657:0;ll
+: 1724349659:0;nv main.py
+: 1724349729:0;nv
+: 1724390966:0;nmtui
+: 1724390976:0;cd tnp
+: 1724390984:0;cd tnp
+: 1724390985:0;ll
+: 1724390986:0;cdp
+: 1724391007:0;cdp
+: 1724391012:0;cd Web-dev
+: 1724391013:0;ls
+: 1724391017:0;cd node
+: 1724391018:0;ls
+: 1724391021:0;cd node
+: 1724391022:0;ll
+: 1724391027:0;mkdir day6
+: 1724391031:0;cd day6
+: 1724391032:0;ll
+: 1724391034:0;npm init
+: 1724391040:0;ls
+: 1724391050:0;npm i express nodemon
+: 1724391090:0;nv package.json
+: 1724391145:0;npm i nodemon
+: 1724391149:0;npm i nodemon -D
+: 1724391229:0;npm run
+: 1724391314:0;killall -9 electron
+: 1724391321:0;nv
+: 1724391528:0;netstat
+: 1724391537:0;yay netstat
+: 1724391737:0;npm run start
+: 1724391740:0;ls
+: 1724391745:0;nv package.json
+: 1724391758:0;npm start run
+: 1724391771:0;npm run start
+: 1724391924:0;bun run --hot main.js
+: 1724391958:0;npm run start
+: 1724392073:0;ll
+: 1724392077:0;nv package.json
+: 1724392085:0;npm run start
+: 1724392107:0;tmux
+: 1724392114:0;npm run start
+: 1724392117:0;nv
+: 1724393771:0;nv
+: 1724393846:0;npm i ejs
+: 1724393901:0;npm run start
+: 1724394718:0;npm init -y
+: 1724394734:0;cdp
+: 1724394741:0;cd day6-part2/
+: 1724394747:0;bun run --hot index.js
+: 1724394755:0;ll
+: 1724394757:0;cdp
+: 1724394761:0;cd day6-part2
+: 1724394768:0;ls
+: 1724394773:0;npm init -y
+: 1724394775:0;ll
+: 1724394780:0;nv package.json
+: 1724395037:0;which express
+: 1724395657:0;bun run --hot index.js
+: 1724395755:0;nodemon index.js
+: 1724396079:0;nodemon index.js
+: 1724396265:0;nodemon index.js
+: 1724397092:0;nodemon index.js
+: 1724419578:0;nv
+: 1724419586:0;ll
+: 1724422978:0;nv
+: 1724425388:0;nv
+: 1724425533:0;nv
+: 1724425574:0;nv
+: 1724425578:0;cd nvim
+: 1724425649:0;lg
+: 1724427555:0;nv
+: 1724431616:0;nv
+: 1724431878:0;lg
+: 1724431908:0;nv
+: 1724434457:0;cd rust
+: 1724434458:0;ll
+: 1724434462:0;nv new.rs
+: 1724434476:0;cd rust
+: 1724434483:0;nv Learning-Rust/src/main.rs
+: 1724434514:0;nv
+: 1724434530:0;nv
+: 1724434574:0;nv
+: 1724434593:0;nv
+: 1724434607:0;nv
+: 1724434651:0;nv
+: 1724434775:0;nv
+: 1724434816:0;nv
+: 1724434905:0;nv
+: 1724434939:0;nv
+: 1724435033:0;nv
+: 1724470570:0;nv
+: 1724471144:0;nv
+: 1724475650:0;ys
+: 1724477810:0;ll
+: 1724477812:0;ll
+: 1724477813:0;nv
+: 1724477816:0;cali
+: 1724477999:0;cali
+: 1724478072:0;c
+: 1724478073:0;c
+: 1724478073:0;c
+: 1724478073:0;c
+: 1724478074:0;e
+: 1724478929:0;nv
+: 1724492732:0;ls
+: 1724492734:0;ll
+: 1724492738:0;ls
+: 1724492739:0;e
+: 1724492888:0;ping 8.8.8.8
+: 1724493379:0;nv
+: 1724493626:0;bob use stable
+: 1724493656:0;bob use nightly
+: 1724561397:0;nv
+: 1724561403:0;nvim -v
+: 1724561405:0;e
+: 1724561416:0;bob use stable
+: 1724561419:0;nv
+: 1724561442:0;sp
+: 1724563348:0;ys
+: 1724565810:0;ys
+: 1724567547:0;c
+: 1724567547:0;c
+: 1724567547:0;c
+: 1724567548:0;c
+: 1724567550:0;tt
+: 1724568546:0;yay zen-browser
+: 1724568659:0;clear
+: 1724568660:0;ll
+: 1724568661:0;c
+: 1724568663:0;nv
+: 1724581494:0;c
+: 1724581495:0;ll
+: 1724581495:0;c
+: 1724581496:0;nv
+: 1724581931:0;ping 8.8.8.8
+: 1724582153:0;c
+: 1724586321:0;nv
+: 1724587044:0;wtr
+: 1724587573:0;e
+: 1724595035:0;c
+: 1724595038:0;e
+: 1724603409:0;ys
+: 1724603911:0;killall -9 floorp
+: 1724603919:0;killall -9 firefox
+: 1724605691:0;ll
+: 1724605697:0;ll
+: 1724605989:0;nv
+: 1724606508:0;yay -Rns floorp zen-browser-bin
+: 1724608286:0;ll
+: 1724679035:0;cd hypr
+: 1724679035:0;ll
+: 1724679039:0;nv hyprland.conf
+: 1724679106:0;ll
+: 1724679107:0;cd
+: 1724679107:0;c
+: 1724679400:0;ys
+: 1724679413:0;e
+: 1724679421:0;killall -9 pacman
+: 1724679424:0;pacman
+: 1724679427:0;pacman -h
+: 1724679429:0;pacman -Sy
+: 1724679431:0;ys
+: 1724679441:0;ll
+: 1724679453:0;killall -9 alacritty
+: 1724679456:0;ys
+: 1724679479:0;rm -rf /var/lib/pacman/db.lck
+: 1724679484:0;sudo rm -rf /var/lib/pacman/db.lck
+: 1724679489:0;ys
+: 1724680003:0;nvim
+: 1724684533:0;nv
+: 1724693476:0;c
+: 1724693476:0;c
+: 1724693477:0;c
+: 1724693477:0;c
+: 1724693478:0;c
+: 1724693478:0;c
+: 1724693478:0;c
+: 1724693480:0;ll
+: 1724693482:0;btop
+: 1724734691:0;ll
+: 1724734694:0;nv
+: 1724736445:0;killall -9 electron
+: 1724765247:0;c
+: 1724765247:0;c
+: 1724765248:0;ll
+: 1724765249:0;c
+: 1724765250:0;nv
+: 1724768804:0;nv
+: 1724768858:0;nv
+: 1724769721:0;cd py
+: 1724769722:0;ll
+: 1724769725:0;cd random
+: 1724769725:0;ll
+: 1724769729:0;nv main.py
+: 1724769754:0;pip install numpy
+: 1724769864:0;nv
+: 1724770542:0;yay -Rns floorp zen-browser-bin
+: 1724770551:0;cd
+: 1724770553:0;ncdu
+: 1724770618:0;cd projects/PYTHON-ML
+: 1724770625:0;cd Machine-Learning-Specialization-Coursera
+: 1724770628:0;ll
+: 1724770629:0;lg
+: 1724770648:0;cp requirements.txt ..
+: 1724770649:0;ll
+: 1724770651:0;lg
+: 1724773438:0;killall -9 electron
+: 1724773726:0;dunstify "fdsfd"
+: 1724853389:0;cd Downloads
+: 1724853390:0;ll
+: 1724853402:0;unzip -p CV.docx word/document.xml | sed -e 's/<[^>]\{1,\}>//g; s/[^[:print:]]\{1,\}//g'
+: 1724853416:0;unzip -p CV.docx word/document.xml | sed -e 's/<[^>]\{1,\}>//g; s/[^[:print:]]\{1,\}//g' >> CV-QB.md
+: 1724853420:0;nv CV-QB.md
+: 1724854024:0;mkdir ~/Documents/Clg-stuff/CV
+: 1724854048:0;mv CV-QB.md ~/Documents/Clg-stuff/CV
+: 1724854052:0;e
+: 1724854054:0;cd
+: 1724854056:0;cd Do
+: 1724854056:0;ll
+: 1724854057:0;cdp
+: 1724854058:0;cd docu
+: 1724854059:0;ll
+: 1724854061:0;cd Clg-stuff
+: 1724854061:0;ll
+: 1724854064:0;cd CV
+: 1724854064:0;ll
+: 1724854069:0;nv answer.md
+: 1724855062:0;ll
+: 1724855072:0;codium ..
+: 1724855126:0;ll
+: 1724855132:0;xo CV-QB-ans.pdf
+: 1724858155:0;nv
+: 1724863002:0;ll
+: 1724863002:0;c
+: 1724863003:0;c
+: 1724863003:0;c
+: 1724863003:0;c
+: 1724863004:0;c
+: 1724933267:0;clear
+: 1724933268:0;c
+: 1724933269:0;ys
+: 1724936748:0;c
+: 1724936749:0;e
+: 1724936750:0;ys
+: 1724943162:0;nv
+: 1725024930:0;yt-dlp "https://www.youtube.com/watch?v=Kzk_uLVEBIs"
+: 1725024948:0;yt-dlp --help
+: 1725024992:0;yt-dlp -x "https://www.youtube.com/watch?v=Kzk_uLVEBIs"
+: 1725025096:0;ncdu
+: 1725025463:0;e
+: 1725034502:0;ll
+: 1725034505:0;c
+: 1725034506:0;ys
+: 1725034578:0;clear
+: 1725034595:0;ll
+: 1725034603:0;nv .zshrc
+: 1725034615:0;clear
+: 1725034616:0;ll
+: 1725034617:0;c
+: 1725034617:0;c
+: 1725034617:0;c
+: 1725034618:0;c
+: 1725034637:0;c
+: 1725034638:0;kk
+: 1725034639:0;ll
+: 1725034647:0;rm -rf .zen
+: 1725034648:0;ll
+: 1725072516:0;nv
+: 1725072549:0;c
+: 1725072550:0;ll
+: 1725072551:0;c
+: 1725072551:0;c
+: 1725072551:0;c
+: 1725072551:0;c
+: 1725075589:0;cys
+: 1725075590:0;ys
+: 1725075834:0;c
+: 1725075834:0;c
+: 1725075835:0;c
+: 1725075835:0;c
+: 1725075837:0;nv
+: 1725111788:0;wpaperctl next
+: 1725113099:0;hyprctl windows
+: 1725113103:0;hyprctl --help
+: 1725113131:0;hyprctl workspaces
+: 1725113863:0;tldr hyprctl
+: 1725113911:0;tldr --update
+: 1725113921:0;tldr hyprctl
+: 1725113973:0;hyprctl activewindow
+: 1725114153:0;hyprctl clients
+: 1725114174:0;nv
+: 1725114178:0;cd hypr
+: 1725114182:0;nv hyprland.conf
+: 1725119190:0;killall -9 electron
+: 1725126162:0;nv
+: 1725126345:0;nv
+: 1725126594:0;e
+: 1725162271:0;yd
+: 1725162272:0;ys
+: 1725162696:0;sudo tpg
+: 1725162699:0;tpg
+: 1725162930:0;tmux
+: 1725162934:0;tpg
+: 1725162950:0;ls
+: 1725162951:0;ll
+: 1725162951:0;c
+: 1725162968:0;ls
+: 1725162969:0;c
+: 1725162970:0;nv
+: 1725163032:0;killall -9 electron
+: 1725164660:0;bob use stable
+: 1725164665:0;nv
+: 1725164774:0;nv
+: 1725164811:0;nv
+: 1725164819:0;nv
+: 1725164848:0;nv
+: 1725164908:0;nv
+: 1725165221:0;ruff check src/pyfix_imports/__init__.py
+: 1725165239:0;ruff check src/pyfix_imports/__init__.py
+: 1725165327:0;cd pyfix
+: 1725165328:0;ll
+: 1725165329:0;lg
+: 1725165372:0;act
+: 1725165513:0;nv
+: 1725165558:0;nv
+: 1725165572:0;ruff check src/pyfix_imports/package.py
+: 1725165735:0;nv
+: 1725169077:0;ping 8.8.8.8
+: 1725169105:0;cd python-ml
+: 1725169105:0;ll
+: 1725169107:0;uv init example
+: 1725169110:0;cd example
+: 1725169110:0;ll
+: 1725169132:0;uv add ruff
+: 1725169144:0;nv pyproject.toml
+: 1725169185:0;ls
+: 1725169186:0;ll
+: 1725169188:0;uv sync
+: 1725169245:0;cp -r ../pyfix-imports/src/pyfix_imports src
+: 1725169246:0;ll
+: 1725169262:0;rm -rf src/example
+: 1725169263:0;ll
+: 1725169267:0;uv sync
+: 1725169288:0;ll
+: 1725169296:0;cp -r ../pyfix-imports/tests .
+: 1725169296:0;ll
+: 1725169303:0;uv pytest run
+: 1725169470:0;uv sync
+: 1725169511:0;uv pytest run
+: 1725169520:0;uv run pytest
+: 1725170334:0;c
+: 1725170335:0;ll
+: 1725170335:0;c
+: 1725170340:0;ll
+: 1725170341:0;c
+: 1725170502:0;nv
+: 1725170506:0;fg
+: 1725170509:0;fg
+: 1725170564:0;nv
+: 1725170725:0;ll
+: 1725170738:0;uv run ruff check
+: 1725170740:0;ll
+: 1725170747:0;ll
+: 1725170754:0;e
+: 1725170773:0;ll
+: 1725183811:0;yay xonsh
+: 1725183824:0;xonsh
+: 1725185590:0;xonsh
+: 1725185602:0;ll
+: 1725185602:0;c
+: 1725188055:0;clear
+: 1725188055:0;ll
+: 1725188056:0;c
+: 1725188057:0;e
+: 1725188070:0;ll
+: 1725188071:0;c
+: 1725188073:0;e
+: 1725188074:0;ll
+: 1725188074:0;c
+: 1725188080:0;cd
+: 1725188080:0;c
+: 1725188101:0;nv
+: 1725194030:0;nv
+: 1725194250:0;cd python
+: 1725194251:0;ll
+: 1725194261:0;cd Machine-Learning-Specialization-Coursera
+: 1725194262:0;ll
+: 1725194264:0;cdp
+: 1725194267:0;ncdu
+: 1725194342:0;git config --get remote.origin.url
+: 1725194349:0;cd Machine-Learning-Specialization-Coursera
+: 1725194350:0;git config --get remote.origin.url
+: 1725194403:0;cdp
+: 1725194404:0;ll
+: 1725194407:0;rm -rf Machine-Learning-Specialization-Coursera
+: 1725194417:0;gh repo clone Machine-Learning-Specialization-Coursera - --depth=1
+: 1725194428:0;gh repo clone Machine-Learning-Specialization-Coursera -- depth=1
+: 1725194447:0;gh repo clone Machine-Learning-Specialization-Coursera -- --depth=1
+: 1725194516:0;gh repo clone Machine-Learning-Specialization-Coursera -- --depth=1
+: 1725194571:0;cd Machine-Learning-Specialization-Coursera
+: 1725194572:0;ll
+: 1725194574:0;jn .
+: 1725194813:0;ls
+: 1725194816:0;cd Machine-Learning-Specialization-Coursera
+: 1725194816:0;ll
+: 1725194819:0;cd ..
+: 1725194824:0;cp requirements.txt Machine-Learning-Specialization-Coursera
+: 1725194826:0;cd Machine-Learning-Specialization-Coursera
+: 1725194827:0;ll
+: 1725194830:0;nv requirements.txt
+: 1725194837:0;ll
+: 1725203911:0;c
+: 1725203912:0;c
+: 1725203913:0;ll
+: 1725203913:0;c
+: 1725203914:0;ll
+: 1725203920:0;rm -rf Google\ -\ AI\ Scrap\ Or\ No\ Search\ \[Kzk_uLVEBIs\].*
+: 1725203920:0;ll
+: 1725204960:0;nv
+: 1725205035:0;ll
+: 1725205036:0;cd py
+: 1725205036:0;ll
+: 1725205039:0;cd pyfi
+: 1725205040:0;ll
+: 1725205040:0;lg
+: 1725205046:0;pdm run pytest
+: 1725205052:0;nv
+: 1725205072:0;killall -9 electron
+: 1725205076:0;ll
+: 1725205077:0;make
+: 1725205085:0;nv pyproject.toml
+: 1725205100:0;nv pyproject.toml
+: 1725205103:0;make
+: 1725205107:0;ll
+: 1725205109:0;make run
+: 1725205186:0;make run
+: 1725205214:0;make run
+: 1725205245:0;make run
+: 1725205260:0;make run
+: 1725205311:0;make run
+: 1725205330:0;make run
+: 1725205349:0;make run
+: 1725205383:0;make run
+: 1725205407:0;make run
+: 1725205471:0;e
+: 1725205690:0;pdm run pytest -vv
+: 1725205718:0;pdm run pytest -vv
+: 1725205728:0;pdm run pytest -vv
+: 1725205797:0;nv
+: 1725211020:0;c
+: 1725211021:0;lg
+: 1725211046:0;nv
+: 1725211303:0;lg
+: 1725211305:0;e
+: 1725211311:0;wpaperctl next
+: 1725211340:0;killall -9 wpaperd && swaybg -i ~/Pictures/Wallpapers/wallpapers/Milky_Way.jpg
+: 1725211347:0;killall -9 wpaperd && swaybg -i ~/Pictures/Wallpapers/wallpapers/Milky_Way.jpg &!
+: 1725211354:0;killall -9 wpaperd || swaybg -i ~/Pictures/Wallpapers/wallpapers/Milky_Way.jpg &!
+: 1725281566:0;cd go
+: 1725281567:0;ll
+: 1725281578:0;fzf
+: 1725281589:0;mkdir dbus
+: 1725281592:0;cd dbus
+: 1725281592:0;ll
+: 1725281596:0;go mod init dbus
+: 1725281604:0;go get github.com/sevlyar/go-daemon
+: 1725282549:0;mocp
+: 1725282638:0;mocp
+: 1725282893:0;go get git.sr.ht/~rockorager/vaxis
+: 1725282942:0;nv main.go
+: 1725282980:0;tldr go
+: 1725282984:0;go build
+: 1725282986:0;ll
+: 1725282995:0;cd go
+: 1725282997:0;cd dbus
+: 1725282998:0;ll
+: 1725283000:0;./dbus
+: 1725283094:0;go build
+: 1725283097:0;./dbus
+: 1725283110:0;fg
+: 1725283153:0;./dbus
+: 1725283392:0;ll
+: 1725283449:0;nv
+: 1725283452:0;wpaperctl next
+: 1725283469:0;go build
+: 1725283472:0;./dbus
+: 1725283601:0;./dbus
+: 1725283606:0;fg
+: 1725283669:0;go build
+: 1725283680:0;go get git.sr.ht/~rockorager/vaxis/widgets/textinput
+: 1725283693:0;fg
+: 1725283698:0;nv
+: 1725283705:0;go build
+: 1725283708:0;./dbus
+: 1725283737:0;./dbus
+: 1725283948:0;fg
+: 1725283958:0;go build
+: 1725283961:0;./dbus
+: 1725283969:0;./dbus
+: 1725283985:0;go get git.sr.ht/~rockorager/vaxis/widgets/spinner
+: 1725283993:0;nv
+: 1725283996:0;fg
+: 1725284003:0;go get git.sr.ht/~rockorager/vaxis/widgets/spinner
+: 1725284007:0;go build
+: 1725284010:0;./dbus
+: 1725284022:0;c
+: 1725284023:0;ll
+: 1725284024:0;nv
+: 1725284027:0;fg
+: 1725284029:0;nv
+: 1725284042:0;cd go
+: 1725284044:0;cd dbus
+: 1725284045:0;ll
+: 1725284047:0;./dbus
+: 1725288300:0;cdp
+: 1725288301:0;ll
+: 1725288339:0;mkdir koala-tmp
+: 1725288341:0;cd koala-tmp
+: 1725288341:0;ll
+: 1725288347:0;go mod init koala
+: 1725288367:0;mv ../koala-tmp.png .
+: 1725288368:0;ll
+: 1725288372:0;xo koala-tmp.png
+: 1725288392:0;xo ,
+: 1725288393:0;xo ,
+: 1725288397:0;xo .
+: 1725288427:0;xo koala-tmp.png
+: 1725293379:0;c
+: 1725293379:0;c
+: 1725293380:0;c
+: 1725293380:0;c
+: 1725293382:0;c
+: 1725293383:0;cd
+: 1725293383:0;c
+: 1725293385:0;cd Downloads
+: 1725293386:0;ll
+: 1725293513:0;cd
+: 1725293514:0;fzf
+: 1725293535:0;fzf
+: 1725296865:0;go get github.com/mattn/go-sqlite3
+: 1725297019:0;go build -tags "linux"
+: 1725297024:0;go build -tags "linux"
+: 1725297033:0;go build -tags "libsqlite3 linux"
+: 1725297036:0;ll
+: 1725297038:0;nv main.go
+: 1725297080:0;go build -tags "libsqlite3 linux"
+: 1725297160:0;go get github.com/mattn/go-sqlite3
+: 1725297457:0;nv main.go
+: 1725297855:0;nv
+: 1725297922:0;go get github.com/mattn/go-sqlite3
+: 1725297939:0;nv
+: 1725298017:0;ll
+: 1725298023:0;rm -rf koala
+: 1725298023:0;ll
+: 1725298026:0;nv main.go
+: 1725298035:0;go get github.com/mattn/go-sqlite3
+: 1725298042:0;nv
+: 1725298477:0;ll
+: 1725298480:0;go build
+: 1725298500:0;ll
+: 1725298510:0;go build -tags "libsqlite3 linux"
+: 1725298518:0;ll
+: 1725298521:0;./koala
+: 1725298522:0;ll
+: 1725298532:0;./koala
+: 1725298533:0;./koala
+: 1725298533:0;./koala
+: 1725298534:0;./koala
+: 1725298535:0;./koala
+: 1725298536:0;./koala
+: 1725298537:0;ll
+: 1725298542:0;rm -rf example.db
+: 1725298542:0;ll
+: 1725298545:0;./koala
+: 1725299143:0;go build -tags "libsqlite3 linux"
+: 1725299146:0;./koala
+: 1725299147:0;./koala
+: 1725299148:0;./koala
+: 1725299149:0;./koala
+: 1725299149:0;./koala
+: 1725299275:0;./koala
+: 1725299306:0;go build -tags "libsqlite3 linux"
+: 1725299310:0;./koala
+: 1725299394:0;btop
+: 1725299436:0;btop
+: 1725299480:0;ll
+: 1725299537:0;go build
+: 1725299563:0;go build -tags "linux"
+: 1725299616:0;export CGO_ENABLED=1
+: 1725299627:0;go build
+: 1725299655:0;go install github.com/mattn/go-sqlite3
+: 1725299755:0;go build -tags "linux"
+: 1725299761:0;go build -tags "libsqlite3 linux"
+: 1725299765:0;./koala
+: 1725369573:0;cd go
+: 1725369573:0;ll
+: 1725369576:0;cd koala-tmp
+: 1725369576:0;ll
+: 1725369582:0;go get -u github.com/gopxl/beep
+: 1725369621:0;nv main.go
+: 1725369850:0;ll
+: 1725369866:0;yt-dlp -x "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+: 1725369879:0;ll
+: 1725369894:0;mv Rick\ Astley\ -\ Never\ Gonna\ Give\ You\ Up\ \(Official\ Music\ Video\)\ \[dQw4w9WgXcQ\].opus never-gonna-give-you-up.opus
+: 1725369894:0;ll
+: 1725369943:0;ffmpeg -i never-gonna-give-you-up.opus -vn -ar 44100 -ac 2 -b:a 192k output.mp3
+: 1725369952:0;ll
+: 1725369955:0;rm never-gonna-give-you-up.opus
+: 1725369958:0;xo output.mp3
+: 1725370133:0;nv
+: 1725370165:0;ll
+: 1725370170:0;go get github.com/gopxl/beep
+: 1725370176:0;nv main.go
+: 1725370201:0;go get github.com/gopxl/beep/mp3
+: 1725370263:0;nv
+: 1725370401:0;go get github.com/gopxl/beep/speaker
+: 1725370415:0;nv
+: 1725370460:0;ls
+: 1725370461:0;ll
+: 1725370472:0;go run main.go
+: 1725370478:0;ll
+: 1725370486:0;go build main.go
+: 1725370487:0;ll
+: 1725370490:0;./main
+: 1725370492:0;ll
+: 1725370494:0;rm -rf main.go
+: 1725370504:0;ll
+: 1725370506:0;mv main.go
+: 1725370510:0;nv main.go
+: 1725370531:0;go run main.go
+: 1725370581:0;go run main.go
+: 1725370591:0;go run main.go
+: 1725370691:0;go get github.com/gopxl/beep
+: 1725370799:0;go run main.go
+: 1725370808:0;go build
+: 1725370810:0;ll
+: 1725370813:0;rm main
+: 1725370814:0;ll
+: 1725370816:0;./koala
+: 1725370834:0;ll
+: 1725370837:0;cd
+: 1725370840:0;cd Music
+: 1725370841:0;ll
+: 1725370842:0;ncdu
+: 1725370872:0;cd
+: 1725370875:0;cd koala
+: 1725370876:0;ll
+: 1725370879:0;go builld
+: 1725370880:0;go build
+: 1725370882:0;ll
+: 1725370885:0;./koala
+: 1725370891:0;ll
+: 1725372502:0;go get github.com/gopxl/beep/flac
+: 1725372520:0;nv
+: 1725375695:0;go get github.com/gdamore/tcell
+: 1725375717:0;ll
+: 1725375721:0;nv
+: 1725375736:0;go build
+: 1725375742:0;cd koala
+: 1725375743:0;ll
+: 1725375747:0;./koala
+: 1725375753:0;./koala output.mp3
+: 1725375807:0;nv
+: 1725381823:0;nv
+: 1725381860:0;nv
+: 1725384224:0;nv
+: 1725384380:0;nv
+: 1725384388:0;nv
+: 1725451900:0;ys
+: 1725451932:0;python -m http.server 6969
+: 1725451960:0;ll
+: 1725451961:0;c
+: 1725451961:0;ll
+: 1725451962:0;c
+: 1725452110:0;ll
+: 1725452112:0;cd koal
+: 1725452113:0;ll
+: 1725452117:0;nv main.go
+: 1725452151:0;go get git.sr.ht/~rockorager/vaxis
+: 1725452160:0;ll
+: 1725452164:0;nv go.mod
+: 1725452191:0;nv main.go
+: 1725452223:0;ll
+: 1725452341:0;nv
+: 1725452652:0;ll
+: 1725452655:0;go build
+: 1725452659:0;./koala
+: 1725452668:0;./koala
+: 1725452679:0;fg
+: 1725452699:0;nv
+: 1725452706:0;go build
+: 1725452708:0;./koala
+: 1725452711:0;nv
+: 1725452855:0;go build
+: 1725452858:0;./koala
+: 1725452884:0;go build
+: 1725452886:0;./koala
+: 1725456759:0;hyprctl clients
+: 1725471617:0;killall -9 wpaperd || swaybg -i ~/Pictures/Wallpapers/wallpapers/Milky_Way.jpg &!
+: 1725471622:0;killall -9 electron
+: 1725471631:0;killall -9 wpaperd || swaybg -i ~/Pictures/Wallpapers/wallpapers/Milky_Way.jpg &!
+: 1725538821:0;ping 8.8.8.8
+: 1725538979:0;ping 8.8.8.8
+: 1725543126:0;nap
+: 1725544080:0;python
+: 1725544689:0;cd python-ml
+: 1725544692:0;cd numpy
+: 1725544692:0;ll
+: 1725544698:0;nv counter.py
+: 1725546241:0;nv
+: 1725557188:0;yshx
+: 1725557189:0;hx
+: 1725557198:0;hx
+: 1725557267:0;cdp
+: 1725557268:0;cd
+: 1725557270:0;cd go
+: 1725557272:0;cd koala
+: 1725557273:0;ls
+: 1725557408:0;go get github.com/charmbracelet/bubbletea
+: 1725557425:0;ll
+: 1725557428:0;nv go.mod
+: 1725557435:0;ll
+: 1725557437:0;nv main.go
+: 1725558071:0;ping 8.8.8.8
+: 1725558808:0;nv
+: 1725559543:0;nv
+: 1725559562:0;ll
+: 1725559566:0;go get github.com/jroimartin/gocui
+: 1725559592:0;nv main.go
+: 1725559663:0;go run main.go
+: 1725599042:0;killall -9 electron
+: 1725599891:0;nmtui
+: 1725600933:0;nmtui
+: 1725601073:0;nvim
+: 1725601081:0;cd ip
+: 1725601082:0;ll
+: 1725601084:0;cdp
+: 1725601085:0;cdpp
+: 1725601088:0;cd IP
+: 1725601089:0;cd
+: 1725601090:0;cd web
+: 1725601091:0;ll
+: 1725601094:0;cd IP
+: 1725601095:0;ll
+: 1725601102:0;nv random.md
+: 1725602176:0;ll
+: 1725602179:0;cdp
+: 1725602179:0;ll
+: 1725602181:0;cd node
+: 1725602182:0;ll
+: 1725602188:0;mkdir day7
+: 1725602192:0;cd day7
+: 1725602192:0;ll
+: 1725602195:0;npm init -y
+: 1725602258:0;nvim index.js
+: 1725602270:0;ll
+: 1725602273:0;cd
+: 1725602274:0;cd web
+: 1725602274:0;ll
+: 1725602276:0;cd node
+: 1725602276:0;ll
+: 1725602281:0;cd day7
+: 1725602281:0;ll
+: 1725602283:0;nv index.js
+: 1725602331:0;ll
+: 1725602338:0;npm i nodemon
+: 1725602390:0;nv package.json
+: 1725602513:0;nodemon index.js
+: 1725602529:0;ll
+: 1725602536:0;npm i express
+: 1725602765:0;nmtui
+: 1725603109:0;f
+: 1725603117:0;e
+: 1725606078:0;ll
+: 1725606079:0;c
+: 1725606079:0;c
+: 1725606079:0;c
+: 1725606080:0;c
+: 1725606080:0;c
+: 1725606081:0;ll
+: 1725606083:0;ll
+: 1725606084:0;c
+: 1725606085:0;ll
+: 1725606091:0;nv Library
+: 1725606249:0;e
+: 1725620249:0;cd go
+: 1725620249:0;kk
+: 1725620251:0;ll
+: 1725620263:0;nv learning-go/io/main.go
+: 1725620486:0;ll
+: 1725620490:0;cdp
+: 1725620495:0;mkdir codechef
+: 1725620498:0;cd codechef
+: 1725620503:0;go mod init cc
+: 1725620506:0;nv main.go
+: 1725620775:0;pin
+: 1725620777:0;ping 8.8.8.8
+: 1725624039:0;ys
+: 1725625747:0;e
+: 1725625750:0;ys
+: 1725630324:0;ll
+: 1725630326:0;c
+: 1725634644:0;cd koa
+: 1725634644:0;ll
+: 1725634646:0;nv main.go
+: 1725634747:0;ll
+: 1725634750:0;./koala
+: 1725634758:0;ys
+: 1725634846:0;cd koa
+: 1725634847:0;ll
+: 1725634849:0;./koala
+: 1725634862:0;go build
+: 1725634865:0;./koala
+: 1725634954:0;go build
+: 1725634957:0;./koala
+: 1725635090:0;lg
+: 1725635095:0;cd nvim
+: 1725635096:0;lg
+: 1725635424:0;kitty
+: 1725635429:0;cd go
+: 1725635431:0;cd koa
+: 1725635431:0;ll
+: 1725635434:0;./koala
+: 1725635787:0;e
+: 1725635789:0;e
+: 1725635793:0;fg
+: 1725635814:0;go get github.com/jesseduffield/gocui
+: 1725635838:0;nv
+: 1725636135:0;ls
+: 1725636137:0;cd
+: 1725636139:0;cd koal
+: 1725636140:0;ll
+: 1725636143:0;./koala
+: 1725636155:0;go build main.go
+: 1725636158:0;ls
+: 1725636161:0;./main
+: 1725636270:0;ll
+: 1725636276:0;rm -rf koala main
+: 1725636277:0;ll
+: 1725636281:0;ll
+: 1725636283:0;nv main.go
+: 1725636292:0;go build
+: 1725636293:0;ll
+: 1725636296:0;./koala
+: 1725636334:0;nv main.go
+: 1725636351:0;rm main
+: 1725636352:0;ll
+: 1725636355:0;rm -rf koala
+: 1725636355:0;ll
+: 1725636358:0;go build
+: 1725636362:0;./koala
+: 1725636474:0;e
+: 1725636478:0;cd koal
+: 1725636478:0;ll
+: 1725636483:0;nv main.go
+: 1725636490:0;go build
+: 1725636491:0;ll
+: 1725636494:0;./koala
+: 1725637203:0;ls
+: 1725637204:0;ll
+: 1725637207:0;nv go.mod
+: 1725637216:0;go get go.mau.fi/tcell
+: 1725637240:0;ls
+: 1725637241:0;ll
+: 1725637244:0;nv main.go
+: 1725637316:0;go build
+: 1725637319:0;./koala
+: 1725643186:0;./koala
+: 1725643323:0;go get github.com/jesseduffield/gocui
+: 1725643343:0;go build
+: 1725643346:0;./koala
+: 1725643411:0;echo $TERM
+: 1725643450:0;infocmp xterm-256color > alacritty.terminfo\
+tic alacritty.terminfo
+: 1725643456:0;export TERM=alacritty
+: 1725643469:0;./koala
+: 1725643471:0;ll
+: 1725643475:0;nv alacritty.terminfo
+: 1725643493:0;rm -rf alacritty.terminfo
+: 1725644066:0;go get git.sr.ht/~rockorager/vaxis
+: 1725644104:0;nv
+: 1725644118:0;go build
+: 1725644122:0;./koala
+: 1725644141:0;go build
+: 1725644143:0;./koala
+: 1725644233:0;go build
+: 1725644235:0;./koala
+: 1725644242:0;./koala
+: 1725644244:0;./koala
+: 1725644247:0;go build
+: 1725644248:0;./koala
+: 1725692475:0;python
+: 1725692703:0;cd projects
+: 1725692704:0;ll
+: 1725692706:0;cd dsa-
+: 1725692707:0;ll
+: 1725692711:0;nv heap.md
+: 1725700414:0;nv
+: 1725700695:0;cd programming
+: 1725700696:0;ll
+: 1725700699:0;cd Data-Structures
+: 1725700699:0;ll
+: 1725700728:0;cd Trees
+: 1725700729:0;ll
+: 1725700743:0;nvim 11.heap.md
+: 1725705343:0;python
+: 1725705370:0;clear
+: 1725705395:0;clear
+: 1725705396:0;python
+: 1725709600:0;c
+: 1725709602:0;ys
+: 1725709938:0;clear
+: 1725709939:0;ls
+: 1725709941:0;c
+: 1725709965:0;l
+: 1725709966:0;ll
+: 1725709968:0;clear
+: 1725709969:0;ll
+: 1725710264:0;cd
+: 1725710264:0;c
+: 1725710265:0;c
+: 1725710265:0;c
+: 1725710265:0;c
+: 1725710265:0;c
+: 1725710991:0;nv
+: 1725711522:0;python
+: 1725715863:0;cd dsa
+: 1725715863:0;ll
+: 1725715869:0;nv tree.py
+: 1725729004:0;clear
+: 1725729162:0;ps aux | grep dbus
+: 1725729181:0;dbus-monitor
+: 1725729631:0;ll
+: 1725729635:0;clear
+: 1725729636:0;ll
+: 1725729823:0;yay dfeet
+: 1725729828:0;yay d-feet
+: 1725729874:0;yay dspy
+: 1725730446:0;cd
+: 1725730449:0;e
+: 1725730453:0;cd koal
+: 1725730453:0;ll
+: 1725730457:0;nv main.go
+: 1725730538:0;go get github.com/godbus/dbus/v5
+: 1725730549:0;nv
+: 1725730601:0;cd koal
+: 1725730603:0;ll
+: 1725730607:0;nv client.go
+: 1725730807:0;nv client.go
+: 1725733153:0;dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.freedesktop.DBus.Properties.Get "string:org.mpris.MediaPlayer2.Playlists" "string:Playlists"
+: 1725733179:0;dbus-send --print-reply --dest=org.mpris.MediaPlayer2.player /org/mpris/MediaPlayer2 org.freedesktop.DBus.Properties.Get "string:org.mpris.MediaPlayer2.Playlists" "string:Playlists"
+: 1725765615:0;ll
+: 1725765615:0;c
+: 1725765616:0;ll
+: 1725765618:0;ls
+: 1725765619:0;c
+: 1725765640:0;nvim
+: 1725768504:0;ys
+: 1725768510:0;ys
+: 1725768582:0;fg
+: 1725768677:0;nv
+: 1725773129:0;ping 8.8.8.8
+: 1725773802:0;ls
+: 1725773803:0;ll
+: 1725773804:0;clear
+: 1725773805:0;ll
+: 1725773807:0;clear
+: 1725773807:0;ll
+: 1725773809:0;clear
+: 1725775229:0;nv
+: 1725775722:0;nv
+: 1725775771:0;man rg
+: 1725776150:0;nv
+: 1725776473:0;nv
+: 1725776512:0;nv
+: 1725776528:0;nv
+: 1725776566:0;tldr rg
+: 1725780555:0;man rg
+: 1725780596:0;man rg
+: 1725780606:0;nv
+: 1725780658:0;nv
+: 1725780756:0;nv
+: 1725780789:0;man rg
+: 1725780844:0;nv
+: 1725781145:0;nv
+: 1725781162:0;nv
+: 1725781170:0;nv
+: 1725781226:0;nv
+: 1725781242:0;nv
+: 1725781253:0;cd
+: 1725781255:0;cd koal
+: 1725781255:0;ll
+: 1725781256:0;nv
+: 1725781284:0;nv
+: 1725781356:0;ll
+: 1725781547:0;python
+: 1725790519:0;python
+: 1725790627:0;bob use nightly
+: 1725790805:0;nvim
+: 1725790811:0;nvim --version
+: 1725790818:0;bob update nightly
+: 1725790821:0;nvim
+: 1725790854:0;nvim
+: 1725790923:0;bob use stable
+: 1725808714:0;ll
+: 1725808716:0;clear
+: 1725808833:0;python
+: 1725809491:0;clear
+: 1725810214:0;ll
+: 1725810215:0;c
+: 1725810216:0;lll
+: 1725810218:0;c
+: 1725810571:0;nv
+: 1725810619:0;nv
+: 1725810826:0;ll
+: 1725810827:0;cd
+: 1725810828:0;c
+: 1725810828:0;nv
+: 1725811072:0;ll
+: 1725811074:0;nv
+: 1725811085:0;nv
+: 1725811189:0;nv
+: 1725811193:0;cd
+: 1725811194:0;cd hypr
+: 1725811195:0;nv
+: 1725854485:0;ls
+: 1725854486:0;c
+: 1725854487:0;ys
+: 1725854674:0;ll
+: 1725854675:0;c
+: 1725854802:0;ll
+: 1725854802:0;c
+: 1725854803:0;c
+: 1725854803:0;c
+: 1725854803:0;c
+: 1725854811:0;yay
+: 1725855226:0;fzf
+: 1725855476:0;rg
+: 1725855487:0;rg --vimgrep "lsp"
+: 1725855501:0;nvim
+: 1725855546:0;clear
+: 1725855547:0;nvim
+: 1725855611:0;cdp
+: 1725855612:0;ll
+: 1725855612:0;cd
+: 1725855614:0;cd go
+: 1725855615:0;ll
+: 1725855620:0;mkdir koala-backend
+: 1725855629:0;mv koala-backend koalad
+: 1725855632:0;cd koalad
+: 1725855632:0;ll
+: 1725855638:0;go mod init koalad
+: 1725855639:0;ls
+: 1725855642:0;c
+: 1725855643:0;ll
+: 1725856124:0;cd koala
+: 1725856125:0;ll
+: 1725856127:0;nv main.go
+: 1725867651:0;c
+: 1725867652:0;ll
+: 1725867656:0;nv
+: 1725867663:0;cdp
+: 1725867663:0;ll
+: 1725867669:0;cd koala
+: 1725867669:0;ll
+: 1725867670:0;cdp
+: 1725867672:0;cd koalad
+: 1725867673:0;ll
+: 1725867675:0;ll
+: 1725867678:0;nv main.go
+: 1725868200:0;ping 8.8.8.8
+: 1725869264:0;nv
+: 1725870546:0;go get -u github.com/gopxl/beep/v2
+: 1725870819:0;ping 8.8.8.8
+: 1725871239:0;nv
+: 1725871429:0;make init
+: 1725871430:0;ll
+: 1725871436:0;make build_server
+: 1725871472:0;nv
+: 1725871492:0;make build_server
+: 1725871497:0;ll
+: 1725871500:0;cd server
+: 1725871501:0;ll
+: 1725871690:0;make build
+: 1725871691:0;ll
+: 1725871695:0;nv main.go
+: 1725871718:0;make build
+: 1725871721:0;ll
+: 1725871727:0;ll
+: 1725871730:0;./bin/koala
+: 1725871731:0;ll
+: 1725882078:0;nv
+: 1725882112:0;nv
+: 1725882138:0;cd nvim
+: 1725882146:0;nv lua/rj/autocommands.lua
+: 1725882241:0;nv
+: 1725882379:0;nv
+: 1725882397:0;nv
+: 1725882452:0;e
+: 1725882464:0;nv
+: 1725882498:0;luarocks
+: 1725882509:0;yay lua5.1
+: 1725882515:0;yay lua
+: 1725882529:0;lua51
+: 1725882532:0;lua --version
+: 1725882536:0;lua -v
+: 1725882543:0;nv
+: 1725882567:0;nv
+: 1725882586:0;nv
+: 1725882745:0;nv
+: 1725882763:0;clear
+: 1725882764:0;nv
+: 1725882789:0;nv
+: 1725882918:0;nv
+: 1725882995:0;nv
+: 1725883000:0;nv
+: 1725883527:0;nv
+: 1725883529:0;wpaperctl next
+: 1725883732:0;nv
+: 1725883821:0;nv
+: 1725883826:0;nv
+: 1725883830:0;cd
+: 1725883831:0;cd go
+: 1725883834:0;cd koala
+: 1725883835:0;ll
+: 1725883836:0;cdp
+: 1725883838:0;cd koalad
+: 1725883838:0;ll
+: 1725883839:0;nv
+: 1725883963:0;e
+: 1725883973:0;ll
+: 1725883976:0;go get -u github.com/gopxl/beep/v2
+: 1725883983:0;nv
+: 1725884127:0;go get -u github.com/gopxl/beep/v2/mp3
+: 1725884324:0;go get -u github.com/gopxl/beep/v2/speaker
+: 1725884353:0;nv
+: 1725884690:0;go build
+: 1725884694:0;./koalad
+: 1725884719:0;go build
+: 1725884721:0;./koalad
+: 1725884858:0;go get -u github.com/gopxl/beep/speaker
+: 1725884875:0;fg
+: 1725884942:0;go get -u github.com/gopxl/beep/v2/beep
+: 1725885278:0;go get -u github.com/gopxl/beep/v2/flac
+: 1725885481:0;nv
+: 1725885817:0;go get -u github.com/gopxl/beep/v2/wav
+: 1725891133:0;ll
+: 1725891140:0;file koalad
+: 1725891154:0;ldd koalad
+: 1725891325:0;make
+: 1725891332:0;file bin/koala
+: 1725891342:0;ldd bin/koala
+: 1725895727:0;py
+: 1725895731:0;python
+: 1725897456:0;cdp
+: 1725897457:0;ll
+: 1725897460:0;mkdir cgo
+: 1725897462:0;cd cgo
+: 1725897465:0;ll
+: 1725897470:0;go mod init cgo
+: 1725897470:0;ll
+: 1725897473:0;nv main.go
+: 1725897609:0;nv
+: 1725897611:0;cdp
+: 1725897612:0;ll
+: 1725897613:0;cd cgo
+: 1725897614:0;ll
+: 1725897616:0;nv main.go
+: 1725897645:0;nv
+: 1725897670:0;nv
+: 1725897817:0;gcc -shared -o libhello.so hello.c\
+go run main.go
+: 1725897829:0;gcc -shared -o libhello.so hello.h\
+go run main.go
+: 1725897937:0;ll
+: 1725897940:0;nv main.go
+: 1725897972:0;gcc -o libhello.o hello.c
+: 1725897992:0;gcc -o libhello.so hello.h
+: 1725897993:0;ll
+: 1725898001:0;file libhello.so
+: 1725898010:0;go run main.go
+: 1725898024:0;rm -rf libhello.so
+: 1725898026:0;ll
+: 1725898034:0;gcc -shared -o libhello.so hello.h
+: 1725898035:0;ll
+: 1725898039:0;go run main.go
+: 1725898076:0;gcc -shared -fPIC -o libhello.so hello.c
+: 1725898077:0;ll
+: 1725898081:0;file libhello.so
+: 1725898084:0;ll
+: 1725898087:0;go run main.go
+: 1725903743:0;cd[]
+: 1725903744:0;cdp
+: 1725903748:0;cd koalad
+: 1725903749:0;ll
+: 1725903755:0;rm koalad
+: 1725903755:0;ll
+: 1725903759:0;make
+: 1725903761:0;nv
+: 1725903780:0;make build
+: 1725903808:0;nv
+: 1725904159:0;go get -u github.com/gopxl/beep/v2/ogg
+: 1725904324:0;go get -u github.com/gopxl/beep/v2/vorbis
+: 1725904393:0;nv
+: 1725905281:0;ll
+: 1725905282:0;cdp
+: 1725905283:0;ll
+: 1725905287:0;cd koala-tmp
+: 1725905287:0;ll
+: 1725905295:0;cp output.mp3 ../koalad
+: 1725905296:0;cdp
+: 1725905299:0;cd koalad
+: 1725905299:0;ll
+: 1725905308:0;ffmpeg -i output.mp3 -c:a pcm_s16le -ar 44.1k output.wav
+: 1725905312:0;ll
+: 1725905370:0;ffmpeg -i output.mp3 -c:a libvorbis output.ogg
+: 1725905380:0;ll
+: 1725905426:0;nv
+: 1725942562:0;nv
+: 1725942683:0;ys
+: 1725942708:0;nv
+: 1725942984:0;ll
+: 1725942986:0;clear
+: 1725942987:0;nv
+: 1725944613:0;ys
+: 1725944840:0;go get -u github.com/dhowden/tag
+: 1725944916:0;nv
+: 1725945133:0;nv
+: 1725945854:0;cd projects/Web-dev
+: 1725945855:0;ll
+: 1725945857:0;cd node
+: 1725945858:0;ll
+: 1725945864:0;npm install music-metadata
+: 1725945879:0;nv music.js
+: 1725946604:0;cdp
+: 1725946604:0;ll
+: 1725947424:0;time
+: 1725947426:0;date
+: 1725948784:0;nv
+: 1725950279:0;nv
+: 1725953350:0;nv
+: 1725954974:0;cd go
+: 1725954974:0;ll
+: 1725954979:0;cd koalad
+: 1725954979:0;ll
+: 1725954982:0;git init
+: 1725954983:0;ll
+: 1725954985:0;nv
+: 1725955046:0;ll
+: 1725955340:0;killall -9 waybar
+: 1725955344:0;waybar &!
+: 1725955359:0;cd
+: 1725955361:0;cd .config
+: 1725955364:0;cd waybar
+: 1725955364:0;ll
+: 1725955366:0;nv
+: 1725955569:0;timedatectl
+: 1725955773:0;date
+: 1725955878:0;man waybar
+: 1725955963:0;nv
+: 1725956060:0;nv
+: 1725956695:0;cd
+: 1725956697:0;cd go
+: 1725956697:0;ll
+: 1725956699:0;cd go
+: 1725956700:0;ll
+: 1725956701:0;cdp
+: 1725956708:0;gh repo clone Rishabh672003/koala-daemon
+: 1725956712:0;ll
+: 1725956716:0;cd koalad
+: 1725956716:0;ll
+: 1725956720:0;rm -rf .git
+: 1725956721:0;ll
+: 1725956732:0;cp -r * ../koala-daemon
+: 1725956732:0;ll
+: 1725956733:0;cdp
+: 1725956737:0;cd koala-daemon
+: 1725956738:0;ll
+: 1725956739:0;ll
+: 1725956742:0;ll
+: 1725956745:0;nv README.md
+: 1725959895:0;ll
+: 1725959896:0;cdp
+: 1725959896:0;ll
+: 1725959904:0;cd koala-tmp
+: 1725959904:0;ll
+: 1725959907:0;cd cmd
+: 1725959908:0;ll
+: 1725959916:0;cdp
+: 1725959919:0;nv main.go
+: 1725960113:0;go get -u github.com/godbus/dbus/v5
+: 1725960130:0;nv
+: 1725960568:0;nv
+: 1725960595:0;nv
+: 1725960629:0;nv
+: 1725960962:0;cd
+: 1725960964:0;cd Music
+: 1725960964:0;ll
+: 1725960967:0;cd Random
+: 1725960968:0;ll
+: 1725960978:0;cdp
+: 1725960979:0;ll
+: 1725960980:0;cdp
+: 1725960982:0;cd go
+: 1725960984:0;cd koala-daemon
+: 1725960985:0;ll
+: 1725960989:0;cd assets
+: 1725960994:0;ll
+: 1725960995:0;cdp
+: 1725960996:0;ll
+: 1725960996:0;cdp
+: 1725960997:0;ll
+: 1725961001:0;cd koalad
+: 1725961001:0;ll
+: 1725961005:0;cd assets
+: 1725961006:0;ll
+: 1725961012:0;pwd
+: 1725961154:0;ll
+: 1725961156:0;cd koalad
+: 1725961156:0;ll
+: 1725961162:0;cp -r * ../koala-daemon
+: 1725961165:0;cdp
+: 1725961168:0;cd koala-daemon
+: 1725961168:0;ll
+: 1725961172:0;cdp
+: 1725961172:0;ll
+: 1725961178:0;rm -rf koalad
+: 1725961180:0;ll
+: 1725961182:0;nv koala-daemon
+: 1725961478:0;cd music
+: 1725961480:0;cd rand
+: 1725961481:0;ll
+: 1725961484:0;cd
+: 1725961489:0;cd Music/Random
+: 1725961489:0;ll
+: 1725961495:0;pwd
+: 1725962174:0;cd
+: 1725962181:0;cd projects/Go/koala-tmp
+: 1725962181:0;ll
+: 1725962188:0;nv koala
+: 1725962190:0;nv
+: 1725963300:0;nv
+: 1725963874:0;cd
+: 1725963875:0;cd cpp
+: 1725963876:0;ll
+: 1725963878:0;nv .jaq.json
+: 1725963937:0;nv
+: 1725964226:0;cd
+: 1725964227:0;cd koala
+: 1725964228:0;ll
+: 1725964229:0;cdp
+: 1725964232:0;cd koala-daemon
+: 1725964234:0;ll
+: 1725964236:0;cd assets
+: 1725964236:0;ll
+: 1725964246:0;mv sample-1.flac output.flac
+: 1725964247:0;ll
+: 1725964249:0;pwd
+: 1725965343:0;cal
+: 1725968712:0;nv
+: 1725968998:0;nv
+: 1725970625:0;nv
+: 1725970822:0;nv
+: 1725971382:0;nv
+: 1725972676:0;nv
+: 1725972829:0;nv
+: 1725972832:0;nv
+: 1725972836:0;cd koala-daemon
+: 1725972837:0;ll
+: 1725972840:0;nv main.go
+: 1725972932:0;ps aux | grep koala
+: 1725972942:0;killall koala
+: 1725972943:0;ps aux | grep koala
+: 1725972956:0;killall grep
+: 1725972957:0;ll
+: 1725972959:0;ps aux | grep koala
+: 1725973070:0;nv
+: 1725973847:0;cd assets
+: 1725973847:0;ll
+: 1725973849:0;pwd
+: 1725974618:0;nv
+: 1725975005:0;cd music
+: 1725975006:0;ll
+: 1725975009:0;cd Random
+: 1725975010:0;ll
+: 1725975013:0;pwd
+: 1725975680:0;killall koala
+: 1725979611:0;killall koala
+: 1725979645:0;tmux
+: 1725979647:0;wpaperctl next
+: 1725979651:0;nv
+: 1725979656:0;ll
+: 1725979658:0;make run
+: 1725979788:0;make run
+: 1725980251:0;ls
+: 1725980252:0;\ls
+: 1725980271:0;\ls | wl-copy
+: 1725980640:0;ll
+: 1725980643:0;lg
+: 1725980648:0;e
+: 1725980700:0;go mod tidy
+: 1725980706:0;lg
+: 1725980725:0;lg
+: 1725981369:0;make run
+: 1725981459:0;dbus-send --session --dest=com.github.rishabh.Koalad --type=method_call --print-reply /com/github/rishabh/Koalad com.github.rishabh.Koalad.SendArray string:"element1" string:"element2" string:"element3"
+: 1725981783:0;make run
+: 1725983011:0;make run
+: 1725983024:0;e
+: 1725983252:0;make run
+: 1725983398:0;make run
+: 1725983660:0;make run
+: 1725984478:0;make run
+: 1725984501:0;make run
+: 1725990110:0;e
+: 1725990116:0;e
+: 1725990118:0;c
+: 1725990129:0;cd
+: 1725990130:0;c
+: 1725990131:0;nvim
+: 1725990144:0;nvim
+: 1726025644:0;nv
+: 1726028189:0;nv
+: 1726028466:0;pacman -Qo /usr/lib/libgcc_s.so.1
+: 1726028475:0;ys
+: 1726028605:0;pacman -Qi prince
+: 1726028617:0;yay -Rns prince-bin
+: 1726028622:0;yay -Yc
+: 1726028634:0;c
+: 1726028635:0;pf
+: 1726028639:0;ys
+: 1726029718:0;python
+: 1726029727:0;cd projects/PYTHON-ML
+: 1726029728:0;ll
+: 1726029731:0;nv random.py
+: 1726030477:0;nv
+: 1726032873:0;ll
+: 1726032874:0;c
+: 1726032875:0;nv
+: 1726037059:0;tmux
+: 1726037063:0;cd go
+: 1726037068:0;cd koala-daemon
+: 1726037069:0;ll
+: 1726037071:0;nv
+: 1726037077:0;cdp
+: 1726037077:0;ll
+: 1726037079:0;cd go
+: 1726037079:0;ll
+: 1726037083:0;cd koala-daemon
+: 1726037083:0;ll
+: 1726037085:0;make run
+: 1726037119:0;make run
+: 1726037352:0;make run
+: 1726037716:0;make run
+: 1726038013:0;make run
+: 1726038033:0;cd music
+: 1726038034:0;ll
+: 1726038036:0;cd Random
+: 1726038037:0;ll
+: 1726038044:0;pwd
+: 1726038103:0;make run
+: 1726039303:0;nv
+: 1726039473:0;nv
+: 1726040096:0;ll
+: 1726040098:0;cdp
+: 1726040104:0;tldr zip
+: 1726040121:0;zip -r koala-daemon.zip koala-daemon
+: 1726040130:0;ll
+: 1726040168:0;zip --delete koala-daemon.zip .git/
+: 1726040191:0;ll
+: 1726040196:0;rm -rf koala-daemon.zip
+: 1726040197:0;ll
+: 1726040220:0;zip --exclude koala-daemon/.git koala-daemon.zip koala-daemon
+: 1726040238:0;zip koala-daemon.zip koala-daemon --exclude koala-daemon/.git
+: 1726040240:0;ll
+: 1726040247:0;tldr zip
+: 1726040256:0;zip -sf koala-daemon.zip
+: 1726040264:0;zip -r koala-daemon.zip koala-daemon --exclude koala-daemon/.git
+: 1726040275:0;ls
+: 1726040276:0;ll
+: 1726040281:0;rm -rf koala-daemon.zip
+: 1726040282:0;ll
+: 1726040293:0;zip -r koala-daemon.zip koala-daemon --exclude .git/
+: 1726040305:0;ll
+: 1726040333:0;rm -rf koala-daemon.zip
+: 1726040353:0;zip -r koala-daemon.zip koala-daemon -x "*.git*"
+: 1726040359:0;ll
+: 1726049347:0;nv
+: 1726049831:0;make run
+: 1726049898:0;make run
+: 1726049901:0;nv
+: 1726049912:0;make run
+: 1726050125:0;make run
+: 1726050192:0;make run
+: 1726050220:0;make run
+: 1726050332:0;make run
+: 1726050359:0;make run
+: 1726050377:0;ll
+: 1726050379:0;cd assets
+: 1726050380:0;ls
+: 1726050383:0;\ls
+: 1726050388:0;ls -la
+: 1726050395:0;\ls | wl-copy
+: 1726050592:0;make run
+: 1726050798:0;make run
+: 1726050942:0;make run
+: 1726050957:0;make run
+: 1726051164:0;make run
+: 1726051228:0;make run
+: 1726051530:0;make run
+: 1726056671:0;python
+: 1726056924:0;cd
+: 1726056926:0;cd dsa
+: 1726056926:0;ll
+: 1726056929:0;nv tree.py
+: 1726075665:0;e
+: 1726075666:0;e
+: 1726075668:0;e
+: 1726075670:0;cdp
+: 1726075672:0;cd cpp
+: 1726075679:0;cdo
+: 1726075680:0;cdp
+: 1726075682:0;cd cpp
+: 1726075683:0;cdp
+: 1726075685:0;cd cdp
+: 1726075687:0;cd p
+: 1726075692:0;cd CPP
+: 1726075695:0;cd random
+: 1726075696:0;ll
+: 1726075701:0;cdp
+: 1726075704:0;cd CPP
+: 1726075704:0;kk
+: 1726075705:0;ll
+: 1726075708:0;cd random-cpp
+: 1726075709:0;ll
+: 1726075722:0;nv src
+: 1726075749:0;nv
+: 1726075790:0;rm -rf ~/.local/share/nvim/lazy/nvim-treesitter
+: 1726075792:0;nv
+: 1726075852:0;nv
+: 1726076149:0;pythong
+: 1726076150:0;python
+: 1726146301:0;nv
+: 1726146413:0;nv
+: 1726149002:0;ll
+: 1726149495:0;ys
+: 1726154819:0;nvim
+: 1726155449:0;yay ghostty-git
+: 1726156230:0;yay ghostty-git
+: 1726156233:0;yay ghostty-git
+: 1726156634:0;python
+: 1726156878:0;ls
+: 1726156878:0;ll
+: 1726156880:0;clear
+: 1726156880:0;ll
+: 1726156881:0;c
+: 1726156895:0;ls
+: 1726156896:0;clear
+: 1726156897:0;ll
+: 1726156898:0;nvim
+: 1726156904:0;ls
+: 1726156905:0;ll
+: 1726156933:0;nv
+: 1726156939:0;nvim ~/.config/alacritty/alacritty.
+: 1726156942:0;nvim ~/.config/alacritty/alacritty.toml
+: 1726157005:0;ghostty --healp
+: 1726157025:0;ghostty --healp
+: 1726157033:0;ghostty --help
+: 1726157043:0;ghostty +show-config
+: 1726157061:0;ghostty +list-themes | grep catpuccin
+: 1726157104:0;ls
+: 1726157114:0;ghostty +list-keybind
+: 1726157116:0;ghostty +list-keybinds
+: 1726157150:0;ghostty +list-keybinds | fzf
+: 1726157162:0;ls
+: 1726157167:0;nv ~/.config/ghostty/config
+: 1726157291:0;ls
+: 1726157373:0;ls
+: 1726157374:0;clear
+: 1726157375:0;ll
+: 1726157398:0;nvim
+: 1726157523:0;nvim /home/rishabh/.config/ghostty/themes/catppuccin-mocha
+: 1726157541:0;mkdir /home/rishabh/.config/ghostty/themes
+: 1726157544:0;nvim /home/rishabh/.config/ghostty/themes/catppuccin-mocha
+: 1726157548:0;e
+: 1726157563:0;cd .config/ghostty
+: 1726157564:0;ls
+: 1726157566:0;cd themes
+: 1726157567:0;ll
+: 1726157570:0;nv catppuccin-mocha
+: 1726157572:0;nv
+: 1726157586:0;e
+: 1726157594:0;nvim
+: 1726157612:0;ls
+: 1726157613:0;ll
+: 1726157628:0;ls
+: 1726157628:0;ll
+: 1726157676:0;ghostty +list-themes
+: 1726157683:0;ghostty +list-themes | fzf
+: 1726157746:0;ls
+: 1726157756:0;ghostty --help
+: 1726157779:0;ghostty --font-size=12
+: 1726157785:0;ghostty --font-size=14
+: 1726157787:0;ls
+: 1726157788:0;ll
+: 1726157790:0;clear
+: 1726157817:0;ls
+: 1726157818:0;ll
+: 1726157820:0;clear
+: 1726157820:0;ll
+: 1726157839:0;ghostty --help
+: 1726157937:0;nvim /home/rishabh/.config/ghostty/config
+: 1726158030:0;ghostty +list-keybinds | fzf
+: 1726158169:0;fg
+: 1726158182:0;nvim
+: 1726158310:0;e
+: 1726158314:0;nvim
+: 1726158347:0;ll
+: 1726158348:0;clea
+: 1726158384:0;nvim
+: 1726158399:0;nvim ~/.config/alacritty/alacritty.toml
+: 1726158418:0;e
+: 1726158444:0;ls
+: 1726158445:0;ll
+: 1726158447:0;clear
+: 1726158452:0;ll
+: 1726158454:0;nvim
+: 1726158636:0;e
+: 1726158641:0;nvim
+: 1726158645:0;nv
+: 1726158669:0;e
+: 1726158681:0;ls
+: 1726158681:0;e
+: 1726158685:0;ls
+: 1726158686:0;ll
+: 1726158727:0;nvim
+: 1726159071:0;ls
+: 1726159072:0;ll
+: 1726159073:0;c
+: 1726159073:0;ll
+: 1726159074:0;c
+: 1726159075:0;ll
+: 1726159075:0;c
+: 1726159076:0;c
+: 1726159076:0;ll
+: 1726159077:0;ll
+: 1726159078:0;c
+: 1726159078:0;ll
+: 1726159079:0;c
+: 1726159105:0;ls
+: 1726159106:0;nv
+: 1726159112:0;ll
+: 1726159154:0;duf
+: 1726159159:0;ncdu
+: 1726160977:0;trash-empty
+: 1726160981:0;ncdu
+: 1726161031:0;yay -Scc
+: 1726161046:0;ncdu
+: 1726161125:0;ncdu
+: 1726161217:0;ys
+: 1726161241:0;ys
+: 1726161244:0;yay
+: 1726161325:0;./other-stuff/mirrors-and-hosts/rate-mirrors-arch.sh
+: 1726161426:0;nv
+: 1726161442:0;nvim ./other-stuff/mirrors-and-hosts/rate-mirrors-arch.sh
+: 1726161451:0;clear
+: 1726161453:0;duf
+: 1726161462:0;yay
+: 1726161828:0;alias ys
+: 1726161834:0;yay --devel
+: 1726161870:0;yay --devel
+: 1726162662:0;ls
+: 1726162663:0;e
+: 1726162667:0;ll
+: 1726162668:0;nvim
+: 1726162676:0;ls
+: 1726162678:0;clear
+: 1726162679:0;ll
+: 1726162694:0;nvim
+: 1726162712:0;e
+: 1726162717:0;ls
+: 1726162718:0;cd
+: 1726162718:0;c
+: 1726162725:0;ls
+: 1726162740:0;nvim ~/.config/alacritty/alacritty.toml
+: 1726162836:0;nv
+: 1726162850:0;e
+: 1726162855:0;ls
+: 1726162856:0;ll
+: 1726162932:0;ls
+: 1726162933:0;ll
+: 1726162934:0;clear
+: 1726162935:0;nv
+: 1726162942:0;e
+: 1726162946:0;ll
+: 1726162948:0;nvim
+: 1726163047:0;e
+: 1726163300:0;nvim
+: 1726163352:0;e
+: 1726163357:0;ll
+: 1726163383:0;cd /usr/share/ghostty/themes/catppuccin-mocha
+: 1726163390:0;nvim /usr/share/ghostty/themes/catppuccin-mocha
+: 1726163431:0;cd projects
+: 1726163434:0;cd catppuccin-themes
+: 1726163434:0;ll
+: 1726163436:0;nv mocha.lua
+: 1726164353:0;cd .config/ghostty/themes
+: 1726164354:0;ll
+: 1726164359:0;nv mocha
+: 1726164614:0;ls
+: 1726164615:0;nv
+: 1726164621:0;ls
+: 1726164622:0;nvim
+: 1726164691:0;wpaperctl next
+: 1726164693:0;ls
+: 1726164693:0;ll
+: 1726164695:0;nv
+: 1726164700:0;ls
+: 1726164702:0;ll
+: 1726164703:0;clear
+: 1726164713:0;f
+: 1726164716:0;cpf
+: 1726164726:0;clear & pfetch
+: 1726164732:0;ls
+: 1726164733:0;ls
+: 1726164737:0;nv
+: 1726164740:0;nv
+: 1726164747:0;ks
+: 1726164748:0;e
+: 1726164753:0;ls
+: 1726164754:0;nv
+: 1726164786:0;ls
+: 1726164787:0;nv
+: 1726164824:0;nv
+: 1726164826:0;e
+: 1726164831:0;ll
+: 1726164833:0;ls
+: 1726164834:0;nv
+: 1726164937:0;nv
+: 1726164989:0;ls
+: 1726164989:0;ll
+: 1726164990:0;nv
+: 1726165033:0;ls
+: 1726165052:0;e
+: 1726165078:0;e
+: 1726165083:0;ls
+: 1726165101:0;e
+: 1726165113:0;e
+: 1726165117:0;ls
+: 1726165124:0;ls
+: 1726165125:0;ll
+: 1726165126:0;nv
+: 1726165145:0;e
+: 1726165149:0;nv
+: 1726165159:0;nv
+: 1726165176:0;ls
+: 1726165176:0;ll
+: 1726165178:0;ll
+: 1726165184:0;c
+: 1726165188:0;wpaperctl next
+: 1726165189:0;wpaperctl next
+: 1726165190:0;wpaperctl next
+: 1726165191:0;wpaperctl next
+: 1726165193:0;wpaperctl next
+: 1726165194:0;wpaperctl next
+: 1726165195:0;wpaperctl next
+: 1726165196:0;wpaperctl next
+: 1726165197:0;wpaperctl next
+: 1726165198:0;wpaperctl next
+: 1726165200:0;wpaperctl next
+: 1726165201:0;wpaperctl next
+: 1726165202:0;wpaperctl next
+: 1726165204:0;wpaperctl next
+: 1726165233:0;nv
+: 1726165247:0;e
+: 1726165311:0;e
+: 1726165344:0;e
+: 1726165379:0;nv
+: 1726165402:0;e
+: 1726165416:0;e
+: 1726165434:0;e
+: 1726165438:0;ls
+: 1726165446:0;nv
+: 1726165449:0;e
+: 1726165453:0;ls
+: 1726165454:0;nv
+: 1726165468:0;e
+: 1726165471:0;nv
+: 1726165537:0;e
+: 1726165544:0;nv
+: 1726165558:0;e
+: 1726165563:0;ll
+: 1726165564:0;nv
+: 1726165567:0;nv
+: 1726165574:0;e
+: 1726165577:0;ls
+: 1726165586:0;nv
+: 1726165590:0;e
+: 1726165594:0;nv
+: 1726165598:0;e
+: 1726165605:0;l
+: 1726165607:0;ls
+: 1726165628:0;ls
+: 1726165689:0;e
+: 1726165808:0;e
+: 1726190565:0;yay --devel
+: 1726190741:0;yay --devel
+: 1726204178:0;ls
+: 1726204178:0;ll
+: 1726204181:0;ll
+: 1726204183:0;clear
+: 1726204189:0;ghostty
+: 1726204194:0;ls
+: 1726204195:0;clear
+: 1726204196:0;ll
+: 1726204196:0;nv
+: 1726204390:0;e
+: 1726204392:0;clear
+: 1726204393:0;ll
+: 1726204395:0;clear
+: 1726204396:0;ll
+: 1726204397:0;c
+: 1726204919:0;cd projects
+: 1726204919:0;ls
+: 1726204920:0;clear
+: 1726204928:0;cd projects
+: 1726204950:0;cd Web-dev
+: 1726204951:0;ll
+: 1726204952:0;ll
+: 1726204962:0;wpaperctl next
+: 1726204970:0;ls
+: 1726204971:0;ll
+: 1726204974:0;cd node
+: 1726204975:0;ls
+: 1726204976:0;ll
+: 1726204981:0;mkdir day8
+: 1726204985:0;cd day8
+: 1726204986:0;ll
+: 1726204987:0;npm init
+: 1726204992:0;npm init -y
+: 1726205009:0;ls
+: 1726205009:0;ll
+: 1726205014:0;nvim index.js
+: 1726205026:0;nv
+: 1726205030:0;nvim index/js
+: 1726205033:0;nvim index.js
+: 1726205109:0;nmtui
+: 1726205136:0;nvim ~/.config/ghostty/config
+: 1726205143:0;nv
+: 1726205145:0;e
+: 1726205151:0;ls
+: 1726205152:0;ll
+: 1726205153:0;nvim
+: 1726205164:0;ls
+: 1726205165:0;nvim
+: 1726205253:0;nmtui
+: 1726205371:0;nvim
+: 1726205490:0;ls
+: 1726205494:0;cd node
+: 1726205495:0;ls
+: 1726205626:0;cd ls
+: 1726205628:0;cdp
+: 1726205630:0;cd node
+: 1726205635:0;cd day8
+: 1726205635:0;ll
+: 1726205651:0;npm i env mongoose nodemon
+: 1726205714:0;npm i dotenv mongoose nodemon
+: 1726205863:0;npm i dotenv mongoose nodemon
+: 1726205887:0;ll
+: 1726205889:0;nvim
+: 1726205903:0;nvim app.js
+: 1726205919:0;npm i express
+: 1726206020:0;nvim
+: 1726206322:0;ll
+: 1726206324:0;nvim
+: 1726206328:0;nvim ~/.config/ghostty/config
+: 1726206347:0;e
+: 1726206351:0;nvim
+: 1726206373:0;e
+: 1726206381:0;nvim
+: 1726206397:0;nvim
+: 1726206420:0;nvim
+: 1726206464:0;ghostty +list-keybinds | fzf
+: 1726206471:0;ls
+: 1726206472:0;ll
+: 1726206473:0;nvim
+: 1726206505:0;ghostty +list-keybinds | fzf
+: 1726206529:0;ghostty +list-keybinds | fzf
+: 1726206565:0;ghostty +list-keybinds | grep "tab"
+: 1726206578:0;nv
+: 1726206695:0;ghostty +list-keybinds | fzf
+: 1726206711:0;cd ip
+: 1726206712:0;ll
+: 1726206714:0;cd
+: 1726206715:0;cd web
+: 1726206716:0;ll
+: 1726206720:0;cd node
+: 1726206721:0;ll
+: 1726206724:0;cd day
+: 1726206726:0;ll
+: 1726206730:0;npm run start
+: 1726206737:0;nvim package.json
+: 1726206745:0;nvim package.json
+: 1726206748:0;npm run start
+: 1726207538:0;nmtui
+: 1726219757:0;ll
+: 1726219758:0;nvim
+: 1726219772:0;nvim
+: 1726219788:0;nvim
+: 1726219832:0;nvim ~/.config/hypr/keybinds.conf
+: 1726219854:0;nvim
+: 1726219863:0;nvim
+: 1726219932:0;ls
+: 1726219933:0;ll
+: 1726219935:0;nvim
+: 1726219942:0;ls
+: 1726219943:0;ll
+: 1726219956:0;e
+: 1726219972:0;nvim
+: 1726219978:0;e
+: 1726219995:0;ls
+: 1726219997:0;nvim
+: 1726220132:0;c
+: 1726220137:0;wpaperctl next
+: 1726220138:0;wpaperctl next
+: 1726220139:0;wpaperctl next
+: 1726220140:0;wpaperctl next
+: 1726220142:0;wpaperctl next
+: 1726220143:0;wpaperctl next
+: 1726220145:0;wpaperctl next
+: 1726220146:0;wpaperctl next
+: 1726220147:0;wpaperctl next
+: 1726220148:0;wpaperctl next
+: 1726220150:0;wpaperctl next
+: 1726220151:0;wpaperctl next
+: 1726220152:0;wpaperctl next
+: 1726220153:0;wpaperctl next
+: 1726220155:0;wpaperctl next
+: 1726220156:0;wpaperctl next
+: 1726220169:0;killall -9 wpaperd || swaybg -i ~/Pictures/Wallpapers/wallpapers/Milky_Way.jpg &!
+: 1726220175:0;killall -9 wpaperd || swaybg -i ~/Pictures/Wallpapers/wallpapers/Milky_Way.jpg &!
+: 1726220185:0;nvim
+: 1726220218:0;nv
+: 1726220246:0;e
+: 1726220426:0;e
+: 1726220431:0;ls
+: 1726220432:0;ll
+: 1726220449:0;ls
+: 1726220453:0;ls
+: 1726220454:0;nv
+: 1726220468:0;ls
+: 1726220479:0;nvim
+: 1726220493:0;ls
+: 1726220494:0;ll
+: 1726220512:0;nvim
+: 1726220904:0;ls
+: 1726220904:0;ll
+: 1726220906:0;nc
+: 1726220909:0;nv
+: 1726220922:0;nv
+: 1726220936:0;e
+: 1726220939:0;e
+: 1726220946:0;nv
+: 1726220958:0;nv
+: 1726220964:0;nv
+: 1726220996:0;e
+: 1726221006:0;ls
+: 1726221014:0;c
+: 1726221033:0;e
+: 1726221079:0;ll
+: 1726221079:0;e
+: 1726221083:0;nv
+: 1726221089:0;nv
+: 1726221100:0;nvim
+: 1726221359:0;nv
+: 1726221383:0;ghostty +list-keybinds | fzf
+: 1726221428:0;ghostty +list-keybinds | fzf
+: 1726221441:0;ld
+: 1726221442:0;ls
+: 1726221444:0;nv
+: 1726221455:0;e
+: 1726221461:0;c
+: 1726221461:0;nv
+: 1726221489:0;ll
+: 1726221500:0;ll
+: 1726221516:0;nv
+: 1726221587:0;nv
+: 1726221591:0;e
+: 1726221622:0;nv
+: 1726221625:0;ll
+: 1726221626:0;ll
+: 1726221627:0;nvim
+: 1726221632:0;nvim example.txt
+: 1726221646:0;ll
+: 1726221655:0;nivm
+: 1726221656:0;nv
+: 1726221668:0;ll
+: 1726221669:0;nv
+: 1726221673:0;ll
+: 1726221700:0;nvim
+: 1726221735:0;ls
+: 1726221736:0;ll
+: 1726221737:0;nvim
+: 1726221741:0;ll
+: 1726221783:0;nvim
+: 1726221807:0;cd .local/share/nvim/project_nvim/project_history
+: 1726221812:0;nv .local/share/nvim/project_nvim/project_history
+: 1726221829:0;nv
+: 1726221846:0;e
+: 1726221852:0;e
+: 1726221927:0;nvim
+: 1726221935:0;ll
+: 1726221937:0;nvim
+: 1726221946:0;ll
+: 1726221947:0;nvim
+: 1726222066:0;ls
+: 1726222067:0;ll
+: 1726222069:0;nvim
+: 1726222084:0;ll
+: 1726222085:0;clear
+: 1726222087:0;nvim
+: 1726222090:0;ll
+: 1726222104:0;ll
+: 1726222105:0;nvim
+: 1726222116:0;nvim
+: 1726222165:0;e
+: 1726222198:0;ll
+: 1726222199:0;nv
+: 1726222302:0;ll
+: 1726222303:0;c
+: 1726222308:0;wpaperctl next
+: 1726222325:0;killall -9 swaybg
+: 1726222336:0;ll
+: 1726222337:0;ls
+: 1726222338:0;nvim
+: 1726222345:0;cd projects/catppuccin-themes
+: 1726222346:0;nv
+: 1726222478:0;la
+: 1726222480:0;ls
+: 1726222498:0;ls
+: 1726222499:0;ll
+: 1726222525:0;ls
+: 1726222527:0;clear
+: 1726222575:0;e
+: 1726222625:0;kk
+: 1726222625:0;ll
+: 1726222627:0;nvim
+: 1726222772:0;ls
+: 1726222806:0;ls
+: 1726222807:0;c
+: 1726222821:0;ls
+: 1726222829:0;wpaperd
+: 1726222843:0;wpaperd &!
+: 1726222849:0;f
+: 1726222851:0;pf
+: 1726222885:0;wpaperctl next
+: 1726222887:0;wpaperctl next
+: 1726222888:0;wpaperctl next
+: 1726222890:0;wpaperctl next
+: 1726222892:0;wpaperctl next
+: 1726222895:0;wpaperctl next
+: 1726222898:0;e
+: 1726222911:0;cd
+: 1726222913:0;ll
+: 1726222915:0;cd projects
+: 1726222916:0;ll
+: 1726222920:0;cd hyp
+: 1726222921:0;ll
+: 1726222923:0;cd scripts
+: 1726222926:0;e
+: 1726222931:0;cd hypr
+: 1726222933:0;ls
+: 1726222934:0;ll
+: 1726222943:0;nv
+: 1726222961:0;nv
+: 1726223003:0;ls
+: 1726223004:0;ll
+: 1726223014:0;ls
+: 1726223015:0;ll
+: 1726223016:0;clear
+: 1726223017:0;e
+: 1726223027:0;e
+: 1726223040:0;yel
+: 1726223079:0;cdp
+: 1726223082:0;yadm
+: 1726223086:0;cd yadm
+: 1726223087:0;ll
+: 1726223091:0;nv yadm.sh
+: 1726223113:0;nv
+: 1726223142:0;yadm add ~/.config/ghostty
+: 1726223160:0;yadm commit -m "added ghostty config"
+: 1726223169:0;yadm push
+: 1726223178:0;ls
+: 1726223182:0;./yadm.sh
+: 1726223200:0;cd .co
+: 1726223202:0;cd helix
+: 1726223203:0;ll
+: 1726223210:0;cd
+: 1726223220:0;nv .gitignore
+: 1726223234:0;yadm add ~/.config/helix
+: 1726223244:0;yel
+: 1726223260:0;ll
+: 1726223261:0;clear
+: 1726223262:0;nv
+: 1726223278:0;yl

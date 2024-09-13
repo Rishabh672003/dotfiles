@@ -7,7 +7,6 @@ yadm add ~/README.md \
 	~/.config/contour \
 	~/.config/dunst \
 	~/.config/fish \
-	~/.config/helix \
 	~/.config/hypr \
 	~/.config/kitty \
 	~/.config/lvim \
@@ -25,6 +24,7 @@ yadm add ~/README.md \
 	~/.config/wpaperd \
 	~/.config/yadm \
 	~/.config/zsh \
+	~/.config/ghostty \
 	~/other-stuff # ~/.config/nvim \
 
 yadm commit -a -m "update" && yadm push
