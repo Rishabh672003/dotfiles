@@ -14,7 +14,6 @@ yadm add ~/README.md \
 	~/.config/neofetch \
 	~/.config/rofi \
 	~/.config/shellfetch \
-	~/.config/spicetify \
 	~/.config/sway \
 	~/.config/tmux \
 	~/.config/vim \

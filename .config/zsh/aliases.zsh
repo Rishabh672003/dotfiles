@@ -21,7 +21,7 @@ alias grep='grep -n --color'
 alias hosts='sh ~/projects/hosts/hosts-maker.sh'
 alias hx='helix'
 alias install-grub='sudo grub-install --target=x86_64-efi --efi-directory=/boot/ --bootloader-id=GRUB'
-alias jn="jupyter notebook --no-browser ."
+alias jn="jupyter notebook ."
 alias lg='lazygit'
 alias ll='exa --color always --icons -1albh -s name --git --sort date --group-directories-first'
 alias lll='exa --color always --icons -1albhT -L 2 -s name -I .git --git --group-directories-first'
@@ -77,7 +77,7 @@ alias xo='xdg-open'
 alias y='yay'
 alias yel='yadm enter lazygit'
 alias yl='sh ~/.config/yadm/yadm.sh'
-alias ys='yay -Syu --noconfirm --devel'
+alias ys='yay -Syu --noconfirm'
 alias yss='yay -S --noconfirm --needed'
 alias yt="yt-dlp -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4'"
 
@@ -114,4 +114,13 @@ function makesign(){
 
 function ssep (){
     pacman -Slq | fzf --multi --preview 'cat <(pacman -Si {1}) <(pacman -Fl {1} | awk "{print \$2}")' | xargs -ro sudo pacman -S
+}
+
+function jc () {
+    filename="$1"
+    extension="${filename##*.}"
+    filename="${filename%.*}"
+    jupyter nbconvert --to script "$filename.$extension" && 
+        nvim "$filename.py" &&
+        rm "$filename.py"
 }

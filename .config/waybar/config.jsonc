@@ -114,7 +114,7 @@
 		"format-disconnected": "󰖪 Disc.",
 		"tooltip-format-wifi": "Signal Strength: {signalStrength}% | Down Speed: {bandwidthDownBits}, Up Speed: {bandwidthUpBits}",
 		// "on-click": "wofi-wifi-menu",
-		"on-click": "alacritty -e nmtui"
+		"on-click": "ghostty -e nmtui"
 	},
 	"cpu": {
 		"on-click": "btop",

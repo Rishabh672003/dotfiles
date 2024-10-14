@@ -1,9 +1,31 @@
-theme = "mocha"
-font-family = "JetBrainsMono NF"
+theme = mocha
+font-family = JetBrainsMono NF
 font-size = 14
+
 window-decoration = false
-window-padding-y = 0
+window-padding-y = 0,0
 window-padding-x = 0
+window-padding-color = background
+
+adw-toolbar-style = raised
 background-opacity = 0.4
 confirm-close-surface = false
+unfocused-split-opacity = 0.85
+gtk-tabs-location = top
+gtk-wide-tabs = true
+
+working-directory = home
+window-inherit-working-directory = true
+shell-integration = zsh
+shell-integration-features = title
+
 keybind = alt+c=close_surface
+keybind = alt+n=new_tab
+keybind = alt+x=next_tab
+keybind = alt+z=previous_tab
+keybind = ctrl+enter=unbind
+keybind = ctrl+shift+n=unbind
+keybind = ctrl+shift+h=goto_split:next
+keybind = ctrl+shift+l=goto_split:previous
+
+# custom-shader = /home/rishabh/.config/ghostty/shaders/bloom.glsl
