@@ -5418,3 +5418,6 @@ require('mini.deps').setup({ path = { package = path_package } })" >> mini.deps.
 : 1728914232:0;yadm enter
 : 1728914442:0;yel
 : 1728914445:0;yl
+: 1728914502:0;yadm enter
+: 1728914628:0;ls
+: 1728914641:0;yadm enter
