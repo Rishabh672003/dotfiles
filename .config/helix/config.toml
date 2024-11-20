@@ -1,12 +1,13 @@
 theme = "rose_pine"
 # theme = "Catppuccin Mocha"
-# [editor]
-# #line-number = "relative"
-# cursorline = true
-# color-modes = true
+[editor]
+line-number = "relative"
+cursorline = true
+color-modes = true
 # gutters = ["diagnostics", "line-numbers"]
-# auto-completion = true
-# # bufferline = always # wait until 22.10 release to enable it
+auto-completion = true
+idle-timeout = 500
+# bufferline = always # wait until 22.10 release to enable it
 #
 # [editor.statusline]
 # left = ["mode", "spinner", "file-name"]
@@ -27,10 +28,10 @@ theme = "rose_pine"
 # tab = "→"
 # newline = "⏎"
 #
-# [editor.cursor-shape]
-# insert = "bar"
-# normal = "block"
-# select = "underline"
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
 #
 # [editor.indent-guides]
 # render = true

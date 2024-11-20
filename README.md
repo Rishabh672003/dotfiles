@@ -8,7 +8,7 @@
 
 All of my dotfiles, these are managed by [yadm](https://github.com/TheLocehiliosan/yadm) At first this repo contained my wallpapers also but that would just make it very big in size so now they are in a different repo and they are at https://github.com/Rishabh672003/Wallpapers
 
-# Apply the configs
+# Apply the config
 
 ### install yadm
 
@@ -27,7 +27,7 @@ yadm clone https://github.com/Rishabh672003/dotfiles
 let me explain how yadm works because i couldn't figure it out for the first few
 
 days that I used it
-what yadm does is use your home directory as a git repo but doesnt adds anything to the git repo where the .git directory stays is in `~/.local/share/yadm/repo.git/`
+what yadm does is use your home directory as a git repo but doesn't adds anything to the git repo where the .git directory stays is in `~/.local/share/yadm/repo.git/`
 
 #### Get started
 

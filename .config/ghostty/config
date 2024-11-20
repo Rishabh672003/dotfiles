@@ -28,4 +28,4 @@ keybind = ctrl+shift+n=unbind
 keybind = ctrl+shift+h=goto_split:next
 keybind = ctrl+shift+l=goto_split:previous
 
-# custom-shader = /home/rishabh/.config/ghostty/shaders/bloom.glsl
+# custom-shader = /home/rishabh/.config/ghostty/shaders/negative.glsl

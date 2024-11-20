@@ -17,6 +17,7 @@ local config = {
 	automatically_reload_config = true,
 	window_background_opacity = 0.4,
 	window_close_confirmation = "NeverPrompt",
+	max_fps = 120,
 	window_padding = {
 		left = 0,
 		right = 0,
@@ -25,25 +26,24 @@ local config = {
 	},
 }
 
-
-config.leader = { key = "a", mods = "CTRL", timeout_milliseconds = 1000 }
-
-config.keys = {
-	{
-		key = "|",
-		mods = "LEADER|SHIFT",
-		action = wezterm.action.SplitHorizontal({ domain = "CurrentPaneDomain" }),
-	},
-	{
-		key = "-",
-		mods = "LEADER",
-		action = wezterm.action.SplitVertical({ domain = "CurrentPaneDomain" }),
-	},
-	{
-		key = "t",
-		mods = "LEADER",
-		action = wezterm.action.SpawnTab("CurrentPaneDomain"),
-	},
-}
+-- config.leader = { key = "a", mods = "CTRL", timeout_milliseconds = 1000 }
+--
+-- config.keys = {
+-- 	{
+-- 		key = "|",
+-- 		mods = "LEADER|SHIFT",
+-- 		action = wezterm.action.SplitHorizontal({ domain = "CurrentPaneDomain" }),
+-- 	},
+-- 	{
+-- 		key = "-",
+-- 		mods = "LEADER",
+-- 		action = wezterm.action.SplitVertical({ domain = "CurrentPaneDomain" }),
+-- 	},
+-- 	{
+-- 		key = "t",
+-- 		mods = "LEADER",
+-- 		action = wezterm.action.SpawnTab("CurrentPaneDomain"),
+-- 	},
+-- }
 
 return config

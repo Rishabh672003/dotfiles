@@ -18,6 +18,9 @@ alias e='exit'
 alias f='fastfetch'
 alias gmi='go mod init $(printf '%s\n' "${PWD##*/}")'
 alias grep='grep -n --color'
+alias gt='gio trash'
+alias gte='gio trash --empty'
+alias gtl='gio trash --list'
 alias hosts='sh ~/projects/hosts/hosts-maker.sh'
 alias hx='helix'
 alias install-grub='sudo grub-install --target=x86_64-efi --efi-directory=/boot/ --bootloader-id=GRUB'
@@ -27,8 +30,6 @@ alias ll='exa --color always --icons -1albh -s name --git --sort date --group-di
 alias lll='exa --color always --icons -1albhT -L 2 -s name -I .git --git --group-directories-first'
 alias llll='exa --color always --icons -1albhT -L 3 -s name -I .git --git --group-directories-first'
 alias ls='exa --color always --icons -a'
-alias lv='lvim'
-alias m='mocp'
 alias mkdir='mkdir -p'
 alias mpv='mpv --screenshot-directory=/home/rishabh/Pictures/mpv-ss'
 alias n='neofetch'
@@ -45,7 +46,7 @@ alias p='paru'
 alias pf='pfetch'
 alias q='exit'
 alias rest='reboot'
-alias rm='trash'
+alias rm='gio trash'
 alias rmbin="rm -rf *.out; rm -rf */*.out; rm -rf */*/*.out; rm -rf */*/*/*.out"
 alias rs='sudo systemctl start rate-mirrors'
 alias rss='systemctl status rate-mirrors'
@@ -94,8 +95,7 @@ alias sep="pacman -Slq | fzf --multi --preview 'pacman -Si {1}' \
 alias srp="pacman -Qq | fzf --multi --preview 'pacman -Qi {1}' \
     | xargs -ro sudo pacman -Rns"
 
-
-function convert_video(){
+function convert_video() {
     local input_file="$1"
     local output_file="wa-${input_file}"
     ffmpeg -i "$input_file" -c:v libx264 -profile:v baseline -level 3.0 -pix_fmt yuv420p "$output_file"
@@ -108,19 +108,23 @@ function gpgkey() {
         --sign "$1"
 }
 
-function makesign(){
+function makesign() {
     ./cleanup.sh && makepkg -s && gpgkey *.tar.zst
 }
 
-function ssep (){
+function ssep() {
     pacman -Slq | fzf --multi --preview 'cat <(pacman -Si {1}) <(pacman -Fl {1} | awk "{print \$2}")' | xargs -ro sudo pacman -S
 }
 
-function jc () {
+function jc() {
     filename="$1"
     extension="${filename##*.}"
     filename="${filename%.*}"
-    jupyter nbconvert --to script "$filename.$extension" && 
+    jupyter nbconvert --to script "$filename.$extension" &&
         nvim "$filename.py" &&
         rm "$filename.py"
+}
+
+function word() {
+    unzip -p "$1" word/document.xml | sed -e 's/<[^>]\{1,\}>//g; s/[^[:print:]]\{1,\}//g'
 }
