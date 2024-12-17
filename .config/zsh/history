@@ -1,837 +1,3689 @@
-: 1731826262:0;rm package*
-: 1731826262:0;ll
-: 1731827970:0;w
-: 1731827970:0;e
-: 1731827971:0;e
-: 1731827973:0;clear
-: 1731827974:0;nvim
-: 1731828416:0;cd neovim
-: 1731828417:0;ll
-: 1731828418:0;lg
-: 1731828425:0;l
-: 1731828427:0;lg
-: 1731828430:0;gh pr checkout 31071
-: 1731828438:0;nvim
-: 1731828442:0;nvim
-: 1731828570:0;cdp
-: 1731828573:0;cd test
-: 1731828574:0;ll
-: 1731828579:0;nvim -u repro.lua repro.lua
-: 1731828588:0;nvim random.lua
-: 1731828606:0;nvim -u random.lua random.lua
-: 1731828641:0;nvim --clean -u random.lua random.lua
-: 1731828656:0;nvim --clean -u random.lua random.lua
-: 1731828664:0;nvim --clean -u random.lua random.lua
-: 1731828668:0;nvim --clean -u random.lua random.lua
-: 1731828683:0;nvim --clean -u random.lua random.lua
-: 1731828693:0;nvim --clean -u random.lua random.lua
-: 1731828779:0;nvim --clean -u random.lua random.lua
-: 1731828782:0;nvim --clean -u random.lua random.lua
-: 1731828796:0;nvim --clean -u random.lua random.lua
-: 1731828847:0;nvim --clean -u random.lua random.lua
-: 1731828877:0;nvim --clean -u random.lua random.lua
-: 1731828884:0;cdp
-: 1731828885:0;cd neovim
-: 1731828886:0;ll
-: 1731828887:0;lg
-: 1731828897:0;cdp
-: 1731828899:0;cd test
-: 1731828900:0;ll
-: 1731828903:0;nvim random.lua
-: 1731828913:0;nvim --clean -u random.lua random.lua
-: 1731828932:0;nvim --clean -u random.lua random.lua
-: 1731828948:0;nvim --clean -u random.lua random.lua
-: 1731828998:0;nvim --clean -u random.lua random.lua
-: 1731836516:0;ls
-: 1731836518:0;kitty -v
-: 1731836529:0;man kitty
-: 1731836579:0;nvim ~/.config/kitty/kitty.conf
-: 1731836590:0;e
-: 1731836592:0;ls
-: 1731836593:0;ll
-: 1731836615:0;nvim
-: 1731836622:0;e
-: 1731836629:0;nvim
-: 1731836633:0;e
-: 1731836637:0;ll
-: 1731836638:0;nvim
-: 1731836678:0;nvim
-: 1731836825:0;nvim
-: 1731836973:0;e
-: 1731837207:0;nvim
-: 1731837304:0;nvim
-: 1731837610:0;ls
-: 1731837611:0;ll
-: 1731837612:0;e
-: 1731837686:0;ll
-: 1731837688:0;clear
-: 1731839501:0;cali
-: 1731839508:0;bob use stable
-: 1731839510:0;nvim
-: 1731839513:0;nvim -v
-: 1731839518:0;e
-: 1731839522:0;nvim -v
-: 1731839523:0;nvim
-: 1731839598:0;cali
-: 1731839610:0;e
-: 1731839614:0;alias nvim
-: 1731841920:0;nvim -v
-: 1731841923:0;cali
-: 1731841927:0;e
-: 1731841930:0;ll
-: 1731841931:0;nvim
-: 1731841933:0;nvim -v
-: 1731841937:0;nvim
-: 1731842111:0;nvim --clean
-: 1731842154:0;cali
-: 1731842158:0;exec zsh
-: 1731842160:0;nvim -v
-: 1731842162:0;nvim
-: 1731842177:0;nvim --clean
-: 1731842798:0;clear
-: 1731842800:0;nv
-: 1731843114:0;c
-: 1731843493:0;nvim
-: 1731845222:0;cd Downloads
-: 1731845223:0;ll
-: 1731845238:0;word CV.docx
-: 1731845245:0;word 15-16-7.docx
-: 1731845295:0;cali
-: 1731845470:0;unzip -p CV.docx
-: 1731847626:0;unzip -p CV.docxnvim
-: 1731847628:0;ll
-: 1731847629:0;nvim
-: 1731847963:0;clear
-: 1731847968:0;zig
-: 1731847970:0;zig -v
-: 1731847975:0;zig version
-: 1731848052:0;cargo install rustlings
-: 1731848101:0;cd pro
-: 1731848102:0;cd RUST
-: 1731848103:0;ll
-: 1731848109:0;rustlings init
-: 1731848114:0;cd rustlings
-: 1731848118:0;rustlings
-: 1731848192:0;cd projects/RUST/rustlings
-: 1731848193:0;ll
-: 1731848202:0;nvim exercises/00_intro/intro1.rs
-: 1731849417:0;yay show-me-the-key
-: 1731849433:0;yay showmethekey
-: 1731854894:0;nv
-: 1731854911:0;e
-: 1731854919:0;nv
-: 1731857870:0;curl ascii.live/rick
-: 1731857878:0;clear
-: 1731857881:0;e
-: 1731862191:0;cd projects/RUST
-: 1731862192:0;ll
-: 1731862197:0;cd Learning-Rust
-: 1731862198:0;ll
-: 1731862203:0;nvim src/main.rs
-: 1731864463:0;cdp
-: 1731864464:0;cdp
-: 1731864465:0;ll
-: 1731864466:0;cd RUST
-: 1731864467:0;ll
-: 1731864471:0;cd rustlings
-: 1731864486:0;nvim exercises/08_enums/enums1.rs
-: 1731864531:0;rustup default stable
-: 1731864542:0;which rust-analyzer
-: 1731864550:0;file /usr/lib/rustup/bin/rust-analyzer
-: 1731864558:0;nvim /usr/lib/rustup/bin/rust-analyzer
-: 1731864565:0;nvim
-: 1731864570:0;nvim
-: 1731864624:0;rustup component add rust-analyzer
-: 1731864632:0;nvim
-: 1731864678:0;nvim a.md --startuptime a.log
-: 1731864683:0;nvim a.log
-: 1731864718:0;nvim a.log
-: 1731864739:0;rm a.log && nvim --startuptime a.log
-: 1731864743:0;nvim a.log
-: 1731864762:0;nvim a.rs --startuptime a.log
-: 1731864770:0;nvim a.log
-: 1731864800:0;nvim
-: 1731864833:0;rm a.log && nvim --startuptime a.log
-: 1731864836:0;nvim a.log
-: 1731864858:0;nvim
-: 1731864867:0;nvim
-: 1731864873:0;rm a.log && nvim --startuptime a.log
-: 1731864877:0;nvim a.log
-: 1731864889:0;nvim
-: 1731865357:0;nvim
-: 1731868787:0;rustlings
-: 1731868801:0;cd
-: 1731868802:0;c
-: 1731868803:0;ll
-: 1731868803:0;c
-: 1731868804:0;e
-: 1731868929:0;cargo install sss_code
-: 1731868960:0;cargo install sss
-: 1731869029:0;curl --proto '=https' --tlsv1.2 -LsSf https://github.com/SergioRibera/sss/releases/download/sss_code/v0.2.0/sss_code-installer.sh | sh
-: 1731869042:0;sss_code
-: 1731869099:0;nvim
-: 1731869128:0;wl-paste | sss_code --window-controls --window-title example.rs -n --background '#aaaaff' -e rs -f png -o ./out.png -
-: 1731869151:0;wl-paste | sss_code --window-controls --window-title keymaps.lua -n --background '#aaaaff' -e rs -f png -o ./out.png -
-: 1731869162:0;kitten icat out.png
-: 1731869178:0;wl-paste | sss_code --window-controls --window-title keymaps.lua -n --background '#aaaaff' -e rs -f png -o ./out.png -
-: 1731869179:0;kitten icat out.png
-: 1731869406:0;sss_code --help
-: 1731869451:0;wl-paste | sss_code -t catppuccin --window-controls --window-title keymaps.lua -n -e lua -f png -o ./out.png -
-: 1731869500:0;wl-paste | sss_code --theme "catppuccin" --window-controls --window-title keymaps.lua -n -e lua -f png -o ./out.png -
-: 1731869520:0;nvim
-: 1731869670:0;cd nvim
-: 1731869671:0;ll
-: 1731869674:0;lg
-: 1731869678:0;nvim
-: 1731869699:0;nvim
-: 1731869817:0;wl-paste | sss_code --window-controls --window-title keymaps.lua -n --theme catppuccin -e lua -f png -o ./out.png -
-: 1731869827:0;wl-paste | sss_code --window-controls --window-title keymaps.lua -n --theme tokyonight -e lua -f png -o ./out.png -
-: 1731869838:0;wl-paste | sss_code --window-controls --window-title keymaps.lua -n -e lua -f png -o ./out.png -
-: 1731869840:0;ll
-: 1731869848:0;kitten icat out.png
-: 1731869869:0;wl-paste | sss_code --window-controls --window-title keymaps.lua -n --theme tokyonight -e lua -f png -o ./out.png -
-: 1731869893:0;wl-paste | sss_code --window-controls --window-title keymaps.lua -n --background '#aaaaff' -e lua -f png -o ./out.png -
-: 1731869896:0;kitten icat out.png
-: 1731869927:0;mkdir ~/Pictures/neovim
-: 1731869956:0;mv out.png ~/Pictures/neovim/format-line.png
-: 1731901604:0;clear
-: 1731901605:0;ll
-: 1731901630:0;ll
-: 1731901632:0;clear
-: 1731901635:0;rm a.log
-: 1731901685:0;nv
-: 1731901761:0;nvim
-: 1731902179:0;cd rust
-: 1731902182:0;cd rustlings
-: 1731902182:0;ll
-: 1731902193:0;rustlings
-: 1731902205:0;nvim
-: 1731902214:0;nvim
-: 1731905213:0;cd nvim
-: 1731905214:0;lg
-: 1731905241:0;nvim
-: 1731905252:0;nvim
-: 1731905292:0;nvim
-: 1731905302:0;nvim
-: 1731905312:0;nvim
-: 1731905323:0;nvim
-: 1731905337:0;nvim
-: 1731905386:0;lg
-: 1731905434:0;nvim lua/rj/extras/neovide.lua
-: 1731907672:0;nvim
-: 1731907681:0;nvim a.rs --startuptime a.log
-: 1731907685:0;nvim a.log
-: 1731907694:0;rm a.log
-: 1731907695:0;nvim
-: 1731907713:0;nvim a.rs --startuptime a.log
-: 1731907721:0;nvim a.rs --startuptime a.log
-: 1731907726:0;nvim
-: 1731907735:0;rm -rf ~/.local/share/nvim/site/pack/deps/opt/rustaceanvim
-: 1731907744:0;rm -f ~/.local/share/nvim/site/pack/deps/opt/rustaceanvim
-: 1731907748:0;nvim
-: 1731907756:0;rm a.rs
-: 1731907758:0;rm a.log
-: 1731907763:0;nvim a.rs --startuptime a.log
-: 1731907772:0;rm a.log
-: 1731907784:0;cd rustlings
-: 1731907790:0;cd exercises/10_modules
-: 1731907791:0;ll
-: 1731907795:0;nvim modules1.rs
-: 1731907805:0;nvim
-: 1731907815:0;nvim modules1.rs
-: 1731907863:0;nvim modules1.rs
-: 1731907880:0;nvim modules1.rs
-: 1731907972:0;nvim modules1.rs
-: 1731908273:0;python utils/startuptime.py
-: 1731908285:0;python utils/startuptime.py
-: 1731908297:0;ll
-: 1731908301:0;cd
-: 1731908304:0;rm a.log
-: 1731908315:0;nvim --startuptime a.log
-: 1731908319:0;nv a.log
-: 1731908367:0;rm a.log
-: 1731908369:0;nvim --startuptime a.log
-: 1731908373:0;nvim a.log
-: 1731908399:0;rm a.log
-: 1731908401:0;nvim a.log
-: 1731908404:0;nvim --startuptime a.log
-: 1731908407:0;nvim a.log
-: 1731909182:0;cd Rust
-: 1731909183:0;ll
-: 1731909190:0;cargo new restaurant --lib
-: 1731909198:0;cd restaurant
-: 1731909199:0;ll
-: 1731909203:0;nvim src/lib.rs
-: 1731915567:0;nvim
-: 1731917591:0;nvim
-: 1731917620:0;nvim
-: 1731921224:0;clear
-: 1731921226:0;c
-: 1731921227:0;cd
-: 1731921227:0;c
-: 1731921963:0;cdp
-: 1731921963:0;ll
-: 1731921976:0;ll -s name
-: 1731921983:0;nvim 11_hashmaps/hashmaps2.rs
-: 1731922138:0;nvim 11_hashmaps/hashmaps2.rs --startuptime a.log
-: 1731922151:0;nvim a.log
-: 1731922309:0;nvim
-: 1731922685:0;nvim
-: 1731923223:0;cd rust
-: 1731923225:0;cd rustl
-: 1731923228:0;rustlings
-: 1731923743:0;nvim
-: 1731927149:0;nvim
-: 1731928455:0;nvim
-: 1731934071:0;clear
-: 1731934072:0;ll
-: 1731934076:0;ls
-: 1731934077:0;ll
-: 1731934079:0;lll
-: 1731934082:0;nvim
-: 1731942724:0;nvim
-: 1731942763:0;showmethekey-gtk
-: 1731942773:0;hyprctl clients
-: 1731942781:0;hyprctl clients
-: 1731942859:0;hyprctl clients
-: 1731943854:0;ls
-: 1731943855:0;clear
-: 1731943856:0;ll
-: 1731943857:0;clear
-: 1731943859:0;e
-: 1731943864:0;e
-: 1731943878:0;nvim
-: 1731943879:0;e
-: 1731943919:0;showmethekey-cli
-: 1731943926:0;pkexec showmethekey-cli
-: 1731943969:0;hyprctl --help
-: 1731944186:0;hyprctl clients
-: 1731944447:0;yay watershot
-: 1731944462:0;cdp
-: 1731944463:0;git clone https://github.com/Kirottu/watershot\
-cd watershot\
-cargo install --path .
-: 1731944765:0;ll
-: 1731944766:0;cdp
-: 1731944770:0;rm -rf watershot
-: 1731944774:0;rm -f watershot
-: 1731944778:0;ll
-: 1731944787:0;gtl
-: 1731944800:0;gte
-: 1731944803:0;gtl
-: 1731946077:0;hg
-: 1731946111:0;hg
-: 1731946276:0;ssep
-: 1731946333:0;yay mercurial
-: 1731949709:0;nvim
-: 1731949930:0;cd rustl
-: 1731949932:0;rustlings
-: 1731950173:0;rustlings
-: 1731950238:0;e
-: 1731988001:0;nvim
-: 1731988329:0;nvim
-: 1731988358:0;nvim
-: 1731988382:0;nvim a.rs --startuptime a.log
-: 1731988393:0;nvim a.log
-: 1731988434:0;nvim
-: 1731988449:0;nvim
-: 1731988452:0;nvim a.rs --startuptime a.log
-: 1731988458:0;nvim a.log
-: 1731988470:0;nvim
-: 1731988564:0;nvim
-: 1731988571:0;rm a.log
-: 1731988575:0;nvim a.rs --startuptime a.log
-: 1731988589:0;nvim a.rs --startuptime a.log
-: 1731988621:0;nvim a.rs --startuptime a.log
-: 1731988642:0;rm a.log
-: 1731988645:0;nvim a.rs --startuptime a.log
-: 1731988661:0;nvim a.log
-: 1731988963:0;cd .config
-: 1731988969:0;git clone https://github.com/LazyVim/starter ~/.config/lazyvim
-: 1731988973:0;cd lazyvim
-: 1731988973:0;ll
-: 1731988980:0;nvim init.lua
-: 1731989091:0;cdp
-: 1731989102:0;NVIM_APPNAME=lazyvim nvim
-: 1731989124:0;nvim lazyvim/init.lua
-: 1731989152:0;NVIM_APPNAME=lazyvim nvim
-: 1731989191:0;NVIM_APPNAME=lazyvim nvim
-: 1731989212:0;NVIM_APPNAME=lazyvim nvim
-: 1731989226:0;cd
-: 1731989228:0;cd projects/RUST
-: 1731989233:0;cd rustlings/exercises/13_error_handling
-: 1731989240:0;NVIM_APPNAME=lazyvim nvim errors6.rs
-: 1731989315:0;rm -rf $HOME/.local/share/lazyvim $HOME/.cache/lazyvim
-: 1731989318:0;rm -f $HOME/.local/share/lazyvim $HOME/.cache/lazyvim
-: 1731989321:0;ll
-: 1731989326:0;nvim errors6.rs
-: 1731989353:0;nvim errors6.rs
-: 1731989570:0;NVIM_APPNAME=lazyvim nvim errors6.rs
-: 1731989754:0;NVIM_APPNAME=lazyvim nvim errors6.rs
-: 1731989815:0;cd go
-: 1731989816:0;ll
-: 1731989835:0;NVIM_APPNAME=lazyvim nvim random/main.go
-: 1731989883:0;NVIM_APPNAME=lazyvim nvim random/main.go
-: 1731989943:0;nvim random/main.go --startuptime a.log
-: 1731989951:0;nvim a.log
-: 1731989971:0;rm -f $HOME/.local/share/lazyvim $HOME/.cache/lazyvim
-: 1731989975:0;nvim
-: 1731990049:0;nvim errors6.rs --startuptime a.log
-: 1731990061:0;nvim a.log
-: 1731990079:0;cd nvim
-: 1731990081:0;ll
-: 1731990085:0;nvim utils/startuptime.py
-: 1731990106:0;python utils/startuptime.py
-: 1731990279:0;rm a.log
-: 1731990280:0;lg
-: 1731990376:0;git remote set-url origin https://github.com/Rishabh672003/rustlings.git
-: 1731990379:0;lg
-: 1731990409:0;git remote -v
-: 1731990434:0;git remote add origin https://github.com/Rishabh672003/rustlings
-: 1731990436:0;lg
-: 1731990462:0;git remote -v
-: 1731990484:0;git ls-remote https://github.com/Rishabh672003/rustlings
-: 1731990504:0;git remote -v
-: 1731990507:0;lg
-: 1731990585:0;lg
-: 1731990588:0;lg
-: 1731990608:0;cdp
-: 1731990610:0;cdp
-: 1731990612:0;lg
-: 1731990646:0;git branch -m main
-: 1731990647:0;lg
-: 1731990659:0;git push -u origin main
-: 1731990734:0;nv
-: 1731990743:0;ll
-: 1731990746:0;nv .
-: 1731991146:0;rustlings
-: 1731991151:0;nvim
-: 1731991160:0;cd rustling
-: 1731991162:0;nvim
-: 1731991189:0;e
-: 1731991223:0;clear
-: 1731991224:0;ys
-: 1731991336:0;ll
-: 1731991367:0;ll
-: 1731991368:0;c
-: 1731991369:0;cd
-: 1731991369:0;c
-: 1731992566:0;ys
-: 1731995216:0;nvim
-: 1731995227:0;cd rustlings
-: 1731995230:0;rustlings
-: 1732000391:0;cd projects/RUST
-: 1732000392:0;ll
-: 1732000398:0;cargo new stack
-: 1732000400:0;cd stack
-: 1732000400:0;ll
-: 1732000403:0;nvim src/main.rs
-: 1732001674:0;ll
-: 1732001674:0;cdp
-: 1732001675:0;ll
-: 1732001689:0;cargo new linkedlist
-: 1732001692:0;cd linkedlist
-: 1732001695:0;nvim src/main.rs
-: 1732001845:0;dunstctl history | head
-: 1732010229:0;ll
-: 1732010231:0;lg
-: 1732010247:0;e
-: 1732010729:0;cdp
-: 1732010730:0;cd stack
-: 1732010731:0;ll
-: 1732010734:0;nvim src/main.rs
-: 1732021573:0;ll
-: 1732021574:0;cdp
-: 1732021581:0;cargo install experiment
-: 1732021588:0;cargo new experiment
-: 1732021590:0;cd experiment
-: 1732021592:0;nvim src/main.rs
-: 1732024414:0;hyperfine 'nvim -c q'
-: 1732024424:0;nvim -c
-: 1732024426:0;nvim -c q
-: 1732024428:0;nvim -c q
-: 1732024442:0;hyperfine 'nvim --clean q'
-: 1732024449:0;nvim --clean 1
-: 1732024455:0;nvim --clean -c q
-: 1732024460:0;hyperfine 'nvim --clean -c q'
-: 1732024485:0;ll
-: 1732024486:0;nvim
-: 1732024489:0;nvim a.md
-: 1732024493:0;nvim a.rs --startuptime a.log
-: 1732024499:0;nvim a.log
-: 1732024542:0;hyperfine --warmup 'nvim -c q'
-: 1732024544:0;hyperfine --warmup 3 'nvim -c q'
-: 1732027303:0;git log --all --grep='disable'
-: 1732027468:0;git log --all | fzf
-: 1732027481:0;git log --all --grep='disable'
-: 1732028295:0;man chattr
-: 1732033053:0;nvim
-: 1732033055:0;fg
-: 1732038223:0;clear
-: 1732038288:0;ls
-: 1732038290:0;ll
-: 1732038294:0;e
-: 1732038295:0;e
-: 1732038298:0;ls
-: 1732038300:0;c
-: 1732038300:0;cd
-: 1732038301:0;c
-: 1732038480:0;ll
-: 1732040362:0;cd projects
-: 1732040362:0;ll
-: 1732040811:0;cd C
-: 1732040813:0;ll
-: 1732040814:0;nvim main.
-: 1732040817:0;nvim main.c
-: 1732074665:0;nvim
-: 1732075992:0;cd projects/RUST
-: 1732075993:0;ll
-: 1732076000:0;cd experiment
-: 1732076002:0;ll
-: 1732076006:0;nvim src/main.rs
-: 1732080966:0;nvim src/main.rs
-: 1732081006:0;bob use stable
-: 1732081010:0;cali
-: 1732081017:0;nvim
-: 1732081019:0;nvim -v
-: 1732081022:0;e
-: 1732081026:0;nvim -v
-: 1732081027:0;nvim
-: 1732087887:0;sh
-: 1732087891:0;which sh
-: 1732087903:0;ll $(which sh)
-: 1732089819:0;nvim
-: 1732089823:0;nvim
-: 1732091102:0;ls
-: 1732091103:0;nvim
-: 1732091287:0;ll
-: 1732091289:0;cd nvim
-: 1732091290:0;ll
-: 1732091290:0;lg
-: 1732094842:0;nvim
-: 1732094872:0;which nvim
-: 1732094873:0;ll
-: 1732094875:0;nvim -v
-: 1732094878:0;nvim
-: 1732095145:0;nvim
-: 1732095183:0;nvim
-: 1732095476:0;nvim
-: 1732099964:0;nvim
-: 1732100113:0;nvim
-: 1732100142:0;nvim
-: 1732100370:0;nvim
-: 1732100420:0;nvim
-: 1732102303:0;cd rustling
-: 1732102308:0;rustlings
-: 1732102312:0;nvim
-: 1732102314:0;nvim
-: 1732102639:0;ll
-: 1732102646:0;cd Music
-: 1732102648:0;ncdu
-: 1732102748:0;nvim
-: 1732104060:0;nvim
-: 1732105607:0;nvim
-: 1732105612:0;nvim --startuptime a.log
-: 1732105624:0;nvim
-: 1732105628:0;nvim --startuptime a.log
-: 1732105632:0;nvim a.log
-: 1732105638:0;rm a.log
-: 1732105640:0;rm a.rs
-: 1732105641:0;ll
-: 1732105643:0;nvim --startuptime a.log
-: 1732105646:0;nvim a.log
-: 1732105663:0;ll
-: 1732105666:0;rm a.log
-: 1732105667:0;ll
-: 1732105672:0;cd learning
-: 1732105673:0;ll
-: 1732105674:0;cdp
-: 1732105674:0;cdp
-: 1732105677:0;cd PYTHON-ML
-: 1732105678:0;ll
-: 1732105681:0;cd Learning-machine-learning
-: 1732105682:0;ll
-: 1732105688:0;nvim jupyter-notebooks/ANN-for-regression.ipynb
-: 1732105809:0;nvim jupyter-notebooks/ANN-for-regression.ipynb
-: 1732105842:0;xo jupyter-notebooks/ANN-for-regression.ipynb
-: 1732105855:0;vscodium jupyter-notebooks/ANN-for-regression.ipynb
-: 1732105878:0;xo jupyter-notebooks/ANN-for-regression.ipynb
-: 1732105889:0;xo jupyter-notebooks/ANN-for-regression.ipynb
-: 1732105890:0;lg
-: 1732105910:0;lg
-: 1732105915:0;xo jupyter-notebooks/ANN-for-regression.ipynb
-: 1732106198:0;ll
-: 1732106226:0;xo jupyter-notebooks/ANN-for-regression.ipynb
-: 1732106385:0;cdp
-: 1732106386:0;ll
-: 1732106399:0;cd numpy
-: 1732106399:0;ll
-: 1732106402:0;cdp
-: 1732106402:0;ll
-: 1732106409:0;cd pbl_project
-: 1732106410:0;ll
-: 1732106415:0;xo Untitled.ipynb
-: 1732106420:0;cdp
-: 1732106421:0;ll
-: 1732106427:0;cd random
-: 1732106431:0;cdp
-: 1732106434:0;cd random-notebooks
-: 1732106435:0;ll
-: 1732106438:0;rmvenv
-: 1732106442:0;mkvenv
-: 1732106447:0;nvim sepsis_pred_pbl.py
-: 1732106454:0;nvim PS_Music_reccomendation.ipynb
-: 1732106471:0;pip install numpy scikit-learn
-: 1732106553:0;pip install numpy scikit-learn
-: 1732106557:0;nvim PS_Music_reccomendation.ipynb
-: 1732106610:0;ll
-: 1732106611:0;cdp
-: 1732106612:0;ll
-: 1732106613:0;cdp
-: 1732106614:0;ll
-: 1732106835:0;cd pythonm
-: 1732106837:0;cd python
-: 1732106838:0;ll
-: 1732106843:0;cd random-notebooks
-: 1732106844:0;ll
-: 1732106847:0;nvim sepsis_pred_pbl.py
-: 1732106854:0;nvim classification.ipynb
-: 1732106898:0;xo classification.ipynb
-: 1732106908:0;vscodium classification.ipynb
-: 1732106958:0;xo classification.ipynb
-: 1732107047:0;nvim
-: 1732107053:0;ll
-: 1732107063:0;nvim PYTHON-ML
-: 1732107190:0;nvim PYTHON-ML
-: 1732107198:0;nvim
-: 1732107236:0;cd nvi
-: 1732107243:0;nvim colors/catppuccin-mocha.lua
-: 1732107297:0;xo classification.ipynb
-: 1732107420:0;ll
-: 1732107428:0;pip install pandas
-: 1732107667:0;ls
-: 1732107668:0;clear
-: 1732107669:0;lg
-: 1732107711:0;nvim colors
-: 1732107719:0;nvim
-: 1732107768:0;nvim
-: 1732107855:0;nvim
-: 1732107858:0;nvim
-: 1732108187:0;nvim colors/catppuccin-mocha.lua
-: 1732108199:0;nvim pl
-: 1732108209:0;nvim lua/rj/plugins/init.lua
-: 1732108219:0;nvim lua/rj/plugins/init.lua
-: 1732108237:0;nvim lua/rj/plugins/init.lua
-: 1732108249:0;nvim lua/rj/plugins/init.lua
-: 1732108283:0;nvim lua/rj/plugins/init.lua
-: 1732108295:0;nvim lua/rj/plugins/init.lua
-: 1732108312:0;lg
-: 1732108319:0;nvim init.lua
-: 1732108324:0;nvim init.lua
-: 1732115142:0;xo classification.ipynb
-: 1732115151:0;xo classification.ipynb
-: 1732115163:0;xo classification.ipynb
-: 1732115179:0;lg
-: 1732115183:0;git init
-: 1732115184:0;ll
-: 1732115188:0;xo classification.ipynb
-: 1732115197:0;xo PS_Music_reccomendation.ipynb
-: 1732115208:0;xo PS_Music_reccomendation.ipynb
-: 1732115215:0;ll
-: 1732115221:0;xo sepsis_pred_pbl.py
-: 1732115230:0;nvim sepsis_pred_pbl.py
-: 1732115236:0;lg
-: 1732115245:0;lg
-: 1732115260:0;xo ML_phising_website_detection.ipynb
-: 1732115272:0;lg
-: 1732115288:0;xo ML_phising_website_detection.ipynb
-: 1732115319:0;ls
-: 1732115331:0;vscodium ML_phising_website_detection.ipynb
-: 1732115357:0;lg
-: 1732115366:0;e
-: 1732115400:0;cd python
-: 1732115400:0;ll
-: 1732115415:0;cd random-notebooks
-: 1732115415:0;ll
-: 1732115421:0;xo ML_phising_website_detection.ipynb
-: 1732115439:0;lg
-: 1732115443:0;lg
-: 1732115463:0;xo ML_phising_website_detection.ipynb
-: 1732115497:0;lg
-: 1732115504:0;xo ML_phising_website_detection.ipynb
-: 1732115527:0;lg
-: 1732115531:0;xo ML_phising_website_detection.ipynb
-: 1732115595:0;lg
-: 1732115627:0;xo ML_phising_website_detection.ipynb
-: 1732115636:0;lg
-: 1732115838:0;xo
-: 1732115842:0;xo MLExp_No_02.ipynb
-: 1732115936:0;lg
-: 1732115941:0;e
-: 1732115970:0;lg
-: 1732116590:0;nvim --clean --startuptime a.log
-: 1732116594:0;nvim a.log
-: 1732117438:0;cd projects/RUST
-: 1732117440:0;cd experiment
-: 1732117441:0;ll
-: 1732117447:0;cd rustling
-: 1732117447:0;ll
-: 1732117455:0;nvim src/main.rs
-: 1732120899:0;lg
-: 1732123035:0;lg
-: 1732123460:0;cdpp
-: 1732123462:0;cd C
-: 1732123463:0;ll
-: 1732123471:0;mkdir raylib-stuff
-: 1732123474:0;cd raylib-stuff
-: 1732123492:0;ll
-: 1732123499:0;tar -xvf raylib-5.5_linux_amd64.tar.gz
-: 1732123502:0;ll
-: 1732123504:0;cd raylib-5.5_linux_amd64
-: 1732123505:0;ll
-: 1732123507:0;cd include
-: 1732123508:0;ll
-: 1732123515:0;nvim raylib.h
-: 1732123656:0;nvim --clean raylib.h
-: 1732123720:0;nvim raylib.h
-: 1732123740:0;ll
-: 1732123765:0;cdp
-: 1732123766:0;ll
-: 1732123768:0;cdp
-: 1732123768:0;ll
-: 1732123771:0;cd raylib-5.5_linux_amd64
-: 1732123771:0;ll
-: 1732123775:0;cd lib
-: 1732123775:0;ll
-: 1732123790:0;cdp
-: 1732123791:0;ll
-: 1732123793:0;cd include
-: 1732123794:0;ll
-: 1732123795:0;pwd
-: 1732124000:0;cdp
-: 1732124001:0;cdp
-: 1732124001:0;ll
-: 1732124004:0;rm -rf *
-: 1732124009:0;rm -f *
-: 1732124010:0;ll
-: 1732124019:0;git clone git@github.com:raylib-extras/raylib-quickstart.git
-: 1732124027:0;gh repo clone raylib-extras/raylib-quickstart
-: 1732124034:0;cd raylib-quickstart
-: 1732124035:0;ll
-: 1732124046:0;cd build
-: 1732124047:0;ll
-: 1732124056:0;./premake5 gmake2
-: 1732124077:0;ll
-: 1732124079:0;cdp
-: 1732124080:0;ll
-: 1732124082:0;nvim Makefile
-: 1732124111:0;cd rust
-: 1732124112:0;cdp
-: 1732124115:0;cd C/raylib-stuff
-: 1732124116:0;ll
-: 1732124118:0;cd raylib-quickstart
-: 1732124119:0;make
-: 1732124177:0;ll
-: 1732124187:0;ll
-: 1732124193:0;./bin/Debug/raylib-quickstart
-: 1732124213:0;lll
-: 1732124220:0;rm -rf .vscode
-: 1732124224:0;rm -f .vscode
-: 1732124225:0;ll
-: 1732124234:0;cali
-: 1732124255:0;exec zsh
-: 1732124256:0;ll
-: 1732124269:0;rm -rf build-VisualStudio2022.bat
-: 1732124284:0;ll
-: 1732124285:0;lg
-: 1732124293:0;llll
-: 1732124313:0;cd build/external/raylib-master/src
-: 1732124314:0;ll
-: 1732124319:0;cd external
-: 1732124320:0;ll
-: 1732124322:0;cdp
-: 1732124324:0;cdp
-: 1732124325:0;ll
-: 1732124336:0;cdp
-: 1732124337:0;ll
-: 1732124338:0;cdp
-: 1732124339:0;ll
-: 1732124342:0;cdp
-: 1732124344:0;ll
-: 1732124347:0;nvim src/main.c
-: 1732124355:0;make
-: 1732124358:0;bear make
-: 1732124370:0;tldr bear
-: 1732124379:0;bear -- make
-: 1732124428:0;ll
-: 1732124430:0;nvim compile_commands.json
-: 1732124437:0;nvim src/main.c
-: 1732124441:0;ll
-: 1732124444:0;rm compile_commands.json
-: 1732124444:0;ll
-: 1732124536:0;ll
-: 1732124538:0;make -new
-: 1732124540:0;make -nw
-: 1732124571:0;nvim compile_commands.json
-: 1732124580:0;nvim src/main.c
-: 1732124639:0;cdp
-: 1732124640:0;ll
-: 1732124642:0;cd raylib-quickstart
-: 1732124691:0;nvim compile_commands.json
-: 1732124704:0;nvim src/main.c
-: 1732124729:0;ll
-: 1732124734:0;make clean
-: 1732124738:0;bear -- make
-: 1732125077:0;ll
-: 1732125081:0;nvim compile_commands.json
-: 1732125093:0;nvim src/main.c
-: 1732125239:0;nap
-: 1732125475:0;nvim src/main.c
-: 1732125531:0;cdp
-: 1732125532:0;ll
-: 1732125533:0;cdp
-: 1732125534:0;cd C
-: 1732125535:0;ll
-: 1732125536:0;cdp
-: 1732125539:0;cd CPP
-: 1732125540:0;ll
-: 1732125559:0;find "*jaq*" -type f
-: 1732125565:0;find "*jaq*" -type f -R
-: 1732125567:0;find "*jaq*" -type f -e
-: 1732125568:0;find "*jaq*" -type f -r
-: 1732125573:0;find "*jaq" -type f
-: 1732125576:0;find ".jaq" -type f
-: 1732125580:0;fzf
-: 1732125588:0;cd random2/src
-: 1732125589:0;ll
-: 1732125593:0;nvim .jaq.json
-: 1732125598:0;cdp
-: 1732125598:0;cdp
-: 1732125599:0;cdp
-: 1732125610:0;cd C/raylib-stuff/raylib-quickstart/src/
-: 1732125613:0;nvim .jaq.json
-: 1732125636:0;nvim main.c
-: 1732125675:0;ll
-: 1732125677:0;cd bin
-: 1732125677:0;ll
-: 1732125682:0;cd Debug
-: 1732125682:0;ll
-: 1732126005:0;cdp
-: 1732126006:0;cd
-: 1732126010:0;cd .config/mpv
-: 1732126010:0;ll
-: 1732126013:0;cd shaders
-: 1732126013:0;ll
-: 1732126256:0;ll
-: 1732126259:0;cdo
-: 1732126260:0;cd
-: 1732126276:0;cd .config/mpv
-: 1732126277:0;ll
-: 1732126279:0;rm -rf shaders
-: 1732126286:0;gt shaders
-: 1732126286:0;ll
-: 1732126288:0;lg
-: 1732126291:0;yel
-: 1732126433:0;cd
-: 1732126434:0;yl
-: 1732126443:0;yl
+: 1732469568:0;nvim
+: 1732469588:0;nv
+: 1732469733:0;nvim
+: 1732507322:0;nvim
+: 1732507476:0;ls
+: 1732508365:0;nvim
+: 1732509638:0;nvim
+: 1732509678:0;nvim
+: 1732509686:0;nvim
+: 1732509731:0;nvim
+: 1732509739:0;nvim
+: 1732509855:0;nvim
+: 1732510022:0;nvim
+: 1732510173:0;nvim
+: 1732511704:0;nvim
+: 1732511777:0;nvim
+: 1732511811:0;nvim
+: 1732511817:0;e
+: 1732511834:0;nvim
+: 1732511840:0;ls
+: 1732511869:0;ls
+: 1732511871:0;e
+: 1732511934:0;nvim
+: 1732511937:0;e
+: 1732511945:0;ls
+: 1732511951:0;e
+: 1732511964:0;nvim
+: 1732512031:0;nvim
+: 1732512039:0;e
+: 1732512041:0;e
+: 1732512044:0;e
+: 1732512047:0;e
+: 1732512083:0;e
+: 1732512085:0;e
+: 1732512104:0;e
+: 1732512141:0;nvim
+: 1732512166:0;e
+: 1732512170:0;e
+: 1732512214:0;nvim
+: 1732512234:0;e
+: 1732512395:0;nvim
+: 1732512451:0;e
+: 1732512472:0;ls
+: 1732512553:0;nvim
+: 1732512557:0;e
+: 1732512559:0;e
+: 1732512633:0;nvim
+: 1732512638:0;e
+: 1732512639:0;e
+: 1732512642:0;e
+: 1732512826:0;e
+: 1732512829:0;nvim
+: 1732512905:0;nvim
+: 1732512913:0;ls
+: 1732512914:0;clear
+: 1732512918:0;e
+: 1732512935:0;nvim
+: 1732513026:0;e
+: 1732513027:0;nvim
+: 1732513085:0;e
+: 1732513087:0;nvim
+: 1732513094:0;ls
+: 1732513116:0;e
+: 1732513119:0;e
+: 1732513146:0;nvim
+: 1732513214:0;nvim
+: 1732513389:0;e
+: 1732513390:0;e
+: 1732513391:0;nvim
+: 1732513529:0;nvim
+: 1732513553:0;ls
+: 1732513570:0;e
+: 1732513641:0;nvim
+: 1732513705:0;nvim
+: 1732513784:0;nvim
+: 1732513885:0;nvim
+: 1732513922:0;ls
+: 1732513960:0;w
+: 1732513961:0;e
+: 1732515087:0;nvim
+: 1732515090:0;e
+: 1732515203:0;nvim
+: 1732515357:0;nvim
+: 1732515364:0;e
+: 1732515368:0;e
+: 1732515383:0;e
+: 1732515477:0;nvim
+: 1732515486:0;e
+: 1732515551:0;nvim
+: 1732515590:0;nvim
+: 1732515760:0;ls
+: 1732515761:0;e
+: 1732515779:0;nvim
+: 1732518315:0;e
+: 1732518325:0;c
+: 1732518331:0;btop
+: 1732518431:0;nv
+: 1732519971:0;nvim
+: 1732520040:0;ls
+: 1732520045:0;ll
+: 1732520046:0;c
+: 1732520055:0;ls
+: 1732520064:0;ls
+: 1732520069:0;clear
+: 1732520078:0;ls
+: 1732520087:0;ls
+: 1732520089:0;ll
+: 1732520100:0;ls
+: 1732525869:0;ls
+: 1732525875:0;cler
+: 1732525878:0;clear
+: 1732525879:0;ls
+: 1732525881:0;c
+: 1732525885:0;ls
+: 1732525887:0;clear
+: 1732525895:0;ls
+: 1732525896:0;ll
+: 1732525909:0;ls
+: 1732525910:0;c
+: 1732525981:0;c
+: 1732525985:0;e
+: 1732526667:0;clear
+: 1732526668:0;e
+: 1732526790:0;nvim
+: 1732527191:0;nvim
+: 1732527866:0;nv
+: 1732527922:0;e
+: 1732527922:0;nv
+: 1732529010:0;ls
+: 1732529076:0;e
+: 1732529077:0;nv
+: 1732529098:0;e
+: 1732529099:0;nv
+: 1732529224:0;clear
+: 1732529224:0;ls
+: 1732529229:0;ls
+: 1732529230:0;clear
+: 1732533470:0;ls
+: 1732533515:0;e
+: 1732533561:0;ll
+: 1732533562:0;nvim
+: 1732533569:0;ls
+: 1732533571:0;clear
+: 1732533588:0;ls
+: 1732533589:0;ll
+: 1732533600:0;ls
+: 1732533602:0;c
+: 1732533647:0;ls
+: 1732533649:0;c
+: 1732533655:0;ll
+: 1732533655:0;e
+: 1732533839:0;bob use nightly
+: 1732533853:0;nvim
+: 1732533933:0;nvim
+: 1732533979:0;ll
+: 1732533984:0;rm a.*
+: 1732533984:0;ll
+: 1732533995:0;ll
+: 1732534022:0;ls
+: 1732534026:0;c
+: 1732534388:0;ll
+: 1732536051:0;cd Downloads
+: 1732536052:0;ll
+: 1732536055:0;file ghostty
+: 1732536065:0;./ghostty
+: 1732536071:0;chmod +x ghostty
+: 1732536074:0;./ghostty
+: 1732536089:0;clear
+: 1732536142:0;ll
+: 1732536148:0;which ghostty
+: 1732536158:0;file $(which ghostty)
+: 1732536172:0;ll $(which ghostty)
+: 1732536205:0;ldd $(which ghostty)
+: 1732536452:0;nvim Makefile
+: 1732536470:0;nv
+: 1732537620:0;e
+: 1732537687:0;nv
+: 1732537689:0;e
+: 1732537979:0;e
+: 1732537982:0;nvim Makefile
+: 1732538011:0;cd nvim
+: 1732538011:0;ll
+: 1732538870:0;e
+: 1732541022:0;cd neovim
+: 1732541023:0;ll
+: 1732541026:0;fzf
+: 1732541036:0;nvim $(fzf)
+: 1732541594:0;nvim $(fzf)
+: 1732541597:0;cd
+: 1732541598:0;nvim
+: 1732541608:0;rm -rf ~/.local/share/nvim/site/pack/deps/opt/blink.cmp
+: 1732541613:0;gt ~/.local/share/nvim/site/pack/deps/opt/blink.cmp
+: 1732541614:0;nvim
+: 1732541669:0;bob use nightly
+: 1732541671:0;nvim
+: 1732541677:0;bob use stable
+: 1732541679:0;nvim
+: 1732542206:0;cd
+: 1732542207:0;c
+: 1732542208:0;nvim
+: 1732551393:0;nvim
+: 1732551598:0;nvim
+: 1732551654:0;nvim
+: 1732551679:0;nvim
+: 1732551685:0;cd projects/Go
+: 1732551686:0;ll
+: 1732551692:0;cd beep
+: 1732551693:0;ll
+: 1732551695:0;nvim main.go
+: 1732551864:0;cd
+: 1732551878:0;nvim ~/.local/share/nvim/site/pack/deps/opt/blink.cmp
+: 1732551925:0;cd ~/.local/share/nvim/site/pack/deps/opt/blink.cmp
+: 1732551927:0;ll
+: 1732551929:0;cd lua/blink
+: 1732551930:0;ll
+: 1732551932:0;cd cmp
+: 1732551933:0;ll
+: 1732551937:0;cd accept
+: 1732551938:0;ll
+: 1732551940:0;nvim init.lua
+: 1732551992:0;nvim main.go
+: 1732552029:0;nvim random.lua
+: 1732552039:0;nvim main.go
+: 1732552279:0;bob use nightly
+: 1732552287:0;nvim main.go
+: 1732552393:0;nvim ~/.config/nvim/init.lua
+: 1732552400:0;nvim init.lua
+: 1732552489:0;nvim -v
+: 1732552493:0;bob use stable
+: 1732552497:0;nvim -v
+: 1732556530:0;cd
+: 1732556550:0;mv /home/rishabh/projects/PYTHON-ML/random-notebooks/random.pdf /home/rishabh/Mod6.pdf
+: 1732556553:0;xo Mod6.pdf
+: 1732556814:0;nvim
+: 1732556819:0;nvim ~/.config/nvim/init.lua
+: 1732558905:0;nv
+: 1732558942:0;cd nvim
+: 1732558943:0;ll
+: 1732558946:0;lg
+: 1732558948:0;nvim
+: 1732559569:0;nvim
+: 1732559599:0;nvim
+: 1732559612:0;nvim
+: 1732559863:0;nvim
+: 1732559882:0;nvim
+: 1732559973:0;nvim
+: 1732560011:0;nvim
+: 1732560038:0;nvim
+: 1732560159:0;nvim
+: 1732560212:0;nvim
+: 1732560321:0;ll
+: 1732560324:0;nvim mini-deps-snap
+: 1732617040:0;nvim
+: 1732617159:0;nvim
+: 1732617239:0;ys
+: 1732617384:0;nvim
+: 1732617522:0;nvim
+: 1732617543:0;nvim
+: 1732618175:0;nvim
+: 1732618348:0;nvim
+: 1732618350:0;npm run start
+: 1732618353:0;npm run start
+: 1732618383:0;nvim
+: 1732618388:0;npm run start
+: 1732618431:0;e
+: 1732618441:0;nvim
+: 1732618444:0;npm run start
+: 1732618469:0;nvim
+: 1732618471:0;npm run start
+: 1732618548:0;e
+: 1732618549:0;npm run start
+: 1732618559:0;e
+: 1732618602:0;nvim
+: 1732618609:0;npm run start
+: 1732618614:0;e
+: 1732618632:0;nvim
+: 1732618636:0;e
+: 1732618685:0;nvim
+: 1732618691:0;npm run start
+: 1732618715:0;e
+: 1732618744:0;nvim
+: 1732618747:0;npm run start
+: 1732618754:0;e
+: 1732618755:0;nvim
+: 1732618757:0;npm run start
+: 1732618769:0;e
+: 1732618776:0;npm run start
+: 1732618836:0;e
+: 1732618839:0;e
+: 1732618866:0;nvim
+: 1732618869:0;npm run start
+: 1732618870:0;npm run start
+: 1732618915:0;npm run start
+: 1732618917:0;e
+: 1732618919:0;e
+: 1732618920:0;nvim
+: 1732618923:0;npm run start
+: 1732618938:0;nvim
+: 1732618940:0;npm run start
+: 1732618942:0;npm run start
+: 1732618955:0;e
+: 1732619121:0;nvim
+: 1732619172:0;nvim
+: 1732619175:0;npm run start
+: 1732619177:0;npm run start
+: 1732619178:0;npm run start
+: 1732619204:0;e
+: 1732619226:0;nvim
+: 1732619244:0;e
+: 1732619266:0;nvim
+: 1732619271:0;npm run start
+: 1732619273:0;npm run start
+: 1732619651:0;nvim
+: 1732619683:0;nvim
+: 1732619685:0;npm run start
+: 1732619750:0;nvim
+: 1732619752:0;npm run start
+: 1732619776:0;nvim
+: 1732619800:0;nvim
+: 1732619801:0;npm run start
+: 1732619843:0;nvim
+: 1732619844:0;npm run start
+: 1732619905:0;nvim
+: 1732619907:0;npm run start
+: 1732619908:0;npm run start
+: 1732619909:0;npm run start
+: 1732619987:0;e
+: 1732619988:0;nvim
+: 1732619991:0;npm run start
+: 1732619992:0;npm run start
+: 1732620004:0;e
+: 1732620006:0;nvim
+: 1732620008:0;npm run start
+: 1732620011:0;npm run start
+: 1732620013:0;e
+: 1732620110:0;nvim
+: 1732620136:0;nvim
+: 1732620165:0;e
+: 1732620166:0;nvim
+: 1732620167:0;npm run start
+: 1732620169:0;npm run start
+: 1732620170:0;npm run start
+: 1732620175:0;clear
+: 1732620180:0;npm run start
+: 1732620183:0;npm run start
+: 1732620896:0;ls
+: 1732620897:0;nvim
+: 1732620975:0;nvim
+: 1732620976:0;npm run start
+: 1732620979:0;npm run start
+: 1732620981:0;npm run start
+: 1732621007:0;nvim
+: 1732621021:0;nvim
+: 1732621023:0;npm run start
+: 1732621024:0;npm run start
+: 1732621025:0;npm run start
+: 1732621027:0;npm run start
+: 1732621028:0;npm run start
+: 1732621029:0;e
+: 1732621061:0;nvim
+: 1732621065:0;npm run start
+: 1732621067:0;npm run start
+: 1732621068:0;npm run start
+: 1732621070:0;e
+: 1732621071:0;npm run start
+: 1732621156:0;npm run start
+: 1732621158:0;npm run start
+: 1732621162:0;npm run start
+: 1732621163:0;npm run start
+: 1732621165:0;npm run start
+: 1732621167:0;clear
+: 1732621188:0;e
+: 1732621191:0;cd web-dev
+: 1732621193:0;cd prac
+: 1732621196:0;ll
+: 1732621203:0;npm run start
+: 1732621204:0;cdp
+: 1732621205:0;ll
+: 1732621208:0;cd vite-project
+: 1732621208:0;ll
+: 1732621211:0;nvim run start
+: 1732621216:0;npm run start
+: 1732621218:0;ls
+: 1732621221:0;nvim package.json
+: 1732621228:0;vite
+: 1732621234:0;npm run dev
+: 1732621236:0;ll
+: 1732621239:0;nvim i
+: 1732621251:0;bun install
+: 1732621270:0;npm run dev
+: 1732621285:0;nvim
+: 1732621301:0;npm run dev
+: 1732621303:0;nvim
+: 1732621308:0;nvim
+: 1732621316:0;npm run dev
+: 1732621520:0;nvim
+: 1732621546:0;nvim
+: 1732621599:0;nvim
+: 1732621602:0;npm run dev
+: 1732621708:0;e
+: 1732621741:0;nvim
+: 1732621747:0;npm run dev
+: 1732621806:0;nvim
+: 1732621808:0;npm run dev
+: 1732621876:0;nvim
+: 1732621878:0;npm run dev
+: 1732621899:0;nvim
+: 1732621903:0;npm run dev
+: 1732622012:0;nvim
+: 1732622073:0;nvim
+: 1732622112:0;nvim
+: 1732622485:0;nvim
+: 1732622509:0;nvim
+: 1732622536:0;nvim
+: 1732622537:0;npm run dev
+: 1732622538:0;npm run dev
+: 1732622539:0;npm run dev
+: 1732622718:0;nvim
+: 1732622756:0;nvim
+: 1732622784:0;nvim
+: 1732622807:0;nvim
+: 1732622903:0;nvim
+: 1732622937:0;nvim
+: 1732622956:0;nvim
+: 1732622958:0;npm run dev
+: 1732622985:0;nvim
+: 1732622986:0;npm run dev
+: 1732623005:0;nvim
+: 1732623007:0;npm run dev
+: 1732623027:0;nvim
+: 1732623029:0;npm run dev
+: 1732623035:0;e
+: 1732623035:0;nvim
+: 1732623037:0;npm run dev
+: 1732623041:0;e
+: 1732623042:0;nvim
+: 1732623044:0;npm run dev
+: 1732624775:0;nvim
+: 1732624777:0;npm run dev
+: 1732624819:0;nvim
+: 1732624826:0;nvim
+: 1732624828:0;lua
+: 1732625421:0;nvim
+: 1732625424:0;npm run dev
+: 1732625426:0;npm run dev
+: 1732625431:0;e
+: 1732625433:0;e
+: 1732625454:0;nvim
+: 1732625458:0;npm run dev
+: 1732625546:0;nvim
+: 1732625578:0;nvim
+: 1732625650:0;nvim
+: 1732625657:0;npm run dev
+: 1732625660:0;c
+: 1732625665:0;e
+: 1732625688:0;nvim
+: 1732625690:0;lua
+: 1732625693:0;npm run dev
+: 1732625710:0;nvim
+: 1732625712:0;lua
+: 1732625718:0;npm run dev
+: 1732625719:0;npm run dev
+: 1732626138:0;e
+: 1732626141:0;e
+: 1732626148:0;nvim
+: 1732626157:0;e
+: 1732626445:0;nvim
+: 1732626455:0;npm run dev
+: 1732626456:0;npm run dev
+: 1732626466:0;nvim
+: 1732626468:0;npm run dev
+: 1732626483:0;nvim
+: 1732626491:0;npm run dev
+: 1732626594:0;lua
+: 1732626601:0;c
+: 1732626602:0;e
+: 1732626604:0;lua
+: 1732626608:0;e
+: 1732626634:0;nvim
+: 1732626643:0;nvim
+: 1732626645:0;nvim -l
+: 1732626648:0;e
+: 1732626651:0;e
+: 1732626662:0;nvim -l
+: 1732626664:0;e
+: 1732626666:0;npm run dev
+: 1732630804:0;e
+: 1732630818:0;e
+: 1732630838:0;nvim
+: 1732630839:0;npm run dev
+: 1732630842:0;e
+: 1732630843:0;npm run dev
+: 1732630845:0;e
+: 1732631003:0;nvim
+: 1732631005:0;npm run dev
+: 1732631022:0;nvim
+: 1732634394:0;nv
+: 1732634405:0;ls
+: 1732634405:0;c
+: 1732680888:0;npm run dev
+: 1732636365:0;nvim
+: 1732642334:0;ls
+: 1732642360:0;nv
+: 1732642370:0;nv
+: 1732642373:0;ls
+: 1732642375:0;clear
+: 1732643215:0;ls
+: 1732643217:0;c
+: 1732643726:0;nvim
+: 1732643807:0;nvim
+: 1732644401:0;yay warp
+: 1732644422:0;yay warp-terminal
+: 1732644555:0;cd
+: 1732644558:0;cd Downloads
+: 1732644560:0;cd warp
+: 1732644561:0;ll
+: 1732644565:0;unzip warp-terminal_0.2024.11.19.08.02.stable.01_amd64.deb
+: 1732644574:0;tar -xvf warp-terminal_0.2024.11.19.08.02.stable.01_amd64.deb
+: 1732644651:0;ar xv warp-terminal_0.2024.11.19.08.02.stable.01_amd64.deb
+: 1732644653:0;ll
+: 1732644671:0;tar -xvf data.tar.xz
+: 1732644674:0;ll
+: 1732644689:0;cd opt/warpdotdev/warp-terminal
+: 1732644690:0;ll
+: 1732644692:0;./warp
+: 1732644729:0;ls
+: 1732644738:0;nvim
+: 1732644759:0;ls
+: 1732644761:0;ll
+: 1732644769:0;e
+: 1732644786:0;cdp
+: 1732644787:0;cdp
+: 1732644787:0;cdp
+: 1732644789:0;ll
+: 1732644790:0;cdp
+: 1732644795:0;rm -rf warp
+: 1732644801:0;gt warp
+: 1732644801:0;ll
+: 1732644830:0;man ar
+: 1732644973:0;man tar
+: 1732645749:0;nv
+: 1732679530:0;ll
+: 1732679533:0;nvim Mod6.pdf
+: 1732679571:0;less Mod6.pdf
+: 1732679592:0;less Mod6.pdf > nvim
+: 1732679599:0;less Mod6.pdf | nvim
+: 1732679618:0;less Mod6.pdf | nvim -c tabnew
+: 1732679764:0;pdftotext Mod6.pdf | nvim -c tabnew
+: 1732679770:0;pdftotext Mod6.pdf
+: 1732679771:0;ll
+: 1732679775:0;nvim Mod6.txt
+: 1732679784:0;cd
+: 1732679787:0;nvim .lessfilter
+: 1732679823:0;ys
+: 1732680871:0;nv
+: 1732680888:0;e
+: 1732680942:0;nvim
+: 1732680979:0;npm run dev
+: 1732680983:0;ls
+: 1732680985:0;clear
+: 1732680993:0;e
+: 1732681068:0;nvim
+: 1732684695:0;nv
+: 1732684781:0;c
+: 1732687194:0;cd projects/PYTHON-ML
+: 1732687196:0;ll
+: 1732687197:0;cd random
+: 1732687198:0;ll
+: 1732687202:0;rmvenv
+: 1732687204:0;mkvenv
+: 1732687221:0;nvim random.py
+: 1732687237:0;pip install numpy
+: 1732687251:0;dos2unix random.py
+: 1732687254:0;nvim random.py
+: 1732692020:0;ncdu
+: 1732692024:0;cd Music
+: 1732692027:0;ncdu
+: 1732695593:0;ll
+: 1732695595:0;clear
+: 1732695596:0;ll
+: 1732695598:0;nvim
+: 1732695601:0;ls
+: 1732695602:0;c
+: 1732695605:0;ls
+: 1732695606:0;c
+: 1732699747:0;npm run dev
+: 1732699753:0;e
+: 1732700794:0;cd pro
+: 1732700796:0;cd RUST
+: 1732700797:0;ll
+: 1732700806:0;cd rustlings/exercises/15_traits
+: 1732700807:0;ll
+: 1732700811:0;nvim traits1.rs
+: 1732700818:0;cargo run
+: 1732700823:0;cdp
+: 1732700825:0;ll
+: 1732700826:0;cdp
+: 1732700829:0;npm run dev
+: 1732700831:0;e
+: 1732700833:0;cargo run
+: 1732700840:0;cargo build
+: 1732700846:0;ls
+: 1732700847:0;e
+: 1732700952:0;ls
+: 1732700953:0;c
+: 1732700954:0;e
+: 1732700957:0;c
+: 1732700958:0;e
+: 1732704411:0;python
+: 1732708542:0;nvim
+: 1732708550:0;nvim
+: 1732708554:0;cd nvim
+: 1732708559:0;cd lua/rj/
+: 1732708561:0;nvim keymaps.lua
+: 1732708567:0;nvim keymaps.lua
+: 1732708710:0;nvim
+: 1732708714:0;12
+: 1732708801:0;nvim
+: 1732708813:0;e
+: 1732708815:0;nvim
+: 1732708826:0;lua
+: 1732708833:0;e
+: 1732708930:0;nvim keymaps.lua
+: 1732708949:0;lua $
+: 1732708952:0;e
+: 1732708963:0;lua %
+: 1732708965:0;e
+: 1732709001:0;nvim
+: 1732709010:0;ls %
+: 1732709081:0;e
+: 1732709082:0;nvim keymaps.lua
+: 1732709093:0;ls %:p
+: 1732709095:0;e
+: 1732709198:0;e
+: 1732709199:0;nvim
+: 1732709203:0;ls %
+: 1732709226:0;e
+: 1732709227:0;nvim
+: 1732709231:0;ls %
+: 1732709283:0;e
+: 1732709284:0;nvim
+: 1732709289:0;ls init.lua
+: 1732709294:0;e
+: 1732709300:0;luafile init.lua
+: 1732709333:0;e
+: 1732709333:0;nvim
+: 1732709341:0;ls -la /home/rishabh/.config/nvim/init.lua
+: 1732720517:0;ls
+: 1732720517:0;c
+: 1732720520:0;ls
+: 1732720522:0;cdp
+: 1732720523:0;ll
+: 1732720524:0;e
+: 1732720539:0;lg
+: 1732720549:0;ls
+: 1732720551:0;c
+: 1732720552:0;e
+: 1732720567:0;one
+: 1732720572:0;ls
+: 1732720572:0;lg
+: 1732720576:0;nvim
+: 1732720582:0;one
+: 1732720584:0;ls
+: 1732720585:0;c
+: 1732721731:0;rustlings
+: 1732721751:0;e
+: 1732721753:0;nvim
+: 1732721890:0;e
+: 1732721896:0;nvim traits5.rs
+: 1732721923:0;ls
+: 1732722078:0;nvim traits5.rs
+: 1732723351:0;nvim traits5.rs
+: 1732723582:0;nvim traits5.rs
+: 1732723593:0;nvim traits5.rs
+: 1732723676:0;nvim traits5.rs
+: 1732723737:0;nvim traits5.rs
+: 1732728164:0;ls
+: 1732728166:0;clear
+: 1732728167:0;ll
+: 1732728168:0;ll
+: 1732728169:0;c
+: 1732728170:0;c
+: 1732728171:0;ll
+: 1732728172:0;ls
+: 1732728174:0;ls
+: 1732729331:0;nvim
+: 1732729807:0;e
+: 1732730131:0;nvim traits5.rs
+: 1732730276:0;nvim
+: 1732730279:0;ys
+: 1732730627:0;yay zed
+: 1732730678:0;e
+: 1732730682:0;zeditor
+: 1732730717:0;zeditor
+: 1732730762:0;zeditor
+: 1732730763:0;zeditor
+: 1732730763:0;zeditor
+: 1732730763:0;zeditor
+: 1732730789:0;which zeditor
+: 1732730937:0;Hyprland
+: 1732731121:0;yay ki
+: 1732731135:0;yay kieditor
+: 1732731140:0;yay ki-editor
+: 1732731386:0;rustup -v
+: 1732731389:0;rustup -h
+: 1732731395:0;rustup --version
+: 1732731427:0;yay ki-editor
+: 1732731438:0;yay ki
+: 1732731484:0;cd projects
+: 1732731488:0;mkdir external
+: 1732731489:0;cd external
+: 1732731490:0;git clone https://github.com/ki-editor/ki-editor.git
+: 1732731510:0;cd ki-editor\
+cargo install --locked --path .
+: 1732731777:0;ll
+: 1732731778:0;cdp
+: 1732731781:0;rm -rf ki-editor
+: 1732731785:0;gt ki-editor
+: 1732785968:0;reboot
+: 1732785972:0;reboot
+: 1732789738:0;zed
+: 1732789740:0;zeditor
+: 1732789741:0;zeditor
+: 1732789742:0;zeditor
+: 1732789743:0;zeditor
+: 1732789743:0;zeditor
+: 1732789749:0;echo $?
+: 1732789750:0;echo $?
+: 1732789753:0;zeditor
+: 1732789754:0;echo $?
+: 1732789823:0;zeditor .archlinux.draft.txt
+: 1732789837:0;echo $?
+: 1732789992:0;nv
+: 1732790100:0;nv
+: 1732790115:0;nvim
+: 1732790300:0;c
+: 1732790309:0;nv
+: 1732790431:0;yay -Rns zed
+: 1732791466:0;zeditor --foreground
+: 1732793195:0;cd nvim
+: 1732793201:0;python utils/startuptime.py
+: 1732793218:0;nvim --startuptime a.log
+: 1732793220:0;nvim a.log
+: 1732794245:0;cd pro
+: 1732794247:0;cd neovim
+: 1732794250:0;nvim
+: 1732794261:0;rg
+: 1732794270:0;rg "hover"
+: 1732794418:0;cd runtime/lua/vim/lsp/
+: 1732794432:0;nvim buf.lua
+: 1732796671:0;yay zed
+: 1732796682:0;zeditor --foreground
+: 1732796695:0;btop
+: 1732796748:0;btop
+: 1732796757:0;zeditor --foreground
+: 1732796838:0;zeditor --foreground
+: 1732796876:0;cd .local/share/zed/copilot/copilot-v0.5.0/dist
+: 1732796877:0;ll
+: 1732796883:0;cdp
+: 1732796883:0;ll
+: 1732796884:0;cdp
+: 1732796885:0;ll
+: 1732796886:0;cdp
+: 1732796886:0;ll
+: 1732796889:0;cd copilot
+: 1732796889:0;ll
+: 1732796891:0;cd copilot-v0.5.0
+: 1732796892:0;ll
+: 1732796893:0;cd dist
+: 1732796894:0;ll
+: 1732796905:0;c
+: 1732796906:0;e
+: 1732796956:0;yay -Rns zed
+: 1732796962:0;c
+: 1732797079:0;nvim
+: 1732797213:0;cd
+: 1732797216:0;nvim
+: 1732797382:0;ls
+: 1732797384:0;ll
+: 1732797390:0;ls
+: 1732797391:0;c
+: 1732797463:0;e
+: 1732797475:0;ls
+: 1732797477:0;c
+: 1732797494:0;e
+: 1732797523:0;e
+: 1732797920:0;e
+: 1732797924:0;ls -la --color=always | nvim - -c "lua Snacks.terminal.colorize()"
+: 1732797956:0;ls -la --color=always | nvim random - -c "lua Snacks.terminal.colorize()"
+: 1732797983:0;ls -la --color=always | nvim random - -c "lua Snacks.terminal.colorize()"
+: 1732797991:0;ls -la --color=always | nvim - -c "lua Snacks.terminal.colorize()"
+: 1732797998:0;ls -la --color=always | nvim - -c "lua Snacks.terminal.colorize()"
+: 1732798003:0;ls -la --color=always | nvim - -c "lua Snacks.terminal.colorize()"
+: 1732799165:0;cd neovim
+: 1732799174:0;rg "main("
+: 1732799178:0;rg "main\("
+: 1732799254:0;nvim src/nvim/main.c
+: 1732799262:0;ll
+: 1732799270:0;time make
+: 1732799309:0;nvim src/nvim/main.c
+: 1732799452:0;nvim src/nvim/main.c
+: 1732800083:0;cd Downloads/wlogout
+: 1732800083:0;ll
+: 1732800087:0;unzip mylinuxforwork\ hyprland-starter\ main\ dotfiles-.config_wlogout.zip
+: 1732800089:0;ll
+: 1732800116:0;mv layout style.css icons ~/.config/wlogout
+: 1732800130:0;yel
+: 1732803638:0;lg
+: 1732803663:0;time make
+: 1732803699:0;ls
+: 1732803700:0;lg
+: 1732803949:0;lg
+: 1732804040:0;cdp
+: 1732804041:0;ll
+: 1732804041:0;cd
+: 1732804042:0;cd nvim
+: 1732804043:0;ll
+: 1732804048:0;cd lua/rj/extras
+: 1732804049:0;ll
+: 1732804055:0;nvim definition.lua
+: 1732804197:0;cd
+: 1732804204:0;nvim
+: 1732804217:0;nvim
+: 1732804312:0;nvim
+: 1732804336:0;nvim
+: 1732804440:0;nvim
+: 1732804530:0;nvim
+: 1732804614:0;nvim
+: 1732804805:0;kitty
+: 1732804811:0;ghostty
+: 1732804825:0;ghostty &> /dev/null
+: 1732804921:0;nvim
+: 1732804937:0;nvim
+: 1732805003:0;nvim
+: 1732805138:0;nvim
+: 1732805155:0;nvim
+: 1732805402:0;nvim
+: 1732805675:0;nvim
+: 1732805710:0;nvim
+: 1732805734:0;nvim
+: 1732805751:0;nvim
+: 1732805786:0;nvim
+: 1732805823:0;nvim
+: 1732805877:0;nvim
+: 1732805962:0;nvim
+: 1732805991:0;nvim
+: 1732806019:0;nvim
+: 1732806036:0;nvim
+: 1732806053:0;nvim
+: 1732806093:0;nvim
+: 1732806118:0;nvim
+: 1732806155:0;nvim
+: 1732806195:0;nvim
+: 1732806262:0;nvim
+: 1732806301:0;nvim
+: 1732806342:0;nvim
+: 1732806571:0;nvim
+: 1732806596:0;nvim
+: 1732806824:0;nvim
+: 1732806872:0;nvim
+: 1732806889:0;nvim definition.lua
+: 1732806892:0;nvim
+: 1732807128:0;nvim
+: 1732807147:0;nvim
+: 1732807158:0;nvim
+: 1732807174:0;nvim
+: 1732807198:0;nvim
+: 1732807364:0;nvim
+: 1732807587:0;nvim definition.lua
+: 1732807597:0;nvim definition.lua
+: 1732807671:0;nvim definition.lua
+: 1732807701:0;nvim definition.lua
+: 1732807737:0;nvim definition.lua
+: 1732807750:0;nvim definition.lua
+: 1732807765:0;nvim definition.lua
+: 1732807791:0;nvim definition.lua
+: 1732807815:0;nvim
+: 1732807838:0;nvim
+: 1732808067:0;nvim
+: 1732808080:0;nvim
+: 1732808107:0;nvim
+: 1732808554:0;nvim
+: 1732808564:0;nvim
+: 1732808574:0;nvim
+: 1732808632:0;nvim
+: 1732808636:0;nvim
+: 1732808814:0;nvim
+: 1732808831:0;cd projects/neovim/runtime/lua/vim/lsp/
+: 1732808831:0;ll
+: 1732808833:0;nvim _snippet_grammar.lua
+: 1732808835:0;nvim _snippet_grammar.lua
+: 1732808890:0;ls
+: 1732808892:0;ll
+: 1732808895:0;cpd
+: 1732808896:0;ll
+: 1732808899:0;cdp
+: 1732808901:0;ll
+: 1732808905:0;nvim snippet.lua
+: 1732809102:0;nvim
+: 1732814159:0;nvim
+: 1732814162:0;nvim
+: 1732814179:0;e
+: 1732814374:0;nvim lsp.lua
+: 1732814447:0;cdp
+: 1732814449:0;cdp
+: 1732814450:0;ll
+: 1732814450:0;cdp
+: 1732814452:0;tokei
+: 1732815339:0;nvim definition.lua
+: 1732815719:0;tokei
+: 1732815720:0;nv
+: 1732815733:0;nvim runtime/lua/man.lua
+: 1732815756:0;nvim runtime/lua/man.lua
+: 1732815803:0;nvim runtime/lua/man.lua
+: 1732816292:0;lg
+: 1732854787:0;ll
+: 1732854789:0;cl
+: 1732854790:0;clear
+: 1732854791:0;ll
+: 1732854795:0;nvim
+: 1732854798:0;us
+: 1732854800:0;ys
+: 1732854980:0;rm random
+: 1732854981:0;ll
+: 1732854984:0;rm Mod6.
+: 1732854988:0;rm Mod6.pdf
+: 1732854990:0;rm Mod6.txt
+: 1732855005:0;gt nvim
+: 1732855006:0;ll
+: 1732855015:0;nvim
+: 1732855232:0;nvim
+: 1732856803:0;nvim -v
+: 1732857127:0;nvim
+: 1732857243:0;e
+: 1732857268:0;nvim
+: 1732857274:0;cd nvim
+: 1732857277:0;tokei
+: 1732857292:0;cd lua/rj/plugins
+: 1732857293:0;tokei
+: 1732857297:0;cdp
+: 1732857299:0;cd extras
+: 1732857301:0;tokei
+: 1732857312:0;cdp
+: 1732857312:0;ll
+: 1732857318:0;tokei *.lua
+: 1732857380:0;nv
+: 1732857512:0;rm -rf ~/.local/share/nvim/site/pack/deps/opt/blink.cmp
+: 1732857532:0;rm ~/.local/share/nvim/site/pack/deps/opt/blink.cmp
+: 1732857534:0;nvim
+: 1732857543:0;nvim
+: 1732858988:0;nvim
+: 1732859081:0;e
+: 1732859104:0;nvim
+: 1732862566:0;lg
+: 1732863233:0;ll
+: 1732863237:0;nv lsp.lua
+: 1732864261:0;nvim
+: 1732864520:0;nvim
+: 1732864532:0;nvim
+: 1732864563:0;nvim
+: 1732864577:0;nvim
+: 1732864760:0;nvim
+: 1732864801:0;nvim
+: 1732864872:0;nvim
+: 1732864919:0;nvim
+: 1732864948:0;nvim
+: 1732865137:0;nvim
+: 1732865206:0;nvim
+: 1732865253:0;nvim
+: 1732865267:0;nvim
+: 1732865838:0;nv lsp.lua
+: 1732867424:0;ruby
+: 1732870188:0;lg
+: 1732870197:0;nvim
+: 1732870277:0;nv lsp.lua
+: 1732870279:0;nv
+: 1732870410:0;nvim
+: 1732870452:0;nvim
+: 1732870571:0;nv
+: 1732870640:0;nvim
+: 1732870713:0;nv
+: 1732870744:0;nvim
+: 1732870934:0;nv
+: 1732874443:0;nv
+: 1732874464:0;nv
+: 1732874536:0;nv
+: 1732874580:0;cd .local/share/nvim/site/pack/deps/start/mini.nvim/lua
+: 1732874581:0;ll
+: 1732874588:0;nvim mini/files.lua
+: 1732874643:0;nvim
+: 1732874779:0;nvim
+: 1732874816:0;nvim
+: 1732874916:0;nvim
+: 1732875135:0;nvim
+: 1732875340:0;nvim
+: 1732875400:0;nvim
+: 1732875416:0;nvim
+: 1732875513:0;nvim
+: 1732875603:0;nvim
+: 1732878058:0;vim
+: 1732878385:0;nvim
+: 1732879404:0;nvim
+: 1732879412:0;nvim
+: 1732879436:0;nvim
+: 1732879449:0;nvim
+: 1732879520:0;nvim
+: 1732881481:0;git log -S blink
+: 1732881762:0;nvim
+: 1732884306:0;ls
+: 1732884310:0;e
+: 1732884355:0;cd
+: 1732884356:0;cd rust
+: 1732884356:0;ll
+: 1732884359:0;cd experiment
+: 1732884362:0;nvim src
+: 1732884377:0;cargo run
+: 1732884379:0;e
+: 1732884505:0;cd rust
+: 1732884508:0;cd rustlings
+: 1732884511:0;rustlings
+: 1732885116:0;e
+: 1732885120:0;c
+: 1732887631:0;nvim
+: 1732888521:0;nvim src
+: 1732888828:0;nvim
+: 1732888889:0;nvim
+: 1732888992:0;nvim
+: 1732889013:0;nvim
+: 1732889160:0;nvim
+: 1732889302:0;nvim
+: 1732889400:0;yay lazyjj
+: 1732889404:0;nvim
+: 1732889412:0;cd nvim
+: 1732889484:0;cd nvim
+: 1732889485:0;nvim
+: 1732889490:0;cd nvim
+: 1732889492:0;nvim
+: 1732889499:0;yay lazyjj
+: 1732889502:0;yay lazyjj
+: 1732889518:0;yay lazyjj
+: 1732889520:0;nvim
+: 1732889579:0;yay jj
+: 1732889598:0;nvim
+: 1732890139:0;nvim
+: 1732890426:0;nvim
+: 1732893028:0;ys
+: 1732893078:0;yay -Rns lazyjj
+: 1732893087:0;e
+: 1732893312:0;e
+: 1732893567:0;nvim
+: 1732893804:0;nvim
+: 1732894546:0;nvim
+: 1732894551:0;nvim
+: 1732961672:0;bob use nighlty
+: 1732961676:0;bob use nightly
+: 1732961901:0;nvim
+: 1732961944:0;nvim
+: 1732962480:0;ys
+: 1732963218:0;bob use stable
+: 1732965996:0;bob use nightly
+: 1732965998:0;nvim
+: 1732966175:0;cd projects/neovim
+: 1732966178:0;lg
+: 1732966308:0;cd projects/neovim
+: 1732966311:0;nvim
+: 1732966595:0;bob use stable
+: 1732966601:0;nvim
+: 1732966605:0;nvim
+: 1732966611:0;nvim --startuptime a.log
+: 1732966615:0;nvim a.log
+: 1732966712:0;e
+: 1732966714:0;nvim
+: 1732966747:0;nvim
+: 1732966917:0;nvim
+: 1732967242:0;bob use nighlty
+: 1732967247:0;bob use nightly
+: 1732967252:0;nvim
+: 1732967971:0;ll
+: 1732967972:0;lg
+: 1732967982:0;nvim runtime/tutor/tutor.tutor
+: 1732971382:0;c
+: 1732971411:0;ls
+: 1732971412:0;c
+: 1732971413:0;e
+: 1732971851:0;ll
+: 1732971853:0;lll
+: 1732977579:0;nvim
+: 1732977581:0;nvim
+: 1732977826:0;nvim
+: 1732978030:0;nvim
+: 1732979019:0;nvim
+: 1732979168:0;nvim
+: 1732979356:0;nvim
+: 1732979436:0;nvim
+: 1732979458:0;bob use nightly
+: 1732979460:0;nv
+: 1732979464:0;nv
+: 1732980614:0;hx -v
+: 1732980619:0;hx --version
+: 1732982875:0;nvim
+: 1732982925:0;nvim
+: 1732982945:0;nvim
+: 1732982996:0;nvim
+: 1732983054:0;nv
+: 1732983085:0;nv
+: 1732983093:0;cd projects/nvim-
+: 1732983098:0;cd nvim
+: 1732983106:0;nvim --clean init.lua
+: 1732983141:0;bob use stable
+: 1732983143:0;bob use stable
+: 1732983145:0;nvim --clean init.lua
+: 1732983160:0;nvim init.lua
+: 1732989956:0;nvim
+: 1732989992:0;nvim
+: 1732990006:0;cd nvim
+: 1732990007:0;l
+: 1732990008:0;lg
+: 1732990029:0;nvim
+: 1732990041:0;nvim
+: 1732990059:0;nvim
+: 1732990095:0;nvim
+: 1732990187:0;nvim
+: 1733025021:0;ls
+: 1733025021:0;c
+: 1733025023:0;clear
+: 1733025024:0;ll
+: 1733025025:0;nv
+: 1733025066:0;cd nvim
+: 1733025081:0;lg
+: 1733025086:0;nv
+: 1733025223:0;nvim
+: 1733025756:0;nvim
+: 1733025784:0;nvim
+: 1733025870:0;nvim
+: 1733025889:0;nvim
+: 1733025941:0;nvim
+: 1733026072:0;nvim
+: 1733026374:0;cd projects
+: 1733026376:0;fzf
+: 1733026381:0;cd advent_of_code
+: 1733026381:0;ll
+: 1733026386:0;mkdir 2024
+: 1733026389:0;cd 2024
+: 1733026390:0;ll
+: 1733026403:0;ll
+: 1733026408:0;ll
+: 1733026415:0;mkdir day1
+: 1733026417:0;cd day1
+: 1733026418:0;ll
+: 1733026425:0;mkdir input.txt
+: 1733026428:0;rm input.txt
+: 1733026434:0;touch intput.txt
+: 1733026435:0;ll
+: 1733026438:0;nvim intput.txt
+: 1733026447:0;nvim main.py
+: 1733026606:0;nvim main.py
+: 1733026629:0;nvim main.py
+: 1733026716:0;ls
+: 1733026718:0;c
+: 1733026720:0;ll
+: 1733026722:0;cdp
+: 1733026723:0;ll
+: 1733026729:0;go mod init day1-go
+: 1733026738:0;ls
+: 1733026741:0;rm go.mod
+: 1733026743:0;cd day1
+: 1733026744:0;ll
+: 1733026748:0;go mod init day1
+: 1733026749:0;ll
+: 1733026751:0;nvim main.go
+: 1733026755:0;e
+: 1733026842:0;nvim main.py
+: 1733026847:0;nvim main.go
+: 1733028790:0;waybar &!
+: 1733029501:0;cd Downloads
+: 1733029501:0;ll
+: 1733029512:0;mv Python_ML\ Resume-hackerresume-1.pdf Rishabh-resume.pdf
+: 1733029535:0;killall -9 waybar
+: 1733029539:0;waybar &!
+: 1733029734:0;cd projects
+: 1733029740:0;cd advent_of_code/2024/day1
+: 1733029740:0;ll
+: 1733029745:0;nvim main.py
+: 1733031103:0;nvim main.go
+: 1733042174:0;nvim main.go
+: 1733042706:0;nvim
+: 1733045482:0;ll
+: 1733045486:0;go build main.
+: 1733045488:0;go build main.go
+: 1733045489:0;ll
+: 1733045494:0;hyperfine main
+: 1733045500:0;hyperfine ./main
+: 1733045512:0;nvim main.go
+: 1733045525:0;go build main.go
+: 1733045528:0;hyperfine ./main
+: 1733045536:0;hyperfine ./main -N
+: 1733045543:0;nvim main.go
+: 1733045554:0;go build main.go
+: 1733045557:0;hyperfine ./main -N
+: 1733045560:0;hyperfine ./main -N
+: 1733045570:0;hyperfine ./main -N --prepare 2
+: 1733045576:0;hyperfine --prepare 2 ./main -N
+: 1733045585:0;hyperfine --prepare 2 -N ./main
+: 1733045593:0;hyperfine --prepare 2 -N ./main || true
+: 1733045599:0;hyperfine -N ./main
+: 1733045695:0;nvim
+: 1733045739:0;go build main.go
+: 1733045743:0;nvim main
+: 1733045746:0;nvim main.go
+: 1733045750:0;go build main.go
+: 1733045756:0;hyperfine -N ./main
+: 1733045770:0;nvim main.go
+: 1733045977:0;go build main.go
+: 1733045982:0;hyperfine -N ./main
+: 1733045987:0;hyperfine -N ./main
+: 1733045991:0;hyperfine -N ./main
+: 1733046463:0;nvim main.go
+: 1733046528:0;go build main.go
+: 1733046532:0;hyperfine -N ./main
+: 1733046542:0;hyperfine --prepare -N ./main
+: 1733046550:0;hyperfine --warmup 2 -N ./main
+: 1733046555:0;hyperfine --warmup 2 -N ./main
+: 1733046563:0;nvim main.go
+: 1733046602:0;go build main.go
+: 1733046605:0;hyperfine --warmup 2 -N ./main
+: 1733046607:0;hyperfine --warmup 2 -N ./main
+: 1733046621:0;hyperfine --warmup 2 -N ./main
+: 1733046626:0;hyperfine --warmup 2 -N ./main
+: 1733046667:0;nvim main.rs
+: 1733050067:0;nvim main.rs
+: 1733050071:0;cd
+: 1733050074:0;cd advent_of_code/2024/day1
+: 1733050075:0;ll
+: 1733050078:0;nvim main.go
+: 1733052972:0;ls
+: 1733052973:0;ll
+: 1733052988:0;nvim main.py
+: 1733052999:0;ll
+: 1733053007:0;nvim main.rs
+: 1733053058:0;nvim main.py
+: 1733053114:0;ll
+: 1733053122:0;file main.py
+: 1733053128:0;nvim main.py
+: 1733053173:0;ll
+: 1733053183:0;ll
+: 1733053186:0;nvim main.py
+: 1733053916:0;ll
+: 1733053916:0;cdp
+: 1733053917:0;ll
+: 1733053918:0;cdp
+: 1733053918:0;ll
+: 1733053921:0;cd 2023
+: 1733053922:0;ll
+: 1733053924:0;nvim 01-12
+: 1733058367:0;yay discord
+: 1733058995:0;alias yt
+: 1733059154:0;spotdl "https://open.spotify.com/track/2oWxlJzIawd9YFSSZOMx5W"
+: 1733059187:0;ll
+: 1733059199:0;cp Hiroshi\ Kitadani-ウィャ�ゃ�ャ�！\ -\ From\ THE\ FIRST\ TAKE.mp3 ~/Music/J-pop
+: 1733059267:0;ls
+: 1733059268:0;ll
+: 1733059271:0;cd Music
+: 1733059271:0;ll
+: 1733059273:0;cd J-pop
+: 1733059274:0;ll
+: 1733059278:0;nvim J-pop.m3u
+: 1733059285:0;ls
+: 1733059287:0;ll
+: 1733059295:0;e
+: 1733059300:0;ll
+: 1733059704:0;yay Kid3-qt
+: 1733060246:0;nvim
+: 1733060402:0;cd
+: 1733060404:0;cd .config/discord
+: 1733060405:0;ll
+: 1733060473:0;cdp
+: 1733060476:0;cd discordcanary
+: 1733060476:0;ll
+: 1733060485:0;nvim settings.json
+: 1733060634:0;hyprctl clients
+: 1733060651:0;c
+: 1733060652:0;cd
+: 1733060653:0;c
+: 1733060665:0;e
+: 1733060676:0;alias discord
+: 1733060680:0;alias webcord
+: 1733060692:0;nvim /usr/share/applications/discord.desktop
+: 1733060698:0;nvim /usr/share/applications/webcord.desktop
+: 1733060757:0;discord-canary --enable-features=UseOzonePlatform --ozone-platform=wayland
+: 1733060777:0;hyprctl clients
+: 1733060945:0;discord-canary
+: 1733063720:0;cd projects/RUST/stack
+: 1733063721:0;ll
+: 1733063723:0;nvim
+: 1733064063:0;nvim
+: 1733064284:0;nvim src/main.rs
+: 1733064354:0;nvim src/main.rs
+: 1733064359:0;cdp
+: 1733064360:0;cdp
+: 1733064430:0;cd PYTHON-ML
+: 1733064431:0;ll
+: 1733064435:0;cd pyfix-imports
+: 1733064435:0;ll
+: 1733064445:0;nvim src/pyfix_imports/commandline/cli.py
+: 1733064558:0;cdp
+: 1733064560:0;cdp
+: 1733064561:0;cd Go
+: 1733064562:0;ll
+: 1733064564:0;cdp
+: 1733064565:0;cd CPP
+: 1733064566:0;ll
+: 1733064568:0;cd hash-table
+: 1733064569:0;ll
+: 1733064573:0;nvim src/hash_table.cpp
+: 1733064857:0;cdp
+: 1733064859:0;cd rust
+: 1733064859:0;ll
+: 1733064866:0;cd rustings
+: 1733064870:0;cd rustlings
+: 1733064872:0;ll
+: 1733064873:0;nvi
+: 1733064875:0;nvim
+: 1733065139:0;nvim
+: 1733066257:0;ys
+: 1733069566:0;ll
+: 1733069570:0;nvim file.hpp
+: 1733074783:0;cdp
+: 1733074787:0;cd 2024
+: 1733074788:0;ll
+: 1733074792:0;nvim day1/main.go
+: 1733075175:0;lg
+: 1733075183:0;lg
+: 1733075206:0;git remote get-url
+: 1733075215:0;git remote get-url origin/main
+: 1733075219:0;git remote get-url
+: 1733075223:0;git remote get-url --all
+: 1733075228:0;git remote get-url --all main
+: 1733075259:0;git remote show origin
+: 1733075268:0;git config --get remote.origin.url
+: 1733075287:0;lg
+: 1733075291:0;ll
+: 1733075292:0;cdp
+: 1733075293:0;ll
+: 1733075297:0;cd .git
+: 1733075297:0;ll
+: 1733075305:0;cd branches
+: 1733075307:0;ll
+: 1733075308:0;cdp
+: 1733075308:0;ll
+: 1733075314:0;nvim index
+: 1733075317:0;cdp
+: 1733075317:0;ll
+: 1733075378:0;nvim .gitignore
+: 1733075396:0;ll
+: 1733075401:0;nvim
+: 1733075544:0;git remote set-url origin https://github.com/Rishabh672003/advent-of-code.git
+: 1733075579:0;git remote add https://github.com/Rishabh672003/advent-of-code
+: 1733075587:0;git remote add origin https://github.com/Rishabh672003/advent-of-code
+: 1733075592:0;ll
+: 1733075599:0;nvim .gitignore
+: 1733075605:0;ll
+: 1733075609:0;lg
+: 1733075678:0;git branch -m master main
+: 1733075680:0;lg
+: 1733075687:0;git branch -m main master
+: 1733075695:0;git branch -m master main
+: 1733075704:0;git push -u origin main
+: 1733076021:0;lg
+: 1733076037:0;lg
+: 1733076041:0;nvim .gitignore
+: 1733076095:0;lg
+: 1733076110:0;rm -rf 2024/day1/input.txt
+: 1733076118:0;gt 2024/day1/input.txt
+: 1733076119:0;lg
+: 1733076729:0;nvim 2024/day1/main.go
+: 1733111799:0;ls
+: 1733111803:0;rm Hiroshi\ Kitadani-ウィャ�ゃ�ャ�！\ -\ From\ THE\ FIRST\ TAKE.mp3
+: 1733111804:0;ls
+: 1733111805:0;c
+: 1733111857:0;ls
+: 1733111858:0;c
+: 1733111859:0;ll
+: 1733111868:0;cd .vim
+: 1733111868:0;ll
+: 1733111870:0;cdp
+: 1733111872:0;ll
+: 1733111907:0;ncdu
+: 1733111993:0;gtr
+: 1733111995:0;gte
+: 1733111998:0;ncdu
+: 1733113518:0;ls
+: 1733113710:0;cd projects/advent_of_code
+: 1733113710:0;ll
+: 1733113713:0;cd 2024
+: 1733113714:0;ll
+: 1733113717:0;mkdir day2
+: 1733113720:0;cd day2
+: 1733113721:0;ll
+: 1733113726:0;nvim main.py
+: 1733115808:0;nvim main.py
+: 1733115827:0;ls
+: 1733115831:0;cd 2024/day2
+: 1733115832:0;ll
+: 1733115837:0;python main.py
+: 1733115940:0;nvim main.py
+: 1733121641:0;nvim main.py
+: 1733124475:0;ys
+: 1733124958:0;ls
+: 1733124959:0;c
+: 1733124962:0;lg
+: 1733124997:0;ll
+: 1733124999:0;llll
+: 1733125019:0;lg
+: 1733125034:0;e
+: 1733131381:0;sss
+: 1733131425:0;wl-paste | sss_code --window-controls --window-title solution.py -n --background '#aaaaff' -e py -f png -o ./out.png -
+: 1733131430:0;xo out.png
+: 1733131441:0;wl-paste | sss_code --window-controls --window-title solution.py -n --background '#aaaaff' -e py -f png -o ./out.png -
+: 1733131444:0;xo out.png
+: 1733131474:0;ls
+: 1733131474:0;ll
+: 1733131476:0;clear
+: 1733131477:0;ll
+: 1733131478:0;clear
+: 1733131479:0;ll
+: 1733131480:0;clea
+: 1733131826:0;lg
+: 1733131926:0;nvim
+: 1733131937:0;e
+: 1733131939:0;nvim
+: 1733132278:0;nvim
+: 1733143898:0;nvim
+: 1733148288:0;cd .config
+: 1733148289:0;ll
+: 1733148298:0;gt YouTube\ Music
+: 1733148337:0;yay youtube-music
+: 1733148370:0;YouTube\ Music
+: 1733148379:0;which Youtube\ Music
+: 1733148459:0;YouTube\ Music
+: 1733148480:0;cd /usr/share/applications
+: 1733148480:0;ll
+: 1733148502:0;cd
+: 1733148504:0;fzf
+: 1733148538:0;cd .local/bin
+: 1733148538:0;ll
+: 1733148545:0;./YouTube-Music-3.6.2.AppImage
+: 1733148551:0;chmod +x YouTube-Music-3.6.2.AppImage
+: 1733148552:0;ll
+: 1733148554:0;./YouTube-Music-3.6.2.AppImage
+: 1733148670:0;ls
+: 1733148671:0;ll
+: 1733148676:0;cdp
+: 1733148677:0;ll
+: 1733148679:0;cdp
+: 1733148836:0;which btop
+: 1733148839:0;btop
+: 1733148957:0;cd Applications
+: 1733148957:0;ll
+: 1733148973:0;rm YouTube-Music-3.4.1.AppImage
+: 1733148974:0;ll
+: 1733149096:0;btop
+: 1733149192:0;btop
+: 1733149258:0;killall -9 youtube-music
+: 1733149263:0;btop
+: 1733152006:0;ll
+: 1733152008:0;cdp
+: 1733152008:0;ll
+: 1733152010:0;fzf
+: 1733160754:0;cd rustlings
+: 1733160763:0;nvim exercises/18_iterators/iterators3.rs
+: 1733161021:0;cd .local
+: 1733161023:0;cd share
+: 1733161024:0;ll
+: 1733161035:0;cd nvim/site/pack/deps/start/mini.nvim/lua
+: 1733161040:0;nvim mini/files.lua
+: 1733161049:0;nvim mini/statusline.lua
+: 1733223387:0;cd projects
+: 1733223388:0;ll
+: 1733223395:0;cd advent_of_code
+: 1733223395:0;ll
+: 1733223403:0;cd 2024/
+: 1733223406:0;mkdir day3
+: 1733223407:0;ll
+: 1733223410:0;cd day3
+: 1733223410:0;ll
+: 1733223416:0;touch main.py
+: 1733223422:0;touch input.txt
+: 1733223426:0;nvim main.py
+: 1733227337:0;nvim
+: 1733227356:0;nvim main.py
+: 1733240600:0;nvim main.py
+: 1733247052:0;nvim main.py
+: 1733287272:0;nvim
+: 1733287308:0;ys
+: 1733287920:0;ls
+: 1733287921:0;lg
+: 1733288042:0;nvim
+: 1733288231:0;cd projects/advent_of_code
+: 1733288231:0;ll
+: 1733288237:0;cd 2024/
+: 1733288238:0;ll
+: 1733288243:0;mkdir day4
+: 1733288246:0;cd day4
+: 1733288247:0;ll
+: 1733288248:0;ll
+: 1733288253:0;nvim main.py
+: 1733288392:0;ls
+: 1733300159:0;fzf
+: 1733300169:0;wl-paste | sss_code --window-controls --window-title solution.py -n --background '#aaaaff' -e py -f png -o ./out.png -
+: 1733300173:0;xo out.png
+: 1733300263:0;ll
+: 1733300266:0;rm out.png
+: 1733300318:0;lg
+: 1733300321:0;nvim
+: 1733300554:0;nvim
+: 1733300709:0;nvim
+: 1733301308:0;nv
+: 1733301601:0;cd nvim
+: 1733301612:0;nvim utils/startuptime.py
+: 1733301644:0;cd utils
+: 1733301645:0;ll
+: 1733301650:0;chmod +x startuptime.py
+: 1733301652:0;nvim startuptime.py
+: 1733301655:0;ll
+: 1733301658:0;./startuptime.py
+: 1733301670:0;nvim install.py
+: 1733301693:0;chmod +x install.py
+: 1733301695:0;ll
+: 1733301697:0;./install.py
+: 1733301704:0;c
+: 1733301706:0;cdp
+: 1733306919:0;cd
+: 1733306922:0;cd projects/RUST
+: 1733306923:0;cd rustlings
+: 1733306924:0;ll
+: 1733306930:0;nvim exercises/18_iterators
+: 1733306954:0;nvim
+: 1733307004:0;cd .rustup
+: 1733307005:0;cd
+: 1733307006:0;cd rust
+: 1733307009:0;ll
+: 1733307012:0;cd stack
+: 1733307013:0;ls
+: 1733307079:0;ll
+: 1733307089:0;ll
+: 1733307090:0;cdp
+: 1733307092:0;cd rustlings
+: 1733307092:0;ll
+: 1733307105:0;nvim rust-analyzer.toml
+: 1733307261:0;nvim exercises/18_iterators/iterators3.rs
+: 1733307300:0;nvim exercises/18_iterators/iterators3.rs
+: 1733307388:0;cd
+: 1733307390:0;cd nvim
+: 1733307396:0;./utils/startuptime.py
+: 1733307412:0;nvim utils/startuptime.py
+: 1733307428:0;./utils/startuptime.py
+: 1733307550:0;nap
+: 1733307635:0;./utils/startuptime.py
+: 1733311004:0;nvim exercises/18_iterators
+: 1733311121:0;ls
+: 1733311123:0;cd rustlings
+: 1733311124:0;ll
+: 1733311126:0;rustlings
+: 1733317161:0;nvim
+: 1733317307:0;nvim
+: 1733317343:0;nvim
+: 1733317458:0;nvim
+: 1733317483:0;nvim
+: 1733317501:0;nvim
+: 1733317514:0;nvim
+: 1733318823:0;nvim exercises/18_iterators
+: 1733318846:0;nvim
+: 1733318855:0;e
+: 1733318914:0;nvim
+: 1733318930:0;nvim
+: 1733318963:0;nvim
+: 1733319136:0;nvim
+: 1733319246:0;e
+: 1733324769:0;e
+: 1733368789:0;ys
+: 1733369583:0;nvim
+: 1733370108:0;yay discord
+: 1733370146:0;yay -Rns discord-canary-electron-bin
+: 1733370238:0;cd discord
+: 1733370239:0;ll
+: 1733370244:0;tar -xvf discord-0.0.76.tar.gz
+: 1733370249:0;ll
+: 1733370252:0;cd Discord
+: 1733370252:0;ll
+: 1733370263:0;./Discord
+: 1733370365:0;cdp
+: 1733370366:0;cdp
+: 1733370369:0;rm -rf discord
+: 1733370371:0;gt discord
+: 1733370372:0;ll
+: 1733370568:0;nv
+: 1733400334:0;nvim
+: 1733400404:0;nvim
+: 1733400583:0;nvim
+: 1733400684:0;nvim
+: 1733407791:0;cd advent_of_code
+: 1733407792:0;cd day
+: 1733407795:0;cdp
+: 1733407796:0;ll
+: 1733407799:0;cd day5
+: 1733407799:0;ll
+: 1733407803:0;nvim main.rx
+: 1733407805:0;nvim main.rs
+: 1733407982:0;rm main.rs
+: 1733409546:0;ls
+: 1733409551:0;mkvenv
+: 1733409555:0;pip install numpy
+: 1733409574:0;ll
+: 1733409577:0;nvim
+: 1733415063:0;e
+: 1733415606:0;ls
+: 1733415608:0;cd adv
+: 1733415609:0;ll
+: 1733415610:0;lg
+: 1733415859:0;nvim
+: 1733415886:0;wl-paste | sss_code --window-controls --window-title solution.py -n --background '#aaaaff' -e py -f png -o ./out.png -
+: 1733415889:0;ll
+: 1733415891:0;xo out.png
+: 1733420052:0;cd
+: 1733420059:0;cd .local/share/nvim/site
+: 1733420060:0;ll
+: 1733420068:0;cd pack/deps/opt/snacks.nvim
+: 1733420073:0;tokei
+: 1733420082:0;cdp
+: 1733420084:0;cdp
+: 1733420086:0;cd start
+: 1733420087:0;ll
+: 1733420088:0;cd mini.nvim
+: 1733420089:0;ll
+: 1733420093:0;tokei
+: 1733420099:0;cd
+: 1733420100:0;c
+: 1733458491:0;cd down
+: 1733458492:0;ll
+: 1733458510:0;mv General\ Resume\ with\ go-hackerresume.pdf Rishabh-general-resume.pdf
+: 1733460576:0;ls
+: 1733460578:0;clear
+: 1733460586:0;ll
+: 1733460597:0;ll
+: 1733460597:0;c
+: 1733461734:0;cd
+: 1733461736:0;cd adven
+: 1733461744:0;cd 2024
+: 1733461745:0;ll
+: 1733461749:0;mkdir day6
+: 1733461752:0;cd day6
+: 1733461757:0;nvim input.txt
+: 1733462347:0;mpv --vo=kitty https://www.youtube.com/watch?v=JRTLSxGf_6w&t=2132s
+: 1733462354:0;mpv --vo=kitty https://www.youtube.com/watch?v=JRTLSxGf_6w
+: 1733462376:0;mpv --vo=kitty https://www.youtu.be/JRTLSxGf_6w
+: 1733462401:0;mpv --vo=kitty https://youtu.be/JRTLSxGf_6w
+: 1733462439:0;l
+: 1733462441:0;ls
+: 1733462442:0;ll
+: 1733462445:0;ncdu
+: 1733462920:0;nvim
+: 1733465437:0;cd adven
+: 1733465437:0;ll
+: 1733465443:0;cd 2024/day6
+: 1733465444:0;ll
+: 1733465448:0;cat input.txt
+: 1733465459:0;\cat input.txt
+: 1733465628:0;grep -o X input.txt | wc -l
+: 1733465702:0;nvim input.txt
+: 1733466596:0;grep -o X input.txt | wc -l
+: 1733471879:0;\cat input.txt
+: 1733471892:0;grep -o X input.txt | wc -l
+: 1733471934:0;grep -o \# input.txt | wc -l
+: 1733471949:0;nvim sample-input.txt
+: 1733471964:0;grep -o \# sample-input.txt | wc -l
+: 1733472025:0;nvim input.txt
+: 1733496914:0;ls
+: 1733496917:0;cd 202
+: 1733496918:0;ll
+: 1733496920:0;cd day6
+: 1733496921:0;ll
+: 1733496926:0;python main2.py
+: 1733497033:0;e
+: 1733497058:0;ls
+: 1733497064:0;cd 2024/day6
+: 1733497064:0;ll
+: 1733497070:0;pypy3 main2.py
+: 1733497081:0;pypy3 main2.py
+: 1733497281:0;e
+: 1733499993:0;ls
+: 1733505767:0;ls
+: 1733505768:0;c
+: 1733540046:0;ys
+: 1733540246:0;nv
+: 1733540472:0;nv
+: 1733540508:0;bob use nightly
+: 1733540536:0;nv
+: 1733540615:0;nv
+: 1733540648:0;bob use stable
+: 1733541756:0;nv
+: 1733542185:0;cd neovim
+: 1733542186:0;lg
+: 1733542202:0;gh pr checkout 31031
+: 1733542224:0;cd runtime
+: 1733542235:0;lll
+: 1733542239:0;c
+: 1733542241:0;fzf
+: 1733542249:0;cd lua/vim/lsp
+: 1733542250:0;ls
+: 1733542262:0;nvim client.lua
+: 1733542288:0;ys
+: 1733542364:0;cdp
+: 1733542366:0;nvim lsp.lua
+: 1733543063:0;lg
+: 1733543069:0;cd
+: 1733543475:0;cd nvim
+: 1733543476:0;lg
+: 1733543709:0;nvim
+: 1733543820:0;nvim
+: 1733543861:0;nvim
+: 1733543917:0;nvim
+: 1733546468:0;c
+: 1733546468:0;c
+: 1733546469:0;c
+: 1733546469:0;c
+: 1733546470:0;c
+: 1733546540:0;nvim
+: 1733547125:0;lg
+: 1733547368:0;nvim
+: 1733547570:0;ls
+: 1733547572:0;nvim
+: 1733547639:0;cd .local
+: 1733547641:0;cd share
+: 1733547642:0;ll
+: 1733547643:0;cd nvim
+: 1733547644:0;ll
+: 1733547656:0;cd site/pack/deps/opt
+: 1733547657:0;ll
+: 1733547671:0;cd nvim-bqf
+: 1733547672:0;ll
+: 1733547674:0;nvim
+: 1733547753:0;cd
+: 1733547785:0;ll
+: 1733547787:0;ls
+: 1733547788:0;c
+: 1733547789:0;lll
+: 1733547791:0;lll
+: 1733547792:0;ls
+: 1733548049:0;cd adven
+: 1733548052:0;cd 2024
+: 1733548053:0;ll
+: 1733548057:0;mkdir day7
+: 1733548060:0;cd day7
+: 1733548061:0;ll
+: 1733548076:0;touch input.txt
+: 1733548083:0;echo "190: 10 19\
+3267: 81 40 27\
+83: 17 5\
+156: 15 6\
+7290: 6 8 6 15\
+161011: 16 10 13\
+192: 17 8 14\
+21037: 9 7 18 13\
+292: 11 6 16 20" >> input.txt
+: 1733548088:0;cat input.txt
+: 1733548094:0;nvim input.txt
+: 1733548096:0;ll
+: 1733548099:0;nvim main.py
+: 1733550016:0;ls
+: 1733550037:0;pypy3 2024/day7/main.py
+: 1733550062:0;e
+: 1733551177:0;ls
+: 1733551180:0;pypy3 2024/day7/main.py
+: 1733551213:0;pypy3 2024/day7/main.py
+: 1733551413:0;python 2024/day7/main.py
+: 1733551505:0;pypy3 2024/day7/main.py
+: 1733551565:0;pypy3 2024/day7/main.py
+: 1733551824:0;ls
+: 1733551829:0;cd 2024/day7
+: 1733551830:0;ll
+: 1733552000:0;ls
+: 1733552003:0;touch main.cpp
+: 1733552528:0;g++ main.cpp -o main -O3
+: 1733552531:0;ls
+: 1733552537:0;time ./main
+: 1733552552:0;g++ main.cpp -o main -O3
+: 1733552555:0;time ./main
+: 1733552647:0;nvim main.cpp
+: 1733552711:0;ls
+: 1733552712:0;ll
+: 1733552717:0;g++ main.cpp -o main -O5
+: 1733552724:0;./main
+: 1733552730:0;time ./main
+: 1733552749:0;g++ main.cpp -o main -O5
+: 1733552751:0;time ./main
+: 1733552807:0;g++ main.cpp -o main -O6
+: 1733552815:0;tldr g++
+: 1733552839:0;g++ main.cpp -o main -Ofast
+: 1733552845:0;time ./main
+: 1733552854:0;g++ main.cpp -o main -O7
+: 1733552859:0;man g++
+: 1733552998:0;ls
+: 1733553002:0;g++ main.cpp -o main -O7
+: 1733553006:0;./main
+: 1733553009:0;time ./main
+: 1733560719:0;g++ main.cpp -o main -O69
+: 1733560731:0;g++ -O69 main.cpp -o main
+: 1733560738:0;g++ -O3 main.cpp -o main
+: 1733560742:0;./main
+: 1733560743:0;./main
+: 1733560772:0;tldr g++
+: 1733560800:0;g++ main.cpp -O3 --output main
+: 1733560805:0;./main
+: 1733560809:0;nvim main.cpp
+: 1733560825:0;nvim main.cpp
+: 1733560841:0;g++ main.cpp -O7 --output main
+: 1733560857:0;./main
+: 1733560865:0;time ./main
+: 1733560884:0;g++ main.cpp -O3 --output main
+: 1733560887:0;time ./main
+: 1733560889:0;time ./main
+: 1733560939:0;nvim main.py
+: 1733561158:0;ls
+: 1733561160:0;pypy3 2024/day7/main.py
+: 1733561167:0;tldr pypy
+: 1733561188:0;pypy3 -m pip install numpy
+: 1733561213:0;pypy3 2024/day7/main.py
+: 1733561346:0;time pypy3 2024/day7/main.py
+: 1733565918:0;nvim
+: 1733566637:0;nvim
+: 1733567760:0;cd advent
+: 1733567761:0;ll
+: 1733567767:0;cd 2024/day7
+: 1733567768:0;ll
+: 1733567771:0;nvim main.cpp
+: 1733567781:0;nvim main.cpp
+: 1733567797:0;g++ main.cpp -O3 --output main
+: 1733567802:0;./main
+: 1733567810:0;hyperfine --warmup 2 -N ./main
+: 1733567843:0;nv
+: 1733567860:0;g++ main.cpp -O3 --output main
+: 1733567865:0;hyperfine --warmup 2 -N ./main
+: 1733567906:0;hyperfine --warmup 2 -N ./main
+: 1733567913:0;nvim main.cpp
+: 1733567920:0;g++ main.cpp -O3 --output main
+: 1733567924:0;hyperfine --warmup 2 -N ./main
+: 1733567932:0;hyperfine --warmup 2 -N ./main
+: 1733567959:0;hyperfine --prepare --warmup 2 -N ./main
+: 1733567971:0;hyperfine --warmup 2 --prepare ./main -N ./main
+: 1733567983:0;hyperfine --warmup 5 --prepare ./main -N ./main
+: 1733567990:0;hyperfine --warmup 5 --prepare ./main -N ./main
+: 1733568418:0;g++ main.cpp -Og --output main
+: 1733568422:0;hyperfine --warmup 5 --prepare ./main -N ./main
+: 1733568428:0;hyperfine --warmup 5 --prepare ./main -N ./main
+: 1733568434:0;hyperfine --warmup 5 --prepare ./main -N ./main
+: 1733568442:0;./main
+: 1733568449:0;nvim main.cpp
+: 1733568508:0;g++ main.cpp -Og --output main
+: 1733568526:0;hyperfine --warmup 5 --prepare ./main -N ./main
+: 1733568532:0;hyperfine --warmup 5 --prepare ./main -N ./main
+: 1733571776:0;c
+: 1733572254:0;nvim
+: 1733572355:0;nvim
+: 1733572438:0;nvim
+: 1733572464:0;nvim
+: 1733572481:0;nvim
+: 1733572825:0;nvim
+: 1733572857:0;nvim
+: 1733572873:0;nvim
+: 1733572945:0;nvim
+: 1733573687:0;nvim
+: 1733573700:0;nvim
+: 1733573951:0;nvim
+: 1733574060:0;cd adven
+: 1733574060:0;ll
+: 1733574063:0;cd day7
+: 1733574064:0;ll
+: 1733574068:0;nvim main.js
+: 1733574080:0;ll
+: 1733574121:0;bun main.js input.txt
+: 1733574167:0;mv main.js main.ts
+: 1733574172:0;nvim main.ts
+: 1733574189:0;ll
+: 1733574193:0;yay deno
+: 1733574289:0;deno run main.ts
+: 1733574298:0;nvim main.ts
+: 1733574325:0;ls
+: 1733574333:0;cd 2024/day7
+: 1733574333:0;ll
+: 1733574339:0;deno run main.ts
+: 1733574350:0;bun main.ts
+: 1733574355:0;deno run main.ts
+: 1733574383:0;hyperfine --warmup 5 --prepare "deno run main.ts" -N "deno run main.ts"
+: 1733574436:0;time deno run main.ts
+: 1733574445:0;time ./main
+: 1733574495:0;deno run main.ts
+: 1733574514:0;deno run main.ts
+: 1733574520:0;time deno run main.ts
+: 1733574542:0;hyperfine --warmup 5 --prepare "deno run main.ts" -N "deno run main.ts"
+: 1733574609:0;hyperfine --warmup 5 --prepare ./main -N ./main
+: 1733574624:0;nvim main.cpp
+: 1733574636:0;hyperfine --warmup 5 --prepare ./main -N ./main
+: 1733574658:0;hyperfine --warmup 5 --prepare ./main -N ./main
+: 1733574671:0;hyperfine --warmup 5 --prepare "deno run main.ts" -N "deno run main.ts"
+: 1733574789:0;g++ main.cpp -O3 --output main
+: 1733574800:0;g++ main.cpp -O3 --output main
+: 1733574810:0;hyperfine --warmup 5 --prepare ./main -N ./main
+: 1733574903:0;g++ main.cpp -O0 --output main
+: 1733574906:0;hyperfine --warmup 5 --prepare ./main -N ./main
+: 1733575357:0;hyperfine --warmup 5 --prepare ./main -N ./main
+: 1733575612:0;hyperfine --warmup 5 --prepare "deno run main.ts" -N "deno run main.ts"
+: 1733575694:0;hyperfine --warmup 5 --prepare "bun run main.ts" -N "bun run main.ts"
+: 1733576723:0;nvim
+: 1733576728:0;nvim
+: 1733577099:0;nvim main.ts
+: 1733581286:0;ls
+: 1733581288:0;lg
+: 1733581295:0;ls
+: 1733581296:0;ll
+: 1733581301:0;rm main
+: 1733581305:0;rm main.out
+: 1733581306:0;ll
+: 1733581308:0;lg
+: 1733581346:0;nvim
+: 1733581556:0;git rm explanation.txt
+: 1733581557:0;ls
+: 1733581558:0;ll
+: 1733581769:0;ls
+: 1733581770:0;lg
+: 1733581781:0;nvim
+: 1733581784:0;nvim .gi
+: 1733581788:0;nvim
+: 1733581822:0;lg
+: 1733581830:0;lg
+: 1733581831:0;nvim
+: 1733581898:0;ls
+: 1733581904:0;pypy3 2024/day7/main.py
+: 1733582227:0;pypy3 2024/day7/main.py
+: 1733585755:0;ls
+: 1733585758:0;pypy3 2024/day7/main.py
+: 1733585945:0;time pypy3 2024/day7/main.py
+: 1733586054:0;pypy3 2024/day7/main.py
+: 1733589404:0;e
+: 1733589406:0;nvim
+: 1733589706:0;nvim
+: 1733591105:0;nvim
+: 1733591193:0;nvim
+: 1733633476:0;ls
+: 1733633478:0;c
+: 1733633479:0;nv
+: 1733633600:0;ls
+: 1733633604:0;pypy3 2024/day7/main.py
+: 1733633778:0;pypy3 2024/day7/main.py
+: 1733636738:0;nvim
+: 1733636750:0;nvim
+: 1733636767:0;cd advent
+: 1733636768:0;ll
+: 1733636774:0;cd 2024/day8
+: 1733636774:0;ll
+: 1733636776:0;nvim main.py
+: 1733636788:0;nvim main.py
+: 1733636832:0;nvim main.py
+: 1733636838:0;nvim main.py
+: 1733636932:0;cd .local/share/nvim/
+: 1733636933:0;ll
+: 1733637097:0;nvim main.py
+: 1733637100:0;nv
+: 1733637117:0;nv
+: 1733638935:0;nv
+: 1733638945:0;nv
+: 1733638964:0;nv
+: 1733639406:0;nv
+: 1733639421:0;nvim main.py
+: 1733639424:0;cdp
+: 1733639425:0;cdp
+: 1733639434:0;nvim 2024/day8/main.py
+: 1733639780:0;nv
+: 1733639941:0;nv
+: 1733641021:0;speedtest
+: 1733641157:0;speedtest
+: 1733646372:0;speedtest
+: 1733646416:0;ls
+: 1733646417:0;lg
+: 1733646423:0;nvim --clean random.css
+: 1733647541:0;debugpy
+: 1733647546:0;yay debugpy
+: 1733647556:0;clear
+: 1733662776:0;ls
+: 1733662778:0;c
+: 1733663444:0;nv
+: 1733666897:0;nv
+: 1733666963:0;nv
+: 1733666982:0;nv
+: 1733666999:0;nv
+: 1733667015:0;nv
+: 1733667046:0;nv
+: 1733667152:0;nv
+: 1733671516:0;nv
+: 1733671564:0;cd pyfix
+: 1733671564:0;ll
+: 1733671566:0;nvim
+: 1733671806:0;nvim random.css
+: 1733672041:0;nv
+: 1733672059:0;nvim random.css
+: 1733672069:0;nvim
+: 1733672460:0;nv
+: 1733672465:0;ll
+: 1733672470:0;rm random.css
+: 1733672471:0;ll
+: 1733672479:0;cd nvim
+: 1733672480:0;ll
+: 1733672484:0;./utils/startuptime.py
+: 1733672614:0;rm random.css
+: 1733672615:0;ll
+: 1733672623:0;lg
+: 1733672628:0;ncdu
+: 1733672721:0;touch a.mc
+: 1733672725:0;ncdu
+: 1733672729:0;nvim a.mc
+: 1733672734:0;ncdu
+: 1733672747:0;file a.mc
+: 1733672754:0;rm a.mc
+: 1733672755:0;ll
+: 1733672757:0;nvim
+: 1733673336:0;nv
+: 1733673355:0;gt ~/.local/share/nvim/site/pack/deps/opt/blink.cmp
+: 1733673357:0;nvim
+: 1733673656:0;nvim
+: 1733673667:0;nv
+: 1733673783:0;nvim
+: 1733673791:0;nvim
+: 1733673963:0;nv
+: 1733673984:0;nv
+: 1733673998:0;nv
+: 1733674017:0;nv
+: 1733674189:0;nv
+: 1733674226:0;nv
+: 1733674341:0;nvim
+: 1733674494:0;nvim
+: 1733674693:0;rm colors/catppuccin-mocha.lua
+: 1733674695:0;nv
+: 1733674830:0;nv
+: 1733674845:0;nv
+: 1733674859:0;nv
+: 1733679001:0;ll
+: 1733679004:0;nv
+: 1733679033:0;e
+: 1733679041:0;e
+: 1733679753:0;nv
+: 1733679769:0;nv
+: 1733680498:0;nv
+: 1733718246:0;nv
+: 1733724207:0;ys
+: 1733724275:0;killall -9 spotube
+: 1733728690:0;ys
+: 1733728713:0;yay -Rns nodejs-nodemon
+: 1733728716:0;ys
+: 1733728857:0;ssep
+: 1733730573:0;nv
+: 1733731109:0;btop
+: 1733731470:0;nv
+: 1733734996:0;c
+: 1733734997:0;ll
+: 1733734998:0;nv
+: 1733735011:0;nv
+: 1733737082:0;yay harmony
+: 1733737222:0;yay -Scc
+: 1733737235:0;cd Applications
+: 1733737237:0;ll
+: 1733737241:0;./harmonymusicv1.10.31.AppImage
+: 1733737907:0;ls
+: 1733737910:0;cd .rustup
+: 1733737912:0;cd
+: 1733737914:0;cd rust
+: 1733737915:0;ll
+: 1733737919:0;cargo new minigrep
+: 1733737922:0;cd minigrep
+: 1733737923:0;ls
+: 1733737965:0;nv
+: 1733738050:0;nv
+: 1733738289:0;ls
+: 1733738299:0;cargo run -- jfkdla fdklsafjls
+: 1733738504:0;cargo run -- jfkdla fdklsafjls
+: 1733738688:0;cargo run -- poem.txt
+: 1733738702:0;cargo run -- random poem.txt
+: 1733742353:0;nv
+: 1733743011:0;cargo run -- random poem.txt
+: 1733743942:0;cargo run -- random poem.txt
+: 1733744499:0;ls
+: 1733744500:0;cargo run -- random poem.txt
+: 1733744506:0;cargo run -- random poem.txt
+: 1733745140:0;cargo test
+: 1733745197:0;cargo test
+: 1733745451:0;cargo test
+: 1733745713:0;cargo test
+: 1733745756:0;cargo run -- random poem.txt
+: 1733745760:0;cargo run -- the poem.txt
+: 1733745824:0;cargo run -- frog poem.txt
+: 1733745842:0;cargo run -- body poem.txt
+: 1733745861:0;cargo run -- monomorphization poem.txt
+: 1733746881:0;cargo test
+: 1733746899:0;cd
+: 1733746900:0;nv
+: 1733749020:0;cargo run -- to poem.txt
+: 1733749159:0;cargo run -- to poem.txt
+: 1733749187:0;IGNORE_CASE=1 cargo run -- to poem.txt
+: 1733749596:0;IGNORE_CASE=1 cargo run -- to poem.txt -i
+: 1733749603:0;IGNORE_CASE=1 cargo run -- to poem.txt
+: 1733749619:0;IGNORE_CASE=1 cargo run -- to poem.txt
+: 1733749624:0;IGNORE_CASE=1 cargo run -- to poem.txt -i
+: 1733749631:0;cargo run -- to poem.txt
+: 1733749634:0;cargo run -- to poem.txt -i
+: 1733749829:0;cargo run
+: 1733749834:0;cargo run > a
+: 1733749835:0;ls
+: 1733749838:0;cat a
+: 1733749842:0;rm a
+: 1733749843:0;ll
+: 1733755188:0;nv
+: 1733755257:0;nv
+: 1733755611:0;cd rust
+: 1733755612:0;ll
+: 1733755622:0;cargo new closure
+: 1733755625:0;cd closure
+: 1733755627:0;ls
+: 1733755630:0;nvim src/main.rs
+: 1733766190:0;nvim src/main.rs
+: 1733766218:0;nvim src/main.rs
+: 1733766451:0;nv
+: 1733766457:0;nv
+: 1733801285:0;ls
+: 1733801286:0;c
+: 1733801287:0;ls
+: 1733801288:0;ll
+: 1733801289:0;c
+: 1733801292:0;ys
+: 1733801772:0;rofi -modi nerdy -show nerdy
+: 1733801851:0;ls
+: 1733801853:0;nv
+: 1733803248:0;tpg
+: 1733803624:0;man rustc
+: 1733803628:0;tldr rustc
+: 1733803633:0;man rust
+: 1733804404:0;we
+: 1733804408:0;tpg
+: 1733804501:0;cd projects/RUST
+: 1733804501:0;ll
+: 1733804511:0;nvim new.rs
+: 1733804522:0;ls
+: 1733804528:0;rustc -C target-cpu=native new.rs
+: 1733804533:0;ls
+: 1733804535:0;./new
+: 1733804540:0;c
+: 1733804988:0;ls
+: 1733804989:0;c
+: 1733805771:0;cd closure
+: 1733805772:0;ll
+: 1733805774:0;nvim src/main.rs
+: 1733808915:0;nap
+: 1733809050:0;nv
+: 1733809071:0;nv
+: 1733809145:0;nv
+: 1733809194:0;nv
+: 1733809208:0;nv
+: 1733809234:0;nv
+: 1733809267:0;nv
+: 1733809324:0;nv
+: 1733809331:0;nv
+: 1733809342:0;nv
+: 1733809355:0;nv
+: 1733809364:0;cd .local/share/nvim/
+: 1733809364:0;ll
+: 1733809372:0;cd site/pack/deps/opt/telescope-fzf-native.nvim
+: 1733809373:0;ll
+: 1733809381:0;make
+: 1733809384:0;ls
+: 1733809385:0;ll
+: 1733809387:0;nv
+: 1733809397:0;cd
+: 1733809426:0;nv
+: 1733809506:0;nv
+: 1733809583:0;nv
+: 1733809632:0;nv
+: 1733810135:0;nv
+: 1733811969:0;nv
+: 1733812009:0;nv
+: 1733812026:0;hx
+: 1733812049:0;cd
+: 1733812050:0;nv
+: 1733812137:0;cd neovim
+: 1733812138:0;hx
+: 1733812226:0;hx
+: 1733812943:0;nv
+: 1733817164:0;nv
+: 1733817194:0;nv
+: 1733817198:0;nv
+: 1733817513:0;hx
+: 1733817529:0;nv
+: 1733818512:0;nv
+: 1733818624:0;nv
+: 1733818829:0;nv
+: 1733818836:0;cd
+: 1733818837:0;nv
+: 1733818871:0;nv
+: 1733818881:0;nv
+: 1733819010:0;nv
+: 1733819089:0;nv
+: 1733819157:0;nv
+: 1733819192:0;nv
+: 1733819229:0;nv
+: 1733819266:0;nv
+: 1733819368:0;nv
+: 1733819511:0;nv
+: 1733820077:0;ls
+: 1733820078:0;nv
+: 1733824315:0;nv
+: 1733824337:0;nv
+: 1733824355:0;nv
+: 1733824389:0;nv
+: 1733824824:0;nv
+: 1733824949:0;nv
+: 1733825034:0;nv
+: 1733825301:0;nv
+: 1733825370:0;cd .local/share/nvim/
+: 1733825370:0;ls
+: 1733825373:0;nvim project
+: 1733825375:0;nvim projects.txt
+: 1733825380:0;ls
+: 1733825381:0;c
+: 1733825382:0;cd
+: 1733825383:0;nv
+: 1733825706:0;c
+: 1733825707:0;nv
+: 1733825861:0;nv
+: 1733825870:0;nv
+: 1733826127:0;nv
+: 1733826180:0;nv
+: 1733826349:0;nv
+: 1733826845:0;nv
+: 1733826908:0;nv
+: 1733827009:0;nv
+: 1733827118:0;nv
+: 1733827154:0;nv
+: 1733827208:0;nv
+: 1733827290:0;nv
+: 1733827390:0;nv
+: 1733827411:0;nv
+: 1733827422:0;nv
+: 1733827463:0;nv
+: 1733827618:0;nv
+: 1733827702:0;nv
+: 1733827720:0;nv
+: 1733828407:0;nv
+: 1733828426:0;nv
+: 1733828471:0;nv
+: 1733830932:0;nv
+: 1733830996:0;nv
+: 1733831268:0;nv
+: 1733831403:0;nv
+: 1733831417:0;nv
+: 1733831525:0;nv
+: 1733831557:0;nvim
+: 1733831671:0;nvim
+: 1733831742:0;nvim
+: 1733831851:0;nvim
+: 1733831910:0;nvim
+: 1733831949:0;nvim
+: 1733831991:0;nvim
+: 1733832044:0;nvim
+: 1733832063:0;nvim
+: 1733832076:0;nvim
+: 1733832130:0;nvim
+: 1733832263:0;nvim
+: 1733832322:0;nvim
+: 1733832404:0;nvim
+: 1733832455:0;nvim
+: 1733832489:0;nvim
+: 1733832523:0;nvim
+: 1733832581:0;nv
+: 1733832760:0;nv
+: 1733832819:0;nv
+: 1733832891:0;nv
+: 1733833213:0;nv
+: 1733833233:0;nv
+: 1733833244:0;nv
+: 1733833258:0;nv
+: 1733833467:0;nv
+: 1733833554:0;nv
+: 1733833586:0;nv
+: 1733833683:0;nv
+: 1733833699:0;nv
+: 1733833734:0;nv
+: 1733833749:0;nv
+: 1733833838:0;nv
+: 1733833999:0;nv
+: 1733834046:0;nv
+: 1733834074:0;nv
+: 1733835774:0;nv
+: 1733835844:0;nv
+: 1733835879:0;cd nvim
+: 1733835880:0;lg
+: 1733837463:0;nv
+: 1733837512:0;nv
+: 1733838993:0;cd nv
+: 1733838994:0;lg
+: 1733839199:0;lg
+: 1733839205:0;nvim
+: 1733842250:0;cd
+: 1733842251:0;ll
+: 1733842253:0;cd rust
+: 1733842254:0;ll
+: 1733842265:0;cargo new smart-pointers
+: 1733842267:0;cd smart-pointers
+: 1733842268:0;ll
+: 1733842271:0;nvim src/main.rs
+: 1733843757:0;c
+: 1733843759:0;ll
+: 1733843760:0;c
+: 1733843761:0;ll
+: 1733843762:0;lg
+: 1733844370:0;bob use nightly
+: 1733844385:0;nv
+: 1733844530:0;btop
+: 1733845158:0;cd
+: 1733845160:0;cd neoivm
+: 1733845164:0;cd neovim
+: 1733845165:0;lg
+: 1733845219:0;gh pr checkout 31031
+: 1733845225:0;lg
+: 1733845248:0;lg
+: 1733845263:0;cd runtime/doc
+: 1733845265:0;ls
+: 1733845270:0;nvim news.txt
+: 1733845631:0;ll
+: 1733845649:0;wc -l *
+: 1733845661:0;nvim arabic.txt
+: 1733851272:0;lg
+: 1733851381:0;nv vi_diff.txt
+: 1733851410:0;ls
+: 1733851411:0;ll
+: 1733851417:0;nvim vim_diff.txt
+: 1733852013:0;cdp
+: 1733852013:0;cdp
+: 1733852014:0;ll
+: 1733852015:0;cdp
+: 1733852022:0;gh repo clone folke/snacks.nvim
+: 1733852025:0;ls
+: 1733852026:0;ll
+: 1733852031:0;gh repo clone folke/snacks.nvim
+: 1733852036:0;lg
+: 1733852045:0;cd snacks.nvim
+: 1733852048:0;tokei
+: 1733852493:0;c
+: 1733852494:0;cd
+: 1733852494:0;c
+: 1733852495:0;ll
+: 1733889254:0;ys
+: 1733891512:0;nv
+: 1733891526:0;gt ~/.local/share/nvim/site/pack/deps/opt/blink.cmp
+: 1733891528:0;nv
+: 1733891845:0;nv
+: 1733891901:0;bob use stable
+: 1733891904:0;nv
+: 1733894194:0;bob use nightly
+: 1733894214:0;ls
+: 1733894215:0;c
+: 1733894216:0;nv
+: 1733894247:0;nv
+: 1733894258:0;nap
+: 1733894355:0;bob use stable
+: 1733894358:0;;s
+: 1733894360:0;nv
+: 1733894417:0;bob use nightly
+: 1733894418:0;nv
+: 1733894435:0;nvim -v
+: 1733894437:0;nv
+: 1733894463:0;nap
+: 1733894582:0;nvim -v
+: 1733894765:0;bob use stable
+: 1733894767:0;nv
+: 1733894899:0;bob use nightly
+: 1733894901:0;nv
+: 1733895128:0;ys
+: 1733895566:0;nv
+: 1733895618:0;nv
+: 1733895698:0;nv
+: 1733895728:0;nv
+: 1733895859:0;nv
+: 1733896004:0;nap
+: 1733896047:0;e
+: 1733896387:0;cd go
+: 1733896391:0;cd dbus
+: 1733896394:0;nvim main.go
+: 1733896443:0;nvim main.go
+: 1733896542:0;nv
+: 1733896558:0;nv
+: 1733897008:0;cd cpp
+: 1733897009:0;ll
+: 1733897013:0;nvim main.cpp
+: 1733897035:0;cdp
+: 1733897036:0;cd C
+: 1733897037:0;ll
+: 1733897040:0;cd raylib-stuff/raylib-quickstart
+: 1733897041:0;ll
+: 1733897045:0;nvim src/main.c
+: 1733898275:0;nv
+: 1733898306:0;nv
+: 1733900754:0;ll
+: 1733900757:0;nvim src/main.c
+: 1733901041:0;cd
+: 1733901042:0;cd web
+: 1733901043:0;ll
+: 1733901047:0;cd EventPulse
+: 1733901047:0;ll
+: 1733901052:0;nvim src/App.jsx
+: 1733901137:0;cd neovim
+: 1733901137:0;lg
+: 1733901465:0;ls
+: 1733901466:0;nv
+: 1733901528:0;nv
+: 1733901543:0;e
+: 1733901549:0;nv
+: 1733901681:0;nvim src/App.jsx
+: 1733902033:0;nvim src/App.jsx
+: 1733902136:0;nvim src/App.jsx
+: 1733902194:0;nvim src/App.jsx
+: 1733902233:0;nvim src/App.jsx
+: 1733902295:0;nv
+: 1733902297:0;cd
+: 1733902297:0;nv
+: 1733902359:0;nv
+: 1733902499:0;nv
+: 1733903013:0;nv
+: 1733903051:0;nv
+: 1733903080:0;nv
+: 1733903105:0;nv
+: 1733903129:0;nv
+: 1733903159:0;nv
+: 1733903336:0;nv
+: 1733903344:0;nv
+: 1733903370:0;nv
+: 1733903579:0;nv
+: 1733903736:0;nv
+: 1733903760:0;nv
+: 1733903783:0;nv
+: 1733904192:0;nv
+: 1733904205:0;nv
+: 1733904224:0;nv
+: 1733904359:0;nv
+: 1733904366:0;nv
+: 1733904378:0;nv
+: 1733904394:0;nv
+: 1733904405:0;cd nvim
+: 1733904407:0;nvim init.lua
+: 1733904416:0;nvim init.lua
+: 1733904443:0;nvim init.lua
+: 1733904454:0;nvim init.lua
+: 1733904472:0;nvim init.lua
+: 1733905207:0;cd .con
+: 1733905208:0;ll
+: 1733905209:0;cd dunst
+: 1733905210:0;ll
+: 1733905212:0;nvim dunstrc
+: 1733905242:0;dunstify "hello world"
+: 1733905306:0;killall -9 dunst && dunst &!
+: 1733905327:0;killall -9 dunst && dunst &!
+: 1733905330:0;dunstify "hello world"
+: 1733905349:0;killall -9 dunst && dunst &!
+: 1733905351:0;dunstify "hello world"
+: 1733905363:0;killall -9 dunst && dunst &!
+: 1733905365:0;dunstify "hello world"
+: 1733905520:0;nv
+: 1733911559:0;nv
+: 1733911585:0;nv
+: 1733911760:0;c
+: 1733911761:0;ls
+: 1733911765:0;cd rust
+: 1733911768:0;cd smart-pointers
+: 1733911769:0;ll
+: 1733911773:0;nv src/main.rs
+: 1733914072:0;gt ~/.local/share/nvim/site/pack/deps/opt/blink.cmp
+: 1733914074:0;nv
+: 1733914245:0;nv
+: 1733914306:0;nv
+: 1733914365:0;nv
+: 1733914401:0;nv
+: 1733914503:0;cd .local
+: 1733914507:0;cd share/nvim/
+: 1733914508:0;ll
+: 1733914517:0;cd site/pack/deps/opt/blink.cmp
+: 1733914518:0;nv
+: 1733914558:0;nv
+: 1733914669:0;nv
+: 1733914720:0;nv
+: 1733914735:0;ll
+: 1733914777:0;nv
+: 1733914822:0;nv
+: 1733916673:0;nv
+: 1733918402:0;ghostty -v
+: 1733918498:0;ys ghostty-git
+: 1733918716:0;cd
+: 1733918717:0;c
+: 1733919143:0;ls
+: 1733919144:0;e
+: 1733919146:0;ls
+: 1733919149:0;ls
+: 1733919167:0;ls
+: 1733919198:0;ls
+: 1733919202:0;ls
+: 1733919203:0;c
+: 1733919203:0;c
+: 1733919204:0;ls
+: 1733919205:0;ll
+: 1733919206:0;ls
+: 1733919207:0;nv
+: 1733919210:0;c
+: 1733919211:0;e
+: 1733919225:0;ghostty
+: 1733919229:0;c
+: 1733919230:0;e
+: 1733919232:0;ls
+: 1733919233:0;nv
+: 1733919473:0;c
+: 1733919474:0;nv
+: 1733919479:0;cd projects
+: 1733919480:0;ll
+: 1733919481:0;cd nvim
+: 1733919482:0;ll
+: 1733919488:0;./utils/startuptime.py
+: 1733919499:0;./utils/startuptime.py
+: 1733919516:0;ls
+: 1733919518:0;./utils/startuptime.py
+: 1733919530:0;cd
+: 1733919531:0;ll
+: 1733919535:0;nvim --startuptime a.log
+: 1733919538:0;nv a.log
+: 1733919563:0;nv
+: 1733919583:0;nv
+: 1733919598:0;rm a.log
+: 1733919600:0;nvim --startuptime a.log
+: 1733919603:0;nv a.log
+: 1733919660:0;inxi
+: 1733921342:0;cd nvim
+: 1733921343:0;nv
+: 1733925599:0;l
+: 1733926171:0;nv
+: 1733926206:0;ll
+: 1733926209:0;cd lua/rj
+: 1733926209:0;ll
+: 1733926213:0;git diff lsp.lua
+: 1733926294:0;git diff --stat lsp.lua
+: 1733926311:0;git diff --stat lsp.lua
+: 1733926342:0;git show --stat
+: 1733926381:0;one
+: 1733926387:0;lg
+: 1733926403:0;nv
+: 1733930338:0;nv
+: 1733935501:0;nv
+: 1733940537:0;ping 8.8.8.8
+: 1733940560:0;nmtui
+: 1733976586:0;nv
+: 1733979549:0;nv
+: 1733979649:0;cd nvim
+: 1733979652:0;./utils/startuptime.py
+: 1733979744:0;./utils/startuptime.py
+: 1733981836:0;nv
+: 1733981975:0;cd lua/rj
+: 1733981976:0;ls
+: 1733981981:0;git diff --stat lsp.lua
+: 1733982112:0;git diff --stat lsp.lua
+: 1733982205:0;ls
+: 1733982699:0;nv
+: 1733983485:0;nv
+: 1733983677:0;nv
+: 1733983825:0;cd nvim
+: 1733983831:0;git diff --stat lua/rj/lsp.lua
+: 1733984378:0;nv
+: 1733991454:0;ls
+: 1733991455:0;c
+: 1733991455:0;lg
+: 1733998601:0;bob use stable
+: 1733998603:0;nv
+: 1733998635:0;nv
+: 1733998652:0;ls
+: 1733998655:0;nvim -v
+: 1733998656:0;nv
+: 1734002871:0;emacs -nw
+: 1734003475:0;nv
+: 1734003485:0;bob use nighlty
+: 1734003490:0;bob use nightly
+: 1734003502:0;nv
+: 1734003524:0;lg
+: 1734003765:0;nv
+: 1734003772:0;ll
+: 1734003776:0;nvim --startuptime a.log
+: 1734003779:0;nv a.log
+: 1734003826:0;nv
+: 1734003879:0;nv
+: 1734004892:0;nv
+: 1734004942:0;nv
+: 1734004948:0;nv
+: 1734004958:0;nv
+: 1734005013:0;nv
+: 1734005286:0;nv
+: 1734005411:0;nv
+: 1734011171:0;ys
+: 1734011265:0;btop
+: 1734014134:0;yay -Scc
+: 1734014148:0;cd
+: 1734014149:0;ncdu
+: 1734014319:0;c
+: 1734014320:0;duf
+: 1734014325:0;ncdu
+: 1734014539:0;nv
+: 1734014651:0;ls
+: 1734014653:0;ll
+: 1734014653:0;c
+: 1734015100:0;cd rust
+: 1734015100:0;ll
+: 1734015107:0;cd experiment
+: 1734015108:0;ll
+: 1734015108:0;nv
+: 1734017582:0;ll
+: 1734018236:0;lg
+: 1734023673:0;lg
+: 1734026288:0;ls
+: 1734026289:0;ll
+: 1734026291:0;cd plugins
+: 1734026291:0;ll
+: 1734026294:0;nv ivy.lua
+: 1734026412:0;cd
+: 1734026413:0;nv
+: 1734026463:0;nv
+: 1734026623:0;nv
+: 1734026652:0;ls
+: 1734026653:0;cd
+: 1734026653:0;c
+: 1734026657:0;cd nv
+: 1734026658:0;ll
+: 1734026664:0;nv new
+: 1734026667:0;rm new
+: 1734027522:0;cd python
+: 1734027523:0;ll
+: 1734027526:0;cd DSA
+: 1734027527:0;ll
+: 1734027550:0;source ~/.virtualenvs/DSA-upem/bin/activate
+: 1734027553:0;ls
+: 1734027560:0;cdp
+: 1734027563:0;cd pyfix-imports
+: 1734027564:0;ll
+: 1734027573:0;source .venv/bin/activate
+: 1734027586:0;fish
+: 1734027598:0;cdp
+: 1734027599:0;ll
+: 1734027600:0;fish
+: 1734027679:0;ls
+: 1734027684:0;cd Learning-machine-learning
+: 1734027685:0;ll
+: 1734027694:0;nvim .venv
+: 1734027708:0;nv requirements.txt
+: 1734027926:0;cdp
+: 1734027927:0;cd dsa
+: 1734027928:0;ll
+: 1734027930:0;nv linear-search.py
+: 1734027994:0;cd
+: 1734027996:0;nv
+: 1734064909:0;echo "$PYTHONPATH"
+: 1734064922:0;echo $PYTHONPATH
+: 1734064927:0;echo $PATH
+: 1734064932:0;cd pyfix
+: 1734064935:0;echo $PYTHONPATH
+: 1734065025:0;echo $VIRTUAL_ENV
+: 1734065030:0;echo $VIRTUAL_ENV_DIR
+: 1734065060:0;ys
+: 1734065247:0;cd
+: 1734065248:0;c
+: 1734065275:0;ls
+: 1734065276:0;ll
+: 1734065277:0;c
+: 1734065277:0;ll
+: 1734065279:0;c
+: 1734065280:0;ll
+: 1734065283:0;rm a.log
+: 1734065357:0;c
+: 1734065358:0;ll
+: 1734065359:0;c
+: 1734065360:0;c
+: 1734065360:0;c
+: 1734065361:0;ll
+: 1734065365:0;cd .vim
+: 1734065366:0;ll
+: 1734065369:0;cdp
+: 1734065371:0;ll
+: 1734065394:0;cz
+: 1734065419:0;e
+: 1734065422:0;ls
+: 1734065428:0;cd pyfix
+: 1734065430:0;ll
+: 1734065435:0;nv
+: 1734065448:0;nv
+: 1734065481:0;echo $VIRTUAL_ENV
+: 1734065490:0;source .venv/bin/activate
+: 1734065492:0;echo $VIRTUAL_ENV
+: 1734066127:0;source .venv/bin/activate
+: 1734066133:0;ll
+: 1734066136:0;cd .venv
+: 1734066136:0;ll
+: 1734066139:0;cd bin
+: 1734066139:0;ll
+: 1734066143:0;nvim activate
+: 1734066191:0;ls
+: 1734066233:0;deactivate
+: 1734066234:0;ls
+: 1734066244:0;cdp
+: 1734066245:0;ll
+: 1734066246:0;cdp
+: 1734066246:0;nv
+: 1734066302:0;cdo
+: 1734066304:0;cdp
+: 1734066305:0;ll
+: 1734066310:0;cd numpy
+: 1734066310:0;ll
+: 1734066316:0;nv requirements.txt
+: 1734066329:0;nv .venv
+: 1734066348:0;nv nump.py
+: 1734066398:0;cd pyfix
+: 1734066398:0;ll
+: 1734066406:0;nv src/pyfix_imports/commandline/cli.py
+: 1734066422:0;nv nump.py
+: 1734066441:0;ls
+: 1734066442:0;ll
+: 1734066446:0;cat .venv
+: 1734066485:0;cdp
+: 1734066487:0;cd adve
+: 1734066489:0;ll
+: 1734066504:0;source ~/.virtualenvs/advent_of_code-zfvr/bin/activate
+: 1734066512:0;pip install pyfix-imports
+: 1734066522:0;nvim random.py
+: 1734066550:0;deactivate
+: 1734066565:0;ll
+: 1734066570:0;nv random.py
+: 1734066612:0;cd
+: 1734066622:0;cd .local/share/nvim/site/pack/deps/opt/swenv.nvim
+: 1734066623:0;ll
+: 1734066632:0;nv lua/swenv/init.lua
+: 1734066780:0;nv lua/swenv/init.lua
+: 1734066840:0;nv
+: 1734066850:0;cdp
+: 1734066854:0;cd pyfix-imports
+: 1734066854:0;ll
+: 1734066861:0;nv src/pyfix_imports/commandline/cli.py
+: 1734066900:0;echo $VIRTUAL_ENV
+: 1734066942:0;cdp
+: 1734066946:0;cd numpy
+: 1734066946:0;ll
+: 1734066948:0;cdp
+: 1734066950:0;cd ad
+: 1734066953:0;nv random.py
+: 1734066960:0;ll
+: 1734066967:0;nvim random.py
+: 1734067014:0;nv random.py
+: 1734067081:0;cd .virtualenvs
+: 1734067082:0;ll
+: 1734067229:0;nv lua/swenv/init.lua
+: 1734067356:0;nv random.py
+: 1734067415:0;cd nvim
+: 1734067416:0;ll
+: 1734067419:0;cd lua/rj/extras
+: 1734067422:0;ll
+: 1734067425:0;nvim venv.lua
+: 1734067594:0;nv random.py
+: 1734067752:0;cd .virtualenvs
+: 1734067752:0;ll
+: 1734067755:0;cd advent_of_code-zfvr
+: 1734067755:0;ll
+: 1734067758:0;cd bin
+: 1734067759:0;ll
+: 1734067773:0;which pyfix-imports
+: 1734067780:0;echo $PATH
+: 1734067862:0;source ~/.virtualenvs/advent_of_code-zfvr/bin/activate
+: 1734067869:0;echo $VIRTUAL_ENV
+: 1734067878:0;nv
+: 1734067909:0;deactivate
+: 1734067910:0;ll
+: 1734067913:0;nv random.py
+: 1734067993:0;nv random.py
+: 1734068199:0;nv random.py
+: 1734068216:0;nv random.py
+: 1734068292:0;nvim venv.lua
+: 1734069045:0;nv random.py
+: 1734069126:0;nv random.py
+: 1734069176:0;nv random.py
+: 1734069283:0;nv random.py
+: 1734069302:0;nv random.py
+: 1734069422:0;nv random.py
+: 1734069628:0;nv random.py
+: 1734069664:0;cd pyfix-imports
+: 1734069664:0;ll
+: 1734069667:0;cz
+: 1734069674:0;exec zsh
+: 1734069679:0;echo $VIRTUAL_ENV
+: 1734069747:0;cz
+: 1734069751:0;exec zsh
+: 1734069754:0;deactivate
+: 1734069757:0;e
+: 1734069760:0;cd pyfix
+: 1734069761:0;ll
+: 1734069777:0;nvim src/pyfix_imports/commandline/cli.py
+: 1734069961:0;e
+: 1734069963:0;e
+: 1734069965:0;e
+: 1734072306:0;cd pyfix
+: 1734072313:0;nvim src/pyfix_imports/file.py
+: 1734072572:0;nv
+: 1734072827:0;nv src/pyfix_imports/commandline/cli.py
+: 1734072880:0;nv src/pyfix_imports/commandline/cli.py
+: 1734073126:0;nv src/pyfix_imports/commandline/cli.py
+: 1734073208:0;nv src/pyfix_imports/commandline/cli.py
+: 1734073237:0;nv src/pyfix_imports/commandline/cli.py
+: 1734073277:0;nv src/pyfix_imports/commandline/cli.py
+: 1734073778:0;nv src/pyfix_imports/pyflake.py
+: 1734073847:0;nv src/pyfix_imports/pyflake.py
+: 1734073951:0;nv src/pyfix_imports/pyflake.py
+: 1734074729:0;nv src/pyfix_imports/pyflake.py
+: 1734074774:0;nv src/pyfix_imports/pyflake.py
+: 1734074889:0;nv src/pyfix_imports/pyflake.py
+: 1734075184:0;nv src/pyfix_imports/pyflake.py
+: 1734075249:0;nv src/pyfix_imports/pyflake.py
+: 1734075571:0;nv src/pyfix_imports/pyflake.py
+: 1734075818:0;echo $VIRTUAL_ENV_DIR
+: 1734076129:0;cdp
+: 1734076130:0;cdp
+: 1734076132:0;cd PYTHON-ML
+: 1734076133:0;ll
+: 1734076136:0;cd dsa
+: 1734076137:0;ll
+: 1734076139:0;cdp
+: 1734076148:0;cd PYTHON-ML
+: 1734076149:0;ll
+: 1734076154:0;cd adven
+: 1734076155:0;ll
+: 1734076158:0;nvim random.py
+: 1734076178:0;nvim random.py
+: 1734076247:0;nvim random.py
+: 1734076343:0;nvim random.py
+: 1734076371:0;nvim random.py
+: 1734076415:0;nvim random.py
+: 1734076440:0;nvim random.py
+: 1734076449:0;nvim random.py
+: 1734076482:0;nvim random.py
+: 1734076496:0;nvim random.py
+: 1734076617:0;ls
+: 1734076620:0;pip install pyfix-imports
+: 1734076625:0;ls
+: 1734076629:0;source ~/.virtualenvs/advent_of_code-zfvr/bin/activate
+: 1734076630:0;ls
+: 1734076631:0;pip install pyfix-imports
+: 1734076636:0;deactivate
+: 1734076637:0;ls
+: 1734076640:0;nv random.py
+: 1734076684:0;source ~/.virtualenvs/advent_of_code-zfvr/bin/activate
+: 1734076701:0;pip install ydata_profiling
+: 1734076845:0;nv random.py
+: 1734076858:0;nv random.py
+: 1734076873:0;nv random.py
+: 1734076888:0;nv random.py
+: 1734076895:0;cdp
+: 1734076896:0;ll
+: 1734076900:0;cd PYTHON-ML
+: 1734076900:0;ll
+: 1734076905:0;cd DSA
+: 1734076906:0;ll
+: 1734076913:0;nv test.py
+: 1734076935:0;deactivate
+: 1734076936:0;nv
+: 1734076971:0;source ~/.virtualenvs/DSA-upem/bin/activate
+: 1734076977:0;pip install pyfix-imports
+: 1734076983:0;ls
+: 1734076986:0;deactivate
+: 1734076990:0;nvim random.py
+: 1734077033:0;nv
+: 1734079102:0;nvim random.py
+: 1734079114:0;cdp
+: 1734079114:0;ll
+: 1734079117:0;cd ad
+: 1734079118:0;ll
+: 1734079120:0;nvim random.py
+: 1734079146:0;nv
+: 1734079158:0;nvim random.py
+: 1734079266:0;nvim random.py
+: 1734079286:0;cdp
+: 1734079358:0;cd advent_of_code
+: 1734079359:0;ll
+: 1734079361:0;nvim random.py
+: 1734079526:0;nvim random.py
+: 1734079596:0;nvim random.py
+: 1734079609:0;nvim random.py
+: 1734079627:0;nvim random.py
+: 1734084667:0;nv
+: 1734084783:0;ll
+: 1734084785:0;nv random.py
+: 1734084796:0;nv random.py
+: 1734085108:0;nv
+: 1734085135:0;ls
+: 1734085136:0;c
+: 1734085141:0;nv random.py
+: 1734086430:0;cdp
+: 1734086431:0;ll
+: 1734086433:0;cd neovim
+: 1734086434:0;tokei
+: 1734086451:0;ls
+: 1734086452:0;ll
+: 1734086459:0;btop
+: 1734086468:0;nv .git
+: 1734086471:0;nv .gitattributes
+: 1734086487:0;ls
+: 1734086490:0;ll
+: 1734086492:0;c
+: 1734086562:0;nv
+: 1734086567:0;fg
+: 1734086571:0;nv
+: 1734087034:0;fg
+: 1734089937:0;nv
+: 1734090274:0;bob use nightly
+: 1734090287:0;nv
+: 1734090295:0;nv
+: 1734090332:0;nv
+: 1734090654:0;cd pyfix
+: 1734090655:0;ll
+: 1734090659:0;nvim src/pyfix_imports/fix_code.py
+: 1734090805:0;nvim src/pyfix_imports/fix_code.py
+: 1734091250:0;nvim src/pyfix_imports/fix_code.py
+: 1734091361:0;nvim src/pyfix_imports/fix_code.py
+: 1734091462:0;nv
+: 1734091473:0;nv
+: 1734091514:0;nv
+: 1734091590:0;nvim src/pyfix_imports/fix_code.py
+: 1734091801:0;ll
+: 1734091802:0;c
+: 1734091805:0;nv
+: 1734091921:0;nv
+: 1734091954:0;nv
+: 1734091957:0;nv
+: 1734095085:0;nvim a.py
+: 1734095092:0;nvim a.py
+: 1734095115:0;rm a.py
+: 1734095182:0;ls
+: 1734095184:0;c
+: 1734095185:0;ll
+: 1734095186:0;c
+: 1734095190:0;nv
+: 1734095207:0;nv
+: 1734099197:0;nv
+: 1734099291:0;ys
+: 1734104970:0;cd rustlings
+: 1734104973:0;rustlings
+: 1734111180:0;bob use nightly
+: 1734111182:0;nv
+: 1734112988:0;e
+: 1734112990:0;c
+: 1734112991:0;ls
+: 1734112992:0;ll
+: 1734112993:0;c
+: 1734112993:0;nv
+: 1734113313:0;nv
+: 1734113491:0;nv
+: 1734113493:0;nv
+: 1734113832:0;nv
+: 1734113894:0;nv
+: 1734113966:0;nv
+: 1734114038:0;nv
+: 1734114091:0;nv
+: 1734114272:0;nv
+: 1734114401:0;nv
+: 1734150949:0;c
+: 1734150950:0;ll
+: 1734150951:0;c
+: 1734150952:0;ll
+: 1734150954:0;ls
+: 1734150954:0;ll
+: 1734150955:0;c
+: 1734163398:0;nv
+: 1734163401:0;nv
+: 1734163676:0;nvom
+: 1734163676:0;nv
+: 1734163681:0;e
+: 1734163708:0;nv
+: 1734163722:0;nv
+: 1734163742:0;nv
+: 1734164036:0;nv
+: 1734164052:0;nv
+: 1734164076:0;nv
+: 1734164142:0;nv
+: 1734164208:0;nv
+: 1734164586:0;ys
+: 1734164627:0;lua
+: 1734165245:0;nv
+: 1734165249:0;nv
+: 1734165251:0;nv
+: 1734170360:0;ls
+: 1734170772:0;c
+: 1734170773:0;ll
+: 1734170775:0;nv
+: 1734171404:0;nv
+: 1734171845:0;nv
+: 1734172104:0;echo $VIRTUAL_ENV_DIR
+: 1734177156:0;cd
+: 1734177156:0;c
+: 1734177353:0;nv
+: 1734178247:0;cd rust
+: 1734178250:0;cdp
+: 1734178251:0;ll
+: 1734178258:0;cargo new multithreading
+: 1734178261:0;cd multithreading
+: 1734178265:0;nvim src/main.rs
+: 1734178372:0;nvim src/main.rs
+: 1734180233:0;cdp
+: 1734180236:0;cd rustlings
+: 1734180239:0;nv
+: 1734180323:0;ls
+: 1734180326:0;rustlings
+: 1734180329:0;cd rustlings
+: 1734180332:0;rustlings
+: 1734180455:0;cd rust
+: 1734180458:0;cd multithreading
+: 1734180459:0;ll
+: 1734180465:0;cd src/lib.rs
+: 1734180467:0;cd src/
+: 1734180468:0;ll
+: 1734180469:0;cdp
+: 1734180474:0;nvim src/lib.rs
+: 1734183518:0;ys
+: 1734186468:0;nv
+: 1734189545:0;ls
+: 1734189546:0;lg
+: 1734189650:0;ls
+: 1734189652:0;c
+: 1734189679:0;nv
+: 1734189804:0;gt ~/.local/share/nvim/site/pack/deps/opt/blink.cmp
+: 1734189806:0;nv
+: 1734189852:0;cd nvim
+: 1734189860:0;cd lua/rj/plugins/
+: 1734189862:0;nv blink.lua
+: 1734189867:0;vim blink.lua
+: 1734189873:0;nv blink.lua
+: 1734189882:0;gt ~/.local/share/nvim/site/pack/deps/opt/blink.cmp
+: 1734189883:0;nv
+: 1734190532:0;cd docu
+: 1734190533:0;ll
+: 1734190534:0;nv
+: 1734190541:0;nvim op.md
+: 1734197541:0;nv
+: 1734197781:0;nv
+: 1734197788:0;nv
+: 1734197818:0;ls
+: 1734197820:0;cd nivm
+: 1734197820:0;ll
+: 1734197823:0;cd nv
+: 1734197824:0;ll
+: 1734197827:0;nv Session.vim
+: 1734197856:0;nv init.lua
+: 1734198416:0;ls
+: 1734198418:0;ll
+: 1734198434:0;rm Session.vim
+: 1734198444:0;nv
+: 1734198449:0;nv init.lua
+: 1734198461:0;nv init.lua
+: 1734198472:0;ls
+: 1734198476:0;rm Session.vim
+: 1734198477:0;ll
+: 1734198909:0;ll
+: 1734198910:0;nv
+: 1734198912:0;ll
+: 1734198914:0;rm random.lua
+: 1734198915:0;ll
+: 1734198916:0;nv
+: 1734234679:0;ys
+: 1734234750:0;ys
+: 1734234799:0;fish
+: 1734234852:0;e
+: 1734235112:0;c
+: 1734235113:0;nv
+: 1734235158:0;nv
+: 1734235196:0;nv
+: 1734235251:0;nv
+: 1734235294:0;nv
+: 1734235321:0;nv
+: 1734235613:0;ls
+: 1734235613:0;c
+: 1734235614:0;ll
+: 1734235614:0;c
+: 1734235615:0;c
+: 1734235615:0;c
+: 1734235616:0;c
+: 1734235616:0;ll
+: 1734235618:0;ls
+: 1734235619:0;c
+: 1734235621:0;ls
+: 1734235625:0;c
+: 1734235631:0;nv
+: 1734237939:0;nv
+: 1734237957:0;nv
+: 1734238019:0;nv
+: 1734239723:0;ls
+: 1734239724:0;c
+: 1734239727:0;ls
+: 1734240795:0;nv
+: 1734240804:0;nv
+: 1734240992:0;ls
+: 1734240993:0;c
+: 1734241031:0;ls
+: 1734241032:0;c
+: 1734241403:0;nv
+: 1734242321:0;ls
+: 1734242321:0;c
+: 1734242322:0;ll
+: 1734242570:0;nv
+: 1734249443:0;nap
+: 1734249564:0;cd nvim
+: 1734249564:0;nv
+: 1734249654:0;nv
+: 1734249679:0;nv
+: 1734249710:0;cd projects
+: 1734249711:0;cd nvim
+: 1734249714:0;./utils/startuptime.py
+: 1734249746:0;./utils/startuptime.py
+: 1734249767:0;nv
+: 1734249772:0;nv
+: 1734249802:0;nv
+: 1734249860:0;nv
+: 1734249922:0;nv
+: 1734250019:0;nv
+: 1734255566:0;nv
+: 1734255573:0;nv
+: 1734255585:0;nv
+: 1734255607:0;nv
+: 1734255614:0;nv
+: 1734255617:0;nv
+: 1734255663:0;cd
+: 1734255666:0;cd .config
+: 1734255667:0;ll
+: 1734255671:0;cd lazyvim
+: 1734255672:0;ll
+: 1734255678:0;cdp
+: 1734255686:0;NVIM_APPNAME=lazyvim nvim
+: 1734255759:0;NVIM_APPNAME=lazyvim nvim
+: 1734255909:0;cd
+: 1734255911:0;cd pyfix
+: 1734255914:0;NVIM_APPNAME=lazyvim nvim
+: 1734256017:0;ll
+: 1734256019:0;cdp
+: 1734256019:0;ll
+: 1734256686:0;nv
+: 1734256809:0;man rustc
+: 1734256820:0;man ls
+: 1734256830:0;man ls
+: 1734256842:0;man ls
+: 1734256876:0;man ls
+: 1734256879:0;fg
+: 1734256885:0;fg
+: 1734257684:0;nv
+: 1734257710:0;nv
+: 1734257809:0;nv
+: 1734257826:0;nv
+: 1734257841:0;nv
+: 1734257976:0;nv
+: 1734257980:0;nv
+: 1734257991:0;nv
+: 1734258000:0;nv
+: 1734258016:0;cd
+: 1734258021:0;cd rustlings
+: 1734258022:0;ll
+: 1734258038:0;nv exercises/20_threads/threads1.rs
+: 1734258071:0;nv
+: 1734258092:0;nv
+: 1734258176:0;nv
+: 1734258575:0;nv
+: 1734258740:0;nv
+: 1734258764:0;nv
+: 1734259098:0;nv
+: 1734259111:0;nv
+: 1734259123:0;nv exercises/20_threads/threads1.rs
+: 1734261517:0;nv
+: 1734261555:0;nv
+: 1734263535:0;nv
+: 1734263539:0;nv
+: 1734263543:0;nv
+: 1734263648:0;cd
+: 1734263754:0;cd
+: 1734263755:0;nv
+: 1734263792:0;nv
+: 1734263900:0;nv
+: 1734263924:0;nv
+: 1734263963:0;cd nvim
+: 1734263964:0;nv
+: 1734263982:0;nv
+: 1734263995:0;nv
+: 1734264000:0;nv
+: 1734264010:0;nv
+: 1734264026:0;cd
+: 1734264027:0;nv
+: 1734264101:0;nv
+: 1734264514:0;ls
+: 1734264515:0;c
+: 1734264516:0;lg
+: 1734264519:0;nv
+: 1734264640:0;nv
+: 1734264997:0;nv
+: 1734269763:0;rustlings
+: 1734269990:0;nv
+: 1734269999:0;rustlings
+: 1734270558:0;cd neovim
+: 1734270558:0;ll
+: 1734270563:0;make
+: 1734270626:0;make build
+: 1734270639:0;./build/bin/nvim
+: 1734270644:0;ncdu
+: 1734270874:0;nv
+: 1734270949:0;nv
+: 1734271001:0;rustlings
+: 1734273693:0;cd .local
+: 1734273695:0;cd share/nvim
+: 1734273696:0;ll
+: 1734273698:0;cd session
+: 1734273699:0;ll
+: 1734273703:0;nvim nvim
+: 1734273706:0;nvim rustlings
+: 1734274558:0;nv
+: 1734274593:0;nv
+: 1734274600:0;rustlings
+: 1734274794:0;nv
+: 1734274827:0;e
+: 1734274841:0;rustlings
+: 1734274892:0;e
+: 1734274894:0;rustlings
+: 1734274902:0;nv
+: 1734274908:0;nv
+: 1734274910:0;rustlings
+: 1734275623:0;ys
+: 1734276933:0;e
+: 1734276941:0;cd rust
+: 1734276941:0;ll
+: 1734276942:0;cdp
+: 1734276943:0;ll
+: 1734276950:0;cargo new koala-rs
+: 1734276952:0;cd koala-rs
+: 1734276953:0;ll
+: 1734276956:0;nvim src/main.rs
+: 1734276994:0;cargo add rodio
+: 1734277008:0;ls
+: 1734277015:0;cat Cargo.toml
+: 1734277028:0;cat Cargo.lock
+: 1734278785:0;e
+: 1734283518:0;nv
+: 1734285000:0;rustlings
+: 1734322136:0;nv
+: 1734322155:0;nv
+: 1734322353:0;cd rust
+: 1734322353:0;ll
+: 1734322364:0;cargo new hello-async
+: 1734322366:0;cd hello-async
+: 1734322370:0;cargo add trpl
+: 1734322437:0;nvim src/main.rs
+: 1734324107:0;ll
+: 1734324111:0;cargo build
+: 1734324160:0;./target/debug/hello-async https://google.com
+: 1734324183:0;./target/debug/hello-async "http://www.rust-lang.org"
+: 1734325264:0;ll
+: 1734325266:0;ncdu
+: 1734325280:0;cdp
+: 1734325281:0;ll
+: 1734325284:0;rm new
+: 1734325284:0;ls
+: 1734325294:0;cargo new ratatui
+: 1734325354:0;cd ratatui
+: 1734325355:0;cargo add ratatui
+: 1734325360:0;cdp
+: 1734325365:0;gt ratatui
+: 1734325373:0;cargo add koala-gui
+: 1734325380:0;cargo new koala-gui
+: 1734325383:0;cd koala-gui
+: 1734325384:0;ll
+: 1734325386:0;cdp
+: 1734325393:0;gt koala-gui
+: 1734325395:0;cd koala-rs
+: 1734325396:0;ls
+: 1734325397:0;ll
+: 1734325400:0;cargo add ratatui
+: 1734325432:0;cargo add ratatui --features all-widgets
+: 1734325531:0;cdp
+: 1734325534:0;cd koala-rs
+: 1734325534:0;ls
+: 1734325539:0;cargo add crossterm
+: 1734325585:0;nvim src/main.rs
+: 1734326255:0;ls
+: 1734326261:0;cargo build
+: 1734326280:0;e
+: 1734326282:0;cd koala-rs
+: 1734326291:0;./target/debug/koala-rs
+: 1734326295:0;./target/debug/koala-rs
+: 1734326345:0;cargo run
+: 1734326349:0;cargo run
+: 1734326373:0;cargo run
+: 1734326376:0;cargo run
+: 1734326557:0;cargo run
+: 1734326561:0;nv
+: 1734326647:0;nv
+: 1734326654:0;cdo
+: 1734326658:0;cdp
+: 1734326659:0;ll
+: 1734326666:0;cargo new ratatui-counter-app\
+cd ratatui-counter-app\
+$EDITOR .
+: 1734326685:0;cargo add ratatui crossterm
+: 1734326705:0;ncdu
+: 1734326789:0;gte
+: 1734326791:0;ls
+: 1734330410:0;ls
+: 1734330411:0;cdp
+: 1734330416:0;cd ratatui-counter-app
+: 1734330419:0;cargo run
+: 1734330455:0;cargo run
+: 1734330467:0;cd
+: 1734330469:0;cd ratatui-counter-app
+: 1734330708:0;cargo run
+: 1734330720:0;cargo run
+: 1734330858:0;cargo run
+: 1734330885:0;cargo build --release
+: 1734330913:0;./target/release/ratatui-counter-app
+: 1734330928:0;ll
+: 1734330934:0;rm -rf target/release
+: 1734330936:0;ll
+: 1734330941:0;gt target/release
+: 1734330942:0;ll
+: 1734331005:0;nv Cargo.toml
+: 1734331184:0;cargo run
+: 1734331289:0;nv
+: 1734332394:0;ll
+: 1734332399:0;gt target
+: 1734332399:0;ll
+: 1734332402:0;cargo run
+: 1734332423:0;gt target
+: 1734332424:0;cdp
+: 1734332425:0;ll
+: 1734332435:0;cargo new ratatui-json-editor
+: 1734332443:0;mkdir ratatui
+: 1734332453:0;mv ratatui* ratatui
+: 1734332454:0;ll
+: 1734332463:0;mv koala-rs ratatui-hello-world
+: 1734332469:0;mv ratatui-hello-world ratatui
+: 1734332470:0;ll
+: 1734332472:0;cd ratatui
+: 1734332472:0;ll
+: 1734332478:0;cd ratatui-json-editor
+: 1734332479:0;ll
+: 1734332483:0;nv
+: 1734332492:0;nv
+: 1734332521:0;cargo build
+: 1734332536:0;ls
+: 1734332538:0;nv src/main.rs
+: 1734336881:0;cd go
+: 1734336881:0;ll
+: 1734336887:0;cd random-number-generator
+: 1734336888:0;ll
+: 1734336890:0;nv main.go
+: 1734337007:0;cdp
+: 1734337008:0;cdp
+: 1734337009:0;cd rust
+: 1734337010:0;ll
+: 1734337026:0;cargo new random-number-generator
+: 1734337027:0;cd random-number-generator
+: 1734337028:0;ll
+: 1734337031:0;nvim Cargo.toml
+: 1734337058:0;nv src/main.rs
+: 1734337095:0;ll
+: 1734337100:0;cargo add rand
+: 1734337115:0;cargo add num-bigint
+: 1734337182:0;cargo add num-bigint --features arbitrary rand
+: 1734337195:0;cargo add num-bigint --features arbitrary
+: 1734337202:0;cargo add num-bigint --features rand
+: 1734337207:0;nvim Cargo.toml
+: 1734337215:0;nvim src/main.rs
+: 1734337269:0;rng 100
+: 1734337276:0;rng 100000000000000000000000000000000000000000000
+: 1734337603:0;cargo add num
+: 1734337615:0;cargo add num --features rand
+: 1734337619:0;nvim src/main.rs
+: 1734338087:0;rng 12 2121
+: 1734338117:0;ll
+: 1734338120:0;nvim src/main.rs
+: 1734338641:0;ll
+: 1734338644:0;cargo build
+: 1734338653:0;nv
+: 1734338677:0;cargo build
+: 1734338690:0;nv
+: 1734342646:0;ll
+: 1734342650:0;nv
+: 1734343332:0;ks
+: 1734343333:0;ll
+: 1734343336:0;cargo run
+: 1734343338:0;cargo run 1111111111
+: 1734343340:0;cargo run 1111111111
+: 1734343340:0;cargo run 1111111111
+: 1734343341:0;cargo run 1111111111
+: 1734343342:0;cargo run 1111111111
+: 1734343342:0;cargo run 1111111111
+: 1734343343:0;cargo run 1111111111
+: 1734343343:0;cargo run 1111111111
+: 1734343343:0;cargo run 1111111111
+: 1734343344:0;cargo run 1111111111
+: 1734343344:0;cargo run 1111111111
+: 1734343470:0;cargo run 1111111111
+: 1734343471:0;cargo run 1111111111
+: 1734343472:0;cargo run 1111111111
+: 1734343472:0;cargo run 1111111111
+: 1734343476:0;cargo run 20
+: 1734343477:0;cargo run 20
+: 1734343478:0;cargo run 20
+: 1734343479:0;cargo run 20
+: 1734343928:0;cargo run 20
+: 1734343928:0;cargo run 20
+: 1734343930:0;cargo run 20
+: 1734343932:0;cargo run
+: 1734344000:0;cargo run
+: 1734344037:0;cargo run
+: 1734344056:0;cargo run
+: 1734344213:0;cargo run
+: 1734344263:0;cargo run
+: 1734344286:0;cargo run
+: 1734344317:0;cargo run
+: 1734344399:0;cargo run
+: 1734344416:0;cargo run
+: 1734344476:0;cargo run
+: 1734344478:0;cargo run
+: 1734344484:0;cargo run
+: 1734344499:0;cargo run
+: 1734344502:0;cargo run
+: 1734344505:0;cargo run
+: 1734344508:0;cargo run
+: 1734344510:0;cargo run
+: 1734344512:0;cargo run
+: 1734344515:0;cargo run
+: 1734344518:0;cargo run
+: 1734344520:0;cargo run
+: 1734344523:0;cargo run
+: 1734344861:0;cargo run
+: 1734344864:0;cargo run
+: 1734344865:0;cargo run
+: 1734344867:0;cargo run
+: 1734345156:0;cargo run
+: 1734345159:0;cargo run
+: 1734345164:0;rng
+: 1734345166:0;rng
+: 1734345265:0;which rng
+: 1734345276:0;file $(which rng)
+: 1734345294:0;ls
+: 1734345302:0;cdp
+: 1734345304:0;cdp
+: 1734345306:0;cd random-number-generator
+: 1734345306:0;ll
+: 1734345312:0;cargo build --release
+: 1734345342:0;cargo build --release
+: 1734345344:0;ls
+: 1734345364:0;time ./target/release/random-number-generator 100000000000000000000000
+: 1734345367:0;time ./target/release/random-number-generator 100000000000000000000000
+: 1734345368:0;time ./target/release/random-number-generator 100000000000000000000000
+: 1734345372:0;time ./target/release/random-number-generator 100000000000000000000000000000000000000000000000000000000000000000000000000
+: 1734345373:0;time ./target/release/random-number-generator 100000000000000000000000000000000000000000000000000000000000000000000000000
+: 1734345374:0;time ./target/release/random-number-generator 100000000000000000000000000000000000000000000000000000000000000000000000000
+: 1734345374:0;time ./target/release/random-number-generator 100000000000000000000000000000000000000000000000000000000000000000000000000
+: 1734345387:0;time rng 100000000000000000000000000000000000000000000000000000000000000000000000000
+: 1734345388:0;time rng 100000000000000000000000000000000000000000000000000000000000000000000000000
+: 1734345389:0;time rng 100000000000000000000000000000000000000000000000000000000000000000000000000
+: 1734345390:0;time rng 100000000000000000000000000000000000000000000000000000000000000000000000000
+: 1734345391:0;time rng 100000000000000000000000000000000000000000000000000000000000000000000000000
+: 1734345443:0;cargo build --release
+: 1734345445:0;ls
+: 1734345454:0;./target/release/random-number-generator 111111111111111111111
+: 1734345456:0;./target/release/random-number-generator 111111111111111111111
+: 1734345456:0;./target/release/random-number-generator 111111111111111111111
+: 1734345457:0;./target/release/random-number-generator 111111111111111111111
+: 1734345457:0;./target/release/random-number-generator 111111111111111111111
+: 1734345458:0;./target/release/random-number-generator 111111111111111111111
+: 1734345458:0;./target/release/random-number-generator 111111111111111111111
+: 1734345459:0;./target/release/random-number-generator 111111111111111111111
+: 1734345459:0;./target/release/random-number-generator 111111111111111111111
+: 1734345460:0;./target/release/random-number-generator 111111111111111111111
+: 1734345460:0;./target/release/random-number-generator 111111111111111111111
+: 1734345461:0;./target/release/random-number-generator 111111111111111111111
+: 1734345461:0;./target/release/random-number-generator 111111111111111111111
+: 1734345462:0;./target/release/random-number-generator 111111111111111111111
+: 1734345462:0;./target/release/random-number-generator 111111111111111111111
+: 1734345463:0;./target/release/random-number-generator 111111111111111111111
+: 1734345463:0;./target/release/random-number-generator 111111111111111111111
+: 1734345464:0;./target/release/random-number-generator 111111111111111111111
+: 1734345467:0;./target/release/random-number-generator 111111111111111111111
+: 1734345469:0;./target/release/random-number-generator
+: 1734345473:0;./target/release/random-number-generator
+: 1734345481:0;echo $?
+: 1734345545:0;ls
+: 1734345551:0;cat Cargo.toml
+: 1734345675:0;nv
+: 1734346976:0;cargo build --release
+: 1734346981:0;lg
+: 1734346998:0;lg
+: 1734347033:0;ll
+: 1734347044:0;cd target/release
+: 1734347045:0;ll
+: 1734347048:0;file random-number-generator
+: 1734347057:0;ldd random-number-generator
+: 1734347074:0;ldd $(which rng)
+: 1734347081:0;which rng
+: 1734347092:0;file $(which rng)
+: 1734347097:0;ll
+: 1734347105:0;ll $(which rng)
+: 1734347224:0;RUSTFLAGS=-C target-feature=+crt-static cargo build
+: 1734347246:0;RUSTFLAGS="-C target-feature=+crt-static" cargo build
+: 1734347259:0;rustup target add x86_64-unknown-linux-musl\
+cargo build --target=x86_64-unknown-linux-musl
+: 1734347318:0;ll
+: 1734347321:0;cdp
+: 1734347323:0;ll
+: 1734347326:0;cd x86_64-unknown-linux-musl
+: 1734347326:0;ll
+: 1734347329:0;cd debug
+: 1734347330:0;ll
+: 1734347334:0;file random-number-generator
+: 1734347363:0;cdp
+: 1734347364:0;ll
+: 1734347365:0;cdp
+: 1734347366:0;ll
+: 1734347366:0;cdp
+: 1734347367:0;ll
+: 1734347386:0;cargo build --target=x86_64-unknown-linux-musl --release
+: 1734347395:0;ll
+: 1734347409:0;file target/x86_64-unknown-linux-musl/release/random-number-generator
+: 1734347420:0;cd target/x86_64-unknown-linux-musl/release
+: 1734347421:0;ll
+: 1734347429:0;./random-number-generator
+: 1734347434:0;./random-number-generator 11111111111111111111
+: 1734347452:0;ll $(which rng)
+: 1734347467:0;cp random-number-generator ~/.local/bin/rng
+: 1734347473:0;which rng
+: 1734347479:0;file $(which rng)
+: 1734347485:0;c
+: 1734347489:0;e
+: 1734347568:0;cdpp
+: 1734347569:0;ll
+: 1734347569:0;cdp
+: 1734347570:0;ll
+: 1734347571:0;cdp
+: 1734347572:0;ll
+: 1734347576:0;ncdu
+: 1734347619:0;ll
+: 1734348950:0;curl -fsSL https://christitus.com/linux | sh
+: 1734349697:0;nv
+: 1734350400:0;cargo build --target=x86_64-unknown-linux-musl --release
+: 1734350430:0;./target/x86_64-unknown-linux-musl/release/random-number-generator 11111111111111111111
+: 1734350433:0;./target/x86_64-unknown-linux-musl/release/random-number-generator
+: 1734352913:0;cargo build --release
+: 1734352939:0;cat Cargo.toml
+: 1734356449:0;nv
+: 1734356452:0;ks
+: 1734356452:0;kk
+: 1734356453:0;ll
+: 1734356462:0;cargo build --target=x86_64-unknown-linux-musl --release
+: 1734356470:0;cd target/x86_64-unknown-linux-musl/release
+: 1734356471:0;ll
+: 1734356472:0;cp random-number-generator ~/.local/bin/rng
+: 1734356476:0;e
+: 1734356491:0;cd experiment
+: 1734356494:0;nv src/main.
+: 1734356496:0;nv src/main.rs
+: 1734357950:0;rng
+: 1734357958:0;rng
+: 1734357973:0;RUST_BACKTRACE=1 rng
+: 1734357989:0;RUST_BACKTRACE=full rng
+: 1734358005:0;rng
+: 1734358016:0;./target/x86_64-unknown-linux-musl/release/random-number-generator
+: 1734358018:0;nv
+: 1734358132:0;cargo build --target=x86_64-unknown-linux-musl --release
+: 1734358140:0;cd target/x86_64-unknown-linux-musl/release
+: 1734358142:0;cp random-number-generator ~/.local/bin/rng
+: 1734358143:0;rng
+: 1734358158:0;time rng 1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+: 1734358159:0;time rng 1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+: 1734358160:0;time rng 1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+: 1734358160:0;time rng 1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+: 1734358161:0;time rng 1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+: 1734358161:0;time rng 1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+: 1734358162:0;time rng 1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+: 1734358162:0;time rng 1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+: 1734358163:0;time rng 1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+: 1734358169:0;cd go
+: 1734358171:0;cd random-number-generator
+: 1734358172:0;ll
+: 1734358187:0;time ./rng 111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+: 1734358188:0;time ./rng 111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+: 1734358189:0;time ./rng 111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+: 1734358189:0;time ./rng 111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+: 1734358190:0;time ./rng 111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+: 1734360321:0;nv
+: 1734361754:0;nv
+: 1734362408:0;nv
+: 1734363587:0;ll
+: 1734363587:0;cdp
+: 1734363596:0;cargo new advent-of-code
+: 1734363599:0;cd advent-of-code
+: 1734363600:0;ll
+: 1734363602:0;nvim src/main.rs
+: 1734410354:0;nv
+: 1734410505:0;ys
+: 1734410593:0;nv
+: 1734411379:0;ls
+: 1734411838:0;nv
+: 1734412957:0;ls
+: 1734412966:0;cargo build --release
+: 1734412977:0;./target/release/advent-of-code
+: 1734412996:0;time ./target/release/advent-of-code
+: 1734413005:0;cd advent-of-code
+: 1734413006:0;ll
+: 1734413007:0;cdp
+: 1734413007:0;cdp
+: 1734413009:0;cd advent_of_code
+: 1734413009:0;ll
+: 1734413014:0;cd 2024/day1
+: 1734413016:0;ll
+: 1734413021:0;./main.py
+: 1734413025:0;python main.py
+: 1734413032:0;touch input.txt
+: 1734413037:0;nv input.txt
+: 1734413044:0;python main.py
+: 1734413051:0;nv main.py
+: 1734413078:0;nv main.py
+: 1734413080:0;python main.py
+: 1734413086:0;time python main.py
+: 1734413097:0;go run main.go
+: 1734413099:0;ls
+: 1734413103:0;nv main.
+: 1734413105:0;nv main.go
+: 1734413120:0;time go run main.go
+: 1734413126:0;time ./target/release/advent-of-code
+: 1734413132:0;ls
+: 1734413139:0;ll target/release
+: 1734413146:0;ll
+: 1734414701:0;nv
+: 1734421483:0;ls
+: 1734421485:0;c
+: 1734421491:0;ls
+: 1734421493:0;c
+: 1734421493:0;ll
+: 1734421494:0;nv
+: 1734421842:0;rng
+: 1734421865:0;rng
+: 1734421888:0;c
+: 1734421889:0;nv
+: 1734422023:0;cd projects/CPP
+: 1734422024:0;ll
+: 1734422028:0;cd random-number
+: 1734422029:0;ll
+: 1734422030:0;l
+: 1734422031:0;lg
+: 1734422062:0;cdp
+: 1734422063:0;ll
+: 1734422068:0;cp -r random-number ..
+: 1734422069:0;ll
+: 1734422072:0;cdp
+: 1734422076:0;cd random-number
+: 1734422076:0;ll
+: 1734422084:0;mkdir CPP
+: 1734422089:0;mv * CPP
+: 1734422097:0;mv CPP/README.md .
+: 1734422098:0;ll
+: 1734422107:0;mv CPP/.git .
+: 1734422108:0;ll
+: 1734422125:0;mv CPP/LICENSE .
+: 1734422126:0;ll
+: 1734422127:0;lg
+: 1734422140:0;ll
+: 1734422144:0;cd CPP
+: 1734422144:0;ll
+: 1734422147:0;cd src
+: 1734422148:0;ll
+: 1734422149:0;cdp
+: 1734422150:0;cdp
+: 1734422151:0;ll
+: 1734422152:0;lg
+: 1734423149:0;yel
+: 1734423170:0;yl

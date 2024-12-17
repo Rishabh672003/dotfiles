@@ -29,7 +29,7 @@ plug "zsh-users/zsh-syntax-highlighting"
 plug "zsh-users/zsh-history-substring-search"
 plug "Aloxaf/fzf-tab"
 plug "zap-zsh/vim"
-plug "Rishabh672003/zsh-autoswitch-virtualenv"
+# plug "Rishabh672003/zsh-autoswitch-virtualenv"
 plug "zap-zsh/fzf"
 plug "Freed-Wu/fzf-tab-source"
 
