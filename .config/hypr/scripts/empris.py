@@ -1,16 +1,16 @@
 import os
+import subprocess
 import sys
 import time
-import subprocess
 
 
 class Rofi:
-    def __init__(self, args):
+    def __init__(self, args: str):
         self.args = args
 
-    def select(self, prompt, options, selected):
+    def select(self, prompt: str, options: list[str], selected: int):
         items = "\n".join(options)
-        and = (
+        ans = (
             os.popen(
                 f"echo '{items}' | rofi -dmenu -p '{prompt}' -format i \
       -selected-row {selected} -me-select-entry ''\
@@ -20,41 +20,14 @@ class Rofi:
             .strip()
         )
 
-        if and == "":
+        if ans == "":
             return -1
 
-        return int(and)
-
-
-class PlayerList:
-    def __init__(self):
-        self.players = []
-
-    def add_player(self, player):
-        self.players.append(player)
-
-    def labels(self):
-        return [p.label for p in self.players]
-
-    def playing(self):
-        playing = []
-        for i, player in enumerate(self.players):
-            if player.playing:
-                playing.append(i)
-        return playing
-
-    def name(self, index):
-        return self.players[index].name
-
-    def index(self, name):
-        for i, player in enumerate(self.players):
-            if name == player.name:
-                return i
-        return -1
+        return int(ans)
 
 
 class Player:
-    def __init__(self, name):
+    def __init__(self, name: str):
         self.name = name
         label = name.split(".")[0]
         status = os.popen(f"playerctl status -p {name}").read().strip()
@@ -65,6 +38,33 @@ class Player:
         if self.playing:
             label += " (Playing)"
         self.label = label
+
+
+class PlayerList:
+    def __init__(self):
+        self.players: list[Player] = []
+
+    def add_player(self, player: Player):
+        self.players.append(player)
+
+    def labels(self):
+        return [p.label for p in self.players]
+
+    def playing(self):
+        playing: list[int] = []
+        for i, player in enumerate(self.players):
+            if player.playing:
+                playing.append(i)
+        return playing
+
+    def name(self, index: int):
+        return self.players[index].name
+
+    def index(self, name: str):
+        for i, player in enumerate(self.players):
+            if name == player.name:
+                return i
+        return -1
 
 
 def get_players():
@@ -82,14 +82,14 @@ def get_players():
 def show_menu():
     rofi = Rofi("-font 'sans-serif 16' -theme-str 'window { width: 600px; }'")
 
-    options = []
+    options: list[str] = []
     options += playerlist.labels()
     options.append("---------")
     options.append("Pause All")
     options.append("Next Track")
     options.append("Prev Track")
 
-    selected = 0
+    selected: int = 0
     playing = playerlist.playing()
 
     if len(playing) > 0:
@@ -112,7 +112,7 @@ def show_menu():
             go_prev()
 
 
-def toggleplay(index):
+def toggleplay(index: int):
     player = playerlist.players[index]
     if player.playing:
         pause(index)
@@ -120,19 +120,19 @@ def toggleplay(index):
         play(index)
 
 
-def play(index):
+def play(index:int):
     player = playerlist.players[index]
     if not player.playing:
         os.popen(f"playerctl -p {playerlist.name(index)} play").read()
 
 
-def pause(index):
+def pause(index:int):
     player = playerlist.players[index]
     if player.playing:
         os.popen(f"playerctl -p {playerlist.name(index)} pause").read()
 
 
-def pause_all_except(index):
+def pause_all_except(index:int):
     for i, _ in enumerate(playerlist.players):
         if i != index:
             pause(i)
@@ -205,4 +205,3 @@ if __name__ == "__main__":
             go_prev()
         else:
             show_menu()
-

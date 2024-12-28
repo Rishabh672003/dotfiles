@@ -1,5 +1,5 @@
 theme = mocha
-font-family = JetBrainsMono NF
+font-family = JetBrainsMono Nerd Font
 font-size = 14
 
 window-decoration = false
@@ -13,6 +13,7 @@ confirm-close-surface = false
 unfocused-split-opacity = 0.85
 gtk-tabs-location = top
 gtk-wide-tabs = true
+gtk-single-instance = true
 
 working-directory = home
 window-inherit-working-directory = true
@@ -28,4 +29,4 @@ keybind = ctrl+shift+n=unbind
 keybind = ctrl+shift+h=goto_split:next
 keybind = ctrl+shift+l=goto_split:previous
 
-# custom-shader = /home/rishabh/.config/ghostty/shaders/negative.glsl
+custom-shader = /home/rishabh/.config/ghostty/shaders/crt.glsl
