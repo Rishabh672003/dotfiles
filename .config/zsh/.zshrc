@@ -6,8 +6,6 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
     source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-pfetch
-
 # ⚡zap
 [ -f "$HOME/.local/share/zap/zap.zsh" ] && source "$HOME/.local/share/zap/zap.zsh"
 autoload -Uz plug
@@ -15,11 +13,13 @@ autoload -Uz plug
 # all the good stuff
 plug ~/.config/zsh/aliases.zsh
 plug ~/.config/zsh/supercharge.zsh
+plug ~/projects/Internship/API_KEY.zsh
 
 # evals needed for apps
 eval "$(zoxide init zsh)"
+eval "$(llm completion -c llm zsh)"
 eval "$(fnm env)"
-eval "$(bob complete zsh)"
+eval "$(atuin init zsh --disable-up-arrow)"
 
 # Installing and sourcing all the plugins
 # The order is important so dont change it if you dont know what you are doing
@@ -36,7 +36,7 @@ plug "Freed-Wu/fzf-tab-source"
 # theme
 plug "romkatv/powerlevel10k"
 
-# To customize prompt, run `p10k configure` or edit ~/.config/zsh/.p10k.zsh.
+# # To customize prompt, run `p10k configure` or edit ~/.config/zsh/.p10k.zsh.
 [[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
@@ -45,3 +45,5 @@ export SDKMAN_DIR="/home/rishabh/.local/share/sdkman"
 
 # bun completions
 [ -s "/home/rishabh/.local/share/bun/_bun" ] && source "/home/rishabh/.local/share/bun/_bun"
+
+pfetch

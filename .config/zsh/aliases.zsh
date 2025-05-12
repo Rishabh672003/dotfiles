@@ -75,7 +75,6 @@ alias ws='waydroid show-full-ui'
 alias wss='XDG_SESSION_TYPE=wayland waydroid show-full-ui'
 alias wtr='curl -4 https://wttr.in/virar'
 alias xo='xdg-open'
-alias y='yay'
 alias yel='yadm enter lazygit'
 alias yl='sh ~/.config/yadm/yadm.sh'
 alias ys='yay -Syu --noconfirm'
@@ -112,19 +111,55 @@ function makesign() {
     ./cleanup.sh && makepkg -s && gpgkey *.tar.zst
 }
 
+function y() {
+	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
+	yazi "$@" --cwd-file="$tmp"
+	if cwd="$(command cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then
+		builtin cd -- "$cwd"
+	fi
+	\rm -f -- "$tmp"
+}
+
 function ssep() {
     pacman -Slq | fzf --multi --preview 'cat <(pacman -Si {1}) <(pacman -Fl {1} | awk "{print \$2}")' | xargs -ro sudo pacman -S
 }
 
 function jc() {
-    filename="$1"
-    extension="${filename##*.}"
-    filename="${filename%.*}"
-    jupyter nbconvert --to script "$filename.$extension" &&
-        nvim "$filename.py" &&
-        rm "$filename.py"
+    local nb_file="$1"
+    # Append .ipynb extension if not present
+    if [[ "$nb_file" != *.ipynb ]]; then
+        nb_file="${nb_file}.ipynb"
+    fi
+    # Check if the notebook file exists
+    if [[ ! -f "$nb_file" ]]; then
+        echo "Error: Notebook file '$nb_file' not found." >&2
+        return 1
+    fi
+    local base_name="${nb_file%.ipynb}"
+    # Convert to Python script and edit
+    jupyter nbconvert --to script "$nb_file" && \
+        nvim "${base_name}.py" && \
+        \rm "${base_name}.py"
 }
 
 function word() {
     unzip -p "$1" word/document.xml | sed -e 's/<[^>]\{1,\}>//g; s/[^[:print:]]\{1,\}//g'
+}
+
+function dsa() {
+    z "/mnt/windows/Users/jhari/Videos/[FreeCoursesOnline.Me] NeetCode - Algorithms & Data Structures for Beginners/" 
+    mpv . &!
+    exit
+}
+
+function capture_window() {
+    local title="$1"
+    local filetype="$2"
+
+    if [[ -z "$title" || -z "$filetype" ]]; then
+        echo "Usage: capture_window <window-title> <file-type>"
+        return 1
+    fi
+
+    wl-paste | sss_code --window-controls --window-title "$title" -n --background '#aaaaff' -e "$filetype" -f png -o ./out.png
 }

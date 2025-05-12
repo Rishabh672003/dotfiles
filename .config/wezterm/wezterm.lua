@@ -26,24 +26,24 @@ local config = {
 	},
 }
 
--- config.leader = { key = "a", mods = "CTRL", timeout_milliseconds = 1000 }
---
--- config.keys = {
--- 	{
--- 		key = "|",
--- 		mods = "LEADER|SHIFT",
--- 		action = wezterm.action.SplitHorizontal({ domain = "CurrentPaneDomain" }),
--- 	},
--- 	{
--- 		key = "-",
--- 		mods = "LEADER",
--- 		action = wezterm.action.SplitVertical({ domain = "CurrentPaneDomain" }),
--- 	},
--- 	{
--- 		key = "t",
--- 		mods = "LEADER",
--- 		action = wezterm.action.SpawnTab("CurrentPaneDomain"),
--- 	},
--- }
+config.leader = { key = "a", mods = "CTRL", timeout_milliseconds = 1000 }
+
+config.keys = {
+	{
+		key = "|",
+		mods = "LEADER|SHIFT",
+		action = wezterm.action.SplitHorizontal({ domain = "CurrentPaneDomain" }),
+	},
+	{
+		key = "-",
+		mods = "LEADER",
+		action = wezterm.action.SplitVertical({ domain = "CurrentPaneDomain" }),
+	},
+	{
+		key = "t",
+		mods = "LEADER",
+		action = wezterm.action.SpawnTab("CurrentPaneDomain"),
+	},
+}
 
 return config

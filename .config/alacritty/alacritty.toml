@@ -45,9 +45,7 @@ italic.family = "JetBrainsMono NF"
 italic.style = "Italic"
 
 [terminal.shell]
-program = "/bin/zsh"
-# args = ["new-session"]
-# program = "/bin/tmux"
+program = "/bin/tmux"
 
 [window]
 decorations = "none"

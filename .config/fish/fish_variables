@@ -1,14 +1,14 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR VIRTUAL_ENV_DISABLE_PROMPT:true
-SETUVAR __fish_initialized:3400
+SETUVAR __fish_initialized:3800
 SETUVAR _fisher_patrickf1_2F_fzf_2E_fish_files:\x7e/\x2econfig/fish/functions/_fzf_configure_bindings_help\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_extract_var_info\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_preview_changed_file\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_preview_file\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_report_diff_type\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_report_file_type\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_search_directory\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_search_git_log\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_search_git_status\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_search_history\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_search_processes\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_search_variables\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_wrapper\x2efish\x1e\x7e/\x2econfig/fish/functions/fzf_configure_bindings\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/fzf\x2efish\x1e\x7e/\x2econfig/fish/completions/fzf_configure_bindings\x2efish
 SETUVAR _fisher_plugins:patrickf1/fzf\x2efish\x1ettscoff/fuzzy_cd
 SETUVAR _fisher_ttscoff_2F_fuzzy__cd_files:\x7e/\x2econfig/fish/functions/__fuzzy_cd\x2efish\x1e\x7e/\x2econfig/fish/functions/fcd_ffdir\x2efish\x1e\x7e/\x2econfig/fish/functions/fcd_ffmark\x2efish\x1e\x7e/\x2econfig/fish/functions/fcd_jump\x2efish\x1e\x7e/\x2econfig/fish/functions/fcd_shortest\x2efish\x1e\x7e/\x2econfig/fish/functions/fcd_warn\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/fuzzy_cd\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/fuzzy_cd_common\x2efish
 SETUVAR _fisher_upgraded_to_4_4:\x1d
 SETUVAR _tide_left_items:os\x1epwd\x1egit\x1enewline\x1echaracter
 SETUVAR _tide_prompt_61749:\x1b\x28B\x1b\x5bm\x1b\x28B\x1b\x5bm\x1b\x5b38\x3b2\x3b77\x3b77\x3b77m\u2591\u2592\u2593\x1b\x5b38\x3b2\x3b23\x3b147\x3b209m\x1b\x5b48\x3b2\x3b77\x3b77\x3b77m\x20\uf303\x20\x1b\x5b38\x3b2\x3b77\x3b77\x3b77m\x1b\x5b48\x3b2\x3b52\x3b101\x3b164m\ue0b0\x1b\x5b48\x3b2\x3b52\x3b101\x3b164m\x20\x40PWD\x40\x20\x1b\x28B\x1b\x5bm\x1b\x28B\x1b\x5bm\x1b\x5b38\x3b2\x3b52\x3b101\x3b164m\ue0b0\x1e\x1b\x5b38\x3b2\x3b95\x3b215\x3b0m\u276f\x1e\x1b\x28B\x1b\x5bm\x1b\x28B\x1b\x5bm\x1b\x5b38\x3b2\x3b211\x3b215\x3b207m\ue0b2\x1b\x5b38\x3b2\x3b0\x3b0\x3b0m\x1b\x5b48\x3b2\x3b211\x3b215\x3b207m\x2009\x3a17\x3a34\x20\x1b\x28B\x1b\x5bm\x1b\x28B\x1b\x5bm\x1b\x5b38\x3b2\x3b211\x3b215\x3b207m\u2593\u2592\u2591
-SETUVAR _tide_right_items:status\x1ecmd_duration\x1econtext\x1ejobs\x1enode\x1evirtual_env\x1erustc\x1ejava\x1ego\x1etime
+SETUVAR _tide_right_items:status\x1ecmd_duration\x1econtext\x1ejobs\x1enode\x1evirtual_env\x1erustc\x1ego\x1etime
 SETUVAR fish_color_autosuggestion:555\x1ebrblack
 SETUVAR fish_color_cancel:\x2dr
 SETUVAR fish_color_command:blue

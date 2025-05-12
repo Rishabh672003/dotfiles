@@ -456,7 +456,6 @@
 #    appname = "some_volume_notifiers"
 #    set_stack_tag = "volume"
 #
-# vim: ft=cfg
 [global]
 frame_color = "#89B4FA"
 separator_color= frame
@@ -473,3 +472,5 @@ foreground = "#CDD6F4"
 background = "#1E1E2E"
 foreground = "#CDD6F4"
 frame_color = "#FAB387"
+
+# vim: ft=cfg

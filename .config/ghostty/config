@@ -1,6 +1,6 @@
 theme = mocha
 font-family = JetBrainsMono Nerd Font
-font-size = 14
+font-size = 12
 
 window-decoration = false
 window-padding-y = 0,0
@@ -29,4 +29,4 @@ keybind = ctrl+shift+n=unbind
 keybind = ctrl+shift+h=goto_split:next
 keybind = ctrl+shift+l=goto_split:previous
 
-custom-shader = /home/rishabh/.config/ghostty/shaders/crt.glsl
+# custom-shader = /home/rishabh/.config/ghostty/shaders/crt.glsl

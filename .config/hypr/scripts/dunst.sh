@@ -18,5 +18,4 @@ else
 	send_notification "Dunst is now unpaused."
 fi
 
-# Toggle the paused state of Dunst
 dunstctl set-paused toggle

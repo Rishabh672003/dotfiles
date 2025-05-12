@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 export pid
 pid=$(pgrep wf-recorder)
