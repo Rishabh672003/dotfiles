@@ -10,6 +10,14 @@ fi
 [ -f "$HOME/.local/share/zap/zap.zsh" ] && source "$HOME/.local/share/zap/zap.zsh"
 autoload -Uz plug
 
+echo -e "  ____ _____ _____   _____ ___   __        _____  ____  _  __"
+echo -e " / ___| ____|_   _| |_   _/ _ \  \ \      / / _ \|  _ \| |/ /"
+echo -e "| |  _|  _|   | |     | || | | |  \ \ /\ / / | | | |_) | ' / "
+echo -e "| |_| | |___  | |     | || |_| |   \ V  V /| |_| |  _ <| . \ "
+echo -e ' \____|_____| |_|     |_| \___/     \_/\_/  \___/|_| \_\_|\_\'
+echo ""
+
+
 # all the good stuff
 plug ~/.config/zsh/aliases.zsh
 plug ~/.config/zsh/supercharge.zsh
@@ -45,5 +53,3 @@ export SDKMAN_DIR="/home/rishabh/.local/share/sdkman"
 
 # bun completions
 [ -s "/home/rishabh/.local/share/bun/_bun" ] && source "/home/rishabh/.local/share/bun/_bun"
-
-pfetch

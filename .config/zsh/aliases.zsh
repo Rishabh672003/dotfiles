@@ -48,6 +48,7 @@ alias q='exit'
 alias rest='reboot'
 alias rm='gio trash'
 alias rmbin="rm -rf *.out; rm -rf */*.out; rm -rf */*/*.out; rm -rf */*/*/*.out"
+alias rmtar="\rm -rvf target/; \rm -rvf */target/; \rm -rvf */*/target/; \rm -rvf */*/*/target/"
 alias rs='sudo systemctl start rate-mirrors'
 alias rss='systemctl status rate-mirrors'
 alias rsss='sh ~/other-stuff/mirrors-and-hosts/rate-mirrors-arch.sh'
@@ -79,7 +80,7 @@ alias yel='yadm enter lazygit'
 alias yl='sh ~/.config/yadm/yadm.sh'
 alias ys='yay -Syu --noconfirm'
 alias yss='yay -S --noconfirm --needed'
-alias yt="yt-dlp -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4'"
+alias yt="yt-dlp -f 'bestvideo[ext=mp4][height<=1080]+bestaudio[ext=m4a]/best[ext=mp4][height<=1080]'"
 
 alias ua-drop-caches='yay -Sc --aur --noconfirm'
 alias ua-update-all='export TMPFILE="$(mktemp)"; \
@@ -147,7 +148,7 @@ function word() {
 }
 
 function dsa() {
-    z "/mnt/windows/Users/jhari/Videos/[FreeCoursesOnline.Me] NeetCode - Algorithms & Data Structures for Beginners/" 
+    z "/mnt/windows/Users/jhari/Videos/[FreeCoursesOnline.Me] NeetCode - Algorithms & Data Structures for Beginners/"
     mpv . &!
     exit
 }
@@ -162,4 +163,8 @@ function capture_window() {
     fi
 
     wl-paste | sss_code --window-controls --window-title "$title" -n --background '#aaaaff' -e "$filetype" -f png -o ./out.png
+}
+
+function remove_spaces() {
+    for file in *; do mv "$file" `echo $file | tr ' ' '_'` ; done
 }
