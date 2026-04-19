@@ -10,18 +10,12 @@ fi
 [ -f "$HOME/.local/share/zap/zap.zsh" ] && source "$HOME/.local/share/zap/zap.zsh"
 autoload -Uz plug
 
-echo -e "  ____ _____ _____   _____ ___   __        _____  ____  _  __"
-echo -e " / ___| ____|_   _| |_   _/ _ \  \ \      / / _ \|  _ \| |/ /"
-echo -e "| |  _|  _|   | |     | || | | |  \ \ /\ / / | | | |_) | ' / "
-echo -e "| |_| | |___  | |     | || |_| |   \ V  V /| |_| |  _ <| . \ "
-echo -e ' \____|_____| |_|     |_| \___/     \_/\_/  \___/|_| \_\_|\_\'
-echo ""
-
+pfetch;
 
 # all the good stuff
 plug ~/.config/zsh/aliases.zsh
 plug ~/.config/zsh/supercharge.zsh
-plug ~/projects/Internship/API_KEY.zsh
+plug ~/projects/API_KEY.zsh
 
 # evals needed for apps
 eval "$(zoxide init zsh)"

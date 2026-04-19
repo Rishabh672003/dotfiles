@@ -31,7 +31,7 @@ alias lll='exa --color always --icons -1albhT -L 2 -s name -I .git --git --group
 alias llll='exa --color always --icons -1albhT -L 3 -s name -I .git --git --group-directories-first'
 alias ls='exa --color always --icons -a'
 alias mkdir='mkdir -p'
-alias mpv='mpv --screenshot-directory=/home/rishabh/Pictures/mpv-ss'
+alias mpv='mpv --osc=yes'
 alias n='neofetch'
 alias nbi='NVIM_APPNAME=nvim-basic-ide nvim'
 alias ngt='git clone https://github.com/rishabh672003/neovim ~/.config/nvim'
@@ -46,7 +46,7 @@ alias p='paru'
 alias pf='pfetch'
 alias q='exit'
 alias rest='reboot'
-alias rm='gio trash'
+alias rm="rm -I"
 alias rmbin="rm -rf *.out; rm -rf */*.out; rm -rf */*/*.out; rm -rf */*/*/*.out"
 alias rmtar="\rm -rvf target/; \rm -rvf */target/; \rm -rvf */*/target/; \rm -rvf */*/*/target/"
 alias rs='sudo systemctl start rate-mirrors'
@@ -78,9 +78,9 @@ alias wtr='curl -4 https://wttr.in/virar'
 alias xo='xdg-open'
 alias yel='yadm enter lazygit'
 alias yl='sh ~/.config/yadm/yadm.sh'
-alias ys='yay -Syu --noconfirm'
+alias ys='yay -Syu --sudoloop --noconfirm'
 alias yss='yay -S --noconfirm --needed'
-alias yt="yt-dlp -f 'bestvideo[ext=mp4][height<=1080]+bestaudio[ext=m4a]/best[ext=mp4][height<=1080]'"
+alias yt="yt-dlp -f 'bestvideo[ext=mp4][height<=1080]+bestaudio[ext=m4a]/best[ext=mp4][height<=1080]' --remote-components ejs:github"
 
 alias ua-drop-caches='yay -Sc --aur --noconfirm'
 alias ua-update-all='export TMPFILE="$(mktemp)"; \
