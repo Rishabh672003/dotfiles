@@ -78,18 +78,18 @@ alias wtr='curl -4 https://wttr.in/virar'
 alias xo='xdg-open'
 alias yel='yadm enter lazygit'
 alias yl='sh ~/.config/yadm/yadm.sh'
-alias ys='yay -Syu --sudoloop --noconfirm'
-alias yss='yay -S --noconfirm --needed'
+alias ys='paru -Syu --sudoloop --noconfirm'
+alias yss='paru -S --noconfirm --needed'
 alias yt="yt-dlp -f 'bestvideo[ext=mp4][height<=1080]+bestaudio[ext=m4a]/best[ext=mp4][height<=1080]' --remote-components ejs:github"
 
-alias ua-drop-caches='yay -Sc --aur --noconfirm'
+alias ua-drop-caches='paru -Sc --aur --noconfirm'
 alias ua-update-all='export TMPFILE="$(mktemp)"; \
     sudo true; \
     rate-mirrors --save=$TMPFILE arch --max-delay=21600 && \
     sudo mv /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist-backup && \
     sudo mv $TMPFILE /etc/pacman.d/mirrorlist && \
     ua-drop-caches && \
-    yay -Syyu --noconfirm'
+    paru -Syyu --noconfirm'
 alias sep="pacman -Slq | fzf --multi --preview 'pacman -Si {1}' \
     | xargs -ro sudo pacman -S"
 alias srp="pacman -Qq | fzf --multi --preview 'pacman -Qi {1}' \
