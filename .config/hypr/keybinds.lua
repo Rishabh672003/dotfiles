@@ -15,20 +15,23 @@ hl.bind("SUPER + Space", hl.dsp.exec_cmd("vicinae toggle"))
 hl.bind("SUPER + V", hl.dsp.exec_cmd("vicinae vicinae://launch/clipboard/history"))
 hl.bind("SUPER + SHIFT + W", hl.dsp.exec_cmd("~/.config/hypr/scripts/waybar.sh"))
 hl.bind("SUPER + M", hl.dsp.exec_cmd("vicinae vicinae://launch/@Rishabh/media-player-control/index"))
+hl.bind("SUPER + N", hl.dsp.exec_cmd("vicinae vicinae://launch/@theinfinityglitch/networks/networks"))
 hl.bind("SUPER + SHIFT + E", hl.dsp.exec_cmd("vicinae vicinae://launch/core/search-emojis"))
-hl.bind("SUPER + I", hl.dsp.exec_cmd("pkill rofi || ~/.config/hypr/scripts/kaomoji.sh"))
-hl.bind("SUPER + SHIFT + I", hl.dsp.exec_cmd("pkill rofi || rofi -modi nerdy -show nerdy"))
+hl.bind("SUPER + I", hl.dsp.exec_cmd("vicinae vicinae://launch/@Rishabh/kaomoji/index"))
 hl.bind("SUPER + P", hl.dsp.exec_cmd("~/.config/hypr/scripts/hyprpicker.sh"))
 hl.bind("SUPER + SHIFT + B", hl.dsp.exec_cmd("~/.config/hypr/scripts/books-search.sh"))
 hl.bind("SUPER + SHIFT + L", hl.dsp.exec_cmd("~/.config/hypr/scripts/lock.sh"))
 hl.bind("SUPER + R", hl.dsp.exec_cmd("~/.config/hypr/scripts/wf-recorder.sh"))
+hl.bind("SUPER + SHIFT + I", hl.dsp.exec_cmd("vicinae server"))
+
+
 
 -- -----------------------------------------------------------
 -- 3. Media keys
 -- -----------------------------------------------------------
 hl.bind("XF86Display", hl.dsp.focus({ workspace = "e+1" }))
 hl.bind("XF86WLAN", hl.dsp.exec_cmd("pkexec systemctl restart NetworkManager && dunstify 'NetworkManager restarted'"))
-hl.bind("XF86NotificationCenter", hl.dsp.exec_cmd("~/.config/hypr/scripts/dunst.sh"))
+hl.bind("XF86NotificationCenter", hl.dsp.exec_cmd("wayle notify dnd"))
 hl.bind("XF86PickupPhone", hl.dsp.exec_cmd("playerctl previous"))
 hl.bind("XF86HangupPhone", hl.dsp.exec_cmd("playerctl next"))
 hl.bind("XF86Favorites", hl.dsp.exec_cmd("playerctl -a play-pause"))
@@ -58,10 +61,10 @@ hl.bind("SUPER + C", hl.dsp.exec_cmd("qalculate-gtk"))
 hl.bind("SUPER + SHIFT + Q", hl.dsp.exit())
 
 hl.bind("SUPER + Escape", hl.dsp.exec_cmd("pkill wlogout || wlogout"))
-hl.bind("SUPER + SHIFT + A", hl.dsp.exec_cmd("mocp -P"))
+hl.bind("SUPER + SHIFT + A", hl.dsp.exec_cmd("vicinae vicinae://launch/@theinfinityglitch/networks/networks"))
 hl.bind("SUPER + E", hl.dsp.exec_cmd("nemo"))
 hl.bind("SUPER + S", hl.dsp.exec_cmd("AppimageLauncher ~/Applications/YouTube-Music-3.7.5.AppImage"))
-hl.bind("SUPER + SHIFT + S", hl.dsp.exec_cmd("showmethekey-gtk"))
+hl.bind("SUPER + SHIFT + S", hl.dsp.exec_cmd("vellum toggle"))
 hl.bind("SUPER + W", hl.dsp.exec_cmd("firefox"))
 hl.bind("SUPER + SHIFT + V", hl.dsp.window.float({ action = "toggle" }))
 hl.bind("SUPER + SHIFT + P", hl.dsp.exec_cmd("firefox --private-window"))
@@ -83,9 +86,9 @@ hl.bind("SUPER + SHIFT + K", hl.dsp.exec_cmd("shutdown now"))
 -- 7. Screenshots
 -- -----------------------------------------------------------
 hl.bind("Print", function()
-    hl.exec_cmd("hyprctl keyword animation 'fadeOut,0,0,default'")
+    hl.exec_cmd([[hyprctl eval 'hl.animation({ leaf = "fadeOut", enabled = false })']])
     hl.exec_cmd("grimblast --notify copysave area")
-    hl.exec_cmd("hyprctl keyword animation 'fadeOut,1,4,default'")
+    hl.exec_cmd([[hyprctl eval 'hl.animation({ leaf = "fadeOut", enabled = true, speed = 4, curve = "default" })']])
 end)
 hl.bind("ALT + Print", hl.dsp.exec_cmd("grimblast --notify --cursor copysave screen"))
 hl.bind("SHIFT + Print", hl.dsp.exec_cmd("grim -g \"$(slurp)\" - | swappy -f -"))
@@ -95,7 +98,7 @@ hl.bind("CTRL + Print", hl.dsp.exec_cmd("grim -g \"$(slurp)\" - | tesseract --oe
 -- 8. Scratchpad (special workspace)
 -- -----------------------------------------------------------
 -- Move window to special workspace (raw dispatcher – no Lua equivalent)
-hl.bind("SUPER + S", hl.dsp.exec_raw("movetoworkspace, special"))
+hl.bind("SUPER + S", hl.dsp.window.move({ workspace = "special" }))
 -- Toggle special workspace visibility
 hl.bind("SUPER + A", hl.dsp.workspace.toggle_special())
 
@@ -120,8 +123,8 @@ hl.bind("SUPER + Up",    hl.dsp.window.move({ direction = "u" }))
 -- -----------------------------------------------------------
 for i = 1, 10 do
     local key = (i == 10) and "0" or tostring(i)
-    hl.bind("SUPER + " .. key, hl.dsp.focus({ workspace = tostring(i) }))
-    hl.bind("SUPER + SHIFT + " .. key, hl.dsp.window.move({ workspace = tostring(i) }))
+    hl.bind("SUPER + " .. key, hl.dsp.focus({ workspace = i }))
+    hl.bind("SUPER + SHIFT + " .. key, hl.dsp.window.move({ workspace = i }))
 end
 
 -- -----------------------------------------------------------
@@ -140,13 +143,7 @@ hl.bind("SUPER + B", hl.dsp.group.toggle())
 hl.bind("SUPER + TAB", hl.dsp.group.next())
 
 -- -----------------------------------------------------------
--- 14. Resize active window
--- -----------------------------------------------------------
-hl.bind("SUPER + Z", hl.dsp.window.resize({ x = -40, y = 0 }))
-hl.bind("SUPER + X", hl.dsp.window.resize({ x = 40, y = 0 }))
-
--- -----------------------------------------------------------
--- 15. Layout switching
+-- 14. Layout switching
 -- -----------------------------------------------------------
 hl.bind("SUPER + N", function()
     hl.config({ general = { layout = "master" } })

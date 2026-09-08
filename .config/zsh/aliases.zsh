@@ -95,6 +95,10 @@ alias sep="pacman -Slq | fzf --multi --preview 'pacman -Si {1}' \
 alias srp="pacman -Qq | fzf --multi --preview 'pacman -Qi {1}' \
     | xargs -ro sudo pacman -Rns"
 
+
+alias mount-drive="rclone mount gdrive: ~/musashi-drive --vfs-cache-mode writes --daemon"
+alias unmount-drive="fusermount -u ~/musashi-drive"
+
 function convert_video() {
     local input_file="$1"
     local output_file="wa-${input_file}"

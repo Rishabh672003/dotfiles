@@ -26,8 +26,8 @@
 		"all-outputs": true,
 		"on-click": "activate",
 		"format": "{icon}",
-		"on-scroll-down": "hyprctl dispatch 'hl.dsp.focus({ workspace = \"e+1\" })'",
-		"on-scroll-up": "hyprctl dispatch 'hl.dsp.focus({ workspace = \"e-1\" })'",
+		// "on-scroll-down": "hyprctl dispatch 'hl.dsp.focus({ workspace = \"e+1\" })'",
+		// "on-scroll-up": "hyprctl dispatch 'hl.dsp.focus({ workspace = \"e-1\" })'",
 		"persistent-workspaces": {
 			"1": [],
 			"2": [],
@@ -54,10 +54,10 @@
 		}
 	},
 	"custom/updates": {
-		"exec": "(checkupdates ; yay -Qua) | wc -l",
+		"exec": "(checkupdates ; paru -Qua) | wc -l",
 		"interval": 12000,
 		"format": "󰇚 {}",
-		"on-click": "wezterm start yay -Syu --noconfirm --devel"
+		"on-click": "wezterm start paru -Syu --noconfirm --devel"
 	},
 	"tray": {
 		"on-click": "",

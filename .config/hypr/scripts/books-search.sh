@@ -43,7 +43,7 @@ gen_list() {
 
 main() {
 	get_books
-	book=$( (gen_list) | rofi -dmenu -i -matching normal -no-custom -location 0 -p "  ")
+	book=$(gen_list | vicinae dmenu -p "  ")
 
 	if [ -n "$book" ]; then
 		echo "$book" | sed -e "s/^.... - //" -e "s/\ .*//" | wl-copy

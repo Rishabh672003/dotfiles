@@ -257,5 +257,4 @@ function log(string, secs)
 	mp.osd_message(string, secs) -- This logs to MPV screen
 end
 
-mp.add_key_binding("b", "download_subs", download_subs)
-mp.register_event("file-loaded", control_downloads)
+

@@ -1,9 +1,9 @@
 #!/bin/env bash
 
-if ! pgrep -x waybar >/dev/null; then status=$?; fi
+if ! pgrep -x wayle >/dev/null; then status=$?; fi
 
 if [ "$status" -eq 0 ]; then
-	exec waybar
+	exec wayle panel start
 else
-	killall -9 waybar && exec waybar
+	killall -9 wayle && exec wayle panel start
 fi
