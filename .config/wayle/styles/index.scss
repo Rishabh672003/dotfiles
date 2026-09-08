@@ -1,0 +1,13 @@
+// Custom Wayle styles. Anything here overrides the built-in styling.
+// Use @import "name" to bring in _name.scss from this folder.
+
+label {
+  letter-spacing: 0.5px;
+}
+
+// Fixed-width cpu/ram so the bar doesn't shift as values change.
+.cpu label,
+.ram label {
+  min-width: 2.5em;
+  font-feature-settings: "tnum" 1;
+}

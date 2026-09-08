@@ -1,0 +1,118 @@
+[bar]
+scale = 0.7599999904632568
+padding = 0.0
+border-location = "bottom"
+border-color = "border-subtle"
+button-variant = "basic"
+dropdown-opacity = 90
+
+[[bar.layout]]
+monitor = "*"
+show = true
+left = [
+    "dashboard",
+    "hyprland-workspaces",
+    "media",
+]
+center = ["clock"]
+right = [
+    "systray",
+    "network",
+    { name = "sound", modules = ["volume"] },
+    { name = "sys", modules = [
+    "cpu",
+    "ram",
+    "brightness",
+    "battery",
+] },
+    { name = "group", modules = [
+    "notifications",
+    "power",
+] },
+]
+
+[styling.palette]
+bg = "#15121b"
+surface = "#181825"
+elevated = "#1e1e2e"
+fg = "#cdd6f4"
+fg-muted = "#bac2de"
+primary = "#b4befe"
+red = "#f38ba8"
+yellow = "#f9e2af"
+green = "#a6e3a1"
+blue = "#74c7ec"
+
+[modules.battery]
+icon-color = "#a6e3a1"
+label-color = "#a6e3a1"
+
+[[modules.battery.thresholds]]
+below = 20.0
+icon-color = "#11111b"
+label-color = "#11111b"
+button-bg-color = "#f38ba8"
+
+[modules.brightness]
+scroll-up = "brightnessctl set 1%+"
+scroll-down = "brightnessctl set 1%-"
+
+[modules.clock]
+format = "%H:%M  -  %d/%m"
+icon-color = "#f9e2af"
+label-color = "#f9e2af"
+
+[modules.cpu]
+icon-color = "#f5c2e7"
+label-color = "#f5c2e7"
+label-max-length = 60
+
+[modules.hyprland-workspaces]
+min-workspace-count = 4
+show-special = false
+display-mode = "icon"
+divider = "  "
+app-icons-show = true
+icon-size = 1.100000023841858
+label-size = 1.2000000476837158
+
+[modules.media]
+players-ignored = ["*playerctld*"]
+format = "{{ artist }} - {{ title }}"
+left-click = "playerctl play-pause"
+right-click = "dropdown:media"
+
+[modules.microphone]
+icon-color = "#f38ba8"
+label-color = "#f38ba8"
+
+[modules.network]
+icon-color = "#fab387"
+label-color = "#fab387"
+
+[modules.notifications]
+label-show = false
+
+[modules.power]
+left-click = "pkill wlogout || wlogout"
+
+[modules.ram]
+icon-color = "#7dc4e4"
+label-color = "#7dc4e4"
+label-max-length = 4
+
+[modules.systray]
+icon-scale = 1.100000023841858
+item-gap = 0.75
+
+[modules.volume]
+icon-color = "#89b4fa"
+label-color = "#89b4fa"
+scroll-up = "pactl set-sink-volume @DEFAULT_SINK@ +1%"
+scroll-down = "pactl set-sink-volume @DEFAULT_SINK@ -1%"
+
+[modules.weather]
+location = "Virar"
+
+[osd]
+margin = 50.0
