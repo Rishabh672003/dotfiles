@@ -2,7 +2,8 @@
 
 # Dotfiles
 
-![image](https://user-images.githubusercontent.com/53911515/235317064-720dd2e0-cfa3-43b8-b773-34350b4dd357.png)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/80451185-8d78-40d4-bb56-b2eedc97decf" />
+
 
 </center>
 
