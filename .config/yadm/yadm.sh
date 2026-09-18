@@ -25,6 +25,7 @@ yadm add ~/README.md \
 	~/.config/zsh \
 	~/.config/ghostty \
     ~/.config/wayle \
+    ~/.config/vicinae \
 	~/other-stuff # ~/.config/nvim \
 
 yadm commit -a -m "update" && yadm push

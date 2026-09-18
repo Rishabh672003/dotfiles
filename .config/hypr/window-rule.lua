@@ -23,6 +23,15 @@ hl.window_rule({ match = { title = "blueman" }, float = true })
 -- File dialogs / popups
 hl.window_rule({ match = { class = "^(qalculate-gtk)$" }, float = true })
 
+-- btop floating window (launched from wayle cpu/ram click)
+hl.window_rule({
+	match = { class = "^(btop-float)$" },
+	float = true,
+	size = "1536 864",
+	center = true,
+	pin = true,
+})
+
 -- Discord updater
 hl.window_rule({ match = { class = "^(discord)$", title = "^(Discord Updater)$" }, float = true })
 

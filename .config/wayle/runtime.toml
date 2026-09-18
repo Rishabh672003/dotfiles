@@ -4,7 +4,6 @@ padding = 0.0
 border-location = "bottom"
 border-color = "border-subtle"
 button-variant = "basic"
-dropdown-opacity = 90
 
 [[bar.layout]]
 monitor = "*"
@@ -66,6 +65,7 @@ label-color = "#f9e2af"
 icon-color = "#f5c2e7"
 label-color = "#f5c2e7"
 label-max-length = 60
+left-click = "/home/rishabh/.config/hypr/scripts/btop-toggle.sh"
 
 [modules.hyprland-workspaces]
 min-workspace-count = 4
@@ -89,6 +89,7 @@ label-color = "#f38ba8"
 [modules.network]
 icon-color = "#fab387"
 label-color = "#fab387"
+right-click = "vicinae vicinae://launch/@theinfinityglitch/networks/networks"
 
 [modules.notifications]
 label-show = false
@@ -100,6 +101,7 @@ left-click = "pkill wlogout || wlogout"
 icon-color = "#7dc4e4"
 label-color = "#7dc4e4"
 label-max-length = 4
+left-click = "/home/rishabh/.config/hypr/scripts/btop-toggle.sh"
 
 [modules.systray]
 icon-scale = 1.100000023841858

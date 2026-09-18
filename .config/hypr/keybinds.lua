@@ -22,9 +22,6 @@ hl.bind("SUPER + P", hl.dsp.exec_cmd("~/.config/hypr/scripts/hyprpicker.sh"))
 hl.bind("SUPER + SHIFT + B", hl.dsp.exec_cmd("~/.config/hypr/scripts/books-search.sh"))
 hl.bind("SUPER + SHIFT + L", hl.dsp.exec_cmd("~/.config/hypr/scripts/lock.sh"))
 hl.bind("SUPER + R", hl.dsp.exec_cmd("~/.config/hypr/scripts/wf-recorder.sh"))
-hl.bind("SUPER + SHIFT + I", hl.dsp.exec_cmd("vicinae server"))
-
-
 
 -- -----------------------------------------------------------
 -- 3. Media keys
@@ -54,7 +51,7 @@ hl.bind("SUPER + F", hl.dsp.window.fullscreen({ action = "toggle" }))
 hl.bind("SUPER + SHIFT + F", hl.dsp.window.fullscreen({ action = "toggle" }))
 
 hl.bind("SUPER + RETURN", hl.dsp.exec_cmd("foot"))
-hl.bind("SUPER + D", hl.dsp.exec_cmd("webcord --enable-features=UseOzonePlatform --ozone-platform=wayland --uri=%U"))
+hl.bind("SUPER + D", hl.dsp.exec_cmd("discord"))
 hl.bind("SUPER + G", hl.dsp.exec_cmd("evince"))
 hl.bind("SUPER + SHIFT + G", hl.dsp.exec_cmd("foliate"))
 hl.bind("SUPER + C", hl.dsp.exec_cmd("qalculate-gtk"))
