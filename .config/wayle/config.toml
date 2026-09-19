@@ -1,1 +1,17 @@
 # Wayle configuration file
+
+[[modules.custom]]
+id = "wlsunset"
+# Keep the icon in sync even if wlsunset is toggled elsewhere.
+interval-ms = 5000
+# Report whether wlsunset is currently running.
+command = "pgrep -x wlsunset >/dev/null && echo '{\"alt\":\"on\"}' || echo '{\"alt\":\"off\"}'"
+label-show = false
+icon-name = "ld-sun-symbolic"
+icon-map = { on = "ld-moon-symbolic", off = "ld-sun-symbolic", default = "ld-sun-symbolic" }
+tooltip-format = "Night light: {{ alt }}"
+# Toggle: stop if running, else start detached.
+left-click = "pgrep -x wlsunset >/dev/null && pkill -x wlsunset || setsid -f wlsunset -l 19.465622 -L 72.806099 >/dev/null 2>&1"
+# Refresh the icon right after the click. Brief settle so a just-started
+# wlsunset has registered before pgrep checks (avoids a stale "off" report).
+on-action = "sleep 0.3; pgrep -x wlsunset >/dev/null && echo '{\"alt\":\"on\"}' || echo '{\"alt\":\"off\"}'"

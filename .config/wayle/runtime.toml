@@ -4,6 +4,7 @@ padding = 0.0
 border-location = "bottom"
 border-color = "border-subtle"
 button-variant = "basic"
+button-gap = 0.6000000238418579
 
 [[bar.layout]]
 monitor = "*"
@@ -25,6 +26,7 @@ right = [
     "battery",
 ] },
     { name = "group", modules = [
+    "custom-wlsunset",
     "notifications",
     "power",
 ] },
@@ -78,8 +80,9 @@ label-size = 1.2000000476837158
 
 [modules.media]
 players-ignored = ["*playerctld*"]
-format = "{{ artist }} - {{ title }}"
-left-click = "playerctl play-pause"
+format = "{{status_icon}} {{ artist }} - {{ title }}"
+label-max-length = 38
+left-click = "wayle media play-pause"
 right-click = "dropdown:media"
 
 [modules.microphone]
