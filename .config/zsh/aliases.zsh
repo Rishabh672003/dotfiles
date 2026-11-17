@@ -9,6 +9,7 @@ alias cdd='zi'
 alias cdp='cd ..'
 alias cdpp='cd ../../'
 alias cf='clear;fastfetch'
+alias cl='claude'
 alias cn='c && n'
 alias cnp='c;n;p'
 alias cny='c;n;y'
@@ -95,7 +96,6 @@ alias sep="pacman -Slq | fzf --multi --preview 'pacman -Si {1}' \
 alias srp="pacman -Qq | fzf --multi --preview 'pacman -Qi {1}' \
     | xargs -ro sudo pacman -Rns"
 
-
 alias mount-drive="rclone mount gdrive: ~/musashi-drive --vfs-cache-mode writes --daemon"
 alias unmount-drive="fusermount -u ~/musashi-drive"
 
@@ -103,6 +103,45 @@ function convert_video() {
     local input_file="$1"
     local output_file="wa-${input_file}"
     ffmpeg -i "$input_file" -c:v libx264 -profile:v baseline -level 3.0 -pix_fmt yuv420p "$output_file"
+}
+
+function ytmusic() {
+    if [[ "$*" == *"list="* ]]; then
+        echo "📁 Playlist detected. Organizing into a folder..."
+        local OUT_TEMPLATE="%(playlist_title)s/%(artist,uploader)s - %(title)s.%(ext)s"
+    else
+        echo "🎵 Single track detected. Saving to current directory..."
+        local OUT_TEMPLATE="%(artist,uploader)s - %(track,title)s.%(ext)s"
+    fi
+
+    # Songs have track/artist/album; plain videos (covers, MVs) fall back to the video title,
+    # the channel name and the playlist (or the title, for a single video) as the album.
+    # Each download's "<id>\t<file>" goes to $downloaded for the lyrics step below.
+    local downloaded=$(mktemp)
+    yt-dlp -x --audio-format m4a --audio-quality 0 \
+      --write-subs --sub-langs "ja.*,en.*" --convert-subs lrc \
+      --print-to-file "after_move:%(id)s"$'\t'"%(filepath)s" "$downloaded" \
+      --embed-thumbnail --embed-metadata --add-metadata \
+      --convert-thumbnails jpg \
+      --ppa "ThumbnailsConvertor+ffmpeg_o:-c:v mjpeg -vf crop=\"'if(gt(ih,iw),iw,ih)':'if(gt(iw,ih),ih,iw)'\"" \
+      --parse-metadata "playlist_index:%(track_number)s" \
+      --parse-metadata "%(track,title)s:%(meta_title)s" \
+      --parse-metadata "%(artist,uploader)s:%(meta_artist)s" \
+      --parse-metadata "%(album,playlist_title,title)s:%(meta_album)s" \
+      --parse-metadata "%(album_artist,artist,uploader)s:%(meta_album_artist)s" \
+      --parse-metadata "%(release_date,upload_date)s:%(meta_date)s" \
+      --replace-in-metadata "meta_artist,meta_album_artist" " - Topic$" "" \
+      --parse-metadata ":(?P<meta_description>)" --parse-metadata ":(?P<meta_synopsis>)" \
+      --extractor-args "youtube:music_metadata=1" \
+      --remote-components ejs:github \
+      -o "$OUT_TEMPLATE" \
+      "$@"
+    local result=$?
+
+    # <song>.lrc beside each file: YouTube Music's lyrics, else the uploader's captions.
+    uv run --quiet --with ytmusicapi python3 -I ~/.config/zsh/ytmusic-lyrics.py "$downloaded"
+    rm -f "$downloaded"
+    return $result
 }
 
 function gpgkey() {

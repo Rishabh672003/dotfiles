@@ -47,6 +47,19 @@
             "source": "empty"
          }
       },
+      "@thuggyduck/limit-tracker": {
+         "preferences": {
+            "cacheTtl": "180",
+            "showClaude": true,
+            "showCodex": false,
+            "showCopilot": false,
+            "showCursor": false,
+            "showDeepSeek": false,
+            "showGemini": false,
+            "showOpencodeGo": false,
+            "showZai": false
+         }
+      },
       "applications": {
          "preferences": {
             "paths": [

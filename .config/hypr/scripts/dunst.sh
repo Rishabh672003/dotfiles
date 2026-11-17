@@ -3,7 +3,7 @@
 # Function to send a notification
 function send_notification {
 	local message=$1
-	dunstify "Dunst Status" "$message"
+	notify-send "Dunst Status" "$message"
 }
 
 # Get the current paused state of Dunst

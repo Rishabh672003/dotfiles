@@ -5,7 +5,7 @@
 
 # Don't stack a second locker if one is already up.
 if ! pidof hyprlock >/dev/null 2>&1; then
-    "$HOME/.config/hypr/scripts/lock.sh" &
+    hyprlock &
 fi
 
 # Give hyprlock a moment to grab the session lock before we actually sleep.

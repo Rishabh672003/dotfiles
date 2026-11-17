@@ -21,7 +21,7 @@ elif [ "$kind" = vnd.openxmlformats-officedocument.spreadsheetml.sheet ] ||
     [ "$kind" = vnd.openxmlformats-officedocument.wordprocessingml.document ] ||
     [ "$kind" = vnd.openxmlformats-officedocument.presentationml.presentation ] ||
     [ "$kind" = vnd.ms-excel ]; then
-    bcat "$1" --paging never -t catppuccin
+    mcat "$1" --paging never -t catppuccin
 elif [ "$kind" = json ]; then
     if has_cmd jq; then
         jq -Cr . "$1"
@@ -36,6 +36,14 @@ elif [ "$category" = image ]; then
     fi
     if has_cmd exiftool; then
         exiftool "$1" | bat --color=always -plyaml
+    fi
+elif [ "$category" = video ]; then
+    if has_cmd exiftool; then
+        exiftool "$1" | bat --color=always -plyaml
+    fi
+elif case "$kind" in zip | x-rar | vnd.rar | x-7z-compressed | x-tar | gzip | x-bzip2 | x-xz | zstd | x-lz4) true ;; *) false ;; esac then
+    if has_cmd ouch; then
+        ouch list -t -n "$1"
     fi
 elif file -bL --mime-encoding "$1" | grep -q binary; then
     echo "Binary file not for preview"

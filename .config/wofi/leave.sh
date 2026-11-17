@@ -2,7 +2,7 @@
 
 choice=$(printf "Lock\nLogout\nSuspend\nReboot\nShutdown" | wofi -dmenu)
 if [[ $choice == "Lock" ]];then
-    bash ~/.config/hypr/scripts/lock.sh
+    hyprlock
     elif [[ $choice == "Logout" ]];then
     pkill -KILL -u "$USER"
     elif [[ $choice == "Suspend" ]];then

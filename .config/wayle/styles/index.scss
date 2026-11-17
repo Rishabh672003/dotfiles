@@ -11,3 +11,14 @@ label {
   min-width: 2.5em;
   font-feature-settings: "tnum" 1;
 }
+
+// Semi-transparent OSD background; icon and text stay fully opaque.
+.osd {
+  background: color-mix(in srgb, var(--bg-elevated) 80%, transparent);
+}
+
+// KDE Connect module: label is empty unless battery < 30%, so drop its gap.
+.custom.kcd-ok .bar-button-label,
+.custom.kcd-none .bar-button-label {
+  margin: 0;
+}

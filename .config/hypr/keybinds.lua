@@ -13,22 +13,24 @@ hl.bind("SUPER + SHIFT + comma", hl.dsp.focus({ workspace = "+1" }))
 -- -----------------------------------------------------------
 hl.bind("SUPER + Space", hl.dsp.exec_cmd("vicinae toggle"))
 hl.bind("SUPER + V", hl.dsp.exec_cmd("vicinae vicinae://launch/clipboard/history"))
-hl.bind("SUPER + SHIFT + W", hl.dsp.exec_cmd("~/.config/hypr/scripts/waybar.sh"))
-hl.bind("SUPER + M", hl.dsp.exec_cmd("vicinae vicinae://launch/@Rishabh/media-player-control/index"))
 hl.bind("SUPER + N", hl.dsp.exec_cmd("vicinae vicinae://launch/@theinfinityglitch/networks/networks"))
-hl.bind("SUPER + SHIFT + E", hl.dsp.exec_cmd("vicinae vicinae://launch/core/search-emojis"))
 hl.bind("SUPER + I", hl.dsp.exec_cmd("vicinae vicinae://launch/@Rishabh/kaomoji/index"))
+hl.bind("SUPER + O", hl.dsp.exec_cmd("vicinae vicinae://launch/@dagimg-dot/kcd-connect"))
+hl.bind("SUPER + M", hl.dsp.exec_cmd("vicinae vicinae://launch/media/"))
+hl.bind("SUPER + SHIFT + E", hl.dsp.exec_cmd("vicinae vicinae://launch/core/search-emojis"))
+
+hl.bind("SUPER + SHIFT + W", hl.dsp.exec_cmd("~/.config/hypr/scripts/wayle-restart.sh"))
 hl.bind("SUPER + P", hl.dsp.exec_cmd("~/.config/hypr/scripts/hyprpicker.sh"))
 hl.bind("SUPER + SHIFT + B", hl.dsp.exec_cmd("~/.config/hypr/scripts/books-search.sh"))
-hl.bind("SUPER + SHIFT + L", hl.dsp.exec_cmd("~/.config/hypr/scripts/lock.sh"))
+hl.bind("SUPER + SHIFT + L", hl.dsp.exec_cmd("hyprlock"))
 hl.bind("SUPER + R", hl.dsp.exec_cmd("~/.config/hypr/scripts/wf-recorder.sh"))
 
 -- -----------------------------------------------------------
 -- 3. Media keys
 -- -----------------------------------------------------------
 hl.bind("XF86Display", hl.dsp.focus({ workspace = "e+1" }))
-hl.bind("XF86WLAN", hl.dsp.exec_cmd("pkexec systemctl restart NetworkManager && dunstify 'NetworkManager restarted'"))
-hl.bind("XF86NotificationCenter", hl.dsp.exec_cmd("wayle notify dnd"))
+hl.bind("XF86WLAN", hl.dsp.exec_cmd("pkexec systemctl restart NetworkManager && notify-send 'NetworkManager restarted'"))
+hl.bind("XF86NotificationCenter", hl.dsp.exec_cmd("~/.config/hypr/scripts/dnd-toggle.sh"))
 hl.bind("XF86PickupPhone", hl.dsp.exec_cmd("playerctl previous"))
 hl.bind("XF86HangupPhone", hl.dsp.exec_cmd("playerctl next"))
 hl.bind("XF86Favorites", hl.dsp.exec_cmd("playerctl -a play-pause"))
@@ -48,48 +50,38 @@ hl.bind("XF86MonBrightnessDown", hl.dsp.exec_cmd("brightnessctl -q set 5%-"))
 -- -----------------------------------------------------------
 hl.bind("SUPER + Q", hl.dsp.window.close({ window = "activewindow" }))
 hl.bind("SUPER + F", hl.dsp.window.fullscreen({ action = "toggle" }))
-hl.bind("SUPER + SHIFT + F", hl.dsp.window.fullscreen({ action = "toggle" }))
 
 hl.bind("SUPER + RETURN", hl.dsp.exec_cmd("foot"))
 hl.bind("SUPER + D", hl.dsp.exec_cmd("discord"))
 hl.bind("SUPER + G", hl.dsp.exec_cmd("evince"))
 hl.bind("SUPER + SHIFT + G", hl.dsp.exec_cmd("foliate"))
 hl.bind("SUPER + C", hl.dsp.exec_cmd("qalculate-gtk"))
-hl.bind("SUPER + SHIFT + Q", hl.dsp.exit())
 
 hl.bind("SUPER + Escape", hl.dsp.exec_cmd("pkill wlogout || wlogout"))
-hl.bind("SUPER + SHIFT + A", hl.dsp.exec_cmd("vicinae vicinae://launch/@theinfinityglitch/networks/networks"))
 hl.bind("SUPER + E", hl.dsp.exec_cmd("nemo"))
-hl.bind("SUPER + S", hl.dsp.exec_cmd("AppimageLauncher ~/Applications/YouTube-Music-3.7.5.AppImage"))
 hl.bind("SUPER + SHIFT + S", hl.dsp.exec_cmd("vellum toggle"))
 hl.bind("SUPER + W", hl.dsp.exec_cmd("firefox"))
 hl.bind("SUPER + SHIFT + V", hl.dsp.window.float({ action = "toggle" }))
 hl.bind("SUPER + SHIFT + P", hl.dsp.exec_cmd("firefox --private-window"))
 hl.bind("SUPER + SHIFT + M", hl.dsp.exec_cmd("pavucontrol"))
 
--- Toggle float + pin together
-hl.bind("SUPER + O", function()
-    hl.dispatch(hl.dsp.window.float({ action = "toggle" }))
-    hl.dispatch(hl.dsp.window.pin())
-end)
-
 -- -----------------------------------------------------------
 -- 6. System
 -- -----------------------------------------------------------
 hl.bind("SUPER + SHIFT + J", hl.dsp.exec_cmd("reboot"))
 hl.bind("SUPER + SHIFT + K", hl.dsp.exec_cmd("shutdown now"))
+hl.bind("SUPER + SHIFT + Q", hl.dsp.exit())
 
 -- -----------------------------------------------------------
 -- 7. Screenshots
 -- -----------------------------------------------------------
-hl.bind("Print", function()
-    hl.exec_cmd([[hyprctl eval 'hl.animation({ leaf = "fadeOut", enabled = false })']])
-    hl.exec_cmd("grimblast --notify copysave area")
-    hl.exec_cmd([[hyprctl eval 'hl.animation({ leaf = "fadeOut", enabled = true, speed = 4, curve = "default" })']])
-end)
-hl.bind("ALT + Print", hl.dsp.exec_cmd("grimblast --notify --cursor copysave screen"))
-hl.bind("SHIFT + Print", hl.dsp.exec_cmd("grim -g \"$(slurp)\" - | swappy -f -"))
-hl.bind("CTRL + Print", hl.dsp.exec_cmd("grim -g \"$(slurp)\" - | tesseract --oem 1 -l eng - - | wl-copy"))
+local grim_area = "SLURP_ARGS='-b 00000000 -s 00000000 -c 181825FF -w 3' ~/.config/hypr/scripts/grimblast-area.sh --notify"
+hl.bind("Print", hl.dsp.exec_cmd(grim_area .. " copysave area"))
+hl.bind("ALT + Print", hl.dsp.exec_cmd("~/.local/bin/grimblast --notify --cursor copysave screen"))
+hl.bind("SUPER + Print", hl.dsp.exec_cmd("notify-send -t 3000 'Select area, captured 5s after'; " .. grim_area .. " --wait 5 copysave area"))
+local grim_slurp = [[grim -g "$(slurp)" - | ]]
+hl.bind("SHIFT + Print", hl.dsp.exec_cmd(grim_slurp .. "swappy -f -"))
+hl.bind("CTRL + Print", hl.dsp.exec_cmd(grim_slurp .. "tesseract --oem 1 -l eng - - | wl-copy"))
 
 -- -----------------------------------------------------------
 -- 8. Scratchpad (special workspace)
@@ -139,12 +131,4 @@ hl.bind("SUPER + mouse_up", hl.dsp.focus({ workspace = "e+1" }))
 hl.bind("SUPER + B", hl.dsp.group.toggle())
 hl.bind("SUPER + TAB", hl.dsp.group.next())
 
--- -----------------------------------------------------------
--- 14. Layout switching
--- -----------------------------------------------------------
-hl.bind("SUPER + N", function()
-    hl.config({ general = { layout = "master" } })
-end)
-hl.bind("SUPER + SHIFT + N", function()
-    hl.config({ general = { layout = "dwindle" } })
-end)
+hl.bind("SUPER + T", hl.dsp.exec_cmd("stash"))

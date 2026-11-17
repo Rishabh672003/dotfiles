@@ -5,8 +5,7 @@
 hl.on("hyprland.start", function()
     hl.exec_cmd("hypridle")
     hl.exec_cmd("dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP HYPRLAND_INSTANCE_SIGNATURE QT_QPA_PLATFORMTHEME")
-    hl.exec_cmd("systemctl --user import-environment WAYLAND_DISPLAY XDG_CURRENT_DESKTOP")
-    hl.exec_cmd("~/.config/hypr/scripts/launch.sh")
+    hl.exec_cmd("systemctl --user import-environment WAYLAND_DISPLAY XDG_CURRENT_DESKTOP DISPLAY && systemctl --user start kcd")
     hl.exec_cmd("vellum")
 
     -- wallpaper
@@ -15,13 +14,11 @@ hl.on("hyprland.start", function()
     -- hl.exec_cmd("wpaperd -d")
 
     hl.exec_cmd("/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1")
-    hl.exec_cmd("/usr/lib/kdeconnectd")
     hl.exec_cmd("~/.config/hypr/scripts/max-volume-100.sh")
     hl.exec_cmd("~/.config/hypr/scripts/vicinae.sh")
-    hl.exec_cmd("wayle panel start")
-    hl.exec_cmd("kdeconnect-indicator")
-    hl.exec_cmd("wlsunset -S 7:00 -s 21:00")
-    hl.exec_cmd("wl-paste -t text --watch clipman store -P --histpath='~/.local/share/clipman-primary.json'")
-    hl.exec_cmd("ssh-agent -s")
     hl.exec_cmd("sleep 10 && qbittorrent")
+
+    hl.exec_cmd("pgrep -x wlsunset || wlsunset -l 19.465622 -L 72.806099 -t 3400")
+    hl.exec_cmd("wayle panel start")
+    hl.exec_cmd("kcd-indicator")
 end)

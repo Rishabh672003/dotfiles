@@ -4,7 +4,10 @@ padding = 0.0
 border-location = "bottom"
 border-color = "border-subtle"
 button-variant = "basic"
+button-icon-size = 0.8999999761581421
 button-gap = 0.6000000238418579
+button-group-module-gap = 0.0
+dropdown-autohide = true
 
 [[bar.layout]]
 monitor = "*"
@@ -28,7 +31,6 @@ right = [
     { name = "group", modules = [
     "custom-wlsunset",
     "notifications",
-    "power",
 ] },
 ]
 
@@ -69,8 +71,12 @@ label-color = "#f5c2e7"
 label-max-length = 60
 left-click = "/home/rishabh/.config/hypr/scripts/btop-toggle.sh"
 
+[modules.dashboard]
+dropdown-logout-command = 'hyprctl dispatch "hl.dsp.exit()"'
+
 [modules.hyprland-workspaces]
 min-workspace-count = 4
+monitor-specific = false
 show-special = false
 display-mode = "icon"
 divider = "  "
@@ -81,9 +87,9 @@ label-size = 1.2000000476837158
 [modules.media]
 players-ignored = ["*playerctld*"]
 format = "{{status_icon}} {{ artist }} - {{ title }}"
-label-max-length = 38
 left-click = "wayle media play-pause"
 right-click = "dropdown:media"
+middle-click = "wayle media next"
 
 [modules.microphone]
 icon-color = "#f38ba8"
@@ -109,6 +115,7 @@ left-click = "/home/rishabh/.config/hypr/scripts/btop-toggle.sh"
 [modules.systray]
 icon-scale = 1.100000023841858
 item-gap = 0.75
+blacklist = []
 
 [modules.volume]
 icon-color = "#89b4fa"
@@ -118,6 +125,38 @@ scroll-down = "pactl set-sink-volume @DEFAULT_SINK@ -1%"
 
 [modules.weather]
 location = "Virar"
+
+[[modules.custom]]
+id = "wlsunset"
+command = """pgrep -x wlsunset >/dev/null && echo '{"alt":"on"}' || echo '{"alt":"off"}'"""
+mode = "poll"
+interval-ms = 5000
+restart-policy = "never"
+restart-interval-ms = 1000
+format = "{{ output }}"
+tooltip-format = "Night light: {{ alt }}"
+hide-if-empty = false
+icon-name = "ld-sun-symbolic"
+icon-show = true
+icon-color = "auto"
+icon-bg-color = "auto"
+label-show = false
+label-color = "auto"
+label-max-length = 0
+button-bg-color = "bg-surface-elevated"
+border-show = false
+border-color = "auto"
+left-click = "pgrep -x wlsunset >/dev/null && pkill -x wlsunset || setsid -f wlsunset -l 19.465622 -L 72.806099 -t 3400 >/dev/null 2>&1"
+right-click = ""
+middle-click = ""
+scroll-up = ""
+scroll-down = ""
+on-action = """sleep 0.3; pgrep -x wlsunset >/dev/null && echo '{"alt":"on"}' || echo '{"alt":"off"}'"""
+
+[modules.custom.icon-map]
+default = "ld-sun-symbolic"
+off = "ld-sun-symbolic"
+on = "ld-moon-symbolic"
 
 [osd]
 margin = 50.0
